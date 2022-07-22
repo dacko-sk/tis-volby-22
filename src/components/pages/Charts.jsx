@@ -1,3 +1,4 @@
+import React from 'react';
 import useGoogleSheets from 'use-google-sheets';
 import InOutChart from './../charts/InOutChart';
 
@@ -65,7 +66,7 @@ function Charts() {
 
   return (
     <section>
-      <header className="App-header">
+      <header>
         <h1>
           Komunálne voľby 2022
         </h1>
