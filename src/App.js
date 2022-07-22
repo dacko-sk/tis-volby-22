@@ -1,24 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import Charts from './components/pages/Charts';
 
 function App() {
   return (
-    <div className="App">
+    <main>
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>
+          Komunálne voľby 2022
+        </h1>
       </header>
-    </div>
+
+      <Charts />
+
+    </main>
   );
 }
 

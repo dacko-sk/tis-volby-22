@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+main {
+  margin: 0 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.chart {
+  width: 100%;
+  aspect-ratio: 2/1;
+  margin: 0 auto;
+}
+
