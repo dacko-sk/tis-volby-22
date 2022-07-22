@@ -65,9 +65,14 @@ function Charts() {
 
   return (
     <section>
-        <InOutChart title="Transparentné učty politických strán" data={parties} bars={bars} vertical />
-        <InOutChart title="Transparentné učty kandidátov" data={people} bars={bars} vertical />
-        <InOutChart title="Príjmy a výdavky podľa krajov" data={Object.values(regions)} bars={bars} />
+      <header className="App-header">
+        <h1>
+          Komunálne voľby 2022
+        </h1>
+      </header>
+      <InOutChart title="Transparentné učty politických strán" data={parties} bars={bars} vertical />
+      <InOutChart title="Transparentné učty kandidátov" data={people} bars={bars} vertical />
+      <InOutChart title="Príjmy a výdavky podľa krajov" data={Object.values(regions)} bars={bars} />
     </section>
   );
 }
