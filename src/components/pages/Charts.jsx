@@ -1,68 +1,62 @@
-import React from 'react';
-import useGoogleSheets from 'use-google-sheets';
+import React, { useEffect, useState } from 'react';
+import { usePapaParse } from 'react-papaparse';
+import { bars } from '../../api/constants';
+
 import InOutChart from './../charts/InOutChart';
 
 function Charts() {
-  // TODO: move to ENV variables
-  const SHEETS_API_KEY = "AIzaSyBA8VlrnV9eeAAJOwV_8bELrrj_7jDijSk";
-  const SHEET_ID = "1fxMXJzm3iPUwaNOMevJ5Xh57uWSivD7Lc8RoLFdGZ7c";
-  const { data, loading, error } = useGoogleSheets({
-    apiKey: SHEETS_API_KEY,
-    sheetId: SHEET_ID,
-  });
 
-  if (loading) {
-    return <div>Loading...</div>;
-  }
+  const [csvData, setCsvData] = useState({});
+  const { readRemoteFile } = usePapaParse();
 
-  if (error) {
-    return <div>Error!</div>;
-  }
+  useEffect(() => {
+    readRemoteFile('https://raw.githubusercontent.com/matusv/transparent-account-data-slovak-elections-2022/main/aggregation.csv', {
+      worker: true,
+      header: true,
+      dynamicTyping: true,
+      complete: (results) => {
+        setCsvData(results);
+      },
+    });
+  }, []);
 
-  console.log(data);
+  console.log(csvData);
   // parse data
   let people = [];
   let parties = [];
   let regions = {};
-  for (const row of data[0].data) {
-    if (row.label === "PS") {
-        parties.push({
-            name: row.name,
-            incoming: parseFloat(row.incoming),
-            outgoing: -1 * parseFloat(row.outgoing),
-        });
-    } else {
-        people.push({
-            name: row.name + " (" + row.label + ")",
-            incoming: parseFloat(row.incoming),
-            outgoing: -1 * parseFloat(row.outgoing),
-        });
-
-        if (regions.hasOwnProperty(row.label)) {
-            regions[row.label].incoming += parseFloat(row.incoming);
-            regions[row.label].outgoing += -1 * parseFloat(row.outgoing);
-        } else {
-            regions[row.label] = {
-                name: row.label,
-                incoming: parseFloat(row.incoming),
-                outgoing: -1 * parseFloat(row.outgoing),
-            }
+  if (csvData.hasOwnProperty('data')) {
+    for (const row of csvData.data) {
+      if (row.hasOwnProperty('label')) {
+        if (row.label === "PS") {
+          parties.push({
+              name: row.name,
+              incoming: row.sum_incoming,
+              outgoing: -1 * row.sum_outgoing,
+          });
+      } else {
+          people.push({
+              name: row.name + " (" + row.label + ")",
+              incoming: row.sum_incoming,
+              outgoing: -1 * row.sum_outgoing,
+          });
+  
+          if (regions.hasOwnProperty(row.label)) {
+              regions[row.label].incoming += row.sum_incoming;
+              regions[row.label].outgoing += -1 * row.sum_outgoing;
+          } else {
+              regions[row.label] = {
+                  name: row.label,
+                  incoming: row.sum_incoming,
+                  outgoing: -1 * row.sum_outgoing,
+              }
+          }
         }
-    }
+      }
+    }  
+  } else {
+    return <div>Loading...</div>;
   }
-
-  const bars = [
-    {
-        key: "incoming",
-        name: "Príjmy",
-        color: "#008101"
-    }, 
-    {
-      key: "outgoing",
-      name: "Výdavky",
-      color: "#f80300"
-    }
-  ];
 
   return (
     <section>

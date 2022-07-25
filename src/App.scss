@@ -1,19 +1,27 @@
 /* bootstrap customizations */
-$theme-colors: (
-    "info": tomato,
-    "danger": teal
-);
+$tis-light-blue: rgb(43, 172, 226);
+$tis-dark-blue: rgb(27, 51, 95);
+$tis-orange: rgb(240, 108, 80);
+$tis-grey: rgb(233,242,249);
+$primary: $tis-light-blue;
+$secondary: $tis-orange;
 
 /* import bootstrap to set changes */
 @import "~bootstrap/scss/bootstrap";
 
+/* font */
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,700&subset=latin,latin-ext);
+$font-family: 'Ubuntu';
 body {
+  font-family: $font-family, sans-serif;
+  font-size: 13px;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+input, textarea, keygen, select, option, button {
+  font-family: $font-family, sans-serif;
 }
 
 code {

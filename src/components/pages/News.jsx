@@ -8,7 +8,7 @@ function News() {
           Aktuality
         </h1>
       </header>
-      news news news
+      ...
     </section>
   );
 }

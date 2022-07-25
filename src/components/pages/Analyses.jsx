@@ -8,7 +8,7 @@ function Analyses() {
           Hodnotenie transparentnosti kandidátov
         </h1>
       </header>
-      Analyses Analyses Analyses
+      ...
     </section>
   );
 }
