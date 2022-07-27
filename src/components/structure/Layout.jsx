@@ -4,12 +4,12 @@ import Header from './Header';
 
 function Layout(props) {
   return (
-    <layout className="default">
+    <div className="layout-default">
       <Header />
       <main className="container">
         <Outlet />
       </main>
-    </layout>
+    </div>
   );
 }
 
