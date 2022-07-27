@@ -4,10 +4,12 @@ import Header from './Header';
 
 function Layout(props) {
   return (
-    <main className="container-fluid gx-3">
+    <layout className="default">
       <Header />
-      <Outlet />
-    </main>
+      <main className="container">
+        <Outlet />
+      </main>
+    </layout>
   );
 }
 

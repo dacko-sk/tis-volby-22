@@ -62,7 +62,7 @@ function Charts() {
     <section>
       <header>
         <h1>
-          Komunálne voľby 2022
+          Grafy
         </h1>
       </header>
       <InOutChart title="Transparentné učty politických strán" data={parties} bars={bars} vertical />
