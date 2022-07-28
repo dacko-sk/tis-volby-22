@@ -1,24 +1,11 @@
-import React, { useEffect, useState } from 'react';
-import { usePapaParse } from 'react-papaparse';
 import { bars } from '../../api/constants';
+import useData from '../context/DataContext';
 
 import InOutChart from './../charts/InOutChart';
 
 function Charts() {
 
-  const [csvData, setCsvData] = useState({});
-  const { readRemoteFile } = usePapaParse();
-
-  useEffect(() => {
-    readRemoteFile('https://raw.githubusercontent.com/matusv/transparent-account-data-slovak-elections-2022/main/aggregation.csv', {
-      worker: true,
-      header: true,
-      dynamicTyping: true,
-      complete: (results) => {
-        setCsvData(results);
-      },
-    });
-  }, []);
+  const { csvData } = useData();
 
   console.log(csvData);
   // parse data

@@ -1,4 +1,3 @@
-import React from 'react';
 import useGoogleSheets from 'use-google-sheets';
 import InOutChart from './../charts/InOutChart';
 import { bars } from '../../api/constants';
