@@ -8,10 +8,12 @@ import {
     Tooltip,
     Legend
    } from 'recharts';
-import { numFormatSk, shortChartNames } from '../../api/helpers';
+import { numFormat, wholeNumFormat, currencyFormat, wholeCurrencyFormat, shortChartNames } from '../../api/helpers';
  
 function InOutChart(props) {
     const vertical = props.hasOwnProperty("vertical");
+    const axisNumFormat = props.hasOwnProperty("currency") ? wholeCurrencyFormat : wholeNumFormat;
+    const tooltipNumFormat = props.hasOwnProperty("currency") ? currencyFormat : numFormat;
     let bars = [];
     if (props.hasOwnProperty("bars")) {
         for (const bar of props.bars) {
@@ -35,9 +37,9 @@ function InOutChart(props) {
                         }}
                     >
                         <CartesianGrid strokeDasharray="3" horizontal={!vertical} vertical={vertical} />
-                        <XAxis type={vertical ? "number" : "category"} dataKey={vertical ? null : "name"} tickFormatter={vertical ? numFormatSk : shortChartNames} />
-                        <YAxis type={vertical ? "category" : "number"} dataKey={vertical ? "name" : null} tickFormatter={vertical ? shortChartNames : numFormatSk} width={vertical ? 160 : 60} />
-                        <Tooltip formatter={numFormatSk} />
+                        <XAxis type={vertical ? "number" : "category"} dataKey={vertical ? null : "name"} tickFormatter={vertical ? axisNumFormat : shortChartNames} />
+                        <YAxis type={vertical ? "category" : "number"} dataKey={vertical ? "name" : null} tickFormatter={vertical ? shortChartNames : axisNumFormat} width={vertical ? 160 : 60} />
+                        <Tooltip formatter={ tooltipNumFormat } />
                         <Legend />
                         { bars }
                     </BarChart>

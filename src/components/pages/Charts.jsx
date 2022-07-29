@@ -19,23 +19,23 @@ function Charts() {
           parties.push({
               name: row.name,
               incoming: row.sum_incoming,
-              outgoing: -1 * row.sum_outgoing,
+              outgoing: Math.abs(row.sum_outgoing),
           });
       } else {
           people.push({
               name: row.name + " (" + row.label + ")",
               incoming: row.sum_incoming,
-              outgoing: -1 * row.sum_outgoing,
+              outgoing: Math.abs(row.sum_outgoing),
           });
   
           if (regions.hasOwnProperty(row.label)) {
               regions[row.label].incoming += row.sum_incoming;
-              regions[row.label].outgoing += -1 * row.sum_outgoing;
+              regions[row.label].outgoing += Math.abs(row.sum_outgoing);
           } else {
               regions[row.label] = {
                   name: row.label,
                   incoming: row.sum_incoming,
-                  outgoing: -1 * row.sum_outgoing,
+                  outgoing: Math.abs(row.sum_outgoing),
               }
           }
         }
@@ -52,8 +52,8 @@ function Charts() {
           Grafy
         </h1>
       </header>
-      <InOutChart title="Transparentné učty politických strán" data={parties} bars={bars} vertical />
-      <InOutChart title="Transparentné učty kandidátov" data={people} bars={bars} vertical />
+      <InOutChart title="Transparentné učty politických strán" data={parties} bars={bars} currency vertical />
+      <InOutChart title="Transparentné učty kandidátov" data={people} bars={bars} currency vertical />
       <InOutChart title="Príjmy a výdavky podľa krajov" data={Object.values(regions)} bars={bars} />
     </section>
   );

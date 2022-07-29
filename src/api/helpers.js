@@ -1,6 +1,23 @@
 import parse, { attributesToProps, domToReact } from 'html-react-parser';
 
-export const numFormatSk = (value) => new Intl.NumberFormat('sk').format(value);
+export const numFormat = (value) => slovakFormat(value, {});
+
+export const wholeNumFormat = (value) => slovakFormat(value, {
+    maximumFractionDigits: 0
+});
+
+export const currencyFormat = (value) => slovakFormat(value, {
+    style: 'currency', 
+    currency: 'EUR', 
+});
+
+export const wholeCurrencyFormat = (value) => slovakFormat(value, {
+    style: 'currency', 
+    currency: 'EUR', 
+    maximumFractionDigits: 0
+});
+
+export const slovakFormat = (value, options) => new Intl.NumberFormat('sk-SK', options).format(value);
 
 export const shortChartNames = (name) => {
     return shortenValue(name, 30);
@@ -12,7 +29,6 @@ export const shortenValue = (value, length) => {
     }
     return value;
 };
-
 
 export const parseWpHtml = (html) => parse(html, {
     replace: domNode => {
