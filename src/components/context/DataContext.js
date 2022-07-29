@@ -1,4 +1,4 @@
-import { useState, createContext, useContext } from "react";
+import { createContext, useContext, useMemo, useState } from "react";
 import { usePapaParse } from 'react-papaparse';
 
 const initialState = {
@@ -11,8 +11,13 @@ const DataContext = createContext(initialState);
 export const DataProvider = ({ children }) => {
     const [csvData, setCsvData] = useState(initialState.csvData);
 
+    const value = useMemo(
+        () => ({ csvData, setCsvData }), 
+        [csvData]
+      );
+    
     return (
-        <DataContext.Provider value={{ csvData, setCsvData }}>
+        <DataContext.Provider value={value}>
             {children}
         </DataContext.Provider>
     );

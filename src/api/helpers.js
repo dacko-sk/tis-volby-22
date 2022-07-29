@@ -1,5 +1,19 @@
 import parse, { attributesToProps, domToReact } from 'html-react-parser';
 
+export const numFormatSk = (value) => new Intl.NumberFormat('sk').format(value);
+
+export const shortChartNames = (name) => {
+    return shortenValue(name, 30);
+};
+
+export const shortenValue = (value, length) => {
+    if (typeof value === "string" && value.length > length) {
+        return value.substring(0, length) + "…";
+    }
+    return value;
+};
+
+
 export const parseWpHtml = (html) => parse(html, {
     replace: domNode => {
         if (domNode.name === 'img' && domNode.attribs && domNode.attribs.src) {

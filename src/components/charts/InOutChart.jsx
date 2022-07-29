@@ -8,6 +8,7 @@ import {
     Tooltip,
     Legend
    } from 'recharts';
+import { numFormatSk, shortChartNames } from '../../api/helpers';
  
 function InOutChart(props) {
     const vertical = props.hasOwnProperty("vertical");
@@ -17,13 +18,6 @@ function InOutChart(props) {
             bars.push(<Bar key={bar.key} dataKey={bar.key} fill={bar.color} name={bar.name} />);
         }
     }
-    
-    const tickFormatter = (name) => {
-        if (typeof name === "string" && name.length > 30) {
-            return name.substring(0, 30) + "…";
-        }
-        return name;
-    };
     
     return (
         <div>
@@ -41,9 +35,9 @@ function InOutChart(props) {
                         }}
                     >
                         <CartesianGrid strokeDasharray="3" horizontal={!vertical} vertical={vertical} />
-                        <XAxis type={vertical ? "number" : "category"} dataKey={vertical ? null : "name"} />
-                        <YAxis type={vertical ? "category" : "number"} dataKey={vertical ? "name" : null} width={vertical ? 160 : 60} tickFormatter={vertical ? tickFormatter : null} />
-                        <Tooltip />
+                        <XAxis type={vertical ? "number" : "category"} dataKey={vertical ? null : "name"} tickFormatter={vertical ? numFormatSk : shortChartNames} />
+                        <YAxis type={vertical ? "category" : "number"} dataKey={vertical ? "name" : null} tickFormatter={vertical ? shortChartNames : numFormatSk} width={vertical ? 160 : 60} />
+                        <Tooltip formatter={numFormatSk} />
                         <Legend />
                         { bars }
                     </BarChart>
