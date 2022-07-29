@@ -4,7 +4,6 @@ import { DataProvider } from './components/context/DataContext';
 
 import Layout from './components/structure/Layout';
 import Charts from './components/pages/Charts';
-import GSCharts from './components/pages/GSCharts';
 import News from './components/pages/News';
 import Analyses from './components/pages/Analyses';
 
@@ -20,7 +19,6 @@ function App() {
           <Routes>
             <Route path="/" element={ <Layout /> }>
               <Route index element={ <Charts /> } />
-              <Route path="gscharts" element={ <GSCharts /> } />
               <Route path="aktuality" element={ <News /> } />
               <Route path="hodnotenia" element={ <Analyses /> } />
 
