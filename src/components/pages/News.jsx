@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import { useQuery } from '@tanstack/react-query'
-import parse from 'html-react-parser';
+import { useQuery } from '@tanstack/react-query';
 import { Link } from 'react-router-dom';
+import { parseWpHtml } from '../../api/helpers';
 
 function News() {
   const [headers, setHeaders] = useState({
@@ -35,7 +35,7 @@ function News() {
         <Link to={ '/aktuality/' + article.slug }>
           { article.title.rendered }
         </Link>
-        { parse(article.content.rendered) }
+        { parseWpHtml(article.content.rendered) }
       </div>
     );
   }
