@@ -54,7 +54,7 @@ function Charts() {
       </header>
       <InOutChart title="Transparentné učty politických strán" data={parties} bars={bars} currency vertical />
       <InOutChart title="Transparentné učty kandidátov" data={people} bars={bars} currency vertical />
-      <InOutChart title="Príjmy a výdavky podľa krajov" data={Object.values(regions)} bars={bars} />
+      <InOutChart title="Príjmy a výdavky podľa krajov" data={Object.values(regions)} currency bars={bars} />
     </section>
   );
 }
