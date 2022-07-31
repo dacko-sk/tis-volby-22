@@ -35,11 +35,14 @@ function Posts(props) {
   for (const article of data) {
     articles.push(
       <div key={ article.slug } id={ article.slug }>
-        <Media id={article.featured_media} />
         <Link to={ '/' + slug + '/' + article.slug }>
-          { article.title.rendered }
+          {article.featured_media 
+            ? <Media id={article.featured_media} />
+            : <img src={'/' + props.img} alt={article.title.rendered} />
+          }
+          <h2>{ article.title.rendered }</h2>
+          { parseWpHtml(article.excerpt.rendered) }
         </Link>
-        { parseWpHtml(article.excerpt.rendered) }
       </div>
     );
   }

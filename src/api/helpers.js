@@ -39,9 +39,14 @@ export const parseWpHtml = (html) => parse(html, {
                 src: proxyHttpImages(domNode.attribs.src)
             };
             return <img {...props} />;
-        } else if (domNode.name === 'a' && domNode.attribs && domNode.attribs.rel && domNode.attribs.rel.startsWith('lightbox')) {
-            // remove lightbox links
-            return domToReact(domNode.children);
+        } else if (domNode.name === 'a') {
+            if (domNode.attribs && domNode.attribs.rel && domNode.attribs.rel.startsWith('lightbox')) {
+                // remove lightbox links
+                return domToReact(domNode.children);
+            } else if (domNode.children.length && domNode.children[0].type === 'text' && domNode.children[0].data.startsWith('Continue reading')) {
+                // remove "continue reading" links to WP domain
+                return <></>
+            }
         }
     }
 });

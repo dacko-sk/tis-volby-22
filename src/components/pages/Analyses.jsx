@@ -8,7 +8,7 @@ function Analyses() {
           Hodnotenie transparentnosti kandidátov
         </h1>
       </header>
-      <Posts categories={ [859] } slug="hodnotenia" />
+      <Posts categories={ [859] } slug="hodnotenia" img="politician.png" />
     </section>
   );
 }

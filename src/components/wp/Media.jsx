@@ -4,6 +4,7 @@ import { useQuery } from '@tanstack/react-query';
 function Media(props) {
   let src = '/loading.gif';
   let alt = 'media';
+
   const { isLoading, error, data } = useQuery(
     ['media_' + props.id],
     () => fetch('https://cms.transparency.sk/wp-json/wp/v2/media/' + props.id).then(response => {
@@ -17,9 +18,7 @@ function Media(props) {
     alt = data.hasOwnProperty('alt_text') ? data.alt_text : alt;
   }
 
-  return (
-    <img src={src} alt={alt} />
-  );
+  return <img src={src} alt={alt} />;
 }
 
 export default Media;

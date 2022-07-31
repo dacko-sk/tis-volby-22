@@ -8,7 +8,7 @@ function News() {
           Aktuality
         </h1>
       </header>
-      <Posts categories={ [858] } slug="aktuality" />
+      <Posts categories={ [858] } slug="aktuality" img="news.png" />
     </section>
   );
 }
