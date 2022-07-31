@@ -1,3 +1,5 @@
+import Posts from '../wp/Posts';
+
 function Analyses() {
   return (
     <section>
@@ -6,7 +8,7 @@ function Analyses() {
           Hodnotenie transparentnosti kandidátov
         </h1>
       </header>
-      ...
+      <Posts categories={ [859] } slug="hodnotenia" />
     </section>
   );
 }
