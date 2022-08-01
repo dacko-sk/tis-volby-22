@@ -4,7 +4,7 @@ function Analyses() {
   return (
     <section>
       <header>
-        <h1>
+        <h1 className="my-4">
           Hodnotenie transparentnosti kandidátov
         </h1>
       </header>

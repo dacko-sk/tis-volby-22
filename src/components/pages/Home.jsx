@@ -1,9 +1,10 @@
 import { bars } from '../../api/constants';
+import TotalSpending from '../charts/TotalSpending';
 import useData from '../context/DataContext';
 
 import InOutChart from './../charts/InOutChart';
 
-function Charts() {
+function Home() {
 
   const { csvData } = useData();
 
@@ -12,30 +13,33 @@ function Charts() {
   let people = [];
   let parties = [];
   let regions = {};
+  let totalSpending = 0;
   if (csvData.hasOwnProperty('data')) {
     for (const row of csvData.data) {
+      const out = Math.abs(row.sum_outgoing);
+      totalSpending += out;
       if (row.hasOwnProperty('label')) {
         if (row.label === "PS") {
           parties.push({
               name: row.name,
               incoming: row.sum_incoming,
-              outgoing: Math.abs(row.sum_outgoing),
+              outgoing: out,
           });
       } else {
           people.push({
               name: row.name + " (" + row.label + ")",
               incoming: row.sum_incoming,
-              outgoing: Math.abs(row.sum_outgoing),
+              outgoing: out,
           });
   
           if (regions.hasOwnProperty(row.label)) {
               regions[row.label].incoming += row.sum_incoming;
-              regions[row.label].outgoing += Math.abs(row.sum_outgoing);
+              regions[row.label].outgoing += out;
           } else {
               regions[row.label] = {
                   name: row.label,
                   incoming: row.sum_incoming,
-                  outgoing: Math.abs(row.sum_outgoing),
+                  outgoing: out,
               }
           }
         }
@@ -49,13 +53,13 @@ function Charts() {
     <section>
       <header>
         <h1 className="my-4">
-          Grafy
+          Komunálne a župné voľby 2022
         </h1>
       </header>
-      <InOutChart title="Transparentné učty politických strán" data={parties} bars={bars} currency vertical />
-      <InOutChart title="Transparentné učty kandidátov" data={people} bars={bars} currency vertical />
+      <TotalSpending total={totalSpending} />
+      <InOutChart title="Príjmy a výdavky podľa krajov" data={Object.values(regions)} currency bars={bars} />
     </section>
   );
 }
 
-export default Charts;
+export default Home;

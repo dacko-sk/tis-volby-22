@@ -55,6 +55,12 @@ h2, h3, h4 {
   color: $tis-light-blue;
 }
 
+.hero-number {
+  color: $tis-dark-blue;
+  font-weight: 600;
+  font-size: 60px;
+}
+
 .chart {
   width: 100%;
   aspect-ratio: 2/1;

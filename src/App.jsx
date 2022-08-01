@@ -3,6 +3,7 @@ import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { DataProvider } from './components/context/DataContext';
 
 import Layout from './components/structure/Layout';
+import Home from './components/pages/Home';
 import Charts from './components/pages/Charts';
 import News from './components/pages/News';
 import Analyses from './components/pages/Analyses';
@@ -18,7 +19,8 @@ function App() {
         <BrowserRouter>
           <Routes>
             <Route path="/" element={ <Layout /> }>
-              <Route index element={ <Charts /> } />
+              <Route index element={ <Home /> } />
+              <Route path="grafy" element={ <Charts /> } />
               <Route path="aktuality" element={ <News /> } />
               <Route path="hodnotenia" element={ <Analyses /> } />
 

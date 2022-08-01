@@ -13,7 +13,8 @@ function Header() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav defaultActiveKey="/" variant="pills" className="me-auto">
-            <Nav.Link as={NavLink} to="/">Grafy</Nav.Link>
+            <Nav.Link as={NavLink} to="/">Voľby 22</Nav.Link>
+            <Nav.Link as={NavLink} to="/grafy">Grafy</Nav.Link>
             <Nav.Link as={NavLink} to="/aktuality">Aktuality</Nav.Link>
             <Nav.Link as={NavLink} to="/hodnotenia">Hodnotenia</Nav.Link>
           </Nav>

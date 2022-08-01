@@ -4,7 +4,7 @@ function News() {
   return (
     <section>
       <header>
-        <h1>
+        <h1 className="my-4">
           Aktuality
         </h1>
       </header>
