@@ -3,8 +3,19 @@ $tis-light-blue: rgb(43, 172, 226);
 $tis-dark-blue: rgb(27, 51, 95);
 $tis-orange: rgb(240, 108, 80);
 $tis-grey: rgb(233,242,249);
+
 $primary: $tis-light-blue;
 $secondary: $tis-orange;
+$link-color:                              $tis-orange;
+$link-decoration:                         underline !default;
+$link-hover-color:                        $tis-orange;
+$link-hover-decoration:                   none;
+
+$navbar-padding-y: 0;
+
+$btn-border-radius: 0;
+$btn-border-radius-lg: 0;
+$nav-pills-border-radius: 0;
 
 /* import bootstrap to set changes */
 @import "~bootstrap/scss/bootstrap";
@@ -16,6 +27,8 @@ body {
   font-family: $font-family, sans-serif;
   font-size: 13px;
   margin: 0;
+  line-height: 1.42857143;
+  color: #333;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -35,6 +48,11 @@ main {
 
 h1 {
   text-align: center;
+  color: $tis-dark-blue;
+}
+
+h2, h3, h4 {
+  color: $tis-light-blue;
 }
 
 .chart {
@@ -43,3 +61,20 @@ h1 {
   margin: 0 auto;
 }
 
+.navbar-brand img {
+  height: 38px;
+}
+
+.btn-xl {
+  --bs-btn-padding-y: 1rem;
+  --bs-btn-padding-x: 2rem;
+  font-weight: 600;
+}
+
+.btn-secondary {
+  --bs-btn-color: #fff;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-active-color: #fff;
+  --bs-btn-hover-bg: #{$tis-dark-blue};
+  --bs-btn-hover-border-color: #{$tis-dark-blue};
+}

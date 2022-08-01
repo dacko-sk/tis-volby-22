@@ -7,7 +7,9 @@ function Header() {
   return (
     <Navbar bg="light" expand="lg">
       <Container>
-        <Navbar.Brand as={NavLink} to="/">Voľby 22</Navbar.Brand>
+        <Navbar.Brand as={NavLink} to="/">
+          <img src="/tis-logo-blue.png" alt="Voľby 2022" />
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav defaultActiveKey="/" variant="pills" className="me-auto">
@@ -15,6 +17,7 @@ function Header() {
             <Nav.Link as={NavLink} to="/aktuality">Aktuality</Nav.Link>
             <Nav.Link as={NavLink} to="/hodnotenia">Hodnotenia</Nav.Link>
           </Nav>
+          <a role="button" tabIndex="0" href="https://transparency.sk/volby" target="_blank" className="btn btn-secondary btn-xl" rel="noreferrer">PODPORTE</a>
         </Navbar.Collapse>
       </Container>
     </Navbar>

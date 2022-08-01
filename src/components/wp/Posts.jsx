@@ -40,9 +40,11 @@ function Posts(props) {
             ? <Media id={article.featured_media} />
             : <img src={'/' + props.img} alt={article.title.rendered} />
           }
-          <h2>{ article.title.rendered }</h2>
-          { parseWpHtml(article.excerpt.rendered) }
         </Link>
+        
+        <h2><Link to={ '/' + slug + '/' + article.slug }>{ article.title.rendered }</Link></h2>
+        
+        { parseWpHtml(article.excerpt.rendered) }
       </div>
     );
   }
