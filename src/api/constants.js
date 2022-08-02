@@ -8,7 +8,7 @@ export const colors = {
     color_orange,
 }
 
-export const bars = [
+export const chart_columns = [
     {
         key: "incoming",
         name: "Príjmy",
@@ -23,7 +23,7 @@ export const bars = [
 
 export const constants = {
     colors,
-    bars,
+    chart_columns,
 }
 
 export default constants;

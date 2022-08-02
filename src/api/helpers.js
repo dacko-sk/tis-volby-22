@@ -1,4 +1,5 @@
 import parse, { attributesToProps, domToReact } from 'html-react-parser';
+import has from 'has';
 
 export const numFormat = (value) => slovakFormat(value, {});
 
@@ -18,10 +19,6 @@ export const wholeCurrencyFormat = (value) => slovakFormat(value, {
 });
 
 export const slovakFormat = (value, options) => new Intl.NumberFormat('sk-SK', options).format(value);
-
-export const shortChartNames = (name) => {
-    return shortenValue(name, 30);
-};
 
 export const shortenValue = (value, length) => {
     if (typeof value === "string" && value.length > length) {
@@ -55,3 +52,16 @@ const proxyHttpImages = (html) => {
     const regex = /(http:\/\/cms.transparency.sk\/[^",]+.(png|jpe?g|gif|svg))/i;
     return html.replace(regex, 'https://images.weserv.nl/?url=$1');
 }
+
+const replacements = {
+    'Banskobystrický samosprávny kraj': 'BBSK',
+    'Bratislavský samosprávny kraj': 'BSK',
+    'Košický samosprávny kraj': 'KSK',
+    'Nitriansky samosprávny kraj': 'NSK',
+    'Prešovský samosprávny kraj': 'PSK',
+    'Trenčiansky samosprávny kraj': 'TSK',
+    'Trnavský samosprávny kraj': 'TTSK',
+    'Žilinský samosprávny kraj': 'ŽSK',
+};
+
+export const replace = (value) => has(replacements, value) ? replacements[value] : value;

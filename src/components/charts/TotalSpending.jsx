@@ -1,8 +1,19 @@
+import has from 'has';
 import Countdown from 'react-countdown';
 import { currencyFormat } from '../../api/helpers';
+import useData from '../context/DataContext';
  
-function TotalSpending(props) {
-    const total = props.hasOwnProperty('total') ? props.total : 0;
+function TotalSpending() {
+
+    const { csvData } = useData();
+
+    // parse data
+    let total = 0;
+    if (has(csvData, 'data')) {
+        for (const row of csvData.data) {
+            total += Math.abs(row.sum_outgoing);
+        } 
+    }
 
     // Renderer callback with condition
     const renderer = ({ formatted, completed }) => {

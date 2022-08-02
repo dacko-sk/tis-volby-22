@@ -1,4 +1,4 @@
-import { bars } from '../../api/constants';
+import has from 'has';
 import useData from '../context/DataContext';
 
 import InOutChart from './../charts/InOutChart';
@@ -12,9 +12,9 @@ function Charts() {
   let people = [];
   let parties = [];
   let regions = {};
-  if (csvData.hasOwnProperty('data')) {
+  if (has(csvData, 'data')) {
     for (const row of csvData.data) {
-      if (row.hasOwnProperty('label')) {
+      if (has(row, 'label')) {
         if (row.label === "PS") {
           parties.push({
               name: row.name,
@@ -28,7 +28,7 @@ function Charts() {
               outgoing: Math.abs(row.sum_outgoing),
           });
   
-          if (regions.hasOwnProperty(row.label)) {
+          if (has(regions, row.label)) {
               regions[row.label].incoming += row.sum_incoming;
               regions[row.label].outgoing += Math.abs(row.sum_outgoing);
           } else {
@@ -41,8 +41,6 @@ function Charts() {
         }
       }
     }  
-  } else {
-    return <div>Loading...</div>;
   }
 
   return (
@@ -52,8 +50,9 @@ function Charts() {
           Grafy
         </h1>
       </header>
-      <InOutChart title="Transparentné učty politických strán" data={parties} bars={bars} currency vertical />
-      <InOutChart title="Transparentné učty kandidátov" data={people} bars={bars} currency vertical />
+      <InOutChart title="Príjmy a výdavky podľa krajov" data={Object.values(regions)} namesLength={30} currency />
+      <InOutChart title="Transparentné učty politických strán" data={parties} namesLength={30} currency vertical />
+      <InOutChart title="Transparentné učty kandidátov" data={people} namesLength={30} currency vertical />
     </section>
   );
 }
