@@ -1,5 +1,4 @@
 import { createContext, useContext, useMemo, useState } from "react";
-import { usePapaParse } from 'react-papaparse';
 import has from 'has';
 
 export const baseDate = 1659535519;
@@ -19,7 +18,7 @@ export const DataProvider = ({ children }) => {
     const value = useMemo(
         () => ({ csvData, setCsvData }), 
         [csvData]
-      );
+    );
     
     return (
         <DataContext.Provider value={value}>
@@ -34,27 +33,11 @@ const useData = () => {
     if (context === undefined) {
         throw new Error("useData must be used within a DataProvider");
     }
- 
-    // load election data from CSV API and store in context provider
-    const { readRemoteFile } = usePapaParse();
-    if (!has(context.csvData, 'data')) {
-        console.log('requesting CSV data');
-        readRemoteFile('https://raw.githubusercontent.com/matusv/transparent-account-data-slovak-elections-2022/main/aggregation.csv', {
-          worker: true,
-          header: true,
-          dynamicTyping: true,
-          complete: (results) => {
-            const data = processData(results);
-            context.setCsvData(data);
-            console.log('storing CSV data in context');
-          },
-        });
-    }
 
     return context;
 };
 
-const processData = (data) => {
+export const processData = (data) => {
     let lastUpdate = baseDate;
     if (has(data, 'data')) {
         for (const row of data.data) {

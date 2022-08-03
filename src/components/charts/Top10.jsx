@@ -9,7 +9,6 @@ function Top10() {
 
   const { csvData } = useData();
 
-  console.log(csvData);
   // parse data
   let people = [];
   if (has(csvData, 'data')) {

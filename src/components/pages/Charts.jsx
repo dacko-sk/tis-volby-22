@@ -8,7 +8,6 @@ function Charts() {
 
   const { csvData } = useData();
 
-  console.log(csvData);
   // parse data
   let people = [];
   let parties = [];
