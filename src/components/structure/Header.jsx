@@ -8,7 +8,7 @@ function Header() {
     <Navbar bg="light" expand="lg">
       <Container>
         <Navbar.Brand as={NavLink} to="/">
-          <img src="/tis-logo-blue.png" alt="Voľby 2022" />
+          <img src="./../../tis-logo-blue.png" alt="Voľby 2022" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">

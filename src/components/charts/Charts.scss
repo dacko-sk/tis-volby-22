@@ -1,0 +1,19 @@
+@import "./../../scss/variables";
+
+.chart {
+    width: 100%;
+    aspect-ratio: 2/1;
+    margin: 0 auto;
+}
+
+tspan {
+    &.name {
+        font-weight: 600;
+    }
+    &.cat-regional {
+        fill: $tis-orange;
+    }
+    &.cat-local {
+        fill: $tis-light-blue
+    }
+}

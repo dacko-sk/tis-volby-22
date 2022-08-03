@@ -1,5 +1,6 @@
 import parse, { attributesToProps, domToReact } from 'html-react-parser';
 import has from 'has';
+import { labels } from './constants';
 
 export const numFormat = (value) => slovakFormat(value, {});
 
@@ -26,6 +27,15 @@ export const shortenValue = (value, length) => {
     }
     return value;
 };
+
+export const dateFormat = (timestamp) => new Intl.DateTimeFormat('sk-SK', {
+    year: 'numeric', 
+    month: 'long', 
+    day: 'numeric',
+    hour: 'numeric', 
+    minute: 'numeric', 
+    second: 'numeric'
+}).format(new Date(1000 * timestamp));
 
 export const parseWpHtml = (html) => parse(html, {
     replace: domNode => {
@@ -54,6 +64,8 @@ const proxyHttpImages = (html) => {
 }
 
 const replacements = {
+    [labels.elections.local.key]: labels.elections.local.name,
+    [labels.elections.regional.key]: labels.elections.regional.name,
     'Banskobystrický samosprávny kraj': 'BBSK',
     'Bratislavský samosprávny kraj': 'BSK',
     'Košický samosprávny kraj': 'KSK',
@@ -65,3 +77,5 @@ const replacements = {
 };
 
 export const replace = (value) => has(replacements, value) ? replacements[value] : value;
+
+export const sortBySpending = (a,b) => b.outgoing - a.outgoing;

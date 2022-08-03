@@ -1,5 +1,6 @@
 import has from 'has';
-import { replace } from '../../api/helpers';
+import { labels } from '../../api/constants';
+import { replace, sortBySpending } from '../../api/helpers';
 import useData from '../context/DataContext';
 
 import InOutChart from './InOutChart';
@@ -14,16 +15,16 @@ function Top10() {
   if (has(csvData, 'data')) {
     for (const row of csvData.data) {
       if (has(row, 'label')) {
-        if (row.label !== "PS") {
+        if (row.label !== labels.elections.party_key) {
           people.push({
-              name: row.name + "\n" + row['typ volieb'] + "\n" + replace(row['samospráva']),
+              name: row.name + "\n" + replace(row[labels.elections.type_key] ?? labels.elections.local.key) + "\n" + replace(row[labels.elections.municipality_key] ?? '…'),
               incoming: row.sum_incoming,
               outgoing: Math.abs(row.sum_outgoing),
           });
         }
       }
     }
-    people.sort((a,b) => b.outgoing - a.outgoing);
+    people.sort(sortBySpending);
   }
 
   return (

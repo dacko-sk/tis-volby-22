@@ -21,9 +21,26 @@ export const chart_columns = [
     }
 ];
 
+export const labels = {
+    elections: {
+        type_key: 'typ volieb',
+        municipality_key: 'samospráva',
+        party_key: 'PS',
+        local: {
+            key: 'miestne',
+            name: 'miestne voľby'
+        },
+        regional: {
+            key: 'župné',
+            name: 'župné voľby'
+        },
+    }
+}
+
 export const constants = {
     colors,
     chart_columns,
+    labels,
 }
 
 export default constants;

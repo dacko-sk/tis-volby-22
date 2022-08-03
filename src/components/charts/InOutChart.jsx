@@ -14,6 +14,9 @@ import { numFormat, wholeNumFormat, currencyFormat, wholeCurrencyFormat, shorten
 import HorizontalTick from './HorizontalTick';
 import VerticalTick from './VerticalTick';
  
+import './Charts.scss';
+import LastUpdateTag from './LastUpdateTag';
+
 function InOutChart(props) {
     const vertical = has(props, "vertical");
     const axisNumFormat = has(props, "currency") ? wholeCurrencyFormat : wholeNumFormat;
@@ -33,7 +36,8 @@ function InOutChart(props) {
     }
     return (
         <div>
-            {has(props, "currency") && <h2>{props.title}</h2>}
+            {has(props, "title") && <h2>{props.title}</h2>}
+            <LastUpdateTag />
             <div className="chart" style={{"height": (props.data.length * Math.max(2, labelLines) * 20) + "px"}}>
                 <ResponsiveContainer width="100%" height="100%">
                     <BarChart
@@ -50,11 +54,11 @@ function InOutChart(props) {
                         {
                             vertical
                             ? <XAxis type="number" tickFormatter={axisNumFormat} />
-                            : <XAxis type="category" dataKey="name" tickFormatter={shortChartNames} tick={<HorizontalTick />} height={15 + labelLines * 15} />
+                            : <XAxis type="category" dataKey="name" tickFormatter={shortChartNames} tick={labelLines > 1 ? <HorizontalTick /> : {}} height={15 + labelLines * 15} />
                         }
                         {
                             vertical
-                            ? <YAxis type="category" dataKey="name" tickFormatter={shortChartNames} tick={<VerticalTick />} minTickGap={-10} width={160} />
+                            ? <YAxis type="category" dataKey="name" tickFormatter={shortChartNames} tick={labelLines > 1 ? <VerticalTick /> : {}} minTickGap={-10} width={160} />
                             : <YAxis type="number" tickFormatter={axisNumFormat} />
                         }
                         <Tooltip formatter={ tooltipNumFormat } />

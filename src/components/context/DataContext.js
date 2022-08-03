@@ -1,8 +1,13 @@
 import { createContext, useContext, useMemo, useState } from "react";
 import { usePapaParse } from 'react-papaparse';
+import has from 'has';
+
+export const baseDate = 1659535519;
 
 const initialState = {
-    csvData: {},
+    csvData: {
+        lastUpdate: baseDate
+    },
     setCsvData: () => {}
 };
 
@@ -32,14 +37,15 @@ const useData = () => {
  
     // load election data from CSV API and store in context provider
     const { readRemoteFile } = usePapaParse();
-    if (!context.csvData.hasOwnProperty('data')) {
+    if (!has(context.csvData, 'data')) {
         console.log('requesting CSV data');
         readRemoteFile('https://raw.githubusercontent.com/matusv/transparent-account-data-slovak-elections-2022/main/aggregation.csv', {
           worker: true,
           header: true,
           dynamicTyping: true,
           complete: (results) => {
-            context.setCsvData(results);
+            const data = processData(results);
+            context.setCsvData(data);
             console.log('storing CSV data in context');
           },
         });
@@ -47,5 +53,19 @@ const useData = () => {
 
     return context;
 };
+
+const processData = (data) => {
+    let lastUpdate = baseDate;
+    if (has(data, 'data')) {
+        for (const row of data.data) {
+            lastUpdate = Math.max(lastUpdate, row.timestamp ?? 0);
+        }
+        return {
+            ...data,
+            lastUpdate
+        }
+    }
+    return data;
+}
 
 export default useData;

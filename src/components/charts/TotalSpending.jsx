@@ -2,6 +2,7 @@ import has from 'has';
 import Countdown from 'react-countdown';
 import { currencyFormat } from '../../api/helpers';
 import useData from '../context/DataContext';
+import LastUpdateTag from './LastUpdateTag';
  
 function TotalSpending() {
 
@@ -44,7 +45,10 @@ function TotalSpending() {
             </div>
             <div className="col-lg-6">
                 <h4>Celkové výdavky kandidátov</h4>
-                <p className="text-end hero-number">{ currencyFormat(total) }</p>
+                <p className="text-end hero-number">
+                    { currencyFormat(total) }
+                    <LastUpdateTag />
+                </p>
             </div>
         </div>
     );
