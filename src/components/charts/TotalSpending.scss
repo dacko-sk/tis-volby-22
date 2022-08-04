@@ -1,0 +1,53 @@
+@use "sass:map";
+@import "./../../scss/variables";
+
+.hero-number {
+    color: $tis-dark-blue;
+    font-weight: 600;
+    font-size: 60px;
+}
+
+.countdown {
+    padding-bottom: 20px;
+}
+
+[class^="countdown-"] {
+    background-color: $tis-grey;
+    padding: 5px 10px 20px;
+    position: relative;
+    &::after {
+        position: absolute;
+        bottom: 5px;
+        left: 50%;
+        font-size: 13px;
+        font-weight: 300;
+        text-align: center;
+        transform: translateX(-50%);
+    }
+}
+
+.countdown-d {
+    background-color: $tis-orange;
+    color: white;
+    &::after {
+        content: "dní";
+    }
+}
+
+.countdown-h::after {
+    content: "hodín";
+}
+
+.countdown-m::after {
+    content: "minút";
+}
+
+.countdown-s::after {
+    content: "sekúnd";
+}
+
+@media (max-width: map.get($grid-breakpoints, 'sm')) {
+    .hero-number {
+        font-size: 32px;
+    }
+}

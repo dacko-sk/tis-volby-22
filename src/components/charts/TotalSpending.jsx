@@ -3,6 +3,8 @@ import Countdown from 'react-countdown';
 import { currencyFormat } from '../../api/helpers';
 import useData from '../context/DataContext';
 import LastUpdateTag from './LastUpdateTag';
+
+import './TotalSpending.scss'
  
 function TotalSpending() {
 
@@ -24,10 +26,10 @@ function TotalSpending() {
         } else {
             // Render a countdown
             return (
-                <div className="countdown text-end hero-number">
-                    <span className="countdown-d">{formatted.days}</span>:
-                    <span className="countdown-h">{formatted.hours}</span>:
-                    <span className="countdown-m">{formatted.minutes}</span>:
+                <div className="countdown hero-number">
+                    <span className="countdown-d me-3">{formatted.days}</span>
+                    <span className="countdown-h me-3">{formatted.hours}</span>
+                    <span className="countdown-m me-3">{formatted.minutes}</span>
                     <span className="countdown-s">{formatted.seconds}</span>
                 </div>
             );
@@ -35,7 +37,7 @@ function TotalSpending() {
     };
   
     return (
-        <div className="row">
+        <div className="row gy-3 gy-lg-0 text-center">
             <div className="col-lg-6">
                 <h4>Zostávajúci čas do volieb</h4>
                 <Countdown
@@ -45,7 +47,7 @@ function TotalSpending() {
             </div>
             <div className="col-lg-6">
                 <h4>Celkové výdavky kandidátov</h4>
-                <p className="text-end hero-number">
+                <p className="hero-number">
                     { currencyFormat(total) }
                     <LastUpdateTag />
                 </p>
