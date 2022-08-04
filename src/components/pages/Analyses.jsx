@@ -1,3 +1,4 @@
+import { imgPath } from '../../api/helpers';
 import Posts from '../wp/Posts';
 
 function Analyses() {
@@ -8,7 +9,7 @@ function Analyses() {
           Hodnotenie transparentnosti kandidátov
         </h1>
       </header>
-      <Posts categories={ [859] } slug="hodnotenia" img="./../../politician.png" />
+      <Posts categories={ [859] } slug="hodnotenia" img={ imgPath('politician.png') } />
     </section>
   );
 }

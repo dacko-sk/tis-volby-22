@@ -1,3 +1,5 @@
+export const img_root_path = '/';
+
 export const color_light_blue = '#2bace2';
 export const color_dark_blue = '#1b335f';
 export const color_orange = '#f06c50';

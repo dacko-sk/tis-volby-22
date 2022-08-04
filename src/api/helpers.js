@@ -1,6 +1,6 @@
 import parse, { attributesToProps, domToReact } from 'html-react-parser';
 import has from 'has';
-import { labels } from './constants';
+import { img_root_path, labels } from './constants';
 
 export const numFormat = (value) => slovakFormat(value, {});
 
@@ -27,7 +27,6 @@ export const shortenValue = (value, length) => {
     }
     return value;
 };
-
 export const dateFormat = (timestamp) => new Intl.DateTimeFormat('sk-SK', {
     year: 'numeric', 
     month: 'long', 
@@ -79,3 +78,5 @@ const replacements = {
 export const replace = (value) => has(replacements, value) ? replacements[value] : value;
 
 export const sortBySpending = (a,b) => b.outgoing - a.outgoing;
+
+export const imgPath = (filename) => img_root_path + filename;

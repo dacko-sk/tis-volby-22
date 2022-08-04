@@ -1,3 +1,4 @@
+import { imgPath } from '../../api/helpers';
 import Posts from '../wp/Posts';
 
 function News() {
@@ -8,7 +9,7 @@ function News() {
           Aktuality
         </h1>
       </header>
-      <Posts categories={ [858] } slug="aktuality" img="./../../news.png" />
+      <Posts categories={ [858] } slug="aktuality" img={ imgPath('news.png') } />
     </section>
   );
 }

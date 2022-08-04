@@ -1,5 +1,6 @@
 // import { useState } from 'react';
 import { useQuery } from '@tanstack/react-query';
+import { imgPath } from '../../api/helpers';
 
 function Media(props) {
   let src = '/loading.gif';
@@ -14,7 +15,7 @@ function Media(props) {
   );
 
   if (!isLoading && !error) {
-    src = data.hasOwnProperty('source_url') ? data.source_url : '/politician.png';
+    src = data.hasOwnProperty('source_url') ? data.source_url : imgPath('politician.png');
     alt = data.hasOwnProperty('alt_text') ? data.alt_text : alt;
   }
 
