@@ -1,7 +1,21 @@
 import { createContext, useContext, useMemo, useState } from "react";
 import has from 'has';
 
+export const csvFile = 'https://raw.githubusercontent.com/matusv/transparent-account-data-slovak-elections-2022/main/aggregation.csv';
 export const baseDate = 1659535519;
+
+export const buildParserConfig = (storeDataCallback) => {
+    return {
+        worker: true,
+        header: true,
+        dynamicTyping: true,
+        complete: (results) => {
+            const data = processData(results);
+            storeDataCallback(data);
+            console.log('storing CSV data in context');
+        },
+    }
+};
 
 const initialState = {
     csvData: {
