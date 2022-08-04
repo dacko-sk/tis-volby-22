@@ -4,11 +4,12 @@
     width: 100%;
     aspect-ratio: 2/1;
     margin: 0 auto;
+    font-size: 13px;
 }
 
 tspan {
     &.name {
-        font-weight: 600;
+        font-weight: $fw-bold;
     }
     &.cat-regional {
         fill: $tis-orange;

@@ -1,4 +1,4 @@
-import { tickClassName } from "./VerticalTick";
+import { tickClassName, tickFontSize } from "./VerticalTick";
 
 function HorizontalTick(props) {
     const { x, y, payload } = props;
@@ -12,7 +12,7 @@ function HorizontalTick(props) {
         );
     }
     return (
-        <text x={x} y={y} fill="#333" orientation="bottom" textAnchor="middle" type="category">
+        <text x={x} y={y} fill="#333" orientation="bottom" textAnchor="middle" type="category" fontSize={tickFontSize}>
             {rows}
         </text>
     );

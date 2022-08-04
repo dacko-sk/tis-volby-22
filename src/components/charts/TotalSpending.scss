@@ -3,7 +3,7 @@
 
 .hero-number {
     color: $tis-dark-blue;
-    font-weight: 600;
+    font-weight: $fw-bold;
     font-size: 60px;
 }
 
@@ -20,7 +20,7 @@
         bottom: 5px;
         left: 50%;
         font-size: 13px;
-        font-weight: 300;
+        font-weight: $fw-regular;
         text-align: center;
         transform: translateX(-50%);
     }

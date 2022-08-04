@@ -12,11 +12,13 @@ function VerticalTick(props) {
       );
     }
     return (
-      <text x={x} y={y} fill="#333" orientation="left" textAnchor="end" type="category" width="160">
+      <text x={x} y={y} fill="#333" orientation="left" textAnchor="end" type="category" width="160" fontSize={tickFontSize}>
           {rows}
       </text>
     );
 }
+
+export const tickFontSize = 13;
 
 export const tickClassName = (i, rows) => {
     // special formatting for candidate names

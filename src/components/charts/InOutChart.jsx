@@ -12,7 +12,7 @@ import {
 import { chart_columns } from '../../api/constants';
 import { numFormat, wholeNumFormat, currencyFormat, wholeCurrencyFormat, shortenValue } from '../../api/helpers';
 import HorizontalTick from './HorizontalTick';
-import VerticalTick from './VerticalTick';
+import VerticalTick, { tickFontSize } from './VerticalTick';
  
 import './Charts.scss';
 import LastUpdateTag from './LastUpdateTag';
@@ -21,6 +21,7 @@ function InOutChart(props) {
     const vertical = has(props, "vertical");
     const axisNumFormat = has(props, "currency") ? wholeCurrencyFormat : wholeNumFormat;
     const tooltipNumFormat = has(props, "currency") ? currencyFormat : numFormat;
+    const axisConfig = {fontSize: tickFontSize};
 
     const shortChartNames = (name) => {
         const length = has(props, "namesLength") ? props.namesLength : 200;
@@ -38,7 +39,7 @@ function InOutChart(props) {
         <div>
             {has(props, "title") && <h2>{props.title}</h2>}
             <LastUpdateTag />
-            <div className="chart" style={{"height": (props.data.length * Math.max(2, labelLines) * 20) + "px"}}>
+            <div className="chart" style={vertical ? {"height": (props.data.length * Math.max(2, labelLines) * 22) + "px"} : {}}>
                 <ResponsiveContainer width="100%" height="100%">
                     <BarChart
                         data={props.data}
@@ -53,13 +54,13 @@ function InOutChart(props) {
                         <CartesianGrid strokeDasharray="3" horizontal={!vertical} vertical={vertical} />
                         {
                             vertical
-                            ? <XAxis type="number" tickFormatter={axisNumFormat} />
-                            : <XAxis type="category" dataKey="name" tickFormatter={shortChartNames} tick={labelLines > 1 ? <HorizontalTick /> : {}} height={15 + labelLines * 15} />
+                            ? <XAxis type="number" tickFormatter={axisNumFormat} tick={axisConfig} />
+                            : <XAxis type="category" dataKey="name" tickFormatter={shortChartNames} tick={labelLines > 1 ? <HorizontalTick /> : {axisConfig}} minTickGap={-10} height={15 + labelLines * 15} />
                         }
                         {
                             vertical
-                            ? <YAxis type="category" dataKey="name" tickFormatter={shortChartNames} tick={labelLines > 1 ? <VerticalTick /> : {}} minTickGap={-10} width={160} />
-                            : <YAxis type="number" tickFormatter={axisNumFormat} />
+                            ? <YAxis type="category" dataKey="name" tickFormatter={shortChartNames} tick={labelLines > 1 ? <VerticalTick /> : {axisConfig}} minTickGap={-15} width={160} />
+                            : <YAxis type="number" tickFormatter={axisNumFormat} tick={axisConfig} />
                         }
                         <Tooltip formatter={ tooltipNumFormat } />
                         <Legend />
