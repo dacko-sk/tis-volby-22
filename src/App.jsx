@@ -1,12 +1,14 @@
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { DataProvider } from './components/context/DataContext';
+import { segments } from './api/routes';
 
-import Layout from './components/structure/Layout';
-import Home from './components/pages/Home';
-import Charts from './components/pages/Charts';
-import News from './components/pages/News';
 import Analyses from './components/pages/Analyses';
+import Article from './components/pages/Article';
+import Charts from './components/pages/Charts';
+import Home from './components/pages/Home';
+import Layout from './components/structure/Layout';
+import News from './components/pages/News';
 
 import './App.scss';
 
@@ -18,14 +20,16 @@ function App() {
       <QueryClientProvider client={queryClient}>
         <BrowserRouter>
           <Routes>
-            <Route path="/" element={ <Layout /> }>
+            <Route path={segments.ROOT} element={ <Layout /> }>
               <Route index element={ <Home /> } />
-              <Route path="grafy" element={ <Charts /> } />
-              <Route path="aktuality" element={ <News /> } />
-              <Route path="hodnotenia" element={ <Analyses /> } />
-
+              <Route path={segments.CHARTS} element={ <Charts /> } />
+              <Route path={segments.NEWS} element={ <News /> } />
+              <Route path={segments.NEWS + '/:slug'} element={ <Article /> } />
+              <Route path={segments.ANALYSES} element={ <Analyses /> } />
+              <Route path={segments.ANALYSES + '/:slug'} element={ <Article /> } />
+              
               { /* fallback */ }
-              <Route path='*' element={<Navigate to="/" />} />
+              <Route path='*' element={<Navigate to={segments.ROOT} />} />
             </Route>
           </Routes>
         </BrowserRouter>

@@ -1,4 +1,5 @@
 import { imgPath } from '../../api/helpers';
+import { segments } from '../../api/routes';
 import Posts from '../wp/Posts';
 
 function Analyses() {
@@ -9,7 +10,7 @@ function Analyses() {
           Hodnotenie transparentnosti kandidátov
         </h1>
       </header>
-      <Posts categories={ [859] } slug="hodnotenia" img={ imgPath('politician.png') } />
+      <Posts categories={ [859] } page={ segments.ANALYSES } img={ imgPath('politician.png') } />
     </section>
   );
 }

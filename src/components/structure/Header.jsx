@@ -3,21 +3,22 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { imgPath } from './../../api/helpers';
+import { routes } from './../../api/routes';
 
 function Header() {
   return (
     <Navbar bg="light" expand="lg">
       <Container>
-        <Navbar.Brand as={NavLink} to="/">
+        <Navbar.Brand as={NavLink} to={routes.home}>
           <img src={ imgPath('tis-logo-blue.png') } alt="Voľby 2022" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav defaultActiveKey="/" variant="pills" className="me-auto">
-            <Nav.Link as={NavLink} to="/">Voľby 22</Nav.Link>
-            <Nav.Link as={NavLink} to="/grafy">Grafy</Nav.Link>
-            <Nav.Link as={NavLink} to="/aktuality">Aktuality</Nav.Link>
-            <Nav.Link as={NavLink} to="/hodnotenia">Hodnotenia</Nav.Link>
+          <Nav defaultActiveKey={routes.home} variant="pills" className="me-auto">
+            <Nav.Link as={NavLink} to={routes.home}>Voľby 22</Nav.Link>
+            <Nav.Link as={NavLink} to={routes.cherts}>Grafy</Nav.Link>
+            <Nav.Link as={NavLink} to={routes.news}>Aktuality</Nav.Link>
+            <Nav.Link as={NavLink} to={routes.analyses}>Hodnotenia</Nav.Link>
           </Nav>
           <a role="button" tabIndex="0" href="https://transparency.sk/volby" target="_blank" className="btn btn-secondary btn-xl" rel="noreferrer">PODPORTE</a>
         </Navbar.Collapse>
