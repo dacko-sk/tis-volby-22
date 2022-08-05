@@ -1,6 +1,7 @@
 import has from 'has';
 import { labels } from '../../api/constants';
 import { replace, sortBySpending } from '../../api/helpers';
+import { routes } from '../../api/routes';
 import useData from '../../context/DataContext';
 
 import InOutChart from './InOutChart';
@@ -27,7 +28,7 @@ function Top10() {
   }
 
   return (
-      <InOutChart title="Top 10 kampaní kandidátov na primátorov a županov podľa príjmov a výdavkov" data={people.slice(0, 10)} currency vertical />
+      <InOutChart title="Top 10 kampaní kandidátov na primátorov a županov podľa príjmov a výdavkov" data={people.slice(0, 10)} moreLink={ routes.charts } currency vertical />
   );
 }
 

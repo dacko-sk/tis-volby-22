@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+import Button from 'react-bootstrap/Button';
 import has from 'has';
 import {
     ResponsiveContainer,
@@ -10,6 +12,7 @@ import {
     Legend
    } from 'recharts';
 import { chart_columns } from '../../api/constants';
+import { labels } from '../../api/constants';
 import { numFormat, wholeNumFormat, currencyFormat, wholeCurrencyFormat, shortenValue } from '../../api/helpers';
 import HorizontalTick from './HorizontalTick';
 import VerticalTick, { tickFontSize } from './VerticalTick';
@@ -36,8 +39,8 @@ function InOutChart(props) {
         labelLines = Math.max(labelLines, row.name.split("\n").length);
     }
     return (
-        <div>
-            {has(props, "title") && <h2>{props.title}</h2>}
+        <div className="chart-wrapper my-3">
+            { has(props, "title") && <h2>{ props.title }</h2> }
             <LastUpdateTag />
             <div className="chart" style={vertical ? {"height": (50 + props.data.length * Math.max(2, labelLines) * 20) + "px"} : {}}>
                 <ResponsiveContainer width="100%" height="100%">
@@ -68,6 +71,7 @@ function InOutChart(props) {
                     </BarChart>
                 </ResponsiveContainer>
             </div>
+            { has(props, "moreLink") && <div className="buttons mt-3 text-center"><Button as={ Link } to={ props.moreLink } variant="secondary">{ labels.showMore }</Button></div> }
         </div>
     );
     

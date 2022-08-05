@@ -16,7 +16,7 @@ function Header() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav defaultActiveKey={routes.home} variant="pills" className="me-auto">
             <Nav.Link as={NavLink} to={routes.home}>Voľby 2022</Nav.Link>
-            <Nav.Link as={NavLink} to={routes.cherts}>Grafy</Nav.Link>
+            <Nav.Link as={NavLink} to={routes.charts}>Grafy</Nav.Link>
             <Nav.Link as={NavLink} to={routes.news}>Aktuality</Nav.Link>
             <Nav.Link as={NavLink} to={routes.analyses}>Hodnotenia</Nav.Link>
           </Nav>

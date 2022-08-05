@@ -37,7 +37,8 @@ export const labels = {
             name: 'župné voľby'
         },
     },
-    loading: 'Načítavanie…'
+    loading: 'Načítavanie…',
+    showMore: 'Zobraziť viac',
 }
 
 export const errors = {
