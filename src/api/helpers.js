@@ -73,6 +73,14 @@ const replacements = {
     'Trenčiansky samosprávny kraj': 'TSK',
     'Trnavský samosprávny kraj': 'TTSK',
     'Žilinský samosprávny kraj': 'ŽSK',
+    'BB': 'Banskobystrický kraj',
+    'BA': 'Bratislavský kraj',
+    'KE': 'Košický kraj',
+    'NR': 'Nitriansky kraj',
+    'PO': 'Prešovský kraj',
+    'TN': 'Trenčiansky kraj',
+    'TT': 'Trnavský kraj',
+    'ZA': 'Žilinský kraj',
 };
 
 export const replace = (value) => has(replacements, value) ? replacements[value] : value;
