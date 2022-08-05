@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import has from 'has';
 import { parseWpHtml } from '../../api/helpers';
 import Media from './Media';
+import Loading from '../structure/Loading';
 
 import './News.scss';
 import { routes, segments } from '../../api/routes';
@@ -30,9 +31,9 @@ function Posts(props) {
     })
   );
 
-  if (isLoading) return 'Loading...';
-
-  if (error) return 'An error has occurred: ' + error.message;
+  if (isLoading || error) {
+    return <Loading error={error} />;
+  }
 
   console.log(headers);
 
@@ -41,7 +42,7 @@ function Posts(props) {
     articles.push(
       <div key={ article.slug } id={ article.slug } className="row align-items-center">
         <div className="col-12 col-sm-5 col-md-4 col-lg-3">
-          <div className="news-thumb">
+          <div className="thumb">
             <Link to={ routes.article(page, article.slug) } state={{ article }}>
               {article.featured_media 
                 ? <Media id={article.featured_media} />
@@ -64,7 +65,7 @@ function Posts(props) {
   }
 
   return (
-    <div className="wp-posts">
+    <div className="articles">
       { articles }
     </div>
   );

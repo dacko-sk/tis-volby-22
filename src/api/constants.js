@@ -39,9 +39,14 @@ export const labels = {
     }
 }
 
+export const errors = {
+    loading: 'Chyba pri načítaní dát. Prosím načítajte stránku znovu.',
+}
+
 export const constants = {
     colors,
     chart_columns,
+    errors,
     labels,
 }
 
