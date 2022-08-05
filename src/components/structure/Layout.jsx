@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import { Outlet } from 'react-router-dom';
 import { usePapaParse } from 'react-papaparse';
-import useData, { csvFile, buildParserConfig } from '../context/DataContext';
+import useData, { csvFile, buildParserConfig } from '../../context/DataContext';
 import Header from './Header';
 
 function Layout(props) {

@@ -36,7 +36,8 @@ export const labels = {
             key: 'župné',
             name: 'župné voľby'
         },
-    }
+    },
+    loading: 'Načítavanie…'
 }
 
 export const errors = {

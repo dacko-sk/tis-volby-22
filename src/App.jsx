@@ -1,14 +1,15 @@
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
-import { DataProvider } from './components/context/DataContext';
+import { DataProvider } from './context/DataContext';
 import { segments } from './api/routes';
 
-import Analyses from './components/pages/Analyses';
-import Article from './components/pages/Article';
-import Charts from './components/pages/Charts';
-import Home from './components/pages/Home';
+import Analyses from './pages/Analyses';
+import Article from './pages/Article';
+import Charts from './pages/Charts';
+import Home from './pages/Home';
+import News from './pages/News';
+
 import Layout from './components/structure/Layout';
-import News from './components/pages/News';
 
 import './App.scss';
 

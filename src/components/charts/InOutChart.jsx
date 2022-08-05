@@ -13,9 +13,9 @@ import { chart_columns } from '../../api/constants';
 import { numFormat, wholeNumFormat, currencyFormat, wholeCurrencyFormat, shortenValue } from '../../api/helpers';
 import HorizontalTick from './HorizontalTick';
 import VerticalTick, { tickFontSize } from './VerticalTick';
+import LastUpdateTag from '../LastUpdateTag';
  
 import './Charts.scss';
-import LastUpdateTag from './LastUpdateTag';
 
 function InOutChart(props) {
     const vertical = has(props, "vertical");

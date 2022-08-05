@@ -1,5 +1,5 @@
 import has from 'has';
-import { dateFormat } from '../../api/helpers';
+import { dateFormat } from '../api/helpers';
 import useData, { baseDate } from '../context/DataContext';
  
 function LastUpdateTag() {

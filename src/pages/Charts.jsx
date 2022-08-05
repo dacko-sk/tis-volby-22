@@ -1,8 +1,8 @@
 import has from 'has';
-import { labels } from '../../api/constants';
-import { replace, sortBySpending } from '../../api/helpers';
+import { labels } from '../api/constants';
+import { replace, sortBySpending } from '../api/helpers';
 import useData from '../context/DataContext';
-import InOutChart from './../charts/InOutChart';
+import InOutChart from '../components/charts/InOutChart';
 
 function Charts() {
 

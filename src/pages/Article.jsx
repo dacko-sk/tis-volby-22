@@ -1,10 +1,10 @@
+import { useEffect } from 'react';
 import { useNavigate, useLocation, useParams } from 'react-router-dom'
 import { useQuery } from '@tanstack/react-query';
 import has from 'has';
-import { parseWpHtml } from '../../api/helpers';
-import { useEffect } from 'react';
-import Media from '../wp/Media';
-import Loading from '../structure/Loading';
+import { parseWpHtml } from '../api/helpers';
+import Media from '../components/wp/Media';
+import Loading from '../components/Loading';
 
 function Article() {
 

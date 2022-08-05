@@ -1,7 +1,7 @@
 import has from 'has';
 import { labels } from '../../api/constants';
 import { replace, sortBySpending } from '../../api/helpers';
-import useData from '../context/DataContext';
+import useData from '../../context/DataContext';
 
 import InOutChart from './InOutChart';
 

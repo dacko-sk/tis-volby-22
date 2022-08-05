@@ -1,6 +1,6 @@
-import { imgPath } from '../../api/helpers';
-import { segments } from '../../api/routes';
-import Posts from '../wp/Posts';
+import { imgPath } from '../api/helpers';
+import { segments } from '../api/routes';
+import Posts from '../components/wp/Posts';
 
 function News() {
   return (

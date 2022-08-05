@@ -1,8 +1,8 @@
 import has from 'has';
-import { errors } from '../../api/constants';
+import { errors, labels } from '../api/constants';
 
 function Loading(props) {
-  let message = 'Loading…';
+  let message = labels.loading;
   if (has(props, 'error') && props.error && has(props.error, 'message')) {
     console.log(props.error.message);
     message = errors.loading;

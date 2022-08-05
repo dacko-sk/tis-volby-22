@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import has from 'has';
 import { parseWpHtml } from '../../api/helpers';
 import Media from './Media';
-import Loading from '../structure/Loading';
+import Loading from '../Loading';
 
 import './News.scss';
 import { routes, segments } from '../../api/routes';
