@@ -39,7 +39,7 @@ function InOutChart(props) {
         <div>
             {has(props, "title") && <h2>{props.title}</h2>}
             <LastUpdateTag />
-            <div className="chart" style={vertical ? {"height": (props.data.length * Math.max(2, labelLines) * 22) + "px"} : {}}>
+            <div className="chart" style={vertical ? {"height": (50 + props.data.length * Math.max(2, labelLines) * 20) + "px"} : {}}>
                 <ResponsiveContainer width="100%" height="100%">
                     <BarChart
                         data={props.data}

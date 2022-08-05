@@ -22,15 +22,12 @@ export const tickFontSize = 13;
 
 export const tickClassName = (i, rows) => {
     // special formatting for candidate names
-    if (rows.length === 3) {
-        switch (i) {
-            case 0:
-                return 'name';
-            case 1:
-                return 'cat-' + (rows[i] === labels.elections.regional.name ? 'regional' : 'local');
-            default:
-                return '';
-        }
+    if (rows.length > 1 && i === 0) {
+        return 'name';
+    }
+    // different colors for election types
+    if (rows.length === 3 && i === 1) {
+        return 'cat-' + (rows[i] === labels.elections.regional.name ? 'regional' : 'local');
     }
     return '';
 };

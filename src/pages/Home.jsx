@@ -1,5 +1,4 @@
 import Top10 from '../components/charts/Top10';
-import Regions from '../components/Regions';
 import TotalSpending from '../components/TotalSpending';
 
 function Home() {
@@ -13,7 +12,6 @@ function Home() {
       </header>
       <TotalSpending />
       <Top10 />
-      <Regions />
     </section>
   );
 }

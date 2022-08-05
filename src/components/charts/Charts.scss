@@ -8,7 +8,7 @@
 }
 
 tspan {
-    &.name {
+    &.name, text.recharts-cartesian-axis-tick-value[type=category] & {
         font-weight: $fw-bold;
     }
     &.cat-regional {
