@@ -28,7 +28,7 @@ function Top10() {
   }
 
   return (
-      <InOutChart title="Top 10 kampaní kandidátov na primátorov a županov podľa príjmov a výdavkov" data={people.slice(0, 10)} moreLink={ routes.charts } currency vertical />
+      <InOutChart title="Top 10 kampaní kandidátov na primátorov a županov podľa výdavkov a príjmov" data={people.slice(0, 10)} moreLink={ routes.charts } currency vertical />
   );
 }
 

@@ -49,7 +49,7 @@ function TotalSpending() {
                 <h4>Celkové výdavky kandidátov</h4>
                 <p className="hero-number">
                     { currencyFormat(total) }
-                    <LastUpdateTag />
+                    <LastUpdateTag short />
                 </p>
             </div>
         </div>

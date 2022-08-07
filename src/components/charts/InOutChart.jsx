@@ -41,6 +41,7 @@ function InOutChart(props) {
     return (
         <div className="chart-wrapper my-3">
             { has(props, "title") && <h2>{ props.title }</h2> }
+            { has(props, "subtitle") && <h6><em>{ props.subtitle }</em></h6> }
             <LastUpdateTag />
             <div className="chart" style={vertical ? {"height": (50 + props.data.length * Math.max(2, labelLines) * 20) + "px"} : {}}>
                 <ResponsiveContainer width="100%" height="100%">

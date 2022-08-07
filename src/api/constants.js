@@ -12,14 +12,14 @@ export const colors = {
 
 export const chart_columns = [
     {
+        key: "outgoing",
+        name: "Výdavky",
+        color: color_orange
+    }, 
+    {
         key: "incoming",
         name: "Príjmy",
         color: color_dark_blue
-    }, 
-    {
-      key: "outgoing",
-      name: "Výdavky",
-      color: color_orange
     }
 ];
 
@@ -36,6 +36,10 @@ export const labels = {
             key: 'župné',
             name: 'župné voľby'
         },
+    },
+    charts : {
+        disclaimer: 'Grafy obsahujú iba dáta z transparentných účtov evidovaných podľa zákona na webe ministerstva vnútra.',
+        updated: 'Naposledy aktualizované',
     },
     loading: 'Načítavanie…',
     showMore: 'Zobraziť viac',

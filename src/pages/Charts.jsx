@@ -53,7 +53,7 @@ function Charts() {
           Grafy
         </h1>
       </header>
-      <InOutChart title="Príjmy a výdavky podľa krajov" data={Object.values(regions).sort(sortBySpending)} namesLength={30} currency />
+      <InOutChart title="Príjmy a výdavky podľa krajov" subtitle="Kumulatívne hodnoty za župné aj miestne voľby." data={Object.values(regions).sort(sortBySpending)} currency />
       <Regions />
       <InOutChart title="Transparentné učty politických strán" data={parties} namesLength={30} currency vertical />
       {/* <InOutChart title="Transparentné učty kandidátov" data={people} namesLength={30} currency vertical /> */}
