@@ -13,9 +13,9 @@ console.log('accordions re-render');
 
     const { csvData } = useData();
 
-    let regionsRegional = {};
-    let regionsLocal = {};
-    let regionsCharts = {};
+    let regional = {};
+    let local = {};
+    let charts = {};
 
     // parse data
     let people = [];
@@ -24,20 +24,20 @@ console.log('accordions re-render');
             if (has(row, 'label')) {
                 if (row.label !== labels.elections.party_key) {
                     const key = replace(row.label);
-                    if (!has(regionsCharts, key)) {
-                        regionsCharts[key] = [];
-                        regionsRegional[key] = [];
-                        regionsLocal[key] = [];
-                        regionsCharts[key] = false;
+                    if (!has(charts, key)) {
+                        charts[key] = [];
+                        regional[key] = [];
+                        local[key] = [];
+                        charts[key] = false;
                     }
                     if (row[labels.elections.type_key] === labels.elections.regional.key) {
-                        regionsRegional[key].push({
+                        regional[key].push({
                             name: row.name,
                             incoming: row.sum_incoming,
                             outgoing: Math.abs(row.sum_outgoing),
                         });
                     } else {
-                        regionsLocal[key].push({
+                        local[key].push({
                             name: row.name + "\n" + (row[labels.elections.municipality_key] ?? '…'),
                             incoming: row.sum_incoming,
                             outgoing: Math.abs(row.sum_outgoing),
@@ -50,15 +50,15 @@ console.log('accordions re-render');
     }
 
     // initially all charts are NOT loaded
-    const [loadedRegions, setLoadedRegions] = useState(regionsCharts);
+    const [loadedRegions, setLoadedRegions] = useState(charts);
 
     // create accordion component
     let accordions = [];
-    for (const region of Object.keys(regionsCharts)) {
+    for (const region of Object.keys(charts)) {
         const chart = loadedRegions[region] ? (
             <div>
-                { regionsRegional[region].length > 0 && <InOutChart title="Voľby do VÚC" data={ regionsRegional[region].sort(sortBySpending).slice(0, 10) } currency vertical /> }
-                { regionsLocal[region].length > 0 && <InOutChart title="Miestne voľby" data={ regionsLocal[region].sort(sortBySpending).slice(0, 10) } currency vertical /> }
+                { regional[region].length > 0 && <InOutChart title="Voľby do VÚC" data={ regional[region].sort(sortBySpending).slice(0, 10) } currency vertical /> }
+                { local[region].length > 0 && <InOutChart title="Miestne voľby" data={ local[region].sort(sortBySpending).slice(0, 10) } currency vertical /> }
             </div>
         ) : <Loading />;
         accordions.push(

@@ -1,8 +1,9 @@
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { DataProvider } from './context/DataContext';
-import { segments } from './api/routes';
+import { segments, separator } from './api/routes';
 
+import AllCampaigns from './pages/AllCampaigns';
 import Analyses from './pages/Analyses';
 import Article from './pages/Article';
 import Charts from './pages/Charts';
@@ -24,6 +25,7 @@ function App() {
             <Route path={segments.ROOT} element={ <Layout /> }>
               <Route index element={ <Home /> } />
               <Route path={segments.CHARTS} element={ <Charts /> } />
+              <Route path={segments.CHARTS + separator + segments.CAMPAIGNS} element={ <AllCampaigns /> } />
               <Route path={segments.NEWS} element={ <News /> } />
               <Route path={segments.NEWS + '/:slug'} element={ <Article /> } />
               <Route path={segments.ANALYSES} element={ <Analyses /> } />

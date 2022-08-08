@@ -4,13 +4,14 @@ import { replace, sortBySpending } from '../api/helpers';
 import useData from '../context/DataContext';
 import Regions from '../components/charts/Regions';
 import InOutChart from '../components/charts/InOutChart';
+import { routes } from '../api/routes';
 
 function Charts() {
 
   const { csvData } = useData();
 
   // parse data
-  // let people = [];
+  let people = [];
   let parties = [];
   let regions = {};
   if (has(csvData, 'data')) {
@@ -23,11 +24,11 @@ function Charts() {
               outgoing: Math.abs(row.sum_outgoing),
           });
       } else {
-          // people.push({
-          //     name: row.name + "\n" + replace(row[labels.elections.type_key] ?? labels.elections.local.key) + "\n" + replace(row[labels.elections.municipality_key] ?? '…'),
-          //     incoming: row.sum_incoming,
-          //     outgoing: Math.abs(row.sum_outgoing),
-          // });
+          people.push({
+              name: row.name + "\n" + replace(row[labels.elections.type_key] ?? labels.elections.local.key) + "\n" + replace(row[labels.elections.municipality_key] ?? '…'),
+              incoming: row.sum_incoming,
+              outgoing: Math.abs(row.sum_outgoing),
+          });
   
           if (has(regions, row.label)) {
               regions[row.label].incoming += row.sum_incoming;
@@ -42,7 +43,7 @@ function Charts() {
         }
       }
     }
-    // people.sort(sortBySpending);
+    people.sort(sortBySpending);
     parties.sort(sortBySpending);
   }
 
@@ -55,8 +56,8 @@ function Charts() {
       </header>
       <InOutChart title="Príjmy a výdavky podľa krajov" subtitle="Kumulatívne hodnoty za župné aj miestne voľby." data={Object.values(regions).sort(sortBySpending)} currency />
       <Regions />
-      <InOutChart title="Transparentné učty politických strán" data={parties} namesLength={30} currency vertical />
-      {/* <InOutChart title="Transparentné učty kandidátov" data={people} namesLength={30} currency vertical /> */}
+      <InOutChart title="Stranícke kampane" subtitle="Kumulatívne hodnoty za župné aj miestne voľby." data={parties} namesLength={30} currency vertical />
+      <InOutChart title="Výdavky a príjmy jednotlivých kandidátov" data={people} buttonText="Zobraziť všetkých" buttonLink={ routes.campaigns } currency vertical scrollable />
     </section>
   );
 }
