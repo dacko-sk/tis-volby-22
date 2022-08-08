@@ -86,7 +86,7 @@ console.log('accordions re-render');
     }
  
     return (
-        <div className="my-3">
+        <div className="my-4">
             <h2>Top 10 kampaní v jednotlivých krajoch</h2>
             <Accordion className="mt-3" activeKey={ activeKey } onSelect={onSelect}>
                 { accordions }

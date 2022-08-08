@@ -11,7 +11,7 @@ import {
     Tooltip,
     Legend
    } from 'recharts';
-import { chart_columns } from '../../api/constants';
+import { charts } from '../../api/constants';
 import { labels } from '../../api/constants';
 import { numFormat, wholeNumFormat, currencyFormat, wholeCurrencyFormat, shortenValue } from '../../api/helpers';
 import HorizontalTick from './HorizontalTick';
@@ -30,7 +30,7 @@ function InOutChart(props) {
         return shortenValue(name, length);
     };
     let bars = [];
-    for (const bar of (has(props, "bars") ? props.bars : chart_columns)) {
+    for (const bar of (has(props, "bars") ? props.bars : charts.columns.inOut)) {
         bars.push(<Bar key={bar.key} dataKey={bar.key} fill={bar.color} name={bar.name} />);
     }
     let labelLines = 1;

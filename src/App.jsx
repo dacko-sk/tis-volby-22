@@ -4,6 +4,7 @@ import { DataProvider } from './context/DataContext';
 import { segments, separator } from './api/routes';
 
 import AllCampaigns from './pages/AllCampaigns';
+import AllDonors from './pages/AllDonors';
 import Analyses from './pages/Analyses';
 import Article from './pages/Article';
 import Charts from './pages/Charts';
@@ -26,6 +27,7 @@ function App() {
               <Route index element={ <Home /> } />
               <Route path={segments.CHARTS} element={ <Charts /> } />
               <Route path={segments.CHARTS + separator + segments.CAMPAIGNS} element={ <AllCampaigns /> } />
+              <Route path={segments.CHARTS + separator + segments.DONORS} element={ <AllDonors /> } />
               <Route path={segments.NEWS} element={ <News /> } />
               <Route path={segments.NEWS + '/:slug'} element={ <Article /> } />
               <Route path={segments.ANALYSES} element={ <Analyses /> } />

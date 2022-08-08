@@ -85,6 +85,8 @@ const replacements = {
 
 export const replace = (value) => has(replacements, value) ? replacements[value] : value;
 
-export const sortBySpending = (a,b) => b.outgoing - a.outgoing;
+export const sortByNumericProp = (prop) => (a, b) => b[prop] - a[prop];
+
+export const sortBySpending = sortByNumericProp('outgoing');
 
 export const imgPath = (filename) => img_root_path + filename;

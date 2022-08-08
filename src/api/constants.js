@@ -1,27 +1,14 @@
 export const img_root_path = '/';
 
-export const color_light_blue = '#2bace2';
-export const color_dark_blue = '#1b335f';
-export const color_orange = '#f06c50';
+export const colorLightBlue = '#2bace2';
+export const colorDarkBlue = '#1b335f';
+export const colorOrange = '#f06c50';
 
 export const colors = {
-    color_light_blue,
-    color_dark_blue,
-    color_orange,
+    colorLightBlue,
+    colorDarkBlue,
+    colorOrange,
 }
-
-export const chart_columns = [
-    {
-        key: "outgoing",
-        name: "Výdavky",
-        color: color_orange
-    }, 
-    {
-        key: "incoming",
-        name: "Príjmy",
-        color: color_dark_blue
-    }
-];
 
 export const labels = {
     elections: {
@@ -40,10 +27,37 @@ export const labels = {
     charts : {
         disclaimer: 'Grafy obsahujú iba dáta z transparentných účtov evidovaných podľa zákona na webe ministerstva vnútra.',
         updated: 'Naposledy aktualizované',
+        incoming: 'Príjmy',
+        outgoing: 'Výdavky',
+        uniqeDonors: 'Počet unikátnych darcov',
     },
     loading: 'Načítavanie…',
     showMore: 'Zobraziť viac',
 }
+
+export const charts = {
+    columns: {
+        inOut: [
+            {
+                key: "outgoing",
+                name: labels.charts.outgoing,
+                color: colorOrange
+            }, 
+            {
+                key: "incoming",
+                name: labels.charts.incoming,
+                color: colorDarkBlue
+            }
+        ],
+        donors: [
+            {
+                key: "num_unique_donors",
+                name: labels.charts.uniqeDonors,
+                color: colorDarkBlue
+            }
+        ]
+    }
+};
 
 export const errors = {
     loading: 'Chyba pri načítaní dát. Prosím načítajte stránku znovu.',
@@ -51,7 +65,7 @@ export const errors = {
 
 export const constants = {
     colors,
-    chart_columns,
+    charts,
     errors,
     labels,
 }
