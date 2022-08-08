@@ -56,7 +56,7 @@ function Charts() {
           Grafy
         </h1>
       </header>
-      <TisBarChart title="Príjmy a výdavky podľa krajov" subtitle="Kumulatívne hodnoty za župné aj miestne voľby." data={Object.values(regions).sort(sortBySpending)} currency />
+      <TisBarChart title="Výdavky a príjmy podľa krajov" subtitle="Kumulatívne hodnoty za župné aj miestne voľby." data={Object.values(regions).sort(sortBySpending)} currency />
       <Regions />
       <TisBarChart title="Stranícke kampane" subtitle="Kumulatívne hodnoty za župné aj miestne voľby." data={ parties } namesLength={ 30 } currency vertical />
       <TisBarChart title="Výdavky a príjmy jednotlivých kandidátov" data={ people.sort(sortBySpending) } buttonText="Zobraziť všetkých" buttonLink={ routes.campaigns } currency vertical scrollable />

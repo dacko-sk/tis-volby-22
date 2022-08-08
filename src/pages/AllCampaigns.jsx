@@ -34,7 +34,7 @@ function AllCampaigns() {
     <section>
       <header>
         <h1 className="my-4">
-          Transparentné učty všetkých kandidátov
+          Výdavky a príjmy všetkých kandidátov
         </h1>
       </header>
       <TisBarChart title="Voľby do VÚC" data={ regional } currency vertical />
