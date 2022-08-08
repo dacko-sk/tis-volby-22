@@ -1,8 +1,9 @@
 import { useEffect } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom'
+import Table from 'react-bootstrap/Table';
 import has from 'has';
 import { labels } from '../api/constants';
-import { replace } from '../api/helpers';
+import { currencyFormat, replace, shortenValue } from '../api/helpers';
 import { routes } from '../api/routes';
 import Loading from '../components/Loading';
 import useData from '../context/DataContext';
@@ -44,7 +45,7 @@ function Candidate() {
         </h1>
       </header>
       <div>
-        <table>
+        <Table striped bordered responsive hover>
           <tbody>
             <tr>
               <td>Typ volieb</td>
@@ -60,30 +61,34 @@ function Candidate() {
             </tr>
             <tr>
               <td>{ labels.charts.incoming }</td>
-              <td>{ candidate.sum_incoming }</td>
+              <td>{ currencyFormat(candidate.sum_incoming) }</td>
             </tr>
             <tr>
               <td>{ labels.charts.outgoing }</td>
-              <td>{ candidate.sum_outgoing }</td>
+              <td>{ currencyFormat(candidate.sum_outgoing) }</td>
             </tr>
             <tr>
               <td>Bilancia</td>
-              <td>{ candidate.balance }</td>
+              <td>{ currencyFormat(candidate.balance) }</td>
             </tr>
             <tr>
-              <td>Počet prijatých platieb</td>
+              <td>Počet príjmov</td>
               <td>{ candidate.num_incoming }</td>
             </tr>
             <tr>
-              <td>Počet odchádzajúcich platieb</td>
+              <td>Počet výdavkov</td>
               <td>{ candidate.num_outgoing }</td>
             </tr>
             <tr>
               <td>{ labels.charts.uniqeDonors }</td>
               <td>{ candidate.num_unique_donors }</td>
             </tr>
+            <tr>
+              <td>Transparentný účet</td>
+              <td><a href={ candidate.url } target="_blank" rel="noreferrer">{ shortenValue(candidate.url.replace('https://', '').replace('www.', ''), 32) }</a></td>
+            </tr>
           </tbody>
-        </table>
+        </Table>
       </div>
     </section>
   );

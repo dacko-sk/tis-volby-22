@@ -8,7 +8,7 @@ import Loading from '../Loading';
 import TisBarChart from './TisBarChart';
   
 function Regions() {
-console.log('accordions re-render');
+
     const [activeKey, setActiveKey] = useState(null);
 
     const { csvData } = useData();

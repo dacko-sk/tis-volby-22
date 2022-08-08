@@ -14,7 +14,7 @@ export const routes = {
     analyses: segments.ROOT + segments.ANALYSES,
     article: (page, slug) => segments.ROOT + page + '/' + slug,
     campaigns: segments.ROOT + segments.CHARTS + separator + segments.CAMPAIGNS,
-    candidate: (name, town) => segments.ROOT + segments.CANDIDATE + separator + encodeURIComponent(name.replaceAll(' ', '-') + '~' + town.replaceAll(' ', '-')),
+    candidate: (name, town) => segments.ROOT + segments.CANDIDATE + separator + encodeURIComponent(name.replaceAll(' ', '.') + '~' + town.replaceAll(' ', '.')),
     charts: segments.ROOT + segments.CHARTS,
     donors: segments.ROOT + segments.CHARTS + separator + segments.DONORS,
     home: segments.ROOT,
