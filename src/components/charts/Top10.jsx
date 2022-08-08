@@ -17,7 +17,7 @@ function Top10() {
       if (has(row, 'label')) {
         if (row.label !== labels.elections.party_key) {
           people.push({
-              name: row.name + "\n" + replace(row[labels.elections.type_key] ?? labels.elections.local.key) + "\n" + replace(row[labels.elections.municipality_key] ?? '…'),
+              name: row.name + "\n" + replace(row[labels.elections.municipality_key] ?? '…') + "\n" + replace(row[labels.elections.type_key] ?? labels.elections.local.key),
               incoming: row.sum_incoming,
               outgoing: Math.abs(row.sum_outgoing),
           });

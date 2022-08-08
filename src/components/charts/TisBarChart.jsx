@@ -24,7 +24,10 @@ function TisBarChart(props) {
     const vertical = has(props, "vertical");
     const axisNumFormat = has(props, "currency") ? wholeCurrencyFormat : wholeNumFormat;
     const tooltipNumFormat = has(props, "currency") ? currencyFormat : numFormat;
-    const axisConfig = {fontSize: tickFontSize};
+    const axisConfig = {
+        fill: '#333',
+        fontSize: tickFontSize
+    };
     const shortChartNames = (name) => {
         const length = has(props, "namesLength") ? props.namesLength : 200;
         return shortenValue(name, length);
@@ -44,7 +47,7 @@ function TisBarChart(props) {
             { has(props, "subtitle") && <h6><em>{ props.subtitle }</em></h6> }
             <LastUpdateTag />
             <div className={ "chart-outer" + (has(props, "scrollable") ? " scrollable" : "") }>
-                <div className="chart" style={vertical ? {"height": (50 + props.data.length * Math.max(2, labelLines) * 20) + "px"} : {}}>
+                <div className="chart" style={vertical ? {"height": (55 + props.data.length * Math.max(2, labelLines) * 20) + "px"} : {}}>
                     <ResponsiveContainer width="100%" height="100%">
                         <BarChart
                             data={props.data}
@@ -60,11 +63,11 @@ function TisBarChart(props) {
                             {
                                 vertical
                                 ? <XAxis type="number" tickFormatter={axisNumFormat} tick={axisConfig} />
-                                : <XAxis type="category" dataKey="name" tickFormatter={shortChartNames} tick={labelLines > 1 ? <HorizontalTick /> : {axisConfig}} minTickGap={-10} height={15 + labelLines * 15} />
+                                : <XAxis type="category" dataKey="name" tickFormatter={shortChartNames} tick={labelLines > 1 ? <HorizontalTick /> : axisConfig} minTickGap={-10} height={15 + labelLines * 15} />
                             }
                             {
                                 vertical
-                                ? <YAxis type="category" dataKey="name" tickFormatter={shortChartNames} tick={labelLines > 1 ? <VerticalTick /> : {axisConfig}} minTickGap={-15} width={160} />
+                                ? <YAxis type="category" dataKey="name" tickFormatter={shortChartNames} tick={labelLines > 1 ? <VerticalTick /> : axisConfig} minTickGap={-15} width={160} />
                                 : <YAxis type="number" tickFormatter={axisNumFormat} tick={axisConfig} />
                             }
                             <Tooltip formatter={ tooltipNumFormat } />

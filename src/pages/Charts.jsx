@@ -26,7 +26,7 @@ function Charts() {
           });
         } else {
           people.push({
-              name: row.name + "\n" + replace(row[labels.elections.type_key] ?? labels.elections.local.key) + "\n" + replace(row[labels.elections.municipality_key] ?? '…'),
+              name: row.name + "\n" + replace(row[labels.elections.municipality_key] ?? '…') + "\n" + replace(row[labels.elections.type_key] ?? labels.elections.local.key),
               incoming: row.sum_incoming,
               outgoing: Math.abs(row.sum_outgoing),
               num_unique_donors: row.num_unique_donors,

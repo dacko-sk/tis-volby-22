@@ -7,6 +7,7 @@ import AllCampaigns from './pages/AllCampaigns';
 import AllDonors from './pages/AllDonors';
 import Analyses from './pages/Analyses';
 import Article from './pages/Article';
+import Candidate from './pages/Candidate';
 import Charts from './pages/Charts';
 import Home from './pages/Home';
 import News from './pages/News';
@@ -32,6 +33,7 @@ function App() {
               <Route path={segments.NEWS + '/:slug'} element={ <Article /> } />
               <Route path={segments.ANALYSES} element={ <Analyses /> } />
               <Route path={segments.ANALYSES + '/:slug'} element={ <Article /> } />
+              <Route path={segments.CANDIDATE + '/:slug'} element={ <Candidate /> } />
               
               { /* fallback */ }
               <Route path='*' element={<Navigate to={segments.ROOT} />} />

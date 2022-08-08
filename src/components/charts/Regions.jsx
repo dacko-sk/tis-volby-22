@@ -30,18 +30,15 @@ console.log('accordions re-render');
                         local[key] = [];
                         charts[key] = false;
                     }
+                    const person = {
+                        name: row.name + "\n" + replace(row[labels.elections.municipality_key] ?? '…'),
+                        incoming: row.sum_incoming,
+                        outgoing: Math.abs(row.sum_outgoing),
+                    };
                     if (row[labels.elections.type_key] === labels.elections.regional.key) {
-                        regional[key].push({
-                            name: row.name,
-                            incoming: row.sum_incoming,
-                            outgoing: Math.abs(row.sum_outgoing),
-                        });
+                        regional[key].push(person);
                     } else {
-                        local[key].push({
-                            name: row.name + "\n" + (row[labels.elections.municipality_key] ?? '…'),
-                            incoming: row.sum_incoming,
-                            outgoing: Math.abs(row.sum_outgoing),
-                        });
+                        local[key].push(person);
                     }
                 }
             }
