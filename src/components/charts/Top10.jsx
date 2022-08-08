@@ -4,7 +4,7 @@ import { replace, sortBySpending } from '../../api/helpers';
 import { routes } from '../../api/routes';
 import useData from '../../context/DataContext';
 
-import InOutChart from './InOutChart';
+import TisBarChart from './TisBarChart';
 
 function Top10() {
 
@@ -28,7 +28,7 @@ function Top10() {
   }
 
   return (
-      <InOutChart title="Top 10 kampaní kandidátov na primátorov a županov podľa výdavkov a príjmov" data={people.slice(0, 10)} buttonLink={ routes.charts } currency vertical />
+      <TisBarChart title="Top 10 kampaní kandidátov na primátorov a županov podľa výdavkov a príjmov" data={people.slice(0, 10)} buttonLink={ routes.charts } currency vertical />
   );
 }
 

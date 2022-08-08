@@ -5,7 +5,7 @@ import { labels } from '../../api/constants';
 import { replace, sortBySpending } from '../../api/helpers';
 import useData from '../../context/DataContext';
 import Loading from '../Loading';
-import InOutChart from './InOutChart';
+import TisBarChart from './TisBarChart';
   
 function Regions() {
 console.log('accordions re-render');
@@ -57,8 +57,8 @@ console.log('accordions re-render');
     for (const region of Object.keys(charts)) {
         const chart = loadedRegions[region] ? (
             <div>
-                { regional[region].length > 0 && <InOutChart title="Voľby do VÚC" data={ regional[region].sort(sortBySpending).slice(0, 10) } currency vertical /> }
-                { local[region].length > 0 && <InOutChart title="Miestne voľby" data={ local[region].sort(sortBySpending).slice(0, 10) } currency vertical /> }
+                { regional[region].length > 0 && <TisBarChart title="Voľby do VÚC" data={ regional[region].sort(sortBySpending).slice(0, 10) } currency vertical /> }
+                { local[region].length > 0 && <TisBarChart title="Miestne voľby" data={ local[region].sort(sortBySpending).slice(0, 10) } currency vertical /> }
             </div>
         ) : <Loading />;
         accordions.push(

@@ -20,7 +20,7 @@ import LastUpdateTag from '../LastUpdateTag';
  
 import './Charts.scss';
 
-function InOutChart(props) {
+function TisBarChart(props) {
     const vertical = has(props, "vertical");
     const axisNumFormat = has(props, "currency") ? wholeCurrencyFormat : wholeNumFormat;
     const tooltipNumFormat = has(props, "currency") ? currencyFormat : numFormat;
@@ -87,4 +87,4 @@ function InOutChart(props) {
     
 }
 
-export default InOutChart;
+export default TisBarChart;

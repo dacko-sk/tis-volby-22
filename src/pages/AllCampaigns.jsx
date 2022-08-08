@@ -2,7 +2,7 @@ import has from 'has';
 import { labels } from '../api/constants';
 import { replace, sortBySpending } from '../api/helpers';
 import useData from '../context/DataContext';
-import InOutChart from '../components/charts/InOutChart';
+import TisBarChart from '../components/charts/TisBarChart';
 
 function AllCampaigns() {
 
@@ -37,8 +37,8 @@ function AllCampaigns() {
           Transparentné učty všetkých kandidátov
         </h1>
       </header>
-      <InOutChart title="Voľby do VÚC" data={ regional } currency vertical />
-      <InOutChart title="Miestne voľby" data={ local } currency vertical />
+      <TisBarChart title="Voľby do VÚC" data={ regional } currency vertical />
+      <TisBarChart title="Miestne voľby" data={ local } currency vertical />
     </section>
   );
 }

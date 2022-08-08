@@ -2,7 +2,7 @@ import has from 'has';
 import { charts, labels } from '../api/constants';
 import { replace, sortByNumericProp } from '../api/helpers';
 import useData from '../context/DataContext';
-import InOutChart from '../components/charts/InOutChart';
+import TisBarChart from '../components/charts/TisBarChart';
 
 function AllDonors() {
 
@@ -37,8 +37,8 @@ function AllDonors() {
           Počet unikátnych darcov na kandidáta
         </h1>
       </header>
-      <InOutChart title="Voľby do VÚC" data={ regional } bars={ charts.columns.donors } vertical />
-      <InOutChart title="Miestne voľby" data={ local } bars={ charts.columns.donors } vertical />
+      <TisBarChart title="Voľby do VÚC" data={ regional } bars={ charts.columns.donors } vertical />
+      <TisBarChart title="Miestne voľby" data={ local } bars={ charts.columns.donors } vertical />
     </section>
   );
 }

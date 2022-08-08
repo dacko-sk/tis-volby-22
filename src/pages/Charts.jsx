@@ -3,7 +3,7 @@ import { charts, labels } from '../api/constants';
 import { replace, sortByNumericProp, sortBySpending } from '../api/helpers';
 import useData from '../context/DataContext';
 import Regions from '../components/charts/Regions';
-import InOutChart from '../components/charts/InOutChart';
+import TisBarChart from '../components/charts/TisBarChart';
 import { routes } from '../api/routes';
 
 function Charts() {
@@ -56,11 +56,11 @@ function Charts() {
           Grafy
         </h1>
       </header>
-      <InOutChart title="Príjmy a výdavky podľa krajov" subtitle="Kumulatívne hodnoty za župné aj miestne voľby." data={Object.values(regions).sort(sortBySpending)} currency />
+      <TisBarChart title="Príjmy a výdavky podľa krajov" subtitle="Kumulatívne hodnoty za župné aj miestne voľby." data={Object.values(regions).sort(sortBySpending)} currency />
       <Regions />
-      <InOutChart title="Stranícke kampane" subtitle="Kumulatívne hodnoty za župné aj miestne voľby." data={ parties } namesLength={ 30 } currency vertical />
-      <InOutChart title="Výdavky a príjmy jednotlivých kandidátov" data={ people.sort(sortBySpending) } buttonText="Zobraziť všetkých" buttonLink={ routes.campaigns } currency vertical scrollable />
-      <InOutChart title="Top 10 kandidátov s najvyšším počtom unikátnych darcov" data={ donors } bars={ charts.columns.donors } buttonText="Zobraziť všetkých" buttonLink={ routes.donors } vertical />
+      <TisBarChart title="Stranícke kampane" subtitle="Kumulatívne hodnoty za župné aj miestne voľby." data={ parties } namesLength={ 30 } currency vertical />
+      <TisBarChart title="Výdavky a príjmy jednotlivých kandidátov" data={ people.sort(sortBySpending) } buttonText="Zobraziť všetkých" buttonLink={ routes.campaigns } currency vertical scrollable />
+      <TisBarChart title="Top 10 kandidátov s najvyšším počtom unikátnych darcov" data={ donors } bars={ charts.columns.donors } buttonText="Zobraziť všetkých" buttonLink={ routes.donors } vertical />
     </section>
   );
 }
