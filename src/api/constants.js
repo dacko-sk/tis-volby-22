@@ -1,4 +1,4 @@
-export const img_root_path = '/';
+export const img_root_path = '/img/';
 
 export const colorLightBlue = '#2bace2';
 export const colorDarkBlue = '#1b335f';

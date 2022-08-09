@@ -20,7 +20,7 @@ function Header() {
             <Nav.Link as={NavLink} to={routes.news}>Aktuality</Nav.Link>
             <Nav.Link as={NavLink} to={routes.analyses}>Hodnotenia</Nav.Link>
           </Nav>
-          <a role="button" tabIndex="0" href="https://transparency.sk/volby" target="_blank" className="btn btn-secondary btn-xl" rel="noreferrer">PODPORTE</a>
+          <a role="button" tabIndex="0" href="https://transparency.darujme.sk/volby/" target="_blank" className="btn btn-secondary btn-xl" rel="noreferrer">PODPORTE</a>
         </Navbar.Collapse>
       </Container>
     </Navbar>

@@ -1,19 +1,19 @@
 {
-  "short_name": "Volebné grafy",
-  "name": "TIS Volebné grafy",
+  "short_name": "Voľby 2022",
+  "name": "Voľby 2022 : Transparency International Slovensko",
   "icons": [
     {
-      "src": "logo.svg",
+      "src": "img/logo.svg",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "logo_30.png",
+      "src": "img/logo_30.png",
       "type": "image/png",
       "sizes": "30x30"
     },
     {
-      "src": "logo_160.png",
+      "src": "img/logo_160.png",
       "type": "image/png",
       "sizes": "160x160"
     }
