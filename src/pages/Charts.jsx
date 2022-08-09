@@ -37,7 +37,7 @@ function Charts() {
               regions[row.label].outgoing += Math.abs(row.sum_outgoing);
           } else {
             regions[row.label] = {
-              name: replace(row.label).replace(' ', "\n"),
+              name: replace(row.label)/*.replace(' ', "\n")*/,
               incoming: row.sum_incoming,
               outgoing: Math.abs(row.sum_outgoing),
             }
