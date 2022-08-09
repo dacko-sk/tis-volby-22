@@ -53,7 +53,6 @@ function Article() {
         <h1 className="my-4">
           { article.title.rendered }
         </h1>
-        { has(article, 'featured_media') && article.featured_media > 0 && <div className="text-center"><Media id={article.featured_media} /></div> }
       </header>
       <div className="article-body">
         { parseWpHtml(article.content.rendered) }

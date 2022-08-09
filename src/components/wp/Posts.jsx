@@ -44,10 +44,7 @@ function Posts(props) {
         <div className="col-12 col-sm-5 col-md-4 col-lg-3">
           <div className="thumb">
             <Link to={ routes.article(page, article.slug) } state={{ article }}>
-              {article.featured_media 
-                ? <Media id={article.featured_media} />
-                : <img src={props.img} alt={article.title.rendered} />
-              }
+              <Media id={article.featured_media} fallback={props.img} />
             </Link>
           </div>
         </div>

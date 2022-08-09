@@ -1,16 +1,21 @@
 import has from 'has';
-import { errors, labels } from '../api/constants';
+import { errors } from '../api/constants';
 
-function Loading(props) {
-  let message = labels.loading;
-  if (has(props, 'error') && props.error && has(props.error, 'message')) {
-    console.log(props.error.message);
+import './Loading.scss';
+
+function Loading({ small, error }) {
+  const animation = small 
+    ? <div className="lds-ellipsis"><div></div><div></div><div></div><div></div></div>
+    : <div className="lds-grid"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>;
+  let message = null;
+  if (!!error && has(error, 'message')) {
+    console.log(error.message);
     message = errors.loading;
   }
   return (
-    <div className="loading row justify-content-center">
+    <div className={'row justify-content-center loading ' + (small ? 'small' : 'big')}>
         <div className="col-auto align-self-center">
-            { message }
+            { message ? message : animation }
         </div>
     </div>
   );

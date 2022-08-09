@@ -1,24 +1,24 @@
-// import { useState } from 'react';
 import { useQuery } from '@tanstack/react-query';
 import has from 'has';
 import { imgPath } from '../../api/helpers';
+import Loading from '../Loading';
 
-function Media(props) {
-  let src = '/loading.gif';
-  let alt = 'media';
+function Media({ id, fallback }) {
 
   const { isLoading, error, data } = useQuery(
-    ['media_' + props.id],
-    () => fetch('https://cms.transparency.sk/wp-json/wp/v2/media/' + props.id).then(response => response.json()),
+    ['media_' + id],
+    () => fetch('https://cms.transparency.sk/wp-json/wp/v2/media/' + id).then(response => response.json()),
     {
-      enabled: props.id > 0
+      enabled: id > 0
     }
   );
 
-  if (!isLoading && !error) {
-    src = has(data, 'source_url') ? data.source_url : imgPath('politician.png');
-    alt = has(data, 'alt_text') ? data.alt_text : alt;
+  if ((id > 0 && isLoading) || error) {
+    return <Loading small error={error} />
   }
+
+  const src = data && has(data, 'source_url') ? data.source_url : imgPath(fallback ? fallback : 'politician.png');
+  const alt = data && has(data, 'alt_text') ? data.alt_text : 'ilustračný obrázok';
 
   return <img src={src} alt={alt} />;
 }

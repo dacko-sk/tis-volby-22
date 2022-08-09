@@ -1,4 +1,3 @@
-import { imgPath } from '../api/helpers';
 import { segments } from '../api/routes';
 import Posts from '../components/wp/Posts';
 
@@ -10,7 +9,7 @@ function News() {
           Aktuality
         </h1>
       </header>
-      <Posts categories={ [858] } page={ segments.NEWS } img={ imgPath('news.png') } />
+      <Posts categories={ [858] } page={ segments.NEWS } img="news.png" />
     </section>
   );
 }

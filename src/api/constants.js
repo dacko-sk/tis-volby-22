@@ -31,7 +31,6 @@ export const labels = {
         outgoing: 'Výdavky',
         uniqeDonors: 'Počet unikátnych darcov',
     },
-    loading: 'Načítavanie…',
     showMore: 'Zobraziť viac',
 }
 
