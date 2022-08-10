@@ -83,7 +83,7 @@ const replacements = {
     'ZA': 'Žilinský kraj',
 };
 
-export const replace = (value) => has(replacements, value) ? replacements[value] : value;
+export const substitute = (value) => has(replacements, value) ? replacements[value] : value;
 
 export const sortByNumericProp = (prop) => (a, b) => b[prop] - a[prop];
 

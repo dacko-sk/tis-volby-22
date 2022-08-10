@@ -3,7 +3,7 @@ import { useLocation, useNavigate } from 'react-router-dom'
 import Table from 'react-bootstrap/Table';
 import has from 'has';
 import { labels } from '../api/constants';
-import { currencyFormat, replace, shortenValue } from '../api/helpers';
+import { currencyFormat, shortenValue, substitute } from '../api/helpers';
 import { routes } from '../api/routes';
 import Loading from '../components/Loading';
 import useData from '../context/DataContext';
@@ -18,7 +18,7 @@ function Candidate() {
   let candidate = null;
   if (has(csvData, 'data')) {
     for (const row of csvData.data) {
-      const key = routes.candidate(row.name, replace(row[labels.elections.municipality_key] ?? '…'));
+      const key = routes.candidate(row.name, substitute(row[labels.elections.municipality_key] ?? '…'));
       if (pathname === key) {
         candidate = row;
         break;
@@ -49,7 +49,7 @@ function Candidate() {
           <tbody>
             <tr>
               <td>Typ volieb</td>
-              <td>{ replace(candidate[labels.elections.type_key] ?? labels.elections.local.key) }</td>
+              <td>{ substitute(candidate[labels.elections.type_key] ?? labels.elections.local.key) }</td>
             </tr>
             <tr>
               <td>Samospráva</td>
@@ -57,7 +57,7 @@ function Candidate() {
             </tr>
             <tr>
               <td>Kraj</td>
-              <td>{ replace(candidate.label) }</td>
+              <td>{ substitute(candidate.label) }</td>
             </tr>
             <tr>
               <td>{ labels.charts.incoming }</td>

@@ -1,6 +1,6 @@
 import has from 'has';
 import { charts, labels } from '../api/constants';
-import { replace, sortByNumericProp, sortBySpending } from '../api/helpers';
+import { sortByNumericProp, sortBySpending, substitute } from '../api/helpers';
 import useData from '../context/DataContext';
 import Regions from '../components/charts/Regions';
 import TisBarChart from '../components/charts/TisBarChart';
@@ -26,7 +26,7 @@ function Charts() {
           });
         } else {
           people.push({
-              name: row.name + "\n" + replace(row[labels.elections.municipality_key] ?? '…') + "\n" + replace(row[labels.elections.type_key] ?? labels.elections.local.key),
+              name: row.name + "\n" + substitute(row[labels.elections.municipality_key] ?? '…') + "\n" + substitute(row[labels.elections.type_key] ?? labels.elections.local.key),
               incoming: row.sum_incoming,
               outgoing: Math.abs(row.sum_outgoing),
               num_unique_donors: row.num_unique_donors,
@@ -37,7 +37,7 @@ function Charts() {
               regions[row.label].outgoing += Math.abs(row.sum_outgoing);
           } else {
             regions[row.label] = {
-              name: replace(row.label)/*.replace(' ', "\n")*/,
+              name: row.label/*substitute(row.label).replace(' ', "\n")*/,
               incoming: row.sum_incoming,
               outgoing: Math.abs(row.sum_outgoing),
             }

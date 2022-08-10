@@ -7,7 +7,7 @@ function Home() {
     <section>
       <header>
         <h1 className="my-4 text-uppercase">
-          Komunálne a župné voľby 2022
+          Župné a miestne voľby 2022
         </h1>
       </header>
       <TotalSpending />

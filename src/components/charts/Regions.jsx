@@ -2,7 +2,7 @@ import { useState } from 'react';
 import Accordion from 'react-bootstrap/Accordion';
 import has from 'has';
 import { labels } from '../../api/constants';
-import { replace, sortBySpending } from '../../api/helpers';
+import { sortBySpending, substitute } from '../../api/helpers';
 import useData from '../../context/DataContext';
 import Loading from '../Loading';
 import TisBarChart from './TisBarChart';
@@ -23,7 +23,7 @@ function Regions() {
         for (const row of csvData.data) {
             if (has(row, 'label')) {
                 if (row.label !== labels.elections.party_key) {
-                    const key = replace(row.label);
+                    const key = substitute(row.label);
                     if (!has(charts, key)) {
                         charts[key] = [];
                         regional[key] = [];
@@ -31,7 +31,7 @@ function Regions() {
                         charts[key] = false;
                     }
                     const person = {
-                        name: row.name + "\n" + replace(row[labels.elections.municipality_key] ?? '…'),
+                        name: row.name + "\n" + substitute(row[labels.elections.municipality_key] ?? '…'),
                         incoming: row.sum_incoming,
                         outgoing: Math.abs(row.sum_outgoing),
                     };

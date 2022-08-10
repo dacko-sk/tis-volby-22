@@ -1,6 +1,6 @@
 import has from 'has';
 import { labels } from '../api/constants';
-import { replace, sortBySpending } from '../api/helpers';
+import { sortBySpending, substitute } from '../api/helpers';
 import useData from '../context/DataContext';
 import TisBarChart from '../components/charts/TisBarChart';
 
@@ -15,7 +15,7 @@ function AllCampaigns() {
     for (const row of csvData.data) {
       if (has(row, 'label') && row.label !== labels.elections.party_key) {
         const person = {
-          name: row.name + "\n" + replace(row[labels.elections.municipality_key] ?? '…'),
+          name: row.name + "\n" + substitute(row[labels.elections.municipality_key] ?? '…'),
           incoming: row.sum_incoming,
           outgoing: Math.abs(row.sum_outgoing),
         };

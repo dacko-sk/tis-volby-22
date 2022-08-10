@@ -1,6 +1,6 @@
 import has from 'has';
 import { charts, labels } from '../api/constants';
-import { replace, sortByNumericProp } from '../api/helpers';
+import { sortByNumericProp, substitute } from '../api/helpers';
 import useData from '../context/DataContext';
 import TisBarChart from '../components/charts/TisBarChart';
 
@@ -16,7 +16,7 @@ function AllDonors() {
     for (const row of csvData.data) {
       if (has(row, 'label') && row.label !== labels.elections.party_key) {
         const person = {
-          name: row.name + "\n" + replace(row[labels.elections.municipality_key] ?? '…'),
+          name: row.name + "\n" + substitute(row[labels.elections.municipality_key] ?? '…'),
           num_unique_donors: row.num_unique_donors,
         };
         if (row[labels.elections.type_key] === labels.elections.regional.key) {
