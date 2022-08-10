@@ -95,3 +95,7 @@ h2, h3, h4 {
     }
   }
 }
+
+.social-svg:hover .social-svg-mask {
+  fill: $tis-dark-blue !important;
+}
