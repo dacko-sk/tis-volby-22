@@ -3,6 +3,7 @@ import { Outlet, useLocation } from 'react-router-dom';
 import { usePapaParse } from 'react-papaparse';
 import useData, { csvFile, buildParserConfig } from '../../context/DataContext';
 import Header from './Header';
+import Footer from './Footer';
 
 function Layout(props) {
 
@@ -26,9 +27,10 @@ function Layout(props) {
   return (
     <div className="layout-default">
       <Header />
-      <main className="container">
+      <main className="container mb-4">
         <Outlet />
       </main>
+      <Footer />
     </div>
   );
 }
