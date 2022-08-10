@@ -12,7 +12,7 @@ body {
   color: #333;
   font-family: $font-family, sans-serif;
   font-weight: $fw-regular;
-  // line-height: 1.42857143;
+  line-height: 1.42857143; // keep this for chart labels
   margin: 0;
 }
 
