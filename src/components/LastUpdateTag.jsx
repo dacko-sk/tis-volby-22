@@ -10,9 +10,9 @@ function LastUpdateTag({ short }) {
     const lastUpdate = has(csvData, 'lastUpdate') ? csvData.lastUpdate : baseDate;
         
     return (
-        <span className="updated">
+        <em className="updated">
             { short ? '' : labels.charts.disclaimer } { labels.charts.updated } { dateFormat(lastUpdate) }.
-        </span>
+        </em>
     );
     
 }

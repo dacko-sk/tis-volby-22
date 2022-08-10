@@ -34,7 +34,7 @@ export const dateFormat = (timestamp) => new Intl.DateTimeFormat('sk-SK', {
     hour: 'numeric', 
     minute: 'numeric', 
     second: 'numeric'
-}).format(new Date(1000 * timestamp));
+}).format(new Date(typeof timestamp === 'number' ? 1000 * timestamp : timestamp));
 
 export const parseWpHtml = (html) => parse(html, {
     replace: domNode => {

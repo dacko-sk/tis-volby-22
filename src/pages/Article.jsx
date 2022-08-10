@@ -2,8 +2,7 @@ import { useEffect } from 'react';
 import { useNavigate, useLocation, useParams } from 'react-router-dom'
 import { useQuery } from '@tanstack/react-query';
 import has from 'has';
-import { parseWpHtml } from '../api/helpers';
-import Media from '../components/wp/Media';
+import { dateFormat, parseWpHtml } from '../api/helpers';
 import Loading from '../components/Loading';
 
 function Article() {
@@ -54,6 +53,9 @@ function Article() {
           { article.title.rendered }
         </h1>
       </header>
+      <div className="article-date my-4">
+        { dateFormat(article.date) }
+      </div>
       <div className="article-body">
         { parseWpHtml(article.content.rendered) }
       </div>

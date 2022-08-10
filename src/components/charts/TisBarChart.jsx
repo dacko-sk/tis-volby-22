@@ -44,7 +44,7 @@ function TisBarChart(props) {
     return (
         <div className="chart-wrapper my-3">
             { has(props, "title") && <h2>{ props.title }</h2> }
-            { has(props, "subtitle") && <h6><em>{ props.subtitle }</em></h6> }
+            { has(props, "subtitle") && <h6>{ props.subtitle }</h6> }
             <LastUpdateTag />
             <div className={ "chart-outer" + (has(props, "scrollable") ? " scrollable" : "") }>
                 <div className="chart" style={vertical ? {"height": (55 + props.data.length * Math.max(2, labelLines) * 20) + "px"} : {}}>

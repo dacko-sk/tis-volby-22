@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import { useQuery } from '@tanstack/react-query';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import has from 'has';
-import { parseWpHtml } from '../../api/helpers';
+import { dateFormat, parseWpHtml } from '../../api/helpers';
 import Media from './Media';
 import Loading from '../Loading';
 
@@ -31,6 +31,13 @@ function Posts(props) {
     })
   );
 
+  const navigate = useNavigate();
+  const goTo = (article) => (event) => {
+    navigate(routes.article(page, article.slug), {
+      state: { article }
+    });
+  }
+
   if (isLoading || error) {
     return <Loading error={error} />;
   }
@@ -40,21 +47,21 @@ function Posts(props) {
   const articles = [];
   for (const article of data) {
     articles.push(
-      <div key={ article.slug } id={ article.slug } className="row align-items-center">
+      <div key={ article.slug } id={ article.slug } className="row align-items-center" onClick={ goTo(article) }>
         <div className="col-12 col-sm-5 col-md-4 col-lg-3">
           <div className="thumb">
-            <Link to={ routes.article(page, article.slug) } state={{ article }}>
+            <figure>
               <Media id={article.featured_media} fallback={props.img} />
-            </Link>
+            </figure>
           </div>
         </div>
         <div className="col">
           <h2>
-            <Link to={ routes.article(page, article.slug) } state={{ article }}>
-              { article.title.rendered }
-            </Link>
+            { article.title.rendered }
           </h2>
-      
+          <div className="article-date my-2">
+            { dateFormat(article.date) }
+          </div>
           { parseWpHtml(article.excerpt.rendered) }
         </div>
       </div>
