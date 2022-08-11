@@ -32,8 +32,8 @@ function AllCampaigns() {
 
   return (
     <section>
-      <header>
-        <h1 className="my-4">
+      <header className="mb-4">
+        <h1>
           Výdavky a príjmy všetkých kandidátov
         </h1>
       </header>

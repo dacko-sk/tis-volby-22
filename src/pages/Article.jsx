@@ -48,8 +48,8 @@ function Article() {
 
   return (
     <section className="article">
-      <header>
-        <h1 className="my-4">
+      <header className="mb-4">
+        <h1>
           { article.title.rendered }
         </h1>
       </header>

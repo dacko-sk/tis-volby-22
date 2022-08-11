@@ -1,7 +1,6 @@
+@use "sass:map";
 @import "./scss/variables";
-
-/* import bootstrap to apply variables changes */
-@import "~bootstrap/scss/bootstrap";
+@import "./scss/bootstrap_custom";
 
 /* font */
 @import url(https://fonts.googleapis.com/css?family=Ubuntu:#{$fw-regular},#{$fw-bold}&subset=latin,latin-ext);
@@ -21,8 +20,53 @@ input, textarea, keygen, select, option, button {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+header {
+  background-image: url('./../public/img/samospravy_color_1920_900.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: 50%;
+  position: relative;
+  h1 {
+    padding-top: 1.5em;
+    padding-bottom: 2em;
+    margin: 0;
+    width: 100%;
+  }
+  
+  @media (min-width: map.get($grid-breakpoints, 'md')) {
+    & {
+      min-height: 250px;
+      h1 {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -75%);
+        padding: 0;
+      }
+    }
+  }
+  
+  @media (min-width: map.get($grid-breakpoints, 'lg')) {
+    & {
+      min-height: 280px;
+    }
+  }
+  
+  @media (min-width: map.get($grid-breakpoints, 'xl')) {
+    & {
+      min-height: 320px;
+    }
+  }
+  
+  @media (min-width: map.get($grid-breakpoints, 'xxl')) {
+    & {
+      min-height: 350px;
+    }
+  }
 }
 
 h1 {
@@ -53,23 +97,15 @@ h2, h3, h4 {
   }
 }
 
+.orange {
+  color: $tis-orange;
+}
+
 .btn-xl {
-  --bs-btn-padding-y: 1rem;
-  --bs-btn-padding-x: 2rem;
+  --bs-btn-padding-y: 0.5rem;
+  --bs-btn-padding-x: 1.5rem;
+  font-size: 24px;
   font-weight: 600;
-}
-
-/* bootstrap changes */
-.navbar-brand img {
-  height: 38px;
-}
-
-.btn-secondary {
-  --bs-btn-color: #fff;
-  --bs-btn-hover-color: #fff;
-  --bs-btn-active-color: #fff;
-  --bs-btn-hover-bg: #{$tis-dark-blue};
-  --bs-btn-hover-border-color: #{$tis-dark-blue};
 }
 
 .footer-top {

@@ -39,9 +39,10 @@ function Candidate() {
 
   return (
     <section className="candidate-page">
-      <header>
-        <h1 className="my-4">
+      <header className="mb-4">
+        <h1>
           { candidate.name }
+          { !!candidate[labels.elections.municipality_key] && <span className="orange"><br/>{ candidate[labels.elections.municipality_key] }</span> }
         </h1>
       </header>
       <div>
@@ -50,10 +51,6 @@ function Candidate() {
             <tr>
               <td>Typ volieb</td>
               <td>{ substitute(candidate[labels.elections.type_key] ?? labels.elections.local.key) }</td>
-            </tr>
-            <tr>
-              <td>Samospráva</td>
-              <td>{ (candidate[labels.elections.municipality_key] ?? '…') }</td>
             </tr>
             <tr>
               <td>Kraj</td>

@@ -5,9 +5,11 @@ function Home() {
 
   return (
     <section>
-      <header>
-        <h1 className="my-4 text-uppercase">
-          Župné a miestne voľby 2022
+      <header className="mb-4">
+        <h1 className="text-uppercase">
+          Samosprávne
+          <br />
+          voľby <span className="orange">2022</span>
         </h1>
       </header>
       <TotalSpending />

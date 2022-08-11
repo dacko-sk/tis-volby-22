@@ -1,0 +1,17 @@
+@import "./variables";
+
+/* import bootstrap to apply variables changes */
+@import "~bootstrap/scss/bootstrap";
+
+/* bootstrap changes */
+.navbar-brand img {
+    height: 38px;
+}
+
+.btn-secondary {
+    --bs-btn-color: #fff;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-active-color: #fff;
+    --bs-btn-hover-bg: #{$tis-dark-blue};
+    --bs-btn-hover-border-color: #{$tis-dark-blue};
+}

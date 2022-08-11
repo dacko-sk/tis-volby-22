@@ -32,8 +32,8 @@ function AllDonors() {
 
   return (
     <section>
-      <header>
-        <h1 className="my-4">
+      <header className="mb-4">
+        <h1>
           Počet unikátnych darcov na kandidáta
         </h1>
       </header>

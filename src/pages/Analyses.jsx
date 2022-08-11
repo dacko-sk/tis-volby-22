@@ -5,8 +5,8 @@ import Posts from '../components/wp/Posts';
 function Analyses() {
   return (
     <section>
-      <header>
-        <h1 className="my-4">
+      <header className="mb-4">
+        <h1>
           Hodnotenie transparentnosti kandidátov
         </h1>
       </header>
