@@ -9,7 +9,7 @@ function News() {
           Aktuality
         </h1>
       </header>
-      <Posts categories={ [858] } page={ segments.NEWS } img="news.png" />
+      <Posts categories={ [858] } section={ segments.NEWS } img="news.png" />
     </section>
   );
 }

@@ -13,7 +13,7 @@ function Analyses() {
       <Alert variant="secondary">
         Sekcia sa pripravuje. Hodnotenia kampaní budeme zverejňovať postupne.
       </Alert>
-      <Posts categories={ [859] } page={ segments.ANALYSES } img="politician.png" />
+      <Posts categories={ [859] } section={ segments.ANALYSES } img="politician.png" />
     </section>
   );
 }
