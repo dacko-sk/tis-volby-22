@@ -14,7 +14,7 @@ function Footer() {
         <Container>
           <Row>
             <Col md={6} lg={4}>
-              <h2>Kontakt</h2>
+              <h2 className="mb-0">Kontakt</h2>
               <img className="logo my-3" src={ imgPath('tis-logo-blue.png') } alt="Transparency International Slovensko" />
               <p>
                 Transparency International Slovensko
@@ -32,15 +32,18 @@ function Footer() {
               </p>
             </Col>
             <Col md={6} lg={4}>
-            <h2>Newsletter</h2>
-              <Button className="my-3" href="https://eepurl.com/doWD8X" target="_blank" variant="secondary">Prihlásiť sa na newsletter</Button>
-              <h2>Sledujte nás</h2>
+              <h2 className="mb-0">Newsletter</h2>
+              <Button className="mt-3" href="https://eepurl.com/doWD8X" target="_blank" variant="secondary">Prihlásiť sa na newsletter</Button>
+              <h2 className="mt-4 mb-0">Sledujte nás</h2>
               <div className="social-icons my-3">
                 <SocialIcon bgColor={ colorOrange } className="me-2" url="https://www.facebook.com/transparencysk" />
+                <SocialIcon bgColor={ colorOrange } className="me-2" url="https://www.instagram.com/transparencysk" />
                 <SocialIcon bgColor={ colorOrange } className="me-2" url="https://twitter.com/transparencysk" />
                 <SocialIcon bgColor={ colorOrange } className="me-2" url="https://www.linkedin.com/company/transparency-international-slovakia" />
                 <SocialIcon bgColor={ colorOrange } url="https://www.youtube.com/user/TISlovensko" />
               </div>
+              <h2 className="mt-4 mb-0">Podporte Transparency</h2>
+              <Button className="my-3 text-uppercase fw-bold" href="https://transparency.darujme.sk/volby/" target="_blank" variant="secondary">Podporte</Button>
             </Col>
             <Col md={12} lg={4}>
               <FbFeed appId="210544879524339" name="Transparency International Slovensko" url="https://www.facebook.com/transparencysk/" />
