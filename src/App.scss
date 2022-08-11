@@ -31,8 +31,7 @@ header {
   background-position-y: 50%;
   position: relative;
   h1 {
-    padding-top: 1.5em;
-    padding-bottom: 2em;
+    padding: 1.5em 0.5em 2em;
     margin: 0;
     width: 100%;
   }
@@ -45,7 +44,7 @@ header {
         left: 50%;
         top: 50%;
         transform: translate(-50%, -75%);
-        padding: 0;
+        padding: 0 0.5em;
       }
     }
   }
