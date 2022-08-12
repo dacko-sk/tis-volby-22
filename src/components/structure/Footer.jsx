@@ -43,7 +43,7 @@ function Footer() {
                 <SocialIcon bgColor={ colorOrange } url="https://www.youtube.com/user/TISlovensko" />
               </div>
               <h2 className="mt-4 mb-0">Podporte Transparency</h2>
-              <Button className="my-3 text-uppercase fw-bold" href="https://transparency.darujme.sk/volby/" target="_blank" variant="secondary">Podporte</Button>
+              <Button className="my-3 text-uppercase fw-bold" href="https://transparency.sk/volby" target="_blank" variant="secondary">Podporte</Button>
             </Col>
             <Col md={12} lg={4}>
               <FbFeed appId="210544879524339" name="Transparency International Slovensko" url="https://www.facebook.com/transparencysk/" />

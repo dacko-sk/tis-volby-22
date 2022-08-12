@@ -1,4 +1,5 @@
 import { NavLink } from 'react-router-dom';
+import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -20,7 +21,7 @@ function Header() {
             <Nav.Link as={NavLink} to={routes.news}>Aktuality</Nav.Link>
             <Nav.Link as={NavLink} to={routes.analyses}>Hodnotenia</Nav.Link>
           </Nav>
-          <a role="button" tabIndex="0" href="https://transparency.darujme.sk/volby/" target="_blank" className="btn btn-secondary btn-xl" rel="noreferrer">PODPORTE</a>
+          <Button className="btn-xl text-uppercase fw-bold" href="https://transparency.sk/volby" target="_blank" variant="secondary">Podporte</Button>
         </Navbar.Collapse>
       </Container>
     </Navbar>
