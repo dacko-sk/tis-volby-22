@@ -1,6 +1,6 @@
-@use "sass:map";
-@import "./scss/variables";
-@import "./scss/bootstrap_custom";
+@use 'sass:map';
+@import './scss/variables';
+@import './scss/bootstrap_custom';
 
 /* font */
 @import url(https://fonts.googleapis.com/css?family=Ubuntu:#{$fw-regular},#{$fw-bold}&subset=latin,latin-ext);
@@ -15,12 +15,18 @@ body {
   margin: 0;
 }
 
-input, textarea, keygen, select, option, button {
+input,
+textarea,
+keygen,
+select,
+option,
+button {
   font-family: $font-family, sans-serif;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
 }
 
 header {
@@ -35,7 +41,7 @@ header {
     margin: 0;
     width: 100%;
   }
-  
+
   @media (min-width: map.get($grid-breakpoints, 'md')) {
     & {
       min-height: 250px;
@@ -48,19 +54,19 @@ header {
       }
     }
   }
-  
+
   @media (min-width: map.get($grid-breakpoints, 'lg')) {
     & {
       min-height: 280px;
     }
   }
-  
+
   @media (min-width: map.get($grid-breakpoints, 'xl')) {
     & {
       min-height: 320px;
     }
   }
-  
+
   @media (min-width: map.get($grid-breakpoints, 'xxl')) {
     & {
       min-height: 350px;
@@ -74,13 +80,15 @@ h1 {
   font-weight: $fw-bold;
 }
 
-h2, h3, h4 {
+h2,
+h3,
+h4 {
   color: $tis-light-blue;
 }
 
 .layout-default {
-  display: flex; 
-  flex-direction: column; 
+  display: flex;
+  flex-direction: column;
   height: 100vh;
 }
 
@@ -123,7 +131,8 @@ h2, h3, h4 {
   color: white;
   font-size: 12px;
   a {
-    &, &:hover {
+    &,
+    &:hover {
       color: #ccc;
       text-decoration: none;
     }

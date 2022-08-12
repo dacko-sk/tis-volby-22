@@ -73,6 +73,7 @@ const parserOptions = {
                 return <></>;
             }
         }
+        // otherwise no replacement
         return null;
     },
 };

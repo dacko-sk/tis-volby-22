@@ -1,4 +1,4 @@
-@import "./../scss/variables";
+@import './../scss/variables';
 
 .loading {
   &.big {
@@ -124,12 +124,13 @@
       top: 56px;
       left: 56px;
       animation-delay: -1.6s;
-    }  
+    }
   }
 }
 
 @keyframes lds-grid {
-  0%, 100% {
+  0%,
+  100% {
     opacity: 1;
   }
   50% {

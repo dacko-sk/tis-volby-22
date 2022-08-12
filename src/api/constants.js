@@ -1,4 +1,4 @@
-export const img_root_path = '/img/';
+export const imgRootPath = '/img/';
 
 export const colorLightBlue = '#2bace2';
 export const colorDarkBlue = '#1b335f';
@@ -8,7 +8,7 @@ export const colors = {
     colorLightBlue,
     colorDarkBlue,
     colorOrange,
-}
+};
 
 export const labels = {
     elections: {
@@ -17,56 +17,57 @@ export const labels = {
         party_key: 'PS',
         local: {
             key: 'miestne',
-            name: 'miestne voľby'
+            name: 'miestne voľby',
         },
         regional: {
             key: 'župné',
-            name: 'župné voľby'
+            name: 'župné voľby',
         },
     },
-    charts : {
-        disclaimer: 'Grafy obsahujú iba dáta z transparentných účtov evidovaných podľa zákona na webe ministerstva vnútra.',
+    charts: {
+        disclaimer:
+            'Grafy obsahujú iba dáta z transparentných účtov evidovaných podľa zákona na webe ministerstva vnútra.',
         updated: 'Naposledy aktualizované',
         incoming: 'Príjmy',
         outgoing: 'Výdavky',
         uniqeDonors: 'Počet unikátnych darcov',
     },
     showMore: 'Zobraziť viac',
-}
+};
 
 export const charts = {
     columns: {
         inOut: [
             {
-                key: "outgoing",
+                key: 'outgoing',
                 name: labels.charts.outgoing,
-                color: colorOrange
-            }, 
+                color: colorOrange,
+            },
             {
-                key: "incoming",
+                key: 'incoming',
                 name: labels.charts.incoming,
-                color: colorDarkBlue
-            }
+                color: colorDarkBlue,
+            },
         ],
         donors: [
             {
-                key: "num_unique_donors",
+                key: 'num_unique_donors',
                 name: labels.charts.uniqeDonors,
-                color: colorDarkBlue
-            }
-        ]
-    }
+                color: colorDarkBlue,
+            },
+        ],
+    },
 };
 
 export const errors = {
     loading: 'Chyba pri načítaní dát. Prosím načítajte stránku znovu.',
-}
+};
 
 export const constants = {
     colors,
     charts,
     errors,
     labels,
-}
+};
 
 export default constants;

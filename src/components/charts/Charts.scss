@@ -1,25 +1,26 @@
-@import "./../../scss/variables";
+@import './../../scss/variables';
 
 .chart-outer.scrollable {
-    height: 400px;
-    overflow-y: scroll;
+  height: 400px;
+  overflow-y: scroll;
 }
 
 .chart {
-    width: 100%;
-    aspect-ratio: 2/1;
-    margin: 0 auto;
-    font-size: 13px;
+  width: 100%;
+  aspect-ratio: 2/1;
+  margin: 0 auto;
+  font-size: 13px;
 }
 
 tspan {
-    &.name, text.recharts-cartesian-axis-tick-value[type=category] & {
-        font-weight: $fw-bold;
-    }
-    &.cat-regional {
-        fill: $tis-orange;
-    }
-    &.cat-local {
-        fill: $tis-light-blue
-    }
+  &.name,
+  text.recharts-cartesian-axis-tick-value[type='category'] & {
+    font-weight: $fw-bold;
+  }
+  &.cat-regional {
+    fill: $tis-orange;
+  }
+  &.cat-local {
+    fill: $tis-light-blue;
+  }
 }

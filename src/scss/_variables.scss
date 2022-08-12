@@ -1,7 +1,7 @@
 $tis-light-blue: rgb(43, 172, 226);
 $tis-dark-blue: rgb(27, 51, 95);
 $tis-orange: rgb(240, 108, 80);
-$tis-grey: rgb(233,242,249);
+$tis-grey: rgb(233, 242, 249);
 
 $fw-regular: 400;
 $fw-bold: 700;
@@ -13,18 +13,18 @@ $grid-breakpoints: (
   md: 768px,
   lg: 992px,
   xl: 1200px,
-  xxl: 1400px
+  xxl: 1400px,
 ) !default;
 
-$font-size-base:              1rem !default; // Assumes the browser default, typically `16px`
-$font-size-sm:                $font-size-base * .875 !default;
-$font-size-lg:                $font-size-base * 1.25 !default;
-$h1-font-size:                $font-size-base * 3.5 !default;
-$h2-font-size:                $font-size-base * 2 !default;
-$h3-font-size:                $font-size-base * 1.75 !default;
-$h4-font-size:                $font-size-base * 1.5 !default;
-$h5-font-size:                $font-size-base * 1.25 !default;
-$h6-font-size:                $font-size-base !default;
+$font-size-base: 1rem !default; // Assumes the browser default, typically `16px`
+$font-size-sm: $font-size-base * 0.875 !default;
+$font-size-lg: $font-size-base * 1.25 !default;
+$h1-font-size: $font-size-base * 3.5 !default;
+$h2-font-size: $font-size-base * 2 !default;
+$h3-font-size: $font-size-base * 1.75 !default;
+$h4-font-size: $font-size-base * 1.5 !default;
+$h5-font-size: $font-size-base * 1.25 !default;
+$h6-font-size: $font-size-base !default;
 
 $primary: $tis-light-blue;
 $secondary: $tis-orange;
@@ -41,7 +41,7 @@ $pagination-hover-color: $tis-dark-blue;
 $navbar-padding-y: 0;
 $navbar-light-color: $tis-dark-blue;
 $navbar-light-active-color: white;
-$navbar-brand-padding-y: .75rem;
+$navbar-brand-padding-y: 0.75rem;
 // $nav-link-font-weight: $fw-bold;
 // $navbar-nav-link-padding-x: 2rem;
 // $nav-link-padding-y: 1.25rem;
