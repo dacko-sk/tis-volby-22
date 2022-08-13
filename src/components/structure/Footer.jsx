@@ -14,19 +14,19 @@ function Footer() {
                 <Container>
                     <Row>
                         <Col md={6} lg={4}>
-                            <h2 className="mb-0">Kontakt</h2>
+                            <h2 className="mb-3">Kontakt</h2>
                             <a
                                 href="https://www.transparency.sk"
                                 target="_blank"
                                 rel="noreferrer"
                             >
                                 <img
-                                    className="logo my-3"
+                                    className="logo"
                                     src={imgPath('tis-logo-blue.png')}
                                     alt="Transparency International Slovensko"
                                 />
                             </a>
-                            <p>
+                            <p className="mt-3">
                                 Transparency International Slovensko
                                 <br />
                                 Bajkalská 25
@@ -40,10 +40,22 @@ function Footer() {
                                     tis@transparency.sk
                                 </a>
                                 <br />
-                                <a href="https://www.transparency.sk">
+                                <a
+                                    href="https://www.transparency.sk"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                >
                                     www.transparency.sk
                                 </a>
                             </p>
+                            <h2 className="mt-4 mb-3">Užitočné informácie</h2>
+                            <a
+                                href="https://transparency.sk/sk/sukromie/"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                Ochrana súkromia
+                            </a>
                         </Col>
                         <Col md={6} lg={4}>
                             <h2 className="mb-0">Newsletter</h2>
