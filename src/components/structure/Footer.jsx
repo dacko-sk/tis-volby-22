@@ -15,11 +15,17 @@ function Footer() {
                     <Row>
                         <Col md={6} lg={4}>
                             <h2 className="mb-0">Kontakt</h2>
-                            <img
-                                className="logo my-3"
-                                src={imgPath('tis-logo-blue.png')}
-                                alt="Transparency International Slovensko"
-                            />
+                            <a
+                                href="https://www.transparency.sk"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                <img
+                                    className="logo my-3"
+                                    src={imgPath('tis-logo-blue.png')}
+                                    alt="Transparency International Slovensko"
+                                />
+                            </a>
                             <p>
                                 Transparency International Slovensko
                                 <br />
