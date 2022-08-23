@@ -8,6 +8,10 @@ import Header from './Header';
 import Footer from './Footer';
 import CookieBanner from '../general/CookieBanner';
 
+// const gtag = function (...args) {
+//     window.dataLayer.push(args);
+// };
+
 function Layout() {
     const { setCsvData } = useData();
     const { readRemoteFile } = usePapaParse();
@@ -28,11 +32,30 @@ function Layout() {
             ReactGA.initialize(gaTrackingId);
             setGaReady(true);
         }
+        // include https://www.googletagmanager.com/gtag/js?id=UA-134559494-1
+        // window.dataLayer = window.dataLayer || [];
+        // gtag('consent', 'default', {
+        //     ad_storage: 'denied',
+        //     ads_data_redaction: 'true',
+        //     analytics_storage: 'denied',
+        // });
+        // gtag('js', new Date());
+        // gtag('config', gaTrackingId, {
+        //     send_page_view: false,
+        // });
+
+        // setGaReady(true);
     }, []);
 
     useEffect(() => {
         if (gaReady) {
+            // send pageview to analytics
             ReactGA.pageview(pathname);
+            // // gtag('config', gaTrackingId, {
+            // //     page_path: pathname,
+            // // });
+            // gtag('set', 'page_path', pathname);
+            // gtag('event', 'page_view');
         }
     }, [gaReady, pathname]);
 
