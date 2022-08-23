@@ -17,6 +17,11 @@
   --bs-btn-hover-border-color: #{$tis-dark-blue};
 }
 
+.btn-success {
+  --bs-btn-hover-bg: #{$tis-orange};
+  --bs-btn-hover-border-color: #{$tis-orange};
+}
+
 @media (max-width: map.get($grid-breakpoints, 'lg')) {
   .navbar-nav {
     --bs-nav-link-padding-x: 0.5em;

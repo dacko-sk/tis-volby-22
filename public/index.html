@@ -7,11 +7,16 @@
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
-      content="Analýza transparentných účtov politických strán a kanditádov do komunálnych a župných volieb 2022"
+      content="Analýza transparentných účtov politických strán a kanditádov do miestnych a župných volieb 2022"
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/img/logo192.png" />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <title>Samosprávne voľby 2022 : Transparency International Slovensko</title>
+    <% if (process.env.NODE_ENV === 'production') { %>
+
+    <% } else { %>
+      <meta name="robots" content="noindex" />
+    <% } %>
   </head>
   <body>
     <noscript>Na správne zpbrazenie tejto stránky potrebujete JavaScript.</noscript>

@@ -6,6 +6,7 @@ import { gaTrackingId } from '../../api/constants';
 import useData, { csvFile, buildParserConfig } from '../../context/DataContext';
 import Header from './Header';
 import Footer from './Footer';
+import CookieBanner from '../general/CookieBanner';
 
 function Layout() {
     const { setCsvData } = useData();
@@ -47,6 +48,7 @@ function Layout() {
                 <Outlet />
             </main>
             <Footer />
+            <CookieBanner />
         </div>
     );
 }
