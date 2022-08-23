@@ -27,7 +27,6 @@ export const buildParserConfig = (storeDataCallback) => {
         complete: (results) => {
             const data = processData(results);
             storeDataCallback(data);
-            console.log('storing CSV data in context');
         },
     };
 };

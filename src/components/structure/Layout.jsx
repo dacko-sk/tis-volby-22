@@ -17,7 +17,6 @@ function Layout() {
     useEffect(() => {
         // load election data from CSV API and store in context provider
         // TODO: do this also if timestamp of data is older than 1 hour
-        console.log('requesting CSV data');
         const parserConfig = buildParserConfig(setCsvData);
         readRemoteFile(csvFile, parserConfig);
     }, []);
