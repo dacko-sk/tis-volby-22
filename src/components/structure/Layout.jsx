@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Outlet, useLocation } from 'react-router-dom';
 import { usePapaParse } from 'react-papaparse';
-// import ReactGA from 'react-ga';
 import { gaTrackingId } from '../../api/constants';
 import useData, { csvFile, buildParserConfig } from '../../context/DataContext';
 import Header from './Header';
@@ -24,7 +23,6 @@ function Layout() {
     useEffect(() => {
         // init GA
         if (!window.location.href.includes('localhost')) {
-            // ReactGA.initialize(gaTrackingId);
             setGaReady(true);
         }
     }, []);
@@ -32,7 +30,6 @@ function Layout() {
     useEffect(() => {
         if (gaReady) {
             // send pageview to analytics
-            // ReactGA.pageview(pathname);
             window.gtag('config', gaTrackingId, {
                 page_path: pathname,
             });
