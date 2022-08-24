@@ -1,4 +1,5 @@
 import { createContext, useContext, useMemo, useState } from 'react';
+import has from 'has';
 
 const lsKey = 'cookies-config';
 
@@ -11,14 +12,15 @@ const initialState = {
     setCookies: () => {},
 };
 
-export const setAnaliticsStorage = (prevState, currState) => {
-    if (
-        prevState !== currState &&
-        !window.location.href.includes('localhost')
-    ) {
-        window.gtag('consent', 'update', {
-            analytics_storage: currState ? 'granted' : 'denied',
-        });
+export const setAnaliticsStorage = (oldVal) => {
+    if (!window.location.href.includes('localhost')) {
+        const ls = JSON.parse(localStorage.getItem(lsKey));
+        const newVal = ls && has(ls, 'analytics') ? ls.analytics : false;
+        if (oldVal !== newVal) {
+            window.gtag('consent', 'update', {
+                analytics_storage: newVal ? 'granted' : 'denied',
+            });
+        }
     }
 };
 
@@ -31,7 +33,7 @@ export const generateSetter = (open, functional, analytics) => {
             analytics,
         };
         localStorage.setItem(lsKey, JSON.stringify(newConfig));
-        setAnaliticsStorage(prevState.analytics, analytics);
+        setAnaliticsStorage(prevState.analytics);
         return newConfig;
     };
 };

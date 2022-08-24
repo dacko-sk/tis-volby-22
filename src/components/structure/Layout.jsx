@@ -44,17 +44,17 @@ function Layout() {
         };
     }, [reloadData]);
 
+    // send pageview to analytics on route change
     useEffect(() => {
         if (!window.location.href.includes('localhost')) {
-            // send pageview to analytics
             window.gtag('config', gaTrackingId, {
                 page_path: pathname,
             });
         }
     }, [pathname]);
 
+    // scroll to top when route changes
     useEffect(() => {
-        // scroll to top when route changes
         window.scrollTo(0, 0);
     }, [pathname]);
 

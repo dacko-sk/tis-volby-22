@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import has from 'has';
 import Accordion from 'react-bootstrap/Accordion';
 import Button from 'react-bootstrap/Button';
@@ -6,7 +6,10 @@ import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import Row from 'react-bootstrap/Row';
-import useCookies, { generateSetter } from '../../context/CookiesContext';
+import useCookies, {
+    generateSetter,
+    setAnaliticsStorage,
+} from '../../context/CookiesContext';
 
 import './CookieBanner.scss';
 
@@ -44,6 +47,11 @@ function CookieBanner() {
     const rejectAllClick = () => setAllChecks(false);
 
     const acceptAllClick = () => setAllChecks(true);
+
+    // update google tag privacy rules on first load
+    useEffect(() => {
+        setAnaliticsStorage(false);
+    }, []);
 
     if (cookies && has(cookies, 'open') && !cookies.open) {
         return (
