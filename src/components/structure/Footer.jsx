@@ -6,6 +6,7 @@ import { SocialIcon } from 'react-social-icons';
 import { colorOrange } from '../../api/constants';
 import { imgPath } from '../../api/helpers';
 import FbFeed from '../FbFeed';
+import CookieBanner from '../general/CookieBanner';
 
 function Footer() {
     return (
@@ -56,6 +57,7 @@ function Footer() {
                             >
                                 Ochrana súkromia
                             </a>
+                            <CookieBanner />
                         </Col>
                         <Col md={6} lg={4}>
                             <h2 className="mb-0">Newsletter</h2>
@@ -108,7 +110,7 @@ function Footer() {
                             <FbFeed
                                 appId="210544879524339"
                                 name="Transparency International Slovensko"
-                                url="https://www.facebook.com/transparencysk/"
+                                url="https://www.facebook.com/transparencysk"
                             />
                         </Col>
                     </Row>

@@ -1,20 +1,32 @@
 import { memo, useEffect } from 'react';
+import has from 'has';
+import { SocialIcon } from 'react-social-icons';
+import { colorDarkBlue } from '../api/constants';
+import useCookies from '../context/CookiesContext';
 
 const FbFeed = memo(({ appId, name, url }) => {
+    const { cookies } = useCookies();
+    const consent = cookies && has(cookies, 'functional') && cookies.functional;
+
     useEffect(() => {
         const script = document.createElement('script');
 
         script.src = `https://connect.facebook.net/sk_SK/sdk.js#xfbml=1&version=v14.0&appId=${appId}&autoLogAppEvents=1`;
+        script.id = 'fbscript';
         script.async = true;
         script.defer = true;
         script.crossOrigin = 'anonymous';
 
-        document.body.appendChild(script);
+        if (consent) {
+            document.body.appendChild(script);
+        }
 
         return () => {
-            document.body.removeChild(script);
+            if (document.getElementById('fbscript')) {
+                document.body.removeChild(script);
+            }
         };
-    }, []);
+    }, [consent]);
 
     return (
         <div className="fb-feed">
@@ -31,7 +43,20 @@ const FbFeed = memo(({ appId, name, url }) => {
                 data-show-facepile="true"
             >
                 <blockquote cite={url} className="fb-xfbml-parse-ignore">
-                    <a href={url}>{name}</a>
+                    <div className="text-center">
+                        <SocialIcon
+                            bgColor={colorDarkBlue}
+                            className="me-2"
+                            url={url}
+                        />
+                        <a href={url} className="d-block my-3">
+                            {name}
+                        </a>
+                        <p className="fst-italic">
+                            Pre zobrazenie facebook vlákna je potrebné prijať
+                            Funkčné cookies v Nastaveniach cookies
+                        </p>
+                    </div>
                 </blockquote>
             </div>
         </div>

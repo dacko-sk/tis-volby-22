@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
-import { DataProvider } from './context/DataContext';
+import ContextProviders from './context/ContextProviders';
 import { segments, separator } from './api/routes';
 
 import AllCampaigns from './pages/AllCampaigns';
@@ -20,7 +20,7 @@ const queryClient = new QueryClient();
 
 function App() {
     return (
-        <DataProvider>
+        <ContextProviders>
             <QueryClientProvider client={queryClient}>
                 <BrowserRouter>
                     <Routes>
@@ -73,7 +73,7 @@ function App() {
                     </Routes>
                 </BrowserRouter>
             </QueryClientProvider>
-        </DataProvider>
+        </ContextProviders>
     );
 }
 
