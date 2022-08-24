@@ -1,6 +1,6 @@
 import { createContext, useContext, useMemo, useState } from 'react';
 
-const lsKey = 'tis-cookies';
+const lsKey = 'cookies-config';
 
 const initialState = {
     cookies: JSON.parse(localStorage.getItem(lsKey)) || {

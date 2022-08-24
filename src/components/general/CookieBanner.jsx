@@ -48,7 +48,7 @@ function CookieBanner() {
     if (cookies && has(cookies, 'open') && !cookies.open) {
         return (
             <Button
-                className="d-block mt-3"
+                className="d-block my-3"
                 variant="primary"
                 onClick={openSettingsClick}
             >
@@ -119,7 +119,7 @@ function CookieBanner() {
                         </Button>
                         <Button
                             className="mb-2 mb-sm-0 me-0 me-sm-3"
-                            variant="secondary"
+                            variant="success"
                             onClick={acceptSelectionClick}
                         >
                             Potvrdiť výber

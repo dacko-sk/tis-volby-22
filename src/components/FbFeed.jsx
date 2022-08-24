@@ -54,7 +54,7 @@ const FbFeed = memo(({ appId, name, url }) => {
                         </a>
                         <p className="fst-italic">
                             Pre zobrazenie facebook vlákna je potrebné prijať
-                            Funkčné cookies v Nastaveniach cookies
+                            ukladanie Funkčných cookies v Nastaveniach cookies
                         </p>
                     </div>
                 </blockquote>
