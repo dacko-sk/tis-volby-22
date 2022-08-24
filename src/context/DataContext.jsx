@@ -4,6 +4,7 @@ import has from 'has';
 export const csvFile =
     'https://raw.githubusercontent.com/matusv/transparent-account-data-slovak-elections-2022/main/aggregation.csv';
 export const baseDate = 1659535519;
+export const reloadMinutes = 70;
 
 export const processData = (data) => {
     let lastUpdate = baseDate;
