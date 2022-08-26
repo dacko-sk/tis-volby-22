@@ -114,16 +114,17 @@ h4 {
   font-size: 24px;
 }
 
+footer h2 {
+  color: $tis-dark-blue;
+  font-weight: $fw-bold;
+}
+
 .donors p {
   font-size: 0.9em;
 }
 
 .footer-top {
   background-color: $tis-grey;
-  h2 {
-    color: $tis-dark-blue;
-    font-weight: $fw-bold;
-  }
   .logo {
     max-width: 100%;
     width: 200px;
