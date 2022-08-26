@@ -12,6 +12,7 @@ export const colors = {
 };
 
 export const labels = {
+    disclaimerAccount: 'Príjmy aj výdavky sú očistené o vrátené platby.',
     elections: {
         type_key: 'typ volieb',
         municipality_key: 'samospráva',
@@ -27,7 +28,7 @@ export const labels = {
     },
     charts: {
         disclaimer:
-            'Grafy obsahujú iba dáta z transparentných účtov evidovaných podľa zákona na webe ministerstva vnútra.',
+            'Grafy obsahujú iba dáta z transparentných účtov evidovaných podľa zákona na webe ministerstva vnútra a sú očistené o vrátené platby.',
         updated: 'Naposledy aktualizované',
         incoming: 'Príjmy',
         outgoing: 'Výdavky',

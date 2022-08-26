@@ -54,66 +54,67 @@ function Candidate() {
                     )}
                 </h1>
             </header>
-            <div>
-                <Table striped bordered responsive hover>
-                    <tbody>
-                        <tr>
-                            <td>Typ volieb</td>
-                            <td>
-                                {substitute(
-                                    candidate[labels.elections.type_key] ??
-                                        labels.elections.local.key
+
+            <Table striped bordered responsive hover>
+                <tbody>
+                    <tr>
+                        <td>Typ volieb</td>
+                        <td>
+                            {substitute(
+                                candidate[labels.elections.type_key] ??
+                                    labels.elections.local.key
+                            )}
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Kraj</td>
+                        <td>{substitute(candidate.label)}</td>
+                    </tr>
+                    <tr>
+                        <td>{labels.charts.incoming}</td>
+                        <td>{currencyFormat(candidate.sum_incoming)}</td>
+                    </tr>
+                    <tr>
+                        <td>{labels.charts.outgoing}</td>
+                        <td>{currencyFormat(candidate.sum_outgoing)}</td>
+                    </tr>
+                    <tr>
+                        <td>Bilancia</td>
+                        <td>{currencyFormat(candidate.balance)}</td>
+                    </tr>
+                    <tr>
+                        <td>Počet príjmov</td>
+                        <td>{candidate.num_incoming}</td>
+                    </tr>
+                    <tr>
+                        <td>Počet výdavkov</td>
+                        <td>{candidate.num_outgoing}</td>
+                    </tr>
+                    <tr>
+                        <td>{labels.charts.uniqeDonors}</td>
+                        <td>{candidate.num_unique_donors}</td>
+                    </tr>
+                    <tr>
+                        <td>Transparentný účet</td>
+                        <td>
+                            <a
+                                href={candidate.url}
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                {shortenValue(
+                                    candidate.url
+                                        .replace('https://', '')
+                                        .replace('www.', ''),
+                                    32
                                 )}
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Kraj</td>
-                            <td>{substitute(candidate.label)}</td>
-                        </tr>
-                        <tr>
-                            <td>{labels.charts.incoming}</td>
-                            <td>{currencyFormat(candidate.sum_incoming)}</td>
-                        </tr>
-                        <tr>
-                            <td>{labels.charts.outgoing}</td>
-                            <td>{currencyFormat(candidate.sum_outgoing)}</td>
-                        </tr>
-                        <tr>
-                            <td>Bilancia</td>
-                            <td>{currencyFormat(candidate.balance)}</td>
-                        </tr>
-                        <tr>
-                            <td>Počet príjmov</td>
-                            <td>{candidate.num_incoming}</td>
-                        </tr>
-                        <tr>
-                            <td>Počet výdavkov</td>
-                            <td>{candidate.num_outgoing}</td>
-                        </tr>
-                        <tr>
-                            <td>{labels.charts.uniqeDonors}</td>
-                            <td>{candidate.num_unique_donors}</td>
-                        </tr>
-                        <tr>
-                            <td>Transparentný účet</td>
-                            <td>
-                                <a
-                                    href={candidate.url}
-                                    target="_blank"
-                                    rel="noreferrer"
-                                >
-                                    {shortenValue(
-                                        candidate.url
-                                            .replace('https://', '')
-                                            .replace('www.', ''),
-                                        32
-                                    )}
-                                </a>
-                            </td>
-                        </tr>
-                    </tbody>
-                </Table>
-            </div>
+                            </a>
+                        </td>
+                    </tr>
+                </tbody>
+            </Table>
+
+            <em className="disclaimer">{labels.disclaimerAccount}</em>
         </section>
     );
 }

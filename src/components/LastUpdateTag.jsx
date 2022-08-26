@@ -10,9 +10,13 @@ function LastUpdateTag({ short }) {
         : baseDate;
 
     return (
-        <em className="updated">
-            {short ? '' : labels.charts.disclaimer} {labels.charts.updated}{' '}
-            {dateFormat(lastUpdate)}.
+        <em className="disclaimer">
+            {!short && (
+                <span>
+                    {labels.charts.disclaimer} <br className="d-xl-none" />
+                </span>
+            )}
+            {labels.charts.updated} {dateFormat(lastUpdate)}.
         </em>
     );
 }
