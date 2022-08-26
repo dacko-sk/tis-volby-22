@@ -11,6 +11,40 @@ import CookieBanner from '../general/CookieBanner';
 function Footer() {
     return (
         <footer className="mt-auto">
+            <div className="donors">
+                <Container>
+                    <h2 className="mb-3 text-center">Donori projektu</h2>
+                    <Row className="justify-content-around">
+                        <Col className="d-flex" xs={10} md={5} xl={4}>
+                            <img
+                                className="mw-100 align-self-center"
+                                src={imgPath('Visegrad_logo.png')}
+                            />
+                        </Col>
+                        <Col className="d-flex" xs={10} md={5} xl={4}>
+                            <img
+                                className="mw-100 align-self-center"
+                                src={imgPath('ACF_logo.jpg')}
+                            />
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col>
+                            <p className="mt-2 mb-4 fst-italic">
+                                Projekt ‘Aktívnym občianstvom ku kvalitnejšej
+                                samospráve (With Active Citizenship for a Better
+                                Selfgovernment)’ je podporený z programu ACF -
+                                Slovakia, ktorý je financovaný z Finančného
+                                mechanizmu EHP 2014-2021. Správcom programu je
+                                Nadácia Ekopolis v partnerstve s Nadáciou
+                                otvorenej spoločnosti Bratislava a Karpatskou
+                                nadáciou.
+                            </p>
+                        </Col>
+                    </Row>
+                </Container>
+            </div>
+
             <div className="footer-top py-5">
                 <Container>
                     <Row>
@@ -116,6 +150,7 @@ function Footer() {
                     </Row>
                 </Container>
             </div>
+
             <div className="footer-bottom py-3">
                 <Container>
                     <Row>
