@@ -1,6 +1,6 @@
 import Alert from 'react-bootstrap/Alert';
-import { segments } from '../api/routes';
-import Posts from '../components/wp/Posts';
+// import { segments } from '../api/routes';
+// import Posts from '../components/wp/Posts';
 
 function Analyses() {
     return (
@@ -12,11 +12,11 @@ function Analyses() {
                 Sekcia sa pripravuje. Hodnotenia kampaní budeme zverejňovať
                 postupne.
             </Alert>
-            <Posts
+            {/* <Posts
                 categories={[859]}
                 section={segments.ANALYSES}
                 img="politician.png"
-            />
+            /> */}
         </section>
     );
 }
