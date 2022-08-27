@@ -11,26 +11,36 @@ import CookieBanner from '../general/CookieBanner';
 function Footer() {
     return (
         <footer className="mt-auto">
-            <div className="donors">
+            <div className="footer-top py-5">
                 <Container>
                     <h2 className="mb-3 text-center">Donori projektu</h2>
                     <Row className="justify-content-around">
-                        <Col className="d-flex" xs={10} md={5} xl={4}>
+                        <Col
+                            className="d-flex mb-3 mb-md-0"
+                            xs={10}
+                            md={5}
+                            xl={4}
+                        >
                             <img
                                 className="mw-100 align-self-center"
-                                src={imgPath('Visegrad_logo.png')}
+                                src={imgPath('Visegrad_logo_black.png')}
                             />
                         </Col>
-                        <Col className="d-flex" xs={10} md={5} xl={4}>
+                        <Col
+                            className="d-flex mb-3 mb-md-0"
+                            xs={10}
+                            md={5}
+                            xl={4}
+                        >
                             <img
                                 className="mw-100 align-self-center"
-                                src={imgPath('ACF_logo.jpg')}
+                                src={imgPath('ACF_logo.png')}
                             />
                         </Col>
                     </Row>
                     <Row>
                         <Col>
-                            <p className="mt-2 mb-4 fst-italic">
+                            <p className="donors mt-2 mb-5 fst-italic">
                                 Projekt ‘Aktívnym občianstvom ku kvalitnejšej
                                 samospráve (With Active Citizenship for a Better
                                 Selfgovernment)’ je podporený z programu ACF -
@@ -42,11 +52,6 @@ function Footer() {
                             </p>
                         </Col>
                     </Row>
-                </Container>
-            </div>
-
-            <div className="footer-top py-5">
-                <Container>
                     <Row>
                         <Col md={6} lg={4}>
                             <h2 className="mb-3">Kontakt</h2>
@@ -132,7 +137,7 @@ function Footer() {
                             </div>
                             <h2 className="mt-4 mb-0">Podporte Transparency</h2>
                             <Button
-                                className="my-3 text-uppercase fw-bold"
+                                className="mt-3 text-uppercase fw-bold"
                                 href="https://transparency.sk/volby"
                                 target="_blank"
                                 variant="secondary"
