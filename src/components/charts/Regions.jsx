@@ -60,7 +60,7 @@ function Regions() {
             <div>
                 {regional[region].length > 0 && (
                     <TisBarChart
-                        title="Voľby do VÚC"
+                        title={labels.elections.regional.name}
                         data={regional[region]
                             .sort(sortBySpending)
                             .slice(0, 10)}
@@ -70,7 +70,7 @@ function Regions() {
                 )}
                 {local[region].length > 0 && (
                     <TisBarChart
-                        title="Miestne voľby"
+                        title={labels.elections.local.name}
                         data={local[region].sort(sortBySpending).slice(0, 10)}
                         currency
                         vertical

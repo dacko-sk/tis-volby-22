@@ -40,7 +40,7 @@ function Footer() {
                     </Row>
                     <Row>
                         <Col>
-                            <p className="donors mt-2 mb-5 fst-italic">
+                            <p className="donors mt-2 mb-4 fst-italic">
                                 Projekt ‘Aktívnym občianstvom ku kvalitnejšej
                                 samospráve (With Active Citizenship for a Better
                                 Selfgovernment)’ je podporený z programu ACF -
@@ -137,7 +137,7 @@ function Footer() {
                             </div>
                             <h2 className="mt-4 mb-0">Podporte Transparency</h2>
                             <Button
-                                className="mt-3 text-uppercase fw-bold"
+                                className="mt-3 mb-4 text-uppercase fw-bold"
                                 href="https://transparency.sk/volby"
                                 target="_blank"
                                 variant="secondary"

@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { useQuery } from '@tanstack/react-query';
 import { useNavigate } from 'react-router-dom';
+import Alert from 'react-bootstrap/Alert';
 import Pagination from 'react-bootstrap/Pagination';
 import has from 'has';
 import { dateFormat, parseWpHtml } from '../../api/helpers';
@@ -16,12 +17,15 @@ function Posts(props) {
     const categories = has(props, 'categories')
         ? props.categories.join()
         : '858';
+    const categoriesExclude = has(props, 'categoriesExclude')
+        ? `&categories_exclude=${props.categoriesExclude.join()}`
+        : '';
     const section = has(props, 'section') ? props.section : segments.NEWS;
     const { isLoading, error, data } = useQuery(
-        [`all_news_${categories}_${activePage}`],
+        [`all_posts_${categories}_${activePage}`],
         () =>
             fetch(
-                `https://cms.transparency.sk/wp-json/wp/v2/posts?categories=${categories}&per_page=10&page=${activePage}`
+                `https://cms.transparency.sk/wp-json/wp/v2/posts?categories=${categories}${categoriesExclude}&per_page=10&page=${activePage}`
             ).then((response) => {
                 if (response.headers) {
                     const wptp = Number(
@@ -55,9 +59,9 @@ function Posts(props) {
     };
 
     const articles = [];
-    let loading = null;
+    let content = null;
     if (isLoading || error) {
-        loading = <Loading error={error} />;
+        content = <Loading error={error} />;
     } else {
         data.forEach((article) => {
             articles.push(
@@ -90,6 +94,15 @@ function Posts(props) {
                 </div>
             );
         });
+        content = articles.length ? (
+            <div className="articles">{articles}</div>
+        ) : (
+            <Alert variant="secondary">
+                {has(props, 'noResults')
+                    ? props.noResults
+                    : 'Neboli nájdené žiadne články.'}
+            </Alert>
+        );
     }
 
     const items = [];
@@ -107,8 +120,7 @@ function Posts(props) {
 
     return (
         <div>
-            {loading}
-            <div className="articles">{articles}</div>
+            {content}
             {items.length > 1 && (
                 <Pagination className="justify-content-center mt-4">
                     {items}

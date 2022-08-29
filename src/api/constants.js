@@ -19,11 +19,11 @@ export const labels = {
         party_key: 'PS',
         local: {
             key: 'miestne',
-            name: 'miestne voľby',
+            name: 'Miestne voľby',
         },
         regional: {
             key: 'župné',
-            name: 'župné voľby',
+            name: 'Župné voľby',
         },
     },
     charts: {
