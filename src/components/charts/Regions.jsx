@@ -4,7 +4,7 @@ import has from 'has';
 import { labels } from '../../api/constants';
 import { sortBySpending, substitute } from '../../api/helpers';
 import useData from '../../context/DataContext';
-import Loading from '../Loading';
+import Loading from '../general/Loading';
 import TisBarChart from './TisBarChart';
 
 function Regions() {

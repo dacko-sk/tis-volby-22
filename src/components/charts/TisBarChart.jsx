@@ -21,7 +21,7 @@ import {
 } from '../../api/helpers';
 import HorizontalTick from './HorizontalTick';
 import VerticalTick, { tickFontSize } from './VerticalTick';
-import LastUpdateTag from '../LastUpdateTag';
+import LastUpdateTag from '../general/LastUpdateTag';
 
 import './Charts.scss';
 

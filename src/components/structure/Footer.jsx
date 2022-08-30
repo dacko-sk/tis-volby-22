@@ -5,7 +5,7 @@ import Button from 'react-bootstrap/Button';
 import { SocialIcon } from 'react-social-icons';
 import { colorOrange } from '../../api/constants';
 import { imgPath } from '../../api/helpers';
-import FbFeed from '../FbFeed';
+import FbFeed from '../general/FbFeed';
 import CookieBanner from '../general/CookieBanner';
 
 function Footer() {

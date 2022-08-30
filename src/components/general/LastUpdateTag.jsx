@@ -1,7 +1,7 @@
 import has from 'has';
-import { labels } from '../api/constants';
-import { dateFormat } from '../api/helpers';
-import useData, { baseDate } from '../context/DataContext';
+import { labels } from '../../api/constants';
+import { dateFormat } from '../../api/helpers';
+import useData, { baseDate } from '../../context/DataContext';
 
 function LastUpdateTag({ short }) {
     const { csvData } = useData();

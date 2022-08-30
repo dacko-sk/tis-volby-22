@@ -1,5 +1,5 @@
 import Top10 from '../components/charts/Top10';
-import TotalSpending from '../components/TotalSpending';
+import TotalSpending from '../components/general/TotalSpending';
 
 function Home() {
     return (

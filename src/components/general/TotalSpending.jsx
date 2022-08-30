@@ -1,7 +1,7 @@
 import has from 'has';
 import Countdown from 'react-countdown';
-import { currencyFormat } from '../api/helpers';
-import useData from '../context/DataContext';
+import { currencyFormat } from '../../api/helpers';
+import useData from '../../context/DataContext';
 import LastUpdateTag from './LastUpdateTag';
 
 import './TotalSpending.scss';

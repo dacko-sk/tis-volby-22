@@ -1,7 +1,7 @@
 import { useQuery } from '@tanstack/react-query';
 import has from 'has';
 import { imgPath } from '../../api/helpers';
-import Loading from '../Loading';
+import Loading from '../general/Loading';
 
 function Media({ id, fallback }) {
     const { isLoading, error, data } = useQuery(

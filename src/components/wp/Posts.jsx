@@ -6,7 +6,7 @@ import Pagination from 'react-bootstrap/Pagination';
 import has from 'has';
 import { dateFormat, parseWpHtml } from '../../api/helpers';
 import Media from './Media';
-import Loading from '../Loading';
+import Loading from '../general/Loading';
 
 import './News.scss';
 import { routes, segments } from '../../api/routes';

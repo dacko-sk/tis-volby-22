@@ -3,7 +3,7 @@ import { useNavigate, useLocation, useParams } from 'react-router-dom';
 import { useQuery } from '@tanstack/react-query';
 import has from 'has';
 import { dateFormat, parseWpHtml } from '../api/helpers';
-import Loading from '../components/Loading';
+import Loading from '../components/general/Loading';
 
 function Article() {
     const params = useParams();
