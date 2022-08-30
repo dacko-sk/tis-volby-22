@@ -41,37 +41,6 @@ header {
     margin: 0;
     width: 100%;
   }
-
-  @media (min-width: map.get($grid-breakpoints, 'md')) {
-    & {
-      min-height: 250px;
-      h1 {
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, -75%);
-        padding: 0 0.5em;
-      }
-    }
-  }
-
-  @media (min-width: map.get($grid-breakpoints, 'lg')) {
-    & {
-      min-height: 280px;
-    }
-  }
-
-  @media (min-width: map.get($grid-breakpoints, 'xl')) {
-    & {
-      min-height: 320px;
-    }
-  }
-
-  @media (min-width: map.get($grid-breakpoints, 'xxl')) {
-    & {
-      min-height: 350px;
-    }
-  }
 }
 
 h1 {
@@ -149,4 +118,41 @@ footer h2 {
 
 .social-svg:hover .social-svg-mask {
   fill: $tis-dark-blue !important;
+}
+
+@media (min-width: map.get($grid-breakpoints, 'md')) {
+  header {
+    min-height: 250px;
+    h1 {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -75%);
+      padding: 0 0.5em;
+    }
+  }
+}
+
+@media (min-width: map.get($grid-breakpoints, 'lg')) {
+  header {
+    min-height: 280px;
+  }
+  #search {
+    max-width: 10em;
+  }
+}
+
+@media (min-width: map.get($grid-breakpoints, 'xl')) {
+  header {
+    min-height: 320px;
+  }
+  #search {
+    max-width: unset;
+  }
+}
+
+@media (min-width: map.get($grid-breakpoints, 'xxl')) {
+  header {
+    min-height: 350px;
+  }
 }

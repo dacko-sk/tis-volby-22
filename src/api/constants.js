@@ -34,6 +34,7 @@ export const labels = {
         outgoing: 'Výdavky',
         uniqeDonors: 'Počet unikátnych darcov',
     },
+    search: 'Vyhľadávanie',
     showMore: 'Zobraziť viac',
 };
 
