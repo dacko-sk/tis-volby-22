@@ -104,8 +104,31 @@ const replacements = {
 export const substitute = (value) =>
     has(replacements, value) ? replacements[value] : value;
 
+const cities = {
+    'Banskobystrický samosprávny kraj': 'Banská Bystrica',
+    'Bratislavský samosprávny kraj': 'Bratislava',
+    'Košický samosprávny kraj': 'Košice',
+    'Nitriansky samosprávny kraj': 'Nitra',
+    'Prešovský samosprávny kraj': 'Prešov',
+    'Trenčiansky samosprávny kraj': 'Trenčín',
+    'Trnavský samosprávny kraj': 'Trnava',
+    'Žilinský samosprávny kraj': 'Žilina',
+};
+
+export const substituteCity = (value) =>
+    has(cities, value) ? cities[value] : value;
+
 export const sortByNumericProp = (prop) => (a, b) => b[prop] - a[prop];
 
 export const sortBySpending = sortByNumericProp('outgoing');
 
 export const imgPath = (filename) => imgRootPath + filename;
+
+export const removeAccentsFromString = (str) => {
+    return str.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+};
+
+export const contains = (haystack, needle) =>
+    removeAccentsFromString(haystack.toLowerCase()).includes(
+        removeAccentsFromString(needle.toLowerCase())
+    );

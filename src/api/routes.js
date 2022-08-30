@@ -8,6 +8,7 @@ export const segments = {
     DONORS: 'donori',
     NEWS: 'aktuality',
     ROOT: '/',
+    SEARCH: 'vyhladavanie',
 };
 
 export const routes = {
@@ -25,4 +26,5 @@ export const routes = {
     donors: segments.ROOT + segments.CHARTS + separator + segments.DONORS,
     home: segments.ROOT,
     news: segments.ROOT + segments.NEWS,
+    search: (query) => segments.ROOT + segments.SEARCH + separator + query,
 };

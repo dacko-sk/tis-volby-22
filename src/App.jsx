@@ -11,6 +11,7 @@ import Candidate from './pages/Candidate';
 import Charts from './pages/Charts';
 import Home from './pages/Home';
 import News from './pages/News';
+import Search from './pages/Search';
 
 import Layout from './components/structure/Layout';
 
@@ -62,6 +63,10 @@ function App() {
                             <Route
                                 path={`${segments.CANDIDATE}/:slug`}
                                 element={<Candidate />}
+                            />
+                            <Route
+                                path={`${segments.SEARCH}/:query`}
+                                element={<Search />}
                             />
 
                             {/* fallback */}

@@ -83,6 +83,13 @@ h4 {
   font-size: 24px;
 }
 
+.cat-regional {
+  color: $tis-orange;
+}
+.cat-local {
+  color: $tis-light-blue;
+}
+
 footer h2 {
   color: $tis-dark-blue;
   font-weight: $fw-bold;
@@ -122,13 +129,8 @@ footer h2 {
 
 @media (min-width: map.get($grid-breakpoints, 'md')) {
   header {
-    min-height: 250px;
     h1 {
-      position: absolute;
-      left: 50%;
-      top: 50%;
-      transform: translate(-50%, -75%);
-      padding: 0 0.5em;
+      padding: 1.25em 0.5em 1.5em;
     }
   }
 }
@@ -136,6 +138,13 @@ footer h2 {
 @media (min-width: map.get($grid-breakpoints, 'lg')) {
   header {
     min-height: 280px;
+    h1 {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -75%);
+      padding: 0 0.5em;
+    }
   }
   #search {
     max-width: 10em;

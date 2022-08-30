@@ -1,13 +1,11 @@
 import { NavLink } from 'react-router-dom';
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
-import InputGroup from 'react-bootstrap/InputGroup';
-import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import { labels } from '../../api/constants';
 import { imgPath } from '../../api/helpers';
 import { routes } from '../../api/routes';
+import SearchField from '../general/SearchField';
 
 function Header() {
     return (
@@ -36,22 +34,7 @@ function Header() {
                             Hodnotenia
                         </Nav.Link>
                     </Nav>
-                    <Form className="mt-2 mt-lg-0 mx-0 mx-lg-3">
-                        <InputGroup>
-                            <Form.Control
-                                placeholder={labels.search}
-                                aria-label={labels.search}
-                                aria-describedby="search-icon"
-                                id="search"
-                            />
-                            <InputGroup.Text
-                                id="search-icon"
-                                className="d-lg-none d-xl-flex"
-                            >
-                                🔍
-                            </InputGroup.Text>
-                        </InputGroup>
-                    </Form>
+                    <SearchField />
                     <Button
                         className="btn-xl text-uppercase fw-bold"
                         href="https://transparency.sk/volby"
