@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useQuery } from '@tanstack/react-query';
 import { useNavigate } from 'react-router-dom';
 import Alert from 'react-bootstrap/Alert';
@@ -32,9 +32,7 @@ function Posts(props) {
                     const wptp = Number(
                         response.headers.get('X-WP-TotalPages')
                     );
-                    if (wptp > totalPages) {
-                        setTotalPages(wptp);
-                    }
+                    setTotalPages(wptp);
                 }
                 // must return promise
                 return response.json();
@@ -118,6 +116,11 @@ function Posts(props) {
             </Pagination.Item>
         );
     }
+
+    // reset active page to 1 if search query changes
+    useEffect(() => {
+        setActivePage(1);
+    }, [search]);
 
     return (
         <div>
