@@ -38,6 +38,7 @@ $link-hover-decoration: none;
 
 $pagination-color: $tis-dark-blue;
 $pagination-hover-color: $tis-dark-blue;
+$pagination-border-radius: 0;
 
 $navbar-padding-y: 0;
 $navbar-light-color: $tis-dark-blue;
@@ -56,3 +57,6 @@ $input-bg: transparent;
 $input-focus-bg: white;
 $input-group-addon-bg: transparent;
 $input-border-radius: 0;
+
+$alert-border-radius: 0;
+$accordion-border-radius: 0;

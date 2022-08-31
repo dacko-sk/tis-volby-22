@@ -2,8 +2,15 @@ import { useEffect } from 'react';
 import { Link, useNavigate, useParams } from 'react-router-dom';
 import has from 'has';
 import Alert from 'react-bootstrap/Alert';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 import { labels } from '../api/constants';
-import { contains, substitute, substituteCity } from '../api/helpers';
+import {
+    contains,
+    sortByNumericProp,
+    substitute,
+    substituteCity,
+} from '../api/helpers';
 import { routes } from '../api/routes';
 import Loading from '../components/general/Loading';
 import useData from '../context/DataContext';
@@ -18,37 +25,45 @@ function Search() {
     // parse data
     const candidates = [];
     if (has(csvData, 'data')) {
-        csvData.data.forEach((row) => {
-            const city = row[labels.elections.municipality_key] ?? '…';
-            const citySubst = substitute(city);
-            if (
-                contains(row.name, query) ||
-                contains(city, query) ||
-                contains(substituteCity(city), query) ||
-                contains(substitute(row.label), query)
-            ) {
-                const link = routes.candidate(row.name, citySubst);
-                candidates.push(
-                    <Link to={link} key={row.index} className="candidate-card">
-                        <p>{row.name}</p>
-                        <p>{city}</p>
-                        <p
-                            className={`cat-${
-                                row[labels.elections.type_key] ===
-                                labels.elections.regional.key
-                                    ? 'regional'
-                                    : 'local'
-                            }`}
-                        >
-                            {substitute(
-                                row[labels.elections.type_key] ??
-                                    labels.elections.local.key
-                            )}
-                        </p>
-                    </Link>
-                );
-            }
-        });
+        csvData.data
+            .sort(sortByNumericProp('sum_outgoing', true))
+            .forEach((row) => {
+                const city = row[labels.elections.municipality_key] ?? '…';
+                const citySubst = substitute(city);
+                if (
+                    row.label !== labels.elections.party_key &&
+                    (contains(row.name, query) ||
+                        contains(city, query) ||
+                        contains(substituteCity(city), query) ||
+                        contains(substitute(row.label), query))
+                ) {
+                    const link = routes.candidate(row.name, citySubst);
+                    candidates.push(
+                        <Col key={row.index} className="d-flex">
+                            <Link
+                                to={link}
+                                className={`d-flex flex-column justify-content-between w-100 cat-${
+                                    row[labels.elections.type_key] ===
+                                    labels.elections.regional.key
+                                        ? 'regional'
+                                        : 'local'
+                                }`}
+                            >
+                                <h3>{row.name}</h3>
+                                {row[labels.elections.municipality_key] && (
+                                    <div className="town my-3">{city}</div>
+                                )}
+                                <div className="type">
+                                    {substitute(
+                                        row[labels.elections.type_key] ??
+                                            labels.elections.local.key
+                                    )}
+                                </div>
+                            </Link>
+                        </Col>
+                    );
+                }
+            });
     }
 
     useEffect(() => {
@@ -72,18 +87,18 @@ function Search() {
                 </h1>
             </header>
 
-            <h2>Kandidáti ({candidates.length})</h2>
+            <h2 className="mb-4">Kandidáti ({candidates.length})</h2>
             {candidates.length ? (
-                <div className="candidates">{candidates}</div>
+                <Row className="candidates gx-4 gy-4">{candidates}</Row>
             ) : (
                 <Alert variant="secondary">
                     Hľadanému výrazu nezodpovedá žiaden kandidát.
                 </Alert>
             )}
 
-            <h2>Aktuality (0)</h2>
+            <h2 className="my-4">Aktuality (0)</h2>
 
-            <h2>Hodnotenia (0)</h2>
+            <h2 className="my-4">Hodnotenia (0)</h2>
         </section>
     );
 }

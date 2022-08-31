@@ -7,7 +7,8 @@
     & + * {
       border-top-color: $tis-grey;
     }
-    &:hover {
+    &:hover,
+    &:focus {
       background-color: $tis-grey;
       h2 {
         text-decoration: none;

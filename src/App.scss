@@ -83,11 +83,46 @@ h4 {
   font-size: 24px;
 }
 
-.cat-regional {
-  color: $tis-orange;
-}
-.cat-local {
-  color: $tis-light-blue;
+.candidates a {
+  min-width: 140px;
+  padding-top: calc(var(--bs-gutter-y) * 0.75);
+  padding-bottom: calc(var(--bs-gutter-y) * 0.75);
+  padding-left: calc(var(--bs-gutter-x) * 1);
+  padding-right: calc(var(--bs-gutter-x) * 1);
+  text-decoration: none;
+  &.cat-regional {
+    border: 1px solid $tis-orange;
+    h3 {
+      color: $tis-orange;
+      text-decoration: underline;
+    }
+    .type {
+      color: $tis-orange;
+    }
+  }
+  &.cat-local {
+    border: 1px solid $tis-light-blue;
+    h3 {
+      color: $tis-light-blue;
+      text-decoration: underline;
+    }
+    .type {
+      color: $tis-light-blue;
+    }
+  }
+  &:hover,
+  &:focus {
+    background-color: $tis-grey;
+    h3 {
+      text-decoration: none;
+    }
+  }
+  h3 {
+    text-decoration: underline;
+  }
+  .town {
+    color: #333;
+  }
 }
 
 footer h2 {

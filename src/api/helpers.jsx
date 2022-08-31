@@ -118,9 +118,10 @@ const cities = {
 export const substituteCity = (value) =>
     has(cities, value) ? cities[value] : value;
 
-export const sortByNumericProp = (prop) => (a, b) => b[prop] - a[prop];
+export const sortByNumericProp = (prop, asc) => (a, b) =>
+    asc ? a[prop] - b[prop] : b[prop] - a[prop];
 
-export const sortBySpending = sortByNumericProp('outgoing');
+export const sortBySpending = sortByNumericProp('outgoing', false);
 
 export const imgPath = (filename) => imgRootPath + filename;
 
