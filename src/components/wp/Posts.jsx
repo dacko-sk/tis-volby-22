@@ -15,17 +15,18 @@ function Posts(props) {
     const [totalPages, setTotalPages] = useState(0);
     const [activePage, setActivePage] = useState(1);
     const categories = has(props, 'categories')
-        ? props.categories.join()
-        : '858';
+        ? `&categories=${props.categories.join()}`
+        : '';
     const categoriesExclude = has(props, 'categoriesExclude')
         ? `&categories_exclude=${props.categoriesExclude.join()}`
         : '';
+    const search = has(props, 'search') ? `&search=${props.search}` : '';
     const section = has(props, 'section') ? props.section : segments.NEWS;
     const { isLoading, error, data } = useQuery(
-        [`all_posts_${categories}_${activePage}`],
+        [`all_posts_${categories}_${search}_${activePage}`],
         () =>
             fetch(
-                `https://cms.transparency.sk/wp-json/wp/v2/posts?categories=${categories}${categoriesExclude}&per_page=10&page=${activePage}`
+                `https://cms.transparency.sk/wp-json/wp/v2/posts?per_page=10&page=${activePage}${categories}${categoriesExclude}${search}`
             ).then((response) => {
                 if (response.headers) {
                     const wptp = Number(

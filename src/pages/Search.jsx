@@ -11,9 +11,12 @@ import {
     substitute,
     substituteCity,
 } from '../api/helpers';
-import { routes } from '../api/routes';
+import { routes, segments } from '../api/routes';
 import Loading from '../components/general/Loading';
+import Posts from '../components/wp/Posts';
 import useData from '../context/DataContext';
+import { mainCat } from './Analyses';
+import { newsCat } from './News';
 
 function Search() {
     const params = useParams();
@@ -87,7 +90,7 @@ function Search() {
                 </h1>
             </header>
 
-            <h2 className="mb-4">Kandidáti ({candidates.length})</h2>
+            <h2 className="mb-4">Kandidáti</h2>
             {candidates.length ? (
                 <Row className="candidates gx-4 gy-4">{candidates}</Row>
             ) : (
@@ -96,9 +99,23 @@ function Search() {
                 </Alert>
             )}
 
-            <h2 className="my-4">Aktuality (0)</h2>
+            <h2 className="my-4">Aktuality</h2>
+            <Posts
+                categories={[newsCat]}
+                img="news.png"
+                noResults="Hľadaný výraz nebol nájdený v žiadnej z aktualít."
+                section={segments.NEWS}
+                search={query}
+            />
 
-            <h2 className="my-4">Hodnotenia (0)</h2>
+            <h2 className="my-4">Hodnotenia</h2>
+            <Posts
+                categories={[mainCat]}
+                img="politician.png"
+                noResults="Hľadaný výraz nebol nájdený v žiadnom hodnotení."
+                section={segments.ANALYSES}
+                search={query}
+            />
         </section>
     );
 }

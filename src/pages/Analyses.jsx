@@ -6,23 +6,23 @@ import Posts from '../components/wp/Posts';
 import { substitute } from '../api/helpers';
 import { labels } from '../api/constants';
 
-function Analyses() {
-    const mainCat = 859;
-    const elections = {
-        // regional: 860,
-        // local: 861,
-    };
-    const regions = {
-        // BA: 863,
-        // BB: 862,
-        // KE: 864,
-        // NR: 865,
-        // PO: 866,
-        // TN: 867,
-        // TT: 868,
-        // ZA: 869,
-    };
+export const mainCat = 859;
+export const elections = {
+    // regional: 860,
+    // local: 861,
+};
+export const regions = {
+    // BA: 863,
+    // BB: 862,
+    // KE: 864,
+    // NR: 865,
+    // PO: 866,
+    // TN: 867,
+    // TT: 868,
+    // ZA: 869,
+};
 
+function Analyses() {
     const [activeKey, setActiveKey] = useState(null);
     // initially all accordions are NOT loaded
     const [loadedRegions, setLoadedRegions] = useState({});
