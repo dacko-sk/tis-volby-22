@@ -40,12 +40,17 @@ function AllCampaigns() {
                 <h1>Výdavky a príjmy všetkých kandidátov</h1>
             </header>
             <TisBarChart
-                title="Voľby do VÚC"
+                title={labels.elections.regional.name}
                 data={regional}
                 currency
                 vertical
             />
-            <TisBarChart title="Miestne voľby" data={local} currency vertical />
+            <TisBarChart
+                title={labels.elections.local.name}
+                data={local}
+                currency
+                vertical
+            />
         </section>
     );
 }

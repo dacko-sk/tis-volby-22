@@ -40,13 +40,13 @@ function AllDonors() {
                 <h1>Počet unikátnych darcov na kandidáta</h1>
             </header>
             <TisBarChart
-                title="Voľby do VÚC"
+                title={labels.elections.regional.name}
                 data={regional}
                 bars={charts.columns.donors}
                 vertical
             />
             <TisBarChart
-                title="Miestne voľby"
+                title={labels.elections.local.name}
                 data={local}
                 bars={charts.columns.donors}
                 vertical
