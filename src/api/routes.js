@@ -14,6 +14,7 @@ export const segments = {
 export const routes = {
     analyses: segments.ROOT + segments.ANALYSES,
     article: (page, slug) => segments.ROOT + page + separator + slug,
+    articles: (page) => segments.ROOT + page,
     campaigns: segments.ROOT + segments.CHARTS + separator + segments.CAMPAIGNS,
     candidate: (name, town) =>
         segments.ROOT +

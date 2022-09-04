@@ -6,7 +6,8 @@ import Posts from '../components/wp/Posts';
 import { substitute } from '../api/helpers';
 import { labels } from '../api/constants';
 
-export const mainCat = 859;
+export const analysesImg = 'politician.png';
+export const analysesCat = [859];
 export const elections = {
     // regional: 860,
     // local: 861,
@@ -49,7 +50,7 @@ function Analyses() {
                         <Posts
                             categories={[typeId, regionId]}
                             categoriesExclude={excluded}
-                            img="politician.png"
+                            img={analysesImg}
                             noResults="Pre tento typ volieb v tomto kraji doposiaľ nie sú k dispozícii žiadne hodnotenia."
                             section={segments.ANALYSES}
                         />
@@ -85,9 +86,9 @@ function Analyses() {
                 <h1>Hodnotenie transparentnosti kandidátov</h1>
             </header>
             <Posts
-                categories={[mainCat]}
+                categories={analysesCat}
                 categoriesExclude={Object.values(regions)}
-                img="politician.png"
+                img={analysesImg}
                 noResults="Sekcia sa pripravuje. Hodnotenia kampaní budeme zverejňovať postupne."
                 section={segments.ANALYSES}
             />

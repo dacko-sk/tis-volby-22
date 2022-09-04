@@ -1,19 +1,25 @@
 import { useEffect, useState } from 'react';
 import { useQuery } from '@tanstack/react-query';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import Alert from 'react-bootstrap/Alert';
+import Button from 'react-bootstrap/Button';
+import Col from 'react-bootstrap/Col';
 import Pagination from 'react-bootstrap/Pagination';
+import Row from 'react-bootstrap/Row';
 import has from 'has';
+import { labels } from '../../api/constants';
 import { dateFormat, parseWpHtml } from '../../api/helpers';
+import { routes, segments } from '../../api/routes';
 import Media from './Media';
 import Loading from '../general/Loading';
 
 import './News.scss';
-import { routes, segments } from '../../api/routes';
 
 function Posts(props) {
     const [totalPages, setTotalPages] = useState(0);
     const [activePage, setActivePage] = useState(1);
+    const limit = has(props, 'limit') ? props.limit : false;
+    const blocksize = limit || 10;
     const categories = has(props, 'categories')
         ? `&categories=${props.categories.join()}`
         : '';
@@ -22,11 +28,12 @@ function Posts(props) {
         : '';
     const search = has(props, 'search') ? `&search=${props.search}` : '';
     const section = has(props, 'section') ? props.section : segments.NEWS;
+    const condensed = has(props, 'condensed');
     const { isLoading, error, data } = useQuery(
-        [`all_posts_${categories}_${search}_${activePage}`],
+        [`all_posts_${categories}_${search}_${blocksize}_${activePage}`],
         () =>
             fetch(
-                `https://cms.transparency.sk/wp-json/wp/v2/posts?per_page=10&page=${activePage}${categories}${categoriesExclude}${search}`
+                `https://cms.transparency.sk/wp-json/wp/v2/posts?per_page=${blocksize}&page=${activePage}${categories}${categoriesExclude}${search}`
             ).then((response) => {
                 if (response.headers) {
                     const wptp = Number(
@@ -64,37 +71,51 @@ function Posts(props) {
     } else {
         data.forEach((article) => {
             articles.push(
-                <div
+                <Col
+                    className="d-flex px-0"
+                    xs={12}
+                    md={condensed ? 6 : 12}
                     key={article.slug}
-                    id={article.slug}
-                    className="row align-items-center"
-                    onClick={getClickHandler(article)}
-                    onKeyUp={getKeyUpHandler(article)}
-                    role="link"
-                    tabIndex={0}
                 >
-                    <div className="col-12 col-sm-5 col-md-4 col-lg-3">
-                        <div className="thumb">
-                            <figure>
-                                <Media
-                                    id={article.featured_media}
-                                    fallback={props.img}
-                                />
-                            </figure>
-                        </div>
+                    <div
+                        id={article.slug}
+                        className="article p-3"
+                        onClick={getClickHandler(article)}
+                        onKeyUp={getKeyUpHandler(article)}
+                        role="link"
+                        tabIndex={0}
+                    >
+                        <Row className="align-items-center">
+                            <div
+                                className={
+                                    condensed
+                                        ? 'col-xl-12 col-xxl-6'
+                                        : 'col-sm-12 col-md-5 col-lg-3'
+                                }
+                            >
+                                <div className="thumb">
+                                    <figure>
+                                        <Media
+                                            id={article.featured_media}
+                                            fallback={props.img}
+                                        />
+                                    </figure>
+                                </div>
+                            </div>
+                            <div className="col">
+                                <h2>{article.title.rendered}</h2>
+                                <div className="article-date my-2">
+                                    {dateFormat(article.date)}
+                                </div>
+                                {parseWpHtml(article.excerpt.rendered)}
+                            </div>
+                        </Row>
                     </div>
-                    <div className="col">
-                        <h2>{article.title.rendered}</h2>
-                        <div className="article-date my-2">
-                            {dateFormat(article.date)}
-                        </div>
-                        {parseWpHtml(article.excerpt.rendered)}
-                    </div>
-                </div>
+                </Col>
             );
         });
         content = articles.length ? (
-            <div className="articles">{articles}</div>
+            <Row className="articles">{articles}</Row>
         ) : (
             <Alert variant="secondary">
                 {has(props, 'noResults')
@@ -104,17 +125,39 @@ function Posts(props) {
         );
     }
 
-    const items = [];
-    for (let i = 1; i <= totalPages; i += 1) {
-        items.push(
-            <Pagination.Item
-                key={i}
-                active={i === activePage}
-                onClick={loadPage(i)}
-            >
-                {i}
-            </Pagination.Item>
+    let nav = null;
+    if (limit) {
+        nav = (
+            <div className="buttons mt-3 text-center">
+                <Button
+                    as={Link}
+                    to={routes.articles(section)}
+                    variant="secondary"
+                >
+                    {labels.showMore}
+                </Button>
+            </div>
         );
+    } else {
+        const items = [];
+        for (let i = 1; i <= totalPages; i += 1) {
+            items.push(
+                <Pagination.Item
+                    key={i}
+                    active={i === activePage}
+                    onClick={loadPage(i)}
+                >
+                    {i}
+                </Pagination.Item>
+            );
+        }
+        if (items.length > 1) {
+            nav = (
+                <Pagination className="justify-content-center mt-4">
+                    {items}
+                </Pagination>
+            );
+        }
     }
 
     // reset active page to 1 if search query changes
@@ -125,11 +168,7 @@ function Posts(props) {
     return (
         <div>
             {content}
-            {items.length > 1 && (
-                <Pagination className="justify-content-center mt-4">
-                    {items}
-                </Pagination>
-            )}
+            {nav}
         </div>
     );
 }

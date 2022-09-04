@@ -1,23 +1,23 @@
 @import './../../scss/variables';
 
 .articles {
-  & > * {
-    border: 1px solid transparent;
-    cursor: pointer;
-    & + * {
-      border-top-color: $tis-grey;
-    }
-    &:hover,
-    &:focus {
-      background-color: $tis-grey;
-      h2 {
-        text-decoration: none;
-      }
-    }
+  & > .col-md-12 + .col-md-12 {
+    border-top: 1px solid $tis-grey;
+  }
+}
+
+.article {
+  cursor: pointer;
+  &:hover,
+  &:focus {
+    background-color: $tis-grey;
     h2 {
-      color: $tis-orange;
-      text-decoration: underline;
+      text-decoration: none;
     }
+  }
+  h2 {
+    color: $tis-orange;
+    text-decoration: underline;
   }
   .thumb {
     height: 0;

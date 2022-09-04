@@ -15,8 +15,8 @@ import { routes, segments } from '../api/routes';
 import Loading from '../components/general/Loading';
 import Posts from '../components/wp/Posts';
 import useData from '../context/DataContext';
-import { mainCat } from './Analyses';
-import { newsCat } from './News';
+import { analysesImg, analysesCat } from './Analyses';
+import { newsCat, newsImg } from './News';
 
 function Search() {
     const params = useParams();
@@ -101,8 +101,8 @@ function Search() {
 
             <h2 className="my-4">Aktuality</h2>
             <Posts
-                categories={[newsCat]}
-                img="news.png"
+                categories={newsCat}
+                img={newsImg}
                 noResults="Hľadaný výraz nebol nájdený v žiadnej z aktualít."
                 section={segments.NEWS}
                 search={query}
@@ -110,8 +110,8 @@ function Search() {
 
             <h2 className="my-4">Hodnotenia</h2>
             <Posts
-                categories={[mainCat]}
-                img="politician.png"
+                categories={analysesCat}
+                img={analysesImg}
                 noResults="Hľadaný výraz nebol nájdený v žiadnom hodnotení."
                 section={segments.ANALYSES}
                 search={query}
