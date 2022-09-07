@@ -1,7 +1,6 @@
 import { tickClassName, tickFontSize, tickLabel } from './VerticalTick';
 
-function HorizontalTick(props) {
-    const { x, y, payload } = props;
+function HorizontalTick({ x, y, payload }) {
     const parts = payload.value.split('\n');
     const rows = [];
     for (let i = 0; i < parts.length; i += 1) {
