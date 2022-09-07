@@ -12,7 +12,7 @@ function Title({ children, secondary, multiline, uppercase }) {
     return (
         <header
             className={`${
-                primaryLength + (secondary || '').length < 80 ? 'hero ' : ''
+                primaryLength + (secondary || '').length < 65 ? 'hero ' : ''
             }mb-4`}
         >
             <h1 className={uppercase ? 'text-uppercase' : ''}>

@@ -189,14 +189,16 @@ footer h2 {
 }
 
 @media (min-width: map.get($grid-breakpoints, 'lg')) {
-  header.hero {
+  header {
     min-height: 280px;
-    h1 {
-      position: absolute;
-      left: 50%;
-      top: 50%;
-      transform: translate(-50%, -75%);
-      padding: 0 0.5em;
+    &.hero {
+      h1 {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -75%);
+        padding: 0 0.5em;
+      }
     }
   }
   #search {
@@ -205,7 +207,7 @@ footer h2 {
 }
 
 @media (min-width: map.get($grid-breakpoints, 'xl')) {
-  header.hero {
+  header {
     min-height: 320px;
   }
   #search {
@@ -214,7 +216,7 @@ footer h2 {
 }
 
 @media (min-width: map.get($grid-breakpoints, 'xxl')) {
-  header.hero {
+  header {
     min-height: 350px;
   }
 }
