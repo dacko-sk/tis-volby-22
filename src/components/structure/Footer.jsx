@@ -89,7 +89,7 @@ function Footer() {
                                 </a>
                             </p>
                             <h2 className="mt-4 mb-3">Užitočné informácie</h2>
-                            <ul>
+                            <ul className="arrows">
                                 <li>
                                     <a
                                         href="https://volby.transparency.sk/parlament2020/"

@@ -53,9 +53,7 @@
   }
 }
 
-li.blocks-gallery-item {
-  padding-left: 0;
-  &:before {
-    display: none;
-  }
+ul.blocks-gallery-grid {
+  list-style: none;
+  padding: 0;
 }
