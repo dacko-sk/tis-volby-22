@@ -51,10 +51,12 @@ const proxyHttpImages = (html) => {
 const parserOptions = {
     replace: ({ name, attribs, children }) => {
         if (name === 'img' && attribs && attribs.src) {
-            // proxy image to force https
             const props = {
                 ...attributesToProps(attribs),
+                // proxy image to force https
                 src: proxyHttpImages(attribs.src),
+                // add bootstrap 5 classes to images
+                className: 'figure-img img-fluid',
             };
             return <img {...props} />;
         }
@@ -72,6 +74,22 @@ const parserOptions = {
                 // remove "continue reading" links to WP domain
                 return <></>;
             }
+        }
+        if (name === 'figure') {
+            // add bootstrap 5 classes to figures
+            return (
+                <figure className="figure">
+                    {domToReact(children, parserOptions)}
+                </figure>
+            );
+        }
+        if (name === 'figcaption') {
+            // add bootstrap 5 classes to figcaptions
+            return (
+                <figcaption className="figure-caption text-center">
+                    {domToReact(children, parserOptions)}
+                </figcaption>
+            );
         }
         // otherwise no replacement
         return null;
