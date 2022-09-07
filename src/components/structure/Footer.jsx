@@ -92,15 +92,6 @@ function Footer() {
                             <ul>
                                 <li>
                                     <a
-                                        href="https://transparency.sk/sk/sukromie/"
-                                        target="_blank"
-                                        rel="noreferrer"
-                                    >
-                                        Ochrana súkromia
-                                    </a>
-                                </li>
-                                <li>
-                                    <a
                                         href="https://volby.transparency.sk/parlament2020/"
                                         target="_blank"
                                         rel="noreferrer"
@@ -115,6 +106,15 @@ function Footer() {
                                         rel="noreferrer"
                                     >
                                         Prezidentské voľby 2019
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href="https://transparency.sk/sk/sukromie/"
+                                        target="_blank"
+                                        rel="noreferrer"
+                                    >
+                                        Ochrana súkromia
                                     </a>
                                 </li>
                             </ul>
