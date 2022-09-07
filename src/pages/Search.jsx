@@ -12,11 +12,12 @@ import {
     substituteCity,
 } from '../api/helpers';
 import { routes, segments } from '../api/routes';
-import Loading from '../components/general/Loading';
-import Posts from '../components/wp/Posts';
-import useData from '../context/DataContext';
 import { analysesImg, analysesCat } from './Analyses';
 import { newsCat, newsImg } from './News';
+import Loading from '../components/general/Loading';
+import Title from '../components/structure/Title';
+import Posts from '../components/wp/Posts';
+import useData from '../context/DataContext';
 
 function Search() {
     const params = useParams();
@@ -82,13 +83,9 @@ function Search() {
 
     return (
         <section className="search-results">
-            <header className="mb-4">
-                <h1>
-                    Výsledky vyhľadávania výrazu
-                    <br />
-                    <span className="orange">„{query}“</span>
-                </h1>
-            </header>
+            <Title multiline secondary={`„${query}“`}>
+                Výsledky vyhľadávania výrazu
+            </Title>
 
             <h2 className="mb-4">Kandidáti</h2>
             {candidates.length ? (

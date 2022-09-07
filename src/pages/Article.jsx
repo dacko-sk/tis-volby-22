@@ -4,6 +4,7 @@ import { useQuery } from '@tanstack/react-query';
 import has from 'has';
 import { dateFormat, parseWpHtml } from '../api/helpers';
 import Loading from '../components/general/Loading';
+import Title from '../components/structure/Title';
 
 function Article() {
     const params = useParams();
@@ -53,9 +54,7 @@ function Article() {
 
     return (
         <section className="article-detail">
-            <header className="mb-4">
-                <h1>{article.title.rendered}</h1>
-            </header>
+            <Title>{article.title.rendered}</Title>
             <div className="article-date my-4">{dateFormat(article.date)}</div>
             <div className="article-body">
                 {parseWpHtml(article.content.rendered)}

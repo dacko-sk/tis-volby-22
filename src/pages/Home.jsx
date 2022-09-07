@@ -1,5 +1,6 @@
 import Top10 from '../components/charts/Top10';
 import TotalSpending from '../components/general/TotalSpending';
+import Title from '../components/structure/Title';
 import Posts from '../components/wp/Posts';
 import { newsCat, newsImg } from './News';
 import { segments } from '../api/routes';
@@ -7,13 +8,11 @@ import { segments } from '../api/routes';
 function Home() {
     return (
         <section>
-            <header className="mb-4">
-                <h1 className="text-uppercase">
-                    Samosprávne
-                    <br />
-                    voľby <span className="orange">2022</span>
-                </h1>
-            </header>
+            <Title uppercase secondary="2022">
+                Samosprávne
+                <br />
+                voľby
+            </Title>
             <TotalSpending />
             <Top10 />
             <h2>Najnovšie aktuality</h2>

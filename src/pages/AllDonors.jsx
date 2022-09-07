@@ -3,6 +3,7 @@ import { charts, labels } from '../api/constants';
 import { sortByNumericProp, substitute } from '../api/helpers';
 import useData from '../context/DataContext';
 import TisBarChart from '../components/charts/TisBarChart';
+import Title from '../components/structure/Title';
 
 function AllDonors() {
     const { csvData } = useData();
@@ -36,9 +37,7 @@ function AllDonors() {
 
     return (
         <section>
-            <header className="mb-4">
-                <h1>Počet unikátnych darcov na kandidáta</h1>
-            </header>
+            <Title>Počet unikátnych darcov na kandidáta</Title>
             <TisBarChart
                 title={labels.elections.regional.name}
                 data={regional}

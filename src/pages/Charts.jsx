@@ -1,10 +1,11 @@
 import has from 'has';
 import { charts, labels } from '../api/constants';
 import { sortByNumericProp, sortBySpending, substitute } from '../api/helpers';
-import useData from '../context/DataContext';
+import { routes } from '../api/routes';
 import Regions from '../components/charts/Regions';
 import TisBarChart from '../components/charts/TisBarChart';
-import { routes } from '../api/routes';
+import Title from '../components/structure/Title';
+import useData from '../context/DataContext';
 
 function Charts() {
     const { csvData } = useData();
@@ -57,9 +58,7 @@ function Charts() {
 
     return (
         <section>
-            <header className="mb-4">
-                <h1>Grafy</h1>
-            </header>
+            <Title>Grafy</Title>
             <TisBarChart
                 title="Výdavky a príjmy podľa krajov"
                 subtitle="Kumulatívne hodnoty za župné aj miestne voľby."

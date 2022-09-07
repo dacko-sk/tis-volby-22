@@ -1,10 +1,11 @@
 import { useState } from 'react';
 import Accordion from 'react-bootstrap/Accordion';
 import has from 'has';
-import { segments } from '../api/routes';
-import Posts from '../components/wp/Posts';
-import { substitute } from '../api/helpers';
 import { labels } from '../api/constants';
+import { substitute } from '../api/helpers';
+import { segments } from '../api/routes';
+import Title from '../components/structure/Title';
+import Posts from '../components/wp/Posts';
 
 export const analysesImg = 'politician.png';
 export const analysesCat = [859];
@@ -82,9 +83,7 @@ function Analyses() {
 
     return (
         <section>
-            <header className="mb-4">
-                <h1>Hodnotenie transparentnosti kandidátov</h1>
-            </header>
+            <Title>Hodnotenie transparentnosti kandidátov</Title>
             <Posts
                 categories={analysesCat}
                 categoriesExclude={Object.values(regions)}

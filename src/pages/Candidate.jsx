@@ -6,6 +6,7 @@ import { labels } from '../api/constants';
 import { currencyFormat, shortenValue, substitute } from '../api/helpers';
 import { routes } from '../api/routes';
 import Loading from '../components/general/Loading';
+import Title from '../components/structure/Title';
 import useData from '../context/DataContext';
 
 function Candidate() {
@@ -43,18 +44,12 @@ function Candidate() {
 
     return (
         <section className="candidate-page">
-            <header className="mb-4">
-                <h1>
-                    {candidate.name}
-                    {!!candidate[labels.elections.municipality_key] && (
-                        <span className="orange">
-                            <br />
-                            {candidate[labels.elections.municipality_key]}
-                        </span>
-                    )}
-                </h1>
-            </header>
-
+            <Title
+                multiline
+                secondary={candidate[labels.elections.municipality_key] || null}
+            >
+                {candidate.name}
+            </Title>
             <Table striped bordered responsive hover>
                 <tbody>
                     <tr>

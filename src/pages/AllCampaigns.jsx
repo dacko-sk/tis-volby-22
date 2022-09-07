@@ -3,6 +3,7 @@ import { labels } from '../api/constants';
 import { sortBySpending, substitute } from '../api/helpers';
 import useData from '../context/DataContext';
 import TisBarChart from '../components/charts/TisBarChart';
+import Title from '../components/structure/Title';
 
 function AllCampaigns() {
     const { csvData } = useData();
@@ -36,9 +37,7 @@ function AllCampaigns() {
 
     return (
         <section>
-            <header className="mb-4">
-                <h1>Výdavky a príjmy všetkých kandidátov</h1>
-            </header>
+            <Title>Výdavky a príjmy všetkých kandidátov</Title>
             <TisBarChart
                 title={labels.elections.regional.name}
                 data={regional}
