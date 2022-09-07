@@ -78,7 +78,7 @@ const parserOptions = {
         if (name === 'figure') {
             // add bootstrap 5 classes to figures
             return (
-                <figure className="figure">
+                <figure className={`figure ${attribs.class || ''}`}>
                     {domToReact(children, parserOptions)}
                 </figure>
             );

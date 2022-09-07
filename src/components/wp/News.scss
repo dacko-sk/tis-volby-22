@@ -52,3 +52,10 @@
     margin-right: 0.25em;
   }
 }
+
+li.blocks-gallery-item {
+  padding-left: 0;
+  &:before {
+    display: none;
+  }
+}
