@@ -55,6 +55,24 @@ h4 {
   color: $tis-light-blue;
 }
 
+ul {
+  list-style: none;
+  padding: 0;
+  li {
+    position: relative;
+    padding-left: 1.25em;
+    &:before {
+      content: '›';
+      position: absolute;
+      left: 0.25em;
+      top: 50%;
+      transform: translateY(-50%);
+      color: $tis-orange;
+      font-size: 1.5em;
+    }
+  }
+}
+
 .layout-default {
   display: flex;
   flex-direction: column;

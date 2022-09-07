@@ -89,13 +89,35 @@ function Footer() {
                                 </a>
                             </p>
                             <h2 className="mt-4 mb-3">Užitočné informácie</h2>
-                            <a
-                                href="https://transparency.sk/sk/sukromie/"
-                                target="_blank"
-                                rel="noreferrer"
-                            >
-                                Ochrana súkromia
-                            </a>
+                            <ul>
+                                <li>
+                                    <a
+                                        href="https://transparency.sk/sk/sukromie/"
+                                        target="_blank"
+                                        rel="noreferrer"
+                                    >
+                                        Ochrana súkromia
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href="https://volby.transparency.sk/parlament2020/"
+                                        target="_blank"
+                                        rel="noreferrer"
+                                    >
+                                        Parlamentné voľby 2020
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href="https://volby.transparency.sk/prezident2019/"
+                                        target="_blank"
+                                        rel="noreferrer"
+                                    >
+                                        Prezidentské voľby 2019
+                                    </a>
+                                </li>
+                            </ul>
                             <CookieBanner />
                         </Col>
                         <Col md={6} lg={4}>
