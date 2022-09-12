@@ -1,9 +1,11 @@
 import has from 'has';
 import { labels } from '../api/constants';
-import { sortBySpending, substitute } from '../api/helpers';
+import { setTitle, sortBySpending, substitute } from '../api/helpers';
 import useData from '../context/DataContext';
 import TisBarChart from '../components/charts/TisBarChart';
 import Title from '../components/structure/Title';
+
+const title = 'Výdavky a príjmy všetkých kandidátov';
 
 function AllCampaigns() {
     const { csvData } = useData();
@@ -35,9 +37,11 @@ function AllCampaigns() {
         local.sort(sortBySpending);
     }
 
+    setTitle(title);
+
     return (
         <section>
-            <Title>Výdavky a príjmy všetkých kandidátov</Title>
+            <Title>{title}</Title>
             <TisBarChart
                 title={labels.elections.regional.name}
                 data={regional}

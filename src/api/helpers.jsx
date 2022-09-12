@@ -151,3 +151,7 @@ export const contains = (haystack, needle) =>
     removeAccentsFromString(haystack.toLowerCase()).includes(
         removeAccentsFromString(needle.toLowerCase())
     );
+
+export const setTitle = (title) => {
+    document.title = `${title} : Samosprávne voľby 2022 : Transparency International Slovensko`;
+};

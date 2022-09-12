@@ -3,9 +3,12 @@ import TotalSpending from '../components/general/TotalSpending';
 import Title from '../components/structure/Title';
 import Posts from '../components/wp/Posts';
 import { newsCat, newsImg } from './News';
+import { setTitle } from '../api/helpers';
 import { segments } from '../api/routes';
 
 function Home() {
+    setTitle('Úvod');
+
     return (
         <section>
             <Title uppercase secondary="2022">

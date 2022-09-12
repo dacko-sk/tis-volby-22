@@ -1,11 +1,18 @@
 import has from 'has';
 import { charts, labels } from '../api/constants';
-import { sortByNumericProp, sortBySpending, substitute } from '../api/helpers';
+import {
+    setTitle,
+    sortByNumericProp,
+    sortBySpending,
+    substitute,
+} from '../api/helpers';
 import { routes } from '../api/routes';
 import Regions from '../components/charts/Regions';
 import TisBarChart from '../components/charts/TisBarChart';
 import Title from '../components/structure/Title';
 import useData from '../context/DataContext';
+
+const title = 'Grafy';
 
 function Charts() {
     const { csvData } = useData();
@@ -56,9 +63,11 @@ function Charts() {
     }
     const donors = people.sort(sortByDonors).slice(0, 10);
 
+    setTitle(title);
+
     return (
         <section>
-            <Title>Grafy</Title>
+            <Title>{title}</Title>
             <TisBarChart
                 title="Výdavky a príjmy podľa krajov"
                 subtitle="Kumulatívne hodnoty za župné aj miestne voľby."

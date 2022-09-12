@@ -3,7 +3,12 @@ import { useLocation, useNavigate } from 'react-router-dom';
 import Table from 'react-bootstrap/Table';
 import has from 'has';
 import { labels } from '../api/constants';
-import { currencyFormat, shortenValue, substitute } from '../api/helpers';
+import {
+    currencyFormat,
+    setTitle,
+    shortenValue,
+    substitute,
+} from '../api/helpers';
 import { routes } from '../api/routes';
 import Loading from '../components/general/Loading';
 import Title from '../components/structure/Title';
@@ -41,6 +46,8 @@ function Candidate() {
     if (!candidate || !has(csvData, 'data')) {
         return <Loading />;
     }
+
+    setTitle(candidate.name);
 
     return (
         <section className="candidate-page">

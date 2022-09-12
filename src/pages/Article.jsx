@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import { useNavigate, useLocation, useParams } from 'react-router-dom';
 import { useQuery } from '@tanstack/react-query';
 import has from 'has';
-import { dateFormat, parseWpHtml } from '../api/helpers';
+import { dateFormat, parseWpHtml, setTitle } from '../api/helpers';
 import Loading from '../components/general/Loading';
 import Title from '../components/structure/Title';
 
@@ -51,6 +51,8 @@ function Article() {
         // waiting for data or error in loding
         return <Loading error={error} />;
     }
+
+    setTitle(article.title.rendered);
 
     return (
         <section className="article-detail">

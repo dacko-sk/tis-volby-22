@@ -2,7 +2,7 @@ import { useState } from 'react';
 import Accordion from 'react-bootstrap/Accordion';
 import has from 'has';
 import { labels } from '../api/constants';
-import { substitute } from '../api/helpers';
+import { setTitle, substitute } from '../api/helpers';
 import { segments } from '../api/routes';
 import Title from '../components/structure/Title';
 import Posts from '../components/wp/Posts';
@@ -23,6 +23,8 @@ export const regions = {
     // TT: 868,
     // ZA: 869,
 };
+
+const title = 'Hodnotenie transparentnosti kandidátov';
 
 function Analyses() {
     const [activeKey, setActiveKey] = useState(null);
@@ -81,9 +83,11 @@ function Analyses() {
         }
     };
 
+    setTitle(title);
+
     return (
         <section>
-            <Title>Hodnotenie transparentnosti kandidátov</Title>
+            <Title>{title}</Title>
             <Posts
                 categories={analysesCat}
                 categoriesExclude={Object.values(regions)}

@@ -1,9 +1,11 @@
 import has from 'has';
 import { charts, labels } from '../api/constants';
-import { sortByNumericProp, substitute } from '../api/helpers';
+import { setTitle, sortByNumericProp, substitute } from '../api/helpers';
 import useData from '../context/DataContext';
 import TisBarChart from '../components/charts/TisBarChart';
 import Title from '../components/structure/Title';
+
+const title = 'Počet unikátnych darcov na kandidáta';
 
 function AllDonors() {
     const { csvData } = useData();
@@ -35,9 +37,11 @@ function AllDonors() {
         local.sort(sortByDonors);
     }
 
+    setTitle(title);
+
     return (
         <section>
-            <Title>Počet unikátnych darcov na kandidáta</Title>
+            <Title>{title}</Title>
             <TisBarChart
                 title={labels.elections.regional.name}
                 data={regional}

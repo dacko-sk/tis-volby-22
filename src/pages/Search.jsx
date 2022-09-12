@@ -7,6 +7,7 @@ import Col from 'react-bootstrap/Col';
 import { labels } from '../api/constants';
 import {
     contains,
+    setTitle,
     sortByNumericProp,
     substitute,
     substituteCity,
@@ -80,6 +81,8 @@ function Search() {
     if (!has(csvData, 'data')) {
         return <Loading />;
     }
+
+    setTitle(`Výsledky vyhľadávania výrazu „${query}“`);
 
     return (
         <section className="search-results">
