@@ -1,5 +1,5 @@
 export const imgRootPath = '/img/';
-export const gaTrackingId = 'UA-134559494-1';
+// export const gaTrackingId = 'UA-134559494-1';
 
 export const colorLightBlue = '#2bace2';
 export const colorDarkBlue = '#1b335f';

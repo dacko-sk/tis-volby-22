@@ -14,7 +14,7 @@
     <title>Samosprávne voľby 2022 : Transparency International Slovensko</title>
     <% if (process.env.NODE_ENV === 'production') { %>
       <!-- Global site tag (gtag.js) - Google Analytics -->
-      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134559494-1"></script>
+      <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134559494-1"></script> -->
       <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){window.dataLayer.push(arguments);}
@@ -24,14 +24,28 @@
             ads_data_redaction: 'true',
             analytics_storage: 'denied',
         });
-        gtag('js', new Date());
+        // gtag('js', new Date());
       </script>
+      <!-- Google Tag Manager --> 
+      <script>
+      (function(w,d,s,l,i){
+        w[l]=w[l]||[];
+        w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});
+        var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';
+        j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
+        f.parentNode.insertBefore(j,f); 
+      })(window,document,'script','dataLayer','GTM-5Z6SFDZ');
+      </script> 
+      <!-- End Google Tag Manager --> 
     <% } else { %>
       <meta name="robots" content="noindex" />
     <% } %>
   </head>
   <body>
     <noscript>Na správne zpbrazenie tejto stránky potrebujete JavaScript.</noscript>
+    <!-- Google Tag Manager (noscript) --> 
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5Z6SFDZ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <div id="root"></div>
   </body>
 </html>

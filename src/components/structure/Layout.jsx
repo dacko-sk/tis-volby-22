@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import has from 'has';
 import { Outlet, useLocation } from 'react-router-dom';
 import { usePapaParse } from 'react-papaparse';
-import { gaTrackingId } from '../../api/constants';
+// import { gaTrackingId } from '../../api/constants';
 import useData, {
     baseDate,
     buildParserConfig,
@@ -47,8 +47,15 @@ function Layout() {
     // send pageview to analytics on route change
     useEffect(() => {
         if (!window.location.href.includes('localhost')) {
-            window.gtag('config', gaTrackingId, {
-                page_path: pathname,
+            // window.gtag('config', gaTrackingId, {
+            //     page_path: pathname,
+            // });
+            window.dataLayer.push({
+                event: 'pageview',
+                page: {
+                    path: pathname,
+                    title: document.title,
+                },
             });
         }
     }, [pathname]);
