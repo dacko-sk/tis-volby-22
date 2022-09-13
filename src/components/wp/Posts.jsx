@@ -73,7 +73,6 @@ function Posts(props) {
             articles.push(
                 <Col
                     className="d-flex px-0"
-                    xs={12}
                     md={condensed ? 6 : 12}
                     key={article.slug}
                 >
@@ -95,11 +94,12 @@ function Posts(props) {
                                 condensed ? ' align-items-xxl-start' : ''
                             }`}
                         >
-                            <div
+                            <Col
+                                md={condensed ? null : 5}
+                                lg={condensed ? null : 3}
+                                xxl={condensed ? 6 : null}
                                 className={
-                                    condensed
-                                        ? 'col-xl-12 col-xxl-6 align-self-xxl-start'
-                                        : 'col-sm-12 col-md-5 col-lg-3'
+                                    condensed ? 'align-self-xxl-start' : ''
                                 }
                             >
                                 <div
@@ -116,8 +116,8 @@ function Posts(props) {
                                         />
                                     </figure>
                                 </div>
-                            </div>
-                            <div className="col">
+                            </Col>
+                            <Col>
                                 <h2
                                     className={
                                         condensed ? 'd-block d-xxl-none' : ''
@@ -129,7 +129,7 @@ function Posts(props) {
                                     {dateFormat(article.date)}
                                 </div>
                                 {parseWpHtml(article.excerpt.rendered)}
-                            </div>
+                            </Col>
                         </Row>
                     </div>
                 </Col>
