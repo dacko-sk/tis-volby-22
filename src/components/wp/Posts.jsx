@@ -85,16 +85,31 @@ function Posts(props) {
                         role="link"
                         tabIndex={0}
                     >
-                        <Row className="align-items-center">
+                        {condensed && (
+                            <h2 className="d-none d-xxl-block">
+                                {article.title.rendered}
+                            </h2>
+                        )}
+                        <Row
+                            className={`align-items-center${
+                                condensed ? ' align-items-xxl-start' : ''
+                            }`}
+                        >
                             <div
                                 className={
                                     condensed
-                                        ? 'col-xl-12 col-xxl-6'
+                                        ? 'col-xl-12 col-xxl-6 align-self-xxl-start'
                                         : 'col-sm-12 col-md-5 col-lg-3'
                                 }
                             >
-                                <div className="thumb">
-                                    <figure>
+                                <div
+                                    className={`thumb mb-2 ${
+                                        condensed
+                                            ? 'mb-xxl-0 mt-xxl-2'
+                                            : 'mb-md-0'
+                                    }`}
+                                >
+                                    <figure className="text-center">
                                         <Media
                                             id={article.featured_media}
                                             fallback={props.img}
@@ -103,7 +118,13 @@ function Posts(props) {
                                 </div>
                             </div>
                             <div className="col">
-                                <h2>{article.title.rendered}</h2>
+                                <h2
+                                    className={
+                                        condensed ? 'd-block d-xxl-none' : ''
+                                    }
+                                >
+                                    {article.title.rendered}
+                                </h2>
                                 <div className="article-date my-2">
                                     {dateFormat(article.date)}
                                 </div>
@@ -115,7 +136,9 @@ function Posts(props) {
             );
         });
         content = articles.length ? (
-            <Row className="articles">{articles}</Row>
+            <Row className={`articles${condensed ? ' condensed' : ''}`}>
+                {articles}
+            </Row>
         ) : (
             <Alert variant="secondary">
                 {has(props, 'noResults')

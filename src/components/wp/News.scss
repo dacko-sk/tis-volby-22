@@ -1,3 +1,4 @@
+@use 'sass:map';
 @import './../../scss/variables';
 
 .articles {
@@ -20,26 +21,13 @@
     text-decoration: underline;
   }
   .thumb {
-    height: 0;
-    overflow: hidden;
-    padding-top: 100%;
-    position: relative;
     figure {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      text-align: center;
-      padding: 5px;
+      // padding: 5px;
       margin: 0;
     }
     img {
       max-height: 100%;
       max-width: 100%;
-      position: relative;
-      top: 50%;
-      transform: translateY(-50%);
     }
   }
 }
@@ -56,4 +44,44 @@
 ul.blocks-gallery-grid {
   list-style: none;
   padding: 0;
+}
+
+@media (min-width: map.get($grid-breakpoints, 'md')) {
+  .article {
+    .thumb {
+      height: 0;
+      overflow: hidden;
+      padding-top: 100%;
+      position: relative;
+      figure {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+      img {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+    }
+  }
+}
+
+@media (min-width: map.get($grid-breakpoints, 'xxl')) {
+  .articles.condensed .article {
+    .thumb {
+      height: auto;
+      padding-top: 0;
+      figure {
+        position: relative;
+      }
+      img {
+        position: relative;
+        top: 0;
+        transform: none;
+      }
+    }
+  }
 }
