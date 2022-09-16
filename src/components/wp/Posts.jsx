@@ -97,7 +97,7 @@ function Posts(props) {
                             <Col
                                 md={condensed ? null : 5}
                                 lg={condensed ? null : 3}
-                                xxl={condensed ? 6 : null}
+                                xxl={condensed ? 'auto' : null}
                                 className={
                                     condensed ? 'align-self-xxl-start' : ''
                                 }
@@ -109,7 +109,7 @@ function Posts(props) {
                                             : 'mb-md-0'
                                     }`}
                                 >
-                                    <figure className="text-center">
+                                    <figure className="text-center text-xxl-start">
                                         <Media
                                             id={article.featured_media}
                                             fallback={props.img}
