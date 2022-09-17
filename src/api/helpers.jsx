@@ -25,12 +25,22 @@ export const wholeCurrencyFormat = (value) =>
         maximumFractionDigits: 0,
     });
 
-export const shortenValue = (value, length) => {
-    if (typeof value === 'string' && value.length > length) {
-        return `${value.substring(0, length)}…`;
+export const shortenValue = (value, length, removals) => {
+    let shorten = value;
+    if (Array.isArray(removals)) {
+        removals.forEach((removal) => {
+            shorten = shorten.replace(removal, '');
+        });
     }
-    return value;
+    if (typeof shorten === 'string' && shorten.length > length) {
+        return `${shorten.substring(0, length)}…`;
+    }
+    return shorten;
 };
+
+export const shortenUrl = (value) =>
+    shortenValue(value, 32, ['https://', 'www.']);
+
 export const dateFormat = (timestamp) =>
     new Intl.DateTimeFormat('sk-SK', {
         year: 'numeric',
@@ -109,6 +119,14 @@ const replacements = {
     'Trenčiansky samosprávny kraj': 'TSK',
     'Trnavský samosprávny kraj': 'TTSK',
     'Žilinský samosprávny kraj': 'ŽSK',
+    Banskobystrický: 'Banskobystrický samosprávny kraj',
+    Bratislavský: 'Bratislavský samosprávny kraj',
+    Košický: 'Košický samosprávny kraj',
+    Nitriansky: 'Nitriansky samosprávny kraj',
+    Prešovský: 'Prešovský samosprávny kraj',
+    Trenčiansky: 'Trenčiansky samosprávny kraj',
+    Trnavský: 'Trnavský samosprávny kraj',
+    Žilinský: 'Žilinský samosprávny kraj',
     BB: 'Banskobystrický kraj',
     BA: 'Bratislavský kraj',
     KE: 'Košický kraj',
@@ -135,6 +153,20 @@ const cities = {
 
 export const substituteCity = (value) =>
     has(cities, value) ? cities[value] : value;
+
+export const isRegional = (municipality) => {
+    let r = false;
+    if (municipality) {
+        Object.keys(cities).some((city) => {
+            if (city.startsWith(municipality)) {
+                r = true;
+                return true;
+            }
+            return false;
+        });
+    }
+    return r;
+};
 
 export const sortByNumericProp = (prop, asc) => (a, b) =>
     asc ? a[prop] - b[prop] : b[prop] - a[prop];

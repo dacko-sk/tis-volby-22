@@ -6,7 +6,7 @@ import { labels } from '../api/constants';
 import {
     currencyFormat,
     setTitle,
-    shortenValue,
+    shortenUrl,
     substitute,
 } from '../api/helpers';
 import { routes } from '../api/routes';
@@ -20,14 +20,11 @@ function Candidate() {
 
     const { csvData } = useData();
 
-    // parse data
+    // parse aggregated data
     let candidate = null;
     if (has(csvData, 'data')) {
         csvData.data.some((row) => {
-            const key = routes.candidate(
-                row.name,
-                substitute(row[labels.elections.municipality_key] ?? '…')
-            );
+            const key = routes.candidate(row.name, row.municipalityName);
             if (pathname === key) {
                 candidate = row;
                 return true;
@@ -38,7 +35,7 @@ function Candidate() {
 
     useEffect(() => {
         if (!candidate && has(csvData, 'data')) {
-            // redirect to parent page (all articles) in case article does not exist in API
+            // redirect to home page in case candidate does not exist
             navigate(routes.home);
         }
     }, [candidate, csvData, navigate]);
@@ -53,70 +50,137 @@ function Candidate() {
         <section className="candidate-page">
             <Title
                 multiline
-                secondary={candidate[labels.elections.municipality_key] || null}
+                secondary={
+                    candidate[labels.elections.municipality_key]
+                        ? candidate.municipalityName
+                        : null
+                }
             >
                 {candidate.name}
+                {candidate.isTransparent ? '' : ' *'}
             </Title>
             <Table striped bordered responsive hover>
                 <tbody>
                     <tr>
                         <td>Typ volieb</td>
-                        <td>
-                            {substitute(
-                                candidate[labels.elections.type_key] ??
-                                    labels.elections.local.key
-                            )}
-                        </td>
+                        <td>{candidate.electionsName}</td>
                     </tr>
-                    <tr>
-                        <td>Kraj</td>
-                        <td>{substitute(candidate.label)}</td>
-                    </tr>
-                    <tr>
-                        <td>{labels.charts.incoming}</td>
-                        <td>{currencyFormat(candidate.sum_incoming)}</td>
-                    </tr>
-                    <tr>
-                        <td>{labels.charts.outgoing}</td>
-                        <td>{currencyFormat(candidate.sum_outgoing)}</td>
-                    </tr>
-                    <tr>
-                        <td>Bilancia</td>
-                        <td>{currencyFormat(candidate.balance)}</td>
-                    </tr>
-                    <tr>
-                        <td>Počet príjmov</td>
-                        <td>{candidate.num_incoming}</td>
-                    </tr>
-                    <tr>
-                        <td>Počet výdavkov</td>
-                        <td>{candidate.num_outgoing}</td>
-                    </tr>
-                    <tr>
-                        <td>{labels.charts.uniqeDonors}</td>
-                        <td>{candidate.num_unique_donors}</td>
-                    </tr>
-                    <tr>
-                        <td>Transparentný účet</td>
-                        <td>
-                            <a
-                                href={candidate.url}
-                                target="_blank"
-                                rel="noreferrer"
-                            >
-                                {shortenValue(
-                                    candidate.url
-                                        .replace('https://', '')
-                                        .replace('www.', ''),
-                                    32
-                                )}
-                            </a>
-                        </td>
-                    </tr>
+                    {candidate.label && (
+                        <tr>
+                            <td>Kraj</td>
+                            <td>{substitute(candidate.label)}</td>
+                        </tr>
+                    )}
+                    {candidate.isTransparent && (
+                        <>
+                            <tr>
+                                <td>{labels.charts.incoming}</td>
+                                <td>
+                                    {currencyFormat(candidate.sum_incoming)}
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>{labels.charts.outgoing}</td>
+                                <td>
+                                    {currencyFormat(candidate.sum_outgoing)}
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Bilancia</td>
+                                <td>{currencyFormat(candidate.balance)}</td>
+                            </tr>
+                            <tr>
+                                <td>Počet príjmov</td>
+                                <td>{candidate.num_incoming}</td>
+                            </tr>
+                            <tr>
+                                <td>Počet výdavkov</td>
+                                <td>{candidate.num_outgoing}</td>
+                            </tr>
+                            <tr>
+                                <td>{labels.charts.uniqeDonors}</td>
+                                <td>{candidate.num_unique_donors}</td>
+                            </tr>
+                            <tr>
+                                <td>Transparentný účet</td>
+                                <td>
+                                    <a
+                                        href={candidate.url}
+                                        target="_blank"
+                                        rel="noreferrer"
+                                    >
+                                        {shortenUrl(candidate.url)}
+                                    </a>
+                                </td>
+                            </tr>
+                        </>
+                    )}
+                    {candidate[labels.parties.account_personal_key] &&
+                        candidate[labels.parties.account_personal_key] !==
+                            candidate.url && (
+                            <tr>
+                                <td>Osobný účet</td>
+                                <td>
+                                    <a
+                                        href={
+                                            candidate[
+                                                labels.parties
+                                                    .account_personal_key
+                                            ]
+                                        }
+                                        target="_blank"
+                                        rel="noreferrer"
+                                    >
+                                        {shortenUrl(
+                                            candidate[
+                                                labels.parties
+                                                    .account_personal_key
+                                            ]
+                                        )}
+                                    </a>
+                                </td>
+                            </tr>
+                        )}
+                    {candidate[labels.parties.account_party_key] && (
+                        <tr>
+                            <td>Stranícky účet</td>
+                            <td>
+                                <a
+                                    href={
+                                        candidate[
+                                            labels.parties.account_party_key
+                                        ]
+                                    }
+                                    target="_blank"
+                                    rel="noreferrer"
+                                >
+                                    {shortenUrl(
+                                        candidate[
+                                            labels.parties.account_party_key
+                                        ]
+                                    )}
+                                </a>
+                            </td>
+                        </tr>
+                    )}
+                    {candidate[labels.parties.party_key] && (
+                        <tr>
+                            <td>Strana / koalícia</td>
+                            <td>{candidate[labels.parties.party_key]}</td>
+                        </tr>
+                    )}
                 </tbody>
             </Table>
 
-            <em className="disclaimer">{labels.disclaimerAccount}</em>
+            <em className="disclaimer">
+                {
+                    labels[
+                        candidate.isTransparent
+                            ? 'disclaimerAccount'
+                            : 'disclaimerParties'
+                    ]
+                }
+            </em>
         </section>
     );
 }

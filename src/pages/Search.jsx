@@ -33,16 +33,19 @@ function Search() {
         csvData.data
             .sort(sortByNumericProp('sum_outgoing', true))
             .forEach((row) => {
-                const city = row[labels.elections.municipality_key] ?? '…';
-                const citySubst = substitute(city);
+                const city = row[labels.elections.municipality_key] ?? '';
                 if (
-                    row.label !== labels.elections.party_key &&
+                    !row.isParty &&
                     (contains(row.name, query) ||
-                        contains(city, query) ||
-                        contains(substituteCity(city), query) ||
-                        contains(substitute(row.label), query))
+                        contains(substitute(row.label ?? ''), query) ||
+                        (city &&
+                            (contains(city, query) ||
+                                contains(substituteCity(city), query))))
                 ) {
-                    const link = routes.candidate(row.name, citySubst);
+                    const link = routes.candidate(
+                        row.name,
+                        row.municipalityName
+                    );
                     candidates.push(
                         <Col key={row.index} className="d-flex">
                             <Link
@@ -56,7 +59,9 @@ function Search() {
                             >
                                 <h3>{row.name}</h3>
                                 {row[labels.elections.municipality_key] && (
-                                    <div className="town my-3">{city}</div>
+                                    <div className="town my-3">
+                                        {row.municipalityName}
+                                    </div>
                                 )}
                                 <div className="type">
                                     {substitute(

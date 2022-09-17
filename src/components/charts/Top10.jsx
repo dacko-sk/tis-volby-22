@@ -23,7 +23,7 @@ function Top10() {
                                 labels.elections.local.key
                         )}`,
                         incoming: row.sum_incoming,
-                        outgoing: Math.abs(row.sum_outgoing),
+                        outgoing: row.sum_outgoing,
                     });
                 }
             }

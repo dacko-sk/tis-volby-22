@@ -11,7 +11,7 @@ import {
     Tooltip,
     Legend,
 } from 'recharts';
-import { charts, labels } from '../../api/constants';
+import { colors, labels } from '../../api/constants';
 import {
     numFormat,
     wholeNumFormat,
@@ -24,6 +24,28 @@ import VerticalTick, { tickFontSize } from './VerticalTick';
 import LastUpdateTag from '../general/LastUpdateTag';
 
 import './Charts.scss';
+
+export const columnVariants = {
+    inOut: [
+        {
+            key: 'outgoing',
+            name: labels.charts.outgoing,
+            color: colors.colorOrange,
+        },
+        {
+            key: 'incoming',
+            name: labels.charts.incoming,
+            color: colors.colorDarkBlue,
+        },
+    ],
+    donors: [
+        {
+            key: 'donors',
+            name: labels.charts.uniqeDonors,
+            color: colors.colorDarkBlue,
+        },
+    ],
+};
 
 function TisBarChart(props) {
     const vertical = has(props, 'vertical');
@@ -42,7 +64,7 @@ function TisBarChart(props) {
         return shortenValue(name, length);
     };
     const bars = [];
-    (has(props, 'bars') ? props.bars : charts.columns.inOut).forEach((bar) => {
+    (has(props, 'bars') ? props.bars : columnVariants.inOut).forEach((bar) => {
         bars.push(
             <Bar
                 key={bar.key}
@@ -150,6 +172,9 @@ function TisBarChart(props) {
                     </ResponsiveContainer>
                 </div>
             </div>
+            {has(props, 'partiesDisclaimer') && (
+                <em className="disclaimer">{labels.disclaimerParties}</em>
+            )}
 
             {has(props, 'buttonLink') && (
                 <div className="buttons mt-3 text-center">

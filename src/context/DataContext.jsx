@@ -1,19 +1,55 @@
 import { createContext, useContext, useMemo, useState } from 'react';
 import has from 'has';
+import { labels } from '../api/constants';
+import { isRegional, substitute } from '../api/helpers';
 
-export const csvFile =
-    'https://raw.githubusercontent.com/matusv/transparent-account-data-slovak-elections-2022/main/aggregation_no_returns.csv';
+export const aggregationFile =
+    'https://raw.githubusercontent.com/matusv/transparent-account-data-slovak-elections-2022/main/aggr_df_no_returns_party_candidates.csv';
 export const baseDate = 1659535519;
 export const reloadMinutes = 70;
 
 export const processData = (data) => {
-    let lastUpdate = baseDate;
     if (has(data, 'data')) {
-        data.data.forEach((row) => {
+        const processed = data;
+        let lastUpdate = baseDate;
+        processed.data.forEach((row, index) => {
             lastUpdate = Math.max(lastUpdate, row.timestamp ?? 0);
+            processed.data[index].isParty =
+                row.label === labels.elections.party_key;
+            processed.data[index].isTransparent = !!row.url;
+            processed.data[index].isRegional =
+                row[labels.elections.type_key] ===
+                    labels.elections.regional.key ||
+                isRegional(
+                    row[
+                        processed.data[index].isTransparent
+                            ? labels.elections.municipality_key
+                            : labels.parties.municipality_key
+                    ]
+                );
+            processed.data[index][labels.elections.municipality_key] =
+                row[labels.elections.municipality_key] ??
+                row[labels.parties.municipality_key];
+            processed.data[index].municipalityName =
+                substitute(
+                    processed.data[index][labels.elections.municipality_key]
+                ) || '…';
+            processed.data[index].electionsName =
+                labels.elections[
+                    processed.data[index].isRegional ? 'regional' : 'local'
+                ].name;
+            processed.data[index].sum_incoming = row.sum_incoming ?? 0;
+            processed.data[index].sum_outgoing = Math.abs(
+                row.sum_outgoing ?? 0
+            );
+            processed.data[index].balance = row.balance ?? 0;
+            processed.data[index].num_incoming = row.num_incoming ?? 0;
+            processed.data[index].num_outgoing = row.num_outgoing ?? 0;
+            processed.data[index].num_unique_donors =
+                row.num_unique_donors ?? 0;
         });
         return {
-            ...data,
+            ...processed,
             lastUpdate,
         };
     }
@@ -25,6 +61,7 @@ export const buildParserConfig = (storeDataCallback) => {
         worker: true,
         header: true,
         dynamicTyping: true,
+        skipEmptyLines: true,
         complete: (results) => {
             const data = processData(results);
             storeDataCallback(data);

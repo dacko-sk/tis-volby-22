@@ -1,22 +1,17 @@
 import has from 'has';
-import { charts, labels } from '../api/constants';
-import {
-    setTitle,
-    sortByNumericProp,
-    sortBySpending,
-    substitute,
-} from '../api/helpers';
+import { setTitle, sortByNumericProp, sortBySpending } from '../api/helpers';
 import { routes } from '../api/routes';
 import Regions from '../components/charts/Regions';
-import TisBarChart from '../components/charts/TisBarChart';
+import TisBarChart, { columnVariants } from '../components/charts/TisBarChart';
 import Title from '../components/structure/Title';
 import useData from '../context/DataContext';
 
 const title = 'Grafy';
+const unknownRegion = 'Nezistený';
 
 function Charts() {
     const { csvData } = useData();
-    const sortByDonors = sortByNumericProp('num_unique_donors');
+    const sortByDonors = sortByNumericProp('donors');
 
     // parse data
     const people = [];
@@ -25,41 +20,44 @@ function Charts() {
     if (has(csvData, 'data')) {
         csvData.data.forEach((row) => {
             if (has(row, 'label')) {
-                if (row.label === labels.elections.party_key) {
+                const region = row.label || unknownRegion;
+                if (row.isParty) {
                     parties.push({
                         name: row.name,
                         incoming: row.sum_incoming,
-                        outgoing: Math.abs(row.sum_outgoing),
+                        outgoing: row.sum_outgoing,
                     });
                 } else {
                     people.push({
-                        name: `${row.name}\n${substitute(
-                            row[labels.elections.municipality_key] ?? '…'
-                        )}\n${substitute(
-                            row[labels.elections.type_key] ??
-                                labels.elections.local.key
-                        )}`,
+                        name: `${row.name}${row.isTransparent ? '' : ' *'}\n${
+                            row.municipalityName
+                        }\n${row.electionsName}`,
                         incoming: row.sum_incoming,
-                        outgoing: Math.abs(row.sum_outgoing),
-                        num_unique_donors: row.num_unique_donors,
+                        outgoing: row.sum_outgoing,
+                        donors: row.num_unique_donors,
                     });
 
-                    if (has(regions, row.label)) {
-                        regions[row.label].incoming += row.sum_incoming;
-                        regions[row.label].outgoing += Math.abs(
-                            row.sum_outgoing
-                        );
+                    if (has(regions, region)) {
+                        regions[region].incoming += row.sum_incoming;
+                        regions[region].outgoing += row.sum_outgoing;
                     } else {
-                        regions[row.label] = {
-                            name: row.label,
+                        regions[region] = {
+                            name: region,
                             incoming: row.sum_incoming,
-                            outgoing: Math.abs(row.sum_outgoing),
+                            outgoing: row.sum_outgoing,
                         };
                     }
                 }
             }
         });
         parties.sort(sortBySpending);
+        if (
+            regions[unknownRegion] &&
+            !regions[unknownRegion].sum_incoming &&
+            !regions[unknownRegion].outgoing
+        ) {
+            delete regions[unknownRegion];
+        }
     }
     const donors = people.sort(sortByDonors).slice(0, 10);
 
@@ -89,13 +87,14 @@ function Charts() {
                 buttonText="Zobraziť všetkých"
                 buttonLink={routes.campaigns}
                 currency
-                vertical
+                partiesDisclaimer
                 scrollable
+                vertical
             />
             <TisBarChart
                 title="Top 10 kandidátov s najvyšším počtom unikátnych darcov"
                 data={donors}
-                bars={charts.columns.donors}
+                bars={columnVariants.donors}
                 buttonText="Zobraziť všetkých"
                 buttonLink={routes.donors}
                 vertical

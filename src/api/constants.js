@@ -12,6 +12,8 @@ export const colors = {
 
 export const labels = {
     disclaimerAccount: 'Príjmy aj výdavky sú očistené o vrátené platby.',
+    disclaimerParties:
+        '* kandidát/ka bez transparentného účtu evidovaného na MV alebo s kampaňou financovanou z účtu politickej strany',
     elections: {
         type_key: 'typ volieb',
         municipality_key: 'samospráva',
@@ -33,32 +35,14 @@ export const labels = {
         outgoing: 'Výdavky',
         uniqeDonors: 'Počet unikátnych darcov',
     },
+    parties: {
+        account_personal_key: 'account',
+        account_party_key: 'party_account',
+        municipality_key: 'area/city',
+        party_key: 'party',
+    },
     search: 'Vyhľadávanie',
     showMore: 'Zobraziť viac',
-};
-
-export const charts = {
-    columns: {
-        inOut: [
-            {
-                key: 'outgoing',
-                name: labels.charts.outgoing,
-                color: colorOrange,
-            },
-            {
-                key: 'incoming',
-                name: labels.charts.incoming,
-                color: colorDarkBlue,
-            },
-        ],
-        donors: [
-            {
-                key: 'num_unique_donors',
-                name: labels.charts.uniqeDonors,
-                color: colorDarkBlue,
-            },
-        ],
-    },
 };
 
 export const errors = {
@@ -67,7 +51,6 @@ export const errors = {
 
 export const constants = {
     colors,
-    charts,
     errors,
     labels,
 };

@@ -21,7 +21,7 @@ function AllCampaigns() {
                         row[labels.elections.municipality_key] ?? '…'
                     )}`,
                     incoming: row.sum_incoming,
-                    outgoing: Math.abs(row.sum_outgoing),
+                    outgoing: row.sum_outgoing,
                 };
                 if (
                     row[labels.elections.type_key] ===

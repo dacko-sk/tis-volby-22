@@ -21,7 +21,8 @@ export const tickClassName = (i, rows) => {
 export const tickLabel = (i, rows) => {
     // create link on first label if there are at least 2 rows
     if (rows.length > 1 && i === 0) {
-        return <Link to={routes.candidate(rows[0], rows[1])}>{rows[i]}</Link>;
+        const linkName = (rows[0] ?? '').replace(' *', '');
+        return <Link to={routes.candidate(linkName, rows[1])}>{rows[0]}</Link>;
     }
     return rows[i];
 };

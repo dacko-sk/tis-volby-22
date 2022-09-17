@@ -3,9 +3,9 @@ import has from 'has';
 import { Outlet, useLocation } from 'react-router-dom';
 import { usePapaParse } from 'react-papaparse';
 import useData, {
+    aggregationFile,
     baseDate,
     buildParserConfig,
-    csvFile,
     reloadMinutes,
 } from '../../context/DataContext';
 import Header from './Header';
@@ -25,15 +25,21 @@ function Layout() {
     // load election data from CSV API and store in context provider
     useEffect(() => {
         let timer = null;
-        const parserConfig = buildParserConfig(setCsvData);
+        const aggregationConfig = buildParserConfig(setCsvData);
         if (reloadData) {
-            readRemoteFile(`${csvFile}?t=${currentTime}`, parserConfig);
+            readRemoteFile(
+                `${aggregationFile}?t=${currentTime}`,
+                aggregationConfig
+            );
         } else {
             // file is loaded and does not need reloading yet (we know the real last update time) - set timeout
             const minutes = reloadMinutes - outdatedMinutes;
             console.log(`CSV data will be reloaded in ${minutes} minutes`);
             timer = setTimeout(() => {
-                readRemoteFile(`${csvFile}?t=${currentTime}`, parserConfig);
+                readRemoteFile(
+                    `${aggregationFile}?t=${currentTime}`,
+                    aggregationConfig
+                );
             }, minutes * 60 * 1000);
         }
         return () => {

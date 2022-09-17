@@ -20,30 +20,28 @@ function Regions() {
     const people = [];
     if (has(csvData, 'data')) {
         csvData.data.forEach((row) => {
-            if (has(row, 'label')) {
-                if (row.label !== labels.elections.party_key) {
-                    const key = substitute(row.label);
-                    if (!has(charts, key)) {
-                        charts[key] = [];
-                        regional[key] = [];
-                        local[key] = [];
-                        charts[key] = false;
-                    }
-                    const person = {
-                        name: `${row.name}\n${substitute(
-                            row[labels.elections.municipality_key] ?? '…'
-                        )}`,
-                        incoming: row.sum_incoming,
-                        outgoing: Math.abs(row.sum_outgoing),
-                    };
-                    if (
-                        row[labels.elections.type_key] ===
-                        labels.elections.regional.key
-                    ) {
-                        regional[key].push(person);
-                    } else {
-                        local[key].push(person);
-                    }
+            if (has(row, 'label') && row.label && !row.isParty) {
+                const key = substitute(row.label);
+                if (!has(charts, key)) {
+                    charts[key] = [];
+                    regional[key] = [];
+                    local[key] = [];
+                    charts[key] = false;
+                }
+                const person = {
+                    name: `${row.name}\n${substitute(
+                        row[labels.elections.municipality_key] ?? '…'
+                    )}`,
+                    incoming: row.sum_incoming,
+                    outgoing: row.sum_outgoing,
+                };
+                if (
+                    row[labels.elections.type_key] ===
+                    labels.elections.regional.key
+                ) {
+                    regional[key].push(person);
+                } else {
+                    local[key].push(person);
                 }
             }
         });
