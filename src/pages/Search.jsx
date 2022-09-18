@@ -51,10 +51,7 @@ function Search() {
                             <Link
                                 to={link}
                                 className={`d-flex flex-column justify-content-between w-100 cat-${
-                                    row[labels.elections.type_key] ===
-                                    labels.elections.regional.key
-                                        ? 'regional'
-                                        : 'local'
+                                    row.isRegional ? 'regional' : 'local'
                                 }`}
                             >
                                 <h3>{row.name}</h3>
@@ -63,12 +60,7 @@ function Search() {
                                         {row.municipalityName}
                                     </div>
                                 )}
-                                <div className="type">
-                                    {substitute(
-                                        row[labels.elections.type_key] ??
-                                            labels.elections.local.key
-                                    )}
-                                </div>
+                                <div className="type">{row.electionsName}</div>
                             </Link>
                         </Col>
                     );

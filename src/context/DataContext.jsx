@@ -7,6 +7,7 @@ export const aggregationFile =
     'https://raw.githubusercontent.com/matusv/transparent-account-data-slovak-elections-2022/main/aggr_df_no_returns_party_candidates.csv';
 export const baseDate = 1659535519;
 export const reloadMinutes = 70;
+export const disclaimerSuffix = ' *';
 
 export const processData = (data) => {
     if (has(data, 'data')) {
@@ -27,6 +28,9 @@ export const processData = (data) => {
                             : labels.parties.municipality_key
                     ]
                 );
+            processed.data[index].displayName = `${row.name}${
+                processed.data[index].isTransparent ? '' : disclaimerSuffix
+            }`;
             processed.data[index][labels.elections.municipality_key] =
                 row[labels.elections.municipality_key] ??
                 row[labels.parties.municipality_key];

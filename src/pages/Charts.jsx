@@ -29,35 +29,28 @@ function Charts() {
                     });
                 } else {
                     people.push({
-                        name: `${row.name}${row.isTransparent ? '' : ' *'}\n${
-                            row.municipalityName
-                        }\n${row.electionsName}`,
+                        name: `${row.displayName}\n${row.municipalityName}\n${row.electionsName}`,
                         incoming: row.sum_incoming,
                         outgoing: row.sum_outgoing,
                         donors: row.num_unique_donors,
                     });
 
-                    if (has(regions, region)) {
-                        regions[region].incoming += row.sum_incoming;
-                        regions[region].outgoing += row.sum_outgoing;
-                    } else {
-                        regions[region] = {
-                            name: region,
-                            incoming: row.sum_incoming,
-                            outgoing: row.sum_outgoing,
-                        };
+                    if (row.label) {
+                        if (has(regions, region)) {
+                            regions[region].incoming += row.sum_incoming;
+                            regions[region].outgoing += row.sum_outgoing;
+                        } else {
+                            regions[region] = {
+                                name: region,
+                                incoming: row.sum_incoming,
+                                outgoing: row.sum_outgoing,
+                            };
+                        }
                     }
                 }
             }
         });
         parties.sort(sortBySpending);
-        if (
-            regions[unknownRegion] &&
-            !regions[unknownRegion].sum_incoming &&
-            !regions[unknownRegion].outgoing
-        ) {
-            delete regions[unknownRegion];
-        }
     }
     const donors = people.sort(sortByDonors).slice(0, 10);
 

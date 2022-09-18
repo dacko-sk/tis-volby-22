@@ -17,7 +17,6 @@ function Regions() {
     const charts = {};
 
     // parse data
-    const people = [];
     if (has(csvData, 'data')) {
         csvData.data.forEach((row) => {
             if (has(row, 'label') && row.label && !row.isParty) {
@@ -29,23 +28,17 @@ function Regions() {
                     charts[key] = false;
                 }
                 const person = {
-                    name: `${row.name}\n${substitute(
-                        row[labels.elections.municipality_key] ?? '…'
-                    )}`,
+                    name: `${row.displayName}\n${row.municipalityName}`,
                     incoming: row.sum_incoming,
                     outgoing: row.sum_outgoing,
                 };
-                if (
-                    row[labels.elections.type_key] ===
-                    labels.elections.regional.key
-                ) {
+                if (row.isRegional) {
                     regional[key].push(person);
                 } else {
                     local[key].push(person);
                 }
             }
         });
-        people.sort(sortBySpending);
     }
 
     // initially all charts are NOT loaded

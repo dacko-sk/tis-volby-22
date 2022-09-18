@@ -1,6 +1,6 @@
 import parse, { attributesToProps, domToReact } from 'html-react-parser';
 import has from 'has';
-import { imgRootPath, labels } from './constants';
+import { imgRootPath } from './constants';
 
 export const slovakFormat = (value, options) =>
     new Intl.NumberFormat('sk-SK', options).format(value);
@@ -109,8 +109,6 @@ const parserOptions = {
 export const parseWpHtml = (html) => parse(html, parserOptions);
 
 const replacements = {
-    [labels.elections.local.key]: labels.elections.local.name,
-    [labels.elections.regional.key]: labels.elections.regional.name,
     'Banskobystrický samosprávny kraj': 'BBSK',
     'Bratislavský samosprávny kraj': 'BSK',
     'Košický samosprávny kraj': 'KSK',

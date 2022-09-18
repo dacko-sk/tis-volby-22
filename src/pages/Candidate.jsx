@@ -56,8 +56,7 @@ function Candidate() {
                         : null
                 }
             >
-                {candidate.name}
-                {candidate.isTransparent ? '' : ' *'}
+                {candidate.displayName}
             </Title>
             <Table striped bordered responsive hover>
                 <tbody>
