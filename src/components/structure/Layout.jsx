@@ -52,9 +52,6 @@ function Layout() {
     // send pageview to analytics on route change
     useEffect(() => {
         if (!window.location.href.includes('localhost')) {
-            // window.gtag('config', gaTrackingId, {
-            //     page_path: pathname,
-            // });
             window.dataLayer.push({
                 event: 'pageview',
                 page: {
