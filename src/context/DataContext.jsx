@@ -1,10 +1,10 @@
 import { createContext, useContext, useMemo, useState } from 'react';
 import has from 'has';
 import { labels } from '../api/constants';
-import { isRegional, substitute } from '../api/helpers';
+import { substitute } from '../api/helpers';
 
 export const aggregationFile =
-    'https://raw.githubusercontent.com/matusv/transparent-account-data-slovak-elections-2022/main/aggr_df_no_returns_party_candidates.csv';
+    'https://raw.githubusercontent.com/matusv/transparent-account-data-slovak-elections-2022/main/aggr_df_no_returns_party_candidates_2.csv';
 export const baseDate = 1659535519;
 export const reloadMinutes = 70;
 export const disclaimerSuffix = ' *';
@@ -18,16 +18,9 @@ export const processData = (data) => {
             processed.data[index].isParty =
                 row.label === labels.elections.party_key;
             processed.data[index].isTransparent = !!row.url;
-            processed.data[index].isRegional =
-                row[labels.elections.type_key] ===
-                    labels.elections.regional.key ||
-                isRegional(
-                    row[
-                        processed.data[index].isTransparent
-                            ? labels.elections.municipality_key
-                            : labels.parties.municipality_key
-                    ]
-                );
+            processed.data[index].isRegional = (
+                row[labels.elections.type_key] ?? ''
+            ).includes(labels.elections.regional.key);
             processed.data[index].displayName = `${row.name}${
                 processed.data[index].isTransparent ? '' : disclaimerSuffix
             }`;

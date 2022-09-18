@@ -18,6 +18,7 @@ export const labels = {
         type_key: 'typ volieb',
         municipality_key: 'samospráva',
         party_key: 'PS',
+        region_key: 'label',
         local: {
             key: 'miestne',
             name: 'Miestne voľby',
@@ -38,8 +39,10 @@ export const labels = {
     parties: {
         account_personal_key: 'account',
         account_party_key: 'party_account',
-        municipality_key: 'area/city',
+        municipality_key: 'samospráva_right',
         party_key: 'party',
+        region_key: 'label_right',
+        type_key: 'typ volieb_right',
     },
     search: 'Vyhľadávanie',
     showMore: 'Zobraziť viac',

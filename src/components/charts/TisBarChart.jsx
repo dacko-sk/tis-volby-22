@@ -172,9 +172,10 @@ function TisBarChart(props) {
                     </ResponsiveContainer>
                 </div>
             </div>
-            {has(props, 'partiesDisclaimer') && (
-                <em className="disclaimer">{labels.disclaimerParties}</em>
-            )}
+            {has(props, 'partiesDisclaimer') &&
+                props.partiesDisclaimer !== false && (
+                    <em className="disclaimer">{labels.disclaimerParties}</em>
+                )}
 
             {has(props, 'buttonLink') && (
                 <div className="buttons mt-3 text-center">

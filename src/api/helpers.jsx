@@ -152,20 +152,6 @@ const cities = {
 export const substituteCity = (value) =>
     has(cities, value) ? cities[value] : value;
 
-export const isRegional = (municipality) => {
-    let r = false;
-    if (municipality) {
-        Object.keys(cities).some((city) => {
-            if (city.startsWith(municipality)) {
-                r = true;
-                return true;
-            }
-            return false;
-        });
-    }
-    return r;
-};
-
 export const sortByNumericProp = (prop, asc) => (a, b) =>
     asc ? a[prop] - b[prop] : b[prop] - a[prop];
 
