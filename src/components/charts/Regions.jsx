@@ -7,37 +7,61 @@ import useData from '../../context/DataContext';
 import Loading from '../general/Loading';
 import TisBarChart from './TisBarChart';
 
+export const types = {
+    regional: 'r',
+    local: 'l',
+};
+
 function Regions() {
     const [activeKey, setActiveKey] = useState(null);
 
     const { csvData } = useData();
 
-    const regional = {};
-    const local = {};
     const charts = {};
+    const candidates = {};
+    const hasPartyCandidates = {};
 
     // parse data
     if (has(csvData, 'data')) {
         csvData.data.forEach((row) => {
             if (has(row, 'label') && row.label && !row.isParty) {
-                const key = substitute(row.label);
-                if (!has(charts, key)) {
-                    charts[key] = [];
-                    regional[key] = [];
-                    local[key] = [];
-                    charts[key] = false;
+                const region = substitute(row.label);
+                if (!has(charts, region)) {
+                    candidates[region] = {
+                        [types.regional]: [],
+                        [types.local]: [],
+                    };
+                    hasPartyCandidates[region] = {
+                        [types.regional]: false,
+                        [types.local]: false,
+                    };
+                    charts[region] = false;
                 }
                 const person = {
                     name: `${row.displayName}\n${row.municipalityName}`,
                     incoming: row.sum_incoming,
                     outgoing: row.sum_outgoing,
+                    isTransparent: row.isTransparent,
                 };
-                if (row.isRegional) {
-                    regional[key].push(person);
-                } else {
-                    local[key].push(person);
-                }
+                candidates[region][
+                    row.isRegional ? types.regional : types.local
+                ].push(person);
             }
+        });
+        // slice top 10 candidates
+        Object.keys(charts).forEach((region) => {
+            Object.values(types).forEach((type) => {
+                candidates[region][type] = candidates[region][type]
+                    .sort(sortBySpending)
+                    .slice(0, 10);
+                candidates[region][type].some((candidate) => {
+                    if (!candidate.isTransparent) {
+                        hasPartyCandidates[region][type] = true;
+                        return true;
+                    }
+                    return false;
+                });
+            });
         });
     }
 
@@ -49,21 +73,25 @@ function Regions() {
     Object.keys(charts).forEach((region) => {
         const chart = loadedRegions[region] ? (
             <div>
-                {regional[region].length > 0 && (
+                {candidates[region][types.regional].length > 0 && (
                     <TisBarChart
-                        title={labels.elections.regional.name}
-                        data={regional[region]
-                            .sort(sortBySpending)
-                            .slice(0, 10)}
                         currency
+                        data={candidates[region][types.regional]}
+                        partiesDisclaimer={
+                            hasPartyCandidates[region][types.regional]
+                        }
+                        title={labels.elections.regional.name}
                         vertical
                     />
                 )}
-                {local[region].length > 0 && (
+                {candidates[region][types.local].length > 0 && (
                     <TisBarChart
-                        title={labels.elections.local.name}
-                        data={local[region].sort(sortBySpending).slice(0, 10)}
                         currency
+                        data={candidates[region][types.local]}
+                        partiesDisclaimer={
+                            hasPartyCandidates[region][types.local]
+                        }
+                        title={labels.elections.local.name}
                         vertical
                     />
                 )}
