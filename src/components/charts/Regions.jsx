@@ -1,12 +1,14 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import Accordion from 'react-bootstrap/Accordion';
+import Button from 'react-bootstrap/Button';
 import has from 'has';
 import { labels } from '../../api/constants';
 import { sortBySpending, substitute } from '../../api/helpers';
 import useData, { types } from '../../context/DataContext';
 import Loading from '../general/Loading';
 import TisBarChart from './TisBarChart';
-import PartyCandidates from '../general/PartyCandidates';
+import { routes } from '../../api/routes';
 
 function Regions() {
     const [activeKey, setActiveKey] = useState(null);
@@ -15,38 +17,33 @@ function Regions() {
 
     const charts = {};
     const candidates = {};
-    const partyCandidates = {};
 
     // parse data
     if (has(csvData, 'data')) {
         csvData.data.forEach((row) => {
-            if (has(row, 'label') && row.label && !row.isParty) {
-                const region = substitute(row.label);
+            if (
+                has(row, 'label') &&
+                row.label &&
+                row.isTransparent &&
+                !row.isParty
+            ) {
+                const region = row.label;
                 if (!has(charts, region)) {
                     candidates[region] = {
                         [types.regional]: [],
                         [types.local]: [],
                     };
-                    partyCandidates[region] = {
-                        [types.regional]: [],
-                        [types.local]: [],
-                    };
                     charts[region] = false;
                 }
-                if (row.isTransparent) {
-                    const person = {
-                        name: `${row.name}\n${row.municipalityShortName}`,
-                        incoming: row.sum_incoming,
-                        outgoing: row.sum_outgoing,
-                    };
-                    candidates[region][
-                        row.isRegional ? types.regional : types.local
-                    ].push(person);
-                } else {
-                    partyCandidates[region][
-                        row.isRegional ? types.regional : types.local
-                    ].push(row);
-                }
+
+                const person = {
+                    name: `${row.name}\n${row.municipalityShortName}`,
+                    incoming: row.sum_incoming,
+                    outgoing: row.sum_outgoing,
+                };
+                candidates[region][
+                    row.isRegional ? types.regional : types.local
+                ].push(person);
             }
         });
     }
@@ -67,10 +64,6 @@ function Regions() {
                     title={labels.elections.regional.name}
                     vertical
                 />
-                <PartyCandidates
-                    candidates={partyCandidates[region][types.regional]}
-                    hideMunicipality
-                />
                 <TisBarChart
                     currency
                     data={candidates[region][types.local]
@@ -79,16 +72,22 @@ function Regions() {
                     title={labels.elections.local.name}
                     vertical
                 />
-                <PartyCandidates
-                    candidates={partyCandidates[region][types.local]}
-                />
+                <div className="buttons mt-3 text-center">
+                    <Button
+                        as={Link}
+                        to={routes.region(region)}
+                        variant="secondary"
+                    >
+                        Zobraziť všetkých kandidátov v kraji
+                    </Button>
+                </div>
             </div>
         ) : (
             <Loading />
         );
         accordions.push(
             <Accordion.Item key={region} eventKey={region}>
-                <Accordion.Header>{region}</Accordion.Header>
+                <Accordion.Header>{substitute(region)}</Accordion.Header>
                 <Accordion.Body>{chart}</Accordion.Body>
             </Accordion.Item>
         );

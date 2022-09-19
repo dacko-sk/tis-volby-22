@@ -1,5 +1,5 @@
 import has from 'has';
-import { setTitle, sortByNumericProp, sortBySpending } from '../api/helpers';
+import { setTitle, sortByDonors, sortBySpending } from '../api/helpers';
 import { routes } from '../api/routes';
 import Regions from '../components/charts/Regions';
 import TisBarChart, { columnVariants } from '../components/charts/TisBarChart';
@@ -11,7 +11,6 @@ const unknownRegion = 'Nezistený';
 
 function Charts() {
     const { csvData } = useData();
-    const sortByDonors = sortByNumericProp('donors');
 
     // parse data
     const people = [];

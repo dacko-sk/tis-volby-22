@@ -7,6 +7,7 @@ export const segments = {
     CHARTS: 'grafy',
     DONORS: 'donori',
     NEWS: 'aktuality',
+    REGION: 'kraj',
     ROOT: '/',
     SEARCH: 'vyhladavanie',
 };
@@ -27,5 +28,6 @@ export const routes = {
     donors: segments.ROOT + segments.CHARTS + separator + segments.DONORS,
     home: segments.ROOT,
     news: segments.ROOT + segments.NEWS,
+    region: (region) => segments.ROOT + segments.REGION + separator + region,
     search: (query) => segments.ROOT + segments.SEARCH + separator + query,
 };

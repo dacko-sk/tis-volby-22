@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { useLocation, useNavigate } from 'react-router-dom';
+import { useLocation, useNavigate, Link } from 'react-router-dom';
 import Table from 'react-bootstrap/Table';
 import has from 'has';
 import { labels } from '../api/constants';
@@ -63,7 +63,11 @@ function Candidate() {
                     {candidate.label && (
                         <tr>
                             <td>Kraj</td>
-                            <td>{substitute(candidate.label)}</td>
+                            <td>
+                                <Link to={routes.region(candidate.label)}>
+                                    {substitute(candidate.label)}
+                                </Link>
+                            </td>
                         </tr>
                     )}
                     {candidate.isTransparent && (

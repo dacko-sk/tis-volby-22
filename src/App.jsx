@@ -11,6 +11,7 @@ import Candidate from './pages/Candidate';
 import Charts from './pages/Charts';
 import Home from './pages/Home';
 import News from './pages/News';
+import Region from './pages/Region';
 import Search from './pages/Search';
 
 import Layout from './components/structure/Layout';
@@ -63,6 +64,10 @@ function App() {
                             <Route
                                 path={`${segments.CANDIDATE}/:slug`}
                                 element={<Candidate />}
+                            />
+                            <Route
+                                path={`${segments.REGION}/:region`}
+                                element={<Region />}
                             />
                             <Route
                                 path={`${segments.SEARCH}/:query`}

@@ -108,7 +108,19 @@ const parserOptions = {
 
 export const parseWpHtml = (html) => parse(html, parserOptions);
 
+export const regions = {
+    BB: 'Banskobystrický kraj',
+    BA: 'Bratislavský kraj',
+    KE: 'Košický kraj',
+    NR: 'Nitriansky kraj',
+    PO: 'Prešovský kraj',
+    TN: 'Trenčiansky kraj',
+    TT: 'Trnavský kraj',
+    ZA: 'Žilinský kraj',
+};
+
 const replacements = {
+    ...regions,
     'Banskobystrický samosprávny kraj': 'BBSK',
     'Bratislavský samosprávny kraj': 'BSK',
     'Košický samosprávny kraj': 'KSK',
@@ -125,14 +137,6 @@ const replacements = {
     Trenčiansky: 'Trenčiansky samosprávny kraj',
     Trnavský: 'Trnavský samosprávny kraj',
     Žilinský: 'Žilinský samosprávny kraj',
-    BB: 'Banskobystrický kraj',
-    BA: 'Bratislavský kraj',
-    KE: 'Košický kraj',
-    NR: 'Nitriansky kraj',
-    PO: 'Prešovský kraj',
-    TN: 'Trenčiansky kraj',
-    TT: 'Trnavský kraj',
-    ZA: 'Žilinský kraj',
 };
 
 export const substitute = (value) =>
@@ -156,6 +160,8 @@ export const sortByNumericProp = (prop, asc) => (a, b) =>
     asc ? a[prop] - b[prop] : b[prop] - a[prop];
 
 export const sortBySpending = sortByNumericProp('outgoing', false);
+
+export const sortByDonors = sortByNumericProp('donors', false);
 
 export const imgPath = (filename) => imgRootPath + filename;
 

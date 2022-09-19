@@ -6,7 +6,7 @@ import TisBarChart from '../components/charts/TisBarChart';
 import PartyCandidates from '../components/general/PartyCandidates';
 import Title from '../components/structure/Title';
 
-const title = 'Výdavky a príjmy všetkých kandidátov';
+export const title = 'Výdavky a príjmy všetkých kandidátov';
 
 function AllCampaigns() {
     const { csvData } = useData();

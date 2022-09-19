@@ -1,16 +1,15 @@
 import has from 'has';
 import { labels } from '../api/constants';
-import { setTitle, sortByNumericProp } from '../api/helpers';
+import { setTitle, sortByDonors } from '../api/helpers';
 import useData, { types } from '../context/DataContext';
 import TisBarChart, { columnVariants } from '../components/charts/TisBarChart';
 import PartyCandidates from '../components/general/PartyCandidates';
 import Title from '../components/structure/Title';
 
-const title = 'Počet unikátnych darcov na kandidáta';
+export const title = 'Počet unikátnych darcov na kandidáta';
 
 function AllDonors() {
     const { csvData } = useData();
-    const sortByDonors = sortByNumericProp('donors');
 
     // parse data
     const candidates = {
