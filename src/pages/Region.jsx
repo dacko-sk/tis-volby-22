@@ -85,7 +85,7 @@ function Region() {
                 />
                 <PartyCandidates
                     candidates={partyCandidates[type]}
-                    hideMunicipality
+                    hideMunicipality={type === types.regional}
                 />
             </div>
         ) : (
