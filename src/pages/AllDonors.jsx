@@ -1,8 +1,9 @@
 import has from 'has';
 import { labels } from '../api/constants';
 import { setTitle, sortByNumericProp } from '../api/helpers';
-import useData from '../context/DataContext';
+import useData, { types } from '../context/DataContext';
 import TisBarChart, { columnVariants } from '../components/charts/TisBarChart';
+import PartyCandidates from '../components/general/PartyCandidates';
 import Title from '../components/structure/Title';
 
 const title = 'Počet unikátnych darcov na kandidáta';
@@ -12,24 +13,32 @@ function AllDonors() {
     const sortByDonors = sortByNumericProp('donors');
 
     // parse data
-    const regional = [];
-    const local = [];
+    const candidates = {
+        [types.regional]: [],
+        [types.local]: [],
+    };
+    const partyCandidates = {
+        [types.regional]: [],
+        [types.local]: [],
+    };
     if (has(csvData, 'data')) {
         csvData.data.forEach((row) => {
             if (has(row, 'label') && !row.isParty) {
-                const person = {
-                    name: `${row.displayName}\n${row.municipalityName}`,
-                    donors: row.num_unique_donors,
-                };
-                if (row.isRegional) {
-                    regional.push(person);
+                if (row.isTransparent) {
+                    const person = {
+                        name: `${row.name}\n${row.municipalityShortName}`,
+                        donors: row.num_unique_donors,
+                    };
+                    candidates[
+                        row.isRegional ? types.regional : types.local
+                    ].push(person);
                 } else {
-                    local.push(person);
+                    partyCandidates[
+                        row.isRegional ? types.regional : types.local
+                    ].push(row);
                 }
             }
         });
-        regional.sort(sortByDonors);
-        local.sort(sortByDonors);
     }
 
     setTitle(title);
@@ -39,18 +48,18 @@ function AllDonors() {
             <Title>{title}</Title>
             <TisBarChart
                 bars={columnVariants.donors}
-                data={regional}
-                partiesDisclaimer
+                data={candidates[types.regional].sort(sortByDonors)}
                 title={labels.elections.regional.name}
                 vertical
             />
+            <PartyCandidates candidates={partyCandidates[types.regional]} />
             <TisBarChart
                 bars={columnVariants.donors}
-                data={local}
-                partiesDisclaimer
+                data={candidates[types.local].sort(sortByDonors)}
                 title={labels.elections.local.name}
                 vertical
             />
+            <PartyCandidates candidates={partyCandidates[types.local]} />
         </section>
     );
 }

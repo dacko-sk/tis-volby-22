@@ -19,7 +19,7 @@ function Charts() {
     const regions = {};
     if (has(csvData, 'data')) {
         csvData.data.forEach((row) => {
-            if (has(row, 'label')) {
+            if (has(row, 'label') && row.isTransparent) {
                 const region = row.label || unknownRegion;
                 if (row.isParty) {
                     parties.push({
@@ -29,7 +29,7 @@ function Charts() {
                     });
                 } else {
                     people.push({
-                        name: `${row.displayName}\n${row.municipalityName}\n${row.electionsName}`,
+                        name: `${row.name}\n${row.municipalityShortName}\n${row.electionsName}`,
                         incoming: row.sum_incoming,
                         outgoing: row.sum_outgoing,
                         donors: row.num_unique_donors,
@@ -80,7 +80,6 @@ function Charts() {
                 buttonText="Zobraziť všetkých"
                 buttonLink={routes.campaigns}
                 currency
-                partiesDisclaimer
                 scrollable
                 vertical
             />

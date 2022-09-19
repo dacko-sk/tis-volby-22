@@ -1,0 +1,9 @@
+@import './../../scss/variables';
+
+.party-candidates {
+  font-size: 13px;
+  a {
+    --bs-link-color: black;
+    --bs-link-hover-color: black;
+  }
+}

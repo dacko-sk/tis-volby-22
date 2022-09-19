@@ -48,6 +48,14 @@ export const columnVariants = {
 };
 
 function TisBarChart(props) {
+    if (
+        !has(props, 'data') ||
+        !Array.isArray(props.data) ||
+        !props.data.length
+    ) {
+        return null;
+    }
+
     const vertical = has(props, 'vertical');
     const axisNumFormat = has(props, 'currency')
         ? wholeCurrencyFormat
@@ -172,11 +180,6 @@ function TisBarChart(props) {
                     </ResponsiveContainer>
                 </div>
             </div>
-            {has(props, 'partiesDisclaimer') &&
-                props.partiesDisclaimer !== false && (
-                    <em className="disclaimer">{labels.disclaimerParties}</em>
-                )}
-
             {has(props, 'buttonLink') && (
                 <div className="buttons mt-3 text-center">
                     <Button as={Link} to={props.buttonLink} variant="secondary">

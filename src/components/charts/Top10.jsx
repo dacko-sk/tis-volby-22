@@ -14,7 +14,7 @@ function Top10() {
         csvData.data.forEach((row) => {
             if (has(row, 'label') && !row.isParty) {
                 people.push({
-                    name: `${row.name}\n${row.municipalityName}\n${row.electionsName}`,
+                    name: `${row.name}\n${row.municipalityShortName}\n${row.electionsName}`,
                     incoming: row.sum_incoming,
                     outgoing: row.sum_outgoing,
                 });

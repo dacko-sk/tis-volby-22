@@ -24,7 +24,7 @@ function Candidate() {
     let candidate = null;
     if (has(csvData, 'data')) {
         csvData.data.some((row) => {
-            const key = routes.candidate(row.name, row.municipalityName);
+            const key = routes.candidate(row.name, row.municipalityShortName);
             if (pathname === key) {
                 candidate = row;
                 return true;
@@ -50,13 +50,9 @@ function Candidate() {
         <section className="candidate-page">
             <Title
                 multiline
-                secondary={
-                    candidate[labels.elections.municipality_key]
-                        ? candidate.municipalityName
-                        : null
-                }
+                secondary={candidate[labels.elections.municipality_key] || null}
             >
-                {candidate.displayName}
+                {candidate.name}
             </Title>
             <Table striped bordered responsive hover>
                 <tbody>
@@ -164,7 +160,7 @@ function Candidate() {
                     )}
                     {candidate[labels.parties.party_key] && (
                         <tr>
-                            <td>Strana / koalícia</td>
+                            <td>{labels.party}</td>
                             <td>{candidate[labels.parties.party_key]}</td>
                         </tr>
                     )}
@@ -172,13 +168,9 @@ function Candidate() {
             </Table>
 
             <em className="disclaimer">
-                {
-                    labels[
-                        candidate.isTransparent
-                            ? 'disclaimerAccount'
-                            : 'disclaimerParties'
-                    ]
-                }
+                {candidate.isTransparent
+                    ? labels.disclaimerAccount
+                    : labels.disclaimerCandidate}
             </em>
         </section>
     );

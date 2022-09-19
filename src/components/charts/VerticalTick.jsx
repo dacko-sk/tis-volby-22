@@ -1,7 +1,6 @@
 import { Link } from 'react-router-dom';
 import { labels } from '../../api/constants';
 import { routes } from '../../api/routes';
-import { disclaimerSuffix } from '../../context/DataContext';
 
 export const tickFontSize = 13;
 
@@ -22,8 +21,7 @@ export const tickClassName = (i, rows) => {
 export const tickLabel = (i, rows) => {
     // create link on first label if there are at least 2 rows
     if (rows.length > 1 && i === 0) {
-        const linkName = (rows[0] ?? '').replace(disclaimerSuffix, '');
-        return <Link to={routes.candidate(linkName, rows[1])}>{rows[0]}</Link>;
+        return <Link to={routes.candidate(rows[0], rows[1])}>{rows[0]}</Link>;
     }
     return rows[i];
 };

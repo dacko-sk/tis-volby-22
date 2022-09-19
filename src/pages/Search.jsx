@@ -44,10 +44,10 @@ function Search() {
                 ) {
                     const link = routes.candidate(
                         row.name,
-                        row.municipalityName
+                        row.municipalityShortName
                     );
                     candidates.push(
-                        <Col key={row.index} className="d-flex">
+                        <Col key={row.name} className="d-flex">
                             <Link
                                 to={link}
                                 className={`d-flex flex-column justify-content-between w-100 cat-${
@@ -57,7 +57,7 @@ function Search() {
                                 <h3>{row.name}</h3>
                                 {row[labels.elections.municipality_key] && (
                                     <div className="town my-3">
-                                        {row.municipalityName}
+                                        {row.municipalityShortName}
                                     </div>
                                 )}
                                 <div className="type">{row.electionsName}</div>

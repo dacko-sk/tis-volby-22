@@ -12,8 +12,10 @@ export const colors = {
 
 export const labels = {
     disclaimerAccount: 'Príjmy aj výdavky sú očistené o vrátené platby.',
+    disclaimerCandidate:
+        'Kandidát(ka), ktorý(á) na financovanie kampane využíva stranícky účet, viacero účtov alebo účet nemá a vizualizáciu príjmov a výdavkov preto nie je možné zobraziť.',
     disclaimerParties:
-        '* kandidát/ka bez transparentného účtu evidovaného na MV alebo s kampaňou financovanou z účtu politickej strany',
+        'Zoznam ďalších kandidátov, ktorí na financovanie kampaní využívajú stranícke účty, viacero účtov alebo účty nemajú a vizualizáciu ich príjmov a výdavkov preto nie je možné zobraziť. Podrobnosti nájdete po rozkliknutí mena kandidáta.',
     elections: {
         type_key: 'typ volieb',
         municipality_key: 'samospráva',
@@ -36,6 +38,8 @@ export const labels = {
         outgoing: 'Výdavky',
         uniqeDonors: 'Počet unikátnych darcov',
     },
+    municipality: 'Samospráva',
+    name: 'Meno',
     parties: {
         account_personal_key: 'account',
         account_party_key: 'party_account',
@@ -44,6 +48,7 @@ export const labels = {
         region_key: 'label_right',
         type_key: 'typ volieb_right',
     },
+    party: 'Strana / koalícia',
     search: 'Vyhľadávanie',
     showMore: 'Zobraziť viac',
 };

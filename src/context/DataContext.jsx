@@ -7,7 +7,11 @@ export const aggregationFile =
     'https://raw.githubusercontent.com/matusv/transparent-account-data-slovak-elections-2022/main/aggr_df_no_returns_party_candidates_2.csv';
 export const baseDate = 1659535519;
 export const reloadMinutes = 70;
-export const disclaimerSuffix = ' *';
+
+export const types = {
+    regional: 'miestne',
+    local: 'župné',
+};
 
 export const processData = (data) => {
     if (has(data, 'data')) {
@@ -21,20 +25,17 @@ export const processData = (data) => {
             processed.data[index].isRegional = (
                 row[labels.elections.type_key] ?? ''
             ).includes(labels.elections.regional.key);
-            processed.data[index].displayName = `${row.name}${
-                processed.data[index].isTransparent ? '' : disclaimerSuffix
-            }`;
             processed.data[index][labels.elections.municipality_key] =
                 row[labels.elections.municipality_key] ??
                 row[labels.parties.municipality_key];
-            processed.data[index].municipalityName =
+            processed.data[index].municipalityShortName =
                 substitute(
                     processed.data[index][labels.elections.municipality_key]
                 ) || '…';
-            processed.data[index].electionsName =
-                labels.elections[
-                    processed.data[index].isRegional ? 'regional' : 'local'
-                ].name;
+            processed.data[index].electionsName = processed.data[index]
+                .isRegional
+                ? labels.elections.regional.name
+                : labels.elections.local.name;
             processed.data[index].sum_incoming = row.sum_incoming ?? 0;
             processed.data[index].sum_outgoing = Math.abs(
                 row.sum_outgoing ?? 0

@@ -1,8 +1,9 @@
 import has from 'has';
 import { labels } from '../api/constants';
 import { setTitle, sortBySpending } from '../api/helpers';
-import useData from '../context/DataContext';
+import useData, { types } from '../context/DataContext';
 import TisBarChart from '../components/charts/TisBarChart';
+import PartyCandidates from '../components/general/PartyCandidates';
 import Title from '../components/structure/Title';
 
 const title = 'Výdavky a príjmy všetkých kandidátov';
@@ -11,25 +12,33 @@ function AllCampaigns() {
     const { csvData } = useData();
 
     // parse data
-    const regional = [];
-    const local = [];
+    const candidates = {
+        [types.regional]: [],
+        [types.local]: [],
+    };
+    const partyCandidates = {
+        [types.regional]: [],
+        [types.local]: [],
+    };
     if (has(csvData, 'data')) {
         csvData.data.forEach((row) => {
             if (has(row, 'label') && !row.isParty) {
-                const person = {
-                    name: `${row.displayName}\n${row.municipalityName}`,
-                    incoming: row.sum_incoming,
-                    outgoing: row.sum_outgoing,
-                };
-                if (row.isRegional) {
-                    regional.push(person);
+                if (row.isTransparent) {
+                    const person = {
+                        name: `${row.name}\n${row.municipalityShortName}`,
+                        incoming: row.sum_incoming,
+                        outgoing: row.sum_outgoing,
+                    };
+                    candidates[
+                        row.isRegional ? types.regional : types.local
+                    ].push(person);
                 } else {
-                    local.push(person);
+                    partyCandidates[
+                        row.isRegional ? types.regional : types.local
+                    ].push(row);
                 }
             }
         });
-        regional.sort(sortBySpending);
-        local.sort(sortBySpending);
     }
 
     setTitle(title);
@@ -39,18 +48,18 @@ function AllCampaigns() {
             <Title>{title}</Title>
             <TisBarChart
                 currency
-                data={regional}
-                partiesDisclaimer
+                data={candidates[types.regional].sort(sortBySpending)}
                 title={labels.elections.regional.name}
                 vertical
             />
+            <PartyCandidates candidates={partyCandidates[types.regional]} />
             <TisBarChart
                 currency
-                data={local}
-                partiesDisclaimer
+                data={candidates[types.local].sort(sortBySpending)}
                 title={labels.elections.local.name}
                 vertical
             />
+            <PartyCandidates candidates={partyCandidates[types.local]} />
         </section>
     );
 }
