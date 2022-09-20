@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import Accordion from 'react-bootstrap/Accordion';
 import has from 'has';
@@ -19,8 +19,6 @@ import { title as spendingTitle } from './AllCampaigns';
 import { title as donorsTitle } from './AllDonors';
 
 function Region() {
-    const [activeKey, setActiveKey] = useState(types.regional);
-
     const params = useParams();
     const region = has(params, 'region') ? params.region : null;
     const navigate = useNavigate();
@@ -77,15 +75,15 @@ function Region() {
                     title={spendingTitle}
                     vertical
                 />
+                <PartyCandidates
+                    candidates={partyCandidates[type]}
+                    hideMunicipality={type === types.regional}
+                />
                 <TisBarChart
                     bars={columnVariants.donors}
                     data={donors[type]}
                     title={donorsTitle}
                     vertical
-                />
-                <PartyCandidates
-                    candidates={partyCandidates[type]}
-                    hideMunicipality={type === types.regional}
                 />
             </div>
         ) : (
@@ -110,11 +108,6 @@ function Region() {
         }
     }, [region, navigate]);
 
-    const onSelect = (ak) => {
-        // open/close accordion
-        setActiveKey(ak);
-    };
-
     setTitle(regions[region]);
 
     return (
@@ -122,8 +115,8 @@ function Region() {
             <Title>{regions[region]}</Title>
             <Accordion
                 className="my-3"
-                activeKey={activeKey}
-                onSelect={onSelect}
+                alwaysOpen
+                defaultActiveKey={Object.values(types)}
             >
                 {accordions}
             </Accordion>

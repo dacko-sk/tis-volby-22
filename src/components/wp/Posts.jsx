@@ -8,7 +8,7 @@ import Pagination from 'react-bootstrap/Pagination';
 import Row from 'react-bootstrap/Row';
 import has from 'has';
 import { labels } from '../../api/constants';
-import { dateFormat, parseWpHtml } from '../../api/helpers';
+import { dateFormat, parseWpHtml, scrollToTop } from '../../api/helpers';
 import { routes, segments } from '../../api/routes';
 import Media from './Media';
 import Loading from '../general/Loading';
@@ -62,6 +62,7 @@ function Posts(props) {
 
     const loadPage = (page) => () => {
         setActivePage(page);
+        scrollToTop();
     };
 
     const articles = [];

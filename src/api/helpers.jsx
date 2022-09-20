@@ -177,3 +177,5 @@ export const contains = (haystack, needle) =>
 export const setTitle = (title) => {
     document.title = `${title} : Samosprávne voľby 2022 : Transparency International Slovensko`;
 };
+
+export const scrollToTop = () => window.scrollTo(0, 0);

@@ -5,7 +5,7 @@ import { routes } from '../../api/routes';
 
 import './PartyCandidates.scss';
 
-function PartyCandidates({ candidates, hideMunicipality }) {
+function PartyCandidates({ candidates }) {
     if (!candidates || !Array.isArray(candidates) || !candidates.length) {
         return null;
     }
@@ -25,11 +25,7 @@ function PartyCandidates({ candidates, hideMunicipality }) {
                         {candidate.name}
                     </Link>
                 </td>
-                {!hideMunicipality && (
-                    <td>
-                        {candidate[labels.elections.municipality_key] || null}
-                    </td>
-                )}
+                <td>{candidate[labels.elections.municipality_key] || ''}</td>
                 {candidate[labels.parties.party_key] && (
                     <td>{candidate[labels.parties.party_key]}</td>
                 )}
@@ -46,7 +42,7 @@ function PartyCandidates({ candidates, hideMunicipality }) {
                 <thead>
                     <tr>
                         <th>{labels.name}</th>
-                        {!hideMunicipality && <th>{labels.municipality}</th>}
+                        <th>{labels.municipality}</th>
                         <th>{labels.party}</th>
                     </tr>
                 </thead>

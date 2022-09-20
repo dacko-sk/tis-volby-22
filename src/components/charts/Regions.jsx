@@ -78,7 +78,7 @@ function Regions() {
                         to={routes.region(region)}
                         variant="secondary"
                     >
-                        Zobraziť všetkých kandidátov v kraji
+                        Zobraziť ďalších kandidátov v kraji
                     </Button>
                 </div>
             </div>

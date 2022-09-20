@@ -8,6 +8,7 @@ import useData, {
     buildParserConfig,
     reloadMinutes,
 } from '../../context/DataContext';
+import { scrollToTop } from '../../api/helpers';
 import Header from './Header';
 import Footer from './Footer';
 
@@ -64,7 +65,7 @@ function Layout() {
 
     // scroll to top when route changes
     useEffect(() => {
-        window.scrollTo(0, 0);
+        scrollToTop();
     }, [pathname]);
 
     return (
