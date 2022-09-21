@@ -5,21 +5,19 @@ import { routes } from '../../api/routes';
 
 const styles = {
     regular: {
-        weight: 2,
-        opacity: 1,
         color: '#aaa',
         dashArray: '3',
-        fillOpacity: 0.85,
-        fillColor: '#08A0DF',
-        // fillColor: '#f06c50',
+        fillOpacity: 0.65,
+        fillColor: '#2bace2',
+        opacity: 1,
+        weight: 2,
     },
     hover: {
-        weight: 5,
         color: '#666',
         dashArray: '',
         fillOpacity: 0.65,
-        // fillColor: '#08A0DF',
         fillColor: '#f06c50',
+        weight: 5,
     },
 };
 
