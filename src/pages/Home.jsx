@@ -5,6 +5,7 @@ import Posts from '../components/wp/Posts';
 import { newsCat, newsImg } from './News';
 import { setTitle } from '../api/helpers';
 import { segments } from '../api/routes';
+import Map from '../components/map/Map';
 
 function Home() {
     setTitle('Úvod');
@@ -17,6 +18,7 @@ function Home() {
                 voľby
             </Title>
             <TotalSpending />
+            <Map />
             <Top10 />
             <h2>Najnovšie aktuality</h2>
             <Posts

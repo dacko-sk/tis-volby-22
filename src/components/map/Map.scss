@@ -1,0 +1,15 @@
+@import './../../scss/variables';
+
+#map {
+  & > div {
+    height: 100%;
+  }
+
+  .leaflet-tooltip {
+    background-color: rgb(255 255 255 / 15%);
+    border: none;
+    box-shadow: 0 0px 8px 2px rgb(0 0 0 / 40%);
+    padding: 0.1em 0.35em;
+    text-align: center;
+  }
+}
