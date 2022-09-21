@@ -88,7 +88,36 @@ function Footer() {
                                     www.transparency.sk
                                 </a>
                             </p>
-                            <h2 className="mt-4 mb-3">Užitočné informácie</h2>
+                            <h2 className="mt-4 mb-0">Sledujte nás</h2>
+                            <div className="social-icons my-3">
+                                <SocialIcon
+                                    bgColor={colorOrange}
+                                    className="me-2"
+                                    url="https://www.facebook.com/transparencysk"
+                                />
+                                <SocialIcon
+                                    bgColor={colorOrange}
+                                    className="me-2"
+                                    url="https://www.instagram.com/transparencysk"
+                                />
+                                <SocialIcon
+                                    bgColor={colorOrange}
+                                    className="me-2"
+                                    url="https://twitter.com/transparencysk"
+                                />
+                                <SocialIcon
+                                    bgColor={colorOrange}
+                                    className="me-2"
+                                    url="https://www.linkedin.com/company/transparency-international-slovakia"
+                                />
+                                <SocialIcon
+                                    bgColor={colorOrange}
+                                    url="https://www.youtube.com/user/TISlovensko"
+                                />
+                            </div>
+                        </Col>
+                        <Col md={6} lg={4}>
+                            <h2 className="mb-3">Užitočné informácie</h2>
                             <ul className="arrows">
                                 <li>
                                     <a
@@ -119,9 +148,7 @@ function Footer() {
                                 </li>
                             </ul>
                             <CookieBanner />
-                        </Col>
-                        <Col md={6} lg={4}>
-                            <h2 className="mb-0">Newsletter</h2>
+                            <h2 className="mt-4 mb-0">Newsletter</h2>
                             <Button
                                 className="mt-3"
                                 href="https://eepurl.com/doWD8X"
@@ -130,33 +157,6 @@ function Footer() {
                             >
                                 Prihlásiť sa na newsletter
                             </Button>
-                            <h2 className="mt-4 mb-0">Sledujte nás</h2>
-                            <div className="social-icons my-3">
-                                <SocialIcon
-                                    bgColor={colorOrange}
-                                    className="me-2"
-                                    url="https://www.facebook.com/transparencysk"
-                                />
-                                <SocialIcon
-                                    bgColor={colorOrange}
-                                    className="me-2"
-                                    url="https://www.instagram.com/transparencysk"
-                                />
-                                <SocialIcon
-                                    bgColor={colorOrange}
-                                    className="me-2"
-                                    url="https://twitter.com/transparencysk"
-                                />
-                                <SocialIcon
-                                    bgColor={colorOrange}
-                                    className="me-2"
-                                    url="https://www.linkedin.com/company/transparency-international-slovakia"
-                                />
-                                <SocialIcon
-                                    bgColor={colorOrange}
-                                    url="https://www.youtube.com/user/TISlovensko"
-                                />
-                            </div>
                             <h2 className="mt-4 mb-0">Podporte Transparency</h2>
                             <Button
                                 className="mt-3 mb-4 text-uppercase fw-bold"
