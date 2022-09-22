@@ -8,20 +8,28 @@ import Title from '../components/structure/Title';
 import Posts from '../components/wp/Posts';
 
 export const analysesImg = 'politician.png';
-export const analysesCat = [859];
-export const elections = {
-    // regional: 860,
-    // local: 861,
-};
-export const regions = {
-    // BA: 863,
-    // BB: 862,
-    // KE: 864,
-    // NR: 865,
-    // PO: 866,
-    // TN: 867,
-    // TT: 868,
-    // ZA: 869,
+export const analysesCategories = {
+    main: 859,
+    regions: {
+        // BA: 863,
+        // BB: 862,
+        // KE: 864,
+        // NR: 865,
+        // PO: 866,
+        // TN: 867,
+        // TT: 868,
+        // ZA: 869,
+    },
+    rating: {
+        green: 871,
+        orange: 872,
+        red: 873,
+    },
+    top: 870,
+    types: {
+        regional: 860,
+        local: 861,
+    },
 };
 
 const title = 'Hodnotenie transparentnosti kandidátov';
@@ -32,34 +40,40 @@ function Analyses() {
     const [loadedRegions, setLoadedRegions] = useState({});
 
     const accordions = [];
-    Object.entries(regions).forEach(([region, regionId]) => {
+    Object.entries(analysesCategories.regions).forEach(([region, regionId]) => {
         const types = [];
         if (has(loadedRegions, region) && loadedRegions[region]) {
-            Object.entries(elections).forEach(([type, typeId]) => {
-                const excluded = Object.values(elections)
-                    .filter((id) => id !== typeId)
-                    .concat(
-                        Object.values(regions).filter((id) => id !== regionId)
+            Object.entries(analysesCategories.types).forEach(
+                ([type, typeId]) => {
+                    const excluded = Object.values(analysesCategories.types)
+                        .filter((id) => id !== typeId)
+                        .concat(
+                            Object.values(analysesCategories.regions).filter(
+                                (id) => id !== regionId
+                            )
+                        );
+                    types.push(
+                        <div key={typeId}>
+                            <h2
+                                className={
+                                    typeId === analysesCategories.types.local
+                                        ? 'my-3'
+                                        : 'mb-3'
+                                }
+                            >
+                                {labels.elections[type].name}
+                            </h2>
+                            <Posts
+                                categories={[typeId, regionId]}
+                                categoriesExclude={excluded}
+                                img={analysesImg}
+                                noResults="Pre tento typ volieb v tomto kraji doposiaľ nie sú k dispozícii žiadne hodnotenia."
+                                section={segments.ANALYSES}
+                            />
+                        </div>
                     );
-                types.push(
-                    <div key={typeId}>
-                        <h2
-                            className={
-                                typeId === elections.local ? 'my-3' : 'mb-3'
-                            }
-                        >
-                            {labels.elections[type].name}
-                        </h2>
-                        <Posts
-                            categories={[typeId, regionId]}
-                            categoriesExclude={excluded}
-                            img={analysesImg}
-                            noResults="Pre tento typ volieb v tomto kraji doposiaľ nie sú k dispozícii žiadne hodnotenia."
-                            section={segments.ANALYSES}
-                        />
-                    </div>
-                );
-            });
+                }
+            );
         }
         accordions.push(
             <Accordion.Item key={region} eventKey={region}>
@@ -89,8 +103,8 @@ function Analyses() {
         <section>
             <Title>{title}</Title>
             <Posts
-                categories={analysesCat}
-                categoriesExclude={Object.values(regions)}
+                categories={[/* analysesCategories.top */ 999]}
+                categoriesExclude={Object.values(analysesCategories.regions)}
                 img={analysesImg}
                 noResults="Sekcia sa pripravuje. Hodnotenia kampaní budeme zverejňovať postupne."
                 section={segments.ANALYSES}

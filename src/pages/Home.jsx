@@ -2,7 +2,7 @@ import Top10 from '../components/charts/Top10';
 import TotalSpending from '../components/general/TotalSpending';
 import Title from '../components/structure/Title';
 import Posts from '../components/wp/Posts';
-import { newsCat, newsImg } from './News';
+import { newsCategories, newsImg } from './News';
 import { setTitle } from '../api/helpers';
 import { segments } from '../api/routes';
 import Map from '../components/map/Map';
@@ -22,7 +22,7 @@ function Home() {
             <Top10 />
             <h2>Najnovšie aktuality</h2>
             <Posts
-                categories={newsCat}
+                categories={newsCategories}
                 condensed
                 img={newsImg}
                 limit={2}
