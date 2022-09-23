@@ -5,7 +5,7 @@ import { routes } from '../../api/routes';
 
 const styles = {
     regular: {
-        color: '#aaa',
+        color: '#ddd',
         dashArray: '3',
         fillOpacity: 0.82,
         // fillColor: '#2bace2', // light blue with 1.0
@@ -29,20 +29,24 @@ function RegionsLayer() {
 
     const featureOver = (mouseEvent) => {
         const layer = mouseEvent.target;
+        const tooltip = layer.getTooltip();
+        // set hover style to layer
         layer.setStyle(styles.hover);
+        // set hover style to tooltip
+        tooltip.getElement().classList.add('hovered');
 
-        // if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
         layer.bringToFront();
-        // }
+        tooltip.bringToFront();
     };
 
     const featureOut = (mouseEvent) => {
         const layer = mouseEvent.target;
+        // set regular style to layer
         layer.setStyle(styles.regular);
+        // set regular style to tooltip
+        layer.getTooltip().getElement().classList.remove('hovered');
 
-        // if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
         layer.bringToBack();
-        // }
     };
 
     const featureClick = (pointerEvent) => {
@@ -50,9 +54,14 @@ function RegionsLayer() {
     };
 
     const onEach = (feature, layer) => {
-        const label = ['BA', 'NR', 'TN', 'TT'].includes(feature.properties.code)
-            ? feature.properties.name.replace(' ', '<br/>')
-            : feature.properties.name;
+        let label;
+        if (window.innerWidth < 576) {
+            label = feature.properties.code;
+        } else {
+            label = ['BA', 'NR', 'TN', 'TT'].includes(feature.properties.code)
+                ? feature.properties.name.replace(' ', '<br/>')
+                : feature.properties.name;
+        }
         let offset = [0, 0];
         switch (feature.properties.code) {
             case 'BA':
@@ -68,9 +77,10 @@ function RegionsLayer() {
             default:
                 break;
         }
-        layer.bindTooltip(`<strong>${label}</strong>`, {
+        layer.bindTooltip(label, {
             direction: 'center',
             offset,
+            opacity: 1,
             permanent: true,
         });
         layer.on({
