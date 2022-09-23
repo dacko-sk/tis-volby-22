@@ -7,16 +7,19 @@ const styles = {
     regular: {
         color: '#aaa',
         dashArray: '3',
-        fillOpacity: 0.65,
-        fillColor: '#2bace2',
+        fillOpacity: 0.82,
+        // fillColor: '#2bace2', // light blue with 1.0
+        fillColor: '#009ddf', // light blue with 0.82
+        // fillColor: '#f02b01', // orange with 0.67
+        // fillColor: '#e5f3ff', // light gray with 0.6
         opacity: 1,
         weight: 2,
     },
     hover: {
         color: '#666',
         dashArray: '',
-        fillOpacity: 0.65,
-        fillColor: '#f06c50',
+        fillOpacity: 0.67,
+        fillColor: '#f02b01',
         weight: 5,
     },
 };

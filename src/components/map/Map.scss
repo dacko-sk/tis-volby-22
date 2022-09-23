@@ -5,6 +5,10 @@
     height: 100%;
   }
 
+  .leaflet-container {
+    font-family: $font-family, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  }
+
   .leaflet-tooltip {
     background-color: rgb(255 255 255 / 15%);
     border: none;

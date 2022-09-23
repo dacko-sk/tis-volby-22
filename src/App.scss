@@ -4,7 +4,6 @@
 
 /* font */
 @import url(https://fonts.googleapis.com/css?family=Ubuntu:#{$fw-regular},#{$fw-bold}&subset=latin,latin-ext);
-$font-family: 'Ubuntu';
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -30,7 +29,7 @@ code {
 }
 
 header {
-  background-image: url('./../public/img/samospravy_color_1920_900.png');
+  background-image: url('./../public/img/samospravy_color_3_1920_900.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: right;
