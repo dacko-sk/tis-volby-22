@@ -3,7 +3,6 @@ import { segments } from '../api/routes';
 import Title from '../components/structure/Title';
 import Posts from '../components/wp/Posts';
 
-export const newsImg = 'news.png';
 export const newsCategories = [858];
 
 const title = 'Aktuality';
@@ -14,11 +13,7 @@ function News() {
     return (
         <section>
             <Title>{title}</Title>
-            <Posts
-                categories={newsCategories}
-                img={newsImg}
-                section={segments.NEWS}
-            />
+            <Posts categories={newsCategories} section={segments.NEWS} />
         </section>
     );
 }

@@ -7,7 +7,6 @@ import { segments } from '../api/routes';
 import Title from '../components/structure/Title';
 import Posts from '../components/wp/Posts';
 
-export const analysesImg = 'politician.png';
 export const analysesCategories = {
     main: 859,
     regions: {
@@ -66,7 +65,6 @@ function Analyses() {
                             <Posts
                                 categories={[typeId, regionId]}
                                 categoriesExclude={excluded}
-                                img={analysesImg}
                                 noResults="Pre tento typ volieb v tomto kraji doposiaľ nie sú k dispozícii žiadne hodnotenia."
                                 section={segments.ANALYSES}
                             />
@@ -105,7 +103,6 @@ function Analyses() {
             <Posts
                 categories={[/* analysesCategories.top */ 999]}
                 categoriesExclude={Object.values(analysesCategories.regions)}
-                img={analysesImg}
                 noResults="Sekcia sa pripravuje. Hodnotenia kampaní budeme zverejňovať postupne."
                 section={segments.ANALYSES}
             />

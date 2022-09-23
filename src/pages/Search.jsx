@@ -13,8 +13,8 @@ import {
     substituteCity,
 } from '../api/helpers';
 import { routes, segments } from '../api/routes';
-import { /* analysesCategories, */ analysesImg } from './Analyses';
-import { newsCategories, newsImg } from './News';
+// import { /* analysesCategories, */ } from './Analyses';
+import { newsCategories } from './News';
 import Loading from '../components/general/Loading';
 import Title from '../components/structure/Title';
 import Posts from '../components/wp/Posts';
@@ -99,7 +99,6 @@ function Search() {
             <h2 className="my-4">Aktuality</h2>
             <Posts
                 categories={newsCategories}
-                img={newsImg}
                 noResults="Hľadaný výraz nebol nájdený v žiadnej z aktualít."
                 section={segments.NEWS}
                 search={query}
@@ -108,7 +107,6 @@ function Search() {
             <h2 className="my-4">Hodnotenia</h2>
             <Posts
                 categories={[/* analysesCategories.top */ 999]}
-                img={analysesImg}
                 noResults="Hľadaný výraz nebol nájdený v žiadnom hodnotení."
                 section={segments.ANALYSES}
                 search={query}

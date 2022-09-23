@@ -1,5 +1,6 @@
 import { useQuery } from '@tanstack/react-query';
 import has from 'has';
+import { images } from '../../api/constants';
 import { imgPath } from '../../api/helpers';
 import Loading from '../general/Loading';
 
@@ -22,7 +23,7 @@ function Media({ id, fallback }) {
     const src =
         data && has(data, 'source_url')
             ? data.source_url
-            : imgPath(fallback || 'politician.png');
+            : imgPath(fallback || images.news);
     const alt =
         data && has(data, 'alt_text') ? data.alt_text : 'ilustračný obrázok';
 

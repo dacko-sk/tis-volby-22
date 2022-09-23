@@ -3,14 +3,15 @@ import { useQuery } from '@tanstack/react-query';
 import { Link, useNavigate } from 'react-router-dom';
 import Alert from 'react-bootstrap/Alert';
 import Button from 'react-bootstrap/Button';
-import Col from 'react-bootstrap/Col';
 import Pagination from 'react-bootstrap/Pagination';
 import Row from 'react-bootstrap/Row';
 import has from 'has';
 import { labels } from '../../api/constants';
-import { dateFormat, parseWpHtml, scrollToTop } from '../../api/helpers';
+import { scrollToTop } from '../../api/helpers';
 import { routes, segments } from '../../api/routes';
-import Media from './Media';
+import AnalysesList from './templates/AnalysesList';
+import NewsCondensed from './templates/NewsCondensed';
+import NewsList from './templates/NewsList';
 import Loading from '../general/Loading';
 
 import './News.scss';
@@ -71,70 +72,34 @@ function Posts(props) {
         content = <Loading error={error} />;
     } else {
         data.forEach((article) => {
-            articles.push(
-                <Col
-                    className="d-flex px-0"
-                    md={condensed ? 6 : 12}
-                    key={article.slug}
-                >
-                    <div
-                        id={article.slug}
-                        className="article p-3"
-                        onClick={getClickHandler(article)}
-                        onKeyUp={getKeyUpHandler(article)}
-                        role="link"
-                        tabIndex={0}
-                    >
-                        {condensed && (
-                            <h2 className="d-none d-xxl-block">
-                                {article.title.rendered}
-                            </h2>
-                        )}
-                        <Row
-                            className={`align-items-center${
-                                condensed ? ' align-items-xxl-start' : ''
-                            }`}
-                        >
-                            <Col
-                                md={condensed ? null : 5}
-                                lg={condensed ? null : 3}
-                                xxl={condensed ? 'auto' : null}
-                                className={
-                                    condensed ? 'align-self-xxl-start' : ''
-                                }
-                            >
-                                <div
-                                    className={`thumb mb-2 ${
-                                        condensed
-                                            ? 'mb-xxl-0 mt-xxl-2'
-                                            : 'mb-md-0'
-                                    }`}
-                                >
-                                    <figure className="text-center text-xxl-start">
-                                        <Media
-                                            id={article.featured_media}
-                                            fallback={props.img}
-                                        />
-                                    </figure>
-                                </div>
-                            </Col>
-                            <Col>
-                                <h2
-                                    className={
-                                        condensed ? 'd-block d-xxl-none' : ''
-                                    }
-                                >
-                                    {article.title.rendered}
-                                </h2>
-                                <div className="article-date my-2">
-                                    {dateFormat(article.date)}
-                                </div>
-                                {parseWpHtml(article.excerpt.rendered)}
-                            </Col>
-                        </Row>
-                    </div>
-                </Col>
-            );
+            if (section === segments.NEWS) {
+                articles.push(
+                    condensed ? (
+                        <NewsCondensed
+                            key={article.slug}
+                            article={article}
+                            clickHandler={getClickHandler(article)}
+                            keyUpHandler={getKeyUpHandler(article)}
+                        />
+                    ) : (
+                        <NewsList
+                            key={article.slug}
+                            article={article}
+                            clickHandler={getClickHandler(article)}
+                            keyUpHandler={getKeyUpHandler(article)}
+                        />
+                    )
+                );
+            } else {
+                articles.push(
+                    <AnalysesList
+                        key={article.slug}
+                        article={article}
+                        clickHandler={getClickHandler(article)}
+                        keyUpHandler={getKeyUpHandler(article)}
+                    />
+                );
+            }
         });
         content = articles.length ? (
             <Row className={`articles${condensed ? ' condensed' : ''}`}>

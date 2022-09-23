@@ -1,5 +1,10 @@
 export const imgRootPath = '/img/';
 
+export const images = {
+    analyses: 'politician.png',
+    news: 'news.png',
+};
+
 export const colorLightBlue = '#2bace2';
 export const colorDarkBlue = '#1b335f';
 export const colorOrange = '#f06c50';
@@ -60,6 +65,7 @@ export const errors = {
 export const constants = {
     colors,
     errors,
+    images,
     labels,
 };
 
