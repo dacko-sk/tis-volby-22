@@ -30,6 +30,46 @@
       max-width: 100%;
     }
   }
+  &.analysis-preview {
+    .thumb {
+      figure {
+        padding: 10px;
+        &:after {
+          position: absolute;
+          top: 0;
+          right: 0;
+          transform: translate(50%, -50%) rotate(45deg) translate(0, 250%);
+          color: #fff;
+          font-size: 12px;
+          line-height: 1.75em;
+          text-align: center;
+          padding: 0 25%;
+          width: 100%;
+        }
+        &.tis-good {
+          border: 2px solid $tis-score-green;
+          &:after {
+            background-color: $tis-score-green;
+            content: 'transparentná';
+          }
+        }
+        &.tis-average {
+          border: 2px solid $tis-score-orange;
+          &:after {
+            background-color: $tis-score-orange;
+            content: 's výhradami';
+          }
+        }
+        &.tis-bad {
+          border: 2px solid $tis-score-red;
+          &.tis-bad:after {
+            background-color: $tis-score-red;
+            content: 'netransparentná';
+          }
+        }
+      }
+    }
+  }
 }
 
 .article-date {

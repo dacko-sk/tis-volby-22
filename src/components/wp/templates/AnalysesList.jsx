@@ -1,14 +1,15 @@
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
-import Media from '../Media';
-import { images } from '../../../api/constants';
+import { images, labels } from '../../../api/constants';
+import { imgPath } from '../../../api/helpers';
 
 function AnalysesList({ article, clickHandler, keyUpHandler }) {
+    const score = 'bad';
     return (
         <Col className="px-0" md={12}>
             <div
                 id={article.slug}
-                className="article p-3"
+                className="article analysis-preview p-3"
                 onClick={clickHandler}
                 onKeyUp={keyUpHandler}
                 role="link"
@@ -17,10 +18,10 @@ function AnalysesList({ article, clickHandler, keyUpHandler }) {
                 <Row className="align-items-center">
                     <Col md={5} lg={3}>
                         <div className="thumb mb-2 mb-md-0">
-                            <figure className="text-center text-xxl-start">
-                                <Media
-                                    id={article.featured_media}
-                                    fallback={images.analyses}
+                            <figure className={`text-center tis-${score}`}>
+                                <img
+                                    src={imgPath(images.analyses)}
+                                    alt={labels.transparency[score]}
                                 />
                             </figure>
                         </div>
