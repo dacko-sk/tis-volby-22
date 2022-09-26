@@ -26,16 +26,19 @@ export const wholeCurrencyFormat = (value) =>
     });
 
 export const shortenValue = (value, length, removals) => {
-    let shorten = value;
-    if (Array.isArray(removals)) {
-        removals.forEach((removal) => {
-            shorten = shorten.replace(removal, '');
-        });
+    if (value) {
+        let shorten = value;
+        if (Array.isArray(removals)) {
+            removals.forEach((removal) => {
+                shorten = shorten.replace(removal, '');
+            });
+        }
+        if (typeof shorten === 'string' && shorten.length > length) {
+            return `${shorten.substring(0, length)}…`;
+        }
+        return shorten;
     }
-    if (typeof shorten === 'string' && shorten.length > length) {
-        return `${shorten.substring(0, length)}…`;
-    }
-    return shorten;
+    return '';
 };
 
 export const shortenUrl = (value) =>
@@ -109,7 +112,12 @@ const parserOptions = {
 export const parseWpHtml = (html) => parse(html, parserOptions);
 
 export const ecodeHTMLEntities = (rawStr) =>
-    rawStr.replace(/&#(\d+);/g, (match, dec) => `${String.fromCharCode(dec)}`);
+    rawStr
+        ? rawStr.replace(
+              /&#(\d+);/g,
+              (match, dec) => `${String.fromCharCode(dec)}`
+          )
+        : '';
 
 export const parseAnalysesData = (html) => {
     const start = '<tbody><tr>';
@@ -230,20 +238,17 @@ export const sortBySpending = sortByNumericProp('outgoing', false);
 
 export const sortByDonors = sortByNumericProp('donors', false);
 
-export const imgPath = (filename) => imgRootPath + filename;
+export const imgPath = (filename) => (filename ? imgRootPath + filename : '');
 
-export const removeAccentsFromString = (str) => {
-    return str.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
-};
+export const removeAccentsFromString = (str) =>
+    str ? str.normalize('NFD').replace(/[\u0300-\u036f]/g, '') : '';
 
-export const contains = (haystack, needle) => {
-    if (haystack && needle) {
-        return removeAccentsFromString(haystack.toLowerCase()).includes(
-            removeAccentsFromString(needle.toLowerCase())
-        );
-    }
-    return false;
-};
+export const contains = (haystack, needle) =>
+    haystack && needle
+        ? removeAccentsFromString(haystack.toLowerCase()).includes(
+              removeAccentsFromString(needle.toLowerCase())
+          )
+        : false;
 
 export const setTitle = (title) => {
     document.title = `${title} : Samosprávne voľby 2022 : Transparency International Slovensko`;
