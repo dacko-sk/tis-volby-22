@@ -2,7 +2,10 @@ import { useEffect } from 'react';
 import { useNavigate, useLocation, useParams } from 'react-router-dom';
 import { useQuery } from '@tanstack/react-query';
 import has from 'has';
-import { dateFormat, parseWpHtml, setTitle } from '../api/helpers';
+import { setTitle } from '../api/helpers';
+import { routes } from '../api/routes';
+import AnalysisDetail from '../components/wp/templates/AnalysisDetail';
+import NewsDetail from '../components/wp/templates/NewsDetail';
 import Loading from '../components/general/Loading';
 import Title from '../components/structure/Title';
 
@@ -52,15 +55,18 @@ function Article() {
         return <Loading error={error} />;
     }
 
+    const template = location.pathname.startsWith(routes.analyses) ? (
+        <AnalysisDetail article={article} />
+    ) : (
+        <NewsDetail article={article} />
+    );
+
     setTitle(article.title.rendered);
 
     return (
         <section className="article-detail">
             <Title>{article.title.rendered}</Title>
-            <div className="article-date my-4">{dateFormat(article.date)}</div>
-            <div className="article-body">
-                {parseWpHtml(article.content.rendered)}
-            </div>
+            {template}
         </section>
     );
 }

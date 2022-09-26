@@ -22,7 +22,6 @@
   }
   .thumb {
     figure {
-      // padding: 5px;
       margin: 0;
     }
     img {
@@ -32,41 +31,51 @@
   }
   &.analysis-preview {
     .thumb {
+      position: relative;
+      overflow: hidden;
       figure {
-        padding: 10px;
+        img {
+          padding: 2.5%;
+        }
         &:after {
           position: absolute;
           top: 0;
           right: 0;
-          transform: translate(50%, -50%) rotate(45deg) translate(0, 250%);
+          transform: translate(50%, -50%) rotate(45deg) translate(0, 235%);
           color: #fff;
-          font-size: 12px;
-          line-height: 1.75em;
+          font-size: 1rem;
+          font-weight: $fw-bold;
+          line-height: 2rem;
           text-align: center;
-          padding: 0 25%;
-          width: 100%;
+          width: 150%;
         }
-        &.tis-good {
-          border: 2px solid $tis-score-green;
-          &:after {
-            background-color: $tis-score-green;
-            content: 'transparentná';
-          }
-        }
-        &.tis-average {
-          border: 2px solid $tis-score-orange;
-          &:after {
-            background-color: $tis-score-orange;
-            content: 's výhradami';
-          }
-        }
-        &.tis-bad {
-          border: 2px solid $tis-score-red;
-          &.tis-bad:after {
-            background-color: $tis-score-red;
-            content: 'netransparentná';
-          }
-        }
+      }
+    }
+    &.good {
+      figure:after {
+        background-color: $tis-score-green;
+        content: 'transparentná';
+      }
+      img {
+        border: 2px solid $tis-score-green;
+      }
+    }
+    &.average {
+      figure:after {
+        background-color: $tis-score-orange;
+        content: 's výhradami';
+      }
+      img {
+        border: 2px solid $tis-score-orange;
+      }
+    }
+    &.bad {
+      figure:after {
+        background-color: $tis-score-red;
+        content: 'netransparentná';
+      }
+      img {
+        border: 2px solid $tis-score-red;
       }
     }
   }

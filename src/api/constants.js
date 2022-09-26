@@ -17,6 +17,12 @@ export const colors = {
     colorGrey,
 };
 
+export const transparencyClasses = {
+    good: 'good',
+    average: 'average',
+    bad: 'bad',
+};
+
 export const labels = {
     disclaimerAccount: 'Príjmy aj výdavky sú očistené o vrátené platby.',
     disclaimerCandidate:
@@ -88,13 +94,14 @@ export const labels = {
     },
     party: 'Strana / koalícia',
     transparency: {
-        good: 'transparentná kampaň',
-        average: 'kampaň s výhradami',
-        bad: 'netransparentná kampaň',
+        [transparencyClasses.good]: 'transparentná kampaň',
+        [transparencyClasses.average]: 'kampaň s výhradami',
+        [transparencyClasses.bad]: 'netransparentná kampaň',
     },
     score: ['nezistené/netýka sa', 'áno', 'čiastočne', 'nie'],
     search: 'Vyhľadávanie',
     showMore: 'Zobraziť viac',
+    type: 'Typ volieb',
 };
 
 export const errors = {
@@ -106,6 +113,7 @@ export const constants = {
     errors,
     images,
     labels,
+    transparencyClasses,
 };
 
 export default constants;

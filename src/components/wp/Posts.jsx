@@ -9,7 +9,7 @@ import has from 'has';
 import { labels } from '../../api/constants';
 import { scrollToTop } from '../../api/helpers';
 import { routes, segments } from '../../api/routes';
-import AnalysesList from './templates/AnalysesList';
+import AnalysisList from './templates/AnalysisList';
 import NewsCondensed from './templates/NewsCondensed';
 import NewsList from './templates/NewsList';
 import Loading from '../general/Loading';
@@ -92,7 +92,7 @@ function Posts(props) {
                 );
             } else {
                 articles.push(
-                    <AnalysesList
+                    <AnalysisList
                         key={article.slug}
                         article={article}
                         clickHandler={getClickHandler(article)}

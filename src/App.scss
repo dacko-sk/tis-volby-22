@@ -7,7 +7,7 @@
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #333;
+  color: $font-color;
   font-family: $font-family, sans-serif;
   font-weight: $fw-regular;
   line-height: 1.42857143; // keep this for chart labels
@@ -54,6 +54,11 @@ h4 {
   color: $tis-light-blue;
 }
 
+h5,
+h6 {
+  color: $font-color;
+}
+
 ul.arrows {
   list-style: none;
   padding: 0;
@@ -64,7 +69,7 @@ ul.arrows {
       content: '›';
       position: absolute;
       left: 0.25em;
-      top: 50%;
+      top: 42.5%;
       transform: translateY(-50%);
       color: $tis-orange;
       font-size: 1.5em;
@@ -139,6 +144,20 @@ ul.arrows {
   }
   .town {
     color: #333;
+  }
+}
+
+.badge {
+  background-color: $font-color;
+  color: #fff;
+  &.good {
+    background-color: $tis-score-green;
+  }
+  &.average {
+    background-color: $tis-score-orange;
+  }
+  &.bad {
+    background-color: $tis-score-red;
   }
 }
 
