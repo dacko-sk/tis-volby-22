@@ -238,7 +238,7 @@ export const removeAccentsFromString = (str) => {
 
 export const contains = (haystack, needle) => {
     if (haystack && needle) {
-        removeAccentsFromString(haystack.toLowerCase()).includes(
+        return removeAccentsFromString(haystack.toLowerCase()).includes(
             removeAccentsFromString(needle.toLowerCase())
         );
     }
