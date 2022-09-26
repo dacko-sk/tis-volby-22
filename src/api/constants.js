@@ -24,6 +24,8 @@ export const transparencyClasses = {
 };
 
 export const labels = {
+    analysis: 'Celkové hodnotenie',
+    analysisDate: 'Hodnotenie ku dňu',
     disclaimerAccount: 'Príjmy aj výdavky sú očistené o vrátené platby.',
     disclaimerCandidate:
         'Kandidát(ka), ktorý(á) na financovanie kampane využíva stranícky účet, viacero účtov alebo účet nemá a vizualizáciu príjmov a výdavkov preto nie je možné zobraziť.',

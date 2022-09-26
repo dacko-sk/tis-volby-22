@@ -55,13 +55,17 @@ function AnalysisList({ article, clickHandler, keyUpHandler }) {
                                     <td>{analysis.support[0]}</td>
                                 </tr>
                                 <tr>
-                                    <th>Hodnotenie</th>
+                                    <th>{labels.analysis}</th>
                                     <td className="score">
                                         <span className={`badge me-1 ${cls}`}>
                                             {`${analysis.score[0]}`}%
                                         </span>
                                         {labels.transparency[cls]}
                                     </td>
+                                </tr>
+                                <tr className="d-none d-md-table-row">
+                                    <th>{labels.analysisDate}</th>
+                                    <td>{analysis.date[0]}</td>
                                 </tr>
                             </tbody>
                         </Table>

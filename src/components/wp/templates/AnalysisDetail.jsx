@@ -63,10 +63,22 @@ function NewsDetail({ article }) {
             </div>
         );
     });
+    const words = labels.transparency[cls].split(' ');
+    const transparencyTag = [];
+    words.forEach((word, index) => {
+        if (index < words.length - 1) {
+            transparencyTag.push(`${word} `);
+            transparencyTag.push(
+                <br className="d-none d-sm-block" key={word} />
+            );
+        } else {
+            transparencyTag.push(word);
+        }
+    });
 
     return (
         <div className="analysis">
-            <div className="row gy-3 gy-lg-0">
+            <div className="row gy-3 gy-lg-0 mb-4">
                 <div className="col-lg-6">
                     <h3>{analysis.type[0]}</h3>
                     <Table responsive>
@@ -79,24 +91,27 @@ function NewsDetail({ article }) {
                                 <th>{labels.party}</th>
                                 <td>{analysis.support[0]}</td>
                             </tr>
+                            <tr>
+                                <th>{labels.analysisDate}</th>
+                                <td>{analysis.date[0]}</td>
+                            </tr>
                         </tbody>
                     </Table>
                 </div>
                 <div className="col-lg-6">
-                    <h3>Celkové hodnotenie</h3>
-                    <Row>
-                        <Col xs="auto">
-                            <div className="hero-number">
+                    <h3>{labels.analysis}</h3>
+                    <div className="hero-number mt-4">
+                        <Row className="align-items-center gx-2">
+                            <Col xs="auto">
                                 <span className={`badge me-1 ${cls}`}>
                                     {`${analysis.score[0]}`}%
                                 </span>
-                            </div>
-                        </Col>
-                        <Col>{labels.transparency[cls]}</Col>
-                    </Row>
-                    <em className="disclaimer text-start">
-                        Ku dňu {analysis.date[0]}.
-                    </em>
+                            </Col>
+                            <Col>
+                                <h5>{transparencyTag}</h5>
+                            </Col>
+                        </Row>
+                    </div>
                 </div>
             </div>
             {tables}

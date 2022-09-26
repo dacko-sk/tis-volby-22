@@ -83,6 +83,19 @@ ul.arrows {
   height: 100vh;
 }
 
+.hero-number {
+  color: $tis-dark-blue;
+  font-weight: $fw-bold;
+  font-size: 60px;
+  h5 {
+    font-size: 1.75rem;
+    margin-bottom: 0;
+  }
+  .badge {
+    line-height: 4rem;
+  }
+}
+
 .disclaimer {
   color: #ccc;
   display: block;
@@ -196,6 +209,12 @@ footer h2 {
 
 .social-svg:hover .social-svg-mask {
   fill: $tis-dark-blue !important;
+}
+
+@media (max-width: map.get($grid-breakpoints, 'sm')) {
+  .hero-number {
+    font-size: 32px;
+  }
 }
 
 @media (min-width: map.get($grid-breakpoints, 'md')) {
