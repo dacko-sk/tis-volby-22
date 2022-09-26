@@ -236,10 +236,14 @@ export const removeAccentsFromString = (str) => {
     return str.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
 };
 
-export const contains = (haystack, needle) =>
-    removeAccentsFromString(haystack.toLowerCase()).includes(
-        removeAccentsFromString(needle.toLowerCase())
-    );
+export const contains = (haystack, needle) => {
+    if (haystack && needle) {
+        removeAccentsFromString(haystack.toLowerCase()).includes(
+            removeAccentsFromString(needle.toLowerCase())
+        );
+    }
+    return false;
+};
 
 export const setTitle = (title) => {
     document.title = `${title} : Samosprávne voľby 2022 : Transparency International Slovensko`;
