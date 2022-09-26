@@ -3,19 +3,14 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Table from 'react-bootstrap/Table';
 import { images, labels } from '../../../api/constants';
-import {
-    imgPath,
-    parseAnalysesData,
-    transparencyClass,
-} from '../../../api/helpers';
+import { imgPath, transparencyClass } from '../../../api/helpers';
 
 function AnalysisList({ article, clickHandler, keyUpHandler }) {
-    const analysis = parseAnalysesData(article.content.rendered);
+    const { analysis } = article;
     if (has(analysis, 'error')) {
         console.log(analysis.error);
         return null;
     }
-    console.log(analysis);
     const cls = transparencyClass(analysis.score[0]);
     return (
         <Col className="px-0" md={12}>

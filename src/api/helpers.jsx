@@ -119,53 +119,68 @@ export const ecodeHTMLEntities = (rawStr) =>
           )
         : '';
 
-export const parseAnalysesData = (html) => {
-    const start = '<tbody><tr>';
-    const end = '</tr></tbody>';
-    const tableData = [];
-    html.substring(html.indexOf(start) + start.length, html.indexOf(end))
-        .replaceAll('<tr>', '')
-        .split('</tr>')
-        .forEach((row) => {
-            const cols = [];
-            row.split('</td>').forEach((col, index) => {
-                // ignore first row (names), save the rest into tableData
-                if (index > 0 && col.trim()) {
-                    const val = col.replaceAll('<td>', '');
-                    const num = Number(val);
-                    cols.push(Number.isNaN(num) ? ecodeHTMLEntities(val) : num);
-                }
-            });
-            tableData.push(cols);
-        });
-    if (tableData.length === 19) {
-        return {
-            type: tableData[0],
-            municipality: tableData[1],
-            support: tableData[2],
-            date: tableData[3],
-            score: tableData[4],
-            account: {
-                [labels.indicators.account.criteria[0]]: tableData[5],
-                [labels.indicators.account.criteria[1]]: tableData[6],
-                [labels.indicators.account.criteria[2]]: tableData[7],
-                [labels.indicators.account.criteria[3]]: tableData[8],
-                [labels.indicators.account.criteria[4]]: tableData[9],
-                [labels.indicators.account.criteria[5]]: tableData[10],
-                [labels.indicators.account.criteria[6]]: tableData[11],
-            },
-            financing: {
-                [labels.indicators.financing.criteria[0]]: tableData[12],
-                [labels.indicators.financing.criteria[1]]: tableData[13],
-                [labels.indicators.financing.criteria[2]]: tableData[14],
-                [labels.indicators.financing.criteria[3]]: tableData[15],
-            },
-            information: {
-                [labels.indicators.information.criteria[0]]: tableData[16],
-                [labels.indicators.information.criteria[1]]: tableData[17],
-                [labels.indicators.information.criteria[2]]: tableData[18],
-            },
-        };
+export const parseAnalysisData = (html) => {
+    if (html) {
+        const start = '<tbody><tr>';
+        const end = '</tr></tbody>';
+        const startPos = html.indexOf(start);
+        const endPos = html.indexOf(end);
+        if (startPos > -1 && endPos > -1) {
+            const tableData = [];
+            html.substring(startPos + start.length, endPos)
+                .replaceAll('<tr>', '')
+                .split('</tr>')
+                .forEach((row) => {
+                    const cols = [];
+                    row.split('</td>').forEach((col, index) => {
+                        // ignore first row (names), save the rest into tableData
+                        if (index > 0 && col.trim()) {
+                            const val = col.replaceAll('<td>', '');
+                            const num = Number(val);
+                            cols.push(
+                                Number.isNaN(num) ? ecodeHTMLEntities(val) : num
+                            );
+                        }
+                    });
+                    tableData.push(cols);
+                });
+            if (tableData.length === 19) {
+                return {
+                    type: tableData[0],
+                    municipality: tableData[1],
+                    support: tableData[2],
+                    date: tableData[3],
+                    score: tableData[4],
+                    account: {
+                        [labels.indicators.account.criteria[0]]: tableData[5],
+                        [labels.indicators.account.criteria[1]]: tableData[6],
+                        [labels.indicators.account.criteria[2]]: tableData[7],
+                        [labels.indicators.account.criteria[3]]: tableData[8],
+                        [labels.indicators.account.criteria[4]]: tableData[9],
+                        [labels.indicators.account.criteria[5]]: tableData[10],
+                        [labels.indicators.account.criteria[6]]: tableData[11],
+                    },
+                    financing: {
+                        [labels.indicators.financing.criteria[0]]:
+                            tableData[12],
+                        [labels.indicators.financing.criteria[1]]:
+                            tableData[13],
+                        [labels.indicators.financing.criteria[2]]:
+                            tableData[14],
+                        [labels.indicators.financing.criteria[3]]:
+                            tableData[15],
+                    },
+                    information: {
+                        [labels.indicators.information.criteria[0]]:
+                            tableData[16],
+                        [labels.indicators.information.criteria[1]]:
+                            tableData[17],
+                        [labels.indicators.information.criteria[2]]:
+                            tableData[18],
+                    },
+                };
+            }
+        }
     }
     return {
         error: 'Corrupted table format',

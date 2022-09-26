@@ -7,7 +7,7 @@ import Pagination from 'react-bootstrap/Pagination';
 import Row from 'react-bootstrap/Row';
 import has from 'has';
 import { labels } from '../../api/constants';
-import { scrollToTop } from '../../api/helpers';
+import { parseAnalysisData, scrollToTop } from '../../api/helpers';
 import { routes, segments } from '../../api/routes';
 import AnalysisList from './templates/AnalysisList';
 import NewsCondensed from './templates/NewsCondensed';
@@ -15,6 +15,21 @@ import NewsList from './templates/NewsList';
 import Loading from '../general/Loading';
 
 import './News.scss';
+
+const sortByScore = (a, b) =>
+    b.analysis.score[b.analysis.score.length - 1] -
+    a.analysis.score[a.analysis.score.length - 1];
+
+const getAnalysedData = (data) => {
+    const analysedData = [];
+    data.forEach((article) => {
+        analysedData.push({
+            ...article,
+            analysis: parseAnalysisData(article.content.rendered),
+        });
+    });
+    return analysedData.sort(sortByScore);
+};
 
 function Posts(props) {
     const [totalPages, setTotalPages] = useState(0);
@@ -68,11 +83,23 @@ function Posts(props) {
 
     const articles = [];
     let content = null;
+
     if (isLoading || error) {
         content = <Loading error={error} />;
     } else {
-        data.forEach((article) => {
-            if (section === segments.NEWS) {
+        if (section === segments.ANALYSES) {
+            getAnalysedData(data).forEach((article) => {
+                articles.push(
+                    <AnalysisList
+                        key={article.slug}
+                        article={article}
+                        clickHandler={getClickHandler(article)}
+                        keyUpHandler={getKeyUpHandler(article)}
+                    />
+                );
+            });
+        } else {
+            data.forEach((article) => {
                 articles.push(
                     condensed ? (
                         <NewsCondensed
@@ -90,17 +117,9 @@ function Posts(props) {
                         />
                     )
                 );
-            } else {
-                articles.push(
-                    <AnalysisList
-                        key={article.slug}
-                        article={article}
-                        clickHandler={getClickHandler(article)}
-                        keyUpHandler={getKeyUpHandler(article)}
-                    />
-                );
-            }
-        });
+            });
+        }
+
         content = articles.length ? (
             <Row className={`articles${condensed ? ' condensed' : ''}`}>
                 {articles}

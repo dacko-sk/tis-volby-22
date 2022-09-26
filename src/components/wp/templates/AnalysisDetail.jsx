@@ -4,13 +4,15 @@ import Row from 'react-bootstrap/Row';
 import Table from 'react-bootstrap/Table';
 import { labels, transparencyClasses } from '../../../api/constants';
 import {
-    parseAnalysesData,
+    parseAnalysisData,
     parseWpHtml,
     transparencyClass,
 } from '../../../api/helpers';
 
 function NewsDetail({ article }) {
-    const analysis = parseAnalysesData(article.content.rendered);
+    const analysis = has(article, 'analysis')
+        ? article.analysis
+        : parseAnalysisData(article.content.rendered);
     if (has(analysis, 'error')) {
         console.log(analysis.error);
         return (
@@ -55,12 +57,21 @@ function NewsDetail({ article }) {
     const tables = [];
     Object.keys(groups).forEach((group) => {
         tables.push(
-            <div key={group}>
-                <h3>{labels.indicators[group].title}</h3>
-                <Table striped bordered responsive hover>
-                    <tbody>{groups[group]}</tbody>
-                </Table>
-            </div>
+            <h2 key={`${group}title`} className="mt-4 mb-3">
+                {labels.indicators[group].title}
+            </h2>
+        );
+        tables.push(
+            <Table
+                key={group}
+                className="mb-0"
+                striped
+                bordered
+                responsive
+                hover
+            >
+                <tbody>{groups[group]}</tbody>
+            </Table>
         );
     });
     const words = labels.transparency[cls].split(' ');
@@ -78,36 +89,40 @@ function NewsDetail({ article }) {
 
     return (
         <div className="analysis">
-            <div className="row gy-3 gy-lg-0 mb-4">
+            <div className="row gy-3 gy-lg-0">
                 <div className="col-lg-6">
-                    <h3>{analysis.type[0]}</h3>
+                    <h2 className="text-lg-center">{analysis.type[0]}</h2>
                     <Table responsive>
                         <tbody>
                             <tr>
                                 <th>{labels.municipality}</th>
-                                <td>{analysis.municipality[0]}</td>
+                                <td className="text-end">
+                                    {analysis.municipality[0]}
+                                </td>
                             </tr>
                             <tr>
                                 <th>{labels.party}</th>
-                                <td>{analysis.support[0]}</td>
+                                <td className="text-end">
+                                    {analysis.support[0]}
+                                </td>
                             </tr>
                             <tr>
                                 <th>{labels.analysisDate}</th>
-                                <td>{analysis.date[0]}</td>
+                                <td className="text-end">{analysis.date[0]}</td>
                             </tr>
                         </tbody>
                     </Table>
                 </div>
                 <div className="col-lg-6">
-                    <h3>{labels.analysis}</h3>
+                    <h2 className="text-lg-center">{labels.analysis}</h2>
                     <div className="hero-number mt-4">
-                        <Row className="align-items-center gx-2">
+                        <Row className="align-items-center justify-content-lg-center gx-2">
                             <Col xs="auto">
                                 <span className={`badge me-1 ${cls}`}>
                                     {`${analysis.score[0]}`}%
                                 </span>
                             </Col>
-                            <Col>
+                            <Col xs="auto">
                                 <h5>{transparencyTag}</h5>
                             </Col>
                         </Row>

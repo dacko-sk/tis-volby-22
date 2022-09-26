@@ -37,11 +37,11 @@ function TotalSpending() {
     return (
         <div className="row gy-3 gy-lg-0 text-center">
             <div className="col-lg-6">
-                <h4>Zostávajúci čas do volieb</h4>
+                <h2>Zostávajúci čas do volieb</h2>
                 <Countdown date="2022-10-29T07:00:00" renderer={renderer} />
             </div>
             <div className="col-lg-6">
-                <h4>Celkové výdavky kandidátov</h4>
+                <h2>Celkové výdavky kandidátov</h2>
                 <p className="hero-number">
                     {currencyFormat(total)}
                     <LastUpdateTag short />
