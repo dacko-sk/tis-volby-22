@@ -5,7 +5,7 @@ import { labels } from '../api/constants';
 import { setTitle, substitute } from '../api/helpers';
 import { segments } from '../api/routes';
 import Title from '../components/structure/Title';
-import Posts from '../components/wp/Posts';
+import Posts, { templates } from '../components/wp/Posts';
 
 export const analysesCategories = {
     main: 859,
@@ -105,6 +105,7 @@ function Analyses() {
                 categoriesExclude={Object.values(analysesCategories.regions)}
                 noResults="Sekcia sa pripravuje. Hodnotenia kampaní budeme zverejňovať postupne."
                 section={segments.ANALYSES}
+                template={templates.featured}
             />
             <Accordion
                 className="mt-3"

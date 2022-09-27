@@ -4,7 +4,7 @@ import { images } from '../../api/constants';
 import { imgPath } from '../../api/helpers';
 import Loading from '../general/Loading';
 
-function Media({ id, fallback }) {
+function Media({ alt, id, fallback }) {
     const { isLoading, error, data } = useQuery(
         [`media_${id}`],
         () =>
@@ -24,10 +24,17 @@ function Media({ id, fallback }) {
         data && has(data, 'source_url')
             ? data.source_url
             : imgPath(fallback || images.news);
-    const alt =
-        data && has(data, 'alt_text') ? data.alt_text : 'ilustračný obrázok';
 
-    return <img src={src} alt={alt} />;
+    return (
+        <img
+            src={src}
+            alt={
+                data && has(data, 'alt_text') && data.alt_text
+                    ? data.alt_text
+                    : alt
+            }
+        />
+    );
 }
 
 export default Media;

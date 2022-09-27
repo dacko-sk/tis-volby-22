@@ -22,6 +22,7 @@ function NewsCondensed({ article, clickHandler, keyUpHandler }) {
                         <div className="thumb mb-2 mb-xxl-0 mt-xxl-2">
                             <figure className="text-center text-xxl-start">
                                 <Media
+                                    alt={article.title.rendered}
                                     id={article.featured_media}
                                     fallback={images.news}
                                 />

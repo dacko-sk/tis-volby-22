@@ -9,12 +9,19 @@ import has from 'has';
 import { labels } from '../../api/constants';
 import { parseAnalysisData, scrollToTop } from '../../api/helpers';
 import { routes, segments } from '../../api/routes';
+import AnalysisFeatured from './templates/AnalysisFeatured';
 import AnalysisList from './templates/AnalysisList';
 import NewsCondensed from './templates/NewsCondensed';
 import NewsList from './templates/NewsList';
 import Loading from '../general/Loading';
 
 import './News.scss';
+
+export const templates = {
+    condensed: 'condensed',
+    featured: 'featured',
+    list: 'list',
+};
 
 const sortByScore = (a, b) =>
     b.analysis.score[b.analysis.score.length - 1] -
@@ -34,8 +41,12 @@ const getAnalysedData = (data) => {
 function Posts(props) {
     const [totalPages, setTotalPages] = useState(0);
     const [activePage, setActivePage] = useState(1);
+    const template =
+        has(props, 'template') && has(templates, props.template)
+            ? props.template
+            : templates.list;
     const limit = has(props, 'limit') ? props.limit : false;
-    const blocksize = limit || 10;
+    const blocksize = limit || (template === templates.featured ? 20 : 10);
     const categories = has(props, 'categories')
         ? `&categories=${props.categories.join()}`
         : '';
@@ -44,7 +55,6 @@ function Posts(props) {
         : '';
     const search = has(props, 'search') ? `&search=${props.search}` : '';
     const section = has(props, 'section') ? props.section : segments.NEWS;
-    const condensed = has(props, 'condensed');
     const { isLoading, error, data } = useQuery(
         [`all_posts_${categories}_${search}_${blocksize}_${activePage}`],
         () =>
@@ -90,18 +100,27 @@ function Posts(props) {
         if (section === segments.ANALYSES) {
             getAnalysedData(data).forEach((article) => {
                 articles.push(
-                    <AnalysisList
-                        key={article.slug}
-                        article={article}
-                        clickHandler={getClickHandler(article)}
-                        keyUpHandler={getKeyUpHandler(article)}
-                    />
+                    template === templates.featured ? (
+                        <AnalysisFeatured
+                            key={article.slug}
+                            article={article}
+                            clickHandler={getClickHandler(article)}
+                            keyUpHandler={getKeyUpHandler(article)}
+                        />
+                    ) : (
+                        <AnalysisList
+                            key={article.slug}
+                            article={article}
+                            clickHandler={getClickHandler(article)}
+                            keyUpHandler={getKeyUpHandler(article)}
+                        />
+                    )
                 );
             });
         } else {
             data.forEach((article) => {
                 articles.push(
-                    condensed ? (
+                    template === templates.condensed ? (
                         <NewsCondensed
                             key={article.slug}
                             article={article}
@@ -121,9 +140,7 @@ function Posts(props) {
         }
 
         content = articles.length ? (
-            <Row className={`articles${condensed ? ' condensed' : ''}`}>
-                {articles}
-            </Row>
+            <Row className={`articles ${template}`}>{articles}</Row>
         ) : (
             <Alert variant="secondary">
                 {has(props, 'noResults')
@@ -132,6 +149,11 @@ function Posts(props) {
             </Alert>
         );
     }
+
+    const title =
+        template === templates.featured ? (
+            <h2>Top {articles.length} kampaní</h2>
+        ) : null;
 
     let nav = null;
     if (limit) {
@@ -146,7 +168,7 @@ function Posts(props) {
                 </Button>
             </div>
         );
-    } else {
+    } else if (template !== templates.featured) {
         const items = [];
         for (let i = 1; i <= totalPages; i += 1) {
             items.push(
@@ -175,6 +197,7 @@ function Posts(props) {
 
     return (
         <div>
+            {title}
             {content}
             {nav}
         </div>

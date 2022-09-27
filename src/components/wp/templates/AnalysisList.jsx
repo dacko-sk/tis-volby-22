@@ -27,12 +27,13 @@ function AnalysisList({ article, clickHandler, keyUpHandler }) {
                         <div className="thumb mb-2 mb-md-0">
                             <figure className="text-center">
                                 <img
-                                    src={imgPath(images.analyses)}
                                     alt={
                                         labels.transparency[
                                             analysis.transparency
                                         ]
                                     }
+                                    className="p-3"
+                                    src={imgPath(images.analyses)}
                                 />
                             </figure>
                         </div>

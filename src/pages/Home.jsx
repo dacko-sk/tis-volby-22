@@ -1,7 +1,7 @@
 import Top10 from '../components/charts/Top10';
 import TotalSpending from '../components/general/TotalSpending';
 import Title from '../components/structure/Title';
-import Posts from '../components/wp/Posts';
+import Posts, { templates } from '../components/wp/Posts';
 import { newsCategories } from './News';
 import { setTitle } from '../api/helpers';
 import { segments } from '../api/routes';
@@ -23,9 +23,9 @@ function Home() {
             <h2>Najnovšie aktuality</h2>
             <Posts
                 categories={newsCategories}
-                condensed
                 limit={2}
                 section={segments.NEWS}
+                template={templates.condensed}
             />
         </section>
     );

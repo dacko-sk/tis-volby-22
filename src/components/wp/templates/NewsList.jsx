@@ -20,6 +20,7 @@ function NewsList({ article, clickHandler, keyUpHandler }) {
                         <div className="thumb mb-2 mb-md-0">
                             <figure className="text-center text-xxl-start">
                                 <Media
+                                    alt={article.title.rendered}
                                     id={article.featured_media}
                                     fallback={images.news}
                                 />
