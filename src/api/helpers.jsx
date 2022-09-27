@@ -144,41 +144,28 @@ export const parseAnalysisData = (html) => {
                     });
                     tableData.push(cols);
                 });
-            if (tableData.length === 19) {
-                return {
+            const required =
+                5 +
+                labels.indicators.account.criteria.length +
+                labels.indicators.financing.criteria.length +
+                labels.indicators.information.criteria.length;
+            if (tableData.length >= required) {
+                const analysis = {
                     type: tableData[0],
                     municipality: tableData[1],
                     support: tableData[2],
                     date: tableData[3],
                     score: tableData[4],
-                    account: {
-                        [labels.indicators.account.criteria[0]]: tableData[5],
-                        [labels.indicators.account.criteria[1]]: tableData[6],
-                        [labels.indicators.account.criteria[2]]: tableData[7],
-                        [labels.indicators.account.criteria[3]]: tableData[8],
-                        [labels.indicators.account.criteria[4]]: tableData[9],
-                        [labels.indicators.account.criteria[5]]: tableData[10],
-                        [labels.indicators.account.criteria[6]]: tableData[11],
-                    },
-                    financing: {
-                        [labels.indicators.financing.criteria[0]]:
-                            tableData[12],
-                        [labels.indicators.financing.criteria[1]]:
-                            tableData[13],
-                        [labels.indicators.financing.criteria[2]]:
-                            tableData[14],
-                        [labels.indicators.financing.criteria[3]]:
-                            tableData[15],
-                    },
-                    information: {
-                        [labels.indicators.information.criteria[0]]:
-                            tableData[16],
-                        [labels.indicators.information.criteria[1]]:
-                            tableData[17],
-                        [labels.indicators.information.criteria[2]]:
-                            tableData[18],
-                    },
                 };
+                let rowKey = 5;
+                ['account', 'financing', 'information'].forEach((group) => {
+                    analysis[group] = {};
+                    labels.indicators[group].criteria.forEach((criterium) => {
+                        analysis[group][criterium] = tableData[rowKey];
+                        rowKey += 1;
+                    });
+                });
+                return analysis;
             }
         }
     }

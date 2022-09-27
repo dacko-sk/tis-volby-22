@@ -10,19 +10,14 @@ import Posts, { templates } from '../components/wp/Posts';
 export const analysesCategories = {
     main: 859,
     regions: {
-        // BA: 863,
-        // BB: 862,
-        // KE: 864,
-        // NR: 865,
-        // PO: 866,
-        // TN: 867,
-        // TT: 868,
-        // ZA: 869,
-    },
-    rating: {
-        green: 871,
-        orange: 872,
-        red: 873,
+        BA: 863,
+        BB: 862,
+        KE: 864,
+        NR: 865,
+        PO: 866,
+        TN: 867,
+        TT: 868,
+        ZA: 869,
     },
     top: 870,
     types: {
@@ -101,14 +96,13 @@ function Analyses() {
         <section>
             <Title>{title}</Title>
             <Posts
-                categories={[/* analysesCategories.top */ 999]}
-                categoriesExclude={Object.values(analysesCategories.regions)}
+                categories={[analysesCategories.top]}
                 noResults="Sekcia sa pripravuje. Hodnotenia kampaní budeme zverejňovať postupne."
                 section={segments.ANALYSES}
                 template={templates.featured}
             />
             <Accordion
-                className="mt-3"
+                className="mt-4"
                 activeKey={activeKey}
                 onSelect={onSelect}
             >

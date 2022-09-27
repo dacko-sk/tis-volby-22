@@ -13,7 +13,7 @@ import {
     substituteCity,
 } from '../api/helpers';
 import { routes, segments } from '../api/routes';
-// import { /* analysesCategories, */ } from './Analyses';
+import { analysesCategories } from './Analyses';
 import { newsCategories } from './News';
 import Loading from '../components/general/Loading';
 import Title from '../components/structure/Title';
@@ -106,7 +106,7 @@ function Search() {
 
             <h2 className="my-4">Hodnotenia</h2>
             <Posts
-                categories={[/* analysesCategories.top */ 999]}
+                categories={[analysesCategories.main]}
                 noResults="Hľadaný výraz nebol nájdený v žiadnom hodnotení."
                 section={segments.ANALYSES}
                 search={query}

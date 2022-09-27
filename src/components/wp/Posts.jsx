@@ -23,9 +23,15 @@ export const templates = {
     list: 'list',
 };
 
-const sortByScore = (a, b) =>
-    b.analysis.score[b.analysis.score.length - 1] -
-    a.analysis.score[a.analysis.score.length - 1];
+const sortByScore = (a, b) => {
+    if (has(b.analysis, 'score') && has(a.analysis, 'score')) {
+        return (
+            b.analysis.score[b.analysis.score.length - 1] -
+            a.analysis.score[a.analysis.score.length - 1]
+        );
+    }
+    return -1;
+};
 
 const getAnalysedData = (data) => {
     const analysedData = [];
