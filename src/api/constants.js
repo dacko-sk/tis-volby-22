@@ -63,14 +63,14 @@ export const labels = {
                 'podrobnosť účtu',
                 'popisovanie výdavkov',
                 'časová reálnosť výdavkov',
-                'zachytenie predkampane',
             ],
         },
         financing: {
             title: 'Financovanie kampane',
             criteria: [
                 'viaczdrojovosť',
-                'hodnovernosť prispievateľov',
+                'hodnovernosť príspevkov',
+                'informovanie o predkampani',
                 'plán kampane',
             ],
         },
@@ -79,7 +79,7 @@ export const labels = {
             criteria: [
                 'existencia webu',
                 'volebný program',
-                'funkčný kontakt',
+                'responzívnosť uvedeného kontaktu',
                 'kampaňový tím/spolupracujúce agentúry',
                 'predvolebné akcie',
                 'označovanie inzercie',
