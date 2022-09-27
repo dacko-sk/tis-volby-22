@@ -76,10 +76,6 @@
     }
   }
   .articles.featured & {
-    .thumb img {
-      filter: saturate(25%);
-      // transition: filter 0.5s;
-    }
     &:hover,
     &:focus {
       background-color: transparent;
@@ -88,8 +84,22 @@
       }
       .thumb img {
         filter: saturate(100%);
-        // max-height: 105%;
-        // max-width: 105%;
+      }
+    }
+    .thumb {
+      img {
+        filter: saturate(25%);
+      }
+      .name {
+        position: absolute;
+        bottom: 0.75em;
+        padding: 0 1em;
+        width: 100%;
+      }
+      .badge {
+        background-color: rgb(0 0 0 / 50%);
+        font-size: 1em;
+        white-space: normal;
       }
     }
   }

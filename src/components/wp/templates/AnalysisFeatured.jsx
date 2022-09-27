@@ -12,10 +12,10 @@ function AnalysisFeatured({ article, clickHandler, keyUpHandler }) {
     }
     const cls = transparencyClass(analysis.score[0]);
     return (
-        <Col className="px-0" md>
+        <Col md>
             <div
                 id={article.slug}
-                className={`article analysis-preview ${cls} p-3`}
+                className={`article analysis-preview ${cls}`}
                 onClick={clickHandler}
                 onKeyUp={keyUpHandler}
                 role="link"
@@ -29,6 +29,11 @@ function AnalysisFeatured({ article, clickHandler, keyUpHandler }) {
                             fallback={images.analyses}
                         />
                     </figure>
+                    <div className="name text-center">
+                        <span className={`badge ${cls}`}>
+                            {article.title.rendered}
+                        </span>
+                    </div>
                 </div>
             </div>
         </Col>

@@ -140,7 +140,13 @@ function Posts(props) {
         }
 
         content = articles.length ? (
-            <Row className={`articles ${template}`}>{articles}</Row>
+            <Row
+                className={`articles ${template}${
+                    template === templates.featured ? ' gy-3' : ''
+                }`}
+            >
+                {articles}
+            </Row>
         ) : (
             <Alert variant="secondary">
                 {has(props, 'noResults')

@@ -31,7 +31,7 @@ export const analysesCategories = {
     },
 };
 
-const title = 'Hodnotenie transparentnosti kandidátov';
+const title = 'Hodnotenie transparentnosti kampaní';
 
 function Analyses() {
     const [activeKey, setActiveKey] = useState(null);
