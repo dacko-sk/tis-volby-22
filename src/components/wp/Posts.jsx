@@ -163,7 +163,7 @@ function Posts(props) {
     }
 
     const title =
-        template === templates.featured ? (
+        template === templates.featured && articles.length ? (
             <h2>Top {articles.length} kampaní</h2>
         ) : null;
 
