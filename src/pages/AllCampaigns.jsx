@@ -22,10 +22,12 @@ function AllCampaigns() {
     };
     if (has(csvData, 'data')) {
         csvData.data.forEach((row) => {
-            if (has(row, 'label') && !row.isParty) {
+            if (has(row, labels.elections.region_key) && !row.isParty) {
                 if (row.isTransparent) {
                     const person = {
-                        name: `${row.name}\n${row.municipalityShortName}`,
+                        name: `${row[labels.elections.name_key]}\n${
+                            row.municipalityShortName
+                        }`,
                         incoming: row.sum_incoming,
                         outgoing: row.sum_outgoing,
                     };

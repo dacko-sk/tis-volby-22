@@ -1,4 +1,5 @@
 import has from 'has';
+import { labels } from '../api/constants';
 import { setTitle, sortByDonors, sortBySpending } from '../api/helpers';
 import { routes } from '../api/routes';
 import Regions from '../components/charts/Regions';
@@ -18,23 +19,26 @@ function Charts() {
     const regions = {};
     if (has(csvData, 'data')) {
         csvData.data.forEach((row) => {
-            if (has(row, 'label') && row.isTransparent) {
-                const region = row.label || unknownRegion;
+            if (has(row, labels.elections.region_key) && row.isTransparent) {
+                const region =
+                    row[labels.elections.region_key] || unknownRegion;
                 if (row.isParty) {
                     parties.push({
-                        name: row.name,
+                        name: row[labels.elections.name_key],
                         incoming: row.sum_incoming,
                         outgoing: row.sum_outgoing,
                     });
                 } else {
                     people.push({
-                        name: `${row.name}\n${row.municipalityShortName}\n${row.electionsName}`,
+                        name: `${row[labels.elections.name_key]}\n${
+                            row.municipalityShortName
+                        }\n${row.electionsName}`,
                         incoming: row.sum_incoming,
                         outgoing: row.sum_outgoing,
                         donors: row.num_unique_donors,
                     });
 
-                    if (row.label) {
+                    if (row[labels.elections.region_key]) {
                         if (has(regions, region)) {
                             regions[region].incoming += row.sum_incoming;
                             regions[region].outgoing += row.sum_outgoing;

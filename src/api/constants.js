@@ -32,10 +32,12 @@ export const labels = {
     disclaimerParties:
         'Zoznam ďalších kandidátov, ktorí na financovanie kampaní využívajú stranícke účty, viacero účtov alebo účty nemajú a vizualizáciu ich príjmov a výdavkov preto nie je možné zobraziť. Podrobnosti nájdete po rozkliknutí mena kandidáta. Kandidátov postupne dopĺňame.',
     elections: {
-        type_key: 'typ volieb',
-        municipality_key: 'samospráva',
+        account_key: 'url',
+        name_key: 'name',
+        municipality_key: 'samosprava',
         party_key: 'PS',
         region_key: 'label',
+        type_key: 'typ_volieb',
         local: {
             key: 'miestne',
             name: 'Miestne voľby',
@@ -89,12 +91,9 @@ export const labels = {
     municipality: 'Samospráva',
     name: 'Meno',
     parties: {
-        account_personal_key: 'account',
-        account_party_key: 'party_account',
-        municipality_key: 'samospráva_right',
-        party_key: 'party',
+        account_party_key: 'stranicky_ucet',
+        party_key: 'strana',
         region_key: 'label_right',
-        type_key: 'typ volieb_right',
     },
     party: 'Strana / koalícia',
     transparency: {

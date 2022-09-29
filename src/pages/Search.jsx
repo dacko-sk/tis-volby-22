@@ -36,25 +36,34 @@ function Search() {
                 const city = row[labels.elections.municipality_key] ?? '';
                 if (
                     !row.isParty &&
-                    (contains(row.name, query) ||
-                        contains(substitute(row.label ?? ''), query) ||
+                    (contains(row[labels.elections.name_key], query) ||
+                        contains(
+                            substitute(row[labels.elections.region_key] ?? ''),
+                            query
+                        ) ||
                         (city &&
                             (contains(city, query) ||
                                 contains(substituteCity(city), query))))
                 ) {
                     const link = routes.candidate(
-                        row.name,
+                        row[labels.elections.name_key],
                         row.municipalityShortName
                     );
                     candidates.push(
-                        <Col key={row.name} className="d-flex">
+                        <Col
+                            key={
+                                row[labels.elections.name_key] +
+                                row[labels.elections.municipality_key]
+                            }
+                            className="d-flex"
+                        >
                             <Link
                                 to={link}
                                 className={`d-flex flex-column justify-content-between w-100 cat-${
                                     row.isRegional ? 'regional' : 'local'
                                 }`}
                             >
-                                <h3>{row.name}</h3>
+                                <h3>{row[labels.elections.name_key]}</h3>
                                 {row[labels.elections.municipality_key] && (
                                     <div className="town my-3">
                                         {row.municipalityShortName}

@@ -4,7 +4,7 @@ import { labels } from '../api/constants';
 import { substitute } from '../api/helpers';
 
 export const aggregationFile =
-    'https://raw.githubusercontent.com/matusv/transparent-account-data-slovak-elections-2022/main/aggr_df_no_returns_party_candidates_2.csv';
+    'https://raw.githubusercontent.com/matusv/transparent-account-data-slovak-elections-2022/main/aggregation_no_returns_v2.csv';
 export const baseDate = 1659535519;
 export const reloadMinutes = 70;
 
@@ -19,15 +19,26 @@ export const processData = (data) => {
         let lastUpdate = baseDate;
         processed.data.forEach((row, index) => {
             lastUpdate = Math.max(lastUpdate, row.timestamp ?? 0);
+
+            // trim certain columns
+            [
+                labels.elections.name_key,
+                labels.elections.municipality_key,
+                labels.elections.type_key,
+            ].forEach((column) => {
+                processed.data[index][column] = (row[column] ?? '').trim();
+            });
+
+            // helper properties
             processed.data[index].isParty =
-                row.label === labels.elections.party_key;
-            processed.data[index].isTransparent = !!row.url;
+                row[labels.elections.region_key] === labels.elections.party_key;
+            processed.data[index].isTransparent =
+                !!row[labels.elections.account_key];
             processed.data[index].isRegional = (
                 row[labels.elections.type_key] ?? ''
             ).includes(labels.elections.regional.key);
-            processed.data[index][labels.elections.municipality_key] =
-                row[labels.elections.municipality_key] ??
-                row[labels.parties.municipality_key];
+
+            // additional names
             processed.data[index].municipalityShortName =
                 substitute(
                     processed.data[index][labels.elections.municipality_key]
@@ -36,6 +47,8 @@ export const processData = (data) => {
                 .isRegional
                 ? labels.elections.regional.name
                 : labels.elections.local.name;
+
+            // parse numbers
             processed.data[index].sum_incoming = row.sum_incoming ?? 0;
             processed.data[index].sum_outgoing = Math.abs(
                 row.sum_outgoing ?? 0

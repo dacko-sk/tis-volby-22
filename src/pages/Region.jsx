@@ -37,10 +37,15 @@ function Region() {
     };
     if (has(csvData, 'data')) {
         csvData.data.forEach((row) => {
-            if (has(row, 'label') && row.label === region) {
+            if (
+                has(row, labels.elections.region_key) &&
+                row[labels.elections.region_key] === region
+            ) {
                 if (row.isTransparent) {
                     const person = {
-                        name: `${row.name}\n${row.municipalityShortName}`,
+                        name: `${row[labels.elections.name_key]}\n${
+                            row.municipalityShortName
+                        }`,
                         incoming: row.sum_incoming,
                         outgoing: row.sum_outgoing,
                         donors: row.num_unique_donors,

@@ -13,16 +13,21 @@ function PartyCandidates({ candidates }) {
     const rows = [];
     candidates.forEach((candidate) => {
         rows.push(
-            <tr key={candidate.name}>
+            <tr
+                key={
+                    candidate[labels.elections.name_key] +
+                    candidate[labels.elections.municipality_key]
+                }
+            >
                 <td>
                     <Link
                         className="fw-bold"
                         to={routes.candidate(
-                            candidate.name,
+                            candidate[labels.elections.name_key],
                             candidate.municipalityShortName
                         )}
                     >
-                        {candidate.name}
+                        {candidate[labels.elections.name_key]}
                     </Link>
                 </td>
                 <td>{candidate[labels.elections.municipality_key] || ''}</td>

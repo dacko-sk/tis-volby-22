@@ -24,7 +24,10 @@ function Candidate() {
     let candidate = null;
     if (has(csvData, 'data')) {
         csvData.data.some((row) => {
-            const key = routes.candidate(row.name, row.municipalityShortName);
+            const key = routes.candidate(
+                row[labels.elections.name_key],
+                row.municipalityShortName
+            );
             if (pathname === key) {
                 candidate = row;
                 return true;
@@ -44,7 +47,7 @@ function Candidate() {
         return <Loading />;
     }
 
-    setTitle(candidate.name);
+    setTitle(candidate[labels.elections.name_key]);
 
     return (
         <section className="candidate-page">
@@ -52,20 +55,26 @@ function Candidate() {
                 multiline
                 secondary={candidate[labels.elections.municipality_key] || null}
             >
-                {candidate.name}
+                {candidate[labels.elections.name_key]}
             </Title>
             <Table striped bordered responsive hover>
                 <tbody>
                     <tr>
-                        <td>Typ volieb</td>
+                        <td>{labels.type}</td>
                         <td>{candidate.electionsName}</td>
                     </tr>
-                    {candidate.label && (
+                    {candidate[labels.elections.region_key] && (
                         <tr>
                             <td>Kraj</td>
                             <td>
-                                <Link to={routes.region(candidate.label)}>
-                                    {substitute(candidate.label)}
+                                <Link
+                                    to={routes.region(
+                                        candidate[labels.elections.region_key]
+                                    )}
+                                >
+                                    {substitute(
+                                        candidate[labels.elections.region_key]
+                                    )}
                                 </Link>
                             </td>
                         </tr>
@@ -104,27 +113,9 @@ function Candidate() {
                                 <td>Transparentný účet</td>
                                 <td>
                                     <a
-                                        href={candidate.url}
-                                        target="_blank"
-                                        rel="noreferrer"
-                                    >
-                                        {shortenUrl(candidate.url)}
-                                    </a>
-                                </td>
-                            </tr>
-                        </>
-                    )}
-                    {candidate[labels.parties.account_personal_key] &&
-                        candidate[labels.parties.account_personal_key] !==
-                            candidate.url && (
-                            <tr>
-                                <td>Osobný účet</td>
-                                <td>
-                                    <a
                                         href={
                                             candidate[
-                                                labels.parties
-                                                    .account_personal_key
+                                                labels.elections.account_key
                                             ]
                                         }
                                         target="_blank"
@@ -132,14 +123,14 @@ function Candidate() {
                                     >
                                         {shortenUrl(
                                             candidate[
-                                                labels.parties
-                                                    .account_personal_key
+                                                labels.elections.account_key
                                             ]
                                         )}
                                     </a>
                                 </td>
                             </tr>
-                        )}
+                        </>
+                    )}
                     {candidate[labels.parties.account_party_key] && (
                         <tr>
                             <td>Stranícky účet</td>

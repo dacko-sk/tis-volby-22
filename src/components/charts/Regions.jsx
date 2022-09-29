@@ -22,12 +22,12 @@ function Regions() {
     if (has(csvData, 'data')) {
         csvData.data.forEach((row) => {
             if (
-                has(row, 'label') &&
-                row.label &&
+                has(row, labels.elections.region_key) &&
+                row[labels.elections.region_key] &&
                 row.isTransparent &&
                 !row.isParty
             ) {
-                const region = row.label;
+                const region = row[labels.elections.region_key];
                 if (!has(charts, region)) {
                     candidates[region] = {
                         [types.regional]: [],
