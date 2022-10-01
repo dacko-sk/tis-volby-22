@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import ContextProviders from './context/ContextProviders';
-import { segments, separator } from './api/routes';
+import { segments, separators } from './api/routes';
 
 import AllCampaigns from './pages/AllCampaigns';
 import AllDonors from './pages/AllDonors';
@@ -10,6 +10,7 @@ import Article from './pages/Article';
 import Candidate from './pages/Candidate';
 import Charts from './pages/Charts';
 import Home from './pages/Home';
+import Municipality from './pages/Municipality';
 import News from './pages/News';
 import Region from './pages/Region';
 import Search from './pages/Search';
@@ -35,7 +36,7 @@ function App() {
                             <Route
                                 path={
                                     segments.CHARTS +
-                                    separator +
+                                    separators.url +
                                     segments.CAMPAIGNS
                                 }
                                 element={<AllCampaigns />}
@@ -43,10 +44,14 @@ function App() {
                             <Route
                                 path={
                                     segments.CHARTS +
-                                    separator +
+                                    separators.url +
                                     segments.DONORS
                                 }
                                 element={<AllDonors />}
+                            />
+                            <Route
+                                path={`${segments.MUNICIPALITY}/:town`}
+                                element={<Municipality />}
                             />
                             <Route path={segments.NEWS} element={<News />} />
                             <Route

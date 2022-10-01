@@ -20,8 +20,19 @@ export const tickClassName = (i, rows) => {
 
 export const tickLabel = (i, rows) => {
     // create link on first label if there are at least 2 rows
-    if (rows.length > 1 && i === 0) {
-        return <Link to={routes.candidate(rows[0], rows[1])}>{rows[0]}</Link>;
+    if (rows.length > 1 && rows[i] !== '…') {
+        switch (i) {
+            case 0:
+                return (
+                    <Link to={routes.candidate(rows[0], rows[1])}>
+                        {rows[0]}
+                    </Link>
+                );
+            case 1:
+                return <Link to={routes.municipality(rows[1])}>{rows[1]}</Link>;
+            default:
+                break;
+        }
     }
     return rows[i];
 };

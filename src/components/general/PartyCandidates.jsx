@@ -30,7 +30,17 @@ function PartyCandidates({ candidates }) {
                         {candidate[labels.elections.name_key]}
                     </Link>
                 </td>
-                <td>{candidate[labels.elections.municipality_key] || ''}</td>
+                <td>
+                    {candidate[labels.elections.municipality_key] && (
+                        <Link
+                            to={routes.municipality(
+                                candidate.municipalityShortName
+                            )}
+                        >
+                            {candidate[labels.elections.municipality_key]}
+                        </Link>
+                    )}
+                </td>
                 {candidate[labels.parties.party_key] && (
                     <td>{candidate[labels.parties.party_key]}</td>
                 )}

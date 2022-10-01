@@ -80,10 +80,7 @@ function Region() {
                     title={spendingTitle}
                     vertical
                 />
-                <PartyCandidates
-                    candidates={partyCandidates[type]}
-                    hideMunicipality={type === types.regional}
-                />
+                <PartyCandidates candidates={partyCandidates[type]} />
                 <TisBarChart
                     bars={columnVariants.donors}
                     data={donors[type]}

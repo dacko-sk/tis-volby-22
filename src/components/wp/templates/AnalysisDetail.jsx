@@ -101,23 +101,34 @@ function AnalysisDetail({ article }) {
     const { csvData } = useData();
     // parse aggregated data
     let candidatePage = null;
+    let municipalityPage = null;
     if (has(csvData, 'data')) {
         csvData.data.some((row) => {
             if (
                 compareStr(
-                    article.title.rendered,
-                    row[labels.elections.name_key]
-                ) &&
-                compareStr(
                     analysis[cmd.municipality][0],
                     row[labels.elections.municipality_key]
+                ) ||
+                compareStr(
+                    analysis[cmd.municipality][0],
+                    row.municipalityShortName
                 )
             ) {
-                candidatePage = routes.candidate(
-                    row[labels.elections.name_key],
-                    row[labels.elections.municipality_key]
+                municipalityPage = routes.municipality(
+                    row.municipalityShortName
                 );
-                return true;
+                if (
+                    compareStr(
+                        article.title.rendered,
+                        row[labels.elections.name_key]
+                    )
+                ) {
+                    candidatePage = routes.candidate(
+                        row[labels.elections.name_key],
+                        row[labels.elections.municipality_key]
+                    );
+                    return true;
+                }
             }
             return false;
         });
@@ -133,7 +144,13 @@ function AnalysisDetail({ article }) {
                             <tr>
                                 <th>{labels.municipality}</th>
                                 <td className="text-end">
-                                    {analysis[cmd.municipality][0]}
+                                    {municipalityPage ? (
+                                        <Link to={municipalityPage}>
+                                            {analysis[cmd.municipality][0]}
+                                        </Link>
+                                    ) : (
+                                        analysis[cmd.municipality][0]
+                                    )}
                                 </td>
                             </tr>
                             <tr>

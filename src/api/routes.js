@@ -1,4 +1,8 @@
-export const separator = '/';
+export const separators = {
+    parts: '~',
+    space: '.',
+    url: '/',
+};
 
 export const segments = {
     ANALYSES: 'hodnotenia',
@@ -6,6 +10,7 @@ export const segments = {
     CANDIDATE: 'kandidat',
     CHARTS: 'grafy',
     DONORS: 'donori',
+    MUNICIPALITY: 'samosprava',
     NEWS: 'aktuality',
     REGION: 'kraj',
     ROOT: '/',
@@ -15,24 +20,35 @@ export const segments = {
 export const routes = {
     analyses: segments.ROOT + segments.ANALYSES,
     article: (page, slug) =>
-        segments.ROOT + (page && slug ? page + separator + slug : ''),
+        segments.ROOT + (page && slug ? page + separators.url + slug : ''),
     articles: (page) => segments.ROOT + (page || ''),
-    campaigns: segments.ROOT + segments.CHARTS + separator + segments.CAMPAIGNS,
+    campaigns:
+        segments.ROOT + segments.CHARTS + separators.url + segments.CAMPAIGNS,
     candidate: (name, town) =>
         segments.ROOT +
         (name && town
             ? segments.CANDIDATE +
-              separator +
+              separators.url +
               encodeURIComponent(
-                  `${name.replaceAll(' ', '.')}~${town.replaceAll(' ', '.')}`
+                  name.replaceAll(' ', separators.space) +
+                      separators.parts +
+                      town.replaceAll(' ', separators.space)
               )
             : ''),
     charts: segments.ROOT + segments.CHARTS,
-    donors: segments.ROOT + segments.CHARTS + separator + segments.DONORS,
+    donors: segments.ROOT + segments.CHARTS + separators.url + segments.DONORS,
     home: segments.ROOT,
+    municipality: (town) =>
+        segments.ROOT +
+        (town
+            ? segments.MUNICIPALITY +
+              separators.url +
+              encodeURIComponent(town.replaceAll(' ', separators.space))
+            : ''),
     news: segments.ROOT + segments.NEWS,
     region: (region) =>
-        segments.ROOT + (region ? segments.REGION + separator + region : ''),
+        segments.ROOT +
+        (region ? segments.REGION + separators.url + region : ''),
     search: (query) =>
-        segments.ROOT + (query ? segments.SEARCH + separator + query : ''),
+        segments.ROOT + (query ? segments.SEARCH + separators.url + query : ''),
 };

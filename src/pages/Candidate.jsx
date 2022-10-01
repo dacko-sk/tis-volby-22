@@ -79,6 +79,24 @@ function Candidate() {
                             </td>
                         </tr>
                     )}
+                    {candidate[labels.elections.municipality_key] && (
+                        <tr>
+                            <td>{labels.municipality}</td>
+                            <td>
+                                <Link
+                                    to={routes.municipality(
+                                        candidate.municipalityShortName
+                                    )}
+                                >
+                                    {
+                                        candidate[
+                                            labels.elections.municipality_key
+                                        ]
+                                    }
+                                </Link>
+                            </td>
+                        </tr>
+                    )}
                     {candidate.isTransparent && (
                         <>
                             <tr>
