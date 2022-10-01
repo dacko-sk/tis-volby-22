@@ -4,11 +4,12 @@
   padding-bottom: 20px;
 }
 
-[class^='countdown-'] {
+[class^='countdown-bg'] {
   background-color: $tis-grey;
   padding: 5px 10px 20px;
   position: relative;
   &::after {
+    content: attr(data-label);
     position: absolute;
     bottom: 5px;
     left: 50%;
@@ -19,22 +20,10 @@
   }
 }
 
-.countdown-d {
+.countdown-bg-o {
   background-color: $tis-orange;
   color: white;
   &::after {
     content: 'dní';
   }
-}
-
-.countdown-h::after {
-  content: 'hodín';
-}
-
-.countdown-m::after {
-  content: 'minút';
-}
-
-.countdown-s::after {
-  content: 'sekúnd';
 }

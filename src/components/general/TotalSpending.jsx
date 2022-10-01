@@ -26,10 +26,18 @@ function TotalSpending() {
         // Render a countdown
         return (
             <div className="countdown hero-number">
-                <span className="countdown-d me-3">{formatted.days}</span>
-                <span className="countdown-h me-3">{formatted.hours}</span>
-                <span className="countdown-m me-3">{formatted.minutes}</span>
-                <span className="countdown-s">{formatted.seconds}</span>
+                <span className="countdown-bg-o me-3" data-label="dní">
+                    {formatted.days}
+                </span>
+                <span className="countdown-bg me-3" data-label="hodín">
+                    {formatted.hours}
+                </span>
+                <span className="countdown-bg me-3" data-label="minút">
+                    {formatted.minutes}
+                </span>
+                <span className="countdown-bg" data-label="sekúnd">
+                    {formatted.seconds}
+                </span>
             </div>
         );
     };
