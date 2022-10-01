@@ -2,14 +2,23 @@ import has from 'has';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Table from 'react-bootstrap/Table';
-import { labels, transparencyClasses } from '../../../api/constants';
+import { Link } from 'react-router-dom';
 import {
+    campaignMetadata as cmd,
+    labels,
+    transparencyClasses,
+    transparencyIndicators,
+} from '../../../api/constants';
+import {
+    compareStr,
     parseAnalysisData,
     parseWpHtml,
     transparencyClass,
 } from '../../../api/helpers';
+import { routes, segments } from '../../../api/routes';
+import useData from '../../../context/DataContext';
 
-function NewsDetail({ article }) {
+function AnalysisDetail({ article }) {
     const analysis = has(article, 'analysis')
         ? article.analysis
         : parseAnalysisData(article.content.rendered);
@@ -21,10 +30,10 @@ function NewsDetail({ article }) {
             </div>
         );
     }
-    const cls = transparencyClass(analysis.score[0]);
+    const cls = transparencyClass(analysis[cmd.score][0]);
 
     const groups = {};
-    ['account', 'financing', 'information'].forEach((group) => {
+    Object.keys(transparencyIndicators).forEach((group) => {
         groups[group] = [];
         Object.entries(analysis[group]).forEach(([key, valuesArray]) => {
             const value = valuesArray[0];
@@ -54,6 +63,7 @@ function NewsDetail({ article }) {
             );
         });
     });
+
     const tables = [];
     Object.keys(groups).forEach((group) => {
         tables.push(
@@ -64,7 +74,7 @@ function NewsDetail({ article }) {
         tables.push(
             <Table
                 key={group}
-                className="mb-0"
+                className="indicators-table mb-0"
                 striped
                 bordered
                 responsive
@@ -74,6 +84,7 @@ function NewsDetail({ article }) {
             </Table>
         );
     });
+
     const words = labels.transparency[cls].split(' ');
     const transparencyTag = [];
     words.forEach((word, index) => {
@@ -87,28 +98,55 @@ function NewsDetail({ article }) {
         }
     });
 
+    const { csvData } = useData();
+    // parse aggregated data
+    let candidatePage = null;
+    if (has(csvData, 'data')) {
+        csvData.data.some((row) => {
+            if (
+                compareStr(
+                    article.title.rendered,
+                    row[labels.elections.name_key]
+                ) &&
+                compareStr(
+                    analysis[cmd.municipality][0],
+                    row[labels.elections.municipality_key]
+                )
+            ) {
+                candidatePage = routes.candidate(
+                    row[labels.elections.name_key],
+                    row[labels.elections.municipality_key]
+                );
+                return true;
+            }
+            return false;
+        });
+    }
+
     return (
         <div className="analysis">
             <div className="row gy-3 gy-lg-0">
                 <div className="col-lg-6">
-                    <h2 className="text-lg-center">{analysis.type[0]}</h2>
+                    <h2 className="text-lg-center">{analysis[cmd.type][0]}</h2>
                     <Table responsive>
                         <tbody>
                             <tr>
                                 <th>{labels.municipality}</th>
                                 <td className="text-end">
-                                    {analysis.municipality[0]}
+                                    {analysis[cmd.municipality][0]}
                                 </td>
                             </tr>
                             <tr>
                                 <th>{labels.party}</th>
                                 <td className="text-end">
-                                    {analysis.support[0]}
+                                    {analysis[cmd.support][0]}
                                 </td>
                             </tr>
                             <tr>
                                 <th>{labels.analysisDate}</th>
-                                <td className="text-end">{analysis.date[0]}</td>
+                                <td className="text-end">
+                                    {analysis[cmd.date][0]}
+                                </td>
                             </tr>
                         </tbody>
                     </Table>
@@ -119,7 +157,7 @@ function NewsDetail({ article }) {
                         <Row className="align-items-center justify-content-lg-center gx-2">
                             <Col xs="auto">
                                 <span className={`badge me-1 ${cls}`}>
-                                    {`${analysis.score[0]}`}%
+                                    {`${analysis[cmd.score][0]}`}%
                                 </span>
                             </Col>
                             <Col xs="auto">
@@ -130,8 +168,63 @@ function NewsDetail({ article }) {
                 </div>
             </div>
             {tables}
+            <h2 className="mt-4 mb-3">Referencie</h2>
+            <Row className="mb-4">
+                {candidatePage && (
+                    <Col sm={12} md="auto">
+                        <ul className="arrows">
+                            <li>
+                                <Link to={candidatePage}>
+                                    Transparentný účet
+                                </Link>
+                            </li>
+                        </ul>
+                    </Col>
+                )}
+                {analysis[cmd.fb][0] && (
+                    <Col sm={12} md="auto">
+                        <ul className="arrows">
+                            <li>
+                                <a
+                                    href={analysis[cmd.fb][0]}
+                                    target="_blank"
+                                    rel="noreferrer"
+                                >
+                                    {labels.fb}
+                                </a>
+                            </li>
+                        </ul>
+                    </Col>
+                )}
+                {analysis[cmd.web][0] && (
+                    <Col sm={12} md="auto">
+                        <ul className="arrows">
+                            <li>
+                                <a
+                                    href={analysis[cmd.web][0]}
+                                    target="_blank"
+                                    rel="noreferrer"
+                                >
+                                    {labels.web}
+                                </a>
+                            </li>
+                        </ul>
+                    </Col>
+                )}
+                <Col sm={12} md="auto">
+                    <ul className="arrows">
+                        <li>
+                            <Link
+                                to={routes.article(segments.NEWS, 'metodika')}
+                            >
+                                Metodika hodnotenia
+                            </Link>
+                        </li>
+                    </ul>
+                </Col>
+            </Row>
         </div>
     );
 }
 
-export default NewsDetail;
+export default AnalysisDetail;

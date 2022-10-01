@@ -38,6 +38,7 @@
       position: relative;
       overflow: hidden;
       &:after {
+        content: attr(data-label);
         position: absolute;
         top: 0;
         right: 0;
@@ -53,7 +54,6 @@
     &.good {
       .thumb:after {
         background-color: $tis-score-green;
-        content: 'transparentná';
       }
       figure {
         border: 2px dotted $tis-score-green;
@@ -62,7 +62,6 @@
     &.average {
       .thumb:after {
         background-color: $tis-score-orange;
-        content: 's výhradami';
       }
       figure {
         border: 2px dotted $tis-score-orange;
@@ -71,7 +70,6 @@
     &.bad {
       .thumb:after {
         background-color: $tis-score-red;
-        content: 'netransparentná';
       }
       figure {
         border: 2px dotted $tis-score-red;
@@ -90,6 +88,12 @@
       }
     }
     .thumb {
+      &:after {
+        content: attr(data-label) ' %';
+        font-size: 1.5em;
+        line-height: 2.15rem;
+        transform: translate(50%, -50%) rotate(45deg) translate(0, 150%);
+      }
       img {
         filter: saturate(25%);
       }
@@ -120,6 +124,14 @@
 ul.blocks-gallery-grid {
   list-style: none;
   padding: 0;
+}
+
+.analysis .arrows {
+  margin-bottom: 0;
+}
+
+.indicators-table td:nth-child(2) {
+  width: 150px;
 }
 
 @media (min-width: map.get($grid-breakpoints, 'md')) {

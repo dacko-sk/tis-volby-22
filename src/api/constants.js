@@ -17,10 +17,26 @@ export const colors = {
     colorGrey,
 };
 
+export const campaignMetadata = {
+    type: 'type',
+    municipality: 'municipality',
+    support: 'support',
+    fb: 'fb',
+    web: 'web',
+    date: 'date',
+    score: 'score',
+};
+
 export const transparencyClasses = {
     good: 'good',
     average: 'average',
     bad: 'bad',
+};
+
+export const transparencyIndicators = {
+    account: 'account',
+    financing: 'financing',
+    information: 'information',
 };
 
 export const labels = {
@@ -47,6 +63,7 @@ export const labels = {
             name: 'Župné voľby',
         },
     },
+    fb: 'FB profil',
     charts: {
         disclaimer:
             'Grafy obsahujú iba dáta z transparentných účtov evidovaných podľa zákona na webe ministerstva vnútra a sú očistené o vrátené platby.',
@@ -56,7 +73,7 @@ export const labels = {
         uniqeDonors: 'Počet unikátnych darcov',
     },
     indicators: {
-        account: {
+        [transparencyIndicators.account]: {
             title: 'Transparentný účet',
             criteria: [
                 'existencia samostatného účtu',
@@ -67,7 +84,7 @@ export const labels = {
                 'časová reálnosť výdavkov',
             ],
         },
-        financing: {
+        [transparencyIndicators.financing]: {
             title: 'Financovanie kampane',
             criteria: [
                 'viaczdrojovosť',
@@ -76,7 +93,7 @@ export const labels = {
                 'plán kampane',
             ],
         },
-        information: {
+        [transparencyIndicators.information]: {
             title: 'Informovanosť o kampani',
             criteria: [
                 'existencia webu',
@@ -101,10 +118,16 @@ export const labels = {
         [transparencyClasses.average]: 'kampaň s výhradami',
         [transparencyClasses.bad]: 'netransparentná kampaň',
     },
+    transparencyShort: {
+        [transparencyClasses.good]: 'transparentná',
+        [transparencyClasses.average]: 's výhradami',
+        [transparencyClasses.bad]: 'netransparentná',
+    },
     score: ['nezistené/netýka sa', 'áno', 'čiastočne', 'nie'],
     search: 'Vyhľadávanie',
     showMore: 'Zobraziť viac',
     type: 'Typ volieb',
+    web: 'Volebný web',
 };
 
 export const errors = {
@@ -112,11 +135,13 @@ export const errors = {
 };
 
 export const constants = {
+    campaignMetadata,
     colors,
     errors,
     images,
     labels,
     transparencyClasses,
+    transparencyIndicators,
 };
 
 export default constants;

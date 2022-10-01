@@ -1,6 +1,12 @@
 import parse, { attributesToProps, domToReact } from 'html-react-parser';
 import has from 'has';
-import { imgRootPath, labels, transparencyClasses } from './constants';
+import {
+    campaignMetadata,
+    imgRootPath,
+    labels,
+    transparencyClasses,
+    transparencyIndicators,
+} from './constants';
 
 export const slovakFormat = (value, options) =>
     new Intl.NumberFormat('sk-SK', options).format(value);
@@ -125,6 +131,7 @@ export const parseAnalysisData = (html) => {
         const end = '</tr></tbody>';
         const startPos = html.indexOf(start);
         const endPos = html.indexOf(end);
+
         if (startPos > -1 && endPos > -1) {
             const tableData = [];
             html.substring(startPos + start.length, endPos)
@@ -138,27 +145,33 @@ export const parseAnalysisData = (html) => {
                             const val = col.replaceAll('<td>', '');
                             const num = Number(val);
                             cols.push(
-                                Number.isNaN(num) ? ecodeHTMLEntities(val) : num
+                                !val || Number.isNaN(num)
+                                    ? ecodeHTMLEntities(val)
+                                    : num
                             );
                         }
                     });
                     tableData.push(cols);
                 });
-            const required =
-                5 +
-                labels.indicators.account.criteria.length +
-                labels.indicators.financing.criteria.length +
-                labels.indicators.information.criteria.length;
+
+            const baseProps = Object.keys(campaignMetadata);
+            let required = baseProps.length;
+            Object.keys(transparencyIndicators).forEach((group) => {
+                required += labels.indicators[group].criteria.length;
+            });
+
             if (tableData.length >= required) {
-                const analysis = {
-                    type: tableData[0],
-                    municipality: tableData[1],
-                    support: tableData[2],
-                    date: tableData[3],
-                    score: tableData[4],
-                };
-                let rowKey = 5;
-                ['account', 'financing', 'information'].forEach((group) => {
+                const analysis = {};
+                let rowKey = 0;
+
+                // base campaing data
+                baseProps.forEach((prop) => {
+                    analysis[prop] = tableData[rowKey];
+                    rowKey += 1;
+                });
+
+                // transparency analysis indicators
+                Object.keys(transparencyIndicators).forEach((group) => {
                     analysis[group] = {};
                     labels.indicators[group].criteria.forEach((criterium) => {
                         analysis[group][criterium] = tableData[rowKey];
@@ -245,12 +258,18 @@ export const imgPath = (filename) => (filename ? imgRootPath + filename : '');
 export const removeAccentsFromString = (str) =>
     str ? str.normalize('NFD').replace(/[\u0300-\u036f]/g, '') : '';
 
+export const compareStr = (a, b) =>
+    a &&
+    b &&
+    removeAccentsFromString(a.toLowerCase().trim()) ===
+        removeAccentsFromString(b.toLowerCase().trim());
+
 export const contains = (haystack, needle) =>
-    haystack && needle
-        ? removeAccentsFromString(haystack.toLowerCase()).includes(
-              removeAccentsFromString(needle.toLowerCase())
-          )
-        : false;
+    haystack &&
+    needle &&
+    removeAccentsFromString(haystack.toLowerCase()).includes(
+        removeAccentsFromString(needle.toLowerCase().trim())
+    );
 
 export const setTitle = (title) => {
     document.title = `${title} : Samosprávne voľby 2022 : Transparency International Slovensko`;

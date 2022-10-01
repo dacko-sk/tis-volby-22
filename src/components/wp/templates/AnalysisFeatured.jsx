@@ -1,6 +1,6 @@
 import has from 'has';
 import Col from 'react-bootstrap/Col';
-import { images } from '../../../api/constants';
+import { campaignMetadata as cmd, images } from '../../../api/constants';
 import { transparencyClass } from '../../../api/helpers';
 import Media from '../Media';
 
@@ -10,7 +10,7 @@ function AnalysisFeatured({ article, clickHandler, keyUpHandler }) {
         console.log(analysis.error);
         return null;
     }
-    const cls = transparencyClass(analysis.score[0]);
+    const cls = transparencyClass(analysis[cmd.score][0]);
     return (
         <Col md>
             <div
@@ -21,7 +21,10 @@ function AnalysisFeatured({ article, clickHandler, keyUpHandler }) {
                 role="link"
                 tabIndex={0}
             >
-                <div className="thumb mb-2 mb-md-0">
+                <div
+                    className="thumb mb-2 mb-md-0"
+                    data-label={analysis[cmd.score][0]}
+                >
                     <figure className="text-center">
                         <Media
                             alt={article.title.rendered}

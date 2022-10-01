@@ -101,6 +101,10 @@ function Analyses() {
                 section={segments.ANALYSES}
                 template={templates.featured}
             />
+            <p className="my-4">
+                Krátky 3 – 4 vetný popis, o aké hodnotenie vlastne ide, čo tie
+                farby a číselká vyjadrujú.
+            </p>
             <Accordion
                 className="mt-4"
                 activeKey={activeKey}
