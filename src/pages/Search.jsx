@@ -7,10 +7,9 @@ import Col from 'react-bootstrap/Col';
 import { labels } from '../api/constants';
 import {
     contains,
+    regionalCity,
     setTitle,
     sortByNumericProp,
-    substitute,
-    substituteCity,
 } from '../api/helpers';
 import { routes, segments } from '../api/routes';
 import { analysesCategories } from './Analyses';
@@ -29,21 +28,47 @@ function Search() {
 
     // parse data
     const candidates = [];
+    const mun = {};
     if (has(csvData, 'data')) {
-        csvData.data
-            .sort(sortByNumericProp('sum_outgoing', true))
-            .forEach((row) => {
+        csvData.data.sort(sortByNumericProp('sum_outgoing')).forEach((row) => {
+            if (!row.isParty) {
                 const city = row[labels.elections.municipality_key] ?? '';
+                // if candidate's municipality name or regional city name matches search query
+                const munMatch =
+                    city &&
+                    (contains(city, query) ||
+                        contains(regionalCity(city), query));
+
+                // municipality matches - list municipality
+                if (munMatch) {
+                    const key = `${row[labels.elections.region_key] ?? '_'}-${
+                        row.municipalityShortName
+                    }`;
+                    const link = routes.municipality(
+                        row.municipalityShortName,
+                        row[labels.elections.region_key] ?? null
+                    );
+                    mun[key] = (
+                        <Col key={key} className="d-flex" sm>
+                            <Link
+                                to={link}
+                                className={`d-flex flex-column justify-content-between w-100 cat-${
+                                    row.isRegional ? 'regional' : 'local'
+                                }`}
+                            >
+                                <h3>
+                                    {row[labels.elections.municipality_key]}
+                                </h3>
+                                <div className="type">{row.electionsName}</div>
+                            </Link>
+                        </Col>
+                    );
+                }
+
+                // candidate name or municipalities matches - list candidate
                 if (
-                    !row.isParty &&
-                    (contains(row[labels.elections.name_key], query) ||
-                        contains(
-                            substitute(row[labels.elections.region_key] ?? ''),
-                            query
-                        ) ||
-                        (city &&
-                            (contains(city, query) ||
-                                contains(substituteCity(city), query))))
+                    contains(row[labels.elections.name_key], query) ||
+                    munMatch
                 ) {
                     const link = routes.candidate(
                         row[labels.elections.name_key],
@@ -56,6 +81,7 @@ function Search() {
                                 row[labels.elections.municipality_key]
                             }
                             className="d-flex"
+                            sm
                         >
                             <Link
                                 to={link}
@@ -74,8 +100,10 @@ function Search() {
                         </Col>
                     );
                 }
-            });
+            }
+        });
     }
+    const municipalities = Object.values(mun);
 
     useEffect(() => {
         if (!query) {
@@ -96,7 +124,16 @@ function Search() {
                 Výsledky vyhľadávania výrazu
             </Title>
 
-            <h2 className="mb-4">Kandidáti</h2>
+            <h2 className="mb-4">Samosprávy</h2>
+            {municipalities.length ? (
+                <Row className="candidates gx-4 gy-4">{municipalities}</Row>
+            ) : (
+                <Alert variant="secondary">
+                    Hľadanému výrazu nezodpovedá žiadna samospráva.
+                </Alert>
+            )}
+
+            <h2 className="my-4">Kandidáti</h2>
             {candidates.length ? (
                 <Row className="candidates gx-4 gy-4">{candidates}</Row>
             ) : (

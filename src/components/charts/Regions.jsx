@@ -58,45 +58,47 @@ function Regions() {
 
     // create accordion component
     const accordions = [];
-    Object.keys(charts).forEach((region) => {
-        const chart = loadedRegions[region] ? (
-            <div>
-                <TisBarChart
-                    currency
-                    data={candidates[region][types.regional]
-                        .sort(sortBySpending)
-                        .slice(0, 10)}
-                    title={labels.elections.regional.name}
-                    vertical
-                />
-                <TisBarChart
-                    currency
-                    data={candidates[region][types.local]
-                        .sort(sortBySpending)
-                        .slice(0, 10)}
-                    title={labels.elections.local.name}
-                    vertical
-                />
-                <div className="buttons mt-3 text-center">
-                    <Button
-                        as={Link}
-                        to={routes.region(region)}
-                        variant="secondary"
-                    >
-                        Zobraziť ďalších kandidátov v kraji
-                    </Button>
+    Object.keys(charts)
+        .sort()
+        .forEach((region) => {
+            const chart = loadedRegions[region] ? (
+                <div>
+                    <TisBarChart
+                        currency
+                        data={candidates[region][types.regional]
+                            .sort(sortBySpending)
+                            .slice(0, 10)}
+                        title={labels.elections.regional.name}
+                        vertical
+                    />
+                    <TisBarChart
+                        currency
+                        data={candidates[region][types.local]
+                            .sort(sortBySpending)
+                            .slice(0, 10)}
+                        title={labels.elections.local.name}
+                        vertical
+                    />
+                    <div className="buttons mt-3 text-center">
+                        <Button
+                            as={Link}
+                            to={routes.region(region)}
+                            variant="secondary"
+                        >
+                            Zobraziť ďalších kandidátov v kraji
+                        </Button>
+                    </div>
                 </div>
-            </div>
-        ) : (
-            <Loading />
-        );
-        accordions.push(
-            <Accordion.Item key={region} eventKey={region}>
-                <Accordion.Header>{substitute(region)}</Accordion.Header>
-                <Accordion.Body>{chart}</Accordion.Body>
-            </Accordion.Item>
-        );
-    });
+            ) : (
+                <Loading />
+            );
+            accordions.push(
+                <Accordion.Item key={region} eventKey={region}>
+                    <Accordion.Header>{substitute(region)}</Accordion.Header>
+                    <Accordion.Body>{chart}</Accordion.Body>
+                </Accordion.Item>
+            );
+        });
 
     const onSelect = (ak) => {
         // open/close accordion

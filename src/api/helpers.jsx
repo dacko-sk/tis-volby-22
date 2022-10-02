@@ -243,7 +243,7 @@ const cities = {
     'Žilinský samosprávny kraj': 'Žilina',
 };
 
-export const substituteCity = (value) =>
+export const regionalCity = (value) =>
     has(cities, value) ? cities[value] : value;
 
 export const sortByNumericProp = (prop, asc) => (a, b) =>

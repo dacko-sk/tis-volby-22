@@ -35,7 +35,9 @@ function Charts() {
                             separators.newline +
                             row[labels.elections.region_key] +
                             separators.parts +
-                            row.municipalityShortName,
+                            row.municipalityShortName +
+                            separators.newline +
+                            row.electionsName,
                         incoming: row.sum_incoming,
                         outgoing: row.sum_outgoing,
                         donors: row.num_unique_donors,
@@ -82,11 +84,11 @@ function Charts() {
             />
             <TisBarChart
                 title="Výdavky a príjmy jednotlivých kandidátov"
-                data={people.sort(sortBySpending)}
+                data={people.sort(sortBySpending).slice(0, 10)}
                 buttonText="Zobraziť všetkých"
                 buttonLink={routes.campaigns}
                 currency
-                scrollable
+                // scrollable
                 vertical
             />
             <TisBarChart
