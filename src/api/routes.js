@@ -1,4 +1,5 @@
 export const separators = {
+    newline: '\n',
     parts: '~',
     space: '.',
     url: '/',
@@ -38,13 +39,21 @@ export const routes = {
     charts: segments.ROOT + segments.CHARTS,
     donors: segments.ROOT + segments.CHARTS + separators.url + segments.DONORS,
     home: segments.ROOT,
-    municipality: (town) =>
-        segments.ROOT +
-        (town
-            ? segments.MUNICIPALITY +
-              separators.url +
-              encodeURIComponent(town.replaceAll(' ', separators.space))
-            : ''),
+    municipality: (town, region) => {
+        const reg = region
+            ? region.replaceAll(' ', separators.space) + separators.parts
+            : '';
+        return (
+            segments.ROOT +
+            (town
+                ? segments.MUNICIPALITY +
+                  separators.url +
+                  encodeURIComponent(
+                      reg + town.replaceAll(' ', separators.space)
+                  )
+                : '')
+        );
+    },
     news: segments.ROOT + segments.NEWS,
     region: (region) =>
         segments.ROOT +

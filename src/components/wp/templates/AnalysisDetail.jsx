@@ -115,7 +115,8 @@ function AnalysisDetail({ article }) {
                 )
             ) {
                 municipalityPage = routes.municipality(
-                    row.municipalityShortName
+                    row.municipalityShortName,
+                    row[labels.elections.region_key] ?? null
                 );
                 if (
                     compareStr(

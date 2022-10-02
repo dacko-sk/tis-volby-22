@@ -1,6 +1,7 @@
 import has from 'has';
 import { labels } from '../api/constants';
 import { setTitle, sortByDonors } from '../api/helpers';
+import { separators } from '../api/routes';
 import useData, { types } from '../context/DataContext';
 import TisBarChart, { columnVariants } from '../components/charts/TisBarChart';
 import PartyCandidates from '../components/general/PartyCandidates';
@@ -25,9 +26,12 @@ function AllDonors() {
             if (has(row, labels.elections.region_key) && !row.isParty) {
                 if (row.isTransparent) {
                     const person = {
-                        name: `${row[labels.elections.name_key]}\n${
-                            row.municipalityShortName
-                        }`,
+                        name:
+                            row[labels.elections.name_key] +
+                            separators.newline +
+                            row[labels.elections.region_key] +
+                            separators.parts +
+                            row.municipalityShortName,
                         donors: row.num_unique_donors,
                     };
                     candidates[

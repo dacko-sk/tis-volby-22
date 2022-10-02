@@ -19,6 +19,7 @@ import {
     wholeCurrencyFormat,
     shortenValue,
 } from '../../api/helpers';
+import { separators } from '../../api/routes';
 import HorizontalTick from './HorizontalTick';
 import VerticalTick, { tickFontSize } from './VerticalTick';
 import LastUpdateTag from '../general/LastUpdateTag';
@@ -45,6 +46,25 @@ export const columnVariants = {
             color: colors.colorDarkBlue,
         },
     ],
+};
+
+const tooltipNameFormat = (value) => {
+    const parts = value.split(separators.newline);
+    if (parts.length) {
+        const tags = [<strong key="name">{parts[0]}</strong>];
+        parts.forEach((part, index) => {
+            if (index > 0) {
+                const subParts = part.split(separators.parts);
+                const town = subParts.length > 1 ? subParts[1] : part;
+                if (town !== '…') {
+                    tags.push(<br key={`br${part}`} />);
+                    tags.push(<span key={`val${part}`}>{town}</span>);
+                }
+            }
+        });
+        return <>{tags}</>;
+    }
+    return value;
 };
 
 function TisBarChart(props) {
@@ -85,7 +105,10 @@ function TisBarChart(props) {
 
     let labelLines = 1;
     props.data.forEach((row) => {
-        labelLines = Math.max(labelLines, row.name.split('\n').length);
+        labelLines = Math.max(
+            labelLines,
+            row.name.split(separators.newline).length
+        );
     });
 
     return (
@@ -173,7 +196,10 @@ function TisBarChart(props) {
                                     tick={axisConfig}
                                 />
                             )}
-                            <Tooltip formatter={tooltipNumFormat} />
+                            <Tooltip
+                                formatter={tooltipNumFormat}
+                                labelFormatter={tooltipNameFormat}
+                            />
                             <Legend />
                             {bars}
                         </BarChart>

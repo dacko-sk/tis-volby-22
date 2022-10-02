@@ -8,7 +8,7 @@ import { sortBySpending, substitute } from '../../api/helpers';
 import useData, { types } from '../../context/DataContext';
 import Loading from '../general/Loading';
 import TisBarChart from './TisBarChart';
-import { routes } from '../../api/routes';
+import { routes, separators } from '../../api/routes';
 
 function Regions() {
     const [activeKey, setActiveKey] = useState(null);
@@ -37,7 +37,12 @@ function Regions() {
                 }
 
                 const person = {
-                    name: `${row.name}\n${row.municipalityShortName}`,
+                    name:
+                        row[labels.elections.name_key] +
+                        separators.newline +
+                        row[labels.elections.region_key] +
+                        separators.parts +
+                        row.municipalityShortName,
                     incoming: row.sum_incoming,
                     outgoing: row.sum_outgoing,
                 };

@@ -1,7 +1,7 @@
 import has from 'has';
 import { labels } from '../api/constants';
 import { setTitle, sortByDonors, sortBySpending } from '../api/helpers';
-import { routes } from '../api/routes';
+import { routes, separators } from '../api/routes';
 import Regions from '../components/charts/Regions';
 import TisBarChart, { columnVariants } from '../components/charts/TisBarChart';
 import Title from '../components/structure/Title';
@@ -30,9 +30,12 @@ function Charts() {
                     });
                 } else {
                     people.push({
-                        name: `${row[labels.elections.name_key]}\n${
-                            row.municipalityShortName
-                        }\n${row.electionsName}`,
+                        name:
+                            row[labels.elections.name_key] +
+                            separators.newline +
+                            row[labels.elections.region_key] +
+                            separators.parts +
+                            row.municipalityShortName,
                         incoming: row.sum_incoming,
                         outgoing: row.sum_outgoing,
                         donors: row.num_unique_donors,

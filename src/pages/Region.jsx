@@ -9,7 +9,7 @@ import {
     sortByDonors,
     sortBySpending,
 } from '../api/helpers';
-import { routes } from '../api/routes';
+import { routes, separators } from '../api/routes';
 import useData, { types } from '../context/DataContext';
 import TisBarChart, { columnVariants } from '../components/charts/TisBarChart';
 import Loading from '../components/general/Loading';
@@ -43,9 +43,12 @@ function Region() {
             ) {
                 if (row.isTransparent) {
                     const person = {
-                        name: `${row[labels.elections.name_key]}\n${
-                            row.municipalityShortName
-                        }`,
+                        name:
+                            row[labels.elections.name_key] +
+                            separators.newline +
+                            row[labels.elections.region_key] +
+                            separators.parts +
+                            row.municipalityShortName,
                         incoming: row.sum_incoming,
                         outgoing: row.sum_outgoing,
                         donors: row.num_unique_donors,

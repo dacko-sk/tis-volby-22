@@ -1,7 +1,7 @@
 import has from 'has';
 import { labels } from '../../api/constants';
 import { sortBySpending } from '../../api/helpers';
-import { routes } from '../../api/routes';
+import { routes, separators } from '../../api/routes';
 import useData from '../../context/DataContext';
 
 import TisBarChart from './TisBarChart';
@@ -15,9 +15,14 @@ function Top10() {
         csvData.data.forEach((row) => {
             if (has(row, labels.elections.region_key) && !row.isParty) {
                 people.push({
-                    name: `${row[labels.elections.name_key]}\n${
-                        row.municipalityShortName
-                    }\n${row.electionsName}`,
+                    name:
+                        row[labels.elections.name_key] +
+                        separators.newline +
+                        row[labels.elections.region_key] +
+                        separators.parts +
+                        row.municipalityShortName +
+                        separators.newline +
+                        row.electionsName,
                     incoming: row.sum_incoming,
                     outgoing: row.sum_outgoing,
                 });

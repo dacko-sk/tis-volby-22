@@ -50,7 +50,7 @@ function App() {
                                 element={<AllDonors />}
                             />
                             <Route
-                                path={`${segments.MUNICIPALITY}/:town`}
+                                path={`${segments.MUNICIPALITY}/:municipality`}
                                 element={<Municipality />}
                             />
                             <Route path={segments.NEWS} element={<News />} />

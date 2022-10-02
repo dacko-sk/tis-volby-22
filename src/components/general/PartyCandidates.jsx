@@ -34,7 +34,8 @@ function PartyCandidates({ candidates }) {
                     {candidate[labels.elections.municipality_key] && (
                         <Link
                             to={routes.municipality(
-                                candidate.municipalityShortName
+                                candidate.municipalityShortName,
+                                candidate[labels.elections.region_key] ?? null
                             )}
                         >
                             {candidate[labels.elections.municipality_key]}

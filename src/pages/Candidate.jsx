@@ -85,7 +85,10 @@ function Candidate() {
                             <td>
                                 <Link
                                     to={routes.municipality(
-                                        candidate.municipalityShortName
+                                        candidate.municipalityShortName,
+                                        candidate[
+                                            labels.elections.region_key
+                                        ] ?? null
                                     )}
                                 >
                                     {

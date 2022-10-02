@@ -14,10 +14,20 @@ import { title as donorsTitle } from './AllDonors';
 
 function Municipality() {
     const params = useParams();
-    const municipality = has(params, 'town')
-        ? params.town.replaceAll(separators.space, ' ')
-        : null;
-    let name = municipality;
+    let town = null;
+    let region = null;
+    if (has(params, 'municipality')) {
+        const municipality = params.municipality.split(separators.parts);
+        town = municipality[municipality.length > 1 ? 1 : 0].replaceAll(
+            separators.space,
+            ' '
+        );
+        region =
+            municipality.length > 1
+                ? municipality[0].replaceAll(separators.space, ' ')
+                : null;
+    }
+
     const navigate = useNavigate();
 
     const { csvData } = useData();
@@ -26,18 +36,22 @@ function Municipality() {
     const candidates = [];
     let donors = [];
     const partyCandidates = [];
-    if (has(csvData, 'data')) {
+    if (town && has(csvData, 'data')) {
         csvData.data.forEach((row) => {
             if (
-                row[labels.elections.municipality_key] === municipality ||
-                row.municipalityShortName === municipality
+                (row[labels.elections.municipality_key] === town ||
+                    row.municipalityShortName === town) &&
+                (!region || region === row[labels.elections.region_key])
             ) {
-                name = row[labels.elections.municipality_key];
+                town = row[labels.elections.municipality_key];
                 if (row.isTransparent) {
                     const person = {
-                        name: `${row[labels.elections.name_key]}\n${
-                            row.municipalityShortName
-                        }`,
+                        name:
+                            row[labels.elections.name_key] +
+                            separators.newline +
+                            row[labels.elections.region_key] +
+                            separators.parts +
+                            row.municipalityShortName,
                         incoming: row.sum_incoming,
                         outgoing: row.sum_outgoing,
                         donors: row.num_unique_donors,
@@ -83,11 +97,11 @@ function Municipality() {
         }
     }, [candidates, partyCandidates, csvData, navigate]);
 
-    setTitle(name);
+    setTitle(town);
 
     return (
         <section className="municipality-page">
-            <Title>{name}</Title>
+            <Title>{town}</Title>
             {content}
         </section>
     );

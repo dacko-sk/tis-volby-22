@@ -1,20 +1,21 @@
+import { separators } from '../../api/routes';
 import { tickClassName, tickFontSize, tickLabel } from './VerticalTick';
 
 function HorizontalTick({ x, y, payload }) {
-    const parts = payload.value.split('\n');
+    const parts = payload.value.split(separators.newline);
     const rows = [];
-    for (let i = 0; i < parts.length; i += 1) {
+    parts.forEach((part, index) => {
         rows.push(
             <tspan
-                key={i}
+                key={part}
                 x={x}
-                dy={`${i === 0 ? '0.71' : '1'}em`}
-                className={tickClassName(i, parts)}
+                dy={`${index === 0 ? '0.71' : '1'}em`}
+                className={tickClassName(index, parts)}
             >
-                {tickLabel(i, parts)}
+                {tickLabel(index, parts)}
             </tspan>
         );
-    }
+    });
     return (
         <text
             x={x}
