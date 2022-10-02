@@ -16,6 +16,7 @@ function Municipality() {
     const params = useParams();
     let town = null;
     let region = null;
+    let type = null;
     if (has(params, 'municipality')) {
         const municipality = params.municipality.split(separators.parts);
         town = municipality[municipality.length > 1 ? 1 : 0].replaceAll(
@@ -44,6 +45,7 @@ function Municipality() {
                 (!region || region === row[labels.elections.region_key])
             ) {
                 town = row[labels.elections.municipality_key];
+                type = row.electionsName;
                 if (row.isTransparent) {
                     const person = {
                         name:
@@ -101,7 +103,9 @@ function Municipality() {
 
     return (
         <section className="municipality-page">
-            <Title>{town}</Title>
+            <Title multiline secondary={type}>
+                {town}
+            </Title>
             {content}
         </section>
     );
