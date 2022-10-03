@@ -13,7 +13,8 @@ function LastUpdateTag({ short }) {
         <em className="disclaimer">
             {!short && (
                 <span>
-                    {labels.charts.disclaimer} <br className="d-xl-none" />
+                    {`${labels.charts.disclaimer} `}
+                    <br className="d-none d-xl-inline" />
                 </span>
             )}
             {labels.charts.updated} {dateFormat(lastUpdate)}.
