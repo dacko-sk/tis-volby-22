@@ -66,7 +66,7 @@ export const labels = {
     fb: 'FB profil',
     charts: {
         disclaimer:
-            'Grafy obsahujú iba dáta z transparentných účtov evidovaných podľa zákona na webe ministerstva vnútra a sú očistené o vrátené platby.',
+            'Grafy obsahujú iba dáta z transparentných účtov evidovaných podľa zákona na webe ministerstva vnútra a niektoré manuálne dohľadané účty. Dáta sú očistené o vrátené platby.',
         updated: 'Naposledy aktualizované',
         incoming: 'Príjmy',
         outgoing: 'Výdavky',
