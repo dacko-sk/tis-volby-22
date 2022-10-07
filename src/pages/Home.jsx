@@ -21,7 +21,7 @@ function Home() {
             <TotalSpending />
             <div className="text-center">
                 <Button
-                    className="mt-3 mb-4 text-uppercase fw-bold"
+                    className="mt-3 mb-3 btn-xl text-uppercase fw-bold"
                     href="https://transparency.sk/volby"
                     target="_blank"
                     variant="secondary"
