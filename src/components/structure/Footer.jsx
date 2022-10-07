@@ -3,7 +3,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 import { SocialIcon } from 'react-social-icons';
-import { colorOrange } from '../../api/constants';
+import { colorOrange, labels } from '../../api/constants';
 import { imgPath } from '../../api/helpers';
 import FbFeed from '../general/FbFeed';
 import CookieBanner from '../general/CookieBanner';
@@ -164,7 +164,7 @@ function Footer() {
                                 target="_blank"
                                 variant="secondary"
                             >
-                                Podporte
+                                {labels.donate}
                             </Button>
                         </Col>
                         <Col md={12} lg={4}>

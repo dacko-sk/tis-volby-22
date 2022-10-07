@@ -1,3 +1,4 @@
+import Button from 'react-bootstrap/Button';
 import Top10 from '../components/charts/Top10';
 import TotalSpending from '../components/general/TotalSpending';
 import Title from '../components/structure/Title';
@@ -18,6 +19,16 @@ function Home() {
                 voľby
             </Title>
             <TotalSpending />
+            <div className="text-center">
+                <Button
+                    className="mt-3 mb-4 text-uppercase fw-bold"
+                    href="https://transparency.sk/volby"
+                    target="_blank"
+                    variant="secondary"
+                >
+                    Darujte na kontrolu volieb
+                </Button>
+            </div>
             <Map />
             <Top10 />
             <h2>Najnovšie aktuality</h2>

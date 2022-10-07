@@ -3,6 +3,7 @@ import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import { labels } from '../../api/constants';
 import { imgPath } from '../../api/helpers';
 import { routes } from '../../api/routes';
 import SearchField from '../general/SearchField';
@@ -41,7 +42,7 @@ function Header() {
                         target="_blank"
                         variant="secondary"
                     >
-                        Podporte
+                        {labels.donate}
                     </Button>
                 </Navbar.Collapse>
             </Container>
