@@ -1,11 +1,10 @@
 import { NavLink } from 'react-router-dom';
-import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import { labels } from '../../api/constants';
 import { imgPath } from '../../api/helpers';
 import { routes } from '../../api/routes';
+import DonateButton from '../general/DonateButton';
 import SearchField from '../general/SearchField';
 
 function Header() {
@@ -36,14 +35,7 @@ function Header() {
                         </Nav.Link>
                     </Nav>
                     <SearchField />
-                    <Button
-                        className="btn-xl text-uppercase fw-bold"
-                        href="https://transparency.sk/volby"
-                        target="_blank"
-                        variant="secondary"
-                    >
-                        {labels.donate}
-                    </Button>
+                    <DonateButton xl />
                 </Navbar.Collapse>
             </Container>
         </Navbar>

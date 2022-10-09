@@ -3,10 +3,11 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 import { SocialIcon } from 'react-social-icons';
-import { colorOrange, labels } from '../../api/constants';
+import { colorOrange } from '../../api/constants';
 import { imgPath } from '../../api/helpers';
 import FbFeed from '../general/FbFeed';
 import CookieBanner from '../general/CookieBanner';
+import DonateButton from '../general/DonateButton';
 
 function Footer() {
     return (
@@ -158,14 +159,7 @@ function Footer() {
                                 Prihlásiť sa na newsletter
                             </Button>
                             <h2 className="mt-4 mb-0">Podporte Transparency</h2>
-                            <Button
-                                className="mt-3 mb-4 text-uppercase fw-bold"
-                                href="https://transparency.sk/volby"
-                                target="_blank"
-                                variant="secondary"
-                            >
-                                {labels.donate}
-                            </Button>
+                            <DonateButton className="mt-3 mb-4" />
                         </Col>
                         <Col md={12} lg={4}>
                             <FbFeed

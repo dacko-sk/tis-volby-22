@@ -48,6 +48,7 @@ export const labels = {
     disclaimerParties:
         'Zoznam ďalších kandidátov, ktorí na financovanie kampaní využívajú stranícke účty, viacero účtov alebo účty nemajú a vizualizáciu ich príjmov a výdavkov preto nie je možné zobraziť. Podrobnosti nájdete po rozkliknutí mena kandidáta. Kandidátov postupne dopĺňame.',
     donate: 'Darujte',
+    donateLong: 'Darujte na kontrolu volieb',
     elections: {
         account_key: 'url',
         name_key: 'name',

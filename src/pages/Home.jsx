@@ -1,12 +1,12 @@
-import Button from 'react-bootstrap/Button';
+import { setTitle } from '../api/helpers';
+import { segments } from '../api/routes';
 import Top10 from '../components/charts/Top10';
+import DonateButton from '../components/general/DonateButton';
 import TotalSpending from '../components/general/TotalSpending';
+import Map from '../components/map/Map';
 import Title from '../components/structure/Title';
 import Posts, { templates } from '../components/wp/Posts';
 import { newsCategories } from './News';
-import { setTitle } from '../api/helpers';
-import { segments } from '../api/routes';
-import Map from '../components/map/Map';
 
 function Home() {
     setTitle('Úvod');
@@ -20,14 +20,7 @@ function Home() {
             </Title>
             <TotalSpending />
             <div className="text-center">
-                <Button
-                    className="mt-3 mb-3 btn-xl text-uppercase fw-bold"
-                    href="https://transparency.sk/volby"
-                    target="_blank"
-                    variant="secondary"
-                >
-                    Darujte na kontrolu volieb
-                </Button>
+                <DonateButton className="mt-3 mb-3" long xl />
             </div>
             <Map />
             <Top10 />
