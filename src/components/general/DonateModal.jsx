@@ -3,19 +3,19 @@ import Modal from 'react-bootstrap/Modal';
 import DonateButton from './DonateButton';
 
 function DonateModal() {
-    const [exitIntent, setExitIntent] = useState(false);
-    const [ready, setReady] = useState(false);
+    const [show, setShow] = useState(false);
 
-    const handleClose = () => setExitIntent(false);
+    const handleClose = () => setShow(false);
 
     const documentMouseOut = (event) => {
         if (
+            window.donateReady &&
             event.clientY < 50 &&
             event.relatedTarget == null &&
             event.target.nodeName.toLowerCase() !== 'select'
         ) {
-            // let the modal know that user wants to leave :)
-            setExitIntent(true);
+            // show the modal!
+            setShow(true);
             // stop watching for exit intent - popup will be shown just once
             document.removeEventListener('mouseout', documentMouseOut);
         }
@@ -25,11 +25,12 @@ function DonateModal() {
     useEffect(() => {
         // watch for exit intent
         document.addEventListener('mouseout', documentMouseOut);
-        // wait for 30 seconds before allowing to show the popup
+        // wait for 10 seconds before allowing to show the popup
+        window.donateReady = false;
         let timer = null;
         timer = setTimeout(() => {
-            setReady(true);
-        }, 30 * 1000);
+            window.donateReady = true;
+        }, 10 * 1000);
         return () => {
             if (timer) {
                 clearTimeout(timer);
@@ -43,7 +44,7 @@ function DonateModal() {
             centered
             keyboard={false}
             onHide={handleClose}
-            show={exitIntent && ready}
+            show={show}
         >
             <Modal.Header closeButton>
                 <Modal.Title>Voľby sú už za dverami!</Modal.Title>
