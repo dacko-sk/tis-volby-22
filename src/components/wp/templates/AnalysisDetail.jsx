@@ -11,6 +11,8 @@ import {
 } from '../../../api/constants';
 import {
     compareStr,
+    fixUrl,
+    numFormat,
     parseAnalysisData,
     parseWpHtml,
     transparencyClass,
@@ -175,7 +177,7 @@ function AnalysisDetail({ article }) {
                         <Row className="align-items-center justify-content-lg-center gx-2">
                             <Col xs="auto">
                                 <span className={`badge me-1 ${cls}`}>
-                                    {`${analysis[cmd.score][0]}`}%
+                                    {`${numFormat(analysis[cmd.score][0])}`}%
                                 </span>
                             </Col>
                             <Col xs="auto">
@@ -204,7 +206,7 @@ function AnalysisDetail({ article }) {
                         <ul className="arrows">
                             <li>
                                 <a
-                                    href={analysis[cmd.fb][0]}
+                                    href={fixUrl(analysis[cmd.fb][0])}
                                     target="_blank"
                                     rel="noreferrer"
                                 >
@@ -219,7 +221,7 @@ function AnalysisDetail({ article }) {
                         <ul className="arrows">
                             <li>
                                 <a
-                                    href={analysis[cmd.web][0]}
+                                    href={fixUrl(analysis[cmd.web][0])}
                                     target="_blank"
                                     rel="noreferrer"
                                 >

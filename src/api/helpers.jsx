@@ -50,6 +50,9 @@ export const shortenValue = (value, length, removals) => {
 export const shortenUrl = (value) =>
     shortenValue(value, 32, ['https://', 'www.']);
 
+export const fixUrl = (url) =>
+    url.startsWith('http') ? url : `https://${url}`;
+
 export const dateFormat = (timestamp) =>
     new Intl.DateTimeFormat('sk-SK', {
         year: 'numeric',
@@ -142,8 +145,11 @@ export const parseAnalysisData = (html) => {
                     row.split('</td>').forEach((col, index) => {
                         // ignore first row (names), save the rest into tableData
                         if (index > 0 && col.trim()) {
-                            const val = col.replaceAll('<td>', '');
-                            const num = Number(val);
+                            const val = col
+                                .replaceAll('<td>', '')
+                                .replaceAll(/<a[^>]*>/g, '')
+                                .replaceAll(/<\/a>/g, '');
+                            const num = Number(val.replaceAll(',', '.'));
                             cols.push(
                                 !val || Number.isNaN(num)
                                     ? ecodeHTMLEntities(val)
@@ -189,9 +195,9 @@ export const parseAnalysisData = (html) => {
 
 export const transparencyClass = (score) => {
     let cls = transparencyClasses.bad;
-    if (score >= 45) {
+    if (score >= 40) {
         cls =
-            score >= 75
+            score >= 70
                 ? transparencyClasses.good
                 : transparencyClasses.average;
     }

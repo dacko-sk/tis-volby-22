@@ -7,7 +7,7 @@ import {
     images,
     labels,
 } from '../../../api/constants';
-import { imgPath, transparencyClass } from '../../../api/helpers';
+import { imgPath, numFormat, transparencyClass } from '../../../api/helpers';
 
 function AnalysisList({ article, clickHandler, keyUpHandler }) {
     const { analysis } = article;
@@ -57,7 +57,10 @@ function AnalysisList({ article, clickHandler, keyUpHandler }) {
                                     <th>{labels.analysis}</th>
                                     <td className="score">
                                         <span className={`badge me-1 ${cls}`}>
-                                            {`${analysis[cmd.score][0]}`}%
+                                            {`${numFormat(
+                                                analysis[cmd.score][0]
+                                            )}`}
+                                            %
                                         </span>
                                         {labels.transparency[cls]}
                                     </td>

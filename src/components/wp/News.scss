@@ -161,6 +161,9 @@ ul.blocks-gallery-grid {
       }
     }
   }
+  .analysis-preview th {
+    width: 170px;
+  }
 }
 
 @media (min-width: map.get($grid-breakpoints, 'lg')) {
@@ -168,6 +171,9 @@ ul.blocks-gallery-grid {
     & > .col-md {
       width: 25%;
     }
+  }
+  .analysis-preview th {
+    width: 33%;
   }
 }
 
@@ -194,5 +200,8 @@ ul.blocks-gallery-grid {
         transform: none;
       }
     }
+  }
+  .analysis-preview th {
+    width: 25%;
   }
 }

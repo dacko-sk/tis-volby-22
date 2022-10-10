@@ -90,7 +90,7 @@ export const labels = {
             title: 'Financovanie kampane',
             criteria: [
                 'viaczdrojovosť',
-                'hodnovernosť príspevkov',
+                'nezávislosť od veľkých darov',
                 'informovanie o predkampani',
                 'plán kampane',
             ],

@@ -1,7 +1,7 @@
 import has from 'has';
 import Col from 'react-bootstrap/Col';
 import { campaignMetadata as cmd, images } from '../../../api/constants';
-import { transparencyClass } from '../../../api/helpers';
+import { numFormat, transparencyClass } from '../../../api/helpers';
 import Media from '../Media';
 
 function AnalysisFeatured({ article, clickHandler, keyUpHandler }) {
@@ -23,7 +23,7 @@ function AnalysisFeatured({ article, clickHandler, keyUpHandler }) {
             >
                 <div
                     className="thumb mb-2 mb-md-0"
-                    data-label={analysis[cmd.score][0]}
+                    data-label={numFormat(analysis[cmd.score][0])}
                 >
                     <figure className="text-center">
                         <Media
