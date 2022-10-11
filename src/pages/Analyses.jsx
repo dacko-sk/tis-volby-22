@@ -101,9 +101,46 @@ function Analyses() {
                 section={segments.ANALYSES}
                 template={templates.featured}
             />
-            <p className="my-4">
-                {/* Krátky 3 – 4 vetný popis, o aké hodnotenie vlastne ide, čo tie
-                farby a číselká vyjadrujú. */}
+            <p className="mt-4">
+                Rok 2022 možno označiť aj ako supervolebný. Na konci októbra si
+                voliči po prvýkrát v jediný deň vyberú ôsmich županov, takmer
+                tritisíc primátorov, starostov a zhruba 21-tisíc miestnych a
+                regionálnych poslancov.
+            </p>
+            <p>
+                V Transparency International Slovensko sme pripravili hodnotenie
+                transparentnosti kampaní v najväčších samosprávach. Pozreli sme
+                sa na 132 uchádzačov o post primátorov ôsmich krajských miest a
+                post predsedov ôsmich samosprávny krajov. Konečné hodnotenie sme
+                udelili 98 kandidátom s merateľnými kampaňami.
+            </p>
+            <p>
+                Zamerali sme sa predovšetkým na dostupné údaje na
+                transparentných účtoch, weboch a sociálnych sieťach kandidátov,
+                výsledné hodnotenie tak neodráža ďalšie aspekty kampaní. Pre
+                lepšiu prehľadnosť sme zvolili princíp semafora - pri každom
+                hodnotenom kandidátovi tak svieti jedno z troch hodnotení:
+            </p>
+            <ul className="arrows lh-lg">
+                <li>
+                    <span className="badge score-good">
+                        Transparentná kampaň (zelená farba)
+                    </span>
+                </li>
+                <li>
+                    <span className="badge score-average">
+                        Kampaň s výhradami (oranžová farba)
+                    </span>
+                </li>
+                <li>
+                    <span className="badge score-bad">
+                        Netransparentná kampaň (červená farba)
+                    </span>
+                </li>
+            </ul>
+            <p className="mb-4">
+                Podrobnejšie výsledky nájdete v sekcii nižšie a v Metodike
+                hodnotenia.
             </p>
             <Accordion
                 className="mt-4"
