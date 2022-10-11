@@ -1,7 +1,7 @@
 import has from 'has';
 import Col from 'react-bootstrap/Col';
 import { campaignMetadata as cmd, images } from '../../../api/constants';
-import { numFormat, transparencyClass } from '../../../api/helpers';
+import { badgePctFormat, transparencyClass } from '../../../api/helpers';
 import Media from '../Media';
 
 function AnalysisFeatured({ article, clickHandler, keyUpHandler }) {
@@ -15,7 +15,7 @@ function AnalysisFeatured({ article, clickHandler, keyUpHandler }) {
         <Col md>
             <div
                 id={article.slug}
-                className={`article analysis-preview ${cls}`}
+                className={`article analysis-preview score-${cls}`}
                 onClick={clickHandler}
                 onKeyUp={keyUpHandler}
                 role="link"
@@ -23,7 +23,7 @@ function AnalysisFeatured({ article, clickHandler, keyUpHandler }) {
             >
                 <div
                     className="thumb mb-2 mb-md-0"
-                    data-label={numFormat(analysis[cmd.score][0])}
+                    data-label={badgePctFormat(analysis[cmd.score][0])}
                 >
                     <figure className="text-center">
                         <Media
@@ -33,7 +33,7 @@ function AnalysisFeatured({ article, clickHandler, keyUpHandler }) {
                         />
                     </figure>
                     <div className="name text-center">
-                        <span className={`badge ${cls}`}>
+                        <span className={`badge score-${cls}`}>
                             {article.title.rendered}
                         </span>
                     </div>

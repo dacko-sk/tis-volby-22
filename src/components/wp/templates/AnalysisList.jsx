@@ -7,7 +7,11 @@ import {
     images,
     labels,
 } from '../../../api/constants';
-import { imgPath, numFormat, transparencyClass } from '../../../api/helpers';
+import {
+    badgePctFormat,
+    imgPath,
+    transparencyClass,
+} from '../../../api/helpers';
 
 function AnalysisList({ article, clickHandler, keyUpHandler }) {
     const { analysis } = article;
@@ -20,7 +24,7 @@ function AnalysisList({ article, clickHandler, keyUpHandler }) {
         <Col className="px-0" md={12}>
             <div
                 id={article.slug}
-                className={`article analysis-preview ${cls} p-3`}
+                className={`article analysis-preview score-${cls} p-3`}
                 onClick={clickHandler}
                 onKeyUp={keyUpHandler}
                 role="link"
@@ -56,11 +60,12 @@ function AnalysisList({ article, clickHandler, keyUpHandler }) {
                                 <tr>
                                     <th>{labels.analysis}</th>
                                     <td className="score">
-                                        <span className={`badge me-1 ${cls}`}>
-                                            {`${numFormat(
+                                        <span
+                                            className={`badge me-1 score-${cls}`}
+                                        >
+                                            {badgePctFormat(
                                                 analysis[cmd.score][0]
-                                            )}`}
-                                            %
+                                            )}
                                         </span>
                                         {labels.transparency[cls]}
                                     </td>

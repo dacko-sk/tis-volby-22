@@ -31,6 +31,7 @@ export const transparencyClasses = {
     good: 'good',
     average: 'average',
     bad: 'bad',
+    unknown: 'unknown',
 };
 
 export const transparencyIndicators = {
@@ -119,11 +120,13 @@ export const labels = {
         [transparencyClasses.good]: 'transparentná kampaň',
         [transparencyClasses.average]: 'kampaň s výhradami',
         [transparencyClasses.bad]: 'netransparentná kampaň',
+        [transparencyClasses.unknown]: 'nedostatok dát',
     },
     transparencyShort: {
         [transparencyClasses.good]: 'transparentná',
         [transparencyClasses.average]: 's výhradami',
         [transparencyClasses.bad]: 'netransparentná',
+        [transparencyClasses.unknown]: 'nedostatok dát',
     },
     score: ['nezistené/netýka sa', 'áno', 'čiastočne', 'nie'],
     search: 'Vyhľadávanie',

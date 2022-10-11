@@ -31,6 +31,12 @@
     }
   }
   &.analysis-preview {
+    &:hover,
+    &:focus {
+      figure {
+        border-style: solid;
+      }
+    }
     & > .row > .col-lg-3 {
       max-width: 250px;
     }
@@ -51,28 +57,38 @@
         width: 150%;
       }
     }
-    &.good {
+    figure {
+      border-color: $tis-score-unknown;
+      border-style: dotted;
+      border-width: 2px;
+    }
+    &.score-good {
       .thumb:after {
         background-color: $tis-score-green;
       }
       figure {
-        border: 2px dotted $tis-score-green;
+        border-color: $tis-score-green;
       }
     }
-    &.average {
+    &.score-average {
       .thumb:after {
         background-color: $tis-score-orange;
       }
       figure {
-        border: 2px dotted $tis-score-orange;
+        border-color: $tis-score-orange;
       }
     }
-    &.bad {
+    &.score-bad {
       .thumb:after {
         background-color: $tis-score-red;
       }
       figure {
-        border: 2px dotted $tis-score-red;
+        border-color: $tis-score-red;
+      }
+    }
+    &.score-unknown {
+      .thumb:after {
+        background-color: $tis-score-unknown;
       }
     }
   }
@@ -80,16 +96,12 @@
     &:hover,
     &:focus {
       background-color: transparent;
-      figure {
-        border-style: solid;
-      }
       .thumb img {
         filter: saturate(100%);
       }
     }
     .thumb {
       &:after {
-        content: attr(data-label) ' %';
         font-size: 1.5em;
         line-height: 2.15rem;
         transform: translate(50%, -50%) rotate(45deg) translate(0, 150%);

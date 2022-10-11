@@ -13,6 +13,17 @@ export const slovakFormat = (value, options) =>
 
 export const numFormat = (value) => slovakFormat(value, {});
 
+export const pctFormat = (value) => {
+    const num = Number(value);
+    if (!Number.isNaN(num)) {
+        return `${numFormat(num)} %`;
+    }
+    return '';
+};
+
+export const badgePctFormat = (value) =>
+    Number(value) > -1 ? pctFormat(value) : 'N/A';
+
 export const wholeNumFormat = (value) =>
     slovakFormat(value, {
         maximumFractionDigits: 0,
@@ -170,8 +181,17 @@ export const parseAnalysisData = (html) => {
                 const analysis = {};
                 let rowKey = 0;
 
-                // base campaing data
+                // base campaign data
                 baseProps.forEach((prop) => {
+                    // numeric check for score row - set to minus 1 (unknown) if score is not numeric
+                    if (prop === campaignMetadata.score) {
+                        tableData[rowKey].forEach((column, columnKey) => {
+                            const num = Number(column);
+                            if (Number.isNaN(num)) {
+                                tableData[rowKey][columnKey] = -1;
+                            }
+                        });
+                    }
                     analysis[prop] = tableData[rowKey];
                     rowKey += 1;
                 });
@@ -194,12 +214,16 @@ export const parseAnalysisData = (html) => {
 };
 
 export const transparencyClass = (score) => {
-    let cls = transparencyClasses.bad;
-    if (score >= 40) {
-        cls =
-            score >= 70
-                ? transparencyClasses.good
-                : transparencyClasses.average;
+    let cls = transparencyClasses.unknown;
+    const num = Number(score);
+    if (!Number.isNaN(num) && num > -1) {
+        cls = transparencyClasses.bad;
+        if (score >= 40) {
+            cls =
+                score >= 70
+                    ? transparencyClasses.good
+                    : transparencyClasses.average;
+        }
     }
     return cls;
 };

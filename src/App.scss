@@ -163,14 +163,17 @@ ul.arrows {
 .badge {
   background-color: $font-color;
   color: #fff;
-  &.good {
+  &.score-good {
     background-color: $tis-score-green;
   }
-  &.average {
+  &.score-average {
     background-color: $tis-score-orange;
   }
-  &.bad {
+  &.score-bad {
     background-color: $tis-score-red;
+  }
+  &.score-unknown {
+    background-color: $tis-score-unknown;
   }
 }
 

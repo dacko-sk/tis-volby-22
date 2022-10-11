@@ -10,9 +10,9 @@ import {
     transparencyIndicators,
 } from '../../../api/constants';
 import {
+    badgePctFormat,
     compareStr,
     fixUrl,
-    numFormat,
     parseAnalysisData,
     parseWpHtml,
     transparencyClass,
@@ -57,9 +57,15 @@ function AnalysisDetail({ article }) {
                 <tr key={key}>
                     <td>{key}</td>
                     <td>
-                        <span className={`badge${color ? ` ${color}` : ''}`}>
-                            {labels.score[value]}
-                        </span>
+                        {Number(value) > -1 && (
+                            <span
+                                className={`badge${
+                                    color ? ` score-${color}` : ''
+                                }`}
+                            >
+                                {labels.score[value]}
+                            </span>
+                        )}
                     </td>
                 </tr>
             );
@@ -176,8 +182,8 @@ function AnalysisDetail({ article }) {
                     <div className="hero-number mt-4">
                         <Row className="align-items-center justify-content-lg-center gx-2">
                             <Col xs="auto">
-                                <span className={`badge me-1 ${cls}`}>
-                                    {`${numFormat(analysis[cmd.score][0])}`}%
+                                <span className={`badge me-1 score-${cls}`}>
+                                    {badgePctFormat(analysis[cmd.score][0])}
                                 </span>
                             </Col>
                             <Col xs="auto">

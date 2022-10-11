@@ -116,7 +116,7 @@ function CookieBanner() {
                                     variant="success"
                                     onClick={rejectAllClick}
                                 >
-                                    Odmientnuť všetky
+                                    Odmietnuť všetky
                                 </Button>
                                 <Button
                                     className="mb-2 mb-sm-0 me-0 me-sm-3"
