@@ -134,7 +134,7 @@ function AnalysisDetail({ article }) {
                 ) {
                     candidatePage = routes.candidate(
                         row[labels.elections.name_key],
-                        row[labels.elections.municipality_key]
+                        row.municipalityShortName
                     );
                     return true;
                 }
