@@ -53,6 +53,7 @@ function Posts(props) {
             : templates.list;
     const limit = has(props, 'limit') ? props.limit : false;
     const blocksize = limit || (template === templates.featured ? 20 : 10);
+    const showMore = has(props, 'showMoreText') ? props.showMoreText : null;
     const categories = has(props, 'categories')
         ? `&categories=${props.categories.join()}`
         : '';
@@ -164,11 +165,11 @@ function Posts(props) {
 
     const title =
         template === templates.featured && articles.length ? (
-            <h2>Top {articles.length} kampaní</h2>
+            <h2 className="mb-3">Top {articles.length} kampaní</h2>
         ) : null;
 
     let nav = null;
-    if (limit) {
+    if (showMore || limit) {
         nav = (
             <div className="buttons mt-3 text-center">
                 <Button
@@ -176,7 +177,7 @@ function Posts(props) {
                     to={routes.articles(section)}
                     variant="secondary"
                 >
-                    {labels.showMore}
+                    {showMore || labels.showMore}
                 </Button>
             </div>
         );

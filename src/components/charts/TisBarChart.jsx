@@ -112,7 +112,7 @@ function TisBarChart(props) {
     });
 
     return (
-        <div className="chart-wrapper my-3">
+        <div className="chart-wrapper mb-3">
             {has(props, 'title') && <h2>{props.title}</h2>}
             {has(props, 'subtitle') && <h6>{props.subtitle}</h6>}
             <LastUpdateTag />

@@ -241,7 +241,10 @@ function AnalysisDetail({ article }) {
                     <ul className="arrows">
                         <li>
                             <Link
-                                to={routes.article(segments.NEWS, 'metodika')}
+                                to={routes.article(
+                                    segments.NEWS,
+                                    'hodnotenie-kampani-pred-miestnymi-a-regionalnymi-volbami-2022'
+                                )}
                             >
                                 Metodika hodnotenia
                             </Link>

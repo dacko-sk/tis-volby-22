@@ -16,6 +16,7 @@ function Article() {
 
     // try to set article data object from location.state
     const location = useLocation();
+    const isAnalysis = location.pathname.startsWith(routes.analyses);
     let article =
         location.state && has(location.state, 'article')
             ? location.state.article
@@ -55,7 +56,7 @@ function Article() {
         return <Loading error={error} />;
     }
 
-    const template = location.pathname.startsWith(routes.analyses) ? (
+    const template = isAnalysis ? (
         <AnalysisDetail article={article} />
     ) : (
         <NewsDetail article={article} />
@@ -65,7 +66,12 @@ function Article() {
 
     return (
         <section className="article-detail">
-            <Title>{article.title.rendered}</Title>
+            <Title
+                multiline
+                secondary={isAnalysis ? 'hodnotenie kampane' : null}
+            >
+                {article.title.rendered}
+            </Title>
             {template}
         </section>
     );
