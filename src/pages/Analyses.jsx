@@ -1,9 +1,10 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import Accordion from 'react-bootstrap/Accordion';
 import has from 'has';
 import { labels } from '../api/constants';
 import { setTitle, substitute } from '../api/helpers';
-import { segments } from '../api/routes';
+import { routes, segments } from '../api/routes';
 import Title from '../components/structure/Title';
 import Posts, { templates } from '../components/wp/Posts';
 
@@ -139,8 +140,16 @@ function Analyses() {
                 </li>
             </ul>
             <p className="mb-4">
-                Podrobnejšie výsledky nájdete v sekcii nižšie a v Metodike
-                hodnotenia.
+                Podrobnejšie výsledky nájdete v sekcii nižšie a v{' '}
+                <Link
+                    to={routes.article(
+                        segments.NEWS,
+                        'hodnotenie-kampani-pred-miestnymi-a-regionalnymi-volbami-2022'
+                    )}
+                >
+                    Metodike hodnotenia
+                </Link>
+                .
             </p>
             <Accordion
                 className="mt-4"
