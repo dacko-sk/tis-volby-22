@@ -47,12 +47,13 @@ const getAnalysedData = (data) => {
 function Posts(props) {
     const [totalPages, setTotalPages] = useState(0);
     const [activePage, setActivePage] = useState(1);
+    const section = has(props, 'section') ? props.section : segments.NEWS;
     const template =
         has(props, 'template') && has(templates, props.template)
             ? props.template
             : templates.list;
     const limit = has(props, 'limit') ? props.limit : false;
-    const blocksize = limit || (template === templates.featured ? 20 : 10);
+    const blocksize = limit || (section === segments.ANALYSES ? 20 : 10);
     const showMore = has(props, 'showMoreText') ? props.showMoreText : null;
     const categories = has(props, 'categories')
         ? `&categories=${props.categories.join()}`
@@ -61,7 +62,6 @@ function Posts(props) {
         ? `&categories_exclude=${props.categoriesExclude.join()}`
         : '';
     const search = has(props, 'search') ? `&search=${props.search}` : '';
-    const section = has(props, 'section') ? props.section : segments.NEWS;
     const { isLoading, error, data } = useQuery(
         [`all_posts_${categories}_${search}_${blocksize}_${activePage}`],
         () =>
