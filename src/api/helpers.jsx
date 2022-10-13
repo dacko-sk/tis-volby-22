@@ -263,6 +263,14 @@ export const substitute = (value) =>
     has(replacements, value) ? replacements[value] : value;
 
 const cities = {
+    BB: 'Banská Bystrica',
+    BA: 'Bratislava',
+    KE: 'Košice',
+    NR: 'Nitra',
+    PO: 'Prešov',
+    TN: 'Trenčín',
+    TT: 'Trnava',
+    ZA: 'Žilina',
     'Banskobystrický samosprávny kraj': 'Banská Bystrica',
     'Bratislavský samosprávny kraj': 'Bratislava',
     'Košický samosprávny kraj': 'Košice',

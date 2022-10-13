@@ -2,21 +2,32 @@ import { useEffect } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import has from 'has';
 import { labels } from '../api/constants';
-import { setTitle, sortByDonors, sortBySpending } from '../api/helpers';
-import { routes, separators } from '../api/routes';
-import useData from '../context/DataContext';
+import {
+    regionalCity,
+    setTitle,
+    sortByDonors,
+    sortBySpending,
+} from '../api/helpers';
+import { routes, segments, separators } from '../api/routes';
+import useData, { types } from '../context/DataContext';
 import TisBarChart, { columnVariants } from '../components/charts/TisBarChart';
 import Loading from '../components/general/Loading';
 import PartyCandidates from '../components/general/PartyCandidates';
 import Title from '../components/structure/Title';
+import Posts from '../components/wp/Posts';
 import { title as spendingTitle } from './AllCampaigns';
 import { title as donorsTitle } from './AllDonors';
+import {
+    analysesCategories,
+    getExcludedCategories,
+    title as analysesTitle,
+} from './Analyses';
 
 function Municipality() {
     const params = useParams();
     let town = null;
     let region = null;
-    let type = null;
+    let type = types.local;
     if (has(params, 'municipality')) {
         const municipality = params.municipality.split(separators.parts);
         town = municipality[municipality.length > 1 ? 1 : 0].replaceAll(
@@ -45,7 +56,7 @@ function Municipality() {
                 (!region || region === row[labels.elections.region_key])
             ) {
                 town = row[labels.elections.municipality_key];
-                type = row.electionsName;
+                type = row.isRegional ? types.regional : types.local;
                 if (row.isTransparent) {
                     const person = {
                         name:
@@ -88,6 +99,25 @@ function Municipality() {
         <Loading />
     );
 
+    let analyses = null;
+    // show for regional elections or local elections in regional towns
+    if (type === types.regional || town === regionalCity(region)) {
+        const typeId = analysesCategories.types[type];
+        const regionId = analysesCategories.regions[region];
+        const excludedIds = getExcludedCategories(typeId, regionId);
+        analyses = (
+            <div>
+                <h2 className="mb-3">{analysesTitle}</h2>
+                <Posts
+                    categories={[typeId, regionId]}
+                    categoriesExclude={excludedIds}
+                    noResults="Pre tento typ volieb v tomto kraji doposiaľ nie sú k dispozícii žiadne hodnotenia."
+                    section={segments.ANALYSES}
+                />
+            </div>
+        );
+    }
+
     useEffect(() => {
         if (
             !candidates.length &&
@@ -103,10 +133,11 @@ function Municipality() {
 
     return (
         <section className="municipality-page">
-            <Title multiline secondary={type}>
+            <Title multiline secondary={labels.elections[type].name}>
                 {town}
             </Title>
             {content}
+            {analyses}
         </section>
     );
 }
