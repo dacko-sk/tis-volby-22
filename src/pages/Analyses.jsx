@@ -113,14 +113,16 @@ function Analyses() {
                 transparentnosti kampaní v najväčších samosprávach. Pozreli sme
                 sa na 132 uchádzačov o post primátorov ôsmich krajských miest a
                 post predsedov ôsmich samosprávny krajov. Konečné hodnotenie sme
-                udelili 98 kandidátom s merateľnými kampaňami.
+                udelili 98 kandidátom s merateľnými kampaňami, pri ktorých suma
+                priebežných výdavkov (k 10.10.2022) presahuje 3-tisíc eur, alebo
+                majú viac ako štyri výdavkové položky na transparentnom účte.
             </p>
             <p>
                 Zamerali sme sa predovšetkým na dostupné údaje na
                 transparentných účtoch, weboch a sociálnych sieťach kandidátov,
                 výsledné hodnotenie tak neodráža ďalšie aspekty kampaní. Pre
                 lepšiu prehľadnosť sme zvolili princíp semafora - pri každom
-                hodnotenom kandidátovi tak svieti jedno z troch hodnotení:
+                hodnotenom kandidátovi tak svieti jedno z hodnotení:
             </p>
             <ul className="arrows lh-lg">
                 <li>
@@ -136,6 +138,11 @@ function Analyses() {
                 <li>
                     <span className="badge score-bad">
                         Netransparentná kampaň (červená farba)
+                    </span>
+                </li>
+                <li>
+                    <span className="badge score-unknown">
+                        Nedostatok dát / nehodnotené (šedá farba)
                     </span>
                 </li>
             </ul>

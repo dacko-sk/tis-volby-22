@@ -126,7 +126,7 @@ export const labels = {
         [transparencyClasses.good]: 'transparentná',
         [transparencyClasses.average]: 's výhradami',
         [transparencyClasses.bad]: 'netransparentná',
-        [transparencyClasses.unknown]: 'nedostatok dát',
+        [transparencyClasses.unknown]: 'N/A',
     },
     score: ['nezistené/netýka sa', 'áno', 'čiastočne', 'nie'],
     search: 'Vyhľadávanie',
