@@ -27,7 +27,16 @@ export const analysesCategories = {
     },
 };
 
-const title = 'Hodnotenie transparentnosti kampaní';
+export const getExcludedCategories = (typeId, regionId) =>
+    Object.values(analysesCategories.types)
+        .filter((id) => id !== typeId)
+        .concat(
+            Object.values(analysesCategories.regions).filter(
+                (id) => id !== regionId
+            )
+        );
+
+export const title = 'Hodnotenie transparentnosti kampaní';
 
 function Analyses() {
     const [activeKey, setActiveKey] = useState(null);
@@ -40,13 +49,7 @@ function Analyses() {
         if (has(loadedRegions, region) && loadedRegions[region]) {
             Object.entries(analysesCategories.types).forEach(
                 ([type, typeId]) => {
-                    const excluded = Object.values(analysesCategories.types)
-                        .filter((id) => id !== typeId)
-                        .concat(
-                            Object.values(analysesCategories.regions).filter(
-                                (id) => id !== regionId
-                            )
-                        );
+                    const excluded = getExcludedCategories(typeId, regionId);
                     types.push(
                         <div key={typeId}>
                             <h2

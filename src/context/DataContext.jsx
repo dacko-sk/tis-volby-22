@@ -9,8 +9,8 @@ export const baseDate = 1659535519;
 export const reloadMinutes = 70;
 
 export const types = {
-    regional: 'miestne',
-    local: 'župné',
+    regional: 'regional',
+    local: 'local',
 };
 
 export const processData = (data) => {
