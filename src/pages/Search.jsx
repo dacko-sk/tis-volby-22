@@ -142,19 +142,19 @@ function Search() {
                 </Alert>
             )}
 
-            <h2 className="my-4">Aktuality</h2>
-            <Posts
-                categories={newsCategories}
-                noResults="Hľadaný výraz nebol nájdený v žiadnej z aktualít."
-                section={segments.NEWS}
-                search={query}
-            />
-
             <h2 className="my-4">Hodnotenia</h2>
             <Posts
                 categories={[analysesCategories.main]}
                 noResults="Hľadaný výraz nebol nájdený v žiadnom hodnotení."
                 section={segments.ANALYSES}
+                search={query}
+            />
+
+            <h2 className="my-4">Aktuality</h2>
+            <Posts
+                categories={newsCategories}
+                noResults="Hľadaný výraz nebol nájdený v žiadnej z aktualít."
+                section={segments.NEWS}
                 search={query}
             />
         </section>

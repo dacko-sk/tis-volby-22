@@ -120,7 +120,7 @@ export const labels = {
         [transparencyClasses.good]: 'transparentná kampaň',
         [transparencyClasses.average]: 'kampaň s výhradami',
         [transparencyClasses.bad]: 'netransparentná kampaň',
-        [transparencyClasses.unknown]: 'nedostatok dát',
+        [transparencyClasses.unknown]: 'nedostatok dát / nehodnotené',
     },
     transparencyShort: {
         [transparencyClasses.good]: 'transparentná',
