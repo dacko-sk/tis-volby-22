@@ -126,7 +126,7 @@ function Search() {
 
             <h2 className="mb-4">Samosprávy</h2>
             {municipalities.length ? (
-                <Row className="candidates gx-4 gy-4">{municipalities}</Row>
+                <Row className="tiles gx-4 gy-4">{municipalities}</Row>
             ) : (
                 <Alert variant="secondary">
                     Hľadanému výrazu nezodpovedá žiadna samospráva.
@@ -135,7 +135,7 @@ function Search() {
 
             <h2 className="my-4">Kandidáti</h2>
             {candidates.length ? (
-                <Row className="candidates gx-4 gy-4">{candidates}</Row>
+                <Row className="tiles gx-4 gy-4">{candidates}</Row>
             ) : (
                 <Alert variant="secondary">
                     Hľadanému výrazu nezodpovedá žiaden kandidát.

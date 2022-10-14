@@ -118,45 +118,47 @@ ul.arrows {
   font-size: 24px;
 }
 
-.candidates a {
-  min-width: 140px;
-  padding-top: calc(var(--bs-gutter-y) * 0.75);
-  padding-bottom: calc(var(--bs-gutter-y) * 0.75);
-  padding-left: calc(var(--bs-gutter-x) * 1);
-  padding-right: calc(var(--bs-gutter-x) * 1);
-  text-decoration: none;
-  &.cat-regional {
-    border: 1px solid $tis-orange;
+.tiles {
+  a {
+    min-width: 140px;
+    padding-top: calc(var(--bs-gutter-y) * 0.75);
+    padding-bottom: calc(var(--bs-gutter-y) * 0.75);
+    padding-left: calc(var(--bs-gutter-x) * 1);
+    padding-right: calc(var(--bs-gutter-x) * 1);
+    text-decoration: none;
+    &.cat-regional {
+      border: 1px solid $tis-orange;
+      h3 {
+        color: $tis-orange;
+        text-decoration: underline;
+      }
+      .type {
+        color: $tis-orange;
+      }
+    }
+    &.cat-local {
+      border: 1px solid $tis-light-blue;
+      h3 {
+        color: $tis-light-blue;
+        text-decoration: underline;
+      }
+      .type {
+        color: $tis-light-blue;
+      }
+    }
+    &:hover,
+    &:focus {
+      background-color: $tis-grey;
+      h3 {
+        text-decoration: none;
+      }
+    }
     h3 {
-      color: $tis-orange;
       text-decoration: underline;
     }
-    .type {
-      color: $tis-orange;
+    .town {
+      color: #333;
     }
-  }
-  &.cat-local {
-    border: 1px solid $tis-light-blue;
-    h3 {
-      color: $tis-light-blue;
-      text-decoration: underline;
-    }
-    .type {
-      color: $tis-light-blue;
-    }
-  }
-  &:hover,
-  &:focus {
-    background-color: $tis-grey;
-    h3 {
-      text-decoration: none;
-    }
-  }
-  h3 {
-    text-decoration: underline;
-  }
-  .town {
-    color: #333;
   }
 }
 
@@ -220,11 +222,20 @@ footer h2 {
   }
 }
 
+@media (min-width: map.get($grid-breakpoints, 'sm')) {
+  .tiles > * {
+    max-width: 50%;
+  }
+}
+
 @media (min-width: map.get($grid-breakpoints, 'md')) {
   header {
     h1 {
       padding: 1.25em 0.5em 1.5em;
     }
+  }
+  .tiles > * {
+    max-width: 33.33333333%;
   }
 }
 
@@ -244,6 +255,9 @@ footer h2 {
   #search {
     max-width: 10em;
   }
+  .tiles > * {
+    max-width: 25%;
+  }
 }
 
 @media (min-width: map.get($grid-breakpoints, 'xl')) {
@@ -258,5 +272,8 @@ footer h2 {
 @media (min-width: map.get($grid-breakpoints, 'xxl')) {
   header {
     min-height: 350px;
+  }
+  .tiles > * {
+    max-width: 20%;
   }
 }
