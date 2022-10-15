@@ -6,6 +6,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { labels } from '../api/constants';
 import {
+    compareStr,
     contains,
     regionalCity,
     setTitle,
@@ -105,6 +106,16 @@ function Search() {
     }
     const municipalities = Object.values(mun);
 
+    // check if search keyword is one of the regional cities
+    let analysesCat = null;
+    Object.entries(analysesCategories.regions).some(([region, regionCat]) => {
+        if (compareStr(query, regionalCity(region))) {
+            analysesCat = regionCat;
+            return true;
+        }
+        return false;
+    });
+
     useEffect(() => {
         if (!query) {
             // redirect to root page if no query string is provided
@@ -144,10 +155,10 @@ function Search() {
 
             <h2 className="my-4">Hodnotenia</h2>
             <Posts
-                categories={[analysesCategories.main]}
+                categories={[analysesCat ?? analysesCategories.main]}
                 noResults="Hľadaný výraz nebol nájdený v žiadnom hodnotení."
                 section={segments.ANALYSES}
-                search={query}
+                search={analysesCat ? '' : query}
             />
 
             <h2 className="my-4">Aktuality</h2>

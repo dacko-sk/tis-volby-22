@@ -53,7 +53,7 @@ function Posts(props) {
             ? props.template
             : templates.list;
     const limit = has(props, 'limit') ? props.limit : false;
-    const blocksize = limit || (section === segments.ANALYSES ? 20 : 10);
+    const blocksize = limit || (section === segments.ANALYSES ? 30 : 10);
     const showMore = has(props, 'showMoreText') ? props.showMoreText : null;
     const categories = has(props, 'categories')
         ? `&categories=${props.categories.join()}`
