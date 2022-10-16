@@ -91,7 +91,7 @@ function Charts() {
                 vertical
             />
 
-            {has(adsData, 'data') && (
+            {has(adsData, 'data') && window.location.search === '?fb=1' && (
                 <TisBarChart
                     bars={columnVariants.adsSpending}
                     buttonText="Prehľad všetkých online kampaní"

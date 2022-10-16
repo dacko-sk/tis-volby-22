@@ -44,7 +44,11 @@ export const labels = {
     ads: {
         amount: {
             key: 'total_ad_count',
-            title: 'Počet sponzorovaných príspevkov',
+            title: 'Všetky sponzorované príspevky',
+        },
+        amount_tagged: {
+            key: 'total_ads_tagged',
+            title: 'Označená politická reklama',
         },
         amount_untagged: {
             key: 'total_ads_missing_attribution',

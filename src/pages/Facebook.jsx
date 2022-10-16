@@ -33,7 +33,7 @@ function Facebook() {
                     bars={columnVariants.adsAmount}
                     data={amounts}
                     timestamp={adsData.lastUpdate}
-                    title={labels.ads.amount.title}
+                    title="Počet sponzorovaných príspevkov"
                     vertical
                 />
             </div>

@@ -111,6 +111,10 @@ export const processAdsData = (data) => {
                 row[labels.ads.type.key],
                 []
             );
+            processed.data[index][labels.ads.amount_tagged.key] = Math.max(
+                0,
+                row[labels.ads.amount.key] - row[labels.ads.amount_untagged.key]
+            );
         });
 
         // set last update to 3 AM of the last night

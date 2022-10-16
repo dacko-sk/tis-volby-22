@@ -60,9 +60,16 @@ export const columnVariants = {
             color: colors.colorDarkBlue,
         },
         {
+            key: labels.ads.amount_tagged.key,
+            name: labels.ads.amount_tagged.title,
+            color: colors.colorLightBlue,
+            stackId: 'total',
+        },
+        {
             key: labels.ads.amount_untagged.key,
             name: labels.ads.amount_untagged.title,
             color: colors.colorOrange,
+            stackId: 'total',
         },
     ],
 };
@@ -118,6 +125,7 @@ function TisBarChart(props) {
                 dataKey={bar.key}
                 fill={bar.color}
                 name={bar.name}
+                stackId={has(bar, 'stackId') ? bar.stackId : null}
             />
         );
     });
