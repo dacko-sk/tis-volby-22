@@ -11,6 +11,7 @@ export const segments = {
     CANDIDATE: 'kandidat',
     CHARTS: 'grafy',
     DONORS: 'donori',
+    FACEBOOK: 'fb',
     MUNICIPALITY: 'samosprava',
     NEWS: 'aktuality',
     REGION: 'kraj',
@@ -38,6 +39,8 @@ export const routes = {
             : ''),
     charts: segments.ROOT + segments.CHARTS,
     donors: segments.ROOT + segments.CHARTS + separators.url + segments.DONORS,
+    facebook:
+        segments.ROOT + segments.CHARTS + separators.url + segments.FACEBOOK,
     home: segments.ROOT,
     municipality: (town, region) => {
         const reg = region

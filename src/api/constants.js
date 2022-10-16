@@ -41,6 +41,32 @@ export const transparencyIndicators = {
 };
 
 export const labels = {
+    ads: {
+        amount: {
+            key: 'total_ad_count',
+            title: 'Počet sponzorovaných príspevkov',
+        },
+        amount_untagged: {
+            key: 'total_ads_missing_attribution',
+            title: 'Nesprávne označená politická reklama',
+        },
+        municipality: {
+            key: 'municipality',
+        },
+        name_first: {
+            key: 'firstname',
+        },
+        name_last: {
+            key: 'lastname',
+        },
+        spending: {
+            key: 'total_spend',
+            title: 'Výdavky na FB reklamu',
+        },
+        type: {
+            key: 'type',
+        },
+    },
     analysis: 'Celkové hodnotenie',
     analysisDate: 'Hodnotenie ku dňu',
     disclaimerAccount: 'Príjmy aj výdavky sú očistené o vrátené platby.',

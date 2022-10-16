@@ -1,6 +1,11 @@
 import has from 'has';
 import { labels } from '../api/constants';
-import { setTitle, sortByDonors, sortBySpending } from '../api/helpers';
+import {
+    setTitle,
+    sortByDonors,
+    sortByNumericProp,
+    sortBySpending,
+} from '../api/helpers';
 import { routes, separators } from '../api/routes';
 import Regions from '../components/charts/Regions';
 import TisBarChart, { columnVariants } from '../components/charts/TisBarChart';
@@ -11,7 +16,7 @@ const title = 'Grafy';
 const unknownRegion = 'Nezistený';
 
 function Charts() {
-    const { csvData } = useData();
+    const { csvData, adsData } = useData();
 
     // parse data
     const people = [];
@@ -67,13 +72,16 @@ function Charts() {
     return (
         <section>
             <Title>{title}</Title>
+
             <TisBarChart
                 title="Výdavky a príjmy podľa krajov"
                 subtitle="Kumulatívne hodnoty za župné aj miestne voľby."
                 data={Object.values(regions).sort(sortBySpending)}
                 currency
             />
+
             <Regions />
+
             <TisBarChart
                 title="Stranícke kampane"
                 subtitle="Kumulatívne hodnoty za župné aj miestne voľby."
@@ -82,6 +90,22 @@ function Charts() {
                 currency
                 vertical
             />
+
+            {has(adsData, 'data') && (
+                <TisBarChart
+                    bars={columnVariants.adsSpending}
+                    buttonText="Prehľad všetkých online kampaní"
+                    buttonLink={routes.facebook}
+                    currency
+                    data={adsData.data
+                        .sort(sortByNumericProp(labels.ads.spending.key))
+                        .slice(0, 10)}
+                    timestamp={adsData.lastUpdate}
+                    title="Najväčšie online kampane na fb"
+                    vertical
+                />
+            )}
+
             <TisBarChart
                 title="Výdavky a príjmy jednotlivých kandidátov"
                 data={people.sort(sortBySpending).slice(0, 10)}
@@ -91,6 +115,7 @@ function Charts() {
                 // scrollable
                 vertical
             />
+
             <TisBarChart
                 title="Top 10 kandidátov s najvyšším počtom unikátnych darcov"
                 data={donors}

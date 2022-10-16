@@ -1,11 +1,13 @@
 import { createContext, useContext, useMemo, useState } from 'react';
 import has from 'has';
 import { labels } from '../api/constants';
-import { substitute } from '../api/helpers';
+import { compareStr, substitute } from '../api/helpers';
+import { separators } from '../api/routes';
 
-export const aggregationFile =
+export const accountsFile =
     'https://raw.githubusercontent.com/matusv/transparent-account-data-slovak-elections-2022/main/aggregation_no_returns_v2.csv';
-export const baseDate = 1659535519;
+export const adsFile = 'https://data.gerulata.com/volby2022/candidates.csv';
+export const baseDate = 1665871420;
 export const reloadMinutes = 70;
 
 export const types = {
@@ -13,7 +15,37 @@ export const types = {
     local: 'local',
 };
 
-export const processData = (data) => {
+export const getChartTickLink = (name, municipality, type, allAccounts) => {
+    const t = type
+        ? separators.newline +
+          (type === labels.elections.regional.key
+              ? labels.elections.regional.name
+              : labels.elections.local.name)
+        : '';
+    let tick = name + separators.newline + substitute(municipality) + t;
+    if (Array.isArray(allAccounts)) {
+        allAccounts.some((row) => {
+            if (
+                compareStr(name, row[labels.elections.name_key]) &&
+                compareStr(municipality, row[labels.elections.municipality_key])
+            ) {
+                tick =
+                    row[labels.elections.name_key] +
+                    separators.newline +
+                    row[labels.elections.region_key] +
+                    separators.parts +
+                    row.municipalityShortName +
+                    separators.newline +
+                    row.electionsName;
+                return true;
+            }
+            return false;
+        });
+    }
+    return tick;
+};
+
+export const processAccountsData = (data) => {
     if (has(data, 'data')) {
         const processed = data;
         let lastUpdate = baseDate;
@@ -67,14 +99,44 @@ export const processData = (data) => {
     return data;
 };
 
-export const buildParserConfig = (storeDataCallback) => {
+export const processAdsData = (data) => {
+    if (has(data, 'data')) {
+        const processed = data;
+        processed.data.forEach((row, index) => {
+            processed.data[index].name = getChartTickLink(
+                `${row[labels.ads.name_first.key]} ${
+                    row[labels.ads.name_last.key]
+                }`,
+                row[labels.ads.municipality.key],
+                row[labels.ads.type.key],
+                []
+            );
+        });
+
+        // set last update to 3 AM of the last night
+        const d = new Date();
+        if (d.getHours() < 3) {
+            // too early, go back 1 day
+            d.setDate(d.getDate() - 1);
+        }
+        d.setHours(3, 0, 0, 0);
+
+        return {
+            ...processed,
+            lastUpdate: d.getTime() / 1000,
+        };
+    }
+    return data;
+};
+
+export const buildParserConfig = (processCallback, storeDataCallback) => {
     return {
         worker: true,
         header: true,
         dynamicTyping: true,
         skipEmptyLines: true,
         complete: (results) => {
-            const data = processData(results);
+            const data = processCallback(results);
             storeDataCallback(data);
         },
     };
@@ -85,14 +147,22 @@ const initialState = {
         lastUpdate: baseDate,
     },
     setCsvData: () => {},
+    adsData: {
+        lastUpdate: baseDate,
+    },
+    setAdsData: () => {},
 };
 
 const DataContext = createContext(initialState);
 
 export const DataProvider = function ({ children }) {
     const [csvData, setCsvData] = useState(initialState.csvData);
+    const [adsData, setAdsData] = useState(initialState.adsData);
 
-    const value = useMemo(() => ({ csvData, setCsvData }), [csvData]);
+    const value = useMemo(
+        () => ({ csvData, setCsvData, adsData, setAdsData }),
+        [csvData, adsData]
+    );
 
     return (
         <DataContext.Provider value={value}>{children}</DataContext.Provider>

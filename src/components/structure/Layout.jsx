@@ -3,18 +3,23 @@ import has from 'has';
 import { Outlet, useLocation } from 'react-router-dom';
 import { usePapaParse } from 'react-papaparse';
 import useData, {
-    aggregationFile,
+    accountsFile,
+    adsFile,
     baseDate,
     buildParserConfig,
+    getChartTickLink,
+    processAccountsData,
+    processAdsData,
     reloadMinutes,
 } from '../../context/DataContext';
+import { labels } from '../../api/constants';
 import { scrollToTop } from '../../api/helpers';
 import Header from './Header';
 import Footer from './Footer';
 import DonateModal from '../general/DonateModal';
 
 function Layout() {
-    const { csvData, setCsvData } = useData();
+    const { csvData, setCsvData, adsData, setAdsData } = useData();
     const lastUpdate = has(csvData, 'lastUpdate')
         ? csvData.lastUpdate
         : baseDate;
@@ -27,20 +32,20 @@ function Layout() {
     // load election data from CSV API and store in context provider
     useEffect(() => {
         let timer = null;
-        const aggregationConfig = buildParserConfig(setCsvData);
+        const accountsConfig = buildParserConfig(
+            processAccountsData,
+            setCsvData
+        );
         if (reloadData) {
-            readRemoteFile(
-                `${aggregationFile}?t=${currentTime}`,
-                aggregationConfig
-            );
+            readRemoteFile(`${accountsFile}?t=${currentTime}`, accountsConfig);
         } else {
             // file is loaded and does not need reloading yet (we know the real last update time) - set timeout
             const minutes = reloadMinutes - outdatedMinutes;
             console.log(`CSV data will be reloaded in ${minutes} minutes`);
             timer = setTimeout(() => {
                 readRemoteFile(
-                    `${aggregationFile}?t=${currentTime}`,
-                    aggregationConfig
+                    `${accountsFile}?t=${currentTime}`,
+                    accountsConfig
                 );
             }, minutes * 60 * 1000);
         }
@@ -50,6 +55,29 @@ function Layout() {
             }
         };
     }, [reloadData]);
+
+    // load ads data on first page load
+    useEffect(() => {
+        const adsConfig = buildParserConfig(processAdsData, setAdsData);
+        readRemoteFile(`${adsFile}?t=${currentTime}`, adsConfig);
+    }, []);
+
+    // update chart ticks of ads data once both accounts & ads data are loaded
+    useEffect(() => {
+        if (has(csvData, 'data') && has(adsData, 'data')) {
+            adsData.data.forEach((row, index) => {
+                adsData.data[index].name = getChartTickLink(
+                    `${row[labels.ads.name_first.key]} ${
+                        row[labels.ads.name_last.key]
+                    }`,
+                    row[labels.ads.municipality.key],
+                    row[labels.ads.type.key],
+                    has(csvData, 'data') ? csvData.data : []
+                );
+            });
+            setAdsData(adsData);
+        }
+    }, [csvData, adsData]);
 
     // send pageview to analytics on route change
     useEffect(() => {

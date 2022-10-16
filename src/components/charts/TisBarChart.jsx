@@ -46,6 +46,25 @@ export const columnVariants = {
             color: colors.colorDarkBlue,
         },
     ],
+    adsSpending: [
+        {
+            key: labels.ads.spending.key,
+            name: labels.ads.spending.title,
+            color: colors.colorOrange,
+        },
+    ],
+    adsAmount: [
+        {
+            key: labels.ads.amount.key,
+            name: labels.ads.amount.title,
+            color: colors.colorDarkBlue,
+        },
+        {
+            key: labels.ads.amount_untagged.key,
+            name: labels.ads.amount_untagged.title,
+            color: colors.colorOrange,
+        },
+    ],
 };
 
 const tooltipNameFormat = (value) => {
@@ -115,7 +134,10 @@ function TisBarChart(props) {
         <div className="chart-wrapper mb-3">
             {has(props, 'title') && <h2>{props.title}</h2>}
             {has(props, 'subtitle') && <h6>{props.subtitle}</h6>}
-            <LastUpdateTag />
+            <LastUpdateTag
+                short={has(props, 'timestamp')}
+                timestamp={has(props, 'timestamp') ? props.timestamp : null}
+            />
             <div
                 className={`chart-outer${
                     has(props, 'scrollable') ? ' scrollable' : ''

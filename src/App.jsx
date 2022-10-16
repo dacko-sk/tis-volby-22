@@ -9,6 +9,7 @@ import Analyses from './pages/Analyses';
 import Article from './pages/Article';
 import Candidate from './pages/Candidate';
 import Charts from './pages/Charts';
+import Facebook from './pages/Facebook';
 import Home from './pages/Home';
 import Municipality from './pages/Municipality';
 import News from './pages/News';
@@ -48,6 +49,14 @@ function App() {
                                     segments.DONORS
                                 }
                                 element={<AllDonors />}
+                            />
+                            <Route
+                                path={
+                                    segments.CHARTS +
+                                    separators.url +
+                                    segments.FACEBOOK
+                                }
+                                element={<Facebook />}
                             />
                             <Route
                                 path={`${segments.MUNICIPALITY}/:municipality`}

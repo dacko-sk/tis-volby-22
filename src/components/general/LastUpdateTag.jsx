@@ -3,11 +3,11 @@ import { labels } from '../../api/constants';
 import { dateFormat } from '../../api/helpers';
 import useData, { baseDate } from '../../context/DataContext';
 
-function LastUpdateTag({ short }) {
+function LastUpdateTag({ short, timestamp }) {
     const { csvData } = useData();
-    const lastUpdate = has(csvData, 'lastUpdate')
-        ? csvData.lastUpdate
-        : baseDate;
+    const lastUpdate =
+        timestamp ??
+        (has(csvData, 'lastUpdate') ? csvData.lastUpdate : baseDate);
 
     return (
         <em className="disclaimer">

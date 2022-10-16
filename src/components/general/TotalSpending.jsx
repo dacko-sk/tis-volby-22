@@ -52,7 +52,12 @@ function TotalSpending() {
                 <h2>Celkové výdavky kandidátov</h2>
                 <p className="hero-number">
                     {currencyFormat(total)}
-                    <LastUpdateTag short />
+                    <LastUpdateTag
+                        short
+                        timestamp={
+                            has(csvData, 'data') ? csvData.lastUpdate : null
+                        }
+                    />
                 </p>
             </div>
         </div>
