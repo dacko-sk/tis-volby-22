@@ -3,7 +3,7 @@ import { labels } from '../api/constants';
 import {
     setTitle,
     sortByDonors,
-    sortByNumericProp,
+    // sortByNumericProp,
     sortBySpending,
 } from '../api/helpers';
 import { routes, separators } from '../api/routes';
@@ -16,7 +16,7 @@ const title = 'Grafy';
 const unknownRegion = 'Nezistený';
 
 function Charts() {
-    const { csvData, adsData } = useData();
+    const { csvData /* , adsData */ } = useData();
 
     // parse data
     const people = [];
@@ -91,7 +91,7 @@ function Charts() {
                 vertical
             />
 
-            {has(adsData, 'data') && window.location.search === '?fb=1' && (
+            {/* {has(adsData, 'data') && window.location.search === '?fb=1' && (
                 <TisBarChart
                     bars={columnVariants.adsSpending}
                     buttonText="Prehľad všetkých online kampaní"
@@ -104,7 +104,7 @@ function Charts() {
                     title="Najväčšie online kampane na fb"
                     vertical
                 />
-            )}
+            )} */}
 
             <TisBarChart
                 title="Výdavky a príjmy jednotlivých kandidátov"

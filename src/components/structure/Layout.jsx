@@ -4,22 +4,22 @@ import { Outlet, useLocation } from 'react-router-dom';
 import { usePapaParse } from 'react-papaparse';
 import useData, {
     accountsFile,
-    adsFile,
+    // adsFile,
     baseDate,
     buildParserConfig,
-    getChartTickLink,
+    // getChartTickLink,
     processAccountsData,
-    processAdsData,
+    // processAdsData,
     reloadMinutes,
 } from '../../context/DataContext';
-import { labels } from '../../api/constants';
+// import { labels } from '../../api/constants';
 import { scrollToTop } from '../../api/helpers';
 import Header from './Header';
 import Footer from './Footer';
 import DonateModal from '../general/DonateModal';
 
 function Layout() {
-    const { csvData, setCsvData, adsData, setAdsData } = useData();
+    const { csvData, setCsvData /* , adsData, setAdsData */ } = useData();
     const lastUpdate = has(csvData, 'lastUpdate')
         ? csvData.lastUpdate
         : baseDate;
@@ -56,11 +56,11 @@ function Layout() {
         };
     }, [reloadData]);
 
-    // load ads data on first page load
+    /* // load ads data on first page load
     useEffect(() => {
         const adsConfig = buildParserConfig(processAdsData, setAdsData);
         readRemoteFile(`${adsFile}?t=${currentTime}`, adsConfig);
-    }, []);
+    }, []); 
 
     // update chart ticks of ads data once both accounts & ads data are loaded
     useEffect(() => {
@@ -77,7 +77,7 @@ function Layout() {
             });
             setAdsData(adsData);
         }
-    }, [csvData, adsData]);
+    }, [csvData, adsData]); */
 
     // send pageview to analytics on route change
     useEffect(() => {
