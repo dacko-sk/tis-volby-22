@@ -32,31 +32,87 @@ function AnalysisDetail({ article }) {
             </div>
         );
     }
-    const cls = transparencyClass(analysis[cmd.score][0]);
+
+    const lastCol = analysis[cmd.score].length - 1;
+    if (lastCol < 0) {
+        return (
+            <div className="article-body">
+                {parseWpHtml(article.content.rendered)}
+            </div>
+        );
+    }
+    const lastClass = transparencyClass(analysis[cmd.score][lastCol]);
+    const words = labels.transparency[lastClass].split(' ');
+    const lastLabel = [];
+    words.forEach((word, index) => {
+        if (index < words.length - 1) {
+            lastLabel.push(`${word} `);
+            lastLabel.push(<br className="d-none d-sm-block" key={word} />);
+        } else {
+            lastLabel.push(word);
+        }
+    });
+
+    let headerRow = null;
+    let oldRatingsTable = null;
+    if (lastCol > 0) {
+        const headers = [<th key="title">{labels.analysisDate}</th>];
+        const ratings = [<td key="ratings">{labels.analysis}</td>];
+        analysis[cmd.date].forEach((date, di) => {
+            headers.push(<th key={date}>{date}</th>);
+            const cls = transparencyClass(analysis[cmd.score][di]);
+            ratings.push(
+                <td key={date}>
+                    <span className={`badge me-1 score-${cls}`}>
+                        {badgePctFormat(analysis[cmd.score][di])}
+                    </span>
+                </td>
+            );
+        });
+        headerRow = <tr key="header">{headers}</tr>;
+        oldRatingsTable = (
+            <>
+                <h2 className="mt-4 mb-3">História hodnotení</h2>
+                <Table
+                    key="scores"
+                    className="indicators-table mb-0"
+                    striped
+                    bordered
+                    responsive
+                    hover
+                >
+                    <thead>{headerRow}</thead>
+                    <tbody>
+                        <tr>{ratings}</tr>
+                    </tbody>
+                </Table>
+            </>
+        );
+    }
 
     const groups = {};
     Object.keys(transparencyIndicators).forEach((group) => {
         groups[group] = [];
         Object.entries(analysis[group]).forEach(([key, valuesArray]) => {
-            const value = valuesArray[0];
-            let color = '';
-            switch (value) {
-                case 1:
-                    color = transparencyClasses.good;
-                    break;
-                case 2:
-                    color = transparencyClasses.average;
-                    break;
-                case 3:
-                    color = transparencyClasses.bad;
-                    break;
-                default:
-                    break;
-            }
-            groups[group].push(
-                <tr key={key}>
-                    <td>{key}</td>
-                    <td>
+            const cols = [<td key={key}>{key}</td>];
+            valuesArray.forEach((value, vi) => {
+                let color = '';
+                switch (value) {
+                    case 1:
+                        color = transparencyClasses.good;
+                        break;
+                    case 2:
+                        color = transparencyClasses.average;
+                        break;
+                    case 3:
+                        color = transparencyClasses.bad;
+                        break;
+                    default:
+                        break;
+                }
+                const vk = `${vi}_${value}`;
+                cols.push(
+                    <td key={vk}>
                         {Number(value) > -1 && (
                             <span
                                 className={`badge${
@@ -67,8 +123,9 @@ function AnalysisDetail({ article }) {
                             </span>
                         )}
                     </td>
-                </tr>
-            );
+                );
+            });
+            groups[group].push(<tr key={key}>{cols}</tr>);
         });
     });
 
@@ -88,22 +145,10 @@ function AnalysisDetail({ article }) {
                 responsive
                 hover
             >
+                {headerRow && <thead>{headerRow}</thead>}
                 <tbody>{groups[group]}</tbody>
             </Table>
         );
-    });
-
-    const words = labels.transparency[cls].split(' ');
-    const transparencyTag = [];
-    words.forEach((word, index) => {
-        if (index < words.length - 1) {
-            transparencyTag.push(`${word} `);
-            transparencyTag.push(
-                <br className="d-none d-sm-block" key={word} />
-            );
-        } else {
-            transparencyTag.push(word);
-        }
     });
 
     const { csvData } = useData();
@@ -171,7 +216,7 @@ function AnalysisDetail({ article }) {
                             <tr>
                                 <th>{labels.analysisDate}</th>
                                 <td className="text-end">
-                                    {analysis[cmd.date][0]}
+                                    {analysis[cmd.date][lastCol]}
                                 </td>
                             </tr>
                         </tbody>
@@ -179,21 +224,23 @@ function AnalysisDetail({ article }) {
                 </div>
                 <div className="col-lg-6">
                     <h2 className="text-lg-center">{labels.analysis}</h2>
-                    <div className="hero-number mt-4">
-                        <Row className="align-items-center justify-content-lg-center gx-2">
-                            <Col xs="auto">
-                                <span className={`badge me-1 score-${cls}`}>
-                                    {badgePctFormat(analysis[cmd.score][0])}
-                                </span>
-                            </Col>
-                            <Col xs="auto">
-                                <h5>{transparencyTag}</h5>
-                            </Col>
-                        </Row>
-                    </div>
+                    <Row className="hero-number justify-content-lg-center align-items-center mt-4 gx-2">
+                        <Col xs="auto">
+                            <span className={`badge me-1 score-${lastClass}`}>
+                                {badgePctFormat(analysis[cmd.score][lastCol])}
+                            </span>
+                        </Col>
+                        <Col xs="auto">
+                            <h5>{lastLabel}</h5>
+                        </Col>
+                    </Row>
                 </div>
             </div>
+
+            {oldRatingsTable}
+
             {tables}
+
             <h2 className="mt-4 mb-3">Referencie</h2>
             <Row className="mb-4">
                 {candidatePage && (

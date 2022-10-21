@@ -19,7 +19,11 @@ function AnalysisList({ article, clickHandler, keyUpHandler }) {
         console.log(analysis.error);
         return null;
     }
-    const cls = transparencyClass(analysis[cmd.score][0]);
+    const lastCol = analysis[cmd.score].length - 1;
+    if (lastCol < 0) {
+        return null;
+    }
+    const cls = transparencyClass(analysis[cmd.score][lastCol]);
     return (
         <Col className="px-0" md={12}>
             <div
@@ -64,7 +68,7 @@ function AnalysisList({ article, clickHandler, keyUpHandler }) {
                                             className={`badge me-1 score-${cls}`}
                                         >
                                             {badgePctFormat(
-                                                analysis[cmd.score][0]
+                                                analysis[cmd.score][lastCol]
                                             )}
                                         </span>
                                         {labels.transparency[cls]}
@@ -72,7 +76,7 @@ function AnalysisList({ article, clickHandler, keyUpHandler }) {
                                 </tr>
                                 <tr className="d-none d-md-table-row">
                                     <th>{labels.analysisDate}</th>
-                                    <td>{analysis[cmd.date][0]}</td>
+                                    <td>{analysis[cmd.date][lastCol]}</td>
                                 </tr>
                             </tbody>
                         </Table>

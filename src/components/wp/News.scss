@@ -142,7 +142,7 @@ ul.blocks-gallery-grid {
   margin-bottom: 0;
 }
 
-.indicators-table td:nth-child(2) {
+.indicators-table td:not(:first-child) {
   width: 150px;
 }
 

@@ -10,7 +10,11 @@ function AnalysisFeatured({ article, clickHandler, keyUpHandler }) {
         console.log(analysis.error);
         return null;
     }
-    const cls = transparencyClass(analysis[cmd.score][0]);
+    const lastCol = analysis[cmd.score].length - 1;
+    if (lastCol < 0) {
+        return null;
+    }
+    const cls = transparencyClass(analysis[cmd.score][lastCol]);
     return (
         <Col md>
             <div
@@ -23,7 +27,7 @@ function AnalysisFeatured({ article, clickHandler, keyUpHandler }) {
             >
                 <div
                     className="thumb mb-2 mb-md-0"
-                    data-label={badgePctFormat(analysis[cmd.score][0])}
+                    data-label={badgePctFormat(analysis[cmd.score][lastCol])}
                 >
                     <figure className="text-center">
                         <Media
