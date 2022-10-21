@@ -13,7 +13,7 @@ function TotalSpending() {
     let total = 0;
     if (has(csvData, 'data')) {
         csvData.data.forEach((row) => {
-            total += row.sum_outgoing;
+            total += row.sum_outgoing - (row.duplicateExpenses ?? 0);
         });
     }
 

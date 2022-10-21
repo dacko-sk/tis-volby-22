@@ -47,6 +47,25 @@ function Candidate() {
         return <Loading />;
     }
 
+    const partyAccounts = [];
+    if (candidate[labels.parties.account_party_key] ?? false) {
+        candidate[labels.parties.account_party_key]
+            .split(';')
+            .forEach((account) => {
+                partyAccounts.push(
+                    <a
+                        key={account}
+                        className="d-block"
+                        href={account}
+                        rel="noreferrer"
+                        target="_blank"
+                    >
+                        {shortenUrl(account)}
+                    </a>
+                );
+            });
+    }
+
     setTitle(candidate[labels.elections.name_key]);
 
     return (
@@ -152,26 +171,14 @@ function Candidate() {
                             </tr>
                         </>
                     )}
-                    {candidate[labels.parties.account_party_key] && (
+                    {partyAccounts.length > 0 && (
                         <tr>
-                            <td>Stranícky účet</td>
                             <td>
-                                <a
-                                    href={
-                                        candidate[
-                                            labels.parties.account_party_key
-                                        ]
-                                    }
-                                    target="_blank"
-                                    rel="noreferrer"
-                                >
-                                    {shortenUrl(
-                                        candidate[
-                                            labels.parties.account_party_key
-                                        ]
-                                    )}
-                                </a>
+                                {partyAccounts.length > 1
+                                    ? 'Stranícke účty'
+                                    : 'Stranícky účet'}
                             </td>
+                            <td>{partyAccounts}</td>
                         </tr>
                     )}
                     {candidate[labels.parties.party_key] && (
