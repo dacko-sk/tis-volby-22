@@ -1,8 +1,11 @@
 import has from 'has';
+
 import { labels } from '../api/constants';
 import { setTitle, sortBySpending } from '../api/helpers';
 import { separators } from '../api/routes';
+
 import useData, { types } from '../context/DataContext';
+
 import TisBarChart from '../components/charts/TisBarChart';
 import PartyCandidates from '../components/general/PartyCandidates';
 import Title from '../components/structure/Title';

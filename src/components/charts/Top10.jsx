@@ -1,7 +1,9 @@
 import has from 'has';
+
 import { labels } from '../../api/constants';
 import { sortBySpending } from '../../api/helpers';
 import { routes, separators } from '../../api/routes';
+
 import useData from '../../context/DataContext';
 
 import TisBarChart from './TisBarChart';

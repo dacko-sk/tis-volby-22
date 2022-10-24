@@ -1,7 +1,9 @@
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
-import ContextProviders from './context/ContextProviders';
+
 import { segments, separators } from './api/routes';
+
+import ContextProviders from './context/ContextProviders';
 
 import AllCampaigns from './pages/AllCampaigns';
 import AllDonors from './pages/AllDonors';

@@ -2,8 +2,10 @@ import { NavLink } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+
 import { imgPath } from '../../api/helpers';
 import { routes } from '../../api/routes';
+
 import DonateButton from '../general/DonateButton';
 import SearchField from '../general/SearchField';
 

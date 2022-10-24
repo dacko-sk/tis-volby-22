@@ -1,7 +1,11 @@
 import { useEffect } from 'react';
-import has from 'has';
 import { Outlet, useLocation } from 'react-router-dom';
 import { usePapaParse } from 'react-papaparse';
+import has from 'has';
+
+// import { labels } from '../../api/constants';
+import { scrollToTop } from '../../api/helpers';
+
 import useData, {
     accountsFile,
     // adsFile,
@@ -12,8 +16,7 @@ import useData, {
     // processAdsData,
     reloadMinutes,
 } from '../../context/DataContext';
-// import { labels } from '../../api/constants';
-import { scrollToTop } from '../../api/helpers';
+
 import Header from './Header';
 import Footer from './Footer';
 import DonateModal from '../general/DonateModal';

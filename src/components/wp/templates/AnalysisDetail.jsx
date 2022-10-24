@@ -1,8 +1,9 @@
-import has from 'has';
+import { Link } from 'react-router-dom';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Table from 'react-bootstrap/Table';
-import { Link } from 'react-router-dom';
+import has from 'has';
+
 import {
     campaignMetadata as cmd,
     labels,
@@ -18,6 +19,7 @@ import {
     transparencyClass,
 } from '../../../api/helpers';
 import { routes, segments } from '../../../api/routes';
+
 import useData from '../../../context/DataContext';
 
 function AnalysisDetail({ article }) {

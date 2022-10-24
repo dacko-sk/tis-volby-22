@@ -1,8 +1,10 @@
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
-import Media from '../Media';
+
 import { images } from '../../../api/constants';
 import { dateFormat, parseWpHtml } from '../../../api/helpers';
+
+import Media from '../Media';
 
 function NewsList({ article, clickHandler, keyUpHandler }) {
     return (

@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import Table from 'react-bootstrap/Table';
+
 import { labels } from '../../api/constants';
 import { routes } from '../../api/routes';
 

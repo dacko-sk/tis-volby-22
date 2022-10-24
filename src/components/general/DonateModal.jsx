@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import Modal from 'react-bootstrap/Modal';
+
 import DonateButton from './DonateButton';
 
 function DonateModal() {

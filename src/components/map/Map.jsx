@@ -1,4 +1,5 @@
 import { MapContainer, TileLayer } from 'react-leaflet';
+
 import RegionsLayer from './RegionsLayer';
 
 import './Map.scss';

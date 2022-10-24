@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom';
 import Button from 'react-bootstrap/Button';
-import has from 'has';
 import {
     ResponsiveContainer,
     BarChart,
@@ -11,6 +10,8 @@ import {
     Tooltip,
     Legend,
 } from 'recharts';
+import has from 'has';
+
 import { colors, labels } from '../../api/constants';
 import {
     numFormat,
@@ -20,6 +21,7 @@ import {
     shortenValue,
 } from '../../api/helpers';
 import { separators } from '../../api/routes';
+
 import HorizontalTick from './HorizontalTick';
 import VerticalTick, { tickFontSize } from './VerticalTick';
 import LastUpdateTag from '../general/LastUpdateTag';

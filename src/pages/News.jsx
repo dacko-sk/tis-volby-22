@@ -1,5 +1,6 @@
 import { setTitle } from '../api/helpers';
 import { segments } from '../api/routes';
+
 import Title from '../components/structure/Title';
 import Posts from '../components/wp/Posts';
 

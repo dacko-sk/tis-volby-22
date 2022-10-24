@@ -1,4 +1,5 @@
 import { separators } from '../../api/routes';
+
 import { tickClassName, tickFontSize, tickLabel } from './VerticalTick';
 
 function HorizontalTick({ x, y, payload }) {

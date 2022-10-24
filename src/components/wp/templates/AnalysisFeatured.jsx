@@ -1,7 +1,9 @@
-import has from 'has';
 import Col from 'react-bootstrap/Col';
+import has from 'has';
+
 import { campaignMetadata as cmd, images } from '../../../api/constants';
 import { badgePctFormat, transparencyClass } from '../../../api/helpers';
+
 import Media from '../Media';
 
 function AnalysisFeatured({ article, clickHandler, keyUpHandler }) {

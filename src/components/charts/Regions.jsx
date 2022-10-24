@@ -3,12 +3,15 @@ import { Link } from 'react-router-dom';
 import Accordion from 'react-bootstrap/Accordion';
 import Button from 'react-bootstrap/Button';
 import has from 'has';
+
 import { labels } from '../../api/constants';
 import { sortBySpending, substitute } from '../../api/helpers';
-import useData, { types } from '../../context/DataContext';
-import Loading from '../general/Loading';
-import TisBarChart from './TisBarChart';
 import { routes, separators } from '../../api/routes';
+
+import useData, { types } from '../../context/DataContext';
+
+import TisBarChart from './TisBarChart';
+import Loading from '../general/Loading';
 
 function Regions() {
     const [activeKey, setActiveKey] = useState(null);

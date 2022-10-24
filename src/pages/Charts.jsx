@@ -1,4 +1,5 @@
 import has from 'has';
+
 import { labels } from '../api/constants';
 import {
     setTitle,
@@ -7,10 +8,12 @@ import {
     sortBySpending,
 } from '../api/helpers';
 import { routes, separators } from '../api/routes';
+
+import useData from '../context/DataContext';
+
 import Regions from '../components/charts/Regions';
 import TisBarChart, { columnVariants } from '../components/charts/TisBarChart';
 import Title from '../components/structure/Title';
-import useData from '../context/DataContext';
 
 const title = 'Grafy';
 const unknownRegion = 'Nezistený';

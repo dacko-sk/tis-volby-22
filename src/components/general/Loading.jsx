@@ -1,4 +1,5 @@
 import has from 'has';
+
 import { errors } from '../../api/constants';
 
 import './Loading.scss';

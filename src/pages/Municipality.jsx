@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import has from 'has';
+
 import { labels } from '../api/constants';
 import {
     regionalCity,
@@ -9,12 +10,9 @@ import {
     sortBySpending,
 } from '../api/helpers';
 import { routes, segments, separators } from '../api/routes';
+
 import useData, { types } from '../context/DataContext';
-import TisBarChart, { columnVariants } from '../components/charts/TisBarChart';
-import Loading from '../components/general/Loading';
-import PartyCandidates from '../components/general/PartyCandidates';
-import Title from '../components/structure/Title';
-import Posts from '../components/wp/Posts';
+
 import { title as spendingTitle } from './AllCampaigns';
 import { title as donorsTitle } from './AllDonors';
 import {
@@ -22,6 +20,11 @@ import {
     getExcludedCategories,
     title as analysesTitle,
 } from './Analyses';
+import TisBarChart, { columnVariants } from '../components/charts/TisBarChart';
+import Loading from '../components/general/Loading';
+import PartyCandidates from '../components/general/PartyCandidates';
+import Title from '../components/structure/Title';
+import Posts from '../components/wp/Posts';
 
 function Municipality() {
     const params = useParams();

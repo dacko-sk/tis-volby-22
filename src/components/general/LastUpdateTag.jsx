@@ -1,6 +1,8 @@
 import has from 'has';
+
 import { labels } from '../../api/constants';
 import { dateFormat } from '../../api/helpers';
+
 import useData, { baseDate } from '../../context/DataContext';
 
 function LastUpdateTag({ short, timestamp }) {

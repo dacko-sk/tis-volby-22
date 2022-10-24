@@ -1,14 +1,16 @@
 import Alert from 'react-bootstrap/Alert';
+
 import { setTitle } from '../api/helpers';
 import { segments } from '../api/routes';
+
+import { analysesCategories } from './Analyses';
+import { newsCategories } from './News';
 import Top10 from '../components/charts/Top10';
 import DonateButton from '../components/general/DonateButton';
 import TotalSpending from '../components/general/TotalSpending';
 import Map from '../components/map/Map';
 import Title from '../components/structure/Title';
 import Posts, { templates } from '../components/wp/Posts';
-import { analysesCategories } from './Analyses';
-import { newsCategories } from './News';
 
 function Home() {
     setTitle('Úvod');

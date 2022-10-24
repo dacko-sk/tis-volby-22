@@ -2,9 +2,11 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Accordion from 'react-bootstrap/Accordion';
 import has from 'has';
+
 import { labels } from '../api/constants';
 import { setTitle, substitute } from '../api/helpers';
 import { routes, segments } from '../api/routes';
+
 import Title from '../components/structure/Title';
 import Posts, { templates } from '../components/wp/Posts';
 

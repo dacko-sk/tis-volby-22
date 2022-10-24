@@ -1,7 +1,8 @@
-import has from 'has';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Table from 'react-bootstrap/Table';
+import has from 'has';
+
 import {
     campaignMetadata as cmd,
     images,

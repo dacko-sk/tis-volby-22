@@ -1,13 +1,15 @@
+import Button from 'react-bootstrap/Button';
+import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import Button from 'react-bootstrap/Button';
 import { SocialIcon } from 'react-social-icons';
+
 import { colorOrange } from '../../api/constants';
 import { imgPath } from '../../api/helpers';
-import FbFeed from '../general/FbFeed';
+
 import CookieBanner from '../general/CookieBanner';
 import DonateButton from '../general/DonateButton';
+import FbFeed from '../general/FbFeed';
 
 function Footer() {
     return (

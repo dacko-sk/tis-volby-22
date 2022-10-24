@@ -2,8 +2,9 @@ import { useEffect, useState } from 'react';
 import { useNavigate, useLocation, useParams } from 'react-router-dom';
 import InputGroup from 'react-bootstrap/InputGroup';
 import Form from 'react-bootstrap/Form';
-import has from 'has';
 import { useDebouncedCallback } from 'use-debounce';
+import has from 'has';
+
 import { labels } from '../../api/constants';
 import { routes } from '../../api/routes';
 

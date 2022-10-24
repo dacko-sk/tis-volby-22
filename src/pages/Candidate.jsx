@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 import { useLocation, useNavigate, Link } from 'react-router-dom';
 import Table from 'react-bootstrap/Table';
 import has from 'has';
+
 import { labels } from '../api/constants';
 import {
     currencyFormat,
@@ -10,9 +11,11 @@ import {
     substitute,
 } from '../api/helpers';
 import { routes } from '../api/routes';
+
+import useData from '../context/DataContext';
+
 import Loading from '../components/general/Loading';
 import Title from '../components/structure/Title';
-import useData from '../context/DataContext';
 
 function Candidate() {
     const { pathname } = useLocation();

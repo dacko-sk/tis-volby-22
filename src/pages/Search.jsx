@@ -1,9 +1,10 @@
 import { useEffect } from 'react';
 import { Link, useNavigate, useParams } from 'react-router-dom';
-import has from 'has';
 import Alert from 'react-bootstrap/Alert';
-import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Row from 'react-bootstrap/Row';
+import has from 'has';
+
 import { labels } from '../api/constants';
 import {
     compareStr,
@@ -13,12 +14,14 @@ import {
     sortByNumericProp,
 } from '../api/helpers';
 import { routes, segments } from '../api/routes';
+
+import useData from '../context/DataContext';
+
 import { analysesCategories } from './Analyses';
 import { newsCategories } from './News';
 import Loading from '../components/general/Loading';
 import Title from '../components/structure/Title';
 import Posts from '../components/wp/Posts';
-import useData from '../context/DataContext';
 
 function Search() {
     const params = useParams();

@@ -1,7 +1,9 @@
 import { memo, useEffect } from 'react';
-import has from 'has';
 import { SocialIcon } from 'react-social-icons';
+import has from 'has';
+
 import { colorDarkBlue } from '../../api/constants';
+
 import useCookies from '../../context/CookiesContext';
 
 const FbFeed = memo(({ appId, name, url }) => {
