@@ -22,7 +22,8 @@ function TotalSpending() {
                     uniqueAccounts[row[labels.elections.account_key]] += 1;
                     // console.log(
                     //     uniqueAccounts[row[labels.elections.account_key]],
-                    //     row[labels.elections.account_key]
+                    //     row[labels.elections.account_key],
+                    //     row[labels.elections.name_key]
                     // );
                 } else {
                     uniqueAccounts[row[labels.elections.account_key]] = 1;

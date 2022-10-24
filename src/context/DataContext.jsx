@@ -1,7 +1,7 @@
 import { createContext, useContext, useMemo, useState } from 'react';
 import has from 'has';
 import { labels } from '../api/constants';
-import { compareStr, substitute } from '../api/helpers';
+import { compareStr, contains, substitute } from '../api/helpers';
 import { separators } from '../api/routes';
 
 export const accountsFile =
@@ -61,6 +61,18 @@ export const processAccountsData = (data) => {
             ].forEach((column) => {
                 pd.data[index][column] = (row[column] ?? '').trim();
             });
+
+            // fix errors in account numbers
+            if (
+                contains(
+                    pd.data[index][labels.elections.account_key],
+                    'transparentneucty.sk/?1/#/'
+                )
+            ) {
+                pd.data[index][labels.elections.account_key] = pd.data[index][
+                    labels.elections.account_key
+                ].replace('/?1/#/', '/#/');
+            }
 
             // helper properties
             pd.data[index].isParty =
