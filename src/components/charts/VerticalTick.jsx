@@ -42,8 +42,7 @@ export const tickLabel = (i, rows) => {
     return rows[i];
 };
 
-function VerticalTick(props) {
-    const { x, y, payload } = props;
+function VerticalTick({ x, y, payload }) {
     const parts = payload.value.split(separators.newline);
     const rows = [];
     parts.forEach((part, index) => {

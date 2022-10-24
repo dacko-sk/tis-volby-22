@@ -95,33 +95,33 @@ const tooltipNameFormat = (value) => {
     return value;
 };
 
-function TisBarChart(props) {
-    if (
-        !has(props, 'data') ||
-        !Array.isArray(props.data) ||
-        !props.data.length
-    ) {
+function TisBarChart({
+    bars = columnVariants.inOut,
+    buttonLink,
+    buttonText,
+    currency = false,
+    data,
+    namesLength,
+    scrollable = false,
+    subtitle,
+    timestamp,
+    title,
+    vertical = false,
+}) {
+    if (!data || !Array.isArray(data) || !data.length) {
         return null;
     }
 
-    const vertical = has(props, 'vertical');
-    const axisNumFormat = has(props, 'currency')
-        ? wholeCurrencyFormat
-        : wholeNumFormat;
-    const tooltipNumFormat = has(props, 'currency')
-        ? currencyFormat
-        : numFormat;
+    const axisNumFormat = currency ? wholeCurrencyFormat : wholeNumFormat;
+    const tooltipNumFormat = currency ? currencyFormat : numFormat;
     const axisConfig = {
         fill: '#333',
         fontSize: tickFontSize,
     };
-    const shortChartNames = (name) => {
-        const length = has(props, 'namesLength') ? props.namesLength : 200;
-        return shortenValue(name, length);
-    };
-    const bars = [];
-    (has(props, 'bars') ? props.bars : columnVariants.inOut).forEach((bar) => {
-        bars.push(
+    const shortChartNames = (name) => shortenValue(name, namesLength ?? 200);
+    const barElements = [];
+    bars.forEach((bar) => {
+        barElements.push(
             <Bar
                 key={bar.key}
                 dataKey={bar.key}
@@ -133,7 +133,7 @@ function TisBarChart(props) {
     });
 
     let labelLines = 1;
-    props.data.forEach((row) => {
+    data.forEach((row) => {
         labelLines = Math.max(
             labelLines,
             row.name.split(separators.newline).length
@@ -142,17 +142,10 @@ function TisBarChart(props) {
 
     return (
         <div className="chart-wrapper mb-3">
-            {has(props, 'title') && <h2>{props.title}</h2>}
-            {has(props, 'subtitle') && <h6>{props.subtitle}</h6>}
-            <LastUpdateTag
-                short={has(props, 'timestamp')}
-                timestamp={has(props, 'timestamp') ? props.timestamp : null}
-            />
-            <div
-                className={`chart-outer${
-                    has(props, 'scrollable') ? ' scrollable' : ''
-                }`}
-            >
+            {title && <h2>{title}</h2>}
+            {subtitle && <h6>{subtitle}</h6>}
+            <LastUpdateTag short={!!timestamp} timestamp={timestamp ?? null} />
+            <div className={`chart-outer${scrollable ? ' scrollable' : ''}`}>
                 <div
                     className="chart"
                     style={
@@ -160,9 +153,7 @@ function TisBarChart(props) {
                             ? {
                                   height: `${
                                       55 +
-                                      props.data.length *
-                                          Math.max(2, labelLines) *
-                                          20
+                                      data.length * Math.max(2, labelLines) * 20
                                   }px`,
                               }
                             : {}
@@ -170,7 +161,7 @@ function TisBarChart(props) {
                 >
                     <ResponsiveContainer width="100%" height="100%">
                         <BarChart
-                            data={props.data}
+                            data={data}
                             layout={vertical ? 'vertical' : 'horizontal'}
                             margin={{
                                 top: 5,
@@ -233,17 +224,15 @@ function TisBarChart(props) {
                                 labelFormatter={tooltipNameFormat}
                             />
                             <Legend />
-                            {bars}
+                            {barElements}
                         </BarChart>
                     </ResponsiveContainer>
                 </div>
             </div>
-            {has(props, 'buttonLink') && (
+            {buttonLink && (
                 <div className="buttons mt-3 text-center">
-                    <Button as={Link} to={props.buttonLink} variant="secondary">
-                        {has(props, 'buttonText')
-                            ? props.buttonText
-                            : labels.showMore}
+                    <Button as={Link} to={buttonLink} variant="secondary">
+                        {buttonText ?? labels.showMore}
                     </Button>
                 </div>
             )}

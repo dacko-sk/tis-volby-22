@@ -47,7 +47,7 @@ function Home() {
                 categories={[analysesCategories.top]}
                 noResults="Sekcia sa pripravuje. Hodnotenia kampaní budeme zverejňovať postupne."
                 section={segments.ANALYSES}
-                showMoreText="Zobraziť všetky hodnotenia"
+                showMore="Zobraziť všetky hodnotenia"
                 template={templates.featured}
             />
             <h2 className="mt-4">Najnovšie aktuality</h2>

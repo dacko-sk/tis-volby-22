@@ -23,7 +23,6 @@
   "rules": {
     "jsx-a11y/alt-text": [0],
     "linebreak-style": ["error", "unix"],
-    "react/destructuring-assignment": [0], // TODO: enable this
     "react/jsx-no-useless-fragment": [0],
     "react/jsx-props-no-spreading": [1, {"html": "ignore"}],
     "react/prop-types": [0], // TODO: enable this

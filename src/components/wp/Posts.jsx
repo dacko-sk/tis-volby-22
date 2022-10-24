@@ -46,29 +46,31 @@ const getAnalysedData = (data) => {
     return analysedData.sort(sortByScore);
 };
 
-function Posts(props) {
+function Posts({
+    categories = [],
+    categoriesExclude = [],
+    limit = false,
+    noResults,
+    search = '',
+    section = segments.NEWS,
+    showMore = null,
+    template = templates.list,
+}) {
     const [totalPages, setTotalPages] = useState(0);
     const [activePage, setActivePage] = useState(1);
-    const section = has(props, 'section') ? props.section : segments.NEWS;
-    const template =
-        has(props, 'template') && has(templates, props.template)
-            ? props.template
-            : templates.list;
-    const limit = has(props, 'limit') ? props.limit : false;
     const blocksize = limit || (section === segments.ANALYSES ? 30 : 10);
-    const showMore = has(props, 'showMoreText') ? props.showMoreText : null;
-    const categories = has(props, 'categories')
-        ? `&categories=${props.categories.join()}`
+    const catParam = categories.length
+        ? `&categories=${categories.join()}`
         : '';
-    const categoriesExclude = has(props, 'categoriesExclude')
-        ? `&categories_exclude=${props.categoriesExclude.join()}`
+    const catExParam = categoriesExclude.length
+        ? `&categories_exclude=${categoriesExclude.join()}`
         : '';
-    const search = has(props, 'search') ? `&search=${props.search}` : '';
+    const searchParam = search ? `&search=${search}` : '';
     const { isLoading, error, data } = useQuery(
-        [`all_posts_${categories}_${search}_${blocksize}_${activePage}`],
+        [`all_posts_${catParam}_${search}_${blocksize}_${activePage}`],
         () =>
             fetch(
-                `https://cms.transparency.sk/wp-json/wp/v2/posts?per_page=${blocksize}&page=${activePage}${categories}${categoriesExclude}${search}`
+                `https://cms.transparency.sk/wp-json/wp/v2/posts?per_page=${blocksize}&page=${activePage}${catParam}${catExParam}${searchParam}`
             ).then((response) => {
                 if (response.headers) {
                     const wptp = Number(
@@ -158,9 +160,7 @@ function Posts(props) {
             </Row>
         ) : (
             <Alert variant="secondary">
-                {has(props, 'noResults')
-                    ? props.noResults
-                    : 'Neboli nájdené žiadne články.'}
+                {noResults ?? 'Neboli nájdené žiadne články.'}
             </Alert>
         );
     }
