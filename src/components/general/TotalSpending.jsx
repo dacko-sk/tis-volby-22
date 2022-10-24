@@ -1,5 +1,6 @@
 import has from 'has';
 import Countdown from 'react-countdown';
+import { labels } from '../../api/constants';
 import { currencyFormat } from '../../api/helpers';
 import useData from '../../context/DataContext';
 import LastUpdateTag from './LastUpdateTag';
@@ -11,9 +12,27 @@ function TotalSpending() {
 
     // parse data
     let total = 0;
+    const uniqueAccounts = {};
     if (has(csvData, 'data')) {
         csvData.data.forEach((row) => {
-            total += row.sum_outgoing - (row.duplicateExpenses ?? 0);
+            // sum of outgoing amounts from all transparent accounts
+            if (row.sum_outgoing > 0) {
+                // add each account number only once
+                if (has(uniqueAccounts, row[labels.elections.account_key])) {
+                    uniqueAccounts[row[labels.elections.account_key]] += 1;
+                    // console.log(
+                    //     uniqueAccounts[row[labels.elections.account_key]],
+                    //     row[labels.elections.account_key]
+                    // );
+                } else {
+                    uniqueAccounts[row[labels.elections.account_key]] = 1;
+                    total += row.sum_outgoing;
+                }
+            }
+            // remove manually added duplicate expenses
+            if (has(row, 'duplicateExpenses') && row.duplicateExpenses > 0) {
+                total -= row.duplicateExpenses;
+            }
         });
     }
 

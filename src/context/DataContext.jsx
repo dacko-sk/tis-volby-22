@@ -54,6 +54,7 @@ export const processAccountsData = (data) => {
 
             // trim certain columns
             [
+                labels.elections.account_key,
                 labels.elections.name_key,
                 labels.elections.municipality_key,
                 labels.elections.type_key,
@@ -86,7 +87,6 @@ export const processAccountsData = (data) => {
             pd.data[index].num_unique_donors = row.num_unique_donors ?? 0;
 
             // special exceptions for certain candidates
-            pd.data[index].duplicateExpenses = 0;
             if (pd.data[index][labels.elections.name_key] === 'Rudolf Kusý') {
                 // expenses of Kusy from SMERodina,DV,KDH
                 const extra = 99731.89 + 40000 + 35000 + 30000 + 50000;
@@ -96,16 +96,6 @@ export const processAccountsData = (data) => {
                 pd.data[index].num_incoming += 5;
                 pd.data[index].num_outgoing += 5;
                 pd.data[index].num_unique_donors += 3;
-            } else if (
-                // expenses of following candidates are accounted in (/ copied from) different row of the data
-                ['Matúš Vallo', 'Marek Hattas'].includes(
-                    pd.data[index][labels.elections.name_key]
-                ) ||
-                (pd.data[index][labels.elections.name_key] ===
-                    'Zdenko Čambal' &&
-                    pd.data[index].isRegional)
-            ) {
-                pd.data[index].duplicateExpenses = pd.data[index].sum_outgoing;
             }
         });
         return {
