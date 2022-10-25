@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# [Samosprávne voľby 2022](https://volby.transparency.sk/) &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-yellow.svg)](https://github.com/dacko-sk/tis-volby22/blob/main/LICENSE)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Built with
 
-## Available Scripts
+[![react](https://img.shields.io/badge/react-v18.2.0-blue)](https://www.npmjs.com/package/react)
+[![react-router-dom](https://img.shields.io/badge/react--router--dom-v6.3.0-blue)](https://www.npmjs.com/package/react-router-dom)
+[![@tanstack/react-query](https://img.shields.io/badge/@tanstack/react--query-v4.0.10-blue)](https://www.npmjs.com/package/@tanstack/react-query)
+[![use-debounce](https://img.shields.io/badge/use--debounce-v8.0.4-blue)](https://www.npmjs.com/package/use-debounce)
+[![html-react-parser](https://img.shields.io/badge/html--react--parser-v3.0.1-lightgrey)](https://www.npmjs.com/package/html-react-parser)
+[![react-papaparse](https://img.shields.io/badge/react--papaparse-v4.0.2-lightgrey)](https://www.npmjs.com/package/react-papaparse)
+[![has](https://img.shields.io/badge/has-v1.0.3-lightgrey)](https://www.npmjs.com/package/has)
 
-In the project directory, you can run:
+### Using components from
 
-### `npm start`
+[![react-bootstrap](https://img.shields.io/badge/react--bootstrap-v2.4.0-green)](https://www.npmjs.com/package/react-bootstrap)
+[![recharts](https://img.shields.io/badge/recharts-v2.1.12-green)](https://www.npmjs.com/package/recharts)
+[![react-leaflet](https://img.shields.io/badge/react--leaflet-v4.0.2-green)](https://www.npmjs.com/package/react-leaflet)
+[![react-countdown](https://img.shields.io/badge/react--countdown-v2.3.2-green)](https://www.npmjs.com/package/react-countdown)
+[![react-social-icons](https://img.shields.io/badge/react--social--icons-v5.14.0-green)](https://www.npmjs.com/package/react-social-icons)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Styled with
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+[![bootstrap](https://img.shields.io/badge/bootstrap-v5.2.0-orange)](https://www.npmjs.com/package/bootstrap)
+[![sass](https://img.shields.io/badge/sass-v1.53.0-yellowgreen)](https://www.npmjs.com/package/sass)
 
-### `npm test`
+#
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+[![TIS logo](https://transparency.sk/wp-content/uploads/2020/11/tis_full-1.svg)](https://transparency.sk/)
 
-### `npm run build`
+[Samosprávne voľby 2022](https://volby.transparency.sk/) is a website dedicated to regional & local elections in Slovakia in the year 2022.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Created and maintained by [Transparency International Slovakia](https://transparency.sk/), developed by [Dalibor Hrtánek](https://github.com/dacko-sk).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### This website presents:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+-   Charts of incomes & spendings accounted in transparent accounts of candidates or political parties
+-   Charts of unique donors per candidate
+-   News about elections
+-   Analyses of campaigns transparency
 
-### `npm run eject`
+### Source of data
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+-   Charts are created from aggregated transparent accounts data taken from
+    https://github.com/matusv/transparent-account-data-slovak-elections-2022/
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Project donors
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<div style="background-color:#ffffff;text-align:center;padding:10px;"><img src="https://volby.transparency.sk/img/Visegrad_logo_black.png" alt="Visegrad fund" height="100"/> <img src="https://volby.transparency.sk/img/ACF_logo.png" alt="ACF" height="100"/></div>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### License
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Samosprávne voľby 2022 is [MIT licensed](./LICENSE).
