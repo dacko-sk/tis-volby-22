@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Accordion from 'react-bootstrap/Accordion';
+import Alert from 'react-bootstrap/Alert';
 import has from 'has';
 
 import { labels } from '../api/constants';
@@ -37,6 +38,24 @@ export const getExcludedCategories = (typeId, regionId) =>
                 (id) => id !== regionId
             )
         );
+
+export const newAnalysesAlert = (
+    <Alert variant="primary" className="mt-4">
+        <svg
+            className="bi flex-shrink-0 me-2"
+            width="24"
+            height="24"
+            fill="currentColor"
+            role="img"
+            viewBox="0 0 16 16"
+            aria-label="Info:"
+        >
+            <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z" />
+        </svg>
+        Zverejnili sme aktualizované hodnotenie transparentností kampaní v
+        župách a krajských mestách ku 24.10.2022.
+    </Alert>
+);
 
 export const title = 'Hodnotenie transparentnosti kampaní';
 
@@ -101,12 +120,15 @@ function Analyses() {
     return (
         <section>
             <Title>{title}</Title>
+
+            {newAnalysesAlert}
             <Posts
                 categories={[analysesCategories.top]}
                 noResults="Sekcia sa pripravuje. Hodnotenia kampaní budeme zverejňovať postupne."
                 section={segments.ANALYSES}
                 template={templates.featured}
             />
+
             <p className="mt-4">
                 Rok 2022 možno označiť aj ako supervolebný. Na konci októbra si
                 voliči po prvýkrát v jediný deň vyberú ôsmich županov, takmer
@@ -117,13 +139,19 @@ function Analyses() {
                 V Transparency International Slovensko sme pripravili hodnotenie
                 transparentnosti kampaní v najväčších samosprávach. Pozreli sme
                 sa na 132 uchádzačov o post primátorov ôsmich krajských miest a
-                post predsedov ôsmich samosprávny krajov. Konečné hodnotenie sme
-                udelili 98 kandidátom s merateľnými kampaňami, pri ktorých suma
-                priebežných výdavkov (k 10.10.2022) presahuje 3-tisíc eur, alebo
-                majú viac ako štyri výdavkové položky na transparentnom účte.
+                post predsedov ôsmich samosprávnych krajov.
             </p>
             <p>
-                Zamerali sme sa predovšetkým na dostupné údaje na
+                Priebežné hodnotenie sme k 10.10.2022 udelili 98 kandidátom s
+                merateľnými kampaňami, pri ktorých suma výdavkov presahovala
+                3-tisíc eur, alebo mali viac ako štyri relevantné výdavkové
+                položky na transparentnom účte. Hodnotenie sme aktualizovali k
+                24.10.2022 pre 103 kandidátov, ktorí k danému dátumu spĺňali
+                uvedené kritériá. V profiloch jednotlivých kandidátov je
+                zobrazené pôvodné aj aktualizované hodnotenie.
+            </p>
+            <p>
+                Zamerali sme sa pri ňom predovšetkým na dostupné údaje na
                 transparentných účtoch, weboch a sociálnych sieťach kandidátov,
                 výsledné hodnotenie tak neodráža ďalšie aspekty kampaní. Pre
                 lepšiu prehľadnosť sme zvolili princíp semafora - pri každom
@@ -163,6 +191,7 @@ function Analyses() {
                 </Link>
                 .
             </p>
+
             <Accordion
                 className="mt-4"
                 activeKey={activeKey}
