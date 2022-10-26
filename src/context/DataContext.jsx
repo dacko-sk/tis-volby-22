@@ -101,7 +101,6 @@ export const processAccountsData = (data) => {
 
             // special exceptions for certain candidates
             if (pd.data[index][labels.elections.name_key] === 'Rudolf Kusý') {
-                // expenses of Kusy from SMERodina,DV,KDH
                 const extra = 99731.89 + 40000 + 35000 + 30000 + 50000;
                 pd.data[index].sum_incoming += extra;
                 pd.data[index].sum_outgoing += extra;
