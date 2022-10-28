@@ -23,11 +23,6 @@ function TotalSpending() {
                 // add each account number only once
                 if (has(uniqueAccounts, row[labels.elections.account_key])) {
                     uniqueAccounts[row[labels.elections.account_key]] += 1;
-                    // console.log(
-                    //     uniqueAccounts[row[labels.elections.account_key]],
-                    //     row[labels.elections.account_key],
-                    //     row[labels.elections.name_key]
-                    // );
                 } else {
                     uniqueAccounts[row[labels.elections.account_key]] = 1;
                     total += row.sum_outgoing;
@@ -40,11 +35,15 @@ function TotalSpending() {
         });
     }
 
+    const dateStart = new Date('2022-10-29T07:00:00').getTime();
+    const dateEnd = new Date('2022-10-29T20:00:00').getTime();
+    const dateCurrent = new Date().getTime();
+
     // Renderer callback with condition
     const renderer = ({ formatted, completed }) => {
         if (completed) {
             // Render a completed state
-            return <p>Voľby sa skončili.</p>;
+            return <p className="hero-number">Voľby sa skončili</p>;
         }
         // Render a countdown
         return (
@@ -65,12 +64,28 @@ function TotalSpending() {
         );
     };
 
+    const countdown =
+        dateCurrent > dateEnd ? (
+            <div className="col-lg-6">
+                <h2>Dátum konania volieb</h2>
+                <p className="hero-number">29. októbra 2022</p>
+            </div>
+        ) : (
+            <div className="col-lg-6">
+                <h2>
+                    Zostávajúci čas do
+                    {dateCurrent > dateStart ? ' konca' : ''} volieb
+                </h2>
+                <Countdown
+                    date={dateCurrent > dateStart ? dateEnd : dateStart}
+                    renderer={renderer}
+                />
+            </div>
+        );
+
     return (
         <div className="row gy-3 gy-lg-0 text-center">
-            <div className="col-lg-6">
-                <h2>Zostávajúci čas do volieb</h2>
-                <Countdown date="2022-10-29T07:00:00" renderer={renderer} />
-            </div>
+            {countdown}
             <div className="col-lg-6">
                 <h2>Celkové výdavky kandidátov</h2>
                 <p className="hero-number">
