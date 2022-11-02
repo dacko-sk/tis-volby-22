@@ -12,6 +12,7 @@ import {
 } from 'recharts';
 import has from 'has';
 
+import { tooltipNameFormat } from '../../api/chartHelpers';
 import { colors, labels } from '../../api/constants';
 import {
     numFormat,
@@ -74,25 +75,6 @@ export const columnVariants = {
             stackId: 'total',
         },
     ],
-};
-
-const tooltipNameFormat = (value) => {
-    const parts = value.split(separators.newline);
-    if (parts.length) {
-        const tags = [<strong key="name">{parts[0]}</strong>];
-        parts.forEach((part, index) => {
-            if (index > 0) {
-                const subParts = part.split(separators.parts);
-                const town = subParts.length > 1 ? subParts[1] : part;
-                if (town !== '…') {
-                    tags.push(<br key={`br${part}`} />);
-                    tags.push(<span key={`val${part}`}>{town}</span>);
-                }
-            }
-        });
-        return <>{tags}</>;
-    }
-    return value;
 };
 
 function TisBarChart({

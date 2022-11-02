@@ -6,4 +6,15 @@
     --bs-link-color: black;
     --bs-link-hover-color: black;
   }
+  .row-elected {
+    --bs-table-striped-color: #fff;
+    --bs-table-hover-color: #fff;
+    --bs-table-striped-bg: #{$tis-light-blue};
+    background-color: $tis-light-blue;
+    color: #fff;
+    a {
+      --bs-link-color: #fff;
+      --bs-link-hover-color: #fff;
+    }
+  }
 }

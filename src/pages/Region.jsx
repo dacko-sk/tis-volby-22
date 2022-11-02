@@ -3,6 +3,7 @@ import { useNavigate, useParams } from 'react-router-dom';
 import Accordion from 'react-bootstrap/Accordion';
 import has from 'has';
 
+import { getTickText } from '../api/chartHelpers';
 import { labels } from '../api/constants';
 import {
     regions,
@@ -10,7 +11,7 @@ import {
     sortByDonors,
     sortBySpending,
 } from '../api/helpers';
-import { routes, segments, separators } from '../api/routes';
+import { routes, segments } from '../api/routes';
 
 import useData, { types } from '../context/DataContext';
 
@@ -52,12 +53,7 @@ function Region() {
             ) {
                 if (row.isTransparent) {
                     const person = {
-                        name:
-                            row[labels.elections.name_key] +
-                            separators.newline +
-                            row[labels.elections.region_key] +
-                            separators.parts +
-                            row.municipalityShortName,
+                        name: getTickText(row),
                         incoming: row.sum_incoming,
                         outgoing: row.sum_outgoing,
                         donors: row.num_unique_donors,

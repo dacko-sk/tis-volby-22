@@ -1,9 +1,9 @@
 import { createContext, useContext, useMemo, useState } from 'react';
 import has from 'has';
 
+// import { findTickLink } from '../api/chartHelpers';
 import { labels } from '../api/constants';
-import { compareStr, contains, substitute } from '../api/helpers';
-import { separators } from '../api/routes';
+import { contains, substitute } from '../api/helpers';
 
 export const accountsFile =
     'https://raw.githubusercontent.com/matusv/transparent-account-data-slovak-elections-2022/main/aggregation_no_returns_v2.csv';
@@ -14,36 +14,6 @@ export const reloadMinutes = 70;
 export const types = {
     regional: 'regional',
     local: 'local',
-};
-
-export const getChartTickLink = (name, municipality, type, allAccounts) => {
-    const t = type
-        ? separators.newline +
-          (type === labels.elections.regional.key
-              ? labels.elections.regional.name
-              : labels.elections.local.name)
-        : '';
-    let tick = name + separators.newline + substitute(municipality) + t;
-    if (Array.isArray(allAccounts)) {
-        allAccounts.some((row) => {
-            if (
-                compareStr(name, row[labels.elections.name_key]) &&
-                compareStr(municipality, row[labels.elections.municipality_key])
-            ) {
-                tick =
-                    row[labels.elections.name_key] +
-                    separators.newline +
-                    row[labels.elections.region_key] +
-                    separators.parts +
-                    row.municipalityShortName +
-                    separators.newline +
-                    row.electionsName;
-                return true;
-            }
-            return false;
-        });
-    }
-    return tick;
 };
 
 export const processAccountsData = (data) => {
@@ -82,6 +52,10 @@ export const processAccountsData = (data) => {
             pd.data[index].isRegional = (
                 row[labels.elections.type_key] ?? ''
             ).includes(labels.elections.regional.key);
+            pd.data[index].isElected =
+                !pd.data[index].isParty &&
+                row[labels.elections.result_key] ===
+                    labels.elections.result.success;
 
             // additional names
             pd.data[index].municipalityShortName =
@@ -118,11 +92,11 @@ export const processAccountsData = (data) => {
     return data;
 };
 
-export const processAdsData = (data) => {
+/* export const processAdsData = (data) => {
     if (has(data, 'data')) {
         const pd = data;
         pd.data.forEach((row, index) => {
-            pd.data[index].name = getChartTickLink(
+            pd.data[index].name = findTickLink(
                 `${row[labels.ads.name_first.key]} ${
                     row[labels.ads.name_last.key]
                 }`,
@@ -150,7 +124,7 @@ export const processAdsData = (data) => {
         };
     }
     return data;
-};
+}; */
 
 export const buildParserConfig = (processCallback, storeDataCallback) => {
     return {
@@ -170,21 +144,21 @@ const initialState = {
         lastUpdate: baseDate,
     },
     setCsvData: () => {},
-    adsData: {
-        lastUpdate: baseDate,
-    },
-    setAdsData: () => {},
+    // adsData: {
+    //     lastUpdate: baseDate,
+    // },
+    // setAdsData: () => {},
 };
 
 const DataContext = createContext(initialState);
 
 export const DataProvider = function ({ children }) {
     const [csvData, setCsvData] = useState(initialState.csvData);
-    const [adsData, setAdsData] = useState(initialState.adsData);
+    // const [adsData, setAdsData] = useState(initialState.adsData);
 
     const value = useMemo(
-        () => ({ csvData, setCsvData, adsData, setAdsData }),
-        [csvData, adsData]
+        () => ({ csvData, setCsvData /* , adsData, setAdsData */ }),
+        [csvData /* , adsData */]
     );
 
     return (

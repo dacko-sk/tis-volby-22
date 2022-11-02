@@ -3,6 +3,7 @@ import { Outlet, useLocation } from 'react-router-dom';
 import { usePapaParse } from 'react-papaparse';
 import has from 'has';
 
+// import { findTickLink } from '../../api/chartHelpers';
 // import { labels } from '../../api/constants';
 import { scrollToTop } from '../../api/helpers';
 
@@ -11,7 +12,6 @@ import useData, {
     // adsFile,
     baseDate,
     buildParserConfig,
-    // getChartTickLink,
     processAccountsData,
     // processAdsData,
     reloadMinutes,
@@ -69,7 +69,7 @@ function Layout() {
     useEffect(() => {
         if (has(csvData, 'data') && has(adsData, 'data')) {
             adsData.data.forEach((row, index) => {
-                adsData.data[index].name = getChartTickLink(
+                adsData.data[index].name = findTickLink(
                     `${row[labels.ads.name_first.key]} ${
                         row[labels.ads.name_last.key]
                     }`,

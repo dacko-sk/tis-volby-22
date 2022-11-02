@@ -1,5 +1,6 @@
 import has from 'has';
 
+import { getTickText } from '../api/chartHelpers';
 import { labels } from '../api/constants';
 import {
     setTitle,
@@ -7,7 +8,7 @@ import {
     // sortByNumericProp,
     sortBySpending,
 } from '../api/helpers';
-import { routes, separators } from '../api/routes';
+import { routes } from '../api/routes';
 
 import useData from '../context/DataContext';
 
@@ -38,14 +39,7 @@ function Charts() {
                     });
                 } else {
                     people.push({
-                        name:
-                            row[labels.elections.name_key] +
-                            separators.newline +
-                            row[labels.elections.region_key] +
-                            separators.parts +
-                            row.municipalityShortName +
-                            separators.newline +
-                            row.electionsName,
+                        name: getTickText(row, true),
                         incoming: row.sum_incoming,
                         outgoing: row.sum_outgoing,
                         donors: row.num_unique_donors,

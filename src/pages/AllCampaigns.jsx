@@ -1,8 +1,8 @@
 import has from 'has';
 
+import { getTickText } from '../api/chartHelpers';
 import { labels } from '../api/constants';
 import { setTitle, sortBySpending } from '../api/helpers';
-import { separators } from '../api/routes';
 
 import useData, { types } from '../context/DataContext';
 
@@ -29,12 +29,7 @@ function AllCampaigns() {
             if (has(row, labels.elections.region_key) && !row.isParty) {
                 if (row.isTransparent) {
                     const person = {
-                        name:
-                            row[labels.elections.name_key] +
-                            separators.newline +
-                            row[labels.elections.region_key] +
-                            separators.parts +
-                            row.municipalityShortName,
+                        name: getTickText(row),
                         incoming: row.sum_incoming,
                         outgoing: row.sum_outgoing,
                     };

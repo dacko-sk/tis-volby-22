@@ -19,6 +19,7 @@ function PartyCandidates({ candidates }) {
                     candidate[labels.elections.name_key] +
                     candidate[labels.elections.municipality_key]
                 }
+                className={candidate.isElected ? 'row-elected' : ''}
             >
                 <td>
                     <Link

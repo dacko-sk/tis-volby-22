@@ -4,9 +4,10 @@ import Accordion from 'react-bootstrap/Accordion';
 import Button from 'react-bootstrap/Button';
 import has from 'has';
 
+import { getTickText } from '../../api/chartHelpers';
 import { labels } from '../../api/constants';
 import { sortBySpending, substitute } from '../../api/helpers';
-import { routes, separators } from '../../api/routes';
+import { routes } from '../../api/routes';
 
 import useData, { types } from '../../context/DataContext';
 
@@ -40,12 +41,7 @@ function Regions() {
                 }
 
                 const person = {
-                    name:
-                        row[labels.elections.name_key] +
-                        separators.newline +
-                        row[labels.elections.region_key] +
-                        separators.parts +
-                        row.municipalityShortName,
+                    name: getTickText(row),
                     incoming: row.sum_incoming,
                     outgoing: row.sum_outgoing,
                 };

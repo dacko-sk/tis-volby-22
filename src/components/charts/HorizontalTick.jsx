@@ -1,6 +1,7 @@
+import { tickClassName, tickLabel } from '../../api/chartHelpers';
 import { separators } from '../../api/routes';
 
-import { tickClassName, tickFontSize, tickLabel } from './VerticalTick';
+import { tickFontSize } from './VerticalTick';
 
 function HorizontalTick({ x, y, payload }) {
     const parts = payload.value.split(separators.newline);

@@ -86,6 +86,11 @@ export const labels = {
         municipality_key: 'samosprava',
         party_key: 'PS',
         region_key: 'label',
+        result_key: 'vysledok',
+        result: {
+            success: 'zvolený',
+            failure: 'nezvolený',
+        },
         type_key: 'typ_volieb',
         local: {
             key: 'miestne',

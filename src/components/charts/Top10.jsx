@@ -1,8 +1,9 @@
 import has from 'has';
 
+import { getTickText } from '../../api/chartHelpers';
 import { labels } from '../../api/constants';
 import { sortBySpending } from '../../api/helpers';
-import { routes, separators } from '../../api/routes';
+import { routes } from '../../api/routes';
 
 import useData from '../../context/DataContext';
 
@@ -17,14 +18,7 @@ function Top10() {
         csvData.data.forEach((row) => {
             if (has(row, labels.elections.region_key) && !row.isParty) {
                 people.push({
-                    name:
-                        row[labels.elections.name_key] +
-                        separators.newline +
-                        row[labels.elections.region_key] +
-                        separators.parts +
-                        row.municipalityShortName +
-                        separators.newline +
-                        row.electionsName,
+                    name: getTickText(row, true),
                     incoming: row.sum_incoming,
                     outgoing: row.sum_outgoing,
                 });
