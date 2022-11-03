@@ -3,7 +3,7 @@ import has from 'has';
 import { labels } from '../api/constants';
 import { setTitle, sortByNumericProp } from '../api/helpers';
 
-import useData from '../context/DataContext';
+import useAdsData from '../context/AdsDataContext';
 
 import TisBarChart, { columnVariants } from '../components/charts/TisBarChart';
 import Loading from '../components/general/Loading';
@@ -12,7 +12,7 @@ import Title from '../components/structure/Title';
 const title = 'Online reklama';
 
 function Facebook() {
-    const { adsData } = useData();
+    const { adsData } = useAdsData();
 
     let content = <Loading />;
 

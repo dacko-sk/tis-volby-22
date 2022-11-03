@@ -9,20 +9,25 @@ import { scrollToTop } from '../../api/helpers';
 
 import useData, {
     accountsFile,
-    // adsFile,
     baseDate,
     buildParserConfig,
     processAccountsData,
-    // processAdsData,
     reloadMinutes,
 } from '../../context/DataContext';
+
+/* import useAdsData, {
+    adsFile,
+    buildParserConfig as adsParserConfig,
+    processAdsData,
+} from '../../context/AdsDataContext'; */
 
 import Header from './Header';
 import Footer from './Footer';
 import DonateModal from '../general/DonateModal';
 
 function Layout() {
-    const { csvData, setCsvData /* , adsData, setAdsData */ } = useData();
+    const { csvData, setCsvData } = useData();
+    // const { adsData, setAdsData } = useAdsData();
     const lastUpdate = has(csvData, 'lastUpdate')
         ? csvData.lastUpdate
         : baseDate;
@@ -61,7 +66,7 @@ function Layout() {
 
     /* // load ads data on first page load
     useEffect(() => {
-        const adsConfig = buildParserConfig(processAdsData, setAdsData);
+        const adsConfig = adsParserConfig(processAdsData, setAdsData);
         readRemoteFile(`${adsFile}?t=${currentTime}`, adsConfig);
     }, []); 
 

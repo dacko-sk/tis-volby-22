@@ -1,13 +1,11 @@
 import { createContext, useContext, useMemo, useState } from 'react';
 import has from 'has';
 
-// import { findTickLink } from '../api/chartHelpers';
 import { labels } from '../api/constants';
-import { contains, substitute } from '../api/helpers';
+import { compareStr, contains, substitute } from '../api/helpers';
 
 export const accountsFile =
     'https://raw.githubusercontent.com/matusv/transparent-account-data-slovak-elections-2022/main/aggregation_no_returns_v2.csv';
-export const adsFile = 'https://data.gerulata.com/volby2022/candidates.csv';
 export const baseDate = 1665871420;
 export const reloadMinutes = 70;
 
@@ -92,39 +90,24 @@ export const processAccountsData = (data) => {
     return data;
 };
 
-/* export const processAdsData = (data) => {
-    if (has(data, 'data')) {
-        const pd = data;
-        pd.data.forEach((row, index) => {
-            pd.data[index].name = findTickLink(
-                `${row[labels.ads.name_first.key]} ${
-                    row[labels.ads.name_last.key]
-                }`,
-                row[labels.ads.municipality.key],
-                row[labels.ads.type.key],
-                []
-            );
-            pd.data[index][labels.ads.amount_tagged.key] = Math.max(
-                0,
-                row[labels.ads.amount.key] - row[labels.ads.amount_untagged.key]
-            );
+export const findRow = (csvData, name, mun) => {
+    // parse aggregated data
+    let matchedRow = null;
+    if (has(csvData, 'data')) {
+        csvData.data.some((row) => {
+            if (
+                (compareStr(mun, row[labels.elections.municipality_key]) ||
+                    compareStr(mun, row.municipalityShortName)) &&
+                compareStr(name, row[labels.elections.name_key])
+            ) {
+                matchedRow = row;
+                return true;
+            }
+            return false;
         });
-
-        // set last update to 3 AM of the last night
-        const d = new Date();
-        if (d.getHours() < 3) {
-            // too early, go back 1 day
-            d.setDate(d.getDate() - 1);
-        }
-        d.setHours(3, 0, 0, 0);
-
-        return {
-            ...pd,
-            lastUpdate: d.getTime() / 1000,
-        };
     }
-    return data;
-}; */
+    return matchedRow;
+};
 
 export const buildParserConfig = (processCallback, storeDataCallback) => {
     return {
@@ -144,21 +127,23 @@ const initialState = {
         lastUpdate: baseDate,
     },
     setCsvData: () => {},
-    // adsData: {
-    //     lastUpdate: baseDate,
-    // },
-    // setAdsData: () => {},
 };
 
 const DataContext = createContext(initialState);
 
 export const DataProvider = function ({ children }) {
     const [csvData, setCsvData] = useState(initialState.csvData);
-    // const [adsData, setAdsData] = useState(initialState.adsData);
+
+    // selectors
+    const findInCsvData = (name, mun) => findRow(csvData, name, mun);
 
     const value = useMemo(
-        () => ({ csvData, setCsvData /* , adsData, setAdsData */ }),
-        [csvData /* , adsData */]
+        () => ({
+            csvData,
+            setCsvData,
+            findInCsvData,
+        }),
+        [csvData]
     );
 
     return (

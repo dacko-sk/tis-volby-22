@@ -10,6 +10,7 @@ import {
 } from '../api/helpers';
 import { routes } from '../api/routes';
 
+// import useAdsData from '../context/AdsDataContext';
 import useData from '../context/DataContext';
 
 import Regions from '../components/charts/Regions';
@@ -20,7 +21,8 @@ const title = 'Grafy';
 const unknownRegion = 'Nezistený';
 
 function Charts() {
-    const { csvData /* , adsData */ } = useData();
+    const { csvData } = useData();
+    // const { adsData } = useAdsData();
 
     // parse data
     const people = [];
