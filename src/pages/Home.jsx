@@ -1,7 +1,7 @@
 import { setTitle } from '../api/helpers';
 import { segments } from '../api/routes';
 
-import { analysesCategories, newAnalysesAlert } from './Analyses';
+import { analysesCategories, newAnalysesAlert, winnersAlert } from './Analyses';
 import { newsCategories } from './News';
 import Top10 from '../components/charts/Top10';
 import DonateButton from '../components/general/DonateButton';
@@ -32,6 +32,8 @@ function Home() {
             <Top10 />
 
             {newAnalysesAlert}
+            {winnersAlert}
+
             <Posts
                 categories={[analysesCategories.top]}
                 noResults="Sekcia sa pripravuje. Hodnotenia kampaní budeme zverejňovať postupne."

@@ -4,6 +4,8 @@ import has from 'has';
 import { campaignMetadata as cmd, images } from '../../../api/constants';
 import { badgePctFormat, transparencyClass } from '../../../api/helpers';
 
+import useData from '../../../context/DataContext';
+
 import Media from '../Media';
 
 function AnalysisFeatured({ article, clickHandler, keyUpHandler }) {
@@ -17,11 +19,23 @@ function AnalysisFeatured({ article, clickHandler, keyUpHandler }) {
         return null;
     }
     const cls = transparencyClass(analysis[cmd.score][lastCol]);
+
+    const { findInCsvData } = useData();
+    // find candidate in aggregated data
+    const csvRow = findInCsvData(
+        article.title.rendered,
+        analysis[cmd.municipality][0]
+    );
+    const isElected =
+        csvRow && has(csvRow, 'isElected') ? csvRow.isElected : false;
+
     return (
         <Col md>
             <div
                 id={article.slug}
-                className={`article analysis-preview score-${cls}`}
+                className={`article analysis-preview score-${cls}${
+                    isElected ? ' analysis-elected' : ''
+                }`}
                 onClick={clickHandler}
                 onKeyUp={keyUpHandler}
                 role="link"
@@ -39,9 +53,7 @@ function AnalysisFeatured({ article, clickHandler, keyUpHandler }) {
                         />
                     </figure>
                     <div className="name text-center">
-                        <span className={`badge score-${cls}`}>
-                            {article.title.rendered}
-                        </span>
+                        <span className="badge">{article.title.rendered}</span>
                     </div>
                 </div>
             </div>

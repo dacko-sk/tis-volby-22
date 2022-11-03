@@ -1,13 +1,13 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Accordion from 'react-bootstrap/Accordion';
-import Alert from 'react-bootstrap/Alert';
 import has from 'has';
 
 import { labels } from '../api/constants';
 import { setTitle, substitute } from '../api/helpers';
 import { routes, segments } from '../api/routes';
 
+import AlertWithIcon, { icons } from '../components/general/AlertWithIcon';
 import Title from '../components/structure/Title';
 import Posts, { templates } from '../components/wp/Posts';
 
@@ -40,21 +40,16 @@ export const getExcludedCategories = (typeId, regionId) =>
         );
 
 export const newAnalysesAlert = (
-    <Alert variant="primary" className="mt-4">
-        <svg
-            className="bi flex-shrink-0 me-2"
-            width="24"
-            height="24"
-            fill="currentColor"
-            role="img"
-            viewBox="0 0 16 16"
-            aria-label="Info:"
-        >
-            <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z" />
-        </svg>
+    <AlertWithIcon className="mt-4" icon={icons.info} variant="primary">
         Zverejnili sme aktualizované hodnotenie transparentností kampaní v
         župách a krajských mestách ku 24.10.2022.
-    </Alert>
+    </AlertWithIcon>
+);
+
+export const winnersAlert = (
+    <AlertWithIcon icon={icons.info} variant="primary">
+        Víťazi volieb sú zvýraznení modrým písmom a orámovaním.
+    </AlertWithIcon>
 );
 
 export const title = 'Hodnotenie transparentnosti kampaní';
@@ -122,6 +117,8 @@ function Analyses() {
             <Title>{title}</Title>
 
             {newAnalysesAlert}
+            {winnersAlert}
+
             <Posts
                 categories={[analysesCategories.top]}
                 noResults="Sekcia sa pripravuje. Hodnotenia kampaní budeme zverejňovať postupne."

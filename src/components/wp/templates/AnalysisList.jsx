@@ -14,6 +14,8 @@ import {
     transparencyClass,
 } from '../../../api/helpers';
 
+import useData from '../../../context/DataContext';
+
 function AnalysisList({ article, clickHandler, keyUpHandler }) {
     const { analysis } = article;
     if (has(analysis, 'error')) {
@@ -25,11 +27,23 @@ function AnalysisList({ article, clickHandler, keyUpHandler }) {
         return null;
     }
     const cls = transparencyClass(analysis[cmd.score][lastCol]);
+
+    const { findInCsvData } = useData();
+    // find candidate in aggregated data
+    const csvRow = findInCsvData(
+        article.title.rendered,
+        analysis[cmd.municipality][0]
+    );
+    const isElected =
+        csvRow && has(csvRow, 'isElected') ? csvRow.isElected : false;
+
     return (
         <Col className="px-0" md={12}>
             <div
                 id={article.slug}
-                className={`article analysis-preview score-${cls} p-3`}
+                className={`article analysis-preview score-${cls}${
+                    isElected ? ' analysis-elected' : ''
+                } p-3`}
                 onClick={clickHandler}
                 onKeyUp={keyUpHandler}
                 role="link"
