@@ -73,12 +73,23 @@ export const processAccountsData = (data) => {
 
             // special exceptions for certain candidates
             if (pd.data[index][labels.elections.name_key] === 'Rudolf Kusý') {
-                const extra = 99731.89 + 40000 + 35000 + 30000 + 50000;
+                const extra =
+                    // sme rodina
+                    99731.89 -
+                    17672.69 +
+                    // dobra volba
+                    35000 +
+                    40000 +
+                    30000 +
+                    // kdh
+                    50000 +
+                    30000 +
+                    25000;
                 pd.data[index].sum_incoming += extra;
                 pd.data[index].sum_outgoing += extra;
                 pd.data[index].duplicateExpenses = extra;
-                pd.data[index].num_incoming += 5;
-                pd.data[index].num_outgoing += 5;
+                pd.data[index].num_incoming += 7;
+                pd.data[index].num_outgoing += 7;
                 pd.data[index].num_unique_donors += 3;
             }
         });
