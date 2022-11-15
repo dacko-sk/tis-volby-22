@@ -13,24 +13,29 @@ function Top10() {
     const { csvData } = useData();
 
     // parse data
-    const people = [];
+    const people = {};
     if (has(csvData, 'data')) {
         csvData.data.forEach((row) => {
             if (has(row, labels.elections.region_key) && !row.isParty) {
-                people.push({
-                    name: getTickText(row, true),
-                    incoming: row.sum_incoming,
-                    outgoing: row.sum_outgoing,
-                });
+                const unqKey = `${row[labels.elections.region_key]}_${
+                    row[labels.elections.name_key]
+                }`;
+                // add each candidate only once and prioritize regional campaign over local
+                if (!has(people, unqKey) || row.isRegional) {
+                    people[unqKey] = {
+                        name: getTickText(row, true),
+                        incoming: row.sum_incoming,
+                        outgoing: row.sum_outgoing,
+                    };
+                }
             }
         });
-        people.sort(sortBySpending);
     }
 
     return (
         <TisBarChart
             title="Top 10 kampaní kandidátov na primátorov a županov podľa výdavkov a príjmov"
-            data={people.slice(0, 10)}
+            data={Object.values(people).sort(sortBySpending).slice(0, 10)}
             buttonLink={routes.charts}
             currency
             vertical
