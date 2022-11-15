@@ -23,7 +23,7 @@ import useData, {
 
 import Header from './Header';
 import Footer from './Footer';
-import DonateModal from '../general/DonateModal';
+// import DonateModal from '../general/DonateModal';
 
 function Layout() {
     const { csvData, setCsvData } = useData();
@@ -112,7 +112,7 @@ function Layout() {
                 <Outlet />
             </main>
             <Footer />
-            <DonateModal />
+            {/* <DonateModal /> */}
         </div>
     );
 }

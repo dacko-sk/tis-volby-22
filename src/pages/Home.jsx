@@ -4,7 +4,6 @@ import { segments } from '../api/routes';
 import { analysesCategories, newAnalysesAlert, winnersAlert } from './Analyses';
 import { newsCategories } from './News';
 import Top10 from '../components/charts/Top10';
-import DonateButton from '../components/general/DonateButton';
 import TotalSpending from '../components/general/TotalSpending';
 import Map from '../components/map/Map';
 import Title from '../components/structure/Title';
@@ -22,10 +21,6 @@ function Home() {
             </Title>
 
             <TotalSpending />
-
-            <div className="text-center">
-                <DonateButton className="mt-3 mb-3" long xl />
-            </div>
 
             <Map />
 
