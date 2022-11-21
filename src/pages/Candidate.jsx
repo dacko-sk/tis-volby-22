@@ -14,6 +14,7 @@ import { routes } from '../api/routes';
 
 import useData from '../context/DataContext';
 
+import AccountTransactions from '../components/general/AccountTransactions';
 import Loading from '../components/general/Loading';
 import Title from '../components/structure/Title';
 
@@ -198,6 +199,8 @@ function Candidate() {
                     ? labels.disclaimerAccount
                     : labels.disclaimerCandidate}
             </em>
+
+            <AccountTransactions candidate={candidate} />
         </section>
     );
 }

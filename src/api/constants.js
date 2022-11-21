@@ -41,6 +41,16 @@ export const transparencyIndicators = {
 };
 
 export const labels = {
+    account: {
+        account_name: 'Názov účtu',
+        date: 'Dátum',
+        amount: 'Suma',
+        // currency: 'Mena',
+        message: 'Popis platby',
+        tx_type: 'Druh platby',
+        vs: 'VS',
+        ss: 'ŠS',
+    },
     ads: {
         amount: {
             key: 'total_ad_count',
