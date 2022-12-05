@@ -1,0 +1,12 @@
+index,date,amount,tx_type,account_name,message,ks,vs,ss,note
+0,2022-10-14,-926.4,Bezhotovostná platba,,"Kompanek- uhrada grafickych prac al
+etakov",0308,202210470,14102022,
+1,2022-10-13,30.0,Bezhotovostný príjem,VLCEK MARIAN,/DO2022-10-12/SPMarian Vlcek prispevok na kampan,,,,VLCEK MARIAN
+2,2022-10-11,30.0,Bezhotovostný príjem,Viera Novotná,/DO2022-10-10/SPVolebná Kampaň 2022 -Novotná Viera,,,,Viera Novotná
+3,2022-10-11,1000.0,Bezhotovostný príjem,Stefan Kompanek,/DO2022-10-10/SPvolebna kampan- Stefan Kompanek,,,10102022,Stefan Kompanek
+4,2022-10-10,30.0,Bezhotovostný príjem,Emília Máchová,/DO2022-10-09/SPpríspevok na kampaň Máchová Emília,,,,Emília Máchová
+5,2022-10-03,30.0,Bezhotovostný príjem,JOZEF VILCEK,prispevok na kampan,,,,JOZEF VILCEK
+6,2022-09-27,-14.84,Transakcia kartou,,"Nákup: TIGERPRINT S. R. O.,  KUZMANYHO 102/12, ZILINA, 010 01, SVK, dne 26.9.2022, částka  14.84 EUR",,2994,,"Nákup: TIGERPRINT S. R. O.,  KUZMANYHO 102/12, ZILINA, 010 01, SVK, dne 26.9.2022, částka  14.84 EUR"
+7,2022-09-26,30.0,Bezhotovostný príjem,Petronela Staníková,/DO2022-09-26/SPStaníková-volebna kampaň,,,,Petronela Staníková
+8,2022-09-22,-11.5,Transakcia kartou,,"Nákup: TIGERPRINT S. R. O.,  KUZMANYHO 102/12, ZILINA, 010 01, SVK, dne 21.9.2022, částka  11.50 EUR",,2994,,"Nákup: TIGERPRINT S. R. O.,  KUZMANYHO 102/12, ZILINA, 010 01, SVK, dne 21.9.2022, částka  11.50 EUR"
+9,2022-09-19,130.0,Bezhotovostný príjem,Stefan Kompanek,/DO2022-09-16/SPStefan Kompanek- volebna kampan,,,16092022,Stefan Kompanek

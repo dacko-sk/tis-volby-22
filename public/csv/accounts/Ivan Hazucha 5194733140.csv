@@ -1,0 +1,10 @@
+index,account_name,date,amount,currency,message,tx_type,vs,ss
+0,,2022-10-31,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+1,,2022-10-31,-6.0,EUR,Poplatok za vedenie účtu,Poplatok,,
+2,Technicke sluzby mesta Rimavska Sobota,2022-10-26,-7.6,EUR,Umiestnenie reklamy na pozemkoch mesta,Platobný príkaz na úhradu / FIT 2.0 (EB),2022190,
+3,,2022-09-30,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+4,,2022-09-30,-3.8,EUR,Poplatok za vedenie účtu,Poplatok,,
+5,BITALA STANISLAV,2022-09-22,100.0,EUR,23544594,Bezhotovostný vklad,,
+6,HAZUCHOVA MARIA,2022-09-22,100.0,EUR,23544594,Bezhotovostný vklad,,
+7,OZ V OBRAZE,2022-09-22,-150.0,EUR,"Ivan Hazucha, publikovanie clanku",Platobný príkaz na úhradu / FIT 2.0 (EB),20220021,
+8,Hazucha Ivan,2022-09-19,300.0,EUR,Ivan Hazucha 1.dotacia transparentneho uctu,Bezhotovostný vklad,0000000000,0000000000

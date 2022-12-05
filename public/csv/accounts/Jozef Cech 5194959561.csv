@@ -1,0 +1,13 @@
+index,account_name,date,amount,currency,message,tx_type,vs,ss
+0,,2022-10-31,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+1,,2022-10-31,-2.2,EUR,"Vedenie Platobnej karty embosovanej,2314,5,Karta č. 4544 12** **** 5942Poplatok za Platobnú kartu",Kartový poplatok,,
+2,Mesto Žilina,2022-10-31,-54.0,EUR,,Platobný príkaz na úhradu / FIT 2.0 (EB),1511134921,2203079735
+3,"RADOLSKÝ REKLAMA, s.r.o.",2022-10-26,-1530.0,EUR,,Platobný príkaz na úhradu / FIT 2.0 (EB),4202022,
+4,TIME PRINT - Lopušan Róbert,2022-10-26,-465.6,EUR,0221026080800.926574,Okamžitá platba (EB),20220162,
+5,Cech Jozef,2022-10-22,900.0,EUR,F001221020228192393,Bezhotovostný vklad,,
+6,ARTON s.r.o.,2022-10-14,-24.0,EUR,0221014093847.888393,Okamžitá platba (EB),202210314,
+7,ARTON s.r.o.,2022-10-14,-108.0,EUR,0221014093251.869839,Okamžitá platba (EB),202210207,
+8,"3amRecords, s.r.o.",2022-10-14,-408.0,EUR,0221014092819.163077,Okamžitá platba (EB),20220090,
+9,,2022-09-30,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+10,,2022-09-30,-0.29,EUR,"Vedenie Platobnej karty embosovanej,2314,5,Karta č. 4544 12** **** 5942Poplatok za Platobnú kartu",Kartový poplatok,,
+11,Cech Jozef,2022-09-22,2000.0,EUR,F001220920225692529,Bezhotovostný vklad,,

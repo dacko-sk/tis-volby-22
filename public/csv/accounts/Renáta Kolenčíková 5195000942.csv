@@ -1,0 +1,13 @@
+index,account_name,date,amount,currency,message,tx_type,vs,ss
+0,,2022-10-31,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+1,"Petit Press, a.s.",2022-10-26,-302.4,EUR,"Renáta Kolenčíková, Hornozoborská 101, Nitra - inzercia ECHO",Okamžitá platba (EB),2235112447,
+2,Kolenčíková Renata,2022-10-26,300.0,EUR,"Renáta Kolenčíová, Hornozoborská 101, Nitra",Bezhotovostný vklad,2235112447,
+3,Slovenská pošta a.s. Banská Bystrica,2022-10-26,-2076.0,EUR,"Renáta Kolenčíková, Hornozoborská 101, Nitra - poštovné",Platobný príkaz na úhradu / FIT 2.0 (EB),9001550968,
+4,Kolenčíková Renata,2022-10-26,1900.0,EUR,"Renáta Kolenčíková, Hornozoborská 101, Nitra",Bezhotovostný vklad,9001550968,
+5,"Peter Šípeková, Smreková 3095/23, Žilina",2022-10-14,-2332.8,EUR,Distribúcia letákov,Okamžitá platba (EB),12022053,
+6,Kolenčíková Renata,2022-10-14,2500.0,EUR,F001141020220484150,Bezhotovostný vklad,28081968,
+7,Róbert Jurových - NIKARA,2022-10-10,-2500.0,EUR,Renáta Kolenčíková - zálohová faktúra,Okamžitá platba (EB),220800029,
+8,Kolenčíková Renata,2022-10-10,1000.0,EUR,F001101020226442869,Bezhotovostný vklad,,
+9,Kolenčíková Renata,2022-10-10,1560.0,EUR,F001101020226439594,Bezhotovostný vklad,,
+10,,2022-09-30,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+11,Kolenčíková Renata,2022-09-21,70.0,EUR,"Renáta Kolenčíková, Hornozoborská 1644/101, Nitra",Bezhotovostný vklad,6558286999,

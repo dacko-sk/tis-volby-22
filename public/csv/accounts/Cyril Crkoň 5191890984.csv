@@ -1,0 +1,39 @@
+index,account_name,date,amount,currency,message,tx_type,vs,ss
+0,,2022-10-31,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+1,,2022-10-31,-4.0,EUR,Poplatok za vedenie účtu,Poplatok,,
+2,,2022-10-31,-1.3,EUR,"Vedenie Platobnej karty elektronickej,2312,5,Karta č. 4544 12** **** 1085Poplatok za Platobnú kartu",Kartový poplatok,,
+3,,2022-10-31,-0.2,EUR,Popl.Pl.Prík.na úh./Prev.EUR EHP/FIT(EB),Poplatok,0022220026,0000000000
+4,NOTPROVIDED,2022-10-31,-9.93,EUR,,Platobný príkaz na úhradu zadaný na ATM,0022220026,0000000000
+5,,2022-10-11,-0.2,EUR,Popl.Pl.Prík.na úh./Prev.EUR EHP/FIT(EB),Poplatok,0020220169,0000000000
+6,NOTPROVIDED,2022-10-11,-260.5,EUR,,Platobný príkaz na úhradu zadaný na ATM,0020220169,0000000000
+7,,2022-10-11,-0.2,EUR,Popl.Pl.Prík.na úh./Prev.EUR EHP/FIT(EB),Poplatok,0020220011,0000000000
+8,NOTPROVIDED,2022-10-11,-229.0,EUR,,Platobný príkaz na úhradu zadaný na ATM,0020220011,0000000000
+9,Crkoň Cyril,2022-10-11,500.0,EUR,F001111020227238471,Bezhotovostný vklad,0000000000,0000000000
+10,,2022-10-03,-0.2,EUR,Popl.Pl.Prík.na úh./Prev.EUR EHP/FIT(EB),Poplatok,0722061339,0000000000
+11,NOTPROVIDED,2022-10-03,-4.52,EUR,,Platobný príkaz na úhradu zadaný na ATM,0722061339,0000000000
+12,,2022-10-03,-0.2,EUR,Popl.Pl.Prík.na úh./Prev.EUR EHP/FIT(EB),Poplatok,0022170244,0000000000
+13,NOTPROVIDED,2022-10-03,-158.4,EUR,,Platobný príkaz na úhradu zadaný na ATM,0022170244,0000000000
+14,,2022-09-30,-4.0,EUR,Poplatok za vedenie účtu,Poplatok,,
+15,,2022-09-30,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+16,,2022-09-30,-2.0,EUR,Zasielanie výpisu poštou v rámci SR,Poplatok,,
+17,,2022-09-30,-1.3,EUR,"Vedenie Platobnej karty elektronickej,2312,5,Karta č. 4544 12** **** 1085Poplatok za Platobnú kartu",Kartový poplatok,,
+18,,2022-09-15,-0.2,EUR,Popl.Pl.Prík.na úh./Prev.EUR EHP/FIT(EB),Poplatok,1229213937,0000000000
+19,NOTPROVIDED,2022-09-15,-159.0,EUR,,Platobný príkaz na úhradu zadaný na ATM,1229213937,0000000000
+20,Crkoň Cyril,2022-09-14,300.0,EUR,F001140920227810419,Bezhotovostný vklad,0000000000,0000000000
+21,,2022-09-10,-0.2,EUR,Popl.Pl.Prík.na úh./Prev.EUR EHP/FIT(EB),Poplatok,0022170235,0000000000
+22,NOTPROVIDED,2022-09-10,-316.8,EUR,,Platobný príkaz na úhradu zadaný na ATM,0022170235,0000000000
+23,,2022-09-01,-0.2,EUR,Popl.Pl.Prík.na úh./Prev.EUR EHP/FIT(EB),Poplatok,0522053649,0000000000
+24,NOTPROVIDED,2022-09-01,-7.99,EUR,,Platobný príkaz na úhradu zadaný na ATM,0522053649,0000000000
+25,,2022-09-01,-0.2,EUR,Popl.Pl.Prík.na úh./Prev.EUR EHP/FIT(EB),Poplatok,0020220146,0000000000
+26,NOTPROVIDED,2022-09-01,-38.0,EUR,,Platobný príkaz na úhradu zadaný na ATM,0020220146,0000000000
+27,,2022-08-31,-4.0,EUR,Poplatok za vedenie účtu,Poplatok,,
+28,,2022-08-31,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+29,,2022-08-31,-1.26,EUR,"Vedenie Platobnej karty elektronickej,2312,5,Karta č. 4544 12** **** 1085Poplatok za Platobnú kartu",Kartový poplatok,,
+30,,2022-08-11,-0.2,EUR,Popl.Pl.Prík.na úh./Prev.EUR EHP/FIT(EB),Poplatok,0000000000,0000000000
+31,NOTPROVIDED,2022-08-11,-15.0,EUR,,Platobný príkaz na úhradu zadaný na ATM,0000000000,0000000000
+32,,2022-07-31,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+33,,2022-07-31,-4.0,EUR,Poplatok za vedenie účtu,Poplatok,,
+34,Crkoň Cyril,2022-07-20,600.0,EUR,F001200720229707093,Bezhotovostný vklad,,
+35,,2022-06-30,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+36,,2022-06-30,-2.27,EUR,Poplatok za vedenie účtu,Poplatok,,
+37,,2022-06-30,-2.0,EUR,Zasielanie výpisu poštou v rámci SR,Poplatok,,

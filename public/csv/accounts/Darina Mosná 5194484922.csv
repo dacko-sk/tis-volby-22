@@ -1,0 +1,12 @@
+index,account_name,date,amount,currency,message,tx_type,vs,ss
+0,,2022-10-31,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+1,P.S. Art,2022-10-26,-340.0,EUR,Grafika,Platobný príkaz na úhradu / FIT 2.0 (EB),10482022,
+2,Ofseta,2022-10-19,-39.5,EUR,0221019110548.671257,Okamžitá platba (EB),2022119,
+3,Ave,2022-10-18,-216.96,EUR,,Platobný príkaz na úhradu / FIT 2.0 (EB),322210026,
+4,Ofseta,2022-10-17,-57.5,EUR,0221017134227.206766,Okamžitá platba (EB),2022113,
+5,,2022-09-30,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+6,Gryf,2022-09-29,-1416.0,EUR,0220929155127.920156,Okamžitá platba (EB),22041,
+7,Darina Mosná,2022-09-29,1500.0,EUR,F001290920229372581,Bezhotovostný vklad,,
+8,CBS,2022-09-29,-48.0,EUR,0220929134741.867328,Okamžitá platba (EB),22090200,
+9,Ctrl C,2022-09-29,-217.2,EUR,Platba faktury 2212001317,Okamžitá platba (EB),2212001317,
+10,Lead,2022-09-25,-30.0,EUR,0220925181357.302213,Okamžitá platba (EB),20220284,

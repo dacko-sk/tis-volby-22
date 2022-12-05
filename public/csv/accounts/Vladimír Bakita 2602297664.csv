@@ -1,0 +1,12 @@
+index,date,amount,tx_type,account_name,message,ks,vs,ss,note
+0,2022-10-25,-6.0,Poplatok,,,,,,Poplatok (Ostatné úkony neuvedené v cenníku vykonávané pracovníkom Fio banky)
+1,2022-10-20,-459.36,Bezhotovostná platba,,Bakita - tlac letakov,,3110210181,,"Fobos trading tlač letákov, plagátov"
+2,2022-10-20,500.0,Bezhotovostný príjem,Vladimír Bakita,"/DO2022-10-19/SP, Bakita Vladimir",,,,Vladimír Bakita
+3,2022-10-20,-266.49,Bezhotovostná platba,,Bakita - inzercia,,220100432,,"inzercia AB Piešťany 37, 39"
+4,2022-10-13,-84.0,Bezhotovostná platba,,volebna kampan Bakita- banner,,09522,,banner Piešťanský denník
+5,2022-10-07,-16.11,Bezhotovostná platba,,platba faktury DLaF 320-22-00299,,1725713,,FaxCopy  grafické práce+tlač
+6,2022-10-04,200.0,Bezhotovostný príjem,Vladimír Bakita,"/DO2022-10-03/SP, Bakita Vladimir",,,,Vladimír Bakita
+7,2022-09-20,-40.0,Bezhotovostná platba,,"Bakita - uverejnenie reklamneho cla
+nku  na FB PD, a PT",,,,"Bakita - uverejnenie reklamného článku  na FB PD, a PT"
+8,2022-09-12,200.0,Bezhotovostný príjem,Vladimír Bakita,"/DO2022-09-12/SP, Bakita Vladimir",,,,Vladimír Bakita
+9,2022-08-31,20.0,Bezhotovostný príjem,Vladimír Bakita,"/DO2022-08-30/SP, Bakita Vladimir",,,,Vladimír Bakita

@@ -1,0 +1,5 @@
+index,account_name,date,amount,currency,message,tx_type,vs,ss
+0,,2022-10-31,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+1,,2022-10-31,-2.9,EUR,Poplatok za vedenie účtu,Poplatok,,
+2,Požárová Tatiana,2022-10-26,250.0,EUR,F001261020220727688,Bezhotovostný vklad,,
+3,DP Design s.r.o.,2022-10-17,100.0,EUR,F001171020224055089,Bezhotovostný vklad,,

@@ -1,0 +1,11 @@
+index,account_name,date,amount,currency,message,tx_type,vs,ss
+0,,2022-10-31,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+1,BRANMEDIA s.r.o.,2022-10-18,-593.4,EUR,Peter Horník; Tržby za poskytnuté služby; 17.10.2022(grafika a tlač letákov),Platobný príkaz na úhradu / FIT 2.0 (EB),1020220267,
+2,Hornik Peter,2022-10-17,500.0,EUR,Predvolebná kampaň 2022,Bezhotovostný vklad,,
+3,BRANMEDIA s.r.o.,2022-10-14,-84.0,EUR,Peter Horník; Tržby za poskytnuté služby; 11.10.2022,Platobný príkaz na úhradu / FIT 2.0 (EB),1020220263,
+4,Veronika Hrdlicová,2022-10-13,100.0,EUR,Predvolebná kompaň 2022,Bezhotovostný vklad,,
+5,Ondrušeková Simona,2022-10-04,50.0,EUR,Predvolebná kampaň 2022,Bezhotovostný vklad,,
+6,,2022-09-30,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+7,"CONFIDENCE MEDIA SR, s.r.o.",2022-09-27,-237.6,EUR,Prenájom reklamnej plochy,Okamžitá platba (EB),2221229,
+8,Hornik Peter,2022-09-27,300.0,EUR,Predvolebná kampaň 2022,Bezhotovostný vklad,,
+9,Korman Tomáš,2022-09-20,20.0,EUR,Predvolebna kampan 2022,Bezhotovostný vklad,,

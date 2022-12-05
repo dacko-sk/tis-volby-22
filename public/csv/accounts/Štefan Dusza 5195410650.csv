@@ -1,0 +1,7 @@
+index,account_name,date,amount,currency,message,tx_type,vs,ss
+0,,2022-11-03,-6.0,EUR,Popl.Pl.Prík.na úh./Prev.EUR EHP/FIT(OM),Poplatok,220013,
+1,NOTPROVIDED,2022-11-03,-320.0,EUR,,Platobný príkaz na úhradu / FIT 2.0 (OM),220013,
+2,,2022-10-31,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+3,,2022-10-31,-5.61,EUR,Poplatok za vedenie účtu,Poplatok,,
+4,Dusza Štefan,2022-10-25,350.0,EUR,F001251020229918698,Bezhotovostný vklad,,
+5,Dusza Štefan,2022-10-11,70.0,EUR,F001111020227332304,Bezhotovostný vklad,,

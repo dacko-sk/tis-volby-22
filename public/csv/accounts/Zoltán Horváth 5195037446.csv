@@ -1,0 +1,12 @@
+index,account_name,date,amount,currency,message,tx_type,vs,ss
+0,Vox Juventae,2022-11-08,-300.0,EUR,,Platobný príkaz na úhradu / FIT 2.0 (EB),070012022,112022
+1,"DIZART, s.r.o.",2022-11-07,-180.0,EUR,0221107144945.272443,Okamžitá platba (EB),2022180,
+2,ADC MEDIA a.s.,2022-11-07,-1358.08,EUR,0221107144537.301954,Okamžitá platba (EB),20220646,41184322
+3,,2022-10-31,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+4,,2022-10-31,-6.0,EUR,Poplatok za vedenie účtu,Poplatok,,
+5,Kanovits Group s.r.o.,2022-10-31,-5431.2,EUR,Platba faktury 22010061,Platobný príkaz na úhradu / FIT 2.0 (EB),22010061,
+6,Gabriel Hegyi - REDDO,2022-10-30,-374.0,EUR,0221030213942.663790,Okamžitá platba (EB),232022,
+7,Zsóka Horváth,2022-10-26,5000.0,EUR,F001261020220345122,Bezhotovostný vklad,,
+8,CSEFAI TIBOR,2022-10-06,5000.0,EUR,23659859,Bezhotovostný vklad,,
+9,,2022-09-30,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+10,,2022-09-30,-2.0,EUR,Poplatok za vedenie účtu,Poplatok,,

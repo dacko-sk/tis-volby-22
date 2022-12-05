@@ -1,0 +1,6 @@
+index,account_name,date,amount,currency,message,tx_type,vs,ss
+0,,2022-10-31,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+1,TELEKOM TKR s.r.o,2022-10-21,-80.0,EUR,Ing. Ján Ragan; ; 21.10.2022,Platobný príkaz na úhradu / FIT 2.0 (EB),2022030,
+2,Balween Slovakia,2022-10-21,-1766.4,EUR,Ing. Jan RAGAN- banner,Platobný príkaz na úhradu / FIT 2.0 (EB),20221053,
+3,,2022-09-30,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+4,Ragan Ján,2022-09-25,2000.0,EUR,F001250920226919551,Bezhotovostný vklad,,

@@ -1,0 +1,15 @@
+index,date,amount,tx_type,account_name,message,ks,vs,ss,note
+0,2022-11-04,-1600.0,Bezhotovostná platba,,Vratenie cast pozicky,,,,
+1,2022-10-25,-393.84,Bezhotovostná platba,,Letaky,0008,2200326,,Grafika Plagáty
+2,2022-10-25,-312.0,Bezhotovostná platba,,Noviny A3 na A4 Viprint 5000ks,,170822,,Noviny
+3,2022-10-24,-480.0,Platba prevodom v rámci banky,,Kampan,0008,100462022,,Kampan
+4,2022-10-24,-144.0,Bezhotovostná platba,,Prenajom rekl. plochy,,2022000359,,Tech .služby Detva
+5,2022-10-20,2800.0,Bezhotovostný príjem,Jozef Vybostok,/DO2022-10-19/SP,,,,Jozef Vybostok
+6,2022-10-11,-50.0,Bezhotovostná platba,,Sluzba obcanovi,,,,Rozvoz lezákov
+7,2022-09-12,-270.0,Bezhotovostná platba,,,,22097079,,Kampan
+8,2022-09-09,-50.0,Bezhotovostná platba,,Sluzba obcanovi,,,,Rozvoz letákov
+9,2022-06-30,-156.0,Bezhotovostná platba,,kampan Jozef Vybostok,,12120313,,
+10,2022-06-30,-340.8,Bezhotovostná platba,,Kampan Jozef Vybostok,,122290165,,
+11,2022-06-30,450.0,Platba prevodom v rámci banky,Nelve s.r.o.,,,,,Nelve z USD
+12,2022-06-30,700.0,Platba prevodom v rámci banky,Nelve s.r.o.,,,,,Od Nelve
+13,2022-02-17,20.0,Platba prevodom v rámci banky,Nelve s.r.o.,,,,,

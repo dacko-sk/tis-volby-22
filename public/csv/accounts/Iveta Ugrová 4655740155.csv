@@ -1,0 +1,10 @@
+index,date,amount,account_name,message,vs
+0,2022-10-31,6.0,,Odpustenie vedenie konta,9
+1,2022-10-31,-6.0,,Vedenie konta Transparentný účet,9
+2,2022-09-30,5.44,,Odpust.-popl.za platby a ved.úč/ko,9
+3,2022-09-30,-0.44,,Poplatky za platby spolu,9
+4,2022-09-30,-5.0,,Vedenie účtu,9
+5,2022-09-30,12.9,Gajdyová Jana,Vratenie platby,
+6,2022-09-30,-12.9,,,
+7,2022-09-26,-40.0,Obec Dunajska Luzna,Volebny bulletin kandidat na starostu,
+8,2022-09-22,100.0,Iveta Ugrová,,

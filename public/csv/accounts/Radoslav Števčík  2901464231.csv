@@ -1,0 +1,6 @@
+index,date,amount,tx_type,account_name,message,ks,vs,ss,note
+0,2022-10-12,-190.0,Bezhotovostná platba,,"ANWELL, s.r.o.: 20223088 - Mgr. Rad
+oslav Stevcik - 2022/10",,20223088,,
+1,2022-10-12,5000.0,Bezhotovostný príjem,"Števčík Radoslav, Mg",/DO2022-10-11/SPradoslav stevcik,,,,"Števčík Radoslav, Mg"
+2,2022-09-29,-1987.2,Bezhotovostná platba,,,,,,bigmedia
+3,2022-09-19,2000.0,Bezhotovostný príjem,"Števčík Radoslav, Mg",/DO2022-09-19/SP,,,,"Števčík Radoslav, Mg"

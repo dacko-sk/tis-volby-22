@@ -1,0 +1,7 @@
+index,account_name,date,amount,currency,message,tx_type,vs,ss
+0,,2022-10-31,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+1,,2022-10-31,-6.0,EUR,Poplatok za vedenie účtu,Poplatok,,
+2,Miroslav Bartoš - agentúra VŠEHOMÍR,2022-10-23,-50.0,EUR,Platba faktúra 00010/22,Platobný príkaz na úhradu / FIT 2.0 (EB),,
+3,Čambal Michal,2022-10-22,100.0,EUR,F001221020228364693,Bezhotovostný vklad,,
+4,,2022-09-30,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+5,,2022-09-30,-5.6,EUR,Poplatok za vedenie účtu,Poplatok,,

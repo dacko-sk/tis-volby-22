@@ -1,0 +1,51 @@
+index,date,amount,tx_type,account_name,message,ks,vs,ss,note
+0,2022-11-02,-72.99,Transakcia kartou,,"Nákup: GOOGLE *ADS1602329117,  Gordon House, Barrow Street, 650-253-0000, UNKNOWN, IRL, dne 1.11.2022, částka  72.99 EUR",,6698,,"Nákup: GOOGLE *ADS1602329117,  Gordon House, Barrow Street, 650-253-0000, UNKNOWN, IRL, dne 1.11.2022, částka  72.99 EUR"
+1,2022-10-31,-104.42,Transakcia kartou,,"Nákup: FACEBK 75W22JXJD2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 31.10.2022, částka  104.42 EUR",,6698,,"Nákup: FACEBK 75W22JXJD2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 31.10.2022, částka  104.42 EUR"
+2,2022-10-28,150.0,Bezhotovostný príjem,KUSENDA MARTIN,/DO2022-10-27/SPKUSENDA MARTIN,,,,KUSENDA MARTIN
+3,2022-10-26,-180.0,Platba prevodom v rámci banky,,Faktúra 221548,0308,221548,,"Adverti, s.r.o.  Zbehy 185 95142 Zbehy Slovensko, letáky 2 druhy 4+4, 2000ks"
+4,2022-10-25,-350.0,Transakcia kartou,,"Nákup: GOOGLE *ADS1602329117,  Gordon House, Barrow Street, 650-253-0000, UNKNOWN, IRL, dne 25.10.2022, částka  350.00 EUR",,6698,,"Nákup: GOOGLE *ADS1602329117,  Gordon House, Barrow Street, 650-253-0000, UNKNOWN, IRL, dne 25.10.2022, částka  350.00 EUR, youtube videokampaň"
+5,2022-10-24,-240.0,Transakcia kartou,,"Nákup: FACEBK JPB4PHFKD2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 23.10.2022, částka  240.00 EUR",,6698,,"Nákup: FACEBK JPB4PHFKD2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 23.10.2022, částka  240.00 EUR"
+6,2022-10-21,500.0,Bezhotovostný príjem,KUSENDA MARTIN,/DO2022-10-20/SPKUSENDA MARTIN,,,,KUSENDA MARTIN
+7,2022-10-20,-21.18,Bezhotovostná platba,,"800 Domena .sk - prevadzkovy poplat
+ok - rok? Odberatel: 236 094 000",0308,202207763,,"WEBY GROUP, s.r.o. Nižovec 2a 960 01 Zvolen, 800 Doména.sk - prevádzkový poplatok -rok"
+8,2022-10-20,-212.0,Bezhotovostná platba,,Polep Kusenda 2595 x 1995 mm,,20220003,,"print2go s.r.o. Samova 8 949 01 Nitra, polep + dolepka billboard L+Š"
+9,2022-10-10,500.0,Bezhotovostný príjem,KUSENDA MARTIN,/DO2022-10-08/SP,,,,KUSENDA MARTIN
+10,2022-10-09,-20.0,Transakcia kartou,,"Nákup: WWW.LUDIALUDOM.SK,  BORSKA 6, BRATISLAVA, 84104, SVK, dne 8.10.2022, částka  20.00 EUR",,6698,,"Nákup: WWW.LUDIALUDOM.SK,  BORSKA 6, BRATISLAVA, 84104, SVK, dne 8.10.2022, částka  20.00 EUR"
+11,2022-10-07,-100.0,Bezhotovostná platba,,Martin Kusenda,,,,"Slovenskí rebeli Komárno, finančný dar"
+12,2022-10-02,-166.51,Transakcia kartou,,"Nákup: GOOGLE *ADS1602329117,  Gordon House, Barrow Street, 650-253-0000, UNKNOWN, IRL, dne 1.10.2022, částka  166.51 EUR",,6698,,"Nákup: GOOGLE *ADS1602329117,  Gordon House, Barrow Street, 650-253-0000, UNKNOWN, IRL, dne 1.10.2022, částka  166.51 EUR"
+13,2022-10-02,-204.0,Platba prevodom v rámci banky,,Faktúra 221406,0308,221406,,"Adverti, s.r.o.  Zbehy 185 95142 Zbehy Slovensko, plagáty 317x653,8, plagáty 316x500, grafické práce"
+14,2022-10-02,-120.0,Bezhotovostná platba,,FAKTURA  40200554,0008,40200554,,"L & Š, s.r.o. Novozámocká 199, 949 05 Nitra, Slovenská republika, prenájom spodnej tabule č.7."
+15,2022-09-30,-74.33,Transakcia kartou,,"Nákup: FACEBK 2RBUZFPKD2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 30.9.2022, částka  74.33 EUR",,6698,,"Nákup: FACEBK 2RBUZFPKD2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 30.9.2022, částka  74.33 EUR"
+16,2022-09-14,500.0,Bezhotovostný príjem,KUSENDA MARTIN,/DO2022-09-13/SPVklad,,,,KUSENDA MARTIN
+17,2022-09-12,-180.0,Platba prevodom v rámci banky,,"Tlač letákov A6, 4+4, 130 gr. ONM 2 druhy IDG279",0308,221226,,"Adverti, s.r.o.  Zbehy 185 95142 Zbehy Slovensko, Tlač letákov A6, 4+4, 130 gr. ONM 2 druhy"
+18,2022-09-02,-344.86,Transakcia kartou,,"Nákup: GoogleAdwordsEU ADS160,  Gordon House, Barrow Street, Dublin, D04 E5W5, IRL, dne 1.9.2022, částka  344.86 EUR",,6698,,"Nákup: GoogleAdwordsEU ADS160,  Gordon House, Barrow Street, Dublin, D04 E5W5, IRL, dne 1.9.2022, částka  344.86 EUR, youtube videokampaň"
+19,2022-09-01,-98.21,Transakcia kartou,,"Nákup: FACEBK LPKDEG3KD2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 31.8.2022, částka  98.21 EUR",,6698,,"Nákup: FACEBK LPKDEG3KD2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 31.8.2022, částka  98.21 EUR"
+20,2022-08-23,-7.0,Transakcia kartou,,"Nákup: 24-pay*http://registra,  KALOV 356, Topolcianky, 01001, SVK, dne 22.8.2022, částka  7.00 EUR",,6698,,"Nákup: 24-pay*http://registra,  KALOV 356, Topolcianky, 01001, SVK, dne 22.8.2022, částka  7.00 EUR, Registrácia beh."
+21,2022-08-02,-237.81,Transakcia kartou,,"Nákup: GOOGLE *ADS1602329117,  Gordon House, Barrow Street, 650-253-0000, UNKNOWN, IRL, dne 1.8.2022, částka  237.81 EUR",,6698,,"Nákup: GOOGLE *ADS1602329117,  Gordon House, Barrow Street, 650-253-0000, UNKNOWN, IRL, dne 1.8.2022, částka  237.81 EUR, youtube videokampaň"
+22,2022-08-01,-33.44,Transakcia kartou,,"Nákup: FACEBK X5YMQFXJD2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 1.8.2022, částka  33.44 EUR",,6698,,"Nákup: FACEBK X5YMQFXJD2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 1.8.2022, částka  33.44 EUR"
+23,2022-07-07,1200.0,Bezhotovostný príjem,KUSENDA MARTIN,/DO2022-07-06/SPVklad,,,,KUSENDA MARTIN
+24,2022-07-06,-128.0,Bezhotovostná platba,,Faktura 202236,,202236,,"Mgr. Daniel Blažko - dbart,  Ďurková 22 949 01 Nitra Slovensko, administračné, grafické a poradenské práce www.martinkusenda.sk"
+25,2022-07-01,-33.41,Transakcia kartou,,"Nákup: FACEBK SE7X2HKKD2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 30.6.2022, částka  33.41 EUR",,6698,,"Nákup: FACEBK SE7X2HKKD2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 30.6.2022, částka  33.41 EUR"
+26,2022-06-14,-105.84,Platba prevodom v rámci banky,,"Martin Kusenda, kartičky s receptami",0308,220796,,"Adverti, s.r.o.  Zbehy 185 95142 Zbehy Slovensko, kartičky s receptami 1000ks"
+27,2022-06-05,-10.8,Transakcia kartou,,"Nákup: FACEBK JBR99EBGG2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 5.6.2022, částka  10.80 EUR",,6698,,"Nákup: FACEBK JBR99EBGG2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 5.6.2022, částka  10.80 EUR"
+28,2022-06-04,-89.62,Transakcia kartou,,"Nákup: GOOGLE *ADS1602329117,  Gordon House, Barrow Street, 650-253-0000, UNKNOWN, IRL, dne 3.6.2022, částka  89.62 EUR",,6698,,"Nákup: GOOGLE *ADS1602329117,  Gordon House, Barrow Street, 650-253-0000, UNKNOWN, IRL, dne 3.6.2022, částka  89.62 EUR, youtube videokampaň"
+29,2022-05-31,-16.55,Transakcia kartou,,"Nákup: FACEBK Z5KRYDFKD2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 31.5.2022, částka  16.55 EUR",,6698,,"Nákup: FACEBK Z5KRYDFKD2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 31.5.2022, částka  16.55 EUR"
+30,2022-05-30,-118.8,Platba prevodom v rámci banky,,"Martin Kusenda, polokošele s potlačou",0308,220722,,"Adverti, s.r.o.  Zbehy 185 95142 Zbehy Slovensko, polokošele s potlačou"
+31,2022-05-27,-10.8,Transakcia kartou,,"Nákup: FACEBK KNHN2FTFG2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 27.5.2022, částka  10.80 EUR",,6698,,"Nákup: FACEBK KNHN2FTFG2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 27.5.2022, částka  10.80 EUR"
+32,2022-05-26,230.0,Bezhotovostný príjem,Lenka Kusendová,/DO2022-05-26/SP mobil,,,,Lenka Kusendová
+33,2022-05-23,-200.0,Transakcia kartou,,"Nákup: GOOGLE *ADS1602329117,  Gordon House, Barrow Street, cc@google.com, UNKNOWN, IRL, dne 22.5.2022, částka  200.00 EUR",,6698,,"Nákup: GOOGLE *ADS1602329117,  Gordon House, Barrow Street, cc@google.com, UNKNOWN, IRL, dne 22.5.2022, částka  200.00 EUR, youtube videokampaň"
+34,2022-05-20,-2.22,Transakcia kartou,,"Nákup: FACEBK 7QJKUETFG2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 20.5.2022, částka  2.22 EUR",,6698,,"Nákup: FACEBK 7QJKUETFG2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 20.5.2022, částka  2.22 EUR"
+35,2022-05-18,-10.8,Transakcia kartou,,"Nákup: FACEBK GG72PDPFG2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 18.5.2022, částka  10.80 EUR",,6698,,"Nákup: FACEBK GG72PDPFG2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 18.5.2022, částka  10.80 EUR"
+36,2022-05-12,-3.99,Transakcia kartou,,"Nákup: FACEBK XWB3ZCKWV2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 11.5.2022, částka  3.99 EUR",,6698,,"Nákup: FACEBK XWB3ZCKWV2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 11.5.2022, částka  3.99 EUR"
+37,2022-05-05,-225.89,Platba prevodom v rámci banky,,"Martin Kusenda, plagáty A3, tričká a polokošele, potlač digitál, príprava, grafické práce",0308,220572,,"Adverti, s.r.o.  Zbehy 185 95142 Zbehy Slovensko,  plagáty A3, tričká a polokošele, potlač digitál, príprava, grafické práce"
+38,2022-05-03,-49.92,Transakcia kartou,,"Nákup: GOOGLE *ADS1602329117,  Gordon House, Barrow Street, cc@google.com, UNKNOWN, IRL, dne 3.5.2022, částka  49.92 EUR",,6698,,"Nákup: GOOGLE *ADS1602329117,  Gordon House, Barrow Street, cc@google.com, UNKNOWN, IRL, dne 3.5.2022, částka  49.92 EUR, youtube videokampaň"
+39,2022-04-26,-50.0,Transakcia kartou,,"Nákup: GOOGLE*ADS1602329117,  CC GOOGLE.COM, INTERNET, D04 E5W5, IRL, dne 25.4.2022, částka  50.00 EUR",,6698,,"Nákup: GOOGLE*ADS1602329117,  CC GOOGLE.COM, INTERNET, D04 E5W5, IRL, dne 25.4.2022, částka  50.00 EUR, youtube videokampaň"
+40,2022-04-04,-115.66,Bezhotovostná platba,,Faktura 202211,,202211,,"Mgr. Daniel Blažko - dbart,  Ďurková 22 949 01 Nitra Slovensko, administračné, grafické a poradenské práce www.martinkusenda.sk"
+41,2022-03-29,-41.4,Platba prevodom v rámci banky,,"Martin Kusenda, plagáty A3, vizitky 4+4",0308,220376,,"Adverti, s.r.o.  Zbehy 185 95142 Zbehy Slovensko, plagáty A3, vizitky 4+4"
+42,2022-03-23,-120.0,Bezhotovostná platba,,"pristup do archivu konferencie Mark
+eting Rulezz Special - Martin Kusen
+da",,22050,,"MARKETERS, s.r.o.  Čsl. parašutistov 23 831 03 Bratislava, online konferencia politický marketing - prístup do archívu"
+43,2022-03-07,-865.62,Bezhotovostná platba,,Faktura 202211,,202211,,"Mgr. Daniel Blažko - dbart,  Ďurková 22 949 01 Nitra Slovensko, profesionálna šablóna webu, vytvorenie nových internetových stránok"
+44,2022-03-03,-60.0,Platba prevodom v rámci banky,,Banner . reklamná plachta do roll up IDG046,0308,220226,,"Adverti, s.r.o.  Zbehy 185 95142 Zbehy Slovensko, banner-reklamná plachta do roll up systému"
+45,2022-03-03,2000.0,Bezhotovostný príjem,KUSENDA MARTIN,/DO2022-03-02/SP,,,,KUSENDA MARTIN
+46,2022-01-14,44.0,Bezhotovostný príjem,KUSENDA MARTIN,/DO2022-01-13/SPVklad,,,,KUSENDA MARTIN

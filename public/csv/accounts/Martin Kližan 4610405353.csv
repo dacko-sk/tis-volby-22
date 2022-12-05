@@ -1,0 +1,66 @@
+index,date,amount,account_name,message,vs
+0,2022-11-18,141.0,Martin Kližan,Vklad prostriedkov za ucelom uhrady nakladov,
+1,2022-11-02,-1.2,,Mesačný popl. Vydanie/obnova karty,3770
+2,2022-11-02,-0.45,,Poplatky Nonstop banking - SMS,
+3,2022-10-31,6.0,,Odpustenie vedenie konta,9
+4,2022-10-31,-6.0,,Vedenie konta Transparentný účet,9
+5,2022-10-31,-4104.0,Gupress,Vyplatenie faktury Tlac letakov,
+6,2022-10-31,4104.0,Martin Kližan,Vklad prostriedkov za ucelom uhrady nakladov,
+7,2022-10-25,-700.0,,Prenajom saly ZH,529
+8,2022-10-25,500.0,Martin Kližan,,
+9,2022-10-24,-2000.0,"VUB,A.S.",DDSLOVENSKA~POSTABRATISLAVA~~~~~P1,****3770
+10,2022-10-21,2000.0,Martin Kližan,,
+11,2022-10-19,-75.62,Platba kartou,FACEBK *YYK93HK fb.me/ads,****2673
+12,2022-10-17,-350.0,"VUB,A.S.",DDFACEBK~*FAZYXGKfb.me/ads~~~~~~P1,****2673
+13,2022-10-04,-225.0,Platba kartou,FACEBK *ADZYEGB fb.me/ads,****2673
+14,2022-10-03,-225.0,"VUB,A.S.",DDFACEBK~*BN93DGBfb.me/ads~~~~~~P1,****2673
+15,2022-10-03,-0.6,,Poplatky Nonstop banking - SMS,
+16,2022-09-30,6.0,,Odpustenie vedenie konta,9
+17,2022-09-30,-6.0,,Vedenie konta Transparentný účet,9
+18,2022-09-30,-2000.0,,Marketingove sluzby,220902
+19,2022-09-29,2500.0,Martin Kližan,,
+20,2022-09-26,500.0,Martin Kližan,,
+21,2022-09-26,-1140.0,,Plagaty plus brigadnici,
+22,2022-09-23,-9174.0,,Letaky tlaciaren,8220079
+23,2022-09-19,-87.74,Platba kartou,FACEBK RW42MGPJ fb.me/ads,****2673
+24,2022-09-19,-66.27,"VUB,A.S.",DDFACEBK~*J5UJJFTfb.me/ads~~~~~~P1,****2673
+25,2022-09-09,10000.0,KAVICKA MARTINA,,
+26,2022-09-07,-2640.0,,Promo bikes,
+27,2022-09-07,2800.0,Martin Kližan,,
+28,2022-09-07,500.0,Martin Kližan,,
+29,2022-09-02,-0.6,,Poplatky Nonstop banking - SMS,
+30,2022-08-31,6.0,,Odpustenie vedenie konta,9
+31,2022-08-31,-6.0,,Vedenie konta Transparentný účet,9
+32,2022-08-23,-1852.0,,Promo material,
+33,2022-08-22,-432.0,ŠKP servis,Videoprodukcia,2204116
+34,2022-08-22,-2600.0,,Marketing poradenstvo,220801
+35,2022-08-22,-1844.0,,Billboard,
+36,2022-08-18,-157.12,Platba kartou,FACEBK 98S62GPL fb.me/ads,****2673
+37,2022-08-17,-80.07,Platba kartou,FACEBK RLWMMEXJ fb.me/ads,****2673
+38,2022-08-15,-360.0,,Koncert material,
+39,2022-08-08,-100.0,Platba kartou,FACEBK DJKGVFTJ fb.me/ads,****2673
+40,2022-08-05,-150.0,Platba kartou,FACEBK NW6SFETL fb.me/ads,****2673
+41,2022-08-05,-1038.0,Peter Kovac,Atrakcie,
+42,2022-08-02,-0.45,,Poplatky Nonstop banking - SMS,
+43,2022-07-29,6.0,,Odpustenie vedenie konta,9
+44,2022-07-29,-6.0,,Vedenie konta Transparentný účet,9
+45,2022-07-28,-70.0,Platba kartou,FACEBK *V57UWDX fb.me/ads,****2673
+46,2022-07-27,-686.0,,Reklamne tasky,
+47,2022-07-26,-100.0,Platba kartou,FACEBK 4B388ETL fb.me/ads,****2673
+48,2022-07-25,-70.0,"VUB,A.S.",DDFACEBK~*V3Z6DF3fb.me/ads~~~~~~P1,****2673
+49,2022-07-18,-85.33,"VUB,A.S.",DDFACEBK~2HWURD3Mfb.me/ads~~~~~~P1,****2673
+50,2022-07-18,-650.0,Ribida s.r.o.,Atelier fotenie,20220001
+51,2022-07-15,10000.0,KAVICKA MARTINA,,
+52,2022-07-11,-100.0,Platba kartou,FACEBK P6PHHDXL fb.me/ads,****2673
+53,2022-07-08,-3900.0,,"Brigadnici, bike",
+54,2022-07-07,3900.0,Martin Kližan,,
+55,2022-06-30,23.22,,Odpust.-popl.za platby a ved.úč/ko,9
+56,2022-06-30,-18.22,,Poplatky za platby spolu,9
+57,2022-06-30,-5.0,,Vedenie účtu,9
+58,2022-06-30,-840.0,Gupress,A5,7220256
+59,2022-06-30,840.0,Martin Kližan,A5 Klizan,
+60,2022-06-16,-3600.0,,,
+61,2022-06-16,3600.0,Martin Kližan,,
+62,2022-06-14,500.0,Martin Kližan,,
+63,2022-06-03,-9637.2,,,
+64,2022-06-03,9637.2,Martin Kližan,,

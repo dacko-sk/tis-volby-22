@@ -1,0 +1,22 @@
+index,account_name,date,amount,currency,message,tx_type,vs,ss
+0,,2022-10-31,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+1,,2022-10-31,-6.0,EUR,Poplatok za vedenie účtu,Poplatok,,
+2,"Lipoprint, s.r.o.",2022-10-25,-1722.6,EUR,Jan Spevar platba za tlacoviny,Platobný príkaz na úhradu / FIT 2.0 (EB),2022245,6708131815
+3,Spevár Ján,2022-10-25,1500.0,EUR,Jan Spevar Transparentny ucet SLSP,Bezhotovostný vklad - okamžitá platba,,
+4,BigMedia sro,2022-10-12,-2000.0,EUR,Jan Spevar fa c 12223/01101,Platobný príkaz na úhradu / FIT 2.0 (EB),122230110,6708131815
+5,,2022-09-30,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+6,,2022-09-30,-6.0,EUR,Poplatok za vedenie účtu,Poplatok,,
+7,"EK-PROMOTION, s.r.o.",2022-09-26,-413.76,EUR,JSP prenajom bilboardov tlac a vylep,Platobný príkaz na úhradu / FIT 2.0 (EB),20220070,6708131815
+8,MG Company sro,2022-09-26,-392.4,EUR,Platba JSP Reklamne sluzby + tlac,Okamžitá platba (EB),1272022,
+9,,2022-08-31,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+10,,2022-08-31,-6.0,EUR,Poplatok za vedenie účtu,Poplatok,,
+11,"EK-PROMOTION, s.r.o.",2022-08-31,-350.8,EUR,JSP prenajom reklamnej plochy VOLBY 2022,Platobný príkaz na úhradu / FIT 2.0 (EB),20220058,6708131815
+12,MG Company sro,2022-08-30,-399.0,EUR,0220830155759.739273,Okamžitá platba (EB),1132022,6708131815
+13,MG Company sro,2022-08-03,-531.6,EUR,Jan Spevar,Okamžitá platba (EB),1022022,
+14,,2022-07-31,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+15,,2022-07-31,-6.0,EUR,Poplatok za vedenie účtu,Poplatok,,
+16,"EK-PROMOTION, s.r.o.",2022-07-29,-350.4,EUR,Jan Spevar prenajom bilboardov 2ks Handlova,Platobný príkaz na úhradu / FIT 2.0 (EB),20220051,
+17,Spevár Ján,2022-07-29,5000.0,EUR,JAN SPEVAR TRANSPARENTNY UCET,Bezhotovostný vklad,,
+18,"EK-PROMOTION, s.r.o.",2022-07-01,-350.0,EUR,M.A. JAN SPEVAR,Platobný príkaz na úhradu / FIT 2.0 (EB),20220043,
+19,,2022-06-30,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+20,,2022-06-30,-2.0,EUR,Poplatok za vedenie účtu,Poplatok,,

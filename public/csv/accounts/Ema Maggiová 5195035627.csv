@@ -1,0 +1,5 @@
+index,account_name,date,amount,currency,message,tx_type,vs,ss
+0,,2022-10-31,-5,EUR,Zverejňovanie účtu,Poplatok,,
+1,Marcel Stolár,2022-10-31,-221,EUR,obcerstvenie a hudba na predvolebny meeting,Okamžitá platba (EB),220100001,
+2,Luboš Kostur,2022-10-27,-590,EUR,Tlač reklamných plagátov + rozvoz,Platobný príkaz na úhradu / FIT 2.0 (EB),,
+3,,2022-09-30,-5,EUR,Zverejňovanie účtu,Poplatok,,

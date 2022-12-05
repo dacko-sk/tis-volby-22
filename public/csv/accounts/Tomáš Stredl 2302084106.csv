@@ -1,0 +1,19 @@
+index,date,amount,tx_type,account_name,message,ks,vs,ss,note
+0,2022-11-02,-160.8,Bezhotovostná platba,,Tomas Stredl,,20220135,,
+1,2022-11-02,5.0,Bezhotovostný príjem,STREDL TOMAS,/DO2022-10-31/SPPodpora kampane,,,,STREDL TOMAS
+2,2022-10-26,40.0,Bezhotovostný príjem,STREDL TOMAS,/DO2022-10-25/SPPodpora kampane,,,,STREDL TOMAS
+3,2022-10-12,-420.0,Bezhotovostná platba,,Tomas Stredl,0308,8442022,,
+4,2022-10-10,100.0,Bezhotovostný príjem,MATIS IVAN,/DO2022-10-10/SPValjon valora az alom  :),,20221029,,MATIS IVAN
+5,2022-09-22,-450.0,Bezhotovostná platba,,Tomas Stredl,0308,7802022,,
+6,2022-09-05,100.0,Bezhotovostný príjem,HANAK ZOLTAN,/DO2022-09-03/SPHajra,,,,HANAK ZOLTAN
+7,2022-09-05,30.0,Bezhotovostný príjem,Veronika Rakovická,/DO2022-09-02/SP Nech sa dari,,,,Veronika Rakovická
+8,2022-08-26,50.0,Bezhotovostný príjem,Ingrid Németh,/DO2022-08-25/SP,,,,Ingrid Németh
+9,2022-08-26,300.0,Bezhotovostný príjem,Miške Tomáš,/DO2022-08-25/SPTomas Miske DAR,,,,Miške Tomáš
+10,2022-08-22,100.0,Bezhotovostný príjem,Putz Erik,/DO2022-08-19/SPSok sikert,,,,Putz Erik
+11,2022-08-16,50.0,Bezhotovostný príjem,ZSOLT BENES,/DO2022-08-15/SPZsolt Benes - podpora kampane,,,,ZSOLT BENES
+12,2022-08-15,50.0,Bezhotovostný príjem,Marczell András,/DO2022-08-13/SPmarczell noemi,,,,Marczell András
+13,2022-08-10,100.0,Bezhotovostný príjem,Levente Molnár,/DO2022-08-09/SPLevente _ Podpora kampane,,,,Levente Molnár
+14,2022-08-10,70.0,Bezhotovostný príjem,Peter Feldmár,/DO2022-08-09/SP Peter Feldmar,,,,Peter Feldmár
+15,2022-08-08,20.0,Bezhotovostný príjem,STREDL TOMAS,/DO2022-08-05/SPPodpora kampane,,,,STREDL TOMAS
+16,2021-12-15,20.0,Bezhotovostný príjem,STREDL TOMAS,"/DO2021-12-14/SPPrispevok na kampan, PRISPEVOK NA KAMPAN",,,,STREDL TOMAS
+17,2021-12-13,10.0,Vklad v hotovosti,,,0558,,,

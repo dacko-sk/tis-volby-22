@@ -1,0 +1,11 @@
+index,account_name,date,amount,currency,message,tx_type,vs,ss
+0,"PROGRUP SK, s.r.o.",2022-11-07,-7900,EUR,,Platobný príkaz na úhradu / FIT 2.0 (EB),22180,
+1,,2022-10-31,-5,EUR,Zverejňovanie účtu,Poplatok,,
+2,"Kotradyová Štefánia,Kotrady Michal",2022-10-25,2000,EUR,F001251020220087992,Bezhotovostný vklad,9,
+3,Šubová Veronika,2022-10-24,2000,EUR,F001241020229134044,Bezhotovostný vklad,,
+4,Kotrady Martin,2022-10-23,2000,EUR,F001231020228592154,Bezhotovostný vklad,,
+5,"Kotradyová Štefánia,Kotrady Michal",2022-10-04,2000,EUR,F001041020222226308,Bezhotovostný vklad,9,
+6,,2022-09-30,-5,EUR,Zverejňovanie účtu,Poplatok,,
+7,,2022-08-31,-5,EUR,Zverejňovanie účtu,Poplatok,,
+8,,2022-07-31,-5,EUR,Zverejňovanie účtu,Poplatok,,
+9,"Kotradyová Štefánia,Kotrady Michal",2022-07-17,70,EUR,F001170720226173367,Bezhotovostný vklad,9,

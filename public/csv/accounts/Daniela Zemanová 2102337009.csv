@@ -1,0 +1,12 @@
+index,date,amount,tx_type,account_name,message,ks,vs,ss,note
+0,2022-11-09,-100.0,Platba prevodom v rámci banky,,,,220100005,,
+1,2022-10-17,-3.0,Bezhotovostná platba,,"vyhlasenie v rozhlase Oravska Polho
+ra",,,,
+2,2022-10-17,30.0,Bezhotovostný príjem,Štefan Martinusík,/DO2022-10-14/SPdar,,,,Štefan Martinusík
+3,2022-10-17,20.0,Bezhotovostný príjem,Dana Maruniaková,/DO2022-10-14/SP,,,,Dana Maruniaková
+4,2022-10-17,10.0,Bezhotovostný príjem,David Maruniak,/DO2022-10-14/SP,,,,David Maruniak
+5,2022-10-14,-600.0,Platba prevodom v rámci banky,,,,220100003,,
+6,2022-10-14,30.0,Bezhotovostný príjem,"Janigová Oľga, Mgr.",/DO2022-10-13/SPdar na volebnu kampan,,,,"Janigová Oľga, Mgr."
+7,2022-10-14,20.0,Bezhotovostný príjem,SMELKOVA HELENA,/DO2022-10-13/SPDar Helena Smelkova,0308,102022,,SMELKOVA HELENA
+8,2022-10-13,530.0,Bezhotovostný príjem,Michal Moravčík,/DO2022-10-13/SPDar na volebnu kampan od Michalov,,,,Michal Moravčík
+9,2022-10-11,100.0,Platba prevodom v rámci banky,"Zemanová, Daniela",dar na volebnú kampaň,,,,dar na volebnú kampaň

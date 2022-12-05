@@ -1,0 +1,6 @@
+index,date,amount,tx_type,account_name,message,ks,vs,ss,note
+0,2022-11-07,-34.0,Bezhotovostná platba,,2022065VFA vylep plagatov,,2022065,,
+1,2022-10-21,134.0,Platba prevodom v rámci banky,"PhDr.Mgr. Blaško, Rastislav",Volebná kampaň - primátor Pezinka 2022,,,,Volebná kampaň - primátor Pezinka 2022
+2,2022-10-12,-359.0,Bezhotovostná platba,,"Inzercia v mesacniku Pezincan 09/20
+22, faktura 2022447",0308,2022447,,"Inzercia v mesačníku Pezinčan 09/2022, faktúra 2022447"
+3,2022-09-27,369.0,Platba prevodom v rámci banky,"PhDr.Mgr. Blaško, Rastislav",Kandidát na primátora mesta Pezinok - voľte č. 1 - voľby 2022 / vlastný príslevok na inzerciu do Pezinčana,,,,Kandidát na primátora mesta Pezinok - voľte č. 1 - voľby 2022 / vlastný príslevok na inzerciu do Pezinčana

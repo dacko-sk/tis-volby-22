@@ -1,0 +1,13 @@
+index,date,amount,tx_type,account_name,message,ks,vs,ss,note
+0,2022-10-21,-715.0,Platba prevodom v rámci banky,,,,,,prenájom mobilného reklamného zariadenia
+1,2022-10-18,200.0,Bezhotovostný príjem,DOLNAN MICHAL,,,,,DOLNAN MICHAL
+2,2022-09-19,-552.0,Bezhotovostná platba,,,,1022553,,letáky
+3,2022-09-19,-12.25,Bezhotovostná platba,,,,2112000141,,Riadková inzercia v MY Horehronie 36/2022
+4,2022-09-19,1000.0,Bezhotovostný príjem,DOLNAN MICHAL,,,,,DOLNAN MICHAL
+5,2022-09-13,-348.0,Bezhotovostná platba,,,,,,web stránka
+6,2022-08-16,-78.0,Bezhotovostná platba,,,,1022482,,
+7,2022-04-21,-198.28,Bezhotovostná platba,,,0008,2020220016,,Tričká s potlačou
+8,2022-04-19,500.0,Bezhotovostný príjem,DOLNAN MICHAL,,,,,DOLNAN MICHAL
+9,2022-02-25,-23.98,Bezhotovostná platba,,,,102269459,,
+10,2022-02-15,-56.0,Bezhotovostná platba,,,,20220009,,Fotenie na propagačné materiály
+11,2022-02-15,300.0,Bezhotovostný príjem,DOLNAN MICHAL,,,,,DOLNAN MICHAL

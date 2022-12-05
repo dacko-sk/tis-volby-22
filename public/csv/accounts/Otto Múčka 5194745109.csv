@@ -1,0 +1,11 @@
+index,account_name,date,amount,currency,message,tx_type,vs,ss
+0,,2022-10-31,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+1,,2022-10-31,-6.0,EUR,Poplatok za vedenie účtu,Poplatok,,
+2,,2022-09-30,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+3,,2022-09-30,-3.8,EUR,Poplatok za vedenie účtu,Poplatok,,
+4,,2022-09-20,-6.0,EUR,Popl.Pl.Prík.na úh./Prev.EUR EHP/FIT(OM),Poplatok,104220117,
+5,NOTPROVIDED,2022-09-20,-276.0,EUR,Múčka Otto,Platobný príkaz na úhradu / FIT 2.0 (OM),104220117,
+6,"Múčka Otto, MGR.PHDR.",2022-09-20,2.0,EUR,Otto Mucka,Bezhotovostný vklad - okamžitá platba,,
+7,"Múčka Otto, MGR.PHDR.",2022-09-20,150.0,EUR,Otto Mucka,Bezhotovostný vklad - okamžitá platba,,
+8,"Múčka Otto, MGR.PHDR.",2022-09-14,100.0,EUR,OO22091400039948,Bezhotovostný vklad - okamžitá platba,,
+9,"Múčka Otto, MGR.PHDR.",2022-09-13,100.0,EUR,Otto Mucka,Bezhotovostný vklad,,

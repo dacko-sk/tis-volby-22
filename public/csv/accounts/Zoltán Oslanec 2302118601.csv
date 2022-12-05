@@ -1,0 +1,39 @@
+index,date,amount,tx_type,account_name,message,ks,vs,ss,note
+0,2022-11-04,-50.0,Bezhotovostná platba,,"Sluzby MKS Nesvady sna 26.10.2021 -
+ miting",,1316200014,,
+1,2022-11-02,-400.0,Bezhotovostná platba,,"Fakturujeme Vam za uverejnenie inze
+ratu v spolocenskom casopise NovumN
+aswod c.6022 vo vyske 4x100 ? 400",,,,
+2,2022-11-02,-50.0,Bezhotovostná platba,,"Fakturujeme Vam za uverejnenie inze
+rdtu v spolodenskom Casopise NovumN
+aswod - c.512022 v formdte A5 v c",,,,
+3,2022-10-14,-2500.0,Bezhotovostná platba,,"Kampan 2022 - organizovanie koncert
+u, FB, grafika,  tlac letakov, tlac
+ kalendarov a bannerov",,2200018,,
+4,2022-10-14,1000.0,Bezhotovostný príjem,OSLANEC ZOLTAN,"/DO2022-10-13/SP, 5555",,,,OSLANEC ZOLTAN
+5,2022-09-29,-12.0,Transakcia kartou,,"Nákup: WWW.WEBSUPPORT.SK COMF,  KARADZICOVA 12, BRATISLAVA, 82108, SVK, dne 28.9.2022, částka  12.00 EUR",,4591,,"Nákup: WWW.WEBSUPPORT.SK COMF,  KARADZICOVA 12, BRATISLAVA, 82108, SVK, dne 28.9.2022, částka  12.00 EUR"
+6,2022-09-19,-70.0,Bezhotovostná platba,,Tlac letakov balenie 3000ks,,,,VUC leták
+7,2022-09-19,-67.26,Bezhotovostná platba,,"Skladany letak A4 6 stran balenie 2
+000ks  volby 2022",,2022230,,Leporelo
+8,2022-09-19,-84.0,Bezhotovostná platba,,"Letaky A5 obojstranna tlac balenie1
+600ks",,20220229,,VUC leták
+9,2022-09-08,-1764.0,Bezhotovostná platba,,"dodanie tlace plagatov v mesiacochs
+eptember-oktober 2022",,,,Nubium - VUC - 09+10/22
+10,2022-09-06,2000.0,Bezhotovostný príjem,Marian Kollár,/DO2022-09-05/SP Kampan Zoli Oslanec,,2222,,Marian Kollár
+11,2022-09-05,-375.0,Bezhotovostná platba,,Graficke prace - oslanec2022,,,,Grafické práce - podklad web
+12,2022-09-05,500.0,Bezhotovostný príjem,Štefan Oslanec,/DO2022-09-02/SP,,111,,Štefan Oslanec
+13,2022-08-30,-109.99,Transakcia kartou,,"Nákup: Canva* 03528-9323724,  LEVEL 2, 2 LACEY STREET, SURRY HILLS, Sydney, 2010, AUS, dne 30.8.2022, částka  109.99 EUR",,4591,,"Nákup: Canva* 03528-9323724,  LEVEL 2, 2 LACEY STREET, SURRY HILLS, Sydney, 2010, AUS, dne 30.8.2022, částka  109.99 EUR"
+14,2022-08-26,700.0,Bezhotovostný príjem,OSLANEC ZOLTAN,"/DO2022-08-25/SP, 4444",,,,OSLANEC ZOLTAN
+15,2022-08-23,200.0,Bezhotovostný príjem,Oslanec Gabriel,/DO2022-08-22/SPGabriel  Oslanec,0558,27413,,Oslanec Gabriel
+16,2022-08-22,500.0,Bezhotovostný príjem,Štefan Oslanec,/DO2022-08-21/SP,,1111,,Štefan Oslanec
+17,2022-08-16,300.0,Bezhotovostný príjem,Eva Györeová,/DO2022-08-15/SP,,19770527,,Eva Györeová
+18,2022-08-05,-54.56,Platba prevodom v rámci banky,,"MUZIKUS, s.r.o. objednavka  2014016310",,2014016310,,"MUZIKUS, s.r.o. objednavka  2014016310"
+19,2022-08-04,-588.0,Bezhotovostná platba,,"Zaloha za objednavku NR/119/04/22 -
+ VUC",,12120409,,
+20,2022-08-03,-19.98,Transakcia kartou,,"Nákup: CBA*Ashampoo,  GereonstraSe 43-65, Koln, 50670, DEU, dne 2.8.2022, částka  19.98 EUR",,4591,,"Nákup: CBA*Ashampoo,  GereonstraSe 43-65, Koln, 50670, DEU, dne 2.8.2022, částka  19.98 EUR"
+21,2022-08-02,1000.0,Bezhotovostný príjem,OSLANEC ZOLTAN,"/DO2022-08-01/SP, 3333",,,,OSLANEC ZOLTAN
+22,2022-07-23,-6.08,Transakcia kartou,,"Nákup: WWW.WEBSUPPORT.SK,  KARADZICOVA 12, BRATISLAVA, 82108, SVK, dne 22.7.2022, částka  6.08 EUR",,4591,,"Nákup: WWW.WEBSUPPORT.SK,  KARADZICOVA 12, BRATISLAVA, 82108, SVK, dne 22.7.2022, částka  6.08 EUR"
+23,2022-07-18,-23.98,Transakcia kartou,,"Nákup: WWW.WEBSUPPORT.SK,  KARADZICOVA 12, BRATISLAVA, 82108, SVK, dne 17.7.2022, částka  23.98 EUR",,4591,,"Nákup: WWW.WEBSUPPORT.SK,  KARADZICOVA 12, BRATISLAVA, 82108, SVK, dne 17.7.2022, částka  23.98 EUR"
+24,2022-07-14,300.0,Bezhotovostný príjem,OSLANEC ZOLTAN,"/DO2022-07-13/SP, 2222",,,,OSLANEC ZOLTAN
+25,2022-07-12,200.0,Bezhotovostný príjem,Morvai Ladislav,/DO2022-07-11/SP,,1111,,Morvai Ladislav
+26,2022-02-09,200.0,Vklad v hotovosti,,,0558,1111,,

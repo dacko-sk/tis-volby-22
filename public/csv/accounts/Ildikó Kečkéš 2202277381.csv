@@ -1,0 +1,8 @@
+index,date,amount,tx_type,account_name,message,ks,vs,ss,note
+0,2022-10-20,-303.0,Bezhotovostná platba,,,0308,20220261,,propagacne materialy
+1,2022-10-12,-30.0,Bezhotovostná platba,,,0308,22108065,,tlac.plagátu Nubium
+2,2022-08-25,50.0,Bezhotovostný príjem,E BENDOVA,,,,,E BENDOVA
+3,2022-08-22,-354.0,Bezhotovostná platba,,,0308,12120513,,bilboard Nubium 8/9/2022
+4,2022-08-22,500.0,Platba prevodom v rámci banky,BRAVO Taxi s.r.o.,,,,,
+5,2022-08-19,100.0,Bezhotovostný príjem,BTL PLUS s.r.o.,"/DO2022-08-18/SPVolby 2022-Keckes Ildiko, Not Provided",,,,BTL PLUS s.r.o.
+6,2022-08-12,50.0,Bezhotovostný príjem,Kornel Németh,/DO2022-08-12/SP volby. langos,,1282022,,Kornel Németh

@@ -1,0 +1,9 @@
+index,account_name,date,amount,currency,message,tx_type,vs,ss
+0,,2022-10-31,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+1,,2022-10-31,-6.0,EUR,Poplatok za vedenie účtu,Poplatok,,
+2,NIKARA s.r.o.,2022-10-30,-600.0,EUR,tlačoviny,Okamžitá platba (EB),,
+3,podpora kampane,2022-10-26,-529.0,EUR,,Platobný príkaz na úhradu / FIT 2.0 (EB),,
+4,"Slovenská pošta, a.s.",2022-10-26,-600.53,EUR,Faktúra č. 9001550960,Platobný príkaz na úhradu / FIT 2.0 (EB),,
+5,Ing. JAN SUFLIARSKY,2022-10-07,2500.0,EUR,Jan Sufliarsky,Bezhotovostný vklad,,
+6,,2022-09-30,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+7,,2022-09-30,-0.6,EUR,Poplatok za vedenie účtu,Poplatok,,

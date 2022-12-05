@@ -1,0 +1,11 @@
+index,account_name,date,amount,currency,message,tx_type,vs,ss
+0,,2022-10-31,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+1,,2022-10-31,-6.0,EUR,Poplatok za vedenie účtu,Poplatok,,
+2,"C-PRESS, s.r.o.",2022-10-24,-348.0,EUR,Tlac brozurky,Platobný príkaz na úhradu / FIT 2.0 (EB),20220423,
+3,Hutník Marek,2022-10-07,300.0,EUR,Marek Hutnik,Bezhotovostný vklad - okamžitá platba,,
+4,"C-PRESS, s.r.o.",2022-10-07,-90.0,EUR,tlac letakov,Platobný príkaz na úhradu / FIT 2.0 (EB),20220397,
+5,,2022-09-30,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+6,,2022-09-30,-4.6,EUR,Poplatok za vedenie účtu,Poplatok,,
+7,"BMN, s.r.o.",2022-09-30,-144.0,EUR,prenajom billboardovej plochy a tlac,Okamžitá platba (EB),2209003,
+8,Ivan Hudaček,2022-09-08,-100.0,EUR,,Okamžitá platba (EB),,
+9,Hutník Marek,2022-09-08,500.0,EUR,Marek Hutnik,Bezhotovostný vklad - okamžitá platba,,

@@ -1,0 +1,35 @@
+index,date,amount,tx_type,account_name,message,ks,vs,ss,note
+0,2022-11-21,-3.32,Transakcia kartou,,"Nákup: FAXCOPY13,BA,CENTRAL,  METODOVA 6, BRATISLAVA, 82108, SVK, dne 20.11.2022, částka  3.32 EUR",,4925,,"Nákup: FAXCOPY13,BA,CENTRAL,  METODOVA 6, BRATISLAVA, 82108, SVK, dne 20.11.2022, částka  3.32 EUR"
+1,2022-11-18,-2.2,Transakcia kartou,,"Nákup: Selecta Betriebsverpfl,  IZ NO Sud Strasse, Objekt 70, Wiener Neudor, 2355, AUT, dne 17.11.2022, částka  2.20 EUR",,4925,,"Nákup: Selecta Betriebsverpfl,  IZ NO Sud Strasse, Objekt 70, Wiener Neudor, 2355, AUT, dne 17.11.2022, částka  2.20 EUR"
+2,2022-10-27,20.0,Bezhotovostný príjem,Vydra Kamil,/DO2022-10-26/SP,,,,Vydra Kamil
+3,2022-10-27,55.5,Bezhotovostný príjem,Martin Kleibl,/DO2022-10-27/SP Od Konduktora.)),,,,Martin Kleibl
+4,2022-10-27,25.0,Bezhotovostný príjem,Peter Scholc,/DO2022-10-26/SPDar-na-kampan,,,,Peter Scholc
+5,2022-10-24,20.0,Bezhotovostný príjem,ANDREJ SHADURA,/DO2022-10-21/SPDRZIM PALCE,,,,ANDREJ SHADURA
+6,2022-10-24,20.0,Bezhotovostný príjem,PRISTIC JURAJ,/DO2022-10-22/SPDar-na-kampan,,,,PRISTIC JURAJ
+7,2022-10-24,5.0,Bezhotovostný príjem,KOSKA PETER,/DO2022-10-23/SP,,,,KOSKA PETER
+8,2022-10-20,15.0,Bezhotovostný príjem,LUBOMIR CINCALA,/DO2022-10-19/SPDRZIM PALCE V RUZINOVE,,,,LUBOMIR CINCALA
+9,2022-10-20,10.0,Bezhotovostný príjem,OSZCZEDA OLIVER,/DO2022-10-19/SPDar-na-kampan,,,,OSZCZEDA OLIVER
+10,2022-10-20,30.0,Bezhotovostný príjem,TROIAK PAVOL,/DO2022-10-19/SPDar-na-kampan,,2022,,TROIAK PAVOL
+11,2022-10-18,100.0,Bezhotovostný príjem,Zuzana Švihranová,/DO2022-10-17/SP,,,,Zuzana Švihranová
+12,2022-10-18,5.0,Bezhotovostný príjem,KOSKA PETER,/DO2022-10-17/SP,,,,KOSKA PETER
+13,2022-10-16,-24.0,Transakcia kartou,,"Nákup: FAXCOPY91,BA,AVION,  IVANSKA CESTA 16, BRATISLAVA, 82104, SVK, dne 15.10.2022, částka  24.00 EUR",,4925,,"Nákup: FAXCOPY91,BA,AVION,  IVANSKA CESTA 16, BRATISLAVA, 82104, SVK, dne 15.10.2022, částka  24.00 EUR"
+14,2022-09-29,6.66,Bezhotovostný príjem,Peter Brožíček,/DO2022-09-28/SPNa kampan pre kamarata,,,,Peter Brožíček
+15,2022-09-28,10.0,Bezhotovostný príjem,Alexander Füle,/DO2022-09-28/SP,,,,Alexander Füle
+16,2022-09-24,-0.7,Transakcia kartou,,"Nákup: FAXCOPY13,BA,CENTRAL,  METODOVA 6, BRATISLAVA, 82108, SVK, dne 23.9.2022, částka  0.70 EUR",,4925,,"Nákup: FAXCOPY13,BA,CENTRAL,  METODOVA 6, BRATISLAVA, 82108, SVK, dne 23.9.2022, částka  0.70 EUR"
+17,2022-09-19,30.0,Bezhotovostný príjem,Michal Ondruš,/DO2022-09-16/SP,,,,Michal Ondruš
+18,2022-09-11,-7.42,Transakcia kartou,,"Nákup: FAXCOPY13,BA,CENTRAL,  METODOVA 6, BRATISLAVA, 82108, SVK, dne 10.9.2022, částka  7.42 EUR",,4925,,"Nákup: FAXCOPY13,BA,CENTRAL,  METODOVA 6, BRATISLAVA, 82108, SVK, dne 10.9.2022, částka  7.42 EUR"
+19,2022-08-31,-1.27,Transakcia kartou,,"Nákup: FAXCOPY91,BA,AVION,  IVANSKA CESTA 16, BRATISLAVA, 82104, SVK, dne 30.8.2022, částka  1.27 EUR",,4925,,"Nákup: FAXCOPY91,BA,AVION,  IVANSKA CESTA 16, BRATISLAVA, 82104, SVK, dne 30.8.2022, částka  1.27 EUR"
+20,2022-08-31,-8.04,Transakcia kartou,,"Nákup: FAXCOPY91,BA,AVION,  IVANSKA CESTA 16, BRATISLAVA, 82104, SVK, dne 30.8.2022, částka  8.04 EUR",,4925,,"Nákup: FAXCOPY91,BA,AVION,  IVANSKA CESTA 16, BRATISLAVA, 82104, SVK, dne 30.8.2022, částka  8.04 EUR"
+21,2022-08-26,-28.94,Transakcia kartou,,"Nákup: FAXCOPY91,BA,AVION,  IVANSKA CESTA 16, BRATISLAVA, 82104, SVK, dne 25.8.2022, částka  28.94 EUR",,4925,,"Nákup: FAXCOPY91,BA,AVION,  IVANSKA CESTA 16, BRATISLAVA, 82104, SVK, dne 25.8.2022, částka  28.94 EUR"
+22,2022-08-24,20.22,Bezhotovostný príjem,MARIAN LUHA,/DO2022-08-24/SPDAR NA KAMPAN,,,,MARIAN LUHA
+23,2022-08-21,-0.3,Poplatok - platobná karta,,"Poplatek - dotaz na zůstatek v ATM: BRATISLAVA, METODOVA 6, BRATISLAVA, SVK, dne 20.8.2022",,4925,,"Poplatek - dotaz na zůstatek v ATM: BRATISLAVA, METODOVA 6, BRATISLAVA, SVK, dne 20.8.2022"
+24,2022-08-21,-30.56,Transakcia kartou,,"Nákup: FAXCOPY13,BA,CENTRAL,  METODOVA 6, BRATISLAVA, 82108, SVK, dne 20.8.2022, částka  30.56 EUR",,4925,,"Nákup: FAXCOPY13,BA,CENTRAL,  METODOVA 6, BRATISLAVA, 82108, SVK, dne 20.8.2022, částka  30.56 EUR"
+25,2022-07-06,-1.33,Transakcia kartou,,"Nákup: FACEBK A7PAZFFWR2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 6.7.2022, částka  1.33 EUR",,4925,,"Nákup: FACEBK A7PAZFFWR2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 6.7.2022, částka  1.33 EUR"
+26,2022-07-04,100.0,Bezhotovostný príjem,Kollár Marek,/DO2022-07-02/SPDrzim palce,,,,Kollár Marek
+27,2022-07-02,6.66,Platba prevodom v rámci banky,"Mgr. Malý, Michal",Ruzinov odznova!,0666,666,666,Ruzinov odznova!
+28,2022-06-06,-18.67,Transakcia kartou,,"Nákup: FACEBK ZVZH9FFWR2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 6.6.2022, částka  18.67 EUR",,4925,,"Nákup: FACEBK ZVZH9FFWR2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 6.6.2022, částka  18.67 EUR"
+29,2022-05-30,20.0,Bezhotovostný príjem,Ujháziová Andrea,/DO2022-05-29/SP,,,,Ujháziová Andrea
+30,2022-04-09,-5.2,Transakcia kartou,,"Nákup: ZAHRADNE CENTRUM KULLA,  TRNAVSKA 110/B, BRATISLAVA, 82101, SVK, dne 8.4.2022, částka  5.20 EUR",,4925,,"Nákup: ZAHRADNE CENTRUM KULLA,  TRNAVSKA 110/B, BRATISLAVA, 82101, SVK, dne 8.4.2022, částka  5.20 EUR"
+31,2022-04-09,-12.86,Transakcia kartou,,"Nákup: SUPER ZOO,  Bajkalska 29F, Bratislava, 82101, SVK, dne 8.4.2022, částka  12.86 EUR",,4925,,"Nákup: SUPER ZOO,  Bajkalska 29F, Bratislava, 82101, SVK, dne 8.4.2022, částka  12.86 EUR"
+32,2022-04-07,20.0,Platba prevodom v rámci banky,"Mgr. Kurincová, Adriana",,,,,
+33,2022-01-14,-0.32,Transakcia kartou,,"Nákup: FAXCOPY13,BA,CENTRAL,  METODOVA 6, BRATISLAVA, 82108, SVK, dne 13.1.2022, částka  0.32 EUR",,4925,,"Nákup: FAXCOPY13,BA,CENTRAL,  METODOVA 6, BRATISLAVA, 82108, SVK, dne 13.1.2022, částka  0.32 EUR"

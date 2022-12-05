@@ -1,0 +1,9 @@
+index,account_name,date,amount,currency,message,tx_type,vs,ss
+0,Omega AEB s.r.o.,2022-11-08,-30.0,EUR,,Platobný príkaz na úhradu / FIT 2.0 (EB),,
+1,Gajja Promotion,2022-11-02,-1695.0,EUR,Úhrada faktúry: 20220114 nakladyspojene s reklamnou kampanou komunvolby 2022,Platobný príkaz na úhradu / FIT 2.0 (EB),20220114,
+2,,2022-10-31,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+3,TSV Papier,2022-10-11,-464.24,EUR,,Platobný príkaz na úhradu / FIT 2.0 (EB),,
+4,,2022-09-30,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+5,BAJAK VOJTECH,2022-09-23,3000.0,EUR,23554215,Bezhotovostný vklad,,
+6,Stefan Ferencsik,2022-09-13,1000.0,EUR,A Revolutrol kuldve,Bezhotovostný vklad - okamžitá platba,,
+7,FERENCSIK STEFAN,2022-09-09,1000.0,EUR,23436050,Bezhotovostný vklad,,

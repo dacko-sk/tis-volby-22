@@ -1,0 +1,12 @@
+index,account_name,date,amount,currency,message,tx_type,vs,ss
+0,Letaši Dušan,2022-10-13,200.0,EUR,F001131020229557336,Bezhotovostný vklad,,
+1,JURCIK PAVOL,2022-10-12,100.0,EUR,"1/2 strany n volebný leták Ing. Pavol Jurčík, PhD.",Bezhotovostný vklad,122022,
+2,Maršo Miroslav,2022-10-11,200.0,EUR,VOĽBY 2022 Rozkvet číslo 16,Bezhotovostný vklad,,
+3,JURCIK PAVOL,2022-10-11,50.0,EUR,"Volebná reklama Považské zvesti Ing. Pavol Jurčík, PhD",Bezhotovostný vklad,202210,
+4,NOVOSAD VILIAM,2022-10-10,200.0,EUR,23690247,Bezhotovostný vklad,,
+5,,2022-09-30,-3.0,EUR,Poplatok za vedenie účtu,Poplatok,,
+6,,2022-09-30,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+7,,2022-09-23,-10.0,EUR,Poplatok Potvrdenie o vykonaní prevodu,Poplatok,,
+8,"MAFRA, a.s.",2022-09-22,-1111.78,EUR,Sevcik Povazske zvesti,Platobný príkaz na úhradu / FIT 2.0 (EB),9300000261,
+9,Findrova Julia,2022-09-22,200.0,EUR,Podpora najlepsieho kandidata,Bezhotovostný vklad,,
+10,SEVCIK JAROSLAV,2022-09-20,1000.0,EUR,Startujeme,Bezhotovostný vklad,,

@@ -1,0 +1,17 @@
+index,account_name,date,amount,currency,message,tx_type,vs,ss
+0,Tans Tech Plus,2022-11-03,-190.0,EUR,,Platobný príkaz na úhradu / FIT 2.0 (EB),2022131,
+1,,2022-10-31,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+2,,2022-10-31,-6.0,EUR,Poplatok za vedenie účtu,Poplatok,,
+3,Euline s.r.o.,2022-10-26,-1552.5,EUR,Letak a bannery s potlacou,Okamžitá platba (EB),2022102,
+4,Milan Drozd- UNO PHOTO,2022-10-26,-500.0,EUR,Videozaznam+postprodukcia,Platobný príkaz na úhradu / FIT 2.0 (EB),20220052,
+5,Kocsis Viliam,2022-10-25,1700.0,EUR,Viliam Kocsis - Volby 2022,Bezhotovostný vklad,,
+6,DORTUN s.r.o,2022-10-20,-200.02,EUR,Prenajom party stanov,Platobný príkaz na úhradu / FIT 2.0 (EB),20220212,
+7,Dávid Mankovicky,2022-10-20,-200.0,EUR,,Platobný príkaz na úhradu / FIT 2.0 (EB),,
+8,Švarba Zsolt,2022-10-10,200.0,EUR,"Zsolt Švarba, Voľby/ választášok 2022",Bezhotovostný vklad,233256,10102022
+9,Kosztolányi Attila,2022-10-10,100.0,EUR,Attila Kosztolanyi volby2022,Bezhotovostný vklad - okamžitá platba,,
+10,Alzbeta Pragay,2022-10-10,200.0,EUR,Pragay Bobe volby/valasztasok 2022,Bezhotovostný vklad,102022,
+11,Kocsis Viliam,2022-10-07,300.0,EUR,Viliam Kocsis - Volby 2022,Bezhotovostný vklad,,
+12,PETER LUKAC,2022-10-06,200.0,EUR,PETER LUKAC,Bezhotovostný vklad,,
+13,Kitti Bodoki,2022-10-03,100.0,EUR,Volby 2022,Bezhotovostný vklad,,
+14,,2022-09-30,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+15,,2022-09-30,-3.8,EUR,Poplatok za vedenie účtu,Poplatok,,

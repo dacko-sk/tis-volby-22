@@ -1,0 +1,18 @@
+index,date,amount,account_name,message,vs
+0,2022-10-31,6.0,,Odpustenie vedenie konta,9
+1,2022-10-31,-6.0,,Vedenie konta Transparentný účet,9
+2,2022-10-28,150.0,"WINTER MEDIA, A.S.",vratenie dupl. platby 12210032,
+3,2022-10-27,-150.0,,Cifra Martin,12210032
+4,2022-10-26,-140.26,,"Cifra Martin, Piestany",220100427
+5,2022-10-26,-126.23,,"Cifra Martin, Piestany",220100428
+6,2022-10-26,100.0,Natália Cifrová,,
+7,2022-10-26,100.0,Natália Cifrová,,
+8,2022-10-24,-150.0,,"Cifra Martin,Piestany",10022
+9,2022-10-18,-50.0,,"Cifra Martin, Bratislavska 119,Piestany",12210017
+10,2022-10-10,-582.0,,"/DO2022-10-10/SP Cifra Martin,Piestany",20220214
+11,2022-10-03,200.0,Natália Cifrová,"Cifra Martin,Piestany",
+12,2022-09-30,5.22,,Odpust.-popl.za platby a ved.úč/ko,9
+13,2022-09-30,-0.22,,Poplatky za platby spolu,9
+14,2022-09-30,-5.0,,Vedenie účtu,9
+15,2022-09-30,-144.0,,"Martin Cifra, Piestany",8222
+16,2022-09-29,1000.0,Natália Cifrová,,

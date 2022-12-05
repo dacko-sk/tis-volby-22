@@ -1,0 +1,9 @@
+index,date,amount,tx_type,account_name,message,ks,vs,ss,note
+0,2022-11-15,-1.0,Platba prevodom v rámci banky,,,,,,
+1,2022-10-30,-349.0,Platba prevodom v rámci banky,,"Platba letaky A5, 5000 ks, kampan VUC",,,,"Platba letaky A5, 5000 ks, kampaň VUC"
+2,2022-10-17,200.0,Bezhotovostný príjem,SPANIR MILAN,/DO2022-10-14/SPprevod 100 eur na kampan,,,,SPANIR MILAN
+3,2022-10-17,100.0,Bezhotovostný príjem,SPANIR MILAN,/DO2022-10-14/SPprevod 100 eur na kampan,,,,SPANIR MILAN
+4,2022-10-14,20.0,Platba prevodom v rámci banky,"JUDr. PhDr. Španír, Milan LL.M",,,,,
+5,2022-10-13,-18.04,Bezhotovostná platba,,FACEBOOK ADS B41DDNBD7K,,,,reklama facebook
+6,2022-10-10,-50.0,Bezhotovostná platba,,FOTENIE V ATELIERI,0308,20220034,,
+7,2022-10-07,100.0,Platba prevodom v rámci banky,"JUDr. PhDr. Španír, Milan LL.M",,,,,

@@ -1,0 +1,10 @@
+index,account_name,date,amount,currency,message,tx_type,vs,ss
+0,,2022-10-31,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+1,,2022-10-21,-95.0,EUR,"B1391811947-44544 12** **** 3735;SLOVENSKA POSTA A S ,RAKOVA ,SK ;19.10.2022 15:09:36 ;CashBack:0 EUR",Platba kartou,,
+2,"Mariaková Zuzana,Mariak Miroslav",2022-10-19,50.0,EUR,F001191020225846743,Bezhotovostný vklad,,
+3,Bloved,2022-10-07,-150.0,EUR,platba za faktúru 22100005,Okamžitá platba (EB),22100005,
+4,"Mariaková Zuzana,Mariak Miroslav",2022-10-07,100.0,EUR,F001071020224894531,Bezhotovostný vklad,,
+5,Printworld,2022-10-07,-35.68,EUR,5501476ASK12272174,Platobný príkaz na úhradu / FIT 2.0 (EB),,
+6,Printworld,2022-10-07,-60.58,EUR,5501476ASK12272175,Platobný príkaz na úhradu / FIT 2.0 (EB),,
+7,"Mariaková Zuzana,Mariak Miroslav",2022-10-07,300.0,EUR,F001071020224693936,Bezhotovostný vklad,,
+8,,2022-09-30,-5.0,EUR,Zverejňovanie účtu,Poplatok,,

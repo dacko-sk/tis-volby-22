@@ -1,0 +1,8 @@
+index,account_name,date,amount,currency,message,tx_type,vs,ss
+0,,2022-10-31,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+1,,2022-10-31,-5.0,EUR,Poplatok za vedenie účtu,Poplatok,,
+2,,2022-09-30,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+3,,2022-09-30,-0.83,EUR,Poplatok za vedenie účtu,Poplatok,,
+4,Zoznam  s.r.o,2022-09-27,-14994.72,EUR,,Platobný príkaz na úhradu / FIT 2.0 (EB),22000409,
+5,SOM Slovensko,2022-09-27,500.0,EUR,F001270920228113285,Bezhotovostný vklad,,
+6,SOM Slovensko,2022-09-27,15000.0,EUR,F001270920228050215,Bezhotovostný vklad,,

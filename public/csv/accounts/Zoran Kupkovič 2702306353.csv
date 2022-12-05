@@ -1,0 +1,20 @@
+index,date,amount,tx_type,account_name,message,ks,vs,ss,note
+0,2022-10-17,150.0,Bezhotovostný príjem,"Bdžoch Dušan, Ing.",/DO2022-10-16/SP,,,,"Bdžoch Dušan, Ing."
+1,2022-10-15,-68.86,Bezhotovostná platba,,,,22100510,,Balony - kampan volby 2022
+2,2022-10-14,250.0,Bezhotovostný príjem,KUPKOVIC ZORAN,/DO2022-10-13/SP,,,,KUPKOVIC ZORAN
+3,2022-10-12,-85.0,Platba prevodom v rámci banky,,,,100322022,,Balony - kampan 2022
+4,2022-10-07,-867.0,Bezhotovostná platba,,,,2022414,,Pera - kampan 2022
+5,2022-10-07,550.0,Bezhotovostný príjem,Dávid Bodnár,/DO2022-10-06/SP Ing. David Bodnar,,,,Dávid Bodnár
+6,2022-10-05,-352.11,Bezhotovostná platba,,,,41215678,,Kalendare - kampan 2022
+7,2022-10-05,-168.0,Bezhotovostná platba,,,,202221325,,Billboard - kampan 2022
+8,2022-09-29,200.0,Bezhotovostný príjem,"Bdžoch Dušan, Ing.",/DO2022-09-28/SP,,,,"Bdžoch Dušan, Ing."
+9,2022-09-27,360.0,Platba prevodom v rámci banky,"Ing. Norbert, Takács","Takács Norbert , voľby 2022",,001,,"Takács Norbert , voľby 2022"
+10,2022-09-26,-384.0,Bezhotovostná platba,,,,12120665,,Billboardy - kampan 2022
+11,2022-09-26,500.0,Bezhotovostný príjem,KUPKOVIC ZORAN,/DO2022-09-26/SP,,,,KUPKOVIC ZORAN
+12,2022-09-20,-390.5,Bezhotovostná platba,,,,41214176,,Letaky - kampan 2022
+13,2022-09-19,500.0,Bezhotovostný príjem,"Bdžoch Dušan, Ing.",/DO2022-09-18/SP,,,,"Bdžoch Dušan, Ing."
+14,2022-09-19,-192.0,Bezhotovostná platba,,,,12120590,,Billboard - kampan 2022
+15,2022-09-14,-49.99,Bezhotovostná platba,,Kupkovic.sk,,2289042818,,webhosting a domena
+16,2022-09-12,-576.0,Bezhotovostná platba,,"Zakazka: 202103396, Zal. faktura: 2
+2950346",,,,Billboardy - kampan 2022
+17,2022-09-08,1000.0,Bezhotovostný príjem,KUPKOVIC ZORAN,/DO2022-09-07/SP,,,,KUPKOVIC ZORAN

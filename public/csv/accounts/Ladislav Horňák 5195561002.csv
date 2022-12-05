@@ -1,0 +1,3 @@
+index,account_name,date,amount,currency,message,tx_type,vs,ss
+0,,2022-10-31,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+1,,2022-10-31,-2.42,EUR,Poplatok za vedenie účtu,Poplatok,,

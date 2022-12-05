@@ -1,0 +1,35 @@
+index,date,amount,account_name,message,vs
+0,2022-11-02,-1.2,,Mesačný popl. Vydanie/obnova karty,9419
+1,2022-10-31,6.0,,Odpustenie vedenie konta,9
+2,2022-10-31,-6.0,,Vedenie konta Transparentný účet,9
+3,2022-10-27,-10.0,,P-Blokácia na žiadosť klienta,
+4,2022-10-26,-828.0,,FAKTURA 2022036,2022036
+5,2022-10-26,-595.5,MsKS spol. s r.o.,FAKTURA 21270117,21270117
+6,2022-10-26,600.0,KSINAN JAN,Prevod na Transparentny ucet,
+7,2022-10-26,812.0,KSINAN JAN,Prevod na Transparentny ucet,
+8,2022-10-24,-662.7,MsKS spol. s r.o.,FAKTURA 21270106,21270106
+9,2022-10-24,-595.5,MsKS spol. s r.o.,FAKTURA 21270116,21270116
+10,2022-10-24,-384.96,MIRA photo&design,FAKTURA 1002022,1002022
+11,2022-10-19,-350.0,"Proficreas, s. r. o.",FAKTURA 2022044,2022044
+12,2022-10-13,2000.0,KSINAN JAN,Prevod na Transparentny ucet,
+13,2022-10-03,-1.2,,Mesačný popl. Vydanie/obnova karty,9419
+14,2022-10-03,-400.99,MIRA photo&design,FAKTURA 952022,952022
+15,2022-09-30,6.0,,Odpustenie vedenie konta,9
+16,2022-09-30,-6.0,,Vedenie konta Transparentný účet,9
+17,2022-09-26,-510.0,"Proficreas, s. r. o.",FAKTURA 2022041,2022041
+18,2022-09-21,-595.5,MsKS spol. s r.o.,FAKTURA 21270095,21270095
+19,2022-09-21,1000.0,KSINAN JAN,Prevod na Transparentny ucet,
+20,2022-09-02,-1.2,,Mesačný popl. Vydanie/obnova karty,9419
+21,2022-08-31,6.0,,Odpustenie vedenie konta,9
+22,2022-08-31,-6.0,,Vedenie konta Transparentný účet,9
+23,2022-08-08,-210.0,MsKS spol. s r.o.,FAKTURA 21230082,21230082
+24,2022-08-01,-1.2,,Mesačný popl. Vydanie/obnova karty,9419
+25,2022-07-29,6.1,,Odpust.-popl.za platby a ved.úč/ko,9
+26,2022-07-29,-1.1,,Poplatky za platby spolu,9
+27,2022-07-29,-5.0,,Vedenie účtu,9
+28,2022-07-25,-504.0,"BigMedia, spol. s r.o.",/DO2022-07-25/SP FAKTURA 12229/0200,122290200
+29,2022-07-20,-194.4,"ISPA, spol. s r.o.",FAKTURA 22950021,202200186
+30,2022-07-20,-644.4,"NUBIUM, s.r.o.",FAKTURA 12120349,12120349
+31,2022-07-20,-240.0,ARTON s.r.o.,FAKTURA 220306,220306
+32,2022-07-18,-670.0,,/DO2022-07-18/SP FAKTURA 20220003,20220003
+33,2022-07-18,3000.0,KSINAN JAN,Prevod na Transparentny ucet,

@@ -1,0 +1,34 @@
+index,date,amount,tx_type,account_name,message,ks,vs,ss,note
+0,2022-11-10,-60.0,Platba prevodom v rámci banky,,uhrada led reklamny spot,,20220055,,uhrada led reklamny spot
+1,2022-11-10,-730.0,Bezhotovostná platba,,"Faktura c. 2022009 - tlac propagacn
+ych materialov",0008,,,uhrada za tlac propagacnych materialov pre kampan
+2,2022-10-27,-80.0,Transakcia kartou,,"Nákup: OMV 2373,  Ul. Masarykova 10, Michalovce, 7101, SVK, dne 26.10.2022, částka  80.00 EUR",,4511,,"Nákup: OMV 2373,  Ul. Masarykova 10, Michalovce, 7101, SVK, dne 26.10.2022, částka  80.00 EUR"
+3,2022-10-26,-500.0,Bezhotovostná platba,,vratenie daru,,,,vratenie daru
+4,2022-10-26,-3.04,Transakcia kartou,,"Nákup: Tesco  Smizany,  Tatranska ulica, Smizany, 05311, SVK, dne 25.10.2022, částka  3.04 EUR",,4511,,"Nákup: Tesco  Smizany,  Tatranska ulica, Smizany, 05311, SVK, dne 25.10.2022, částka  3.04 EUR"
+5,2022-10-26,-12.91,Transakcia kartou,,"Nákup: SLOVNAFT-SK20216,  Dialnica D1, Ivachnova, 034 83, SVK, dne 25.10.2022, částka  12.91 EUR",,4511,,"Nákup: SLOVNAFT-SK20216,  Dialnica D1, Ivachnova, 034 83, SVK, dne 25.10.2022, částka  12.91 EUR"
+6,2022-10-26,-100.35,Transakcia kartou,,"Nákup: SLOVNAFT-SK20216,  Dialnica D1, Ivachnova, 034 83, SVK, dne 25.10.2022, částka  100.35 EUR",,4511,,"Nákup: SLOVNAFT-SK20216,  Dialnica D1, Ivachnova, 034 83, SVK, dne 25.10.2022, částka  100.35 EUR"
+7,2022-10-25,-40.67,Transakcia kartou,,"Nákup: PIZZERIA ROMANTICA,BA,,  GASTANOVA 6, BRATISLAVA, 81104, SVK, dne 24.10.2022, částka  40.67 EUR",,4511,,"Nákup: PIZZERIA ROMANTICA,BA,,  GASTANOVA 6, BRATISLAVA, 81104, SVK, dne 24.10.2022, částka  40.67 EUR"
+8,2022-10-25,-600.0,Bezhotovostná platba,,Mag.Mgr.Monika Sofiya Sorocinova,0308,202337,,
+9,2022-10-25,-430.0,Bezhotovostná platba,,"fotenie, grafika a tlac volebnych m
+aterialov",,2022012,,
+10,2022-10-24,-80.0,Bezhotovostná platba,,Vylep BLB,,,,FA č. 24-2022
+11,2022-10-24,50.0,Bezhotovostný príjem,Imrich Soltes,"Odoslane z Revolutu, IP22294057039223",,,,Imrich Soltes
+12,2022-10-24,40.0,Bezhotovostný príjem,Imrich Soltes,"Odoslane z Revolutu, IP22296057114356",,,,Imrich Soltes
+13,2022-10-24,30.0,Bezhotovostný príjem,Rondzik Rudolf,"/DO2022-10-21/SP, od R. Rondzik",,,,Rondzik Rudolf
+14,2022-10-24,600.0,Bezhotovostný príjem,CUCHTA PAVOL,/DO2022-10-21/SPPavol Cuchta,,,,CUCHTA PAVOL
+15,2022-10-24,-7.99,Transakcia kartou,,"Nákup: PLAY GO SMART,  NAMESTIE OSLOBODITEL, KOSICE, 040 01, SVK, dne 23.10.2022, částka  7.99 EUR",,4511,,"Nákup: PLAY GO SMART,  NAMESTIE OSLOBODITEL, KOSICE, 040 01, SVK, dne 23.10.2022, částka  7.99 EUR"
+16,2022-10-24,-73.01,Transakcia kartou,,"Nákup: SLOVNAFT-SK40104,  Lucenecka cesta, Zvolen, 960 01, SVK, dne 23.10.2022, částka  73.01 EUR",,4511,,"Nákup: SLOVNAFT-SK40104,  Lucenecka cesta, Zvolen, 960 01, SVK, dne 23.10.2022, částka  73.01 EUR"
+17,2022-10-24,-12.94,Transakcia kartou,,"Nákup: SLOVNAFT-SK40104,  Lucenecka cesta, Zvolen, 960 01, SVK, dne 23.10.2022, částka  12.94 EUR",,4511,,"Nákup: SLOVNAFT-SK40104,  Lucenecka cesta, Zvolen, 960 01, SVK, dne 23.10.2022, částka  12.94 EUR"
+18,2022-10-22,-120.0,Bezhotovostná platba,,platba za tlac,0308,20220089,,platba za tlač
+19,2022-10-20,1000.0,Bezhotovostný príjem,Farkaš Jozef,/DO2022-10-19/SPKF - MSS - podpora,0558,202208,,Farkaš Jozef
+20,2022-10-18,10.0,Bezhotovostný príjem,Jaroslav Lazor,/DO2022-10-17/SPPKSK,,,,Jaroslav Lazor
+21,2022-10-17,-144.0,Bezhotovostná platba,,tlac a vylep papierovych plagatov,,202210017,,tlač a vylep plagatov
+22,2022-10-15,-50.4,Bezhotovostná platba,,,0308,221200189,,web uhrada faktury 221200189
+23,2022-10-15,-59.88,Bezhotovostná platba,,,0308,2022198,,uhrada faktury 2022/198
+24,2022-10-14,50.0,Bezhotovostný príjem,CERGETOVA RENATA,,,,,CERGETOVA RENATA
+25,2022-10-07,1000.0,Bezhotovostný príjem,"Kováč Jozef, Ing.","/DO2022-10-06/SPPrispevok, MGR.Sorocinova",,,,"Kováč Jozef, Ing."
+26,2022-10-06,1000.0,Bezhotovostný príjem,"Krampl Ján, Ing.",/DO2022-10-05/SP,,05102022,,"Krampl Ján, Ing."
+27,2022-10-04,100.0,Bezhotovostný príjem,"Sarkozy, Rene",,,,,"Sarkozy, Rene"
+28,2022-10-03,20.0,Bezhotovostný príjem,Kovárová Petra,/DO2022-10-01/SPvela stastia Monika,,,,Kovárová Petra
+29,2022-10-01,20.0,Platba prevodom v rámci banky,"Košťan, Peter",drzim palce,,,,drzim palce
+30,2022-09-05,500.0,Bezhotovostný príjem,Monika Soročinová,/DO2022-09-05/SP Volby 2022,,,,Monika Soročinová

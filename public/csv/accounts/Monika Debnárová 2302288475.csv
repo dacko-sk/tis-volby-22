@@ -1,0 +1,39 @@
+index,date,amount,tx_type,account_name,message,ks,vs,ss,note
+0,2022-11-11,100.0,Bezhotovostný príjem,DEBNAROVA MONIKA,/DO2022-11-10/SPvklad prostriedkov za ucelom uhrady nakladov,,,,DEBNAROVA MONIKA
+1,2022-10-27,-630.0,Transakcia kartou,,"Výběr z bankomatu: TATRABANKA,  TATRABANKA, BRATISLAVA, 81101, SVK, dne 26.10.2022, částka  630.00 EUR",,2380,,"Výběr z bankomatu na uhradu nakladov - stretnutia s obcanmi: TATRABANKA,  TATRABANKA, BRATISLAVA, 81101, SVK, dne 26.10.2022, částka  630.00 EUR"
+2,2022-10-26,200.0,Bezhotovostný príjem,DEBNAROVA MONIKA,/DO2022-10-25/SPna volby,,,,DEBNAROVA MONIKA
+3,2022-10-24,-20.0,Bezhotovostná platba,,"vratenie- DO2022-10-12/SPprispevokn
+a kampan od rod. Nodisovych",,,,Vratenie prispevku Ľuboš Bodiš
+4,2022-10-24,-441.0,Bezhotovostná platba,,,0308,22100136,,Tlac a spracovanie letaku
+5,2022-10-24,-400.0,Bezhotovostná platba,,,0308,20220012,,"Graficke prace,noviny, bannery, bb"
+6,2022-10-24,-1116.0,Bezhotovostná platba,,,0308,220986,,Tlac volebnych novin
+7,2022-10-24,500.0,Bezhotovostný príjem,"Debnár Jozef, Ing.",/DO2022-10-22/SPna volby,,,,"Debnár Jozef, Ing."
+8,2022-10-24,1200.0,Bezhotovostný príjem,Debnárová Jana,/DO2022-10-22/SP,,,,Debnárová Jana
+9,2022-10-24,600.0,Bezhotovostný príjem,"Debnár Jozef, Ing.",/DO2022-10-21/SPvolby,,,,"Debnár Jozef, Ing."
+10,2022-10-23,-50.0,Transakcia kartou,,"Nákup: GOOGLE *ADS1618427741,  70 Sir John Rogerson's Quay, 650-253-0000, UNKNOWN, IRL, dne 22.10.2022, částka  50.00 EUR",,2380,,"Nákup: GOOGLE *ADS1618427741,  70 Sir John Rogerson's Quay, 650-253-0000, UNKNOWN, IRL, dne 22.10.2022, částka  50.00 EUR"
+11,2022-10-22,-72.0,Bezhotovostná platba,,,0308,22108195,,Dotlac bb cislo
+12,2022-10-22,-82.92,Bezhotovostná platba,,,0308,221009,,Plagaty volby
+13,2022-10-22,-8.0,Transakcia kartou,,"Nákup: ELEZI, S.R.O.,  ROLNICKA 9253/51, BRATISLAVA -, 831 07, SVK, dne 21.10.2022, částka  8.00 EUR",,2380,,"Nákup: ELEZI, S.R.O.,  ROLNICKA 9253/51, BRATISLAVA -, 831 07, SVK, dne 21.10.2022, částka  8.00 EUR"
+14,2022-10-20,-318.2,Transakcia kartou,,"Nákup: Bakchus Vila, BA,  POD LIPAMI 1, BRATISLAVA, 83107, SVK, dne 19.10.2022, částka  318.20 EUR",,2380,,"Stretnutie s obcanmi obcerstvenie a najom.  Nakup: Bakchus Vila, BA,  POD LIPAMI 1, BRATISLAVA, 83107, SVK, dne 19.10.2022, částka  318.20 EUR"
+15,2022-10-19,-3.2,Transakcia kartou,,"Nákup: BREDA SRO,  VAJNORY JACMENNA 1, BRATISLAVA, 831 07, SVK, dne 18.10.2022, částka  3.20 EUR",,2380,,"Lepidlo na volebne plagaty Nakup:BREDA SRO,  VAJNORY JACMENNA 1, BRATISLAVA, 831 07, SVK, dne 18.10.2022, částka  3.20 EUR"
+16,2022-10-13,20.0,Bezhotovostný príjem,SUCANSKA MONIKA,/DO2022-10-12/SP,,,,SUCANSKA MONIKA
+17,2022-10-13,-390.0,Bezhotovostná platba,,,,,,Mestska cast Bratislava Vajnory inzercia Vajnorske novinky
+18,2022-10-12,20.0,Bezhotovostný príjem,Ľuboš Bodiš,/DO2022-10-12/SPprispevok na kampan od rod. Nodisovych,,,,Ľuboš Bodiš
+19,2022-10-07,1000.0,Bezhotovostný príjem,Debnárová Jana,/DO2022-10-06/SP,,,,Debnárová Jana
+20,2022-10-05,-105.6,Transakcia kartou,,"Nákup: VONAVY RAJ S R O,  ROLNICKA 56, BRATISLAVA VA, 83107, SVK, dne 4.10.2022, částka  105.60 EUR",,2380,,"Ruze pre seniorov /Mesiac ucty k starsim Nákup: VONAVY RAJ S R O,  ROLNICKA 56, BRATISLAVA VA, 83107, SVK, dne 4.10.2022, částka  105.60 EUR"
+21,2022-10-01,-10.1,Transakcia kartou,,"Nákup: Tesco  OC Vajnoria,  vajnoria, Bratislava, 83107, SVK, dne 30.9.2022, částka  10.10 EUR",,2380,,"Nákup: Tesco  OC Vajnoria,  vajnoria, Bratislava, 83107, SVK, dne 30.9.2022, částka  10.10 EUR"
+22,2022-09-29,-150.0,Bezhotovostná platba,,,,,,Zmluva o dielo Centrum volneho casu Saldova
+23,2022-09-21,-16.0,Transakcia kartou,,"Nákup: Drevenicka u liptovske,  Liskova 2300, Liskova, 03481, SVK, dne 20.9.2022, částka  16.00 EUR",,2380,,"Obcerstvenie na stretnutia s obcanmi Nákup: Drevenicka u liptovske,  Liskova 2300, Liskova, 03481, SVK, dne 20.9.2022, částka  16.00 EUR"
+24,2022-09-13,-23.5,Bezhotovostná platba,,,0308,72206896,,web domena monikadebnarova.sk
+25,2022-09-12,-15.95,Transakcia kartou,,"Nákup: LIDL 291 BA, Pri letis,  Pri starom letisku, Bratislava, 83107, SVK, dne 11.9.2022, částka  15.95 EUR",,2380,,"Vitaminove napoje a desinfekcne prostriedky pre Seniordom vo Vajnoroch.  Nákup: LIDL 291 BA, Pri letis,  Pri starom letisku, Bratislava, 83107, SVK, dne 11.9.2022, částka  15.95 EUR"
+26,2022-09-12,200.0,Bezhotovostný príjem,LUDMILA ZAJKOVA,/DO2022-09-12/SPPODPORA,,,,LUDMILA ZAJKOVA
+27,2022-09-12,20.0,Bezhotovostný príjem,BARBORA JASLOVSKA,/DO2022-09-09/SPPRISPEVOK,,,,BARBORA JASLOVSKA
+28,2022-09-12,20.0,Bezhotovostný príjem,IVAN KULA,/DO2022-09-09/SPPREVOD PROSTRIEDKOV,,,,IVAN KULA
+29,2022-09-12,100.0,Bezhotovostný príjem,DEBNAROVA MONIKA,/DO2022-09-12/SPna volby,,,,DEBNAROVA MONIKA
+30,2022-09-12,30.0,Bezhotovostný príjem,Marčišová Karin,/DO2022-09-09/SP,,,,Marčišová Karin
+31,2022-09-08,-1152.0,Bezhotovostná platba,,,0308,12120541,,bilboardova kampan volby
+32,2022-09-08,150.0,Bezhotovostný príjem,DEBNAROVA MONIKA,/DO2022-09-07/SPna volby,,,,DEBNAROVA MONIKA
+33,2022-09-07,-180.0,Bezhotovostná platba,,,,,,fotografie volby
+34,2022-09-06,400.0,Bezhotovostný príjem,Jiřina Perényiová,"/DO2022-09-05/SPpríspevok na voľby 2022, J. Perényiová",,29102022,,Jiřina Perényiová
+35,2022-08-22,500.0,Bezhotovostný príjem,DEBNAROVA MONIKA,/DO2022-08-22/SPna volby,,,,DEBNAROVA MONIKA
+36,2022-08-22,300.0,Bezhotovostný príjem,"Debnár Jozef, Ing.",/DO2022-08-20/SPPrispevok na volby 2022,,,,"Debnár Jozef, Ing."

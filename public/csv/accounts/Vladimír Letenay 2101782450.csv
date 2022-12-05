@@ -1,0 +1,20 @@
+index,date,amount,tx_type,account_name,message,ks,vs,ss,note
+0,2022-11-11,-135.6,Bezhotovostná platba,,,,1001216633,,"Prelep a čistenie zničeného billboardu (Slovanet, a.s.)"
+1,2022-11-10,10.0,Bezhotovostný príjem,Zuzana Letenayová,/DO2022-11-09/SP Zuzana Letenayova,,,,Zuzana Letenayová
+2,2022-11-04,5.4,Bezhotovostný príjem,Zuzana Letenayová,/DO2022-11-04/SP Zuzana Letenayova,,,,Vklad prostriedkov za účelom úhrady nákladov
+3,2022-10-27,-1778.4,Bezhotovostná platba,,,0308,2022170,,Tlač a distribúcia volebného letáku
+4,2022-10-27,1200.0,Bezhotovostný príjem,Zuzana Letenayová,/DO2022-10-26/SP Zuzana Letenayova,,,,Vklad prostriedkov za účelom úhrady nákladov
+5,2022-10-25,-54.0,Bezhotovostná platba,,,,22108574,,"Prelep zničeného billboardu (NUBIUM, s.r.o.)"
+6,2022-10-25,-20.0,Transakcia kartou,,"Nákup: FACEBK GVBN2JXG82,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 24.10.2022, částka  20.00 EUR",,4048,,"Nákup: FACEBK GVBN2JXG82,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 24.10.2022, částka  20.00 EUR"
+7,2022-10-24,-20.0,Transakcia kartou,,"Nákup: FACEBK CE6D2GTG82,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 23.10.2022, částka  20.00 EUR",,4048,,"Nákup: FACEBK CE6D2GTG82,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 23.10.2022, částka  20.00 EUR"
+8,2022-10-20,-20.0,Transakcia kartou,,"Nákup: FACEBK WC9RWG3H82,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 20.10.2022, částka  20.00 EUR",,4048,,"Nákup: FACEBK WC9RWG3H82,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 20.10.2022, částka  20.00 EUR"
+9,2022-10-19,-20.0,Transakcia kartou,,"Nákup: FACEBK DARQVG3H82,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 19.10.2022, částka  20.00 EUR",,4048,,"Nákup: FACEBK DARQVG3H82,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 19.10.2022, částka  20.00 EUR"
+10,2022-10-17,-20.0,Transakcia kartou,,"Nákup: FACEBK FLBEHFPG82,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 17.10.2022, částka  20.00 EUR",,4048,,"Nákup: FACEBK FLBEHFPG82,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 17.10.2022, částka  20.00 EUR"
+11,2022-10-16,-12.0,Transakcia kartou,,"Nákup: FACEBK 5Q67GFPG82,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 15.10.2022, částka  12.00 EUR",,4048,,"Nákup: FACEBK 5Q67GFPG82,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 15.10.2022, částka  12.00 EUR"
+12,2022-10-14,-12.0,Transakcia kartou,,"Nákup: FACEBK 5QG2SHXG82,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 13.10.2022, částka  12.00 EUR",,4048,,"Nákup: FACEBK 5QG2SHXG82,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 13.10.2022, částka  12.00 EUR"
+13,2022-10-12,-9.0,Transakcia kartou,,"Nákup: FACEBK 8D2GQHXG82,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 11.10.2022, částka  9.00 EUR",,4048,,"Nákup: FACEBK 8D2GQHXG82,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 11.10.2022, částka  9.00 EUR"
+14,2022-10-12,-212.4,Bezhotovostná platba,,,,1001216633,,"Billboard na mesiac október (Slovanet, a.s.)"
+15,2022-10-10,-9.0,Transakcia kartou,,"Nákup: FACEBK LPDYUGKG82,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 9.10.2022, částka  9.00 EUR",,4048,,"Nákup: FACEBK LPDYUGKG82,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 9.10.2022, částka  9.00 EUR"
+16,2022-10-09,-9.0,Transakcia kartou,,"Nákup: FACEBK CKPDUGKG82,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 9.10.2022, částka  9.00 EUR",,4048,,"Nákup: FACEBK CKPDUGKG82,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 9.10.2022, částka  9.00 EUR"
+17,2022-10-06,1000.0,Bezhotovostný príjem,Zuzana Letenayová,/DO2022-10-06/SP,,,,Zuzana Letenayová
+18,2022-10-05,-210.0,Bezhotovostná platba,,platba faktury,0308,22107843,,"Billboard na mesiac október (Nubium, s.r.o.)"

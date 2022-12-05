@@ -1,0 +1,42 @@
+index,date,amount,tx_type,account_name,message,ks,vs,ss,note
+0,2022-10-27,-11760.0,Bezhotovostná platba,,uhrada faktury c.: 2022172,0308,2022172,,"CREA:THINK s.r.o. - koordinácia kampane, produkcia, licencie a práva, a administratíva kampane kandidáta na primátora vo voľbách 2022"
+1,2022-10-27,-3236.0,Bezhotovostná platba,,uhrada faktury c.: 20221002,,20221002,,byty banovce s.r.o. - zabezpečenie akcie Pečenie gaštanov 26.10.2022 - volebná kampaň kandidáta na primátora vo voľbách 2022
+2,2022-10-19,-96.0,Bezhotovostná platba,,uhrada faktury c.: 2203049,,2203049,,"euroAWK, spol.s.r.o. - úhrada za tlač BLB plagátov pre kampaň a prelep - voľby na primátora 2022"
+3,2022-10-17,-66.0,Bezhotovostná platba,,uhrada faktury c.: 20223718,0308,20223718,,GRYF reklamné štúdio s.r.o. - úhrada za tlač a prelep reklamnej plochy
+4,2022-10-17,2000.0,Bezhotovostný príjem,GERGEL ERIK,Dar Richard Rybnicek,,000,,GERGEL ERIK
+5,2022-10-12,-2388.0,Bezhotovostná platba,,uhrada faktury c.: 2022145,0308,2022145,,"CREA:THINK s.r.o. - úhrada za grafické práce-billboardy, noviny, fotenie na predstavenie programu kandidáta na primátora - voľby 2022"
+6,2022-10-11,-3332.28,Bezhotovostná platba,,uhrada faktury c.: 2022144,0308,,,CREA:THINK s.r.o. - úhrada za tlač a roznos brožúry kandidáta na primátora - voľby 2022
+7,2022-10-10,-25.0,Bezhotovostná platba,,uhrada spravneho poplatku,,5010011983,,Mesto Trenčín - úhrada správneho poplatku za záber verejného priestranstva
+8,2022-10-06,-816.0,Bezhotovostná platba,,uhrada faktury c.: 2022141,0308,2022141,,CREA:THINK s.r.o. - úhrada za tlač a výlep billboardov
+9,2022-10-06,-476.0,Bezhotovostná platba,,uhrada faktury c.: 1020220034,0308,1020220034,,Pregast s.r.o. - úhrada za prenájom priestorov s cateringom - predstavenie volebného programu kandidáta na primátora - voľby 2022
+10,2022-10-04,-3216.0,Bezhotovostná platba,,uhrady faktury c. 2022138,0308,2022138,,"CREA:THINK s.r.o. - úhrada za prenájom reklamnej plochy na billboardy, tlač a výlep billboardov"
+11,2022-10-03,-1200.0,Bezhotovostná platba,,uhrada faktury c.: 322022,0308,322022,,"Trenčiansky terajšok s.r.o. - záznam, spracovanie a uverejnenie videa - oznámenie kandidatúry pred médiami - voľby 2022"
+12,2022-09-29,-840.0,Bezhotovostná platba,,uhrada faktury c.: 2233102076,0308,2233102076,,"Petit Press, a.s. - inzercia článku na webovom portáli: mytrencin.sme.sk"
+13,2022-09-28,-100.0,Bezhotovostná platba,,uhrada faktury c.: 20220048,,20220048,,Art Event s.r.o. - úhrada za ozvučenie tlačovej konferencie - predstavenie priorít do budúceho volebného obdobia
+14,2022-09-26,-1800.0,Bezhotovostná platba,,uhrada faktury c.: 2022131,0308,2022131,,"úhrada za grafické práce (billboard, noviny) - CREA:THINK s.r.o."
+15,2022-09-26,2000.0,Bezhotovostný príjem,"Vlna Marek, MDDr.",/DO2022-09-25/SP,,,,"Vlna Marek, MDDr."
+16,2022-09-23,1500.0,Bezhotovostný príjem,Lenka Hráčková,"/DO2022-09-22/SP""Dar Richard Rybnicek""",,,,Lenka Hráčková
+17,2022-09-19,-5349.6,Bezhotovostná platba,,uhrada faktury c: 2022126,0308,2022126,,tlač a roznos volebnej brožúry - CREA:THINK s.r.o
+18,2022-09-14,-384.0,Bezhotovostná platba,,uhrada faktury za reklamne plochy,,2270489,,euroAWK - úhrada faktúry za reklamné plochy
+19,2022-09-09,-288.0,Bezhotovostná platba,,uhrada faktury c.: 20223123,0308,20223123,,"uhrada faktury - reklamné plochy, prenájom/tlač plagátov - GRYF reklamné štúdio s.r.o."
+20,2022-09-08,-4000.0,Bezhotovostná platba,,uhrada faktury c.220100240,0308,220100240,,uhrada faktury - realizácia kvantitatívneho prieskumu - 2muse s.r.o.
+21,2022-09-08,30.0,Bezhotovostný príjem,Lalík Mária,/DO2022-09-07/SP,,,,Lalík Mária
+22,2022-08-30,1200.0,Bezhotovostný príjem,Ľubica Slopovská,/DO2022-08-29/SP,,,,Ľubica Slopovská
+23,2022-08-26,475.0,Bezhotovostný príjem,"Hozlár Peter, Ing.",/DO2022-08-25/SP,,,,"Hozlár Peter, Ing."
+24,2022-08-26,2000.0,Bezhotovostný príjem,"Cvik Branislav, Ing.",/DO2022-08-25/SP,,,,"Cvik Branislav, Ing."
+25,2022-08-25,2000.0,Bezhotovostný príjem,Hana Mikulová,/DO2022-08-24/SP,,,,Hana Mikulová
+26,2022-08-24,2000.0,Bezhotovostný príjem,Marián Vlna,/DO2022-08-23/SP,,,,Marián Vlna
+27,2022-08-23,-10.0,Bezhotovostná platba,,"vratenie vkladu v hotovosti zo dna5
+.5.2022",,,,vrátenie vkladu v hotovosti zo dňa 5.5.2022
+28,2022-08-22,500.0,Bezhotovostný príjem,Horny Lubos,/DO2022-08-19/SPHorny Lubos,,,,Horny Lubos
+29,2022-08-19,500.0,Bezhotovostný príjem,Hodák Henrich,/DO2022-08-18/SP,,,,Hodák Henrich
+30,2022-08-18,1500.0,Bezhotovostný príjem,"Sirotná Zuzana, Ing.",/DO2022-08-17/SPDar Richard Rybnicek,,,,"Sirotná Zuzana, Ing."
+31,2022-08-17,1300.0,Bezhotovostný príjem,"Závodský Peter, Ing.",/DO2022-08-16/SPprispevok Mgr. Richard Rybnicek,,,,"Závodský Peter, Ing."
+32,2022-08-17,1000.0,Bezhotovostný príjem,Martin Sučanský,/DO2022-08-16/SP Martin Sucansky,,,,Martin Sučanský
+33,2022-08-12,3000.0,Bezhotovostný príjem,BLASKOVA TIMEA,/DO2022-08-11/SP,,,,BLASKOVA TIMEA
+34,2022-08-04,2500.0,Bezhotovostný príjem,VANEK ERIK,/DO2022-08-03/SP,,,,VANEK ERIK
+35,2022-08-04,2500.0,Bezhotovostný príjem,MARCEK PATRIK,/DO2022-08-03/SP,,,,MARCEK PATRIK
+36,2022-07-18,2000.0,Bezhotovostný príjem,"Hošták Igor, Ing.",/DO2022-07-15/SP,,,,"Hošták Igor, Ing."
+37,2022-07-18,2000.0,Bezhotovostný príjem,"Válek Tomáš, Ing.",/DO2022-07-15/SP,,,,"Válek Tomáš, Ing."
+38,2022-05-13,10000.0,Bezhotovostný príjem,RYBNICEK RICHARD,vklad na predvolebnU kampan,,,,RYBNICEK RICHARD
+39,2022-05-05,10.0,Vklad v hotovosti,,,0558,,,

@@ -1,0 +1,5 @@
+index,account_name,date,amount,currency,message,tx_type,vs,ss
+0,,2022-10-31,-5,EUR,Zverejňovanie účtu,Poplatok,,
+1,Dubiňák Dárius,2022-10-08,400,EUR,F001081020225010970,Bezhotovostný vklad,,
+2,,2022-09-30,-5,EUR,Zverejňovanie účtu,Poplatok,,
+3,Dubiňák Dárius,2022-09-27,200,EUR,F001270920228175712,Bezhotovostný vklad,,

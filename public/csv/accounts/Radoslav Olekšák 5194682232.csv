@@ -1,0 +1,12 @@
+index,account_name,date,amount,currency,message,tx_type,vs,ss
+0,,2022-10-31,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+1,,2022-10-31,-6.0,EUR,Poplatok za vedenie účtu,Poplatok,,
+2,Fibra print s.r.o.,2022-10-25,-738.96,EUR,0221025132702.659414,Okamžitá platba (EB),2200872,
+3,Fibra print s.r.o.,2022-10-14,-1002.0,EUR,0221014165240.235559,Okamžitá platba (EB),2200855,
+4,Telekom,2022-10-03,-4.0,EUR,0221003161905.883662,Okamžitá platba (EB),1217975202,
+5,PeeGee s.r.o,2022-10-03,-240.0,EUR,0221003161529.240371,Okamžitá platba (EB),20220002,
+6,,2022-09-30,-4.4,EUR,Poplatok za vedenie účtu,Poplatok,,
+7,,2022-09-30,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+8,bigmedia,2022-09-17,-432.9,EUR,,Platobný príkaz na úhradu / FIT 2.0 (EB),,
+9,ARTON,2022-09-16,-43.2,EUR,,Platobný príkaz na úhradu / FIT 2.0 (EB),220582,
+10,ARTON,2022-09-16,-216.0,EUR,,Platobný príkaz na úhradu / FIT 2.0 (EB),220581,

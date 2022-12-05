@@ -1,0 +1,29 @@
+index,date,amount,tx_type,account_name,message,ks,vs,ss,note
+0,2022-10-16,-912.0,Bezhotovostná platba,,Platba faktury 22011017,0308,22011017,,
+1,2022-10-15,-30.0,Transakcia kartou,,"Nákup: FACEBK JTKLVHTVN2, fb.me/ads, IE, dne 14.10.2022, částka  30.00 EUR",,9197,,"Nákup: FACEBK JTKLVHTVN2, fb.me/ads, IE, dne 14.10.2022, částka  30.00 EUR"
+2,2022-10-12,-20.0,Transakcia kartou,,"Nákup: FACEBK R7MCPJBWN2, fb.me/ads, IE, dne 11.10.2022, částka  20.00 EUR",,9197,,"Nákup: FACEBK R7MCPJBWN2, fb.me/ads, IE, dne 11.10.2022, částka  20.00 EUR"
+3,2022-10-11,-300.0,Bezhotovostná platba,,"Nikolas Prejsa: 2022003 - MUDr. Pav
+ol Priester - 2022/09",,2022003,,
+4,2022-10-11,1500.0,Bezhotovostný príjem,Priester Pavol,/DO2022-10-10/SP,,,,Priester Pavol
+5,2022-10-10,-36.0,Bezhotovostná platba,,,,,,
+6,2022-10-10,-12.0,Transakcia kartou,,"Nákup: FACEBK P2KTGH7WN2, fb.me/ads, IE, dne 9.10.2022, částka  12.00 EUR",,9197,,"Nákup: FACEBK P2KTGH7WN2, fb.me/ads, IE, dne 9.10.2022, částka  12.00 EUR"
+7,2022-10-10,100.0,Bezhotovostný príjem,Priesterová Kristína,/DO2022-10-08/SP,,,,Priesterová Kristína
+8,2022-10-09,-12.0,Transakcia kartou,,"Nákup: FACEBK WLV6JHTWN2, fb.me/ads, IE, dne 8.10.2022, částka  12.00 EUR",,9197,,"Nákup: FACEBK WLV6JHTWN2, fb.me/ads, IE, dne 8.10.2022, částka  12.00 EUR"
+9,2022-10-07,-9.0,Transakcia kartou,,"Nákup: FACEBK PV94EH7WN2, fb.me/ads, IE, dne 6.10.2022, částka  9.00 EUR",,9197,,"Nákup: FACEBK PV94EH7WN2, fb.me/ads, IE, dne 6.10.2022, částka  9.00 EUR"
+10,2022-10-07,300.0,Bezhotovostný príjem,BLASKOVICOVA LUBICA,"/DO2022-10-06/SPPodpora, prispevok",,,,BLASKOVICOVA LUBICA
+11,2022-10-06,-6.0,Transakcia kartou,,"Nákup: FACEBK W6B7ZHPVN2, fb.me/ads, IE, dne 5.10.2022, částka  6.00 EUR",,9197,,"Nákup: FACEBK W6B7ZHPVN2, fb.me/ads, IE, dne 5.10.2022, částka  6.00 EUR"
+12,2022-10-06,50.0,Bezhotovostný príjem,Priester Ingrid,/DO2022-10-05/SPDar - podpora na kampan,,,,Priester Ingrid
+13,2022-10-05,-4.0,Transakcia kartou,,"Nákup: FACEBK XNMJ3J3WN2, fb.me/ads, IE, dne 4.10.2022, částka  4.00 EUR",,9197,,"Nákup: FACEBK XNMJ3J3WN2, fb.me/ads, IE, dne 4.10.2022, částka  4.00 EUR"
+14,2022-10-05,-2.0,Transakcia kartou,,"Nákup: FACEBK RPELEHTWN2, fb.me/ads, IE, dne 4.10.2022, částka  2.00 EUR",,9197,,"Nákup: FACEBK RPELEHTWN2, fb.me/ads, IE, dne 4.10.2022, částka  2.00 EUR"
+15,2022-10-05,-2.0,Transakcia kartou,,"Nákup: FACEBK 78K5LHTVN2, fb.me/ads, IE, dne 4.10.2022, částka  2.00 EUR",,9197,,"Nákup: FACEBK 78K5LHTVN2, fb.me/ads, IE, dne 4.10.2022, částka  2.00 EUR"
+16,2022-10-04,-1.5,Transakcia kartou,,"Nákup: FACEBK 257ADJPWN2, fb.me/ads, IE, dne 3.10.2022, částka  1.50 EUR",,9197,,"Nákup: FACEBK 257ADJPWN2, fb.me/ads, IE, dne 3.10.2022, částka  1.50 EUR"
+17,2022-10-04,-1.5,Transakcia kartou,,"Nákup: FACEBK 4FWF2J3WN2, fb.me/ads, IE, dne 3.10.2022, částka  1.50 EUR",,9197,,"Nákup: FACEBK 4FWF2J3WN2, fb.me/ads, IE, dne 3.10.2022, částka  1.50 EUR"
+18,2022-10-04,-1.5,Transakcia kartou,,"Nákup: FACEBK ZXMCBH7WN2, fb.me/ads, IE, dne 3.10.2022, částka  1.50 EUR",,9197,,"Nákup: FACEBK ZXMCBH7WN2, fb.me/ads, IE, dne 3.10.2022, částka  1.50 EUR"
+19,2022-10-03,50.0,Bezhotovostný príjem,Roman Michalík,/DO2022-10-01/SPdar na kampan,,,,Roman Michalík
+20,2022-09-28,300.0,Bezhotovostný príjem,GREGA LUBOMIR,/DO2022-09-27/SP,,,,GREGA LUBOMIR
+21,2022-09-22,300.0,Bezhotovostný príjem,KAZIMIROVA DAGMAR,/DO2022-09-21/SPDagmar Kazimirova Stare mesto,,,,KAZIMIROVA DAGMAR
+22,2022-09-21,300.0,Bezhotovostný príjem,Richard Kočiš,"/DO2022-09-20/SPRichard Kočiš, podpora",,123456,,Richard Kočiš
+23,2022-09-20,300.0,Bezhotovostný príjem,Kopka Michal,/DO2022-09-19/SPMichal Kopka,,5412102234,,Kopka Michal
+24,2022-09-20,300.0,Bezhotovostný príjem,RENATA ZOLNAIOVA,,,,,RENATA ZOLNAIOVA
+25,2022-09-20,300.0,Bezhotovostný príjem,KONECNY MARTIN,Martin Konecny,,,,KONECNY MARTIN
+26,2022-09-12,1000.0,Bezhotovostný príjem,Priester Pavol,/DO2022-09-10/SP,,,,Priester Pavol

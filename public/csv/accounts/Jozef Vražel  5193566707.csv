@@ -1,0 +1,13 @@
+index,account_name,date,amount,currency,message,tx_type,vs,ss
+0,Dimax group s.r.o.,2022-10-16,-30.0,EUR,bilboard,Platobný príkaz na úhradu / FIT 2.0 (EB),20220025,
+1,,2022-10-11,-50.0,EUR,"B1384674708-44544 12** **** 3807;GOOGLE *ADS8587395947 ,G.CO/HELPPAY# ,IE ;09.10.2022 11:12:49 ;CashBack:0 EUR",Platba kartou,,
+2,Petit Press,2022-10-09,-747.6,EUR,inzercia,Okamžitá platba (EB),2235111207,
+3,,2022-10-02,-30.0,EUR,"B1379273305-44544 12** **** 3807;FACEBK *DV93WH7PS2 ,fb.me/ads ,IE ;30.09.2022 14:48:15 ;CashBack:0 EUR",Platba kartou,,
+4,,2022-09-30,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+5,Arton s.r.o.,2022-09-29,-21.6,EUR,tlač plagátov,Okamžitá platba (EB),220696,
+6,Arton s.r.o.,2022-09-29,-108.0,EUR,CA038,Okamžitá platba (EB),220695,
+7,MenAtWork,2022-09-26,-300.0,EUR,,Platobný príkaz na úhradu / FIT 2.0 (EB),20220012,
+8,Petit Press,2022-09-17,-496.2,EUR,Inzercia,Okamžitá platba (EB),2235110134,
+9,Vražel Jozef Ing.,2022-09-17,2000.0,EUR,Voľby 2022,Bezhotovostný vklad,092022,
+10,,2022-08-31,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+11,Vražel Jozef Ing.,2022-08-10,500.0,EUR,F001100820222213779,Bezhotovostný vklad,82022,

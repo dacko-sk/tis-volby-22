@@ -1,0 +1,8 @@
+index,account_name,date,amount,currency,message,tx_type,vs,ss
+0,"Beren Atelier, s.r.o.",2022-10-25,-880.8,EUR,0221025154153.498519,Okamžitá platba (EB),2210197,
+1,Köhler Peter,2022-10-25,130.0,EUR,OO22102500022404,Bezhotovostný vklad - okamžitá platba,,
+2,Pressing Oils s.r.o.,2022-10-11,-100.0,EUR,Úhrada faktúry: 20220007,Platobný príkaz na úhradu / FIT 2.0 (EB),20220007,
+3,Nubium,2022-10-04,-264.0,EUR,0221004094545.140500,Okamžitá platba (EB),,
+4,,2022-09-30,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+5,,2022-09-30,-6.0,EUR,Poplatok za vedenie účtu,Poplatok,,
+6,"Čobík - Ferčík Ľuboslav, Ing.",2022-09-06,600.0,EUR,Luboslav Cobik-Fercik volby,Bezhotovostný vklad - okamžitá platba,,

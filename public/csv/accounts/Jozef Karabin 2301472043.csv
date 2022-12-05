@@ -1,0 +1,104 @@
+index,date,amount,tx_type,account_name,message,ks,vs,ss,note
+0,2022-11-18,-308.83,Bezhotovostná platba,,"Tlac reklamnych letakov DL Kosice Z
+asa fasa",0308,20220355,,Tlač reklamných letákov DL Košice Zasa fasa
+1,2022-10-26,-420.79,Bezhotovostná platba,,Tlac prospektov na volby,0308,221050,,Tlač prospektov na voľby
+2,2022-10-26,-144.0,Bezhotovostná platba,,"JOHNY WC a sanitarna technika - kon
+cert L. Adamec",0308,1122312355,,JOHNY WC a sanitárna technika - koncert L. Adamec
+3,2022-10-26,-540.76,Bezhotovostná platba,,"Distribucia letakov sidlisko KVP as
+idlisko Zapad",0308,10220074,,Distribúcia letákov sídlisko KVP a sídlisko Západ
+4,2022-10-26,-3000.0,Bezhotovostná platba,,Reklama v Radiu Kosice,0308,220259,,Reklama v Rádiu Košice
+5,2022-10-26,4300.0,Bezhotovostný príjem,Helena Karabinová,/DO2022-10-25/SP,,,,Helena Karabinová
+6,2022-10-24,-107.7,Transakcia kartou,,"Nákup: HOTEL COLOR-RECEPCIA,B,  PRI STAROM MYTE 1, BRATISLAVA, 83104, SVK, dne 23.10.2022, částka  107.70 EUR",,2924,,"Nákup: HOTEL COLOR-RECEPCIA,B,  PRI STAROM MYTE 1, BRATISLAVA, 83104, SVK, dne 23.10.2022, částka  107.70 EUR"
+7,2022-10-22,-76.6,Transakcia kartou,,"Nákup: SLOVNAFT-SK40106,  Palackeho, Kosice, 040 01, SVK, dne 21.10.2022, částka  76.60 EUR",,2924,,"Nákup: SLOVNAFT-SK40106,  Palackeho, Kosice, 040 01, SVK, dne 21.10.2022, částka  76.60 EUR"
+8,2022-10-21,-3948.0,Platba prevodom v rámci banky,,BB - kampan 10/2022 - Karabin /24 ploch/,0308,2201300016,,BB - kampaň 10/2022 - Karabin /24 plôch/
+9,2022-10-21,-5000.0,Bezhotovostná platba,,Vystupenie Lukasa Adamca,0308,0102022,,Vystúpenie Lukáša Adamca
+10,2022-10-21,-900.0,Transakcia kartou,,"Nákup: FACEBK 47HVNKF4K2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 21.10.2022, částka  900.00 EUR",,2924,,"Nákup: FACEBK 47HVNKF4K2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 21.10.2022, částka  900.00 EUR"
+11,2022-10-21,8420.0,Bezhotovostný príjem,Helena Karabinová,/DO2022-10-20/SP,,,,Helena Karabinová
+12,2022-10-20,-76.98,Transakcia kartou,,"Nákup: SLOVNAFT-SK40142,  Polov E 571, Kosice, 040 15, SVK, dne 19.10.2022, částka  76.98 EUR",,2924,,"Nákup: SLOVNAFT-SK40142,  Polov E 571, Kosice, 040 15, SVK, dne 19.10.2022, částka  76.98 EUR"
+13,2022-10-19,-243.12,Platba prevodom v rámci banky,,"Gumolano, Banner liaty /HQ/ s finalizaciou",0308,2201290370,,"Gumolano, Banner liaty /HQ/ s finalizáciou"
+14,2022-10-19,-3000.0,Bezhotovostná platba,,"Prenajom podia, strecha, ozvucenie,
+ osvetlenie, pivne sety",0308,222022,,"Prenájom pódia, strecha, ozvučenie, osvetlenie, pivné sety"
+15,2022-10-19,-4248.0,Platba prevodom v rámci banky,,BB- kampan 09/2022 - Karabin /26 ploch/,0308,2201290120,,BB- kampaň 09/2022 - Karabin /26 plôch/
+16,2022-10-18,8000.0,Bezhotovostný príjem,Jozef Karabin,/DO2022-10-17/SP,,,,Jozef Karabin
+17,2022-10-17,-900.0,Transakcia kartou,,"Nákup: FACEBK WHJN9JF5K2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 17.10.2022, částka  900.00 EUR",,2924,,"Nákup: FACEBK WHJN9JF5K2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 17.10.2022, částka  900.00 EUR"
+18,2022-10-16,-66.14,Transakcia kartou,,"Nákup: SLOVNAFT-SK40133,  Jantarova, Kosice, 040 01, SVK, dne 15.10.2022, částka  66.14 EUR",,2924,,"Nákup: SLOVNAFT-SK40133,  Jantarova, Kosice, 040 01, SVK, dne 15.10.2022, částka  66.14 EUR"
+19,2022-10-15,-173.67,Transakcia kartou,,"Nákup: Metro Kosice,  AMERICKA TRIEDA 1/A, Kosice, 04013, SVK, dne 14.10.2022, částka  173.67 EUR",,2924,,"Nákup: Metro Kosice,  AMERICKA TRIEDA 1/A, Kosice, 04013, SVK, dne 14.10.2022, částka  173.67 EUR"
+20,2022-10-13,-920.83,Transakcia kartou,,"Nákup: FACEBK 5NXUSJP4K2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 12.10.2022, částka  920.83 EUR",,2924,,"Nákup: FACEBK 5NXUSJP4K2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 12.10.2022, částka  920.83 EUR"
+21,2022-10-12,-85.34,Transakcia kartou,,"Nákup: OMV 2313,  Moldavska cesta, Kosice, 4011, SVK, dne 11.10.2022, částka  85.34 EUR",,2924,,"Nákup: OMV 2313,  Moldavska cesta, Kosice, 4011, SVK, dne 11.10.2022, částka  85.34 EUR"
+22,2022-10-12,-2016.0,Bezhotovostná platba,,Platba za inzerciu Kosicko,,664220168,,Platba za inzerciu Kosicko
+23,2022-10-12,4950.0,Bezhotovostný príjem,Helena Karabinová,/DO2022-10-11/SPHelena Karabinová,,,,Helena Karabinová
+24,2022-10-11,-900.0,Transakcia kartou,,"Nákup: FACEBK THHUNHT4K2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 10.10.2022, částka  900.00 EUR",,2924,,"Nákup: FACEBK THHUNHT4K2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 10.10.2022, částka  900.00 EUR"
+25,2022-10-08,-162.47,Transakcia kartou,,"Nákup: FACEBK P3GMYHF5K2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 7.10.2022, částka  162.47 EUR",,2924,,"Nákup: FACEBK P3GMYHF5K2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 7.10.2022, částka  162.47 EUR"
+26,2022-10-06,-900.0,Transakcia kartou,,"Nákup: FACEBK W6K78J75K2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 6.10.2022, částka  900.00 EUR",,2924,,"Nákup: FACEBK W6K78J75K2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 6.10.2022, částka  900.00 EUR"
+27,2022-10-06,-2730.0,Bezhotovostná platba,,"Sprava soc. sieti, FB rekl., Youtub
+e rekl., tvorba video obsahu, billb
+oardy, letak navrh, uprava webu",0308,20220036,,"Správa soc. sietí, FB rekl., Youtube rekl., tvorba video obsahu, billboardy, leták návrh, úprava webu"
+28,2022-10-03,-900.0,Transakcia kartou,,"Nákup: FACEBK FH28GHT4K2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 2.10.2022, částka  900.00 EUR",,2924,,"Nákup: FACEBK FH28GHT4K2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 2.10.2022, částka  900.00 EUR"
+29,2022-10-02,-378.31,Transakcia kartou,,"Nákup: GOOGLE *ADS1518253493,  Gordon House, Barrow Street, 650-253-0000, UNKNOWN, IRL, dne 1.10.2022, částka  378.31 EUR",,2924,,"Nákup: GOOGLE *ADS1518253493,  Gordon House, Barrow Street, 650-253-0000, UNKNOWN, IRL, dne 1.10.2022, částka  378.31 EUR"
+30,2022-09-26,-900.0,Transakcia kartou,,"Nákup: FACEBK CB64ZJF4K2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 25.9.2022, částka  900.00 EUR",,2924,,"Nákup: FACEBK CB64ZJF4K2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 25.9.2022, částka  900.00 EUR"
+31,2022-09-24,-907.13,Transakcia kartou,,"Nákup: FACEBK J938VH75K2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 23.9.2022, částka  907.13 EUR",,2924,,"Nákup: FACEBK J938VH75K2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 23.9.2022, částka  907.13 EUR"
+32,2022-09-20,-600.0,Transakcia kartou,,"Nákup: FACEBK D6SF5HT4K2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 19.9.2022, částka  600.00 EUR",,2924,,"Nákup: FACEBK D6SF5HT4K2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 19.9.2022, částka  600.00 EUR"
+33,2022-09-11,-600.0,Transakcia kartou,,"Nákup: FACEBK A888YHP4K2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 10.9.2022, částka  600.00 EUR",,2924,,"Nákup: FACEBK A888YHP4K2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 10.9.2022, částka  600.00 EUR"
+34,2022-09-08,1500.0,Bezhotovostný príjem,EMEN s. r. o.,/DO2022-09-07/SPdar na kampan,,,,EMEN s. r. o.
+35,2022-09-07,-89.77,Transakcia kartou,,"Nákup: FACEBK PD63JJF4K2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 7.9.2022, částka  89.77 EUR",,2924,,"Nákup: FACEBK PD63JJF4K2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 7.9.2022, částka  89.77 EUR"
+36,2022-09-06,-2435.0,Bezhotovostná platba,,"Sprava soc. sieti (FB, Instagram, T
+ik Tok, Youtube), FB,Google,Youtube
+ reklamy, 5x video, billboardy",0308,20220032,,"Správa soc. sietí (FB, Instagram, Tik Tok, Youtube), FB,Google,Youtube reklamy, 5x video, billboardy"
+37,2022-09-06,-600.0,Transakcia kartou,,"Nákup: FACEBK N2MDAKX4K2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 5.9.2022, částka  600.00 EUR",,2924,,"Nákup: FACEBK N2MDAKX4K2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 5.9.2022, částka  600.00 EUR"
+38,2022-09-02,-470.83,Transakcia kartou,,"Nákup: GOOGLE *ADS1518253493,  Gordon House, Barrow Street, 650-253-0000, UNKNOWN, IRL, dne 1.9.2022, částka  470.83 EUR",,2924,,"Nákup: GOOGLE *ADS1518253493,  Gordon House, Barrow Street, 650-253-0000, UNKNOWN, IRL, dne 1.9.2022, částka  470.83 EUR"
+39,2022-09-01,-600.0,Transakcia kartou,,"Nákup: FACEBK ABQ7DJF4K2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 31.8.2022, částka  600.00 EUR",,2924,,"Nákup: FACEBK ABQ7DJF4K2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 31.8.2022, částka  600.00 EUR"
+40,2022-08-24,-600.0,Transakcia kartou,,"Nákup: FACEBK G5Z5MR35K2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 23.8.2022, částka  600.00 EUR",,2924,,"Nákup: FACEBK G5Z5MR35K2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 23.8.2022, částka  600.00 EUR"
+41,2022-08-20,-600.0,Transakcia kartou,,"Nákup: FACEBK 97EZZG75K2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 20.8.2022, částka  600.00 EUR",,2924,,"Nákup: FACEBK 97EZZG75K2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 20.8.2022, částka  600.00 EUR"
+42,2022-08-17,-600.0,Transakcia kartou,,"Nákup: FACEBK RX9HSJX4K2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 16.8.2022, částka  600.00 EUR",,2924,,"Nákup: FACEBK RX9HSJX4K2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 16.8.2022, částka  600.00 EUR"
+43,2022-08-15,-500.0,Transakcia kartou,,"Nákup: GoogleAdwordsEU ADS151,  Gordon House, Barrow Street, Dublin, D04 E5W5, IRL, dne 14.8.2022, částka  500.00 EUR",,2924,,"Nákup: GoogleAdwordsEU ADS151,  Gordon House, Barrow Street, Dublin, D04 E5W5, IRL, dne 14.8.2022, částka  500.00 EUR"
+44,2022-08-07,-456.72,Transakcia kartou,,"Nákup: FACEBK G63F7R35K2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 7.8.2022, částka  456.72 EUR",,2924,,"Nákup: FACEBK G63F7R35K2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 7.8.2022, částka  456.72 EUR"
+45,2022-08-05,10000.0,Bezhotovostný príjem,Monika Karabinová,/DO2022-08-04/SP,,,,Monika Karabinová
+46,2022-08-02,-154.64,Transakcia kartou,,"Nákup: GoogleAdwordsEU ADS151,  Gordon House, Barrow Street, Dublin, D04 E5W5, IRL, dne 1.8.2022, částka  154.64 EUR",,2924,,"Nákup: GoogleAdwordsEU ADS151,  Gordon House, Barrow Street, Dublin, D04 E5W5, IRL, dne 1.8.2022, částka  154.64 EUR"
+47,2022-08-01,-86.8,Transakcia kartou,,"Nákup: AUTA KOSICE S.R.O.,  Bidovce 328, BIDOVCE, 04445, SVK, dne 31.7.2022, částka  86.80 EUR",,2924,,"Nákup: AUTA KOSICE S.R.O.,  Bidovce 328, BIDOVCE, 04445, SVK, dne 31.7.2022, částka  86.80 EUR"
+48,2022-07-31,-4670.0,Bezhotovostná platba,,"Sprava soc. sieti, FB rekl., Youtub
+e rekl., sprava webu jozefkarabin,1
+2x video, tvorba kosicezasafasa",0308,20220028,,"Správa soc. sietí, FB rekl., Youtube rekl., správa webu jozefkarabin, 12x video, tvorba kosicezasafasa"
+49,2022-07-30,-420.0,Transakcia kartou,,"Nákup: FACEBK *Z86YBJX4K2,  Hanover Reach, 5-7 Hanover Qua, fb.me/ads, DUBLIN 2, IRL, dne 29.7.2022, částka  420.00 EUR",,2924,,"Nákup: FACEBK *Z86YBJX4K2,  Hanover Reach, 5-7 Hanover Qua, fb.me/ads, DUBLIN 2, IRL, dne 29.7.2022, částka  420.00 EUR"
+50,2022-07-28,-350.0,Transakcia kartou,,"Nákup: GOOGLE *ADS1518253493,  Gordon House, Barrow Street, 650-253-0000, UNKNOWN, IRL, dne 28.7.2022, částka  350.00 EUR",,2924,,"Nákup: GOOGLE *ADS1518253493,  Gordon House, Barrow Street, 650-253-0000, UNKNOWN, IRL, dne 28.7.2022, částka  350.00 EUR"
+51,2022-07-23,-270.0,Transakcia kartou,,"Nákup: FACEBK *GRH7RGP4K2,  Hanover Reach, 5-7 Hanover Qua, fb.me/ads, DUBLIN 2, IRL, dne 22.7.2022, částka  270.00 EUR",,2924,,"Nákup: FACEBK *GRH7RGP4K2,  Hanover Reach, 5-7 Hanover Qua, fb.me/ads, DUBLIN 2, IRL, dne 22.7.2022, částka  270.00 EUR"
+52,2022-07-21,-200.0,Transakcia kartou,,"Nákup: GOOGLE *ADS1518253493,  Gordon House, Barrow Street, 650-253-0000, UNKNOWN, IRL, dne 20.7.2022, částka  200.00 EUR",,2924,,"Nákup: GOOGLE *ADS1518253493,  Gordon House, Barrow Street, 650-253-0000, UNKNOWN, IRL, dne 20.7.2022, částka  200.00 EUR"
+53,2022-07-19,4950.0,Bezhotovostný príjem,Jozef Karabin,/DO2022-07-18/SP,,,,Jozef Karabin
+54,2022-07-19,-4572.0,Bezhotovostná platba,,"Prenajom 14 ks billboardov a tlac p
+apieroveho plagatu",,202207019,,Prenájom 14 ks billboardov a tlač papierového plagátu
+55,2022-07-18,-180.0,Transakcia kartou,,"Nákup: FACEBK *ZWAKPQ35K2,  Hanover Reach, 5-7 Hanover Qua, fb.me/ads, DUBLIN 2, IRL, dne 17.7.2022, částka  180.00 EUR",,2924,,"Nákup: FACEBK *ZWAKPQ35K2,  Hanover Reach, 5-7 Hanover Qua, fb.me/ads, DUBLIN 2, IRL, dne 17.7.2022, částka  180.00 EUR"
+56,2022-07-15,-120.0,Transakcia kartou,,"Nákup: FACEBK *CM6HYHX4K2,  Hanover Reach, 5-7 Hanover Qua, fb.me/ads, DUBLIN 2, IRL, dne 14.7.2022, částka  120.00 EUR",,2924,,"Nákup: FACEBK *CM6HYHX4K2,  Hanover Reach, 5-7 Hanover Qua, fb.me/ads, DUBLIN 2, IRL, dne 14.7.2022, částka  120.00 EUR"
+57,2022-07-14,-23.13,Transakcia kartou,,"Nákup: GOOGLE *ADS1518253493,  Gordon House, Barrow Street, 650-253-0000, UNKNOWN, IRL, dne 13.7.2022, částka  23.13 EUR",,2924,,"Nákup: GOOGLE *ADS1518253493,  Gordon House, Barrow Street, 650-253-0000, UNKNOWN, IRL, dne 13.7.2022, částka  23.13 EUR"
+58,2022-07-14,-50.0,Transakcia kartou,,"Nákup: GOOGLE *ADS1518253493,  Gordon House, Barrow Street, 650-253-0000, UNKNOWN, IRL, dne 13.7.2022, částka  50.00 EUR",,2924,,"Nákup: GOOGLE *ADS1518253493,  Gordon House, Barrow Street, 650-253-0000, UNKNOWN, IRL, dne 13.7.2022, částka  50.00 EUR"
+59,2022-07-13,9450.0,Bezhotovostný príjem,Helena Karabinová,/DO2022-07-12/SPHelena Karabinová,,,,Helena Karabinová
+60,2022-07-13,-4.13,Transakcia kartou,,"Nákup: GOOGLE *ADS1518253493,  Gordon House, Barrow Street, 650-253-0000, UNKNOWN, IRL, dne 12.7.2022, částka  4.13 EUR",,2924,,"Nákup: GOOGLE *ADS1518253493,  Gordon House, Barrow Street, 650-253-0000, UNKNOWN, IRL, dne 12.7.2022, částka  4.13 EUR"
+61,2022-07-13,-4.13,Transakcia kartou,,"Nákup: GOOGLE *ADS1518253493,  Gordon House, Barrow Street, 650-253-0000, UNKNOWN, IRL, dne 12.7.2022, částka  4.13 EUR",,2924,,"Nákup: GOOGLE *ADS1518253493,  Gordon House, Barrow Street, 650-253-0000, UNKNOWN, IRL, dne 12.7.2022, částka  4.13 EUR"
+62,2022-07-13,-4.13,Transakcia kartou,,"Nákup: GOOGLE *ADS1518253493,  Gordon House, Barrow Street, 650-253-0000, UNKNOWN, IRL, dne 12.7.2022, částka  4.13 EUR",,2924,,"Nákup: GOOGLE *ADS1518253493,  Gordon House, Barrow Street, 650-253-0000, UNKNOWN, IRL, dne 12.7.2022, částka  4.13 EUR"
+63,2022-07-13,-4.13,Transakcia kartou,,"Nákup: GOOGLE *ADS1518253493,  Gordon House, Barrow Street, 650-253-0000, UNKNOWN, IRL, dne 12.7.2022, částka  4.13 EUR",,2924,,"Nákup: GOOGLE *ADS1518253493,  Gordon House, Barrow Street, 650-253-0000, UNKNOWN, IRL, dne 12.7.2022, částka  4.13 EUR"
+64,2022-07-13,-84.0,Transakcia kartou,,"Nákup: FACEBK *PQTU2G75K2,  Hanover Reach, 5-7 Hanover Qua, fb.me/ads, DUBLIN 2, IRL, dne 12.7.2022, částka  84.00 EUR",,2924,,"Nákup: FACEBK *PQTU2G75K2,  Hanover Reach, 5-7 Hanover Qua, fb.me/ads, DUBLIN 2, IRL, dne 12.7.2022, částka  84.00 EUR"
+65,2022-07-12,1000.0,Bezhotovostný príjem,Monika Karabinová,/DO2022-07-11/SPV zmysle zákona č. 181/2014 Z. z.,,,,Monika Karabinová
+66,2022-07-12,-48.0,Transakcia kartou,,"Nákup: FACEBK *4EEURFF5K2,  Hanover Reach, 5-7 Hanover Qua, fb.me/ads, DUBLIN 2, IRL, dne 11.7.2022, částka  48.00 EUR",,2924,,"Nákup: FACEBK *4EEURFF5K2,  Hanover Reach, 5-7 Hanover Qua, fb.me/ads, DUBLIN 2, IRL, dne 11.7.2022, částka  48.00 EUR"
+67,2022-07-11,-48.0,Transakcia kartou,,"Nákup: FACEBK *C328HQ35K2,  Hanover Reach, 5-7 Hanover Qua, fb.me/ads, DUBLIN 2, IRL, dne 10.7.2022, částka  48.00 EUR",,2924,,"Nákup: FACEBK *C328HQ35K2,  Hanover Reach, 5-7 Hanover Qua, fb.me/ads, DUBLIN 2, IRL, dne 10.7.2022, částka  48.00 EUR"
+68,2022-07-10,-36.0,Transakcia kartou,,"Nákup: FACEBK *EC5UCFB5K2,  Hanover Reach, 5-7 Hanover Qua, fb.me/ads, DUBLIN 2, IRL, dne 9.7.2022, částka  36.00 EUR",,2924,,"Nákup: FACEBK *EC5UCFB5K2,  Hanover Reach, 5-7 Hanover Qua, fb.me/ads, DUBLIN 2, IRL, dne 9.7.2022, částka  36.00 EUR"
+69,2022-07-10,-24.0,Transakcia kartou,,"Nákup: FACEBK *ASMMCFB5K2,  Hanover Reach, 5-7 Hanover Qua, fb.me/ads, DUBLIN 2, IRL, dne 9.7.2022, částka  24.00 EUR",,2924,,"Nákup: FACEBK *ASMMCFB5K2,  Hanover Reach, 5-7 Hanover Qua, fb.me/ads, DUBLIN 2, IRL, dne 9.7.2022, částka  24.00 EUR"
+70,2022-07-09,-150.0,Transakcia kartou,,"Nákup: Decathlon,KE Pri Prach,  PRI PRACHARNI 2, KOSICE, 04011, SVK, dne 8.7.2022, částka  150.00 EUR",,2924,,"Nákup: Decathlon,KE Pri Prach,  PRI PRACHARNI 2, KOSICE, 04011, SVK, dne 8.7.2022, částka  150.00 EUR"
+71,2022-07-09,-14.4,Transakcia kartou,,"Nákup: FACEBK *LJYZPFF5K2,  Hanover Reach, 5-7 Hanover Qua, fb.me/ads, DUBLIN 2, IRL, dne 8.7.2022, částka  14.40 EUR",,2924,,"Nákup: FACEBK *LJYZPFF5K2,  Hanover Reach, 5-7 Hanover Qua, fb.me/ads, DUBLIN 2, IRL, dne 8.7.2022, částka  14.40 EUR"
+72,2022-07-09,-10.8,Transakcia kartou,,"Nákup: FACEBK *UDWCBFK5K2,  Hanover Reach, 5-7 Hanover Qua, fb.me/ads, DUBLIN 2, IRL, dne 8.7.2022, částka  10.80 EUR",,2924,,"Nákup: FACEBK *UDWCBFK5K2,  Hanover Reach, 5-7 Hanover Qua, fb.me/ads, DUBLIN 2, IRL, dne 8.7.2022, částka  10.80 EUR"
+73,2022-07-09,-14.4,Transakcia kartou,,"Nákup: FACEBK *FB32EGP4K2,  Hanover Reach, 5-7 Hanover Qua, fb.me/ads, DUBLIN 2, IRL, dne 8.7.2022, částka  14.40 EUR",,2924,,"Nákup: FACEBK *FB32EGP4K2,  Hanover Reach, 5-7 Hanover Qua, fb.me/ads, DUBLIN 2, IRL, dne 8.7.2022, částka  14.40 EUR"
+74,2022-07-09,-8.36,Transakcia kartou,,"Nákup: FACEBK *BUCTXF75K2,  Hanover Reach, 5-7 Hanover Qua, fb.me/ads, DUBLIN 2, IRL, dne 8.7.2022, částka  8.36 EUR",,2924,,"Nákup: FACEBK *BUCTXF75K2,  Hanover Reach, 5-7 Hanover Qua, fb.me/ads, DUBLIN 2, IRL, dne 8.7.2022, částka  8.36 EUR"
+75,2022-07-08,-10.8,Transakcia kartou,,"Nákup: FACEBK CS2JFQ35K2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 8.7.2022, částka  10.80 EUR",,2924,,"Nákup: FACEBK CS2JFQ35K2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 8.7.2022, částka  10.80 EUR"
+76,2022-07-06,-81.6,Bezhotovostná platba,,"Vyroba reklamnej potlace na tricka,
+ vyroba reklamnych samolepiek (Kosi
+ce zasa fasa)",0308,20220217,,"Výroba reklamnej potlače na tričká, výroba reklamných samolepiek (Košice zasa fasa)"
+77,2022-07-04,-29.54,Bezhotovostná platba,,FBADS-185-102038140,,,,platba za reklamu
+78,2022-06-29,-2115.0,Bezhotovostná platba,,"Platba za vytvorenie webu, toceniea
+ editacia videa, zalozenie politic.
+ uctov, graf. navrh billboardu",0308,20220024,,"Platba za vytvorenie webu, tocenie a editacia videa, zalozenie politic. uctov, graf. navrh billboardu"
+79,2022-06-27,3000.0,Bezhotovostný príjem,Neupauer Matej,/DO2022-06-24/SPdar na kampan,,,,Neupauer Matej
+80,2022-06-24,0.03,Bezhotovostný príjem,Google Ireland Limit,GG102V9QGO,,,,Google Ireland Limit
+81,2022-06-17,-675.0,Bezhotovostná platba,,"Platba za sprostredkovanie a vytvor
+enie loga, fotenie na kampan",0308,20220023,,"Platba za sprostredkovanie a vytvorenie loga, fotenie na kampaň"
+82,2022-06-16,1000.0,Bezhotovostný príjem,Monika Karabinová,/DO2022-06-15/SPV zmysle zákona č. 181/2014 Z. z.,,,,Monika Karabinová
+83,2022-04-19,-12.0,Bezhotovostná platba,,"Platba za domenu nefungujucekosice.
+sk",0308,1022127779,,
+84,2022-04-19,12.0,Bezhotovostný príjem,Monika Karabinová,/DO2022-04-17/SP,,,,Monika Karabinová
+85,2022-04-07,10.0,Vklad v hotovosti,,,0558,,,

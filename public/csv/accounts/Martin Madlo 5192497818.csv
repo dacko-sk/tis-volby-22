@@ -1,0 +1,17 @@
+index,account_name,date,amount,currency,message,tx_type,vs,ss
+0,,2022-10-31,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+1,,2022-10-31,-6.0,EUR,Poplatok za vedenie účtu,Poplatok,,
+2,AB Piestany,2022-10-21,-601.92,EUR,0221021211115.477461,Okamžitá platba (EB),,
+3,"Madlo Martin, Mgr.",2022-10-21,400.0,EUR,OO22102100027433,Bezhotovostný vklad - okamžitá platba,,
+4,Wintermedia,2022-10-17,-48.0,EUR,,Platobný príkaz na úhradu / FIT 2.0 (EB),,
+5,,2022-09-30,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+6,,2022-09-30,-6.0,EUR,Poplatok za vedenie účtu,Poplatok,,
+7,"Madlo Martin, Mgr.",2022-09-30,300.0,EUR,OO22093000007241,Bezhotovostný vklad - okamžitá platba,,
+8,PN PRINT s. r. o. Piešťany,2022-09-29,-459.6,EUR,Tlačivá voľby,Okamžitá platba (EB),20220648,0
+9,"Madlo Martin, Mgr.",2022-09-29,200.0,EUR,OO22092900002213,Bezhotovostný vklad - okamžitá platba,,
+10,,2022-08-31,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+11,,2022-08-31,-6.0,EUR,Poplatok za vedenie účtu,Poplatok,,
+12,"Madlo Martin, Mgr.",2022-08-05,100.0,EUR,OO22080500028300,Bezhotovostný vklad - okamžitá platba,,
+13,,2022-07-31,-6.0,EUR,Poplatok za vedenie účtu,Poplatok,,
+14,,2022-07-31,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+15,"Madlo Martin, Mgr.",2022-07-23,200.0,EUR,OO22072300007460,Bezhotovostný vklad - okamžitá platba,,

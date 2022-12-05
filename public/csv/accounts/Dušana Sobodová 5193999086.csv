@@ -1,0 +1,9 @@
+index,account_name,date,amount,currency,message,tx_type,vs,ss
+0,,2022-10-31,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+1,,2022-10-28,-37.89,EUR,"B1396163055-44544 12** **** 3900;SUPERMARKET FRESH PLU ,KOSICE ,SK ;26.10.2022 13:35:47 ;CashBack:0 EUR",Platba kartou,,
+2,theBestAgency,2022-10-26,-160.0,EUR,FA-2022-025,Platobný príkaz na úhradu / FIT 2.0 (EB),2022025,
+3,Miščík Anton,2022-10-25,160.0,EUR,,Bezhotovostný vklad - okamžitá platba,,
+4,,2022-10-13,-27.0,EUR,"B1385919098-44544 12** **** 3900;OBALEX - KOSICE, S.R.O ,KOSICE ,SK ;10.10.2022 14:13:15 ;CashBack:0 EUR",Platba kartou,,
+5,,2022-09-30,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+6,Cimbal Dusan,2022-09-30,250.0,EUR,DUSAN CIMBAL,Bezhotovostný vklad,,
+7,,2022-08-31,-5.0,EUR,Zverejňovanie účtu,Poplatok,,

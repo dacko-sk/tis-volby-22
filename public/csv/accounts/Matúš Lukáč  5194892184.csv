@@ -1,0 +1,5 @@
+index,account_name,date,amount,currency,message,tx_type,vs,ss
+0,,2022-10-13,-70.2,EUR,"B1385972047-44544 12** **** 5788;FACEBK ZESESJKKJ2 ,fb.me/ads ,IE ;11.10.2022 20:09:31 ;CashBack:0 EUR",Platba kartou,,
+1,Lukáč Matúš,2022-10-03,100.0,EUR,F001031020221843621,Bezhotovostný vklad,,
+2,,2022-09-30,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+3,Lukáč Matúš,2022-09-25,100.0,EUR,F001250920226996794,Bezhotovostný vklad,,

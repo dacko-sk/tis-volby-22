@@ -1,0 +1,5 @@
+index,account_name,date,amount,currency,message,tx_type,vs,ss
+0,,2022-10-31,-5,EUR,Zverejňovanie účtu,Poplatok,,
+1,,2022-09-30,-5,EUR,Zverejňovanie účtu,Poplatok,,
+2,Pápeš Tibor,2022-09-25,5,EUR,OO22092500010069,Bezhotovostný vklad - okamžitá platba,,
+3,,2022-08-31,-5,EUR,Zverejňovanie účtu,Poplatok,,

@@ -1,0 +1,11 @@
+index,account_name,date,amount,currency,message,tx_type,vs,ss
+0,,2022-10-31,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+1,Technické služba Poltár,2022-10-27,-42.0,EUR,,Platobný príkaz na úhradu / FIT 2.0 (EB),013702022,
+2,Brisudová Martina,2022-10-26,100.0,EUR,F001261020220725849,Bezhotovostný vklad,,
+3,,2022-09-30,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+4,,2022-08-31,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+5,,2022-07-31,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+6,Marek Földi,2022-07-31,-470.0,EUR,,Platobný príkaz na úhradu / FIT 2.0 (EB),20220026,
+7,Martheen,2022-07-28,-70.0,EUR,,Platobný príkaz na úhradu / FIT 2.0 (EB),2022022,
+8,"ISPA, spol. s.r.o.",2022-07-21,-340.8,EUR,Zákazka: 202200820,Okamžitá platba (EB),,
+9,Brisudová Martina,2022-07-21,1000.0,EUR,F001210720220763863,Bezhotovostný vklad,,

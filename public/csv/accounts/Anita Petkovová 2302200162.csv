@@ -1,0 +1,58 @@
+index,date,amount,tx_type,account_name,message,ks,vs,ss,note
+0,2022-11-04,-466.8,Bezhotovostná platba,,"IQ SYS grafika, tlac letakov",,2220073,,"IQ SYS grafika, tlač letákov"
+1,2022-11-03,-62.29,Transakcia kartou,,"Nákup: FACEBK QJ7LGJXHX2, fb.me/ads, IE, dne 3.11.2022, částka  62.29 EUR",,1122,,"Nákup: FACEBK QJ7LGJXHX2, fb.me/ads, IE, dne 3.11.2022, částka  62.29 EUR"
+2,2022-10-26,-90.0,Bezhotovostná platba,,graficke prace Milan Sabo,,262022,,grafické práce Milan Sabo
+3,2022-10-26,-100.0,Transakcia kartou,,"Nákup: FACEBK FL2T3NXJX2, fb.me/ads, IE, dne 25.10.2022, částka  100.00 EUR",,1122,,"Nákup: FACEBK FL2T3NXJX2, fb.me/ads, IE, dne 25.10.2022, částka  100.00 EUR"
+4,2022-10-25,-142.0,Bezhotovostná platba,,obcerstvenie od POLTOP  Sala,,20220104,,občerstvenie od POLTOP Šaľa
+5,2022-10-25,-616.32,Bezhotovostná platba,,"obcerstvenie od Masovyroba VEPI Sal
+a",,21000275,,občerstvenie od Mäsovýroba VEPI Šaľa
+6,2022-10-25,-775.44,Bezhotovostná platba,,"obcerstvenie od Masovyroba VEPI Sal
+a",,21000274,,občerstvenie od Mäsovýroba VEPI Šaľa
+7,2022-10-25,-100.0,Transakcia kartou,,"Nákup: FACEBK 9GRD6K3JX2, fb.me/ads, IE, dne 24.10.2022, částka  100.00 EUR",,1122,,"Nákup: FACEBK 9GRD6K3JX2, fb.me/ads, IE, dne 24.10.2022, částka  100.00 EUR"
+8,2022-10-24,-100.0,Transakcia kartou,,"Nákup: FACEBK GF5W6JKJX2, fb.me/ads, IE, dne 23.10.2022, částka  100.00 EUR",,1122,,"Nákup: FACEBK GF5W6JKJX2, fb.me/ads, IE, dne 23.10.2022, částka  100.00 EUR"
+9,2022-10-21,-70.0,Transakcia kartou,,"Nákup: FACEBK 7A7XZHBJX2, fb.me/ads, IE, dne 20.10.2022, částka  70.00 EUR",,1122,,"Nákup: FACEBK 7A7XZHBJX2, fb.me/ads, IE, dne 20.10.2022, částka  70.00 EUR"
+10,2022-10-21,1000.0,Bezhotovostný príjem,HAJDUK ONDREJ,/DO2022-10-20/SP,0308,,,HAJDUK ONDREJ
+11,2022-10-19,-240.0,Bezhotovostná platba,,Fantazia media - inzercia v SS,,2022244,,Fantázia media - inzercia v SŠ
+12,2022-10-19,-35.0,Bezhotovostná platba,,uzivanie verejneho priestranstva,,2715200177,,užívanie verejného priestranstva
+13,2022-10-19,-105.0,Bezhotovostná platba,,prenajom SD Veca,,21200327,8492022,krátkodobý prenájom SD Veča 8492022
+14,2022-10-18,-126.0,Bezhotovostná platba,,FOCESA Sala - tlac banner,,20220300,,FOCESA Sala - tlač banner
+15,2022-10-14,-40.0,Transakcia kartou,,"Nákup: FACEBK Q6NN6JPJX2, fb.me/ads, IE, dne 13.10.2022, částka  40.00 EUR",,1122,,"Nákup: FACEBK Q6NN6JPJX2, fb.me/ads, IE, dne 13.10.2022, částka  40.00 EUR"
+16,2022-10-11,-30.0,Transakcia kartou,,"Nákup: FACEBK 5AQASJ3JX2, fb.me/ads, IE, dne 10.10.2022, částka  30.00 EUR",,1122,,"Nákup: FACEBK 5AQASJ3JX2, fb.me/ads, IE, dne 10.10.2022, částka  30.00 EUR"
+17,2022-10-10,-160.8,Bezhotovostná platba,,obcerstvenie - uhrada faktury,,220102,,občerstvenie - úhrada faktúry
+18,2022-10-06,-20.0,Transakcia kartou,,"Nákup: FACEBK 4EZJKJTJX2, fb.me/ads, IE, dne 5.10.2022, částka  20.00 EUR",,1122,,"Nákup: FACEBK 4EZJKJTJX2, fb.me/ads, IE, dne 5.10.2022, částka  20.00 EUR"
+19,2022-10-04,-4.68,Transakcia kartou,,"Nákup: FACEBK RCCX9HFJX2, fb.me/ads, IE, dne 3.10.2022, částka  4.68 EUR",,1122,,"Nákup: FACEBK RCCX9HFJX2, fb.me/ads, IE, dne 3.10.2022, částka  4.68 EUR"
+20,2022-10-03,-12.0,Transakcia kartou,,"Nákup: FACEBK W8Z6KJ3JX2, fb.me/ads, IE, dne 2.10.2022, částka  12.00 EUR",,1122,,"Nákup: FACEBK W8Z6KJ3JX2, fb.me/ads, IE, dne 2.10.2022, částka  12.00 EUR"
+21,2022-10-01,-16.78,Transakcia kartou,,"Nákup: FACEBK K7UATHPJX2, fb.me/ads, IE, dne 30.9.2022, částka  16.78 EUR",,1122,,"Nákup: FACEBK K7UATHPJX2, fb.me/ads, IE, dne 30.9.2022, částka  16.78 EUR"
+22,2022-09-20,-8.76,Transakcia kartou,,"Nákup: FACEBK UGGMWGFJX2, fb.me/ads, IE, dne 19.9.2022, částka  8.76 EUR",,1122,,"Nákup: FACEBK UGGMWGFJX2, fb.me/ads, IE, dne 19.9.2022, částka  8.76 EUR"
+23,2022-09-19,-594.0,Bezhotovostná platba,,uhrada faktury Anita Petkovova,,12120599,,"NUBIUM-prenájom reklamných panelov, tlač"
+24,2022-09-19,-218.4,Bezhotovostná platba,,"uhrada faktury - Volby Anita Petkov
+ova",,22950391,,"ISPA-reklamný priestor, výroba, tlač"
+25,2022-09-18,-462.0,Bezhotovostná platba,,"prenajom reklamnej plochy, tlac a v
+ylep plagatu",,220900016,,"prenájom reklamnej plochy, tlač a výlep plagátu"
+26,2022-09-12,-3.5,Poplatok - platobná karta,,"Založení karty, číslo bylo přiděleno",,7520,,"Založení karty, číslo bylo přiděleno"
+27,2022-09-05,150.0,Bezhotovostný príjem,Marco Keszely,/DO2022-09-05/SP MD,,,,Marco Keszely
+28,2022-09-05,500.0,Bezhotovostný príjem,MINARIKOVA ANGELIKA,/DO2022-09-02/SPAngelika Minarikova,,,,MINARIKOVA ANGELIKA
+29,2022-09-05,500.0,Bezhotovostný príjem,DEMIN BRANISLAV,/DO2022-09-02/SPBranislav Demin,,,,DEMIN BRANISLAV
+30,2022-08-26,20.0,Bezhotovostný príjem,Irena Keszelyová,/DO2022-08-25/SP Irena Keszelyova,,,,Irena Keszelyová
+31,2022-08-25,30.0,Bezhotovostný príjem,Frilles Kristína,/DO2022-08-24/SP,,,,Frilles Kristína
+32,2022-08-24,1000.0,Platba prevodom v rámci banky,"Ing. Andráši, Peter",peter andráši,,,,peter andráši
+33,2022-08-24,30.0,Bezhotovostný príjem,Štefan Hovorka,/DO2022-08-24/SP1-Prva Primatorka Šale,,,,Štefan Hovorka
+34,2022-08-24,20.0,Bezhotovostný príjem,KROMEROVA ZUZANA,/DO2022-08-23/SPMgr. Kromerova Zuzana,,,,KROMEROVA ZUZANA
+35,2022-08-23,-995.99,Bezhotovostná platba,,uhrada faktury - pera s logom,0308,212479,,úhrada faktúry - perá s logom
+36,2022-08-23,10.0,Bezhotovostný príjem,Home Credit Slovakia,/DO2022-08-23/SPMFUSKOVA,0308,7104063067,017001,Home Credit Slovakia
+37,2022-08-23,10.0,Bezhotovostný príjem,Fuskova Magdalena,/DO2022-08-23/SPMagdalena Fuskova,,,,Fuskova Magdalena
+38,2022-08-23,20.0,Bezhotovostný príjem,Dávid Baláž,/DO2022-08-22/SPDavid Balaz,,,,Dávid Baláž
+39,2022-08-16,10.0,Bezhotovostný príjem,MINARIKOVA ANGELIKA,/DO2022-08-15/SPAngelika Minarikova,,,,MINARIKOVA ANGELIKA
+40,2022-08-16,10.0,Bezhotovostný príjem,HULOVA DARINA,/DO2022-08-15/SPDarina Hulova,0558,,,HULOVA DARINA
+41,2022-08-16,10.0,Bezhotovostný príjem,HULA MARIAN,/DO2022-08-15/SPMarian Hula,0558,,,HULA MARIAN
+42,2022-08-16,10.0,Bezhotovostný príjem,BEHALOVA ANDREA,/DO2022-08-15/SPAndrea Behalova,,,,BEHALOVA ANDREA
+43,2022-08-15,100.0,Bezhotovostný príjem,Dávid Baláž,/DO2022-08-12/SPDavid Balaz,,,,Dávid Baláž
+44,2022-07-25,1000.0,Bezhotovostný príjem,Martin Alföldi,/DO2022-07-25/SP,,,,Martin Alföldi
+45,2022-07-25,1000.0,Bezhotovostný príjem,"Alföldi Martin, MUDr",/DO2022-07-23/SP,,,,"Alföldi Martin, MUDr"
+46,2022-06-21,-200.0,Bezhotovostná platba,,Anita Petkovova,0308,142022,,grafické práce
+47,2022-06-13,-960.0,Bezhotovostná platba,,uhrada faktury Anita Petkovova,0308,0262022,,audiovizuálny spot
+48,2022-06-01,-670.0,Bezhotovostná platba,,uhrada faktury,,20220009,,úhrada faktúry - Gabriel Szakál
+49,2022-05-31,2000.0,Bezhotovostný príjem,Marco Keszely,/DO2022-05-30/SP Dar,,2022,,Marco Keszely
+50,2022-05-27,-2000.0,Bezhotovostná platba,,vratenie daru,0558,2022,,vrátenie daru
+51,2022-05-26,2000.0,Vklad v hotovosti,,,0558,,,
+52,2022-05-06,10.0,Vklad v hotovosti,,,0558,,,

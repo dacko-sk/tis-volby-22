@@ -1,0 +1,5 @@
+index,account_name,date,amount,currency,message,tx_type,vs,ss
+0,,2022-10-31,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+1,Light Box,2022-10-25,-241.2,EUR,ÚHRADA LETÁKOV,Platobný príkaz na úhradu / FIT 2.0 (EB),20220323,
+2,Ján Britaňák,2022-10-25,220.0,EUR,F001251020229718837,Bezhotovostný vklad,,
+3,Marta Britaňáková,2022-10-10,100.0,EUR,Založenie transparentného účtu - vlastné zdroje,Bezhotovostný vklad,,

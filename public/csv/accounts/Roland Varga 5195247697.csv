@@ -1,0 +1,5 @@
+index,account_name,date,amount,currency,message,tx_type,vs,ss
+0,,2022-10-31,-5,EUR,Zverejňovanie účtu,Poplatok,,
+1,,2022-10-31,-6,EUR,Poplatok za vedenie účtu,Poplatok,,
+2,,2022-10-23,-250,EUR,"B1393219148-44544 12** **** 2664;SLOVENSKA POSTA A S ,SNINA ,SK ;21.10.2022 09:25:36 ;CashBack:0 EUR",Platba kartou,,
+3,,2022-10-14,-250,EUR,"B1386779733-44544 12** **** 2664;SLOVENSKA POSTA A S ,SNINA ,SK ;12.10.2022 09:03:39 ;CashBack:0 EUR",Platba kartou,,

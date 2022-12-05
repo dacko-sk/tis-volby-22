@@ -1,0 +1,26 @@
+index,date,amount,tx_type,account_name,message,ks,vs,ss,note
+0,2022-11-01,-7.99,Transakcia kartou,,"Nákup: TRAFIKA AUPARK,KE,NAM.,  NAM.OSLOBODITELOV 1, KOSICE, 04001, SVK, dne 31.10.2022, částka  7.99 EUR",,9643,,"Nákup: TRAFIKA AUPARK,KE,NAM.,  NAM.OSLOBODITELOV 1, KOSICE, 04001, SVK, dne 31.10.2022, částka  7.99 EUR"
+1,2022-10-31,-0.6,Poplatok - platobná karta,,poplatek za pojištění,,9643,,poplatek za pojištění
+2,2022-10-27,-1.0,Poplatok - platobná karta,,"Výběr z bankomatu: SLSP MOLDAVSKA CESTA 2,  MOLDAVSKA CESTA 22, KOSICE, 04011, SVK, dne 26.10.2022, částka  40.00 EUR",,9643,,"Výběr z bankomatu: SLSP MOLDAVSKA CESTA 2,  MOLDAVSKA CESTA 22, KOSICE, 04011, SVK, dne 26.10.2022, částka  40.00 EUR"
+3,2022-10-27,-40.0,Transakcia kartou,,"Výběr z bankomatu: SLSP MOLDAVSKA CESTA 2,  MOLDAVSKA CESTA 22, KOSICE, 04011, SVK, dne 26.10.2022, částka  40.00 EUR",,9643,,"Výběr z bankomatu: SLSP MOLDAVSKA CESTA 2,  MOLDAVSKA CESTA 22, KOSICE, 04011, SVK, dne 26.10.2022, částka  40.00 EUR"
+4,2022-10-27,-16.0,Transakcia kartou,,"Nákup: Cukraren Aida 1,  Hlavna 81, Kosice, 04001, SVK, dne 26.10.2022, částka  16.00 EUR",,9643,,"Nákup: Cukraren Aida 1,  Hlavna 81, Kosice, 04001, SVK, dne 26.10.2022, částka  16.00 EUR"
+5,2022-10-27,-7.8,Transakcia kartou,,"Nákup: OLIVE CAFE BRUNCH,  NAM OSLOBODITELOV 1, KOSICE, 04001, SVK, dne 26.10.2022, částka  7.80 EUR",,9643,,"Nákup: OLIVE CAFE BRUNCH,  NAM OSLOBODITELOV 1, KOSICE, 04001, SVK, dne 26.10.2022, částka  7.80 EUR"
+6,2022-10-27,-34.61,Transakcia kartou,,"Nákup: POTRAVINY KLAS,  POZIARNICKA 6, KOSICE, 04001, SVK, dne 26.10.2022, částka  34.61 EUR",,9643,,"Nákup: POTRAVINY KLAS,  POZIARNICKA 6, KOSICE, 04001, SVK, dne 26.10.2022, částka  34.61 EUR"
+7,2022-10-27,-21.24,Transakcia kartou,,"Nákup: BILLA SPOL S RO 523,  NAMESTIE OSLOBODITEL, KOSICE, 04001, SVK, dne 26.10.2022, částka  21.24 EUR",,9643,,"Nákup: BILLA SPOL S RO 523,  NAMESTIE OSLOBODITEL, KOSICE, 04001, SVK, dne 26.10.2022, částka  21.24 EUR"
+8,2022-10-26,-30.0,Transakcia kartou,,"Nákup: SLOVNAFT-SK11802,  Osloboditelov, Kosice, 040 17, SVK, dne 25.10.2022, částka  30.00 EUR",,9643,,"Nákup: SLOVNAFT-SK11802,  Osloboditelov, Kosice, 040 17, SVK, dne 25.10.2022, částka  30.00 EUR"
+9,2022-10-25,-81.9,Transakcia kartou,,"Nákup: Cukraren Aida 1,  Hlavna 81, Kosice, 04001, SVK, dne 24.10.2022, částka  81.90 EUR",,9643,,"Nákup: Cukraren Aida 1,  Hlavna 81, Kosice, 04001, SVK, dne 24.10.2022, částka  81.90 EUR"
+10,2022-10-25,-20.0,Transakcia kartou,,"Výběr z bankomatu: 365 BANK,  365 BANK, KOSICE, 04001, SVK, dne 24.10.2022, částka  20.00 EUR",,9643,,"Výběr z bankomatu: 365 BANK,  365 BANK, KOSICE, 04001, SVK, dne 24.10.2022, částka  20.00 EUR"
+11,2022-10-25,-10.45,Transakcia kartou,,"Nákup: OLIVE CAFE BRUNCH,  NAM OSLOBODITELOV 1, KOSICE, 04001, SVK, dne 24.10.2022, částka  10.45 EUR",,9643,,"Nákup: OLIVE CAFE BRUNCH,  NAM OSLOBODITELOV 1, KOSICE, 04001, SVK, dne 24.10.2022, částka  10.45 EUR"
+12,2022-10-24,50.0,Bezhotovostný príjem,Ivan Lakomý,/DO2022-10-24/SP volebna podpora,,,,Ivan Lakomý
+13,2022-10-15,-10.0,Transakcia kartou,,"Výběr z bankomatu: 365 BANK,  365 BANK, KOSICE, 04001, SVK, dne 14.10.2022, částka  10.00 EUR",,9643,,"Výběr z bankomatu: 365 BANK,  365 BANK, KOSICE, 04001, SVK, dne 14.10.2022, částka  10.00 EUR"
+14,2022-10-15,-1.49,Transakcia kartou,,"Nákup: BILLA SPOL S RO 523,  NAMESTIE OSLOBODITEL, KOSICE, 04001, SVK, dne 14.10.2022, částka  1.49 EUR",,9643,,"Nákup: BILLA SPOL S RO 523,  NAMESTIE OSLOBODITEL, KOSICE, 04001, SVK, dne 14.10.2022, částka  1.49 EUR"
+15,2022-10-15,-5.64,Transakcia kartou,,"Nákup: BILLA SPOL S RO 523,  NAMESTIE OSLOBODITEL, KOSICE, 04001, SVK, dne 14.10.2022, částka  5.64 EUR",,9643,,"Nákup: BILLA SPOL S RO 523,  NAMESTIE OSLOBODITEL, KOSICE, 04001, SVK, dne 14.10.2022, částka  5.64 EUR"
+16,2022-10-14,200.0,Vklad v hotovosti,,,0558,,,
+17,2022-10-14,20.0,Bezhotovostný príjem,BALAZS DEZIDER,/DO2022-10-13/SPPrispevok na transparentny ucet,0558,11051959,,BALAZS DEZIDER
+18,2022-10-14,-5.4,Transakcia kartou,,"Nákup: OLIVE CAFE BRUNCH,  NAM OSLOBODITELOV 1, KOSICE, 04001, SVK, dne 13.10.2022, částka  5.40 EUR",,9643,,"Nákup: OLIVE CAFE BRUNCH,  NAM OSLOBODITELOV 1, KOSICE, 04001, SVK, dne 13.10.2022, částka  5.40 EUR"
+19,2022-10-11,-27.7,Transakcia kartou,,"Nákup: OLIVE CAFE BRUNCH,  NAM OSLOBODITELOV 1, KOSICE, 04001, SVK, dne 10.10.2022, částka  27.70 EUR",,9643,,"Nákup: OLIVE CAFE BRUNCH,  NAM OSLOBODITELOV 1, KOSICE, 04001, SVK, dne 10.10.2022, částka  27.70 EUR"
+20,2022-10-11,-47.35,Transakcia kartou,,"Nákup: POTRAVINY KLAS,  POZIARNICKA 6, KOSICE, 04001, SVK, dne 10.10.2022, částka  47.35 EUR",,9643,,"Nákup: POTRAVINY KLAS,  POZIARNICKA 6, KOSICE, 04001, SVK, dne 10.10.2022, částka  47.35 EUR"
+21,2022-10-10,100.0,Bezhotovostný príjem,Galina Juhászová,/DO2022-10-10/SP Volby 2022,,735407,,Galina Juhászová
+22,2022-09-30,-0.6,Poplatok - platobná karta,,poplatek za pojištění,,9643,,poplatek za pojištění
+23,2022-08-31,-0.6,Poplatok - platobná karta,,poplatek za pojištění,,9643,,poplatek za pojištění
+24,2022-06-14,10.0,Vklad v hotovosti,,,0558,,,

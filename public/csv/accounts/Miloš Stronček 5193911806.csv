@@ -1,0 +1,11 @@
+index,account_name,date,amount,currency,message,tx_type,vs,ss
+0,,2022-10-31,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+1,"Tlačiareň svidnícka, s.r.o.",2022-10-25,-140.0,EUR,Volebný leták A5 - Mgr. Miloš Stronček - kandidát na primátora mesta Svidník,Platobný príkaz na úhradu / FIT 2.0 (EB),20221004,
+2,ARTON s.r.o.,2022-10-24,-216.0,EUR,"Zálohová platba na prenájom reklamného priestoru od 01.11.2022 - 30.11.2022, Mgr. Miloš Stronček, Karpatská 838/14, 089 01 Svidník",Platobný príkaz na úhradu / FIT 2.0 (EB),220761,
+3,,2022-09-30,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+4,ARTON s.r.o.,2022-09-19,-40.8,EUR,"Zálohová platba na dodávku - tlač: Mgr. Miloš Stronček, Karpatská 838/14, 089 01 Svidník",Okamžitá platba (EB),220591,
+5,ARTON s.r.o.,2022-09-19,-216.0,EUR,"Zálohová platba na prenájom reklamného priestoru od 01.10.2022 - 31.10.2022, Mgr. Miloš Stronček, Karpatská 838/14, 089 01 Svidník",Okamžitá platba (EB),220590,
+6,"ISPA, spol. s.r.o.",2022-09-19,-364.8,EUR,"Zálohová faktúra - reklamného priestoru kampane 202103062 za obdobie 1.10.2022 - 31.10.2022. - Mgr. Miloš Stronček, Karpatská 838/14, 08901",Okamžitá platba (EB),22950379,
+7,"BigMedia, spol. s.r.o.",2022-09-18,-486.0,EUR,"Zálohová faktúra: 12229/0315 - reklamné služby 10/2022 - 3 ks billboards: Mgr. Miloš Stronček, Karpatská 838/14, 08901, Komunálne voľby 2022",Platobný príkaz na úhradu / FIT 2.0 (EB),122290315,
+8,,2022-08-31,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+9,Miluška Strončeková,2022-08-18,10000.0,EUR,"Financna podpora od mamky Milusky synovi: Mgr. Milos Stroncek, kandidat na primatora mesta Svidnik",Bezhotovostný vklad,,

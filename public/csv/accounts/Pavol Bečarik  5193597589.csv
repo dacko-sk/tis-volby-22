@@ -1,0 +1,8 @@
+index,account_name,date,amount,currency,message,tx_type,vs,ss
+0,EUROawk spol. s r.o.,2022-10-11,-2160.0,EUR,reklamná kampaň na CLV,Platobný príkaz na úhradu / FIT 2.0 (EB),225680,
+1,Arton s.r.o.,2022-10-11,-1404.0,EUR,Bilboardy,Okamžitá platba (EB),220658,
+2,,2022-09-30,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+3,,2022-08-31,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+4,,2022-08-31,-2.61,EUR,Poplatok za vedenie účtu,Poplatok,,
+5,Arton s.r.o.,2022-08-23,-1728.0,EUR,voľby bilboardy,Okamžitá platba (EB),220385,
+6,BECARIK PAVOL,2022-08-23,10000.0,EUR,voľby 2022,Bezhotovostný vklad,29102022,

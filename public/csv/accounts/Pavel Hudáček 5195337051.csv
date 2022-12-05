@@ -1,0 +1,4 @@
+index,account_name,date,amount,currency,message,tx_type,vs,ss
+0,,2022-10-31,-5,EUR,Zverejňovanie účtu,Poplatok,,
+1,,2022-10-31,-6,EUR,Poplatok za vedenie účtu,Poplatok,,
+2,Hudacek Pavel,2022-10-03,70,EUR,Pavel Hudacek volby 2022,Bezhotovostný vklad,,

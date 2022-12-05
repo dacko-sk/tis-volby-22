@@ -1,0 +1,12 @@
+index,account_name,date,amount,currency,message,tx_type,vs,ss
+0,,2022-10-31,-6.0,EUR,Poplatok za vedenie účtu,Poplatok,,
+1,,2022-10-31,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+2,,2022-09-30,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+3,,2022-09-30,-6.0,EUR,Poplatok za vedenie účtu,Poplatok,,
+4,"Agentúra Pardon - TN, s.r.o.",2022-09-13,-678.0,EUR,Adrián Mikuš,Okamžitá platba (EB),84900377,
+5,"BigMedia, spol. s.r.o.",2022-09-13,-1860.0,EUR,Adrián Mikuš,Platobný príkaz na úhradu / FIT 2.0 (EB),122290312,
+6,"GRYF MEDIA,s.r.o.",2022-09-04,-1728.0,EUR,Mikuš Adrián,Okamžitá platba (EB),22031,
+7,"GRYF MEDIA,s.r.o.",2022-09-04,-1296.0,EUR,Mikuš Adrián,Okamžitá platba (EB),2200183,
+8,,2022-08-31,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+9,,2022-08-31,-1.55,EUR,Poplatok za vedenie účtu,Poplatok,,
+10,"Mikuš Adrián, Ing.",2022-08-25,6000.0,EUR,23282909,Bezhotovostný vklad,,

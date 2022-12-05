@@ -1,0 +1,39 @@
+index,date,amount,tx_type,account_name,message,ks,vs,ss,note
+0,2022-11-16,-8.6,Transakcia kartou,,"Nákup: WWW.WEBSUPPORT.SK, BRATISLAVA, SK, dne 15.11.2022, částka  8.60 EUR",,0534,,"Nákup: WWW.WEBSUPPORT.SK, BRATISLAVA, SK, dne 15.11.2022, částka  8.60 EUR"
+1,2022-11-02,-35.48,Transakcia kartou,,"Nákup: GoogleAdwordsEU ADS107780, Dublin, IE, dne 1.11.2022, částka  35.48 EUR",,0534,,"Nákup: GoogleAdwordsEU ADS107780, Dublin, IE, dne 1.11.2022, částka  35.48 EUR"
+2,2022-11-02,-600.0,Bezhotovostná platba,,,,,,
+3,2022-10-27,-168.0,Bezhotovostná platba,,Platba faktury 2201305,0308,2201305,,
+4,2022-10-26,500.0,Bezhotovostný príjem,WAGINGEROVA MARIA,/DO2022-10-25/SP,,,,WAGINGEROVA MARIA
+5,2022-10-24,-50.0,Transakcia kartou,,"Nákup: GOOGLE *ADS1077804929, cc@google.com, IE, dne 23.10.2022, částka  50.00 EUR",,0534,,"Nákup: GOOGLE *ADS1077804929, cc@google.com, IE, dne 23.10.2022, částka  50.00 EUR"
+6,2022-10-21,-100.0,Bezhotovostná platba,,,,2022100858,,
+7,2022-10-18,-359.1,Bezhotovostná platba,,Platba zalohovej faktury 220800020,0308,220800020,,
+8,2022-10-18,40.0,Bezhotovostný príjem,Čechmánková Magdalén,/DO2022-10-17/SP,,,,Čechmánková Magdalén
+9,2022-10-18,100.0,Bezhotovostný príjem,"Herdová Zlatica, Ing",/DO2022-10-17/SPZlatica Herdova kampan,,,,"Herdová Zlatica, Ing"
+10,2022-10-14,-14.24,Transakcia kartou,,"Nákup: GOPAY  *123PECIATKY.SK, https://123pe, SK, dne 13.10.2022, částka  14.24 EUR",,0534,,"Nákup: GOPAY  *123PECIATKY.SK, https://123pe, SK, dne 13.10.2022, částka  14.24 EUR"
+11,2022-10-13,-72.2,Bezhotovostná platba,,vylep a vyroba propagacie,0308,2022067,,
+12,2022-10-12,-65.06,Transakcia kartou,,"Nákup: COPYSHOP, PEZINOK, SK, dne 11.10.2022, částka  65.06 EUR",,0534,,"Nákup: COPYSHOP, PEZINOK, SK, dne 11.10.2022, částka  65.06 EUR"
+13,2022-10-10,-120.0,Bezhotovostná platba,,Maria Wagingerova,,2270618,,
+14,2022-10-10,-8.4,Bezhotovostná platba,,Maria Wagingerova,,226345,,
+15,2022-10-08,-21.29,Transakcia kartou,,"Nákup: COPYSHOP, PEZINOK, SK, dne 7.10.2022, částka  21.29 EUR",,0534,,"Nákup: COPYSHOP, PEZINOK, SK, dne 7.10.2022, částka  21.29 EUR"
+16,2022-10-07,-10.64,Transakcia kartou,,"Nákup: COPYSHOP, PEZINOK, SK, dne 6.10.2022, částka  10.64 EUR",,0534,,"Nákup: COPYSHOP, PEZINOK, SK, dne 6.10.2022, částka  10.64 EUR"
+17,2022-10-07,-47.8,Transakcia kartou,,"Nákup: COPYSHOP, PEZINOK, SK, dne 6.10.2022, částka  47.80 EUR",,0534,,"Nákup: COPYSHOP, PEZINOK, SK, dne 6.10.2022, částka  47.80 EUR"
+18,2022-10-06,100.0,Bezhotovostný príjem,Mick Ján,/DO2022-10-05/SP,,,,Mick Ján
+19,2022-10-06,500.0,Bezhotovostný príjem,WAGINGEROVA MARIA,/DO2022-10-05/SP,,,,WAGINGEROVA MARIA
+20,2022-10-04,-727.0,Bezhotovostná platba,,Maria Wagingerova,0308,2022442,2022442,
+21,2022-09-25,-100.0,Bezhotovostná platba,,"Vratenie prvotneho hotovostneho vkl
+adu zakladatela uctu pri zakladanit
+ransparentneho uctu.",,,,
+22,2022-09-19,-177.0,Bezhotovostná platba,,Maria Wagingerova,,2022347,,
+23,2022-09-05,100.0,Bezhotovostný príjem,JANA SKRINIAROVA,/DO2022-09-05/SPPRE UZASNU KANDIDATKU,,,,JANA SKRINIAROVA
+24,2022-09-05,250.0,Bezhotovostný príjem,WAGINGEROVA MARIA,/DO2022-09-02/SP,,,,WAGINGEROVA MARIA
+25,2022-09-02,200.0,Bezhotovostný príjem,Laky Radoslav,/DO2022-08-31/SP,,,,Laky Radoslav
+26,2022-08-31,250.0,Bezhotovostný príjem,WAGINGEROVA MARIA,/DO2022-08-30/SP,,,,WAGINGEROVA MARIA
+27,2022-08-26,500.0,Bezhotovostný príjem,WAGINGEROVA MARIA,/DO2022-08-25/SP,,,,WAGINGEROVA MARIA
+28,2022-08-26,100.0,Bezhotovostný príjem,Halčin Tomáš,/DO2022-08-25/SPTomas Halcin,,,,Halčin Tomáš
+29,2022-08-26,70.0,Bezhotovostný príjem,BALCOVA ZUZANA,/DO2022-08-25/SPdrzim palce,,,,BALCOVA ZUZANA
+30,2022-08-25,-100.0,Bezhotovostná platba,,Uhrada faktury 2022080689,0308,2022080689,,
+31,2022-08-24,20.0,Bezhotovostný príjem,DIKO PETER,/DO2022-08-23/SPOd Dikovcov.,,,,DIKO PETER
+32,2022-08-24,200.0,Bezhotovostný príjem,WAGINGEROVA MARIA,/DO2022-08-23/SP,,,,WAGINGEROVA MARIA
+33,2022-08-24,50.0,Bezhotovostný príjem,Jozef Andel,/DO2022-08-23/SPAndelová Z.,,,,Jozef Andel
+34,2022-08-21,-20.59,Bezhotovostná platba,,"wagingerova.sk, maria.wagingerova.1",0308,1022248217,,
+35,2022-08-11,100.0,Vklad v hotovosti,,,0558,,,

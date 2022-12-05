@@ -1,0 +1,13 @@
+index,account_name,date,amount,currency,message,tx_type,vs,ss
+0,,2022-10-31,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+1,,2022-10-31,-6.0,EUR,Poplatok za vedenie účtu,Poplatok,,
+2,"UNI, spol. s.r.o.",2022-10-26,-201.4,EUR,Predaj tovaru podla DL,Okamžitá platba (EB),311223510,
+3,Lavacom,2022-10-26,-2700.0,EUR,Lorinc - Noviny + reklamne predmety,Platobný príkaz na úhradu / FIT 2.0 (EB),2201300166,
+4,Lörinc Ladislav,2022-10-26,2000.0,EUR,Podme spolu daLLej,Bezhotovostný vklad - okamžitá platba,,
+5,,2022-09-30,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+6,,2022-09-30,-5.8,EUR,Poplatok za vedenie účtu,Poplatok,,
+7,Belej Lukáš,2022-09-23,20.0,EUR,Drzim palce v kampani,Bezhotovostný vklad - okamžitá platba,,
+8,,2022-09-17,-10.0,EUR,Poplatok Potvrdenie o vykonaní prevodu,Poplatok,,
+9,Peter Lenárt,2022-09-16,-1000.0,EUR,Grafické práce,Platobný príkaz na úhradu / FIT 2.0 (EB),,
+10,Lörinc Ladislav,2022-09-07,2000.0,EUR,Kampan 2022 Wuueeeyyy,Bezhotovostný vklad,,
+11,Lörinc Ladislav,2022-09-05,100.0,EUR,Prvy vklad na novy transparentny ucet. Juchuu.,Bezhotovostný vklad,,

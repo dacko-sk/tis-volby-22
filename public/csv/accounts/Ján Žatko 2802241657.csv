@@ -1,0 +1,37 @@
+index,date,amount,tx_type,account_name,message,ks,vs,ss,note
+0,2022-11-20,-1.92,Transakcia kartou,,"Nákup: FACEBK ZSSVSK3GV2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 20.11.2022, částka  1.92 EUR",,8601,,"Nákup: FACEBK ZSSVSK3GV2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 20.11.2022, částka  1.92 EUR"
+1,2022-11-11,-195.75,Bezhotovostná platba,,Zatko prenajom priestorov,0308,40,,
+2,2022-10-31,-0.6,Poplatok - platobná karta,,poplatek za pojištění,,8601,,poplatek za pojištění
+3,2022-10-27,-40.0,Transakcia kartou,,"Nákup: FACEBK K9367K3GV2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 26.10.2022, částka  40.00 EUR",,8601,,"Nákup: FACEBK K9367K3GV2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 26.10.2022, částka  40.00 EUR"
+4,2022-10-26,-40.0,Transakcia kartou,,"Nákup: FACEBK 2KS2FJKGV2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 26.10.2022, částka  40.00 EUR",,8601,,"Nákup: FACEBK 2KS2FJKGV2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 26.10.2022, částka  40.00 EUR"
+5,2022-10-25,-30.0,Transakcia kartou,,"Nákup: FACEBK 9JU4KJTGV2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 25.10.2022, částka  30.00 EUR",,8601,,"Nákup: FACEBK 9JU4KJTGV2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 25.10.2022, částka  30.00 EUR"
+6,2022-10-25,-36.0,Bezhotovostná platba,,zatko tlac plagatu,0308,20223819,,
+7,2022-10-25,-20.0,Transakcia kartou,,"Nákup: FACEBK 26NB6JXFV2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 24.10.2022, částka  20.00 EUR",,8601,,"Nákup: FACEBK 26NB6JXFV2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 24.10.2022, částka  20.00 EUR"
+8,2022-10-25,-12.0,Transakcia kartou,,"Nákup: FACEBK H6WRDJKGV2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 24.10.2022, částka  12.00 EUR",,8601,,"Nákup: FACEBK H6WRDJKGV2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 24.10.2022, částka  12.00 EUR"
+9,2022-10-24,-12.0,Transakcia kartou,,"Nákup: FACEBK DY2NVHFGV2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 24.10.2022, částka  12.00 EUR",,8601,,"Nákup: FACEBK DY2NVHFGV2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 24.10.2022, částka  12.00 EUR"
+10,2022-10-24,-9.0,Transakcia kartou,,"Nákup: FACEBK KM3C5JXFV2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 23.10.2022, částka  9.00 EUR",,8601,,"Nákup: FACEBK KM3C5JXFV2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 23.10.2022, částka  9.00 EUR"
+11,2022-10-23,-9.0,Transakcia kartou,,"Nákup: FACEBK ZEGRYHTFV2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 23.10.2022, částka  9.00 EUR",,8601,,"Nákup: FACEBK ZEGRYHTFV2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 23.10.2022, částka  9.00 EUR"
+12,2022-10-23,-9.0,Transakcia kartou,,"Nákup: FACEBK RDGXGJTGV2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 22.10.2022, částka  9.00 EUR",,8601,,"Nákup: FACEBK RDGXGJTGV2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 22.10.2022, částka  9.00 EUR"
+13,2022-10-21,450.0,Bezhotovostný príjem,Kresťanskodemokratic,/DO2022-10-20/SPPeňažný dar,,20102022,,Kresťanskodemokratic
+14,2022-10-20,-594.0,Bezhotovostná platba,,zatko tlac letakov,0308,220426,,
+15,2022-10-19,-300.0,Bezhotovostná platba,,zatko grafika,0308,292022,,
+16,2022-10-06,-150.0,Bezhotovostná platba,,zatko graficke prace,0308,272022,,
+17,2022-09-30,-0.6,Poplatok - platobná karta,,poplatek za pojištění,,8601,,poplatek za pojištění
+18,2022-09-29,200.0,Bezhotovostný príjem,Jankovic Ivan,"/DO2022-09-29/SPivan jankovic  istrijska 116  841 07 bratislava, Not Provided",,,,Jankovic Ivan
+19,2022-09-27,-69.6,Bezhotovostná platba,,zatko tlac plagatov,0308,22070,,
+20,2022-09-26,-42.0,Bezhotovostná platba,,Zatko tlac plagatu,0308,0582022,,
+21,2022-09-26,-100.0,Bezhotovostná platba,,Zatko foto,0308,062022,,
+22,2022-09-26,-180.0,Bezhotovostná platba,,Zatko bilboard,0308,22156,,
+23,2022-09-22,200.0,Bezhotovostný príjem,Peter Rajkovič,/DO2022-09-21/SP RP,,,,Peter Rajkovič
+24,2022-09-20,200.0,Bezhotovostný príjem,Adrián Jankovič,/DO2022-09-19/SPAdrián Jankovič volebná kampaň,,,,Adrián Jankovič
+25,2022-09-20,450.0,Bezhotovostný príjem,Ján Žatko,/DO2022-09-19/SP,,,,Ján Žatko
+26,2022-09-20,200.0,Bezhotovostný príjem,Lubomír Frolek,/DO2022-09-19/SP L Frolek,,,,Lubomír Frolek
+27,2022-09-19,200.0,Bezhotovostný príjem,Róbert Ondrejkovič,"/DO2022-09-19/SP Robert Ondrejkovic - volebna kampan, Robert Ondrejkovic - volebna kampan",,,,Róbert Ondrejkovič
+28,2022-09-12,200.0,Bezhotovostný príjem,Elena Fabová,/DO2022-09-09/SP Fabova volebna kampan,,,,Elena Fabová
+29,2022-08-31,-0.6,Poplatok - platobná karta,,poplatek za pojištění,,8601,,poplatek za pojištění
+30,2022-08-22,-602.4,Bezhotovostná platba,,,0308,22010,,
+31,2022-08-18,-348.0,Bezhotovostná platba,,,0308,22107,,
+32,2022-08-18,1000.0,Bezhotovostný príjem,JAN ZATKO,/DO2022-08-17/SPDOTACIA UCTU,0308,,,JAN ZATKO
+33,2022-08-18,-422.4,Bezhotovostná platba,,,0308,22008,,
+34,2022-08-17,-297.6,Bezhotovostná platba,,Zatko bilboardy,0308,0502022,,
+35,2022-06-23,1000.0,Bezhotovostný príjem,JAN ZATKO,/DO2022-06-23/SPDOTACIA UCTU,0308,,,JAN ZATKO

@@ -1,0 +1,9 @@
+index,account_name,date,amount,currency,message,tx_type,vs,ss
+0,,2022-10-31,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+1,,2022-10-31,-6.0,EUR,Poplatok za vedenie účtu,Poplatok,,
+2,Base Et Silhourtte S.R.O,2022-10-21,-541.68,EUR,0221021174554.924601,Okamžitá platba (EB),,
+3,Bojczún Andrej,2022-10-21,500.0,EUR,OO22102100012027,Bezhotovostný vklad - okamžitá platba,,
+4,Base Et Silhourtte S.R.O,2022-10-08,-1866.48,EUR,andrej bojczun,Okamžitá platba (EB),,
+5,Bojczún Andrej,2022-10-08,1500.0,EUR,,Bezhotovostný vklad - okamžitá platba,,
+6,,2022-09-30,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+7,,2022-09-30,-3.0,EUR,Poplatok za vedenie účtu,Poplatok,,

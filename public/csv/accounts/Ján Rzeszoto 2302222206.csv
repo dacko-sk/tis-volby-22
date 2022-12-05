@@ -1,0 +1,61 @@
+index,date,amount,tx_type,account_name,message,ks,vs,ss,note
+0,2022-11-20,-15.02,Transakcia kartou,,"Nákup: FACEBK PVF9MLKLE2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 20.11.2022, částka  15.02 EUR",,4899,,"Nákup: FACEBK PVF9MLKLE2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 20.11.2022, částka  15.02 EUR"
+1,2022-10-26,-12.0,Bezhotovostná platba,,"dan za uzivanie verejneho priestran
+stva",0558,1510500531,2203079677,dan za uzivanie verejneho priestranstva
+2,2022-10-26,-70.0,Transakcia kartou,,"Nákup: FACEBK D4P4ULBLE2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 26.10.2022, částka  70.00 EUR",,4899,,"Nákup: FACEBK D4P4ULBLE2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 26.10.2022, částka  70.00 EUR"
+3,2022-10-24,-40.0,Transakcia kartou,,"Nákup: FACEBK XHQD4K7LE2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 23.10.2022, částka  40.00 EUR",,4899,,"Nákup: FACEBK XHQD4K7LE2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 23.10.2022, částka  40.00 EUR"
+4,2022-10-21,20.0,Bezhotovostný príjem,Miroslav Juríček,/DO2022-10-21/SP,,,,Miroslav Juríček
+5,2022-10-20,-10.98,Transakcia kartou,,"Nákup: FACEBK ST4Z6JTKE2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 20.10.2022, částka  10.98 EUR",,4899,,"Nákup: FACEBK ST4Z6JTKE2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 20.10.2022, částka  10.98 EUR"
+6,2022-10-18,-300.0,Bezhotovostná platba,,plosna inzercia zilinsky vecernik,,2966,,plosna inzercia zilinsky vecernik
+7,2022-10-18,-30.0,Transakcia kartou,,"Nákup: FACEBK 9LNVMJXKE2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 18.10.2022, částka  30.00 EUR",,4899,,"Nákup: FACEBK 9LNVMJXKE2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 18.10.2022, částka  30.00 EUR"
+8,2022-10-15,-20.0,Transakcia kartou,,"Nákup: FACEBK W8YGSHFLE2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 14.10.2022, částka  20.00 EUR",,4899,,"Nákup: FACEBK W8YGSHFLE2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 14.10.2022, částka  20.00 EUR"
+9,2022-10-14,100.0,Bezhotovostný príjem,Ján Rzeszoto,/DO2022-10-14/SP kandidat na primatora,,,,Ján Rzeszoto
+10,2022-10-14,20.0,Bezhotovostný príjem,Oľga Kovalčíková,/DO2022-10-13/SP Oli Kovalcikova,,6,,Oľga Kovalčíková
+11,2022-10-14,20.0,Bezhotovostný príjem,PAVLIK PETER,/DO2022-10-13/SPPeter Pavlik,,,,PAVLIK PETER
+12,2022-10-14,20.0,Bezhotovostný príjem,Radoslav Žeriava,/DO2022-10-13/SP,,,,Radoslav Žeriava
+13,2022-10-14,50.0,Bezhotovostný príjem,MARTINKOVA IVETA,/DO2022-10-13/SPpodpora,,,,MARTINKOVA IVETA
+14,2022-10-12,50.0,Bezhotovostný príjem,PETER CHROMIAK,kampan na primatora,,,,PETER CHROMIAK
+15,2022-10-09,-12.0,Transakcia kartou,,"Nákup: FACEBK E8UGBLBLE2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 8.10.2022, částka  12.00 EUR",,4899,,"Nákup: FACEBK E8UGBLBLE2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 8.10.2022, částka  12.00 EUR"
+16,2022-10-07,-9.0,Transakcia kartou,,"Nákup: FACEBK QR2GALBLE2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 7.10.2022, částka  9.00 EUR",,4899,,"Nákup: FACEBK QR2GALBLE2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 7.10.2022, částka  9.00 EUR"
+17,2022-10-06,-6.0,Transakcia kartou,,"Nákup: FACEBK 35UVBJXKE2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 6.10.2022, částka  6.00 EUR",,4899,,"Nákup: FACEBK 35UVBJXKE2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 6.10.2022, částka  6.00 EUR"
+18,2022-10-05,-2062.08,Bezhotovostná platba,,platba tlac schrankovej reklamy,,20220140,,Platba tlac schrankovej reklamy
+19,2022-10-05,-4.0,Transakcia kartou,,"Nákup: FACEBK UF2GJHPKE2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 5.10.2022, částka  4.00 EUR",,4899,,"Nákup: FACEBK UF2GJHPKE2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 5.10.2022, částka  4.00 EUR"
+20,2022-10-05,30.0,Bezhotovostný príjem,CERNAN PETER,/DO2022-10-04/SPNa kampan,,,,CERNAN PETER
+21,2022-10-03,800.0,Bezhotovostný príjem,Ján Rzeszoto,/DO2022-10-03/SP podpora na transparentny ucet,,,,Ján Rzeszoto
+22,2022-10-03,50.0,Bezhotovostný príjem,Brusikova Zdenka,/DO2022-10-02/SPbrusikova zdenka,0308,0030092022,0000000000,Brusikova Zdenka
+23,2022-10-02,-2.0,Transakcia kartou,,"Nákup: FACEBK V8YJFHFLE2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 1.10.2022, částka  2.00 EUR",,4899,,"Nákup: FACEBK V8YJFHFLE2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 1.10.2022, částka  2.00 EUR"
+24,2022-09-30,-2.0,Transakcia kartou,,"Nákup: FACEBK 5LE7JH3LE2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 30.9.2022, částka  2.00 EUR",,4899,,"Nákup: FACEBK 5LE7JH3LE2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 30.9.2022, částka  2.00 EUR"
+25,2022-09-30,150.0,Bezhotovostný príjem,"Kopalová Iveta, MUDr",/DO2022-09-29/SPBurgermajster Janko,0558,19992005,,"Kopalová Iveta, MUDr"
+26,2022-09-30,10.0,Bezhotovostný príjem,PETER MIKULA,/DO2022-09-29/SP.,,,,PETER MIKULA
+27,2022-09-29,-1.5,Transakcia kartou,,"Nákup: FACEBK 73JX2LBLE2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 29.9.2022, částka  1.50 EUR",,4899,,"Nákup: FACEBK 73JX2LBLE2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 29.9.2022, částka  1.50 EUR"
+28,2022-09-28,-1.5,Transakcia kartou,,"Nákup: FACEBK 45PL4JXKE2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 28.9.2022, částka  1.50 EUR",,4899,,"Nákup: FACEBK 45PL4JXKE2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 28.9.2022, částka  1.50 EUR"
+29,2022-09-27,40.0,Bezhotovostný príjem,MIROSLAV DOBIAS,/DO2022-09-26/SPPLATBA,,,,MIROSLAV DOBIAS
+30,2022-09-23,100.0,Bezhotovostný príjem,MARTINKOVA IVETA,/DO2022-09-22/SPTH podpora kandidatury,,,,MARTINKOVA IVETA
+31,2022-09-22,5.0,Bezhotovostný príjem,Hádek Peter,/DO2022-09-21/SP,,,,Hádek Peter
+32,2022-09-21,25.0,Bezhotovostný príjem,IVONA STANIKOVA,/DO2022-09-20/SPPREVOD PROSTRIEDKOV,,,,IVONA STANIKOVA
+33,2022-09-21,20.0,Bezhotovostný príjem,Milan Macek,/DO2022-09-20/SPŽilina pre ludí,,,,Milan Macek
+34,2022-09-19,25.0,Bezhotovostný príjem,BRNAK ROMAN,,,,,BRNAK ROMAN
+35,2022-09-16,50.0,Bezhotovostný príjem,Pavel Kyseľ,/DO2022-09-16/SP Pali No podporuje Mgr. Jana Rzeszota,,,,Pavel Kyseľ
+36,2022-09-16,150.0,Bezhotovostný príjem,"Kopalová Iveta, MUDr",/DO2022-09-14/SPBurgermajster Janko,0558,19992005,,"Kopalová Iveta, MUDr"
+37,2022-09-14,50.0,Bezhotovostný príjem,Škubáková Martina,/DO2022-09-13/SPMartina Skubakova,,,,Škubáková Martina
+38,2022-09-14,15.0,Bezhotovostný príjem,Mikušová Zuzana,/DO2022-09-13/SP,,,,Mikušová Zuzana
+39,2022-09-14,20.0,Bezhotovostný príjem,FENO DUSAN,,,,,FENO DUSAN
+40,2022-09-13,10.0,Bezhotovostný príjem,ZUZANA LOVRITSOVA,/DO2022-09-12/SPPODPORA KAMPANE,0558,,,ZUZANA LOVRITSOVA
+41,2022-09-13,30.0,Bezhotovostný príjem,Uhercik Peter,/DO2022-09-12/SP,,,,Uhercik Peter
+42,2022-09-13,15.0,Bezhotovostný príjem,"Hlavačová Daniela, M",/DO2022-09-12/SPVolby,,,,"Hlavačová Daniela, M"
+43,2022-09-13,10.0,Bezhotovostný príjem,Daniela Gavláková,/DO2022-09-12/SPDaniela G,,,,Daniela Gavláková
+44,2022-09-12,10.0,Platba prevodom v rámci banky,"Malichová, Stanislava",,0558,12092022,,
+45,2022-09-12,50.0,Bezhotovostný príjem,"Turčányiová Soňa, In",/DO2022-09-10/SP,,,,"Turčányiová Soňa, In"
+46,2022-09-12,50.0,Bezhotovostný príjem,Čižmárik Martin,/DO2022-09-12/SPdrzim vsetky,,,,Čižmárik Martin
+47,2022-09-09,300.0,Bezhotovostný príjem,Súlovec Roman,/DO2022-09-09/SPPrispevok na kampan,,,,Súlovec Roman
+48,2022-09-08,-79.2,Bezhotovostná platba,,Uhrada faktury 2022366,,2022366,,
+49,2022-09-08,10.0,Bezhotovostný príjem,"Mikula Radoslav, Ing",/DO2022-09-07/SP,,,,"Mikula Radoslav, Ing"
+50,2022-08-23,50.0,Bezhotovostný príjem,CERNAN PETER,/DO2022-08-22/SPPrispevok na kampan,,,,CERNAN PETER
+51,2022-08-22,20.0,Bezhotovostný príjem,Mária Wágnerová,/DO2022-08-19/SP lepsia zilina,,,,Mária Wágnerová
+52,2022-08-18,20.0,Bezhotovostný príjem,DARINA MIKUSOVA,/DO2022-08-17/SPDRZIM PALCE,,,,DARINA MIKUSOVA
+53,2022-08-18,20.0,Bezhotovostný príjem,Mária Wágnerová,/DO2022-08-17/SP maria wagnerova,,,,Mária Wágnerová
+54,2022-08-18,50.0,Bezhotovostný príjem,VALACH MAROS,za peknu Zilinu,,,,VALACH MAROS
+55,2022-08-18,10.0,Bezhotovostný príjem,DURIS JAROSLAV,/DO2022-08-17/SPJaroslav Duris,,,,DURIS JAROSLAV
+56,2022-07-11,20.0,Bezhotovostný príjem,Zuzana Grúňová,/DO2022-07-09/SPDržím palce.,,,,Zuzana Grúňová
+57,2022-07-01,200.0,Bezhotovostný príjem,MARTINKOVA IVETA,/DO2022-06-30/SPNasa Zilina - Nas zivot,,,,MARTINKOVA IVETA
+58,2022-05-30,10.0,Vklad v hotovosti,,,0558,,,

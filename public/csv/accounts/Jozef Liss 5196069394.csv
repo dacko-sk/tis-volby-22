@@ -1,0 +1,5 @@
+index,account_name,date,amount,currency,message,tx_type,vs,ss
+0,,2022-11-04,-6.0,EUR,Popl.Pl.Prík.na úh./Prev.EUR EHP/FIT(OM),Poplatok,9117200095,
+1,NOTPROVIDED,2022-11-04,-60.0,EUR,úhrada faktúry za prenájom priestorov Voľby 2022,Platobný príkaz na úhradu / FIT 2.0 (OM),9117200095,
+2,,2022-10-31,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+3,Liss Jozef,2022-10-25,205.35,EUR,F001251020229753228,Bezhotovostný vklad,,

@@ -1,0 +1,3 @@
+index,date,amount,tx_type,account_name,message,ks,vs,ss,note
+0,2022-10-21,-500.0,Bezhotovostná platba,,,,2200159,,
+1,2022-10-20,500.0,Bezhotovostný príjem,PETER MUDRY,/DO2022-10-19/SPPLATBA,,,,PETER MUDRY

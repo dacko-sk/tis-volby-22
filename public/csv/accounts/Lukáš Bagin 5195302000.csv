@@ -1,0 +1,8 @@
+index,account_name,date,amount,currency,message,tx_type,vs,ss
+0,Bagín Lukáš,2022-11-19,-110.92,EUR,,Vysporiadanie pri zrušení účtu - prevod,,
+1,,2022-11-19,-3.6,EUR,Poplatok za vedenie účtu,Poplatok,,
+2,Trik Design_piatko,2022-11-15,-124.08,EUR,Úhrada faktúry: 20220117,Platobný príkaz na úhradu / FIT 2.0 (EB),20220117,
+3,,2022-10-31,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+4,,2022-10-31,-6.0,EUR,Poplatok za vedenie účtu,Poplatok,,
+5,JM Creative,2022-10-21,-350.0,EUR,,Platobný príkaz na úhradu / FIT 2.0 (EB),220030,
+6,LUKAS BAGIN,2022-10-03,600.0,EUR,23631152,Bezhotovostný vklad,,

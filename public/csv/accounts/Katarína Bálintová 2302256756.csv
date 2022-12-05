@@ -1,0 +1,60 @@
+index,date,amount,tx_type,account_name,message,ks,vs,ss,note
+0,2022-11-11,-105.06,Transakcia kartou,,"Nákup: FACEBK 294PVH3JA2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 10.11.2022, částka  105.06 EUR",,0886,,"Nákup: FACEBK 294PVH3JA2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 10.11.2022, částka  105.06 EUR"
+1,2022-11-10,160.0,Platba prevodom v rámci banky,"Mgr. Bálintová, Katarína",na uhradu nezaplatene pohladavky z kampane,,,,na uhradu nezaplatene pohladavky z kampane
+2,2022-11-02,-120.0,Bezhotovostná platba,,Katarina Balintova,,2022106,,roznos letákov
+3,2022-10-26,100.0,Platba prevodom v rámci banky,"Mgr. Bálintová, Katarína",,,,,
+4,2022-10-26,-150.0,Transakcia kartou,,"Nákup: FACEBK YY5HWFFJA2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 25.10.2022, částka  150.00 EUR",,0886,,"Nákup: FACEBK YY5HWFFJA2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 25.10.2022, částka  150.00 EUR"
+5,2022-10-25,100.0,Platba prevodom v rámci banky,"Mgr. Bálintová, Katarína",,,,,
+6,2022-10-25,-346.8,Bezhotovostná platba,,Katarina Balintova,,2022146,,letaky tlac
+7,2022-10-24,400.0,Bezhotovostný príjem,KATARINA BALINTOVA,/DO2022-10-21/SPPREVOD PROSTRIEDKOV,,,,KATARINA BALINTOVA
+8,2022-10-24,-101.3,Transakcia kartou,,"Nákup: FAXCOPY91,BA,AVION,  IVANSKA CESTA 16, BRATISLAVA, 82104, SVK, dne 23.10.2022, částka  101.30 EUR",,0886,,"Nákup: FAXCOPY91,BA,AVION,  IVANSKA CESTA 16, BRATISLAVA, 82104, SVK, dne 23.10.2022, částka  101.30 EUR"
+9,2022-10-24,-150.0,Transakcia kartou,,"Nákup: FACEBK WUP9LFXHA2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 23.10.2022, částka  150.00 EUR",,0886,,"Nákup: FACEBK WUP9LFXHA2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 23.10.2022, částka  150.00 EUR"
+10,2022-10-21,-1200.0,Bezhotovostná platba,,katatina balintova,,,,noviny
+11,2022-10-21,180.0,Bezhotovostný príjem,"Kováč Tomáš, MBA",/DO2022-10-20/SPTomas Kovac,,,,"Kováč Tomáš, MBA"
+12,2022-10-21,180.0,Bezhotovostný príjem,"Skutková Veronika, M",/DO2022-10-20/SPVeronika Skutkova,,,,"Skutková Veronika, M"
+13,2022-10-21,300.0,Bezhotovostný príjem,"Selep Jozef, Ing.",/DO2022-10-20/SPSelep - dobrovolny prispevok na kampan,0558,,,"Selep Jozef, Ing."
+14,2022-10-21,180.0,Bezhotovostný príjem,Pekárková Ivana,/DO2022-10-20/SPsuper,,123456789,,Pekárková Ivana
+15,2022-10-20,180.0,Bezhotovostný príjem,ANDREA PRIEVALSKA,/DO2022-10-20/SPADA,,,,ANDREA PRIEVALSKA
+16,2022-10-20,-96.0,Bezhotovostná platba,,Katarina Balintova,,202249,,prenájom priestorov CW
+17,2022-10-19,-500.0,Bezhotovostná platba,,Katarina Balintova,,20220048,20220048,graficke služby
+18,2022-10-19,-500.0,Bezhotovostná platba,,Katarina Balintova,,682022,,príprava grafiky + DTP noviny
+19,2022-10-19,-18.72,Transakcia kartou,,"Nákup: D one PRINT,  Banselova 21, Bratislava, 821 04, SVK, dne 18.10.2022, částka  18.72 EUR",,0886,,"Nákup: D one PRINT,  Banselova 21, Bratislava, 821 04, SVK, dne 18.10.2022, částka  18.72 EUR"
+20,2022-10-19,400.0,Platba prevodom v rámci banky,"Mgr. Bálintová, Katarína",,,,,
+21,2022-10-19,200.0,Bezhotovostný príjem,Kemény Maroš,/DO2022-10-18/SP,,,,Kemény Maroš
+22,2022-10-19,-100.8,Transakcia kartou,,"Nákup: KAVANA,  ZITNA 2, CHORVATSKY GR, 900 25, SVK, dne 18.10.2022, částka  100.80 EUR",,0886,,"Nákup: KAVANA,  ZITNA 2, CHORVATSKY GR, 900 25, SVK, dne 18.10.2022, částka  100.80 EUR"
+23,2022-10-17,180.0,Bezhotovostný príjem,Mária Tomanová,/DO2022-10-14/SP,,,,Mária Tomanová
+24,2022-10-14,250.0,Bezhotovostný príjem,LUCIA JEZEKOVA HAVLI,/DO2022-10-14/SP-MOZETOBYTINAK,,,,LUCIA JEZEKOVA HAVLI
+25,2022-10-12,-100.0,Bezhotovostná platba,,Katarina Balintova,,2022105,,roznos letákov
+26,2022-10-10,-116.3,Transakcia kartou,,"Nákup: FACEBK 9MPGYFKJA2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 10.10.2022, částka  116.30 EUR",,0886,,"Nákup: FACEBK 9MPGYFKJA2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 10.10.2022, částka  116.30 EUR"
+27,2022-10-08,-54.7,Transakcia kartou,,"Nákup: D one PRINT,  Banselova 21, Bratislava, 821 04, SVK, dne 7.10.2022, částka  54.70 EUR",,0886,,"Nákup: D one PRINT,  Banselova 21, Bratislava, 821 04, SVK, dne 7.10.2022, částka  54.70 EUR"
+28,2022-10-05,-25.0,Transakcia kartou,,"Nákup: D one PRINT,  Banselova 21, Bratislava, 821 04, SVK, dne 4.10.2022, částka  25.00 EUR",,0886,,"Nákup: D one PRINT,  Banselova 21, Bratislava, 821 04, SVK, dne 4.10.2022, částka  25.00 EUR"
+29,2022-09-28,-24.25,Transakcia kartou,,"Nákup: D one PRINT,  Banselova 21, Bratislava, 821 04, SVK, dne 27.9.2022, částka  24.25 EUR",,0886,,"Nákup: D one PRINT,  Banselova 21, Bratislava, 821 04, SVK, dne 27.9.2022, částka  24.25 EUR"
+30,2022-09-26,-100.0,Transakcia kartou,,"Nákup: FACEBK WWNJ5FFHA2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 26.9.2022, částka  100.00 EUR",,0886,,"Nákup: FACEBK WWNJ5FFHA2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 26.9.2022, částka  100.00 EUR"
+31,2022-09-22,-70.0,Transakcia kartou,,"Nákup: FACEBK UQRK2FFJA2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 22.9.2022, částka  70.00 EUR",,0886,,"Nákup: FACEBK UQRK2FFJA2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 22.9.2022, částka  70.00 EUR"
+32,2022-09-21,-35.0,Transakcia kartou,,"Nákup: D one PRINT,  Banselova 21, Bratislava, 821 04, SVK, dne 20.9.2022, částka  35.00 EUR",,0886,,"Nákup: D one PRINT,  Banselova 21, Bratislava, 821 04, SVK, dne 20.9.2022, částka  35.00 EUR"
+33,2022-09-18,-40.0,Transakcia kartou,,"Nákup: FACEBK LJBGXEFHA2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 18.9.2022, částka  40.00 EUR",,0886,,"Nákup: FACEBK LJBGXEFHA2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 18.9.2022, částka  40.00 EUR"
+34,2022-09-17,-30.0,Transakcia kartou,,"Nákup: FACEBK 2DHQKEPHA2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 16.9.2022, částka  30.00 EUR",,0886,,"Nákup: FACEBK 2DHQKEPHA2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 16.9.2022, částka  30.00 EUR"
+35,2022-09-15,-20.0,Transakcia kartou,,"Nákup: FACEBK 6T63VEFHA2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 15.9.2022, částka  20.00 EUR",,0886,,"Nákup: FACEBK 6T63VEFHA2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 15.9.2022, částka  20.00 EUR"
+36,2022-09-14,-12.0,Transakcia kartou,,"Nákup: FACEBK F9LD6F7JA2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 14.9.2022, částka  12.00 EUR",,0886,,"Nákup: FACEBK F9LD6F7JA2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 14.9.2022, částka  12.00 EUR"
+37,2022-09-14,-10.0,Platba prevodom v rámci banky,,vrátenie platby v hotovosti,,,,vrátenie platby v hotovosti
+38,2022-09-14,-12.0,Transakcia kartou,,"Nákup: FACEBK TR6R3FKHA2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 13.9.2022, částka  12.00 EUR",,0886,,"Nákup: FACEBK TR6R3FKHA2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 13.9.2022, částka  12.00 EUR"
+39,2022-09-13,-9.0,Transakcia kartou,,"Nákup: FACEBK 4VAQAFKJA2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 13.9.2022, částka  9.00 EUR",,0886,,"Nákup: FACEBK 4VAQAFKJA2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 13.9.2022, částka  9.00 EUR"
+40,2022-09-13,-24.0,Bezhotovostná platba,,Katarina Balintova,,1222206537,,reklamne sluzby
+41,2022-09-13,-9.0,Transakcia kartou,,"Nákup: FACEBK ZSSYNFTHA2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 12.9.2022, částka  9.00 EUR",,0886,,"Nákup: FACEBK ZSSYNFTHA2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 12.9.2022, částka  9.00 EUR"
+42,2022-09-12,-9.0,Transakcia kartou,,"Nákup: FACEBK K73E2FKHA2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 12.9.2022, částka  9.00 EUR",,0886,,"Nákup: FACEBK K73E2FKHA2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 12.9.2022, částka  9.00 EUR"
+43,2022-09-02,300.0,Bezhotovostný príjem,KATARINA BALINTOVA,/DO2022-08-31/SPKATARINA BALINTOVA,,,,KATARINA BALINTOVA
+44,2022-09-02,150.0,Bezhotovostný príjem,ANDREA PRIEVALSKA,/DO2022-08-31/SPPLATBA,,,,ANDREA PRIEVALSKA
+45,2022-08-30,150.0,Bezhotovostný príjem,Pekárková Ivana,/DO2022-08-29/SPsuper,,123456789,,Pekárková Ivana
+46,2022-08-26,-117.3,Bezhotovostná platba,,Katarina Balintova Tricka,0308,22800114,,tricka
+47,2022-08-10,300.0,Bezhotovostný príjem,"Skutková Veronika, M",/DO2022-08-10/SPVeronika Skutkova,,,,"Skutková Veronika, M"
+48,2022-08-02,-1500.0,Bezhotovostná platba,,Katarina Balintova,,20220036,,Fotografické a graficke služby
+49,2022-08-01,300.0,Platba prevodom v rámci banky,"Mgr. Bálintová, Katarína",Katarina Balintova,,,,Katarina Balintova
+50,2022-07-29,150.0,Bezhotovostný príjem,Mária Tomanová,/DO2022-07-28/SP,,,,Mária Tomanová
+51,2022-07-28,300.0,Bezhotovostný príjem,Kemény Maroš,/DO2022-07-27/SPGo Team GROB,,,,Kemény Maroš
+52,2022-07-27,300.0,Bezhotovostný príjem,LUCIA JEZEKOVA HAVLI,/DO2022-07-27/SP-MOZETOBYTINAK,,,,LUCIA JEZEKOVA HAVLI
+53,2022-07-25,150.0,Bezhotovostný príjem,Pekárková Ivana,/DO2022-07-23/SPsuper,,123456789,,Pekárková Ivana
+54,2022-07-22,300.0,Bezhotovostný príjem,"Kováč Tomáš, MBA",/DO2022-07-21/SPPrispevok na kampan,,,,"Kováč Tomáš, MBA"
+55,2022-07-21,300.0,Bezhotovostný príjem,"Selep Jozef, Ing.",/DO2022-07-20/SPJ.Selep - prispevok na kampan,0558,,,"Selep Jozef, Ing."
+56,2022-07-20,150.0,Bezhotovostný príjem,ANDREA PRIEVALSKA,/DO2022-07-19/SPPLATBA,,,,ANDREA PRIEVALSKA
+57,2022-07-18,150.0,Bezhotovostný príjem,Mária Tomanová,/DO2022-07-17/SP,,,,Mária Tomanová
+58,2022-07-11,10.0,Vklad v hotovosti,,,0558,,,Katarína Bálintová

@@ -1,0 +1,7 @@
+index,account_name,date,amount,currency,message,tx_type,vs,ss
+0,,2022-10-31,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+1,"Pintado,s.r.o.",2022-10-28,-1006.66,EUR,"Ing.Miroslav Mazúr,tlač plagáty a letáky",Okamžitá platba (EB),20220064,
+2,Mazúr Miroslav Ing.,2022-10-25,1000.0,EUR,Prevod na transparentný účet,Bezhotovostný vklad,,
+3,,2022-10-21,-6.0,EUR,Poplatok za výber hotovosti,Poplatok,,
+4,,2022-10-21,-150.0,EUR,hotovosť na letáky do schránky,Výber hotovosti,,
+5,Vrutky Mesto,2022-10-05,-250.0,EUR,Mazúr M.Ing. inzercia vol.Vrútočan,Okamžitá platba (EB),,

@@ -1,0 +1,10 @@
+index,account_name,date,amount,currency,message,tx_type,vs,ss
+0,,2022-10-31,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+1,,2022-10-31,-6.0,EUR,Poplatok za vedenie účtu,Poplatok,,
+2,,2022-10-28,-103.22,EUR,"B1396555870-44544 12** **** 5891;PROJECTS S.R.O. ,BRATISLAVA ,SK ;26.10.2022 11:44:26 ;CashBack:0 EUR",Platba kartou,,
+3,,2022-10-27,-110.36,EUR,"B1395981508-44544 12** **** 5891;PROJECTS S.R.O. ,BRATISLAVA ,SK ;25.10.2022 17:45:01 ;CashBack:0 EUR",Platba kartou,,
+4,Stanislav Ralbovský,2022-10-26,100.0,EUR,2229950000007899,Bezhotovostný vklad - okamžitá platba,,
+5,Stanislav Ralbovský,2022-10-25,150.0,EUR,2229850000024166,Bezhotovostný vklad - okamžitá platba,,
+6,Stanislav Ralbovský,2022-10-03,100.0,EUR,23631898,Bezhotovostný vklad,,
+7,,2022-09-30,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+8,,2022-09-30,-4.8,EUR,Poplatok za vedenie účtu,Poplatok,,

@@ -1,0 +1,8 @@
+index,date,amount,tx_type,account_name,message,ks,vs,ss,note
+0,2022-09-26,-360.0,Bezhotovostná platba,,Daniel Barnisin,0000,220134,0,"Graficke upravy, tlac volebnych letakov"
+1,2022-09-20,220.0,Bezhotovostný príjem,BARNISIN DANIEL,/DO2022-09-19/SPVklad na volebnu kampan,,,,BARNISIN DANIEL
+2,2022-09-16,-72.0,Bezhotovostná platba,,Daniel Barnisin,,2270527,,prenajom reklamneho panela
+3,2022-09-16,-144.0,Bezhotovostná platba,,Daniel Barnisin,,2270526,,prenajom reklamneho panela
+4,2022-09-16,-144.0,Bezhotovostná platba,,Daniel Barnisin,,2270528,,prenajom reklamneho panela
+5,2022-09-16,300.0,Bezhotovostný príjem,BARNISIN DANIEL,/DO2022-09-14/SPVklad na volebnu kampan,,,,BARNISIN DANIEL
+6,2022-08-24,200.0,Bezhotovostný príjem,BARNISIN DANIEL,/DO2022-08-23/SPVklad na volebnu kampan,,,,BARNISIN DANIEL

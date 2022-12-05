@@ -1,0 +1,11 @@
+index,date,amount,account_name,message,vs
+0,2022-10-31,6.0,,Odpustenie vedenie konta,9
+1,2022-10-31,-6.0,,Vedenie konta Transparentný účet,9
+2,2022-09-30,6.0,,Odpustenie vedenie konta,9
+3,2022-09-30,-6.0,,Vedenie konta Transparentný účet,9
+4,2022-09-28,-300.0,Vercse sro,Zoltan Jakus uhrada prenajmu reklamnej plochy v Gabcikove,2022003
+5,2022-09-28,320.0,Zuzana Vidová,"Dar od Vidovcov, vela stastia",
+6,2022-08-31,6.0,,Odpustenie vedenie konta,9
+7,2022-08-31,-6.0,,Vedenie konta Transparentný účet,9
+8,2022-07-29,5.0,,Odpust.-popl.za platby a ved.úč/ko,9
+9,2022-07-29,-5.0,,Vedenie účtu,9

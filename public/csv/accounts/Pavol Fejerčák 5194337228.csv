@@ -1,0 +1,10 @@
+index,account_name,date,amount,currency,message,tx_type,vs,ss
+0,,2022-10-31,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+1,,2022-10-31,-6.0,EUR,Poplatok za vedenie účtu,Poplatok,,
+2,FEJERCAK LUKAS,2022-10-05,300.0,EUR,Na bilboardy,Bezhotovostný vklad,,
+3,POSPISIL FRANTISEK,2022-10-04,500.0,EUR,Pospisil Frantisek,Bezhotovostný vklad,,
+4,,2022-09-30,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+5,,2022-09-30,-6.0,EUR,Poplatok za vedenie účtu,Poplatok,,
+6,FEJERCAK PAVOL,2022-09-05,100.0,EUR,Pavol Fejercak,Bezhotovostný vklad,721961,
+7,,2022-08-31,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+8,,2022-08-31,-0.39,EUR,Poplatok za vedenie účtu,Poplatok,,

@@ -1,0 +1,12 @@
+index,date,amount,tx_type,account_name,message,ks,vs,ss,note
+0,2022-11-08,-300.0,Bezhotovostná platba,,,,,,
+1,2022-10-25,-40.0,Transakcia kartou,,"Nákup: FACEBK CZ76GG7T52,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 24.10.2022, částka  40.00 EUR",,2541,,"Nákup: FACEBK CZ76GG7T52,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 24.10.2022, částka  40.00 EUR"
+2,2022-10-22,-40.0,Transakcia kartou,,"Nákup: FACEBK SPYGEG7T52,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 22.10.2022, částka  40.00 EUR",,2541,,"Nákup: FACEBK SPYGEG7T52,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 22.10.2022, částka  40.00 EUR"
+3,2022-10-20,-40.0,Transakcia kartou,,"Nákup: FACEBK B5RCXGKS52,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 19.10.2022, částka  40.00 EUR",,2541,,"Nákup: FACEBK B5RCXGKS52,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 19.10.2022, částka  40.00 EUR"
+4,2022-10-17,-1987.2,Platba prevodom v rámci banky,,Faktura za tlac letakov,,,,Faktura za tlac letakov
+5,2022-10-17,-46.0,Bezhotovostná platba,,Faktura graficky navrh letaku,,,,
+6,2022-10-14,-25.84,Transakcia kartou,,"Nákup: FACEBK VVAH3HPS52,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 14.10.2022, částka  25.84 EUR",,2541,,"Nákup: FACEBK VVAH3HPS52,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 14.10.2022, částka  25.84 EUR"
+7,2022-10-13,-2322.0,Bezhotovostná platba,,Faktura za distribuciu letakov,0308,2022072,,
+8,2022-10-13,3000.0,Bezhotovostný príjem,PETER STRAPAK,/DO2022-10-12/SPNA KAMPAN,,,,PETER STRAPAK
+9,2022-10-08,-177.48,Transakcia kartou,,"Nákup: Tesco Bratislava Zlate,  Cesta na Senec, Bratislava, 82104, SVK, dne 7.10.2022, částka  177.48 EUR",,2541,,"Nákup: Tesco Bratislava Zlate,  Cesta na Senec, Bratislava, 82104, SVK, dne 7.10.2022, částka  177.48 EUR"
+10,2022-09-30,2000.0,Bezhotovostný príjem,PETER STRAPAK,/DO2022-09-29/SPNA KAMPAN,,,,PETER STRAPAK

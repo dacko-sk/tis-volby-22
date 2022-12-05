@@ -1,0 +1,13 @@
+index,account_name,date,amount,currency,message,tx_type,vs,ss
+0,,2022-10-31,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+1,Martin Hegedus Tvorba Web Stranky,2022-10-25,-300.0,EUR,,Platobný príkaz na úhradu / FIT 2.0 (EB),20220001,
+2,Lipoprint,2022-10-24,-1638.0,EUR,,Platobný príkaz na úhradu / FIT 2.0 (EB),2022253,
+3,Šuník Robert,2022-10-18,3000.0,EUR,F001181020225357936,Bezhotovostný vklad,,
+4,Siltovky,2022-10-18,-3547.2,EUR,,Platobný príkaz na úhradu / FIT 2.0 (EB),2022268,
+5,Šuník Robert,2022-10-16,3000.0,EUR,F001161020222375025,Bezhotovostný vklad,,
+6,Uríček Martin,2022-10-14,205.65,EUR,Dar poslaneckej odmeny za III. quartál,Bezhotovostný vklad,,
+7,,2022-09-30,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+8,BigMedia,2022-09-30,-3222.0,EUR,,Platobný príkaz na úhradu / FIT 2.0 (EB),1222301076,
+9,Šuník Robert,2022-09-25,3000.0,EUR,F001250920226942776,Bezhotovostný vklad,,
+10,,2022-08-31,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+11,Robert Šuník,2022-08-23,1500.0,EUR,voľby,Bezhotovostný vklad,,

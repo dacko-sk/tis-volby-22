@@ -1,0 +1,20 @@
+index,date,amount,tx_type,account_name,message,ks,vs,ss,note
+0,2022-10-31,-528.1,Bezhotovostná platba,,ODB.C.:  H00851 letaky + instalacia,0308,1112201326,,letaky + instalacia
+1,2022-10-30,-1000.0,Bezhotovostná platba,,,,12200025,,"volebný leták A5 1+1 cb 80g 10 000,00 ks 0,10"
+2,2022-10-24,300.0,Bezhotovostný príjem,Peter Baník,/DO2022-10-24/SP kampan banikova,,,,Peter Baník
+3,2022-10-19,-996.0,Platba prevodom v rámci banky,,,0308,20220408,,"polep pultu, potlač žetónov, letáky A4/DL, grafické práce"
+4,2022-10-19,300.0,Bezhotovostný príjem,"Weiszer Adrián, Ing.",/DO2022-10-18/SPWeiszer - volby 2022,,,,"Weiszer Adrián, Ing."
+5,2022-10-18,-139.0,Bezhotovostná platba,,,0308,20220157,,polep auta
+6,2022-10-18,300.0,Bezhotovostný príjem,Berinster Peter,/DO2022-10-17/SP,,,,Berinster Peter
+7,2022-10-17,300.0,Platba prevodom v rámci banky,"Rosival, Richard",Rosival Richard,,,,Rosival Richard
+8,2022-10-17,-3204.0,Bezhotovostná platba,,noviny - 18 500 ks,,220389,,Volebné noviny
+9,2022-10-17,2000.0,Bezhotovostný príjem,Rovinsky Ladislav,"/DO2022-10-14/SPvklad na transparentny ucet, Rovinsky",,,,Rovinsky Ladislav
+10,2022-10-17,300.0,Bezhotovostný príjem,Slavomír Pavelčák,/DO2022-10-17/SP Prispevok na volebnu kampan od Slavomira Pavelcaka.,,,,Slavomír Pavelčák
+11,2022-10-17,300.0,Bezhotovostný príjem,Jozef Bojčík,/DO2022-10-17/SP,,,,Jozef Bojčík
+12,2022-10-15,-6.0,Transakcia kartou,,"Nákup: PAPIERNICTVO, KOSICE - ZAPA, SK, dne 14.10.2022, částka  6.00 EUR",,5101,,"Nákup: PAPIERNICTVO, KOSICE - ZAPA, SK, dne 14.10.2022, částka  6.00 EUR"
+13,2022-10-15,-25.1,Transakcia kartou,,"Nákup: Prevadzka Sevt_70, Kosice, SK, dne 14.10.2022, částka  25.10 EUR",,5101,,"Nákup: Prevadzka Sevt_70, Kosice, SK, dne 14.10.2022, částka  25.10 EUR"
+14,2022-10-15,-56.28,Transakcia kartou,,"Nákup: DAFFER SRO, KOSICE, SK, dne 14.10.2022, částka  56.28 EUR",,5101,,"Nákup: DAFFER SRO, KOSICE, SK, dne 14.10.2022, částka  56.28 EUR"
+15,2022-10-14,2000.0,Bezhotovostný príjem,Rovinsky Ladislav,"/DO2022-10-13/SPvklad na transparentny ucet, Rovinsky",,,,Rovinsky Ladislav
+16,2022-09-25,-408.0,Platba prevodom v rámci banky,,pero s potlacou,0308,20220348,,pero s potlacou
+17,2022-09-20,300.0,Bezhotovostný príjem,Dominik Karaffa,/DO2022-09-19/SPGood luck!,,,,Dominik Karaffa
+18,2022-09-19,1000.0,Bezhotovostný príjem,Rovinsky Ladislav,"/DO2022-09-16/SPvklad na transparentny ucet, Not Provided",,,,Rovinsky Ladislav

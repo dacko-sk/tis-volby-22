@@ -1,0 +1,45 @@
+index,date,amount,tx_type,account_name,message,ks,vs,ss,note
+0,2022-10-31,-20.0,Bezhotovostná platba,,mylna platba,,,,Žilka František
+1,2022-10-31,20.0,Bezhotovostný príjem,Žilka František,/DO2022-10-30/SPVklad na kampan fedo zilka,0308,1973,,Žilka František
+2,2022-10-27,-96.0,Bezhotovostná platba,,"uhrada Fa, reklamne miesto umyvaren
+ , dodavatel: TLS, s.r.o., Fatransk
+a 2E, 040 11 Kosice, ICO: 36516767",,20221003,,"uhrada Fa, reklamne miesto umyvaren, dodavatel: TLS, s.r.o., Fatranska 2E, 040 11 Kosice, ICO: 36516767"
+3,2022-10-27,92.0,Bezhotovostný príjem,"Kall Viliam, JUDr.",/DO2022-10-27/SPVlastny vklad kampan Viliam Kall,,,,"Kall Viliam, JUDr."
+4,2022-10-26,-830.0,Bezhotovostná platba,,"uhrada Fa za graficke navrhy, dodav
+atel: TREVINO, s.r.o., Dlha 13, Vel
+ky Saris ICO:36443174",,220011,,"uhrada Fa za graficke navrhy, dodav atel: TREVINO, s.r.o., Dlha 13, Vel ky Saris ICO:36443174"
+5,2022-10-26,-22.28,Transakcia kartou,,"Nákup: LIDL 261,PO,OC FORUM, PRESOV, SK, dne 25.10.2022, částka  22.28 EUR",,4198,,"Nákup: LIDL 261,PO,OC FORUM, PRESOV, SK, dne 25.10.2022, částka  22.28 EUR"
+6,2022-10-26,-25.28,Transakcia kartou,,"Nákup: KAUFLAND 1120, PO, LEVO, PRESOV, SK, dne 25.10.2022, částka  25.28 EUR",,4198,,"Nákup: KAUFLAND 1120, PO, LEVO, PRESOV, SK, dne 25.10.2022, částka  25.28 EUR"
+7,2022-10-26,250.0,Bezhotovostný príjem,"Kall Viliam, JUDr.",/DO2022-10-25/SPVlastny vklad kampan Viliam Kall,,,,"Kall Viliam, JUDr."
+8,2022-10-26,200.0,Bezhotovostný príjem,Tkáčik Jakub Stanisl,"/DO2022-10-25/SPStanislav Tkacik, vklad na kampan",,7505279144,,Tkáčik Jakub Stanisl
+9,2022-10-22,-85.0,Transakcia kartou,,"Nákup: SLOVENSKA POSTA  A S, VELKY SARIS, SK, dne 21.10.2022, částka  85.00 EUR",,4198,,"Nákup: SLOVENSKA POSTA  A S, VELKY SARIS, SK, dne 21.10.2022, částka  85.00 EUR"
+10,2022-10-21,100.0,Bezhotovostný príjem,Žilka František,/DO2022-10-20/SPVklad na kampan fedo zilka,0308,1973,,Žilka František
+11,2022-10-21,100.0,Bezhotovostný príjem,SIMKOVA JANKA,"/DO2022-10-20/SPJanka Simkova, vklad na kampan",0308,31121957,,SIMKOVA JANKA
+12,2022-10-21,100.0,Bezhotovostný príjem,GALDUN JOZEF,/DO2022-10-20/SPJozef galdun vklad kampan,,,,GALDUN JOZEF
+13,2022-10-20,-1066.32,Bezhotovostná platba,,"Uhrada Fa baner,letaky,karty, Dodav
+ater: FULLERs.r.o., Dujavska 12, Ve
+lky Saris, ICO: 53439881",,20220133,,"Uhrada Fa baner,letaky,karty, Dodavater: FULLER s.r.o., Dujavska 12, Velky Saris, ICO: 53439881"
+14,2022-10-20,100.0,Bezhotovostný príjem,Dávid Bednárik,"/DO2022-10-20/SPDávid Bednárik, vklad na kampaň",,,,Dávid Bednárik
+15,2022-10-20,100.0,Bezhotovostný príjem,Monika Rolíková,"/DO2022-10-20/SPMonika Rolikova,vklad na kampan",,,,Monika Rolíková
+16,2022-10-20,100.0,Bezhotovostný príjem,Jakub Maškara,/DO2022-10-19/SP Jakub Maskara vklad na kampan 2,,,,Jakub Maškara
+17,2022-10-19,100.0,Bezhotovostný príjem,KOVALAK PETER,Peter Kovalak vklad na kampan,,,,KOVALAK PETER
+18,2022-10-18,100.0,Bezhotovostný príjem,Antónia Gaálová,"/DO2022-10-17/SPAntónia Gaálová,vklad na kampaň",,,,Antónia Gaálová
+19,2022-10-18,100.0,Bezhotovostný príjem,Žilka František,/DO2022-10-17/SPVklad na kampan fedo zilka,0308,1973,,Žilka František
+20,2022-10-17,100.0,Bezhotovostný príjem,Monika Rolíková,"/DO2022-10-14/SPMonika Rolikova,vklad na kampan",,,,Monika Rolíková
+21,2022-10-17,100.0,Bezhotovostný príjem,Jakub Maškara,/DO2022-10-14/SP Jakub Maskara vklad na kampan,,,,Jakub Maškara
+22,2022-10-14,-49.98,Transakcia kartou,,"Nákup: TLACIMATO.SK, MARTIN, SK, dne 13.10.2022, částka  49.98 EUR",,4198,,"Nákup: TLACIMATO.SK, MARTIN, SK, dne 13.10.2022, částka  49.98 EUR"
+23,2022-10-14,100.0,Bezhotovostný príjem,Dávid Bednárik,"/DO2022-10-13/SPDávid Bednárik, vklad na kampaň",,,,Dávid Bednárik
+24,2022-10-14,100.0,Bezhotovostný príjem,GALDUN JOZEF,/DO2022-10-13/SPJozef galdun vklad na kampan,,,,GALDUN JOZEF
+25,2022-10-13,-40.0,Bezhotovostná platba,,"uhrada Fa letak , dodavatel: Z. Mag
+dova - Tlaciaren s.r.o., Hribova 4,
+ Velky Saris ICO: 53000161",,220294,,"uhrada Fa letak , dodavatel: Z. Magdova - Tlaciaren s.r.o., Hribova 4, Velky Saris ICO: 53000161"
+26,2022-10-13,-180.0,Platba prevodom v rámci banky,,"Uhrada Fa inzercia Velkosarisan, Dodavatel: VERA plus s.r.o., Lutina 108, Lutina ICO: 47597844",,2201017,,"Uhrada Fa inzercia Velkosarisan, Dodavatel: VERA plus s.r.o., Lutina 108, Lutina ICO: 47597844"
+27,2022-10-13,-161.66,Bezhotovostná platba,,"Uhrada Fa baner, Dodavater: FULLERs
+.r.o., Dujavska 12, Velky Saris, IC
+O: 53439881",,20220123,,"Uhrada Fa baner, Dodavater: FULLER s.r.o., Dujavska 12, Velky Saris, ICO: 53439881"
+28,2022-10-13,100.0,Bezhotovostný príjem,SIMKOVA JANKA,"/DO2022-10-12/SPJanka Simkova, vklad na kampan",0308,31121957,,SIMKOVA JANKA
+29,2022-10-13,100.0,Bezhotovostný príjem,KOVALAK PETER,Peter Kovalak vklad na kampan,,,,KOVALAK PETER
+30,2022-10-13,100.0,Bezhotovostný príjem,Antónia Gaálová,"/DO2022-10-12/SPAntónia Gaálová,vklad na kampaň",,,,Antónia Gaálová
+31,2022-10-12,-85.0,Transakcia kartou,,"Nákup: SLOVENSKA POSTA  A S, VELKY SARIS, SK, dne 11.10.2022, částka  85.00 EUR",,4198,,"Nákup: SLOVENSKA POSTA  A S, VELKY SARIS, SK, dne 11.10.2022, částka  85.00 EUR"
+32,2022-10-06,500.0,Bezhotovostný príjem,"Kall Viliam, JUDr.",/DO2022-10-05/SPVlastny vklad kampan Viliam Kall,,,,"Kall Viliam, JUDr."
+33,2022-09-04,10.0,Platba prevodom v rámci banky,"JUDr. Kall, Viliam",,,,,

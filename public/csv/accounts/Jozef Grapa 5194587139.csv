@@ -1,0 +1,9 @@
+index,account_name,date,amount,currency,message,tx_type,vs,ss
+0,,2022-10-31,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+1,Radolsky,2022-10-26,-1084.8,EUR,,Platobný príkaz na úhradu / FIT 2.0 (EB),4222022,
+2,Grapa Jozef Ing.,2022-10-26,650.0,EUR,F001261020220318133,Bezhotovostný vklad,,
+3,3am,2022-10-13,-816.0,EUR,0221013110640.457679,Okamžitá platba (EB),20220088,
+4,Grapa Jozef Ing.,2022-10-13,1000.0,EUR,F001131020229263194,Bezhotovostný vklad,391958,
+5,,2022-09-30,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+6,Gaja,2022-09-22,-1604.4,EUR,,Platobný príkaz na úhradu / FIT 2.0 (EB),4222,
+7,Grapa Jozef Ing.,2022-09-07,2000.0,EUR,F001070920221888560,Bezhotovostný vklad,391958,

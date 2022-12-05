@@ -1,0 +1,5 @@
+index,account_name,date,amount,currency,message,tx_type,vs,ss
+0,,2022-10-31,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+1,,2022-10-31,-2.71,EUR,Poplatok za vedenie účtu,Poplatok,,
+2,"TYPOPRESS-tlačiareň, s.r.o.",2022-10-24,-78.65,EUR,,Platobný príkaz na úhradu / FIT 2.0 (EB),220271,
+3,"Horváth Tibor, Bc.",2022-10-20,300.0,EUR,OO22102000019769,Bezhotovostný vklad - okamžitá platba,,

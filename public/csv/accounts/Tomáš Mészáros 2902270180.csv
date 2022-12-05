@@ -1,0 +1,19 @@
+index,date,amount,tx_type,account_name,message,ks,vs,ss,note
+0,2022-11-06,-214.65,Bezhotovostná platba,,vratenie daru,,,,cestovné výdavky
+1,2022-11-01,-1.93,Transakcia kartou,,"Nákup: FACEBK JTXCXJXZU2, fb.me/ads, IE, dne 31.10.2022, částka  1.93 EUR",,2031,,"Nákup: FACEBK JTXCXJXZU2, fb.me/ads, IE, dne 31.10.2022, částka  1.93 EUR"
+2,2022-10-30,-0.01,Transakcia kartou,,"Nákup: FACEBK T7HPTKP2V2, fb.me/ads, IE, dne 29.10.2022, částka  0.01 EUR",,2031,,"Nákup: FACEBK T7HPTKP2V2, fb.me/ads, IE, dne 29.10.2022, částka  0.01 EUR"
+3,2022-10-28,-135.9,Transakcia kartou,,"Nákup: GoogleAdwordsEU ADS476734, Dublin, IE, dne 27.10.2022, částka  135.90 EUR",,2031,,"Nákup: GoogleAdwordsEU ADS476734, Dublin, IE, dne 27.10.2022, částka  135.90 EUR"
+4,2022-10-27,-156.35,Bezhotovostná platba,,"PAYPAL .FACEBOOK FACEBO 35314369001
+ IE",,,,PAYPAL *FACEBOOK FACEBO 35314369001 IE
+5,2022-10-24,-240.0,Transakcia kartou,,"Nákup: FACEBK 3BEP2JF2V2, fb.me/ads, IE, dne 23.10.2022, částka  240.00 EUR",,2031,,"Nákup: FACEBK 3BEP2JF2V2, fb.me/ads, IE, dne 23.10.2022, částka  240.00 EUR"
+6,2022-10-22,-50.0,Transakcia kartou,,"Nákup: GOOGLE *ADS4767348460, cc@google.com, IE, dne 21.10.2022, částka  50.00 EUR",,2031,,"Nákup: GOOGLE *ADS4767348460, cc@google.com, IE, dne 21.10.2022, částka  50.00 EUR"
+7,2022-10-16,-350.0,Bezhotovostná platba,,Graficke prace a tlac,0308,20220295,,Graficke prace a tlac
+8,2022-10-05,500.0,Platba prevodom v rámci banky,"Ing. Mészáros, Tomáš",,,,,
+9,2022-10-02,-153.56,Transakcia kartou,,"Nákup: FACEBK EVER7J33V2, fb.me/ads, IE, dne 1.10.2022, částka  153.56 EUR",,2031,,"Nákup: FACEBK EVER7J33V2, fb.me/ads, IE, dne 1.10.2022, částka  153.56 EUR"
+10,2022-09-08,-480.0,Bezhotovostná platba,,Inzercia v casopise Slovo Salanov,0308,2022223,,Inzercia v casopise Slovo Salanov
+11,2022-09-02,-68.89,Transakcia kartou,,"Nákup: FACEBK *WWVBDHXZU2, fb.me/ads, IE, dne 1.9.2022, částka  68.89 EUR",,2031,,"Nákup: FACEBK *WWVBDHXZU2, fb.me/ads, IE, dne 1.9.2022, částka  68.89 EUR"
+12,2022-08-26,-146.72,Transakcia kartou,,"Nákup: FACEBK *7LNUMGX2V2, fb.me/ads, IE, dne 25.8.2022, částka  146.72 EUR",,2031,,"Nákup: FACEBK *7LNUMGX2V2, fb.me/ads, IE, dne 25.8.2022, částka  146.72 EUR"
+13,2022-08-24,1000.0,Bezhotovostný príjem,Martin Alföldi,/DO2022-08-24/SP,,,,Martin Alföldi
+14,2022-08-15,-11.99,Bezhotovostná platba,,meszaros2022.sk,0308,1022242447,,domena meszaros2022.sk
+15,2022-08-11,500.0,Bezhotovostný príjem,Mészáros Tomáš,/DO2022-08-11/SP,,,,Mészáros Tomáš
+16,2022-07-26,10.0,Platba prevodom v rámci banky,"Ing. Mészáros, Tomáš",,,,,

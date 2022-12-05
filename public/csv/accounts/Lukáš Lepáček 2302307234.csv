@@ -1,0 +1,9 @@
+index,date,amount,tx_type,account_name,message,ks,vs,ss,note
+0,2022-10-14,-119.98,Transakcia kartou,,"Nákup: printworld.com GmbH, Grossschirma, DE, dne 13.10.2022, částka  119.98 EUR",,8090,,"Nákup: printworld.com GmbH, Grossschirma, DE, dne 13.10.2022, částka  119.98 EUR"
+1,2022-10-13,120.0,Bezhotovostný príjem,Lukáš Lepáček,/DO2022-10-12/SP Kampan,,,,Lukáš Lepáček
+2,2022-10-11,-9.61,Poplatok,,Poskytnutí bankovní informace,,,,Poskytnutí bankovní informace
+3,2022-10-04,-98.39,Transakcia kartou,,"Nákup: printworld.com GmbH, Grossschirma, DE, dne 3.10.2022, částka  98.39 EUR",,8090,,"Nákup: printworld.com GmbH, Grossschirma, DE, dne 3.10.2022, částka  98.39 EUR"
+4,2022-10-03,40.0,Bezhotovostný príjem,Lukáš Lepáček,/DO2022-10-03/SP Kampan,,,,Lukáš Lepáček
+5,2022-09-13,-168.0,Bezhotovostná platba,,platba faktury,0308,12120550,,platba billboard
+6,2022-09-07,-264.0,Bezhotovostná platba,,,,2270460,,
+7,2022-09-07,500.0,Vklad v hotovosti,,,0558,,,

@@ -1,0 +1,35 @@
+index,date,amount,account_name,message,vs
+0,2022-11-14,46.7,ALZA.CZ A.S.,,4686198281
+1,2022-11-03,-46.7,"Alza.cz, a.s.",,2066378617
+2,2022-10-31,6.0,,Odpustenie vedenie konta,9
+3,2022-10-31,-6.0,,Vedenie konta Transparentný účet,9
+4,2022-10-31,-300.0,,Ozvucenie,
+5,2022-10-28,-20.0,,Stany,2022007
+6,2022-10-27,-10.0,,Mesto Svaty Jur,1345822
+7,2022-10-27,-200.0,,Mesto Svaty Jur,1345922
+8,2022-10-26,400.0,Šimon Gabura,,
+9,2022-10-24,-70.47,"VUB,A.S.",DDTesco~~Pezinok~Pezinok~~~~~~~~P1,****1045
+10,2022-10-24,-33.1,"VUB,A.S.",DDLIDL~SLOVENSKO~PEZINOK~~~11:30P1,****1045
+11,2022-10-24,-25.8,"VUB,A.S.",DDMASIARSTVO~HALESVATY~JUR~~~~~~P1,****1045
+12,2022-10-24,-11.96,"VUB,A.S.",DDPAPIERNICTVO~STSVATY~JUR~~~~~~P1,****1045
+13,2022-10-24,-360.0,,Letak 3,
+14,2022-10-21,200.0,Šimon Gabura,Volby 2022,
+15,2022-10-19,400.0,Šimon Gabura,volby 2022,
+16,2022-10-17,-180.0,,letaky 2,220049
+17,2022-10-17,-204.0,,letaky pokazene,220047
+18,2022-10-13,-3.5,,Poplatok Zmena PIN k PK cez ATM,1045
+19,2022-10-11,300.0,Šimon Gabura,Simon Gabura Volby 2022,
+20,2022-09-30,6.0,,Odpustenie vedenie konta,9
+21,2022-09-30,-6.0,,Vedenie konta Transparentný účet,9
+22,2022-09-20,-204.0,,letak,220040
+23,2022-09-19,40.0,Šimon Gabura,Chybna platba Simon Gabura,
+24,2022-09-16,-40.0,,Simon Gabura august september,343000073
+25,2022-09-13,300.0,Šimon Gabura,Simon Gabura,
+26,2022-08-31,6.0,,Odpustenie vedenie konta,9
+27,2022-08-31,-6.0,,Vedenie konta Transparentný účet,9
+28,2022-08-15,-120.0,Ad Sun,Platba billboard,2022641
+29,2022-08-15,30.0,Šimon Gabura,Chybna platba Tipos Simon Gabura,
+30,2022-08-15,-30.0,"TIPOS, národná lotériová spoločnosť a.s.",,19494553
+31,2022-08-09,200.0,Šimon Gabura,Simon Gabura,
+32,2022-07-29,5.0,,Odpust.-popl.za platby a ved.úč/ko,9
+33,2022-07-29,-5.0,,Vedenie účtu,9

@@ -1,0 +1,3 @@
+index,account_name,date,amount,currency,message,tx_type,vs,ss
+0,,2022-10-31,-5,EUR,Zverejňovanie účtu,Poplatok,,
+1,HUCÍK MILOŠ,2022-10-05,100,EUR,Miloš Hucík - vklad,Bezhotovostný vklad,05102022,05202022

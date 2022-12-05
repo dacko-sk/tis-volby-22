@@ -1,0 +1,5 @@
+index,date,amount,tx_type,account_name,message,ks,vs,ss,note
+0,2022-11-03,-170.0,Bezhotovostná platba,,,,582022,,prenajom
+1,2022-09-12,-550.0,Bezhotovostná platba,,Sluzby,0000,10220015,0,
+2,2022-08-25,-204.0,Bezhotovostná platba,,,0008,1020220098,,prenajom reklamnej plochy
+3,2022-08-12,1000.0,Bezhotovostný príjem,HALASZ BELA,/DO2022-08-11/SPB terv,,,,HALASZ BELA

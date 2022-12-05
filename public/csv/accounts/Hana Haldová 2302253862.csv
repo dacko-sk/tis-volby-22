@@ -1,0 +1,26 @@
+index,date,amount,tx_type,account_name,message,ks,vs,ss,note
+0,2022-11-14,-870.0,Bezhotovostná platba,,,,2223127,,sociálne siete
+1,2022-11-09,-65.0,Bezhotovostná platba,,,,22119038,,reklamný panel-dodatok č.1
+2,2022-10-24,-156.0,Bezhotovostná platba,,,,12120702,,reklamný panel záloha 11/2022
+3,2022-10-21,100.0,Bezhotovostný príjem,BELESOVA IVANA,/DO2022-10-20/SPivana,0000,19102022,29102022,BELESOVA IVANA
+4,2022-10-20,15.0,Bezhotovostný príjem,Kuštorová Kristína,/DO2022-10-19/SPDrzim palce,,,,Kuštorová Kristína
+5,2022-10-20,20.0,Bezhotovostný príjem,Ján Jacko,/DO2022-10-20/SP,,,29102022,Ján Jacko
+6,2022-10-18,50.0,Bezhotovostný príjem,Miroslav Šauša,/DO2022-10-18/SP Miro Sausa,,,29102022,Miroslav Šauša
+7,2022-10-18,50.0,Bezhotovostný príjem,"Kinčeš Vojtech, Ing.",/DO2022-10-17/SPVojto Kinces,0558,17102022,,"Kinčeš Vojtech, Ing."
+8,2022-10-11,50.0,Bezhotovostný príjem,Reichbauerová Zuzana,/DO2022-10-10/SPReichbauerova Zuzana,,,29102022,Reichbauerová Zuzana
+9,2022-10-11,20.0,Bezhotovostný príjem,Darina Mikitova,/DO2022-10-10/SP,,,,Darina Mikitova
+10,2022-10-11,300.0,Bezhotovostný príjem,KUBIK PETER,,,,29102022,KUBIK PETER
+11,2022-10-10,20.0,Bezhotovostný príjem,BREZOVSKA JANETTA,/DO2022-10-08/SP,,,29102022,BREZOVSKA JANETTA
+12,2022-10-10,100.0,Bezhotovostný príjem,Ondrej Čuraj,/DO2022-10-10/SP Jana curajova,,,29102022,Ondrej Čuraj
+13,2022-10-10,50.0,Bezhotovostný príjem,"Molčányi Andrej, Ing",/DO2022-10-08/SPna Stupavu,,0903424520,29102022,"Molčányi Andrej, Ing"
+14,2022-10-10,20.0,Bezhotovostný príjem,Milan Gramblička,/DO2022-10-10/SP,,,29102022,Milan Gramblička
+15,2022-10-10,20.0,Bezhotovostný príjem,Novotný Martin,/DO2022-10-08/SPPre p. Haldovu,,,29102022,Novotný Martin
+16,2022-10-07,-2211.82,Bezhotovostná platba,,,,2223103,,"polygrafia, web, online marketing 092022"
+17,2022-09-30,-3000.0,Platba prevodom v rámci banky,,,,2022008,,reklamný spot
+18,2022-09-30,3000.0,Bezhotovostný príjem,HALDOVA HANA,/DO2022-09-29/SP,,022022,,HALDOVA HANA
+19,2022-09-27,-312.0,Bezhotovostná platba,,,,12120658,,reklamný panel záloha 10/2022
+20,2022-09-23,200.0,Bezhotovostný príjem,"Šimůnek Stanislav, D",/DO2022-09-22/SPDrzim palce!,,,,"Šimůnek Stanislav, D"
+21,2022-08-30,25.0,Bezhotovostný príjem,"Voda Stanislav, Ing.",/DO2022-08-26/SPDrobny prispevok dochodcu H2O,,,,"Voda Stanislav, Ing."
+22,2022-08-11,-372.0,Bezhotovostná platba,,,,12120438,,reklamný panel záloha 09/2022
+23,2022-08-08,-40.64,Bezhotovostná platba,,domena,0308,1022234880,,Domena
+24,2022-07-25,3000.0,Bezhotovostný príjem,HALDOVA HANA,/DO2022-07-25/SP,,012022,,HALDOVA HANA

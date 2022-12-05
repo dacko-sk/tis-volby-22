@@ -1,0 +1,13 @@
+index,date,amount,tx_type,account_name,message,ks,vs,ss,note
+0,2022-11-07,354.0,Bezhotovostný príjem,MATEJKA MARTIN,Martin Matejka,,,,MATEJKA MARTIN
+1,2022-10-27,360.0,Bezhotovostný príjem,Dana Krištofová,"/DO2022-10-26/SPÚhrada nákladov na banery, propagačné materiály",,,,Dana Krištofová
+2,2022-10-26,360.0,Bezhotovostný príjem,MAREK CIZ,,,,,MAREK CIZ
+3,2022-10-26,160.0,Bezhotovostný príjem,Ľubomíra Gregová,/DO2022-10-25/SP Lubomira Gregova,0008,24102022,,Ľubomíra Gregová
+4,2022-09-29,-150.0,Platba prevodom v rámci banky,,Jan stovka poplatok za ucast v diskusii 4.10.2022 PKO,,,,Jan stovka poplatok za ucast v diskusii 4.10.2022 PKO
+5,2022-09-16,200.0,Bezhotovostný príjem,Michael Mikloško,/DO2022-09-16/SP,,,,Michael Mikloško
+6,2022-09-16,200.0,Bezhotovostný príjem,Ľubomíra Gregová,/DO2022-09-14/SP Lubomira Gregova,,14092022,,Ľubomíra Gregová
+7,2022-09-02,-10.0,Bezhotovostná platba,,"vratenie mojho vkladu v hotovostina
+ moj sukromny ucet",,,,
+8,2022-09-02,50.0,Bezhotovostný príjem,Daniel Haninčík,/DO2022-08-31/SP,,,,Daniel Haninčík
+9,2022-09-02,15.0,Bezhotovostný príjem,Stovkova Lenka,volby 2022- primator,,,,Stovkova Lenka
+10,2022-08-26,10.0,Vklad v hotovosti,,,0558,,,

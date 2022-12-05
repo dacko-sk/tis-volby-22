@@ -1,0 +1,13 @@
+index,account_name,date,amount,currency,message,tx_type,vs,ss
+0,,2022-10-31,-6.0,EUR,Poplatok za vedenie účtu,Poplatok,,
+1,,2022-10-31,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+2,Typopress,2022-10-22,-377.94,EUR,"Štefik Ondrej, noviny",Platobný príkaz na úhradu / FIT 2.0 (EB),220268,
+3,LABAS,2022-10-12,-196.5,EUR,Štefik Ondrej,Platobný príkaz na úhradu / FIT 2.0 (EB),3951382009,
+4,,2022-09-30,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+5,,2022-09-30,-6.0,EUR,Poplatok za vedenie účtu,Poplatok,,
+6,,2022-08-31,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+7,,2022-08-31,-1.94,EUR,Poplatok za vedenie účtu,Poplatok,,
+8,Repovská Vladimíra,2022-08-29,200.0,EUR,F001290820226329834,Bezhotovostný vklad,,
+9,"Bukatová Alžbeta,Bukata Zoltán",2022-08-25,200.0,EUR,Alžbeta Bukatová - volebný fond príspevok,Bezhotovostný vklad,6751207166,
+10,"Grančičová Agáta, Bc.",2022-08-24,200.0,EUR,Agata Grancicova Volby KVP 2022,Bezhotovostný vklad - okamžitá platba,,
+11,Ondrej Štefik,2022-08-23,70.0,EUR,Ondrej Stefik,Bezhotovostný vklad,,

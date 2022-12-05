@@ -1,0 +1,40 @@
+index,date,amount,tx_type,account_name,message,ks,vs,ss,note
+0,2022-11-16,1920.0,Bezhotovostný príjem,"euroAWK, spol. s r.",/DO2022-11-15/SP,0308,2270231,2270231,"euroAWK, spol. s r."
+1,2022-11-16,1440.0,Bezhotovostný príjem,"euroAWK, spol. s r.",/DO2022-11-15/SP,0308,2270230,2270230,"euroAWK, spol. s r."
+2,2022-11-07,-454.34,Transakcia kartou,,"Nákup: GOOGLE *ADS6491959109,  70 Sir John Rogerson's Quay, 650-253-0000, UNKNOWN, IRL, dne 7.11.2022, částka  454.34 EUR",,2382,,"Nákup: GOOGLE *ADS6491959109,  70 Sir John Rogerson's Quay, 650-253-0000, UNKNOWN, IRL, dne 7.11.2022, částka  454.34 EUR"
+3,2022-11-04,-480.0,Bezhotovostná platba,,Uhrada fa c 20220486,0308,20220486,,Prenájom bilboardovych plôch za mesiac september a oktober - počet 4ks
+4,2022-11-04,-1680.0,Bezhotovostná platba,,Uhrada fa c 2022048,0308,2022048,,"Reklama v regionálnej TV v termíne 22.10. - 26.10.2022 - 30 sek. spot - 5x, tel. relácia - 1x, odvysielanie tel. relácie - 1x"
+5,2022-11-04,-963.07,Bezhotovostná platba,,Uhrada fa c 220800016,0308,220800016,,"Reklamne služby LED panely - v termíne 3.10. - 26.10.2022 v mestách - NZ, LV, NR, TO"
+6,2022-11-04,-780.0,Bezhotovostná platba,,Uhrada fa c 7022201697,0308,7022201697,,Reklama v časopise UjSzo dňa 13.10.2022 na strane č.5
+7,2022-11-04,-2400.0,Platba prevodom v rámci banky,,Uhrada fa c 22045,0308,22045,,Výroba a uverejnenie videa v regionálnej TV 1x + uverejnenie videovizitky v reg. TV - 1x mesiac oktober
+8,2022-11-04,-1200.0,Bezhotovostná platba,,Uhrada fa c 22108139,0308,22108139,,Prelep bilboardovych plôch na mesiac oktober - počet 40 ks
+9,2022-11-04,-1440.0,Bezhotovostná platba,,Uhrada fa c 2270230,0308,2270230,,Prelep existujúcich plôch na základe objednávky č 2202399 na mesiac oktober - počet 12 ks
+10,2022-11-04,-1920.0,Bezhotovostná platba,,Uhrada zal fa c. 2270231,0308,2270231,,Prelep existujúcich plôch na mesiac oktober podľa objednávky č. 2202400 počet - 16 ks
+11,2022-11-04,-3168.0,Bezhotovostná platba,,Uhrada fa c. 1222207402,0308,1222207402,,"Reklamne služby - BUS - samolepky na bočnom okne 40 ks, samolepky na zadnom okne 40 ks - prelep na mesiac oktober"
+12,2022-11-04,-44.4,Bezhotovostná platba,,Uhrada fa c. 20220082,0308,20220082,,Fa za odvysielanie politickej reklamy v termíne 9.10 - 25.10. 2022 - počet 1x
+13,2022-11-04,-326.4,Bezhotovostná platba,,Uhrada fa c. 1222207401,0308,1222207401,,Reklamne služby - prelep plôch - za mesiac október 2022 - počet 45 ks
+14,2022-11-04,-4488.0,Bezhotovostná platba,,Uhrada fa c. 1020220152,,1020220152,,"Reklamných banery oktober - 17 ks + polep rekl. banerov 17 ks, prenájom reklamných banerov 5ks za september"
+15,2022-11-04,19000.0,Bezhotovostný príjem,BRANISLAV BECIK,FIN VYPOMOC,0308,112022,,BRANISLAV BECIK
+16,2022-10-26,-350.0,Transakcia kartou,,"Nákup: GOOGLE *ADS6491959109,  70 Sir John Rogerson's Quay, 650-253-0000, UNKNOWN, IRL, dne 25.10.2022, částka  350.00 EUR",,2382,,"Nákup: GOOGLE *ADS6491959109,  70 Sir John Rogerson's Quay, 650-253-0000, UNKNOWN, IRL, dne 25.10.2022, částka  350.00 EUR"
+17,2022-10-18,-200.0,Transakcia kartou,,"Nákup: GOOGLE *ADS6491959109,  70 Sir John Rogerson's Quay, 650-253-0000, UNKNOWN, IRL, dne 18.10.2022, částka  200.00 EUR",,2382,,"Nákup: GOOGLE *ADS6491959109,  70 Sir John Rogerson's Quay, 650-253-0000, UNKNOWN, IRL, dne 18.10.2022, částka  200.00 EUR"
+18,2022-10-14,-1335.6,Bezhotovostná platba,,Uhrada zal. FA c. 2233102238,0008,2233102238,,"Úhrada zál.FA č. 2233102238 - firma Petit Press, a.s. BA - 2x inzercia v týždenníku MY nitrianske noviny (nitriansky kraj)"
+19,2022-10-14,1500.0,Bezhotovostný príjem,BRANISLAV BECIK,,0008,10022,,BRANISLAV BECIK
+20,2022-10-14,250.0,Transakcia kartou,,"Kredit: GOOGLE*ADS6507309825,  CC GOOGLE.COM, INTERNET, D04 E5W5, IRL, dne 13.10.2022, částka  250.00 EUR",,2382,,"Kredit: GOOGLE*ADS6507309825,  CC GOOGLE.COM, INTERNET, D04 E5W5, IRL, dne 13.10.2022, částka  250.00 EUR"
+21,2022-10-10,-50.0,Transakcia kartou,,"Nákup: GOOGLE *ADS6491959109,  70 Sir John Rogerson's Quay, 650-253-0000, UNKNOWN, IRL, dne 10.10.2022, částka  50.00 EUR",,2382,,"Nákup: GOOGLE *ADS6491959109,  70 Sir John Rogerson's Quay, 650-253-0000, UNKNOWN, IRL, dne 10.10.2022, částka  50.00 EUR"
+22,2022-10-05,-250.0,Transakcia kartou,,"Nákup: GOOGLE*ADS6507309825,  CC GOOGLE.COM, INTERNET, D04 E5W5, IRL, dne 4.10.2022, částka  250.00 EUR",,2382,,"Nákup: GOOGLE*ADS6507309825,  CC GOOGLE.COM, INTERNET, D04 E5W5, IRL, dne 4.10.2022, částka  250.00 EUR"
+23,2022-09-23,-264.0,Bezhotovostná platba,,Uhrada zal. FA,,22950409,308,Zálohová platba za prelep existujúcich reklamných plôch podľa rozpisu z FA č.20223566
+24,2022-09-02,-660.0,Bezhotovostná platba,,Uhrada faktury c.1020220120,,1020220120,,"Firma - PROPAG Slovakia, s.r.o. - Reklamné banery 5 ks LV okres"
+25,2022-08-30,-39.48,Bezhotovostná platba,,Uhrada fa c 20220278,0308,20220278,,"Firma - TYPOSET, Bratislava - Dodávka certif. nátlačky A3 - tlačové dáta - k potlači"
+26,2022-08-24,-1428.0,Bezhotovostná platba,,,,220193,,Firma Denis Strapec FO - Reklamné tričká 500ks
+27,2022-08-23,-1012.99,Bezhotovostná platba,,,,700227049,,"Firma - IMI TRADE, s.r.o. - Reklamné predmety - perá 500 ks, farbičky 500ks, samolepky 500ks"
+28,2022-08-19,-48.0,Bezhotovostná platba,,,,2022434,0308,"Firma - Rink.sk, s.r.o. - Podpis karty 500ks"
+29,2022-08-10,-312.0,Bezhotovostná platba,,,0008,2022422,,"Firma - Rink.sk, s.r.o. - Reklamné predmety - omaľovánky 1000ks"
+30,2022-08-04,-12528.0,Bezhotovostná platba,,,0008,122290207,,"Firma - BigMedia, s.r.o. - Reklamné služby - samolepky bus NR kraj 80 ks - september - október"
+31,2022-08-04,-14112.0,Bezhotovostná platba,,,0008,12120404,,"Firma - NUBIUM, s.r.o. - 48 ks reklamných panelov - september - október - NR kraj"
+32,2022-08-04,-4042.5,Bezhotovostná platba,,,0008,22950267,,"Firma - ISPA, s.r.o. - 15 ks reklamné plochy - september - október - NR kraj"
+33,2022-08-04,35000.0,Bezhotovostný príjem,BRANISLAV BECIK,,0008,822,,BRANISLAV BECIK
+34,2022-07-21,-1920.0,Bezhotovostná platba,,Uhrada zal. FA,0308,2270231,,"Firma - euroawk, s.r.o. - 16 ks reklamné plochy - október - NR kraj"
+35,2022-07-21,-1440.0,Bezhotovostná platba,,Uhrada zal. FA,0308,2270230,,"Firma - euroawk, s.r.o. - 12 ks reklamné plochy - september - NR kraj"
+36,2022-07-20,-11346.0,Bezhotovostná platba,,Zal. faktura 12229/0167,0308,122290167,,"Firma - BigMedia, s.r.o. - Reklamné plochy - 26 ks september, 45 ks október - NR kraj"
+37,2022-07-20,5000.0,Bezhotovostný príjem,BRANISLAV BECIK,,0308,19072022,,BRANISLAV BECIK
+38,2022-07-01,10000.0,Bezhotovostný príjem,BRANISLAV BECIK,,0008,12022,,BRANISLAV BECIK

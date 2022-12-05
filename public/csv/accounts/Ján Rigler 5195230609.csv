@@ -1,0 +1,11 @@
+index,account_name,date,amount,currency,message,tx_type,vs,ss
+0,,2022-10-31,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+1,SAMI TRADE,2022-10-26,-1741.0,EUR,úhrada propagačných materiálov,Platobný príkaz na úhradu / FIT 2.0 (EB),3,
+2,Rigler Ján,2022-10-26,270.0,EUR,Voľby 2022,Bezhotovostný vklad,,
+3,"WebHouse, s.r.o",2022-10-25,-64.51,EUR,Úhrada poplatku za hosting (722064619) Happy 64 GB (stupava-hlas.sk),Platobný príkaz na úhradu / FIT 2.0 (EB),722064619,
+4,Petko Robert,2022-10-18,500.0,EUR,Volby 2022,Bezhotovostný vklad,,
+5,Ameti Samir,2022-10-10,500.0,EUR,OO22101000011120,Bezhotovostný vklad - okamžitá platba,,
+6,Ing. Jozef Horváth - SLOVLOV,2022-10-06,-360.0,EUR,Tvorba a zriadenie WEB stránky,Platobný príkaz na úhradu / FIT 2.0 (EB),22024,
+7,Petko Robert,2022-10-05,500.0,EUR,Volby 2022,Bezhotovostný vklad,,
+8,"WebHouse, s.r.o",2022-10-03,-7.99,EUR,Úhrada registračného poplatku za doménu stupava-hlas.sk,Platobný príkaz na úhradu / FIT 2.0 (EB),522062275,
+9,,2022-09-30,-5.0,EUR,Zverejňovanie účtu,Poplatok,,

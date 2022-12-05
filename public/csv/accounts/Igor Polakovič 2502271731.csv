@@ -1,0 +1,30 @@
+index,date,amount,tx_type,account_name,message,ks,vs,ss,note
+0,2022-10-30,-55.28,Transakcia kartou,,"Nákup: FACEBK 724ZTJPNB2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 29.10.2022, částka  55.28 EUR",,7602,,"Nákup: FACEBK 724ZTJPNB2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 29.10.2022, částka  55.28 EUR"
+1,2022-10-28,-260.0,Bezhotovostná platba,,,,2022001,,"Guláš, susedské stretnutie 26.10.2022"
+2,2022-10-25,500.0,Bezhotovostný príjem,IGOR POLAKOVIC,/DO2022-10-25/SPVKLAD NA KAMPAN,,,,IGOR POLAKOVIC
+3,2022-10-25,-1206.0,Bezhotovostná platba,,Uhrada faktury: 202210079,,202210079,,tlačoviny (Noviny #2 + skladačka)
+4,2022-10-24,200.0,Bezhotovostný príjem,IGOR POLAKOVIC,/DO2022-10-21/SPVKLAD NA KAMPAN,,,,IGOR POLAKOVIC
+5,2022-10-20,-200.0,Bezhotovostná platba,,,,20221545,,
+6,2022-10-20,500.0,Bezhotovostný príjem,Petronela Klačanská,/DO2022-10-19/SPna spolocnu kampan LL -Petronela Klačanská,,,,Petronela Klačanská
+7,2022-10-19,200.0,Bezhotovostný príjem,Andrej Petríček,/DO2022-10-19/SP,,,,Andrej Petríček
+8,2022-10-18,-1356.0,Bezhotovostná platba,,,,2220953,0008,výroba eko-tašiek
+9,2022-10-17,50.0,Bezhotovostný príjem,Urban Christian,/DO2022-10-15/SPPodpora kandidatov ako darcek pre S.S. k narodeninam,,,,Urban Christian
+10,2022-10-14,23.3,Bezhotovostný príjem,Halász Tomáš,"/DO2022-10-13/SPDar, Dar",,,,Halász Tomáš
+11,2022-10-14,100.0,Bezhotovostný príjem,"Hojsík Martin, Mgr.",/DO2022-10-13/SPDrzim palce.,,,,"Hojsík Martin, Mgr."
+12,2022-10-13,-48.0,Transakcia kartou,,"Nákup: FACEBK *U5FLMGKNB2,  Hanover Reach, 5-7 Hanover Qua, fb.me/ads, DUBLIN 2, IRL, dne 12.10.2022, částka  48.00 EUR",,7602,,"Nákup: FACEBK *U5FLMGKNB2,  Hanover Reach, 5-7 Hanover Qua, fb.me/ads, DUBLIN 2, IRL, dne 12.10.2022, částka  48.00 EUR"
+13,2022-10-10,-300.0,Transakcia kartou,,"Výběr z bankomatu: S6AV022L,  LAMAC, BRATISLAVA, 84103, SVK, dne 8.10.2022, částka  300.00 EUR",,7602,,"Výběr z bankomatu: S6AV022L,  LAMAC, BRATISLAVA, 84103, SVK, dne 8.10.2022, částka  300.00 EUR"
+14,2022-10-06,-150.0,Bezhotovostná platba,,Uhrada faktury 202210010,,202210010,,Tlač
+15,2022-10-03,-31.16,Transakcia kartou,,"Nákup: FACEBK *MK2X5JPNB2,  Hanover Reach, 5-7 Hanover Qua, fb.me/ads, DUBLIN 2, IRL, dne 2.10.2022, částka  31.16 EUR",,7602,,"Nákup: FACEBK *MK2X5JPNB2,  Hanover Reach, 5-7 Hanover Qua, fb.me/ads, DUBLIN 2, IRL, dne 2.10.2022, částka  31.16 EUR"
+16,2022-10-01,-30.0,Transakcia kartou,,"Nákup: FACEBK *PM5FCFPMB2,  Hanover Reach, 5-7 Hanover Qua, fb.me/ads, DUBLIN 2, IRL, dne 30.9.2022, částka  30.00 EUR",,7602,,"Nákup: FACEBK *PM5FCFPMB2,  Hanover Reach, 5-7 Hanover Qua, fb.me/ads, DUBLIN 2, IRL, dne 30.9.2022, částka  30.00 EUR"
+17,2022-09-28,-75.0,Bezhotovostná platba,,220968,,,,tlač a výmena - Roll up banner
+18,2022-09-27,-760.8,Bezhotovostná platba,,"tlac novin - volby 2022 (VS: 202209
+069)",,202209069,,komunálne voľby 2022 - tlač novín Lepší Lamač
+19,2022-09-27,100.0,Bezhotovostný príjem,DULA ANDREJ,prispevok na kampan,,,,DULA ANDREJ
+20,2022-09-26,50.0,Platba prevodom v rámci banky,"Mgr. Kriššová, Alexandra","Lenka Bodnarova - dar, prevod z t.u. Lepsi Lamac",,,,"Lenka Bodnarova - dar, prevod z t.u. Lepsi Lamac"
+21,2022-09-26,200.0,Platba prevodom v rámci banky,"Mgr. Kriššová, Alexandra","Stanislav Babic - dar, prevod z t.u. Lepsi Lamac",,,,"Stanislav Babic - dar, prevod z t.u. Lepsi Lamac"
+22,2022-09-26,500.0,Platba prevodom v rámci banky,"Mgr. Kriššová, Alexandra","Petra Mitasikova - spolocne vedenie kampane, prevod z t.u. Lepsi Lamac",,,,"Petra Mitasikova - spolocne vedenie kampane, prevod z t.u. Lepsi Lamac"
+23,2022-09-26,500.0,Platba prevodom v rámci banky,"Mgr. Kriššová, Alexandra","Veronika Hagovska - spolocne vedenie kampane, prevod z t.u. Lepsi Lamac",,,,"Veronika Hagovska - spolocne vedenie kampane, prevod z t.u. Lepsi Lamac"
+24,2022-09-26,500.0,Platba prevodom v rámci banky,"Mgr. Kriššová, Alexandra","Matus Harmanos - spolocne vedenie kampane, prevod z t.u. Lepsi Lamac",,,,"Matus Harmanos - spolocne vedenie kampane, prevod z t.u. Lepsi Lamac"
+25,2022-09-26,500.0,Platba prevodom v rámci banky,"Mgr. Kriššová, Alexandra","Alexandra Krissova - spolocne vedenie kampane, prevod z t.u. Lepsi Lamac",,,,"Alexandra Krissova - spolocne vedenie kampane, prevod z t.u. Lepsi Lamac"
+26,2022-09-23,700.0,Bezhotovostný príjem,IGOR POLAKOVIC,/DO2022-09-23/SPVKLAD NA KAMPAN,,,,IGOR POLAKOVIC
+27,2022-07-29,200.0,Bezhotovostný príjem,IGOR POLAKOVIC,/DO2022-07-28/SPVKLAD NA KAMPAN,,,,IGOR POLAKOVIC

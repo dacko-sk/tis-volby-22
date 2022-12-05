@@ -1,0 +1,52 @@
+index,date,amount,tx_type,account_name,message,ks,vs,ss,note
+0,2022-11-21,-70.04,Transakcia kartou,,"Nákup: FACEBK 7449WJT9K2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 21.11.2022, částka  70.04 EUR",,1885,,"Nákup: FACEBK 7449WJT9K2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 21.11.2022, částka  70.04 EUR"
+1,2022-11-18,70.0,Bezhotovostný príjem,ANDREJKO JAN,/DO2022-11-16/SPUhrada za fakturu,,,,ANDREJKO JAN
+2,2022-11-04,-530.88,Bezhotovostná platba,,Uhrada faktury: 20220032,,20220032,,Distribucia letakov
+3,2022-11-04,-288.0,Bezhotovostná platba,,Andrejko,,,,vylep plagatov
+4,2022-10-31,-0.6,Poplatok - platobná karta,,poplatek za pojištění,,1885,,poplatek za pojištění
+5,2022-10-28,-3000.0,Bezhotovostná platba,,"Mgr. Jan Andrejko, PhD.",0008,22457,,
+6,2022-10-25,-100.0,Transakcia kartou,,"Nákup: FACEBK 8P3C8JP9K2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 24.10.2022, částka  100.00 EUR",,1885,,"Nákup: FACEBK 8P3C8JP9K2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 24.10.2022, částka  100.00 EUR"
+7,2022-10-23,-100.0,Transakcia kartou,,"Nákup: FACEBK 5TL73KF9K2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 22.10.2022, částka  100.00 EUR",,1885,,"Nákup: FACEBK 5TL73KF9K2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 22.10.2022, částka  100.00 EUR"
+8,2022-10-21,-552.0,Bezhotovostná platba,,Andrejko,,,,"Vylep plagatov, montaz a demontaz banerov"
+9,2022-10-19,-100.0,Transakcia kartou,,"Nákup: FACEBK PFQW3JT9K2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 19.10.2022, částka  100.00 EUR",,1885,,"Nákup: FACEBK PFQW3JT9K2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 19.10.2022, částka  100.00 EUR"
+10,2022-10-16,-100.0,Transakcia kartou,,"Nákup: FACEBK XT2L6JK9K2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 15.10.2022, částka  100.00 EUR",,1885,,"Nákup: FACEBK XT2L6JK9K2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 15.10.2022, částka  100.00 EUR"
+11,2022-10-11,-100.0,Transakcia kartou,,"Nákup: FACEBK CPB82JK9K2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 10.10.2022, částka  100.00 EUR",,1885,,"Nákup: FACEBK CPB82JK9K2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 10.10.2022, částka  100.00 EUR"
+12,2022-10-10,-1332.0,Bezhotovostná platba,,Jan Andrejko,0008,220346,,reksport s.r.o. merkantil
+13,2022-10-06,-69.13,Transakcia kartou,,"Nákup: FACEBK NTKM2KFAK2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 6.10.2022, částka  69.13 EUR",,1885,,"Nákup: FACEBK NTKM2KFAK2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 6.10.2022, částka  69.13 EUR"
+14,2022-10-06,-530.88,Bezhotovostná platba,,Uhrada faktury: 20220029,,20220029,,Distribucia letakov
+15,2022-10-06,-530.88,Bezhotovostná platba,,Uhrada faktury: 20220028,,20220028,,Distribucia letakov
+16,2022-10-06,-530.88,Bezhotovostná platba,,Uhrada faktury: 20220027,,20220027,,Distribucia letakov
+17,2022-09-30,-0.6,Poplatok - platobná karta,,poplatek za pojištění,,1885,,poplatek za pojištění
+18,2022-09-30,-100.0,Transakcia kartou,,"Nákup: FACEBK SRP7JHP9K2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 29.9.2022, částka  100.00 EUR",,1885,,"Nákup: FACEBK SRP7JHP9K2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 29.9.2022, částka  100.00 EUR"
+19,2022-09-28,-100.0,Bezhotovostná platba,,"Invima s.r.o.: 2022037 - Mgr. Jan A
+ndrejko, PhD. - 2022/09",,2022037,,Fotograficke a video sluzby
+20,2022-09-28,-455.0,Bezhotovostná platba,,"Invima s.r.o.: 2022036 - Mgr. Jan A
+ndrejko, PhD. - 2022/09",,2022036,,Graficke a marketingove slizby
+21,2022-09-25,-149.4,Bezhotovostná platba,,Andrejko,0308,22090003,,
+22,2022-09-22,-70.0,Transakcia kartou,,"Nákup: FACEBK KPTYPHBAK2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 22.9.2022, částka  70.00 EUR",,1885,,"Nákup: FACEBK KPTYPHBAK2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 22.9.2022, částka  70.00 EUR"
+23,2022-09-19,-40.0,Transakcia kartou,,"Nákup: FACEBK VDDKDJKAK2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 19.9.2022, částka  40.00 EUR",,1885,,"Nákup: FACEBK VDDKDJKAK2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 19.9.2022, částka  40.00 EUR"
+24,2022-09-17,-30.0,Transakcia kartou,,"Nákup: FACEBK U7KN8HT9K2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 17.9.2022, částka  30.00 EUR",,1885,,"Nákup: FACEBK U7KN8HT9K2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 17.9.2022, částka  30.00 EUR"
+25,2022-09-16,-20.0,Transakcia kartou,,"Nákup: FACEBK 6UYLDHK9K2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 16.9.2022, částka  20.00 EUR",,1885,,"Nákup: FACEBK 6UYLDHK9K2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 16.9.2022, částka  20.00 EUR"
+26,2022-09-15,-20.0,Transakcia kartou,,"Nákup: FACEBK KKG6HJFAK2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 15.9.2022, částka  20.00 EUR",,1885,,"Nákup: FACEBK KKG6HJFAK2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 15.9.2022, částka  20.00 EUR"
+27,2022-09-15,-150.0,Platba prevodom v rámci banky,,Jan Andrejko,,,,Jan Andrejko
+28,2022-09-14,-12.0,Transakcia kartou,,"Nákup: FACEBK 9RFGRJ3AK2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 14.9.2022, částka  12.00 EUR",,1885,,"Nákup: FACEBK 9RFGRJ3AK2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 14.9.2022, částka  12.00 EUR"
+29,2022-09-14,-12.0,Transakcia kartou,,"Nákup: FACEBK RSNG5HP9K2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 14.9.2022, částka  12.00 EUR",,1885,,"Nákup: FACEBK RSNG5HP9K2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 14.9.2022, částka  12.00 EUR"
+30,2022-09-14,-9.0,Transakcia kartou,,"Nákup: FACEBK RVM9QHX9K2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 13.9.2022, částka  9.00 EUR",,1885,,"Nákup: FACEBK RVM9QHX9K2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 13.9.2022, částka  9.00 EUR"
+31,2022-09-14,-9.0,Transakcia kartou,,"Nákup: FACEBK NFLEFL7AK2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 13.9.2022, částka  9.00 EUR",,1885,,"Nákup: FACEBK NFLEFL7AK2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 13.9.2022, částka  9.00 EUR"
+32,2022-09-13,-6.59,Transakcia kartou,,"Nákup: FACEBK JA4G4HP9K2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 12.9.2022, částka  6.59 EUR",,1885,,"Nákup: FACEBK JA4G4HP9K2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 12.9.2022, částka  6.59 EUR"
+33,2022-09-09,1000.0,Bezhotovostný príjem,Pollák Vladimír,/DO2022-09-08/SP,,,,Pollák Vladimír
+34,2022-09-05,500.0,Bezhotovostný príjem,Peter Kavčák,/DO2022-09-02/SPKavcak II.,0558,500,500,Peter Kavčák
+35,2022-08-30,-43.06,Bezhotovostná platba,,Jan Andrejko,0308,1022257280,,
+36,2022-08-20,-216.0,Bezhotovostná platba,,"Mgr. Jan Andrejko, PhD. Horinkova-n
+ajom. 19.08.2022",,220471,,
+37,2022-08-19,500.0,Bezhotovostný príjem,BRAMUSKA MARIAN,,,102022,,BRAMUSKA MARIAN
+38,2022-08-17,500.0,Bezhotovostný príjem,Rastislav Feriančik,/DO2022-08-16/SP Rasto f,,,,Rastislav Feriančik
+39,2022-07-27,5000.0,Bezhotovostný príjem,Martin Onderko,/DO2022-07-26/SP,,26072022,,Martin Onderko
+40,2022-07-22,500.0,Bezhotovostný príjem,Peter Kavčák,/DO2022-07-21/SPKavcak,0558,500,500,Peter Kavčák
+41,2022-07-15,-672.0,Bezhotovostná platba,,,0000,2022009,,
+42,2022-07-01,-1010.0,Bezhotovostná platba,,,0000,2022008,,
+43,2022-07-01,500.0,Bezhotovostný príjem,"CallQuest, s.r.o.",/DO2022-06-30/SPVratenie platby,,,,"CallQuest, s.r.o."
+44,2022-07-01,500.0,Bezhotovostný príjem,"CallQuest, s.r.o.",/DO2022-06-30/SPVratenie platby,,,,"CallQuest, s.r.o."
+45,2022-06-29,-1000.0,Bezhotovostná platba,,VS: 202206170,,,,
+46,2022-06-29,2500.0,Vklad v hotovosti,,,0558,,,
+47,2022-06-28,500.0,Vklad v hotovosti,,,0558,,,

@@ -1,0 +1,15 @@
+index,account_name,date,amount,currency,message,tx_type,vs,ss
+0,,2022-10-31,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+1,IN:SITY s.r.o.,2022-10-24,-147.0,EUR,0221024114439.676814,Okamžitá platba (EB),220243,220243
+2,Červeňová Edita,2022-10-24,150.0,EUR,F001241020229157170,Bezhotovostný vklad,20221024,
+3,Luca Bush s.r.o.,2022-10-17,-60.0,EUR,,Platobný príkaz na úhradu / FIT 2.0 (EB),20220087,20221710
+4,"FOREKO, s.r.o., Sereď",2022-10-09,-276.0,EUR,inzercia 1/1 strana,Okamžitá platba (EB),2022186,2022186
+5,IN:SITY s.r.o.,2022-10-09,-76.44,EUR,"tlač plagáty, príprava tlač.dát",Okamžitá platba (EB),220228,220228
+6,Červeňová Edita,2022-10-09,200.0,EUR,F001091020225322378,Bezhotovostný vklad,20221009,
+7,Červeňová Edita,2022-10-06,150.0,EUR,F001061020223792831,Bezhotovostný vklad,20221006,
+8,,2022-09-30,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+9,IN:SITY s.r.o.,2022-09-19,-990.0,EUR,0220919145807.493318,Okamžitá platba (EB),220210,
+10,Červeňová Edita,2022-09-19,100.0,EUR,F001190920222866254,Bezhotovostný vklad,20220919,19092022
+11,Červeňová Edita,2022-09-19,600.0,EUR,F001190920222459940,Bezhotovostný vklad,20220919,
+12,Artmaker s.r.o.,2022-09-13,-45.0,EUR,,Platobný príkaz na úhradu / FIT 2.0 (EB),202226,13092022
+13,,2022-08-31,-5.0,EUR,Zverejňovanie účtu,Poplatok,,

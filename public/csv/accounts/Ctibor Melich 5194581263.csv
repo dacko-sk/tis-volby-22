@@ -1,0 +1,10 @@
+index,account_name,date,amount,currency,message,tx_type,vs,ss
+0,,2022-10-31,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+1,,2022-10-31,-6.0,EUR,Poplatok za vedenie účtu,Poplatok,,
+2,Ispa,2022-10-18,-146.4,EUR,202204368,Okamžitá platba (EB),,
+3,MELICH CTIBOR,2022-10-18,140.0,EUR,F001181020224882247,Bezhotovostný vklad,,
+4,Printea s.r.o.,2022-10-15,-300.0,EUR,,Platobný príkaz na úhradu / FIT 2.0 (EB),20220344,
+5,MELICH CTIBOR,2022-10-15,200.0,EUR,F001151020221725088,Bezhotovostný vklad,,
+6,,2022-09-30,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+7,,2022-09-30,-5.0,EUR,Poplatok za vedenie účtu,Poplatok,,
+8,Ctibor Melich,2022-09-22,200.0,EUR,F001220920225591834,Bezhotovostný vklad,,

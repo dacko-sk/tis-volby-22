@@ -1,0 +1,42 @@
+index,account_name,date,amount,currency,message,tx_type,vs,ss
+0,Záhorák,2022-11-16,-720.0,EUR,Martin Stepan,Platobný príkaz na úhradu / FIT 2.0 (EB),22291,22291
+1,CODES CREATIVE,2022-11-16,-1080.0,EUR,"Billboard, leták, práca",Okamžitá platba (EB),2223146,
+2,ALMARES SLOVAKIA S.R,2022-11-16,2800.0,EUR,dar,Bezhotovostný vklad,,
+3,"Videoštúdio RIS, spol. s r.o.",2022-11-09,-100.0,EUR,Martin Štepán,Okamžitá platba (EB),135,
+4,ALMARES SLOVAKIA S.R,2022-11-09,110.0,EUR,dar,Bezhotovostný vklad,,
+5,,2022-11-09,-20.0,EUR,"B1403308211-44544 12** **** 9206;FACEBK KEHC5GKC82 ,fb.me/ads ,IE ;07.11.2022 13:20:19 ;CashBack:0 EUR",Platba kartou,,
+6,REDOX - ENEX s.r.o.,2022-11-07,-300.0,EUR,Martin Štepán,Platobný príkaz na úhradu / FIT 2.0 (EB),2022115,
+7,"SPRÁVA MESTSKÉHO MAJETKU, s.r.o.",2022-11-07,-187.9,EUR,Martin Štepán,Platobný príkaz na úhradu / FIT 2.0 (EB),2022600416,
+8,Západoslovenské tlačiarne Skalica,2022-11-07,-258.26,EUR,Martin Stepan,Okamžitá platba (EB),52210103,
+9,Rangl Erik - Reklama,2022-11-07,-624.0,EUR,Uhrada faktury VS:2022465,Okamžitá platba (EB),2022465,
+10,ALMARES SLOVAKIA S.R,2022-11-07,1100.0,EUR,dar,Bezhotovostný vklad,,
+11,,2022-10-31,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+12,"Petit Press, a.s. divízia týždenníkov, o.z.",2022-10-31,-361.2,EUR,Martin Štepán,Okamžitá platba (EB),2235112295,
+13,,2022-10-28,-0.7,EUR,"B1396123016-44544 12** **** 9206;FACEBK FUE9WFTB82 ,fb.me/ads ,IE ;26.10.2022 23:59:44 ;CashBack:0 EUR",Platba kartou,,
+14,,2022-10-28,-49.84,EUR,"B1396122962-44544 12** **** 9206;FACEBK DFU8NGKB82 ,fb.me/ads ,IE ;26.10.2022 22:50:24 ;CashBack:0 EUR",Platba kartou,,
+15,,2022-10-27,400.0,EUR,"B3388796709-214544 12** **** 9206;ATM Recycler OM Skalica ,Skalica ,SK ;26.10.2022 22:38:32 ;CashBack:0 EUR",Vklad cez ATM,,
+16,Ing. Ivana Marcelyová - kávičkovo,2022-10-25,-700.0,EUR,,Platobný príkaz na úhradu / FIT 2.0 (EB),,
+17,"Petit Press, a.s. divízia týždenníkov, o.z.",2022-10-25,-630.0,EUR,0221025112623.940651,Okamžitá platba (EB),2235112341,
+18,ptatelier s.r.o.,2022-10-25,-250.0,EUR,Martin Štepán,Okamžitá platba (EB),2022015,
+19,,2022-10-23,-175.11,EUR,"B1393477296-44544 12** **** 9206;FACEBK EXENQFKC82 ,fb.me/ads ,IE ;22.10.2022 00:15:33 ;CashBack:0 EUR",Platba kartou,,
+20,,2022-10-19,-225.0,EUR,"B1390027314-44544 12** **** 9206;FACEBK 7QKTGGXB82 ,fb.me/ads ,IE ;17.10.2022 16:59:50 ;CashBack:0 EUR",Platba kartou,,
+21,Západoslovenské tlačiarne Skalica,2022-10-16,-294.6,EUR,Štepán Martin; Tržby za predanýtovar; 04.10.2022,Okamžitá platba (EB),52210007,
+22,,2022-10-09,-150.0,EUR,"B1383494006-44544 12** **** 9206;FACEBK HLGZ5GKB82 ,fb.me/ads ,IE ;07.10.2022 17:48:58 ;CashBack:0 EUR",Platba kartou,,
+23,Rangl Erik - Reklama,2022-10-03,-1380.0,EUR,Uhrada faktury VS:2022391,Okamžitá platba (EB),2022391,
+24,Štepán Martin,2022-10-03,3000.0,EUR,vklad na kampan,Bezhotovostný vklad - okamžitá platba,,
+25,,2022-09-30,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+26,Katarína Janíčková,2022-09-30,-150.0,EUR,roznos letákov,Okamžitá platba (EB),072022,072022
+27,,2022-09-28,-100.0,EUR,"B1376754996-44544 12** **** 9206;FACEBK DYTDDFBC82 ,fb.me/ads ,IE ;26.09.2022 20:40:50 ;CashBack:0 EUR",Platba kartou,,
+28,"Petit Press, a.s. divízia týždenníkov, o.z.",2022-09-26,-780.0,EUR,Martin Stepan,Okamžitá platba (EB),2233102029,2233102029
+29,Záhorák,2022-09-23,-480.0,EUR,Martin Stepan,Okamžitá platba (EB),22255,22255
+30,,2022-09-23,-49.11,EUR,"B1374109860-44544 12** **** 9206;FACEBK 2U4P5FFC82 ,fb.me/ads ,IE ;22.09.2022 01:16:37 ;CashBack:0 EUR",Platba kartou,,
+31,,2022-09-19,-70.0,EUR,"B1371055874-44544 12** **** 9206;FACEBK E9K56FBC82 ,fb.me/ads ,IE ;17.09.2022 20:22:52 ;CashBack:0 EUR",Platba kartou,,
+32,,2022-09-15,-40.0,EUR,"B1368217165-44544 12** **** 9206;FACEBK ATLEJFKB82 ,fb.me/ads ,IE ;13.09.2022 22:24:25 ;CashBack:0 EUR",Platba kartou,,
+33,,2022-09-09,-0.03,EUR,"B1364372220-44544 12** **** 9206;FACEBK SA47VEFB82 ,fb.me/ads ,IE ;07.09.2022 21:11:36 ;CashBack:0 EUR",Platba kartou,,
+34,Colours s. r. o.,2022-09-02,43.2,EUR,OO22090200023449,Bezhotovostný vklad - okamžitá platba,,
+35,Colours s.r.o.,2022-09-01,-144.0,EUR,Úhrada zálohovej faktúry: 30220002,Okamžitá platba (EB),30220002,
+36,Websupport,2022-09-01,-8.6,EUR,0220901183239.623442,Okamžitá platba (EB),1022245381,
+37,,2022-08-31,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+38,,2022-08-18,-8.6,EUR,,Platobný príkaz na úhradu (EB Sporopay),6581363680,9000010007
+39,,2022-08-18,-37.07,EUR,,Platobný príkaz na úhradu (EB Sporopay),6581279323,9000010007
+40,ALMARES SLOVAKIA S.R,2022-08-17,3000.0,EUR,prispevok na kampan,Bezhotovostný vklad,,

@@ -1,0 +1,13 @@
+index,date,amount,tx_type,account_name,message,ks,vs,ss,note
+0,2022-10-26,-10.8,Transakcia kartou,,"Nákup: FACEBK 4KJ2VH79V2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 25.10.2022, částka  10.80 EUR",,9612,,"Nákup: FACEBK 4KJ2VH79V2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 25.10.2022, částka  10.80 EUR"
+1,2022-10-07,-436.32,Bezhotovostná platba,,"CEA EUROPE.SK, s.r.o. - Reklamne vl
+ajky, Roll-up",,2200164,,"CEA EUROPE.SK, s.r.o. - Reklamné vlajky, Roll-up"
+2,2022-09-26,-1433.21,Bezhotovostná platba,,"CEA EUROPE.SK, s.r.o. - Tricka, mik
+iny a siltovky",,2200155,,"CEA EUROPE.SK, s.r.o. - Tričká, mikiny a šiltovky"
+3,2022-09-24,-120.0,Bezhotovostná platba,,Portretne atelierove fotografovanie,,0032022,,Peter Mrázik P&M - Portrétne ateliérové fotografovanie
+4,2022-09-24,120.0,Platba prevodom v rámci banky,"Kudlík, Peter",,,,,
+5,2022-09-02,2000.0,Bezhotovostný príjem,Hlatký Andrej,/DO2022-08-31/SP,,,,Hlatký Andrej
+6,2022-08-22,-2801.4,Bezhotovostná platba,,"Sluzby digitalneho marketingu (zalo
+hova faktura 50?) socialne siete, t
+vorba marketingovej strategie...",,30220063,,"PROGNESSA, s. r. o. - Služby digitálneho marketingu - sociálne siete, tvorba marketingovej stratégie, vizuálnej identity a promo videa"
+7,2022-08-22,2815.0,Platba prevodom v rámci banky,"Kudlík, Peter","Služby digitálneho marketingu (zálohová faktúra 50%) ? sociálne siete, tvorba marketingovej stratégie, vizuálnej identity a promo videa",,,,

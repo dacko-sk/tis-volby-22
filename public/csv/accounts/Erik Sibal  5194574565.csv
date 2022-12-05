@@ -1,0 +1,8 @@
+index,account_name,date,amount,currency,message,tx_type,vs,ss
+0,BARNIAK MARIAN,2022-10-11,200,EUR,23701583,Bezhotovostný vklad,,
+1,Peter Babinčák,2022-10-10,500,EUR,F001101020226327502,Bezhotovostný vklad,,
+2,Ing. Peter marcin B.U.M.STUDIO,2022-10-10,-800,EUR,Reklamne predmety,Platobný príkaz na úhradu / FIT 2.0 (EB),220014,
+3,,2022-09-30,-5,EUR,Zverejňovanie účtu,Poplatok,,
+4,Abkals s.r.o.,2022-09-14,-240,EUR,Vylep reklamy Mocarany,Platobný príkaz na úhradu / FIT 2.0 (EB),220364,
+5,Rujak Peter,2022-09-12,500,EUR,F001120920225526874,Bezhotovostný vklad,,
+6,Sibal Erik,2022-09-08,1000,EUR,F001080920222663566,Bezhotovostný vklad,,

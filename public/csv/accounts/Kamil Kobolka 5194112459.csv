@@ -1,0 +1,19 @@
+index,account_name,date,amount,currency,message,tx_type,vs,ss
+0,,2022-10-31,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+1,,2022-10-25,-40.0,EUR,"B1394317060-44544 12** **** 3584;FACEBK M5F8VK3QC2 ,fb.me/ads ,IE ;23.10.2022 13:24:58 ;CashBack:0 EUR",Platba kartou,,
+2,,2022-10-22,-20.72,EUR,"B1392821084-44544 12** **** 3584;FACEBK B9GEYKTPC2 ,fb.me/ads ,IE ;21.10.2022 01:19:13 ;CashBack:0 EUR",Platba kartou,,
+3,,2022-10-19,-40.0,EUR,"B1390658376-44544 12** **** 3584;FACEBK LXPZVKTPC2 ,fb.me/ads ,IE ;18.10.2022 02:08:45 ;CashBack:0 EUR",Platba kartou,,
+4,KOBOLKA KAMIL,2022-10-18,300.0,EUR,23763376,Bezhotovostný vklad,,
+5,TIME PRINT - Lopušan Róbert,2022-10-14,-384.0,EUR,Fa 20220145,Platobný príkaz na úhradu / FIT 2.0 (EB),,
+6,KOBOLKA KAMIL,2022-10-11,300.0,EUR,23701051,Bezhotovostný vklad,,
+7,Petit Press a. s.,2022-10-10,-1389.36,EUR,Inzercia 2233102136,Okamžitá platba (EB),2233102136,
+8,KOBOLKA KAMIL,2022-10-06,1000.0,EUR,23659947,Bezhotovostný vklad,,
+9,,2022-10-02,-384.0,EUR,"B1379315458-44544 12** **** 3584;DPD SK, S.R.O. ,BRATISLAVA ,SK ;29.09.2022 13:25:07 ;CashBack:0 EUR",Platba kartou,,
+10,,2022-09-30,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+11,Červenec Peter,2022-09-29,200.0,EUR,F001290920229419716,Bezhotovostný vklad,,
+12,Marian Kobolka,2022-09-29,200.0,EUR,23601648,Bezhotovostný vklad,,28092022
+13,Ladislav Fulier,2022-09-29,100.0,EUR,23601584,Bezhotovostný vklad,,
+14,KOBOLKA KAMIL,2022-09-26,200.0,EUR,23573249,Bezhotovostný vklad,,
+15,Marian Kobolka,2022-09-26,300.0,EUR,23573148,Bezhotovostný vklad,,25092022
+16,KOBOLKA KAMIL,2022-09-05,100.0,EUR,23363295,Bezhotovostný vklad,,
+17,,2022-08-31,-5.0,EUR,Zverejňovanie účtu,Poplatok,,

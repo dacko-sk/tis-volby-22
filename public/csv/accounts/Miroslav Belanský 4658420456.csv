@@ -1,0 +1,10 @@
+index,date,amount,account_name,message,vs
+0,2022-10-31,6.0,,Odpustenie vedenie konta,9
+1,2022-10-31,-6.0,,Vedenie konta Transparentný účet,9
+2,2022-10-31,-0.15,,POPLATKY ZA RECYKLACIU,9
+3,2022-10-19,-144.6,,Belansky letaky,
+4,2022-10-19,150.0,Miroslav Belanský,,
+5,2022-10-10,-290.4,,Belansky letaky,20220561
+6,2022-10-10,300.0,BELANSKY MIROSLAV,,
+7,2022-09-30,5.0,,Odpust.-popl.za platby a ved.úč/ko,9
+8,2022-09-30,-5.0,,Vedenie účtu,9

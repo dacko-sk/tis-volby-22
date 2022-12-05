@@ -1,0 +1,6 @@
+index,account_name,date,amount,currency,message,tx_type,vs,ss
+0,Darázs Márton,2022-11-06,-450,EUR,Basternák Ildikó - koncert oktober22,Platobný príkaz na úhradu / FIT 2.0 (EB),,
+1,MESTO HURBANOVO,2022-11-01,-177,EUR,"prenájom DK 22.10.2022, +rozhlas",Okamžitá platba (EB),,
+2,,2022-10-31,-5,EUR,Zverejňovanie účtu,Poplatok,,
+3,DELTA,2022-10-24,-180,EUR,Politický inzerát,Okamžitá platba (EB),220356,
+4,BASTERNAKOVA ILDIKO,2022-10-11,1000,EUR,F001111020227291681,Bezhotovostný vklad,,

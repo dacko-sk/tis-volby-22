@@ -1,0 +1,14 @@
+index,date,amount,tx_type,account_name,message,ks,vs,ss,note
+0,2022-10-25,-120.0,Transakcia kartou,,"Nákup: FACEBK *F2WBVJBU32, fb.me/ads, IE, dne 24.10.2022, částka  120.00 EUR",,5874,,"Nákup: FACEBK *F2WBVJBU32, fb.me/ads, IE, dne 24.10.2022, částka  120.00 EUR"
+1,2022-10-20,-120.0,Transakcia kartou,,"Nákup: FACEBK *UV452HTT32, fb.me/ads, IE, dne 19.10.2022, částka  120.00 EUR",,5874,,"Nákup: FACEBK *UV452HTT32, fb.me/ads, IE, dne 19.10.2022, částka  120.00 EUR"
+2,2022-10-15,-120.0,Transakcia kartou,,"Nákup: FACEBK *Z7S5LHPU32, fb.me/ads, IE, dne 14.10.2022, částka  120.00 EUR",,5874,,"Nákup: FACEBK *Z7S5LHPU32, fb.me/ads, IE, dne 14.10.2022, částka  120.00 EUR"
+3,2022-10-10,-120.0,Transakcia kartou,,"Nákup: FACEBK *N3VVZFXT32, fb.me/ads, IE, dne 9.10.2022, částka  120.00 EUR",,5874,,"Nákup: FACEBK *N3VVZFXT32, fb.me/ads, IE, dne 9.10.2022, částka  120.00 EUR"
+4,2022-10-05,480.0,Platba prevodom v rámci banky,"Gergeľ, Ľubomír",Ľubomír Gergeľ - vklad,,,,Ľubomír Gergeľ - vklad
+5,2022-10-04,-140.0,Bezhotovostná platba,,"Lubomir Gergel kandidat na primator
+a Humenneho - reklama na FB",,20220113,,PhDr. Ján Sliacky - marketingové poradenstvo
+6,2022-10-04,20.0,Platba prevodom v rámci banky,"Gergeľ, Ľubomír",Ľubomír Gergeľ - vklad,,,,Ľubomír Gergeľ - vklad
+7,2022-10-03,17.93,Platba prevodom v rámci banky,"Gergeľ, Ľubomír",Ľubomír Gergeľ - vklad,,,,Ľubomír Gergeľ - vklad
+8,2022-09-29,-84.0,Transakcia kartou,,"Nákup: FACEBK *4H8MQFXT32, fb.me/ads, IE, dne 28.9.2022, částka  84.00 EUR",,5874,,"Nákup: FACEBK *4H8MQFXT32, fb.me/ads, IE, dne 28.9.2022, částka  84.00 EUR"
+9,2022-09-28,89.57,Platba prevodom v rámci banky,"Gergeľ, Ľubomír",vklad,,,,Ľubomír Gergeľ - vklad
+10,2022-09-27,-3.5,Transakcia kartou,,"Nákup: TEDI, SV, KOMENSKEHO, SNINA, SK, dne 26.9.2022, částka  3.50 EUR",,5874,,"Nákup: TEDI, SV, KOMENSKEHO, SNINA, SK, dne 26.9.2022, částka  3.50 EUR"
+11,2022-09-06,100.0,Platba prevodom v rámci banky,"Gergeľ, Ľubomír",Ľubomír Gergeľ - vklad.,,,,Ľubomír Gergeľ - vklad.

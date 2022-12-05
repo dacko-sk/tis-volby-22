@@ -1,0 +1,14 @@
+index,date,amount,tx_type,account_name,message,ks,vs,ss,note
+0,2022-10-26,-1098.0,Bezhotovostná platba,,Uhrada faktury 2022248,,2022248,,
+1,2022-10-26,1000.0,Bezhotovostný príjem,KUDELOVA STANISLAVA,,,,,KUDELOVA STANISLAVA
+2,2022-10-25,-500.0,Bezhotovostná platba,,Uhrada faktury: 22021,,22021,,
+3,2022-10-10,350.0,Bezhotovostný príjem,Ing. Ivan Šuranský,/DO2022-10-07/SPDar,0298,0710,,Ing. Ivan Šuranský
+4,2022-10-06,-96.0,Bezhotovostná platba,,,,222,,
+5,2022-10-02,-655.0,Bezhotovostná platba,,Uhrada faktury: 22020,,22020,,
+6,2022-09-30,350.0,Bezhotovostný príjem,CUCKA PAVOL,"/DO2022-09-29/SPdar 350,-",,,,CUCKA PAVOL
+7,2022-09-30,350.0,Bezhotovostný príjem,Igor Kotora,/DO2022-09-29/SP dar,,,,Igor Kotora
+8,2022-09-29,-234.0,Bezhotovostná platba,,Uhrada faktury 220152,0308,220152,,
+9,2022-09-28,350.0,Bezhotovostný príjem,VINCE GABRIEL,/DO2022-09-27/SPDAR,0308,2792022,,VINCE GABRIEL
+10,2022-09-27,72.0,Bezhotovostný príjem,Zdenka Dobrovolná Ni,/DO2022-09-26/SP Zdenka Dobrovolna Niko,,,,Zdenka Dobrovolná Ni
+11,2022-09-22,-132.0,Bezhotovostná platba,,,,122290347,,
+12,2022-09-22,500.0,Bezhotovostný príjem,KUDELOVA STANISLAVA,,,,,KUDELOVA STANISLAVA

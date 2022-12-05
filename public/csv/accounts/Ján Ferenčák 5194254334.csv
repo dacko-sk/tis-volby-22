@@ -1,0 +1,10 @@
+index,account_name,date,amount,currency,message,tx_type,vs,ss
+0,"PROGRUP SK, s.r.o.",2022-11-21,-9533.47,EUR,Uhrada faktury VS:221874,Platobný príkaz na úhradu / FIT 2.0 (EB),221874,
+1,FERENCAK JAN,2022-11-21,7600.0,EUR,Jan Ferencak,Bezhotovostný vklad,,
+2,,2022-10-31,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+3,,2022-10-31,-6.0,EUR,Poplatok za vedenie účtu,Poplatok,,
+4,,2022-09-30,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+5,,2022-09-30,-6.0,EUR,Poplatok za vedenie účtu,Poplatok,,
+6,,2022-08-31,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+7,,2022-08-31,-1.16,EUR,Poplatok za vedenie účtu,Poplatok,,
+8,FERENCAK JAN,2022-08-30,2000.0,EUR,JAN FERENCAK,Bezhotovostný vklad,29082022,

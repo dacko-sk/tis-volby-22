@@ -1,0 +1,25 @@
+index,date,amount,tx_type,account_name,message,ks,vs,ss,note
+0,2022-10-30,-1.0,Poplatok - platobná karta,,"Výběr z bankomatu: TATRABANKA,  TATRABANKA, LUCENEC, 98401, SVK, dne 29.10.2022, částka  600.00 EUR",,5117,,"Výběr z bankomatu: TATRABANKA,  TATRABANKA, LUCENEC, 98401, SVK, dne 29.10.2022, částka  600.00 EUR"
+1,2022-10-30,-600.0,Transakcia kartou,,"Výběr z bankomatu: TATRABANKA,  TATRABANKA, LUCENEC, 98401, SVK, dne 29.10.2022, částka  600.00 EUR",,5117,,"Výběr z bankomatu: TATRABANKA,  TATRABANKA, LUCENEC, 98401, SVK, dne 29.10.2022, částka  600.00 EUR"
+2,2022-10-27,-200.0,Transakcia kartou,,"Nákup: FACEBK *4M6M4JKQC2,  Hanover Reach, 5-7 Hanover Qua, fb.me/ads, DUBLIN 2, IRL, dne 26.10.2022, částka  200.00 EUR",,5117,,"Nákup: FACEBK *4M6M4JKQC2,  Hanover Reach, 5-7 Hanover Qua, fb.me/ads, DUBLIN 2, IRL, dne 26.10.2022, částka  200.00 EUR"
+3,2022-10-26,70.0,Platba prevodom v rámci banky,"RT LEGAL, s.r.o.",vratena platba,,,,vratena platba
+4,2022-10-26,-40.0,Bezhotovostná platba,,SPP: Zaloha za ZP,0008,8842994729,,
+5,2022-10-26,-30.0,Bezhotovostná platba,,SPP: Zaloha za EE,0008,8842994733,,
+6,2022-10-25,-100.0,Transakcia kartou,,"Výběr z bankomatu: 365 BANK,  365 BANK, LUCENEC, 98401, SVK, dne 24.10.2022, částka  100.00 EUR",,5117,,"Výběr z bankomatu: 365 BANK,  365 BANK, LUCENEC, 98401, SVK, dne 24.10.2022, částka  100.00 EUR"
+7,2022-10-25,-400.0,Transakcia kartou,,"Výběr z bankomatu: 365 BANK,  365 BANK, LUCENEC, 98401, SVK, dne 24.10.2022, částka  400.00 EUR",,5117,,"Výběr z bankomatu: 365 BANK,  365 BANK, LUCENEC, 98401, SVK, dne 24.10.2022, částka  400.00 EUR"
+8,2022-10-24,-900.24,Bezhotovostná platba,,"uhrada faktury za tlac a distribuci
+u letakov",0308,220079,,
+9,2022-10-21,2000.0,Bezhotovostný príjem,Endrodyova Renata,,,,,Endrodyova Renata
+10,2022-10-17,-195.25,Bezhotovostná platba,,Endrodyova platba za inzerciu,0308,20220239,,
+11,2022-10-06,-200.0,Bezhotovostná platba,,uhrada faktury za vyrobu videa,0308,221002,,
+12,2022-10-06,-811.03,Bezhotovostná platba,,"uhrada faktury za tlac a distribuci
+u letakov",0308,220065,,
+13,2022-10-05,1000.0,Bezhotovostný príjem,Endrodyova Renata,,,,,Endrodyova Renata
+14,2022-10-02,-195.25,Bezhotovostná platba,,Endrodyova platba za inzerciu,0308,20220218,,
+15,2022-10-01,-189.74,Transakcia kartou,,"Nákup: FACEBK *7V5WBHKPC2,  Hanover Reach, 5-7 Hanover Qua, fb.me/ads, DUBLIN 2, IRL, dne 30.9.2022, částka  189.74 EUR",,5117,,"Nákup: FACEBK *7V5WBHKPC2,  Hanover Reach, 5-7 Hanover Qua, fb.me/ads, DUBLIN 2, IRL, dne 30.9.2022, částka  189.74 EUR"
+16,2022-09-28,-500.0,Transakcia kartou,,"Výběr z bankomatu: 365 BANK,  365 BANK, LUCENEC, 98401, SVK, dne 27.9.2022, částka  500.00 EUR",,5117,,"Výběr z bankomatu: 365 BANK,  365 BANK, LUCENEC, 98401, SVK, dne 27.9.2022, částka  500.00 EUR"
+17,2022-09-21,-858.0,Bezhotovostná platba,,platba fa.c.220058,0308,220058,,
+18,2022-09-19,-98.0,Bezhotovostná platba,,Platba faktury 223311111,0308,223311111,,
+19,2022-09-15,-59.09,Transakcia kartou,,"Nákup: FAXCOPY52,LC,GALERIA,  NAMESTIE REPUBLIKY 5994/32, LUCENEC, 98401, SVK, dne 14.9.2022, částka  59.09 EUR",,5117,,"Nákup: FAXCOPY52,LC,GALERIA,  NAMESTIE REPUBLIKY 5994/32, LUCENEC, 98401, SVK, dne 14.9.2022, částka  59.09 EUR"
+20,2022-09-14,-519.98,Bezhotovostná platba,,uhrada faktury,0308,2022096,,
+21,2022-09-13,3000.0,Bezhotovostný príjem,"Endrödyová Renáta, J",/DO2022-09-12/SPPrevod na ucet,,,,"Endrödyová Renáta, J"

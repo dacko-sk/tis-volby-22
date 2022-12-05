@@ -1,0 +1,144 @@
+index,date,amount,tx_type,account_name,message,ks,vs,ss,note
+0,2022-11-11,-30.0,Bezhotovostná platba,,vs22108356,,,,Nubium dolepky na oktober faktura 17.10.2022
+1,2022-11-02,-47.36,Transakcia kartou,,"Nákup: GoogleAdwordsEU ADS671,  Gordon House, Barrow Street, Dublin, D04 E5W5, IRL, dne 1.11.2022, částka  47.36 EUR",,5809,,"Nákup: GoogleAdwordsEU ADS671,  Gordon House, Barrow Street, Dublin, D04 E5W5, IRL, dne 1.11.2022, částka  47.36 EUR"
+2,2022-11-02,-3.11,Transakcia kartou,,"Nákup: GoogleAdwordsEU ADS573,  Gordon House, Barrow Street, Dublin, D04 E5W5, IRL, dne 1.11.2022, částka  3.11 EUR",,5809,,"Nákup: GoogleAdwordsEU ADS573,  Gordon House, Barrow Street, Dublin, D04 E5W5, IRL, dne 1.11.2022, částka  3.11 EUR"
+3,2022-10-29,-347.31,Transakcia kartou,,"Nákup: FACEBK 32STWJTWJ2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 29.10.2022, částka  347.31 EUR",,5809,,"Nákup: FACEBK 32STWJTWJ2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 29.10.2022, částka  347.31 EUR"
+4,2022-10-27,-200.0,Transakcia kartou,,"Nákup: GOOGLE *ADS6718628386,  Gordon House, Barrow Street, 650-253-0000, UNKNOWN, IRL, dne 26.10.2022, částka  200.00 EUR",,5809,,"Nákup: GOOGLE *ADS6718628386,  Gordon House, Barrow Street, 650-253-0000, UNKNOWN, IRL, dne 26.10.2022, částka  200.00 EUR"
+5,2022-10-26,-5929.2,Bezhotovostná platba,,Uhrada faktury 2022171,0308,2022171,,"Firma CREA THINK, noviny, letáky"
+6,2022-10-26,1500.0,Bezhotovostný príjem,"Holečková Martina, M",/DO2022-10-25/SPNa kampan,,,,"Holečková Martina, M"
+7,2022-10-26,2000.0,Bezhotovostný príjem,"Holečková Martina, M",/DO2022-10-25/SPNa kampan,,,,"Holečková Martina, M"
+8,2022-10-26,2000.0,Bezhotovostný príjem,Holečka Štefan,/DO2022-10-25/SP,,5604256482,,Holečka Štefan
+9,2022-10-26,1500.0,Bezhotovostný príjem,Monika Kolejáková,/DO2022-10-25/SP,,,,Monika Kolejáková
+10,2022-10-26,-200.0,Transakcia kartou,,"Nákup: GOOGLE*ADS6718628386,  CC GOOGLE.COM, INTERNET, D04 E5W5, IRL, dne 25.10.2022, částka  200.00 EUR",,5809,,"Nákup: GOOGLE*ADS6718628386,  CC GOOGLE.COM, INTERNET, D04 E5W5, IRL, dne 25.10.2022, částka  200.00 EUR"
+11,2022-10-25,400.0,Bezhotovostný príjem,"Berecz Oliver, Mgr.",/DO2022-10-25/SPberecz sala,,,,"Berecz Oliver, Mgr."
+12,2022-10-25,-2520.0,Bezhotovostná platba,,Uhrada faktury 2022243,,2022243,,"Firma Signum Levice, leták A4 skladaný, 60000ks"
+13,2022-10-25,-5060.2,Bezhotovostná platba,,Uhrada faktury 2022159,0308,2022159,,"Firma CREA THINK, distribúcia volebných letákov,  2.cast platby"
+14,2022-10-25,-750.0,Transakcia kartou,,"Nákup: FACEBK JQE6EKXWJ2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 24.10.2022, částka  750.00 EUR",,5809,,"Nákup: FACEBK JQE6EKXWJ2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 24.10.2022, částka  750.00 EUR"
+15,2022-10-24,8000.0,Bezhotovostný príjem,Kresťanskodemokratic,/DO2022-10-21/SPPeňažný dar,,21102022,,Kresťanskodemokratic
+16,2022-10-23,-50.0,Transakcia kartou,,"Nákup: GOOGLE *ADS6718628386,  Gordon House, Barrow Street, 650-253-0000, UNKNOWN, IRL, dne 22.10.2022, částka  50.00 EUR",,5809,,"Nákup: GOOGLE *ADS6718628386,  Gordon House, Barrow Street, 650-253-0000, UNKNOWN, IRL, dne 22.10.2022, částka  50.00 EUR"
+17,2022-10-20,188.1,Bezhotovostný príjem,"euroAWK, spol. s r.",/DO2022-10-19/SPnezrealizovana kampan - vratka,,226515,,"euroAWK, spol. s r."
+18,2022-10-19,-750.0,Transakcia kartou,,"Nákup: FACEBK M93CMJFWJ2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 18.10.2022, částka  750.00 EUR",,5809,,"Nákup: FACEBK M93CMJFWJ2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 18.10.2022, částka  750.00 EUR"
+19,2022-10-18,-4000.0,Bezhotovostná platba,,"Uhrada faktury 2022159,1.splatka",0308,2022159,,"Firma CREA THINK ,distribúcia volebných letákov, 1  splátka"
+20,2022-10-18,-10.0,Transakcia kartou,,"Nákup: GOOGLE *ADS5736192146,  Gordon House, Barrow Street, 650-253-0000, UNKNOWN, IRL, dne 18.10.2022, částka  10.00 EUR",,5809,,"Nákup: GOOGLE *ADS5736192146,  Gordon House, Barrow Street, 650-253-0000, UNKNOWN, IRL, dne 18.10.2022, částka  10.00 EUR"
+21,2022-10-18,-2062.2,Bezhotovostná platba,,Uhrada faktury 2022160,0308,2022160,,"Firma CREA THINK, letáky kandidátov na poslancov"
+22,2022-10-18,-240.0,Bezhotovostná platba,,,,2022164,,"Firma CREA:THINK,distribúcia letákov"
+23,2022-10-18,100.0,Bezhotovostný príjem,Bystrík Ižold,/DO2022-10-17/SP Dar do kampane,,,,Bystrík Ižold
+24,2022-10-17,-156.0,Bezhotovostná platba,,,,2022578,,"Firma ARDOX ,vreckové kalendáriky 2000ks"
+25,2022-10-17,40.0,Bezhotovostný príjem,AGH ROMAN,/DO2022-10-15/SP,,,,AGH ROMAN
+26,2022-10-17,400.0,Bezhotovostný príjem,Peter Goldberger,/DO2022-10-14/SP Peter Goldberger,,,,Peter Goldberger
+27,2022-10-16,-213.6,Bezhotovostná platba,,Uhrada faktury 2022143,0308,2022143,,"Firma CREA:THINK, plagáty 500ks"
+28,2022-10-15,-14580.0,Bezhotovostná platba,,Uhrada faktury 2022158,0308,2022158,,"Firma CREA:THINK, volebné noviny 270000 ks"
+29,2022-10-14,467.0,Bezhotovostný príjem,Juraj Šimunek,/DO2022-10-13/SPŠimunek Juraj,,,,Juraj Šimunek prispevok spolukandidata billboardy
+30,2022-10-14,133.0,Bezhotovostný príjem,Matej Haško,/DO2022-10-13/SP Hasko LV billboard,,,,Matej Haško prispevok spolukandidata billboard
+31,2022-10-14,466.67,Bezhotovostný príjem,Monika Kolejáková,/DO2022-10-13/SP,,,,Monika Kolejáková prispevok spolukandidata
+32,2022-10-14,42.0,Bezhotovostný príjem,SPOTAK MILOSLAV,/DO2022-10-13/SPDar na bilbord a odpoved,,,,SPOTAK MILOSLAV
+33,2022-10-14,400.0,Bezhotovostný príjem,SPOTAK MILOSLAV,/DO2022-10-13/SPDar na uspesnu kampan,,,,SPOTAK MILOSLAV
+34,2022-10-13,-8601.58,Bezhotovostná platba,,Uhrada faktury 2022154,0308,2022154,,"Firma CREA:THINK, distribúcia volebných letákov"
+35,2022-10-13,350.0,Bezhotovostný príjem,PRIELOZNY PETER,/DO2022-10-12/SPNa uspech kampane,0558,29102022,,PRIELOZNY PETER
+36,2022-10-12,-346.8,Bezhotovostná platba,,,,22200979,,"Tlačiareň REA,s.r o.,leták list voličovi 10000ks"
+37,2022-10-11,-402.48,Bezhotovostná platba,,Uhrada faktury 2022230,,2022230,,"Firma Signum Levice ,banery 5ks"
+38,2022-10-11,226.0,Bezhotovostný príjem,Miloslav Hatala,/DO2022-10-10/SP M Hatala city lighty,,,,Miloslav Hatala prispevok spolukandidatov
+39,2022-10-11,461.2,Bezhotovostný príjem,Miloslav Hatala,/DO2022-10-10/SP M Hatala bilbordy,,,,Miloslav Hatala prispevok spolukandidata
+40,2022-10-10,-750.0,Transakcia kartou,,"Nákup: FACEBK 9P8UVH7XJ2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 10.10.2022, částka  750.00 EUR",,5809,,"Nákup: FACEBK 9P8UVH7XJ2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 10.10.2022, částka  750.00 EUR"
+41,2022-10-10,107.0,Bezhotovostný príjem,Ivana Hudaszek Semja,/DO2022-10-10/SP Ivana Hudaszek Semjanova,,,,Ivana Hudaszek Semja prispevok spolukandidata
+42,2022-10-10,150.0,Bezhotovostný príjem,"Čaučík Marián, Ing.",/DO2022-10-08/SPdar na kampan,,,,"Čaučík Marián, Ing."
+43,2022-10-10,-720.0,Bezhotovostná platba,,platba faktury,0308,22108009,,"Firma NUBIUM ,tlač plagátov na bilboardy"
+44,2022-10-10,-1347.6,Bezhotovostná platba,,Uhrada faktury 2022137,0308,2022137,,"Firma CREA:THINK, plagáty na vylepove plochy"
+45,2022-10-06,195.5,Bezhotovostný príjem,SMEHILOVA ANNA,/DO2022-10-05/SPBB okt,,,,SMEHILOVA ANNA prispevok spolukandidata
+46,2022-10-06,-68.85,Bezhotovostná platba,,,,22130013,,"Firma S-CLUB, preklad novín"
+47,2022-10-05,226.0,Bezhotovostný príjem,MARTINA PAVELKOVA,/DO2022-10-04/SPPAVELKA NITRA CLV,,,,MARTINA PAVELKOVA prispevok spolukandidata
+48,2022-10-05,300.0,Bezhotovostný príjem,Ščípová Zuzana,/DO2022-10-04/SP,,,,Ščípová Zuzana prispevok spolukandidata
+49,2022-10-05,226.0,Bezhotovostný príjem,BALKO DANIEL,/DO2022-10-04/SPplatba za Clv Nitra,0308,7107197141,,BALKO DANIEL prispevok spolukandidata
+50,2022-10-04,-33.6,Bezhotovostná platba,,,,20223434,,"Firma GRYF, tlač plagátov bb plochy"
+51,2022-10-04,500.0,Bezhotovostný príjem,Ivana Hudaszek Semja,/DO2022-10-04/SP Ivana Hudaszek Semjanova,,,,Ivana Hudaszek Semja prispevok spolukandidata
+52,2022-10-04,150.0,Bezhotovostný príjem,COPIK ANDREJ,/DO2022-10-03/SPprispevok kandidata na poslanca VUC Nitra - Ing. Andrej Copik doplatok,0558,7704036758,,COPIK ANDREJ
+53,2022-10-03,150.0,Bezhotovostný príjem,BUTOROVA VIERA,/DO2022-10-03/SPBilboardy 2022,0308,,,BUTOROVA VIERA prispevok spolukandidata
+54,2022-10-03,500.0,Bezhotovostný príjem,Zuzana Kotrus Rákoci,/DO2022-10-01/SPZuzana Kotrus Rakociova,,,,Zuzana Kotrus Rákoci prispevok spolukandidata
+55,2022-10-03,-1128.6,Bezhotovostná platba,,,,2270607,,"Firma EuroAWK, citylighty"
+56,2022-10-03,-168.0,Bezhotovostná platba,,"Martina Holeckova. Pazicka - tlac.2
+9.09.2022",,220713,,Firma Arton tlač plagátov na bb
+57,2022-10-03,-279.72,Transakcia kartou,,"Nákup: FACEBK JWFH8JTWJ2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 3.10.2022, částka  279.72 EUR",,5809,,"Nákup: FACEBK JWFH8JTWJ2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 3.10.2022, částka  279.72 EUR"
+58,2022-10-01,-3048.0,Bezhotovostná platba,,Uhrada faktury 2022135,0308,2022135,,"FirmaCrea:think ,volebné noviny 49000ks"
+59,2022-09-30,-9360.0,Bezhotovostná platba,,Uhrada faktury 2022132,0308,2022132,,"Firma CREA:THINK, volebné noviny 230 000ks"
+60,2022-09-29,400.0,Bezhotovostný príjem,Hlavatý Peter,/DO2022-09-28/SP,,,,Hlavatý Peter prispevok spolukandidata
+61,2022-09-29,560.0,Bezhotovostný príjem,BALKO DANIEL,/DO2022-09-28/SPpoplatok za spolocne BB,0308,7107197141,,BALKO DANIEL prispevok spolukandidata spolocne bb
+62,2022-09-28,-750.0,Transakcia kartou,,"Nákup: FACEBK QHKP4JTWJ2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 28.9.2022, částka  750.00 EUR",,5809,,"Nákup: FACEBK QHKP4JTWJ2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 28.9.2022, částka  750.00 EUR"
+63,2022-09-28,-201.6,Bezhotovostná platba,,,,,,"Firma NUBIUM, Vylep plagátov"
+64,2022-09-28,-100.0,Platba prevodom v rámci banky,,,,,,vratenie Dar- na uspesnu kampan v Nitre
+65,2022-09-28,560.0,Bezhotovostný príjem,MARTINA PAVELKOVA,/DO2022-09-27/SPPAVELKA NITRA BILBOARD,,,,MARTINA PAVELKOVA prispevok spolukandidata na spolocne bb
+66,2022-09-28,800.0,Bezhotovostný príjem,VARGA HENRICH,/DO2022-09-27/SP,,,,VARGA HENRICH prispevok spolukandidata spolocna kampan
+67,2022-09-27,10000.0,Bezhotovostný príjem,Kresťanskodemokratic,/DO2022-09-26/SPPeňažný dar,,26092022,,Kresťanskodemokratic
+68,2022-09-26,15.6,Bezhotovostný príjem,SMEHILOVA ANNA,/DO2022-09-25/SPPodpis karty A5,,,,SMEHILOVA ANNA prispevok na spolocne podpis karty A5
+69,2022-09-25,-31.2,Bezhotovostná platba,,Uhrada faktury S.2022085,,2022085,,"Firma STIKEN+s.r.o. ,podpis karty"
+70,2022-09-24,100.0,Platba prevodom v rámci banky,"Ing. Líška, Juraj",Dar- na uspesnu kampan v Nitre,,,,Dar- na uspesnu kampan v Nitre
+71,2022-09-24,100.0,Platba prevodom v rámci banky,"Auxerre accounting, spol. s r. o.",Dar- na uspesnu kampan v Nitre,,,,Dar- na uspesnu kampan v Nitre
+72,2022-09-23,800.0,Bezhotovostný príjem,Dušan Rampašek,/DO2022-09-23/SP Dusan Rampasek,,,,Dušan Rampašek prispevok spolukandidata
+73,2022-09-23,-142.8,Bezhotovostná platba,,"Martina Holeckova. Trzby z predajas
+l. - Pazicka tlac. 16.09.2022",,202209362,,"Firma Arton, tlač plagátov 7ks"
+74,2022-09-22,-107.64,Bezhotovostná platba,,Uhrada faktury 2022216,,2022216,,"Firma SIGNUM LEVICE ,tričká s potlačou 13ks"
+75,2022-09-21,-7962.76,Bezhotovostná platba,,Uhrada faktury 2022128,0308,2022128,,"Firma Crea:think, zabezpečenie distribúcie volebných letákov"
+76,2022-09-21,400.0,Bezhotovostný príjem,SPOTAK MILOSLAV,/DO2022-09-20/SPDAR,,,,SPOTAK MILOSLAV prispevok spolukandidata
+77,2022-09-20,-1404.0,Bezhotovostná platba,,"Martina Holeckova. Trzby z predajas
+l. - najom BILLBOARD Pazicka . 16.0
+9.2022",,202209361,,"Firma ARTON,s.r.o.,BILBOARDY, Kalná nad Hronom 2ks,Veľký Ďur  2ks,Báb  2ks,Kolíňany 1ks,Veľký Kýr 2ks,Šurany 2ks,Úľany nad Žitavou 2ks"
+78,2022-09-20,800.0,Bezhotovostný príjem,"Holečková Martina, M",/DO2022-09-19/SP,,,,"Holečková Martina,  prispevok na spolocnu kampan"
+79,2022-09-20,800.0,Bezhotovostný príjem,COPIK ANDREJ,/DO2022-09-19/SPprispevok kandidata na poslanca VUC Nitra - Ing. Andrej Copik,0558,7704036758,,COPIK ANDREJ
+80,2022-09-20,-68.85,Bezhotovostná platba,,,,22130011,,"Firma S-club,Preklad textov SK-HU"
+81,2022-09-19,800.0,Bezhotovostný príjem,Karol Borik,/DO2022-09-19/SP KB,,,,Karol Borik prispevok spolukandidata
+82,2022-09-19,-12.02,Bezhotovostná platba,,martina93522.1,0308,1022272806,,domena Websupport
+83,2022-09-19,800.0,Bezhotovostný príjem,BALKO DANIEL,/DO2022-09-19/SP,0308,7107197141,,BALKO DANIEL prispevok spolukandidata
+84,2022-09-19,94.0,Bezhotovostný príjem,SMEHILOVA ANNA,/DO2022-09-16/SPPlachty,,,,SMEHILOVA ANNA spolocny banner prispevok
+85,2022-09-18,-500.0,Transakcia kartou,,"Nákup: FACEBK AK9GAH7XJ2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 17.9.2022, částka  500.00 EUR",,5809,,"Nákup: FACEBK AK9GAH7XJ2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 17.9.2022, částka  500.00 EUR"
+86,2022-09-16,-187.2,Bezhotovostná platba,,Uhrada faktury S.2022061,,2022061,,"Firma STIKEN+,banner 4500x1500, 2ks"
+87,2022-09-16,800.0,Bezhotovostný príjem,MARTINA PAVELKOVA,/DO2022-09-15/SPPLATBAPAVELKA NITRA,,,,MARTINA PAVELKOVA prispevok spolukandidata
+88,2022-09-16,400.0,Bezhotovostný príjem,Peter Goldberger,/DO2022-09-16/SP Peter Goldberger,,,,Peter Goldberger prispevok  spolukandidata
+89,2022-09-16,800.0,Bezhotovostný príjem,Miloš Zaujec,/DO2022-09-15/SP,,,,Miloš Zaujec prispevok spolukandidata
+90,2022-09-16,400.0,Bezhotovostný príjem,"Berecz Oliver, Mgr.",/DO2022-09-15/SPberecz sala,,,,"Berecz Oliver, Mgr. Prispevok spolukandidata"
+91,2022-09-14,200.0,Bezhotovostný príjem,MAREK ZEMBERY,/DO2022-09-13/SPPREVOD PROSTRIEDKOV,,,,MAREK ZEMBERY
+92,2022-09-13,-81.6,Bezhotovostná platba,,Uhrada faktury 2022210,,2022210,,"Firma Signum Levice s.r.o,Banner 300x150cm"
+93,2022-09-13,800.0,Bezhotovostný príjem,Róbert Herda,"/DO2022-09-12/SPRóbert Herda, Zlaté Moravce",,,,Róbert Herda prispevok spolukandidata
+94,2022-09-13,800.0,Bezhotovostný príjem,COCHER PETER,/DO2022-09-12/SPCocher VUC,,,,COCHER PETER prispevok spolukandidata
+95,2022-09-12,300.0,Bezhotovostný príjem,Ivana Hudaszek Semja,/DO2022-09-09/SP Hudaszek Semjanova,,,,Ivana Hudaszek Semja prispevok spolukandidata
+96,2022-09-12,800.0,Bezhotovostný príjem,Miloslav Hatala,/DO2022-09-09/SP volby NSK 2022,,,,Miloslav Hatala prispevok spolukandidata
+97,2022-09-12,800.0,Bezhotovostný príjem,"Buda František, Ing.",/DO2022-09-09/SPBF,,2022,,"Buda František, Ing. Prispevok spolukandidata"
+98,2022-09-12,800.0,Bezhotovostný príjem,BUTOROVA VIERA,"/DO2022-09-09/SPViera Butorova, Topolcany",0308,,,BUTOROVA VIERA prispevok spolukandidata
+99,2022-09-10,-350.0,Transakcia kartou,,"Nákup: FACEBK TQCV4HKWJ2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 9.9.2022, částka  350.00 EUR",,5809,,"Nákup: FACEBK TQCV4HKWJ2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 9.9.2022, částka  350.00 EUR"
+100,2022-09-09,800.0,Bezhotovostný príjem,Strosova Daria,"/DO2022-09-08/SPDaria Strosova,VUC Topolcany, Daria Strosova,VUC Topolcany",,,,Strosova Daria prispevok.spolukandidata
+101,2022-09-09,800.0,Bezhotovostný príjem,Juraj Šimunek,/DO2022-09-08/SPJuraj Šimunek,,,,Juraj Šimunek prispevok spolukandidata
+102,2022-09-09,800.0,Bezhotovostný príjem,Ladislav Marenčák,"/DO2022-09-08/SPIng.Ladislav Marenčák,Svornosti 26,Nové Zámky",,08092022,,Ladislav Marenčák prispevok spolukandidata
+103,2022-09-09,800.0,Bezhotovostný príjem,AGH ROMAN,/DO2022-09-08/SP,,,,AGH ROMAN prispevok spolukandidata
+104,2022-09-09,800.0,Bezhotovostný príjem,KUNY VLADIMIR,/DO2022-09-08/SPVUC kampan KUNY Levice,,,,KUNY VLADIMIR
+105,2022-09-09,800.0,Bezhotovostný príjem,SMEHILOVA ANNA,/DO2022-09-08/SPSpolocna kampan,,,,SMEHILOVA ANNA
+106,2022-09-09,-3910.19,Bezhotovostná platba,,Uhrada faktury 2022115,0308,2022115,,"Firna Crea:think, podpis karty, pera, tasky, bloky, tricka,pastelky, ceruzky, rollup,leták,"
+107,2022-09-08,800.0,Bezhotovostný príjem,Matej Haško,/DO2022-09-08/SP Hasko,,,,Matej Haško prispevok spolukandidata
+108,2022-09-08,800.0,Bezhotovostný príjem,Monika Kolejáková,/DO2022-09-08/SP,,,,Monika Kolejáková prispevok spolukandidata
+109,2022-09-07,800.0,Bezhotovostný príjem,SZALMA ERVIN,/DO2022-09-06/SPKampan,,,,SZALMA ERVIN prispevok spolukandidata
+110,2022-09-06,20000.0,Bezhotovostný príjem,Kresťanskodemokratic,/DO2022-09-05/SPPeňažný dar,,05092022,,Kresťanskodemokratic
+111,2022-09-05,1100.0,Bezhotovostný príjem,Martin Bucko,"/DO2022-09-03/SPBucko Martin , volby VUC 2022",,,,Martin Bucko
+112,2022-09-03,-49.2,Transakcia kartou,,"Nákup: FACEBK XZK22JXWJ2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 3.9.2022, částka  49.20 EUR",,5809,,"Nákup: FACEBK XZK22JXWJ2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 3.9.2022, částka  49.20 EUR"
+113,2022-09-01,-225.0,Transakcia kartou,,"Nákup: FACEBK MJ8SJH7WJ2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 1.9.2022, částka  225.00 EUR",,5809,,"Nákup: FACEBK MJ8SJH7WJ2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 1.9.2022, částka  225.00 EUR"
+114,2022-08-30,200.0,Platba prevodom v rámci banky,"Ing. Gogola, Boris",,,,,
+115,2022-08-30,300.0,Bezhotovostný príjem,PECUCH JAN,/DO2022-08-30/SPPecuch volby MH,,,,PECUCH JAN
+116,2022-08-29,-162.0,Bezhotovostná platba,,platba faktury,0308,12120533,,"Firma Nubium ,prenájom reklamného panela a dodanie tlače plagátu"
+117,2022-08-27,-150.0,Transakcia kartou,,"Nákup: FACEBK KS6STHXWJ2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 26.8.2022, částka  150.00 EUR",,5809,,"Nákup: FACEBK KS6STHXWJ2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 26.8.2022, částka  150.00 EUR"
+118,2022-08-26,300.0,Bezhotovostný príjem,SMEHILOVA ANNA,/DO2022-08-25/SPBB,,,,SMEHILOVA ANNA
+119,2022-08-25,-7056.0,Bezhotovostná platba,,,,12120523,,"Firma Nubium, Bilboardy prenájom reklamných panelov a dodanie tlače plagátov"
+120,2022-08-24,100.0,Bezhotovostný príjem,SMILNAK MARTIN,/DO2022-08-23/SPMartin Smilnak Bardejov,,,,SMILNAK MARTIN
+121,2022-08-21,-100.0,Transakcia kartou,,"Nákup: FACEBK YWE6AH7WJ2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 21.8.2022, částka  100.00 EUR",,5809,,"Nákup: FACEBK YWE6AH7WJ2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 21.8.2022, částka  100.00 EUR"
+122,2022-08-19,-70.0,Transakcia kartou,,"Nákup: FACEBK 64HAMHXWJ2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 18.8.2022, částka  70.00 EUR",,5809,,"Nákup: FACEBK 64HAMHXWJ2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 18.8.2022, částka  70.00 EUR"
+123,2022-08-15,-40.0,Transakcia kartou,,"Nákup: FACEBK PRSRGG3XJ2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 15.8.2022, částka  40.00 EUR",,5809,,"Nákup: FACEBK PRSRGG3XJ2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 15.8.2022, částka  40.00 EUR"
+124,2022-08-13,-40.0,Transakcia kartou,,"Nákup: FACEBK F39D8GBXJ2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 13.8.2022, částka  40.00 EUR",,5809,,"Nákup: FACEBK F39D8GBXJ2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 13.8.2022, částka  40.00 EUR"
+125,2022-08-12,-30.0,Transakcia kartou,,"Nákup: FACEBK P6NA2H7WJ2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 11.8.2022, částka  30.00 EUR",,5809,,"Nákup: FACEBK P6NA2H7WJ2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 11.8.2022, částka  30.00 EUR"
+126,2022-08-11,-20.0,Transakcia kartou,,"Nákup: FACEBK Z86QCHBWJ2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 10.8.2022, částka  20.00 EUR",,5809,,"Nákup: FACEBK Z86QCHBWJ2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 10.8.2022, částka  20.00 EUR"
+127,2022-08-11,-12.0,Transakcia kartou,,"Nákup: FACEBK EZY76GBXJ2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 10.8.2022, částka  12.00 EUR",,5809,,"Nákup: FACEBK EZY76GBXJ2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 10.8.2022, částka  12.00 EUR"
+128,2022-08-10,-12.0,Transakcia kartou,,"Nákup: FACEBK H46CTGFWJ2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 9.8.2022, částka  12.00 EUR",,5809,,"Nákup: FACEBK H46CTGFWJ2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 9.8.2022, částka  12.00 EUR"
+129,2022-08-08,-9.0,Transakcia kartou,,"Nákup: FACEBK Y6564GBXJ2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 7.8.2022, částka  9.00 EUR",,5809,,"Nákup: FACEBK Y6564GBXJ2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 7.8.2022, částka  9.00 EUR"
+130,2022-08-07,-9.0,Transakcia kartou,,"Nákup: FACEBK VXSJBHXWJ2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 6.8.2022, částka  9.00 EUR",,5809,,"Nákup: FACEBK VXSJBHXWJ2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 6.8.2022, částka  9.00 EUR"
+131,2022-08-05,-9.0,Transakcia kartou,,"Nákup: FACEBK PJ4NDJPWJ2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 5.8.2022, částka  9.00 EUR",,5809,,"Nákup: FACEBK PJ4NDJPWJ2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 5.8.2022, částka  9.00 EUR"
+132,2022-07-27,10000.0,Bezhotovostný príjem,Kresťanskodemokratic,/DO2022-07-26/SPPeňažný dar,,26072022,,Kresťanskodemokratic
+133,2022-07-20,-2073.6,Bezhotovostná platba,,,,22076,,"Firna Gryf, Bilboardy ,prenájom a realizácia reklamných plôch"
+134,2022-07-20,1000.0,Bezhotovostný príjem,Marta Holečková,/DO2022-07-19/SP,,,,Marta Holečková
+135,2022-07-20,3000.0,Bezhotovostný príjem,Holečka Štefan,/DO2022-07-19/SP,,5604256482,,Holečka Štefan
+136,2022-07-17,-10.0,Bezhotovostná platba,,vratenie hotovostnej platby,,,,Vratenie hotovostnej platby
+137,2022-07-13,2000.0,Bezhotovostný príjem,"Holečková Martina, M",/DO2022-07-12/SP,,,,"Holečková Martina, M"
+138,2022-06-13,10.0,Vklad v hotovosti,,,0558,,,

@@ -1,0 +1,25 @@
+index,date,amount,tx_type,account_name,message,ks,vs,ss,note
+0,2022-10-28,40.0,Bezhotovostný príjem,Neurocna Lubica,/DO2022-10-27/SPDakujeme,,,,Neurocna Lubica
+1,2022-10-27,-50.0,Bezhotovostná platba,,,,,,Peter Červenka
+2,2022-10-27,50.0,Bezhotovostný príjem,Peter Červenka,/DO2022-10-26/SP Peter a Zuzana,,1,,Peter Červenka
+3,2022-10-26,-840.0,Bezhotovostná platba,,,0308,20220007,,"reklamné predmety, občerstvenie"
+4,2022-10-26,-834.0,Bezhotovostná platba,,Uhrada faktury: 20220004,,20220004,,poskytnutie priestorov prispôsobených účelu stretnutia a zabezpečenie občerstvenia
+5,2022-10-26,100.0,Bezhotovostný príjem,"Bábics Jozef, Ing.",/DO2022-10-25/SPPodpora k volbam,,,,"Bábics Jozef, Ing."
+6,2022-10-25,555.0,Bezhotovostný príjem,Marián Zeman,/DO2022-10-24/SP,,,,Marián Zeman
+7,2022-10-24,-205.2,Bezhotovostná platba,,Uhrada faktury: 20220003,,20220003,,
+8,2022-10-20,200.0,Bezhotovostný príjem,Zuzana Rafajdusová,/DO2022-10-19/SP prispevok na volebnu kampan,,,,Zuzana Rafajdusová
+9,2022-10-20,1000.0,Bezhotovostný príjem,Ľuboš Bodiš,/DO2022-10-20/SPpodpora,,,,Ľuboš Bodiš
+10,2022-10-20,-93.6,Bezhotovostná platba,,,,,,vlajka
+11,2022-10-14,-210.0,Bezhotovostná platba,,,,,,reklama VN
+12,2022-10-14,-323.0,Bezhotovostná platba,,,,,,Denisa Jánošíková
+13,2022-10-14,-780.0,Bezhotovostná platba,,"DIW s.r.o.: 2022090377 - Ing. Juraj
+ Ondruska PhD. - 2022/09",,2022090377,,"tlačoviny, noviny"
+14,2022-09-21,-192.0,Bezhotovostná platba,,"za prenajom a realizaciu reklamnejp
+lochy",,22157,,
+15,2022-09-16,200.0,Bezhotovostný príjem,Fekete Vaclav,/DO2022-09-14/SPVaclav Fekete,0000,0000000000,0000000000,Fekete Vaclav
+16,2022-09-02,50.0,Bezhotovostný príjem,ZEMANOVA ANGELIKA,/DO2022-08-31/SP,,,,ZEMANOVA ANGELIKA
+17,2022-08-31,100.0,Bezhotovostný príjem,Ležanská Andrea,/DO2022-08-30/SP,,,,Ležanská Andrea
+18,2022-08-22,100.0,Bezhotovostný príjem,NECPAL PAVOL,/DO2022-08-22/SPprispevok,,,,NECPAL PAVOL
+19,2022-07-22,-1264.87,Bezhotovostná platba,,,,,,"stik, letaky, reklamné predmety, pera"
+20,2022-07-12,1000.0,Bezhotovostný príjem,Ľuboš Bodiš,/DO2022-07-12/SPpodpora,,,,Ľuboš Bodiš
+21,2022-07-12,1300.0,Bezhotovostný príjem,ONDRUSKA JURAJ,/DO2022-07-11/SPPrispevok,,,,ONDRUSKA JURAJ

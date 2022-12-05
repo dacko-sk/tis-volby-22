@@ -1,0 +1,7 @@
+index,account_name,date,amount,currency,message,tx_type,vs,ss
+0,,2022-10-31,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+1,,2022-10-31,-2.52,EUR,Poplatok za vedenie účtu,Poplatok,,
+2,ING. MAREK BELAK,2022-10-29,-772.08,EUR,,Platobný príkaz na úhradu / FIT 2.0 (EB),,
+3,DORLET s.r.o.,2022-10-21,-396.0,EUR,distribúcia letákov,Platobný príkaz na úhradu / FIT 2.0 (EB),,
+4,"Alfa print, s.r.o.",2022-10-21,-1261.92,EUR,tlač letákov,Platobný príkaz na úhradu / FIT 2.0 (EB),166322,
+5,ING. MAREK BELAK,2022-10-20,2500.0,EUR,PREVOD PROSTRIEDKOV,Bezhotovostný vklad,,

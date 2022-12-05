@@ -1,0 +1,46 @@
+index,date,amount,tx_type,account_name,message,ks,vs,ss,note
+0,2022-10-31,-30.0,Transakcia kartou,,"Nákup: FACEBK X5X5CKK8Q2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 31.10.2022, částka  30.00 EUR",,0110,,"Nákup: FACEBK X5X5CKK8Q2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 31.10.2022, částka  30.00 EUR"
+1,2022-10-28,-1.39,Transakcia kartou,,"Nákup: FACEBK *ZGD6VJXGE2,  Hanover Reach, 5-7 Hanover Qua, fb.me/ads, DUBLIN 2, IRL, dne 27.10.2022, částka  1.39 EUR",,0110,,"Nákup: FACEBK *ZGD6VJXGE2,  Hanover Reach, 5-7 Hanover Qua, fb.me/ads, DUBLIN 2, IRL, dne 27.10.2022, částka  1.39 EUR"
+2,2022-10-27,-525.0,Bezhotovostná platba,,"fa.20220040,web,volebny video mater
+ial",0308,20220040,,"fa.20220040,web,volebný video materiál Shelby co s.r.o."
+3,2022-10-27,-70.0,Transakcia kartou,,"Nákup: FACEBK *NV9Z3JPHE2,  Hanover Reach, 5-7 Hanover Qua, fb.me/ads, DUBLIN 2, IRL, dne 26.10.2022, částka  70.00 EUR",,0110,,"Nákup: FACEBK *NV9Z3JPHE2,  Hanover Reach, 5-7 Hanover Qua, fb.me/ads, DUBLIN 2, IRL, dne 26.10.2022, částka  70.00 EUR"
+4,2022-10-26,-40.0,Transakcia kartou,,"Nákup: FACEBK *7KSEQH3HE2,  Hanover Reach, 5-7 Hanover Qua, fb.me/ads, DUBLIN 2, IRL, dne 25.10.2022, částka  40.00 EUR",,0110,,"Nákup: FACEBK *7KSEQH3HE2,  Hanover Reach, 5-7 Hanover Qua, fb.me/ads, DUBLIN 2, IRL, dne 25.10.2022, částka  40.00 EUR"
+5,2022-10-25,-30.0,Transakcia kartou,,"Nákup: FACEBK *B7MDUJ3JE2,  Hanover Reach, 5-7 Hanover Qua, fb.me/ads, DUBLIN 2, IRL, dne 24.10.2022, částka  30.00 EUR",,0110,,"Nákup: FACEBK *B7MDUJ3JE2,  Hanover Reach, 5-7 Hanover Qua, fb.me/ads, DUBLIN 2, IRL, dne 24.10.2022, částka  30.00 EUR"
+6,2022-10-23,-20.0,Transakcia kartou,,"Nákup: FACEBK *7QZLQJXGE2,  Hanover Reach, 5-7 Hanover Qua, fb.me/ads, DUBLIN 2, IRL, dne 22.10.2022, částka  20.00 EUR",,0110,,"Nákup: FACEBK *7QZLQJXGE2,  Hanover Reach, 5-7 Hanover Qua, fb.me/ads, DUBLIN 2, IRL, dne 22.10.2022, částka  20.00 EUR"
+7,2022-10-22,-200.9,Bezhotovostná platba,,,0008,20221410,,"Tlač plagátov,Faxcopy a.s."
+8,2022-10-20,-132.0,Bezhotovostná platba,,reklamny baner,0008,220378,,"baner,ART Sylvia Kálaziova"
+9,2022-10-19,1000.0,Bezhotovostný príjem,POLERECKA EVA,/DO2022-10-18/SPprispevok kampan od Eva Polerecka,,2022,,POLERECKA EVA
+10,2022-10-18,-2024.2,Bezhotovostná platba,,,0008,20221410,,"perá,kalendáre,tričká,National pen ltd."
+11,2022-10-18,-1951.34,Bezhotovostná platba,,Platba faktury 222410301,0008,222410301,,"volebná brožúra A4,Bóna labels s.r.o."
+12,2022-10-17,-20.0,Transakcia kartou,,"Nákup: FACEBK *33ZVRJ7HE2,  Hanover Reach, 5-7 Hanover Qua, fb.me/ads, DUBLIN 2, IRL, dne 16.10.2022, částka  20.00 EUR",,0110,,"Nákup: FACEBK *33ZVRJ7HE2,  Hanover Reach, 5-7 Hanover Qua, fb.me/ads, DUBLIN 2, IRL, dne 16.10.2022, částka  20.00 EUR"
+13,2022-10-14,-180.0,Bezhotovostná platba,,Eva Polerecka,0308,2233102355,,"inzercia,Petit Press"
+14,2022-10-08,-16.0,Transakcia kartou,,"Nákup: FACEBK PMRQKHF8Q2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 8.10.2022, částka  16.00 EUR",,0110,,"Nákup: FACEBK PMRQKHF8Q2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 8.10.2022, částka  16.00 EUR"
+15,2022-10-07,-590.0,Bezhotovostná platba,,"Videomaterial,rekl.prispevky",0308,20220037,,"Videomateriál,rekl.príspevky,Shelby co,s.r.o."
+16,2022-10-05,-12.0,Transakcia kartou,,"Nákup: FACEBK *KCGM3JTHE2,  Hanover Reach, 5-7 Hanover Qua, fb.me/ads, DUBLIN 2, IRL, dne 4.10.2022, částka  12.00 EUR",,0110,,"Nákup: FACEBK *KCGM3JTHE2,  Hanover Reach, 5-7 Hanover Qua, fb.me/ads, DUBLIN 2, IRL, dne 4.10.2022, částka  12.00 EUR"
+17,2022-10-04,1000.0,Bezhotovostný príjem,Polerecký Ondrej,/DO2022-10-03/SPprispevok Ondrej Polerecky,0968,2022,,Polerecký Ondrej
+18,2022-10-04,1000.0,Bezhotovostný príjem,POLERECKA EVA,/DO2022-10-03/SPprispevok kampan od Eva Polerecka,,2022,,POLERECKA EVA
+19,2022-10-03,-2476.8,Bezhotovostná platba,,platba faktury BB oktober 2022,0308,12120673,,"BB október 2022,NUBIUM s.r.o."
+20,2022-09-29,-3.03,Transakcia kartou,,"Nákup: FACEBK *3AF56KBHE2,  Hanover Reach, 5-7 Hanover Qua, fb.me/ads, DUBLIN 2, IRL, dne 29.9.2022, částka  3.03 EUR",,0110,,"Nákup: FACEBK *3AF56KBHE2,  Hanover Reach, 5-7 Hanover Qua, fb.me/ads, DUBLIN 2, IRL, dne 29.9.2022, částka  3.03 EUR"
+21,2022-09-28,-12.0,Transakcia kartou,,"Nákup: FACEBK *LCGFBHPHE2,  Hanover Reach, 5-7 Hanover Qua, fb.me/ads, DUBLIN 2, IRL, dne 27.9.2022, částka  12.00 EUR",,0110,,"Nákup: FACEBK *LCGFBHPHE2,  Hanover Reach, 5-7 Hanover Qua, fb.me/ads, DUBLIN 2, IRL, dne 27.9.2022, částka  12.00 EUR"
+22,2022-09-23,1000.0,Bezhotovostný príjem,Polerecký Ondrej,/DO2022-09-22/SPprispevok Ondrej Polerecky,0968,2022,,Polerecký Ondrej
+23,2022-09-19,1000.0,Bezhotovostný príjem,POLERECKA EVA,/DO2022-09-19/SPprispevok kampan od Eva Polerecka,,2022,,POLERECKA EVA
+24,2022-09-13,1000.0,Bezhotovostný príjem,Polerecký Ondrej,/DO2022-09-12/SPprispevok Ondrej Polerecky,0968,2022,,Polerecký Ondrej
+25,2022-09-11,-9.0,Transakcia kartou,,"Nákup: FACEBK *5DUXLHXGE2,  Hanover Reach, 5-7 Hanover Qua, fb.me/ads, DUBLIN 2, IRL, dne 10.9.2022, částka  9.00 EUR",,0110,,"Nákup: FACEBK *5DUXLHXGE2,  Hanover Reach, 5-7 Hanover Qua, fb.me/ads, DUBLIN 2, IRL, dne 10.9.2022, částka  9.00 EUR"
+26,2022-09-08,-9.0,Transakcia kartou,,"Nákup: FACEBK *S6QTDHTHE2,  Hanover Reach, 5-7 Hanover Qua, fb.me/ads, DUBLIN 2, IRL, dne 7.9.2022, částka  9.00 EUR",,0110,,"Nákup: FACEBK *S6QTDHTHE2,  Hanover Reach, 5-7 Hanover Qua, fb.me/ads, DUBLIN 2, IRL, dne 7.9.2022, částka  9.00 EUR"
+27,2022-09-05,1000.0,Bezhotovostný príjem,Polerecký Ondrej,/DO2022-09-02/SPprispevok Ondrej Polerecky,0968,2022,,Polerecký Ondrej
+28,2022-09-05,1000.0,Bezhotovostný príjem,POLERECKA EVA,/DO2022-09-02/SPprispevok kampan od Eva Polerecka,,2022,,POLERECKA EVA
+29,2022-08-25,1000.0,Bezhotovostný príjem,POLERECKA EVA,/DO2022-08-24/SPprispevok kampan od Eva Polerecka,,2022,,POLERECKA EVA
+30,2022-08-24,-2476.8,Bezhotovostná platba,,platba faktury za BB september 2022,0308,12120528,,"BB september 2022,NUBIUM s.r.o."
+31,2022-08-16,1000.0,Bezhotovostný príjem,POLERECKA EVA,/DO2022-08-15/SPprispevok kampan od Eva Polerecka,,2022,,POLERECKA EVA
+32,2022-08-11,-1848.0,Bezhotovostná platba,,prenajom bb 8/2022,,22085783,,"BB august 2022,NUBIUM s.r.o."
+33,2022-08-02,1000.0,Bezhotovostný príjem,POLERECKA EVA,/DO2022-08-01/SPprispevok kampan od Eva Polerecka,,2022,,POLERECKA EVA
+34,2022-08-01,-100.0,Bezhotovostná platba,,,,,,vratenie prispevku v hotovosti
+35,2022-07-28,-1.0,Transakcia kartou,,"Nákup: FACEBK *D5VZGGXGE2,  Hanover Reach, 5-7 Hanover Qua, fb.me/ads, DUBLIN 2, IRL, dne 27.7.2022, částka  1.00 EUR",,0110,,"Nákup: FACEBK *D5VZGGXGE2,  Hanover Reach, 5-7 Hanover Qua, fb.me/ads, DUBLIN 2, IRL, dne 27.7.2022, částka  1.00 EUR"
+36,2022-07-25,1000.0,Bezhotovostný príjem,Polerecký Ondrej,/DO2022-07-22/SPprispevok Ondrej Polerecky,0968,2022,,Polerecký Ondrej
+37,2022-07-16,-154.8,Bezhotovostná platba,,,,,,"rekl.banner,ART Sylvia Kálaziová"
+38,2022-07-16,-9.0,Transakcia kartou,,"Nákup: FACEBK *EMCEMGXHE2,  Hanover Reach, 5-7 Hanover Qua, fb.me/ads, DUBLIN 2, IRL, dne 15.7.2022, částka  9.00 EUR",,0110,,"Nákup: FACEBK *EMCEMGXHE2,  Hanover Reach, 5-7 Hanover Qua, fb.me/ads, DUBLIN 2, IRL, dne 15.7.2022, částka  9.00 EUR"
+39,2022-07-15,1000.0,Bezhotovostný príjem,Polerecký Ondrej,/DO2022-07-14/SPprispevok Ondrej Polerecky,0968,2022,,Polerecký Ondrej
+40,2022-07-06,-11.99,Transakcia kartou,,"Nákup: WWW.WEBSUPPORT.SK,  KARADZICOVA 12, BRATISLAVA, 82108, SVK, dne 5.7.2022, částka  11.99 EUR",,0110,,"Nákup: WWW.WEBSUPPORT.SK,  KARADZICOVA 12, BRATISLAVA, 82108, SVK, dne 5.7.2022, částka  11.99 EUR"
+41,2022-06-29,-15.0,Transakcia kartou,,"Nákup: FACEBK N264JFPNJ2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 29.6.2022, částka  15.00 EUR",,0110,,"Nákup: FACEBK N264JFPNJ2,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 29.6.2022, částka  15.00 EUR"
+42,2022-06-16,1000.0,Bezhotovostný príjem,Polerecký Ondrej,/DO2022-06-15/SPprispevok Ondrej Polerecky,0968,2022,,Polerecký Ondrej
+43,2022-05-13,100.0,Vklad v hotovosti,Štartujeme,,0558,,,Štartujeme

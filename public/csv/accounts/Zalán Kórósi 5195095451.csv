@@ -1,0 +1,11 @@
+index,account_name,date,amount,currency,message,tx_type,vs,ss
+0,,2022-10-31,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+1,Mestské kultúrne strediski,2022-10-26,-100.0,EUR,Nájomné,Okamžitá platba (EB),,
+2,Kórósi Zalán,2022-10-26,100.0,EUR,F001261020220335884,Bezhotovostný vklad,,
+3,Veronika Csepi,2022-10-20,-138.96,EUR,Letáky na politickú kampaň,Platobný príkaz na úhradu / FIT 2.0 (EB),,
+4,Kórósi Zalán,2022-10-20,140.0,EUR,F001201020227137726,Bezhotovostný vklad,,
+5,Veronika Csepi,2022-10-05,-220.32,EUR,Úhrada za volebý baner,Platobný príkaz na úhradu / FIT 2.0 (EB),,
+6,Kórósi Zalán,2022-10-05,20.0,EUR,F001051020222999952,Bezhotovostný vklad,,
+7,Peter Šuch,2022-10-05,183.6,EUR,Peter Such,Bezhotovostný vklad - okamžitá platba,,
+8,,2022-09-30,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+9,Kórósi Zalán,2022-09-23,100.0,EUR,F001230920226222241,Bezhotovostný vklad,,

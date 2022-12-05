@@ -1,0 +1,9 @@
+index,account_name,date,amount,currency,message,tx_type,vs,ss
+0,,2022-10-31,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+1,,2022-10-31,-6.0,EUR,Poplatok za vedenie účtu,Poplatok,,
+2,Ts s.r.o.,2022-10-17,-470.0,EUR,Uhrada FA,Platobný príkaz na úhradu / FIT 2.0 (EB),10492,
+3,"Vajai Juraj, Ing.",2022-10-17,800.0,EUR,OO22101700017012,Bezhotovostný vklad - okamžitá platba,,
+4,,2022-09-30,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+5,,2022-09-30,-2.4,EUR,Poplatok za vedenie účtu,Poplatok,,
+6,Canton sro,2022-09-21,-250.0,EUR,Ing. Juraj Vajai; Tržby zaposkytnuté tlačiarenské služby;21.09.2022,Platobný príkaz na úhradu / FIT 2.0 (EB),221001,
+7,,2022-09-19,500.0,EUR,,Vklad hotovosti,,

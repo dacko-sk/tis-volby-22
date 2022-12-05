@@ -1,0 +1,10 @@
+index,account_name,date,amount,currency,message,tx_type,vs,ss
+0,,2022-10-31,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+1,Lavacom,2022-10-25,-36.0,EUR,,Platobný príkaz na úhradu / FIT 2.0 (EB),2201300333,
+2,Tomaško Dušan,2022-10-25,100.0,EUR,F001251020229742752,Bezhotovostný vklad,,
+3,Lavacom,2022-10-19,-1659.6,EUR,,Platobný príkaz na úhradu / FIT 2.0 (EB),2201300264,
+4,Tomaško Dušan,2022-10-19,1000.0,EUR,F001191020225570542,Bezhotovostný vklad,,
+5,Lavacom,2022-10-17,-159.6,EUR,,Platobný príkaz na úhradu / FIT 2.0 (EB),2201300196,
+6,GL Reklama S.r.o,2022-10-17,-1080.0,EUR,,Platobný príkaz na úhradu / FIT 2.0 (EB),20220021,
+7,,2022-09-30,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+8,Tomaško Dušan,2022-09-28,2000.0,EUR,,Bezhotovostný vklad,,

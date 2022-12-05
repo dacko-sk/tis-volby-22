@@ -1,0 +1,67 @@
+index,date,amount,tx_type,account_name,message,ks,vs,ss,note
+0,2022-10-27,-170.0,Transakcia kartou,,"Nákup: SPUSTA - KAVIAREN,  PUCHOVSKA CESTA 8, BRATISLAVA, 813 06, SVK, dne 26.10.2022, částka  170.00 EUR",,7162,,"Nákup: SPUSTA - KAVIAREN,  PUCHOVSKA CESTA 8, BRATISLAVA, 813 06, SVK, dne 26.10.2022, částka  170.00 EUR"
+1,2022-10-25,-100.4,Transakcia kartou,,"Nákup: SPUSTA - KAVIAREN,  PUCHOVSKA CESTA 8, BRATISLAVA, 813 06, SVK, dne 24.10.2022, částka  100.40 EUR",,7162,,"Nákup: SPUSTA - KAVIAREN,  PUCHOVSKA CESTA 8, BRATISLAVA, 813 06, SVK, dne 24.10.2022, částka  100.40 EUR"
+2,2022-10-24,-2700.0,Bezhotovostná platba,,Platba za inzerciu OZ racan.sk,0308,202204,,Platba za inzerciu OZ racan.sk
+3,2022-10-20,20.0,Bezhotovostný príjem,JANA LANCOVA,/DO2022-10-19/SPPRISPEVOK NA KAMPAN,,,,JANA LANCOVA
+4,2022-10-18,-510.0,Bezhotovostná platba,,Production House - bundyvs potlacou,0308,2201262,,Production House - bundy s potlacou
+5,2022-10-17,50.0,Bezhotovostný príjem,Vladimír Groch,/DO2022-10-14/SP Dar na Kampan,,,,Vladimír Groch
+6,2022-10-11,90.0,Bezhotovostný príjem,Juraj Hyža,/DO2022-10-10/SP gulas akcia,,,,Juraj Hyža
+7,2022-10-06,-792.0,Bezhotovostná platba,,"Polygraficke centrum, a.s. - tlac m
+aterialov",,203000150,,"Polygraficke centrum, a.s. - tlac materialov"
+8,2022-10-06,20.0,Bezhotovostný príjem,KROSLAK BORIS,"/DO2022-10-05/SP, Dar na kampan",,,,KROSLAK BORIS
+9,2022-10-04,-511.19,Transakcia kartou,,"Nákup: unitedprint 6959980_PI,  Namestie SNP 15 15, support@print, 81101, SVK, dne 3.10.2022, částka  511.19 EUR",,7162,,"Nákup: unitedprint 6959980_PI,  Namestie SNP 15 15, support@print, 81101, SVK, dne 3.10.2022, částka  511.19 EUR"
+10,2022-10-03,-480.0,Bezhotovostná platba,,"Inzercia Media Raca - Raciansky vyb
+er 10/2022",0308,2022080,,Inzercia Media Rača - Račiansky výber 10/2022
+11,2022-10-03,50.0,Bezhotovostný príjem,Dobrotkova Milada,/DO2022-09-30/SPDar na kampan,0558,0030092022,0030092022,Dobrotkova Milada
+12,2022-09-30,100.0,Bezhotovostný príjem,Róbert Pajdlhauser,/DO2022-09-29/SP dar,,,,Róbert Pajdlhauser
+13,2022-09-29,-1800.0,Bezhotovostná platba,,"Graficke a kampanove prace Pribor,s
+.r.o.",,202234,,"Grafické a kampaňové práce Pribor, s.r.o."
+14,2022-09-27,80.0,Bezhotovostný príjem,Miroslav Dudlák,/DO2022-09-26/SP dar na kampan volby 2022,,,,Miroslav Dudlák
+15,2022-09-22,-900.0,Bezhotovostná platba,,"Platba inzercia racan.sk vyber 2/20
+22",0308,202202,,Platba inzercia racan.sk vyber 2/2022
+16,2022-09-21,20.0,Bezhotovostný príjem,Jozef Gejdoš,"/DO2022-09-20/SP dar Team M. Drotovan, dar team M. Drotovan",,,,Jozef Gejdoš
+17,2022-09-16,30.0,Bezhotovostný príjem,"Trnka Vladimír, Ing.",/DO2022-09-15/SPdar - team drotovan,,,,"Trnka Vladimír, Ing."
+18,2022-09-16,50.0,Bezhotovostný príjem,STRBAKOVA VIEROSLAVA,/DO2022-09-14/SPPodpora teamu M. Drotovana v komunalnych volbach 2022,,,,STRBAKOVA VIEROSLAVA
+19,2022-09-14,-70.56,Transakcia kartou,,"Nákup: WWW.WEBSUPPORT.SK COMF,  KARADZICOVA 12, BRATISLAVA, 82108, SVK, dne 13.9.2022, částka  70.56 EUR",,7162,,"Nákup: WWW.WEBSUPPORT.SK COMF,  KARADZICOVA 12, BRATISLAVA, 82108, SVK, dne 13.9.2022, částka  70.56 EUR"
+20,2022-09-14,150.0,Bezhotovostný príjem,Dobšovič Juraj,/DO2022-09-13/SPJuraj dobsovic,,,,Dobšovič Juraj
+21,2022-09-12,500.0,Bezhotovostný príjem,"Hermanovský Martin,","/DO2022-09-09/SPPrispevok na kampan Drotovan volby 2022, drzim palce",,,,"Hermanovský Martin,"
+22,2022-09-09,123.0,Bezhotovostný príjem,LUBOS ISKRA,/DO2022-09-08/SPNA POKRACOVANIE ROZVOJA RACE,,,,LUBOS ISKRA
+23,2022-08-30,80.0,Bezhotovostný príjem,Miroslav Dudlák,/DO2022-08-26/SP dar na kampan volby 2022,,,,Miroslav Dudlák
+24,2022-08-26,300.0,Bezhotovostný príjem,Vladimír Groch,/DO2022-08-25/SP Dar na Kampan,,,,Vladimír Groch
+25,2022-08-23,300.0,Bezhotovostný príjem,"Šinály Peter, Ing.","/DO2022-08-22/SPPeter Sinaly, Peter Sinaly",,,,"Šinály Peter, Ing."
+26,2022-08-19,350.0,Bezhotovostný príjem,Róbert Pajdlhauser,/DO2022-08-19/SP dar,,,,Róbert Pajdlhauser
+27,2022-08-12,300.0,Bezhotovostný príjem,Rybanič Filip,/DO2022-08-11/SPDar na kampan,,,,Rybanič Filip
+28,2022-07-27,80.0,Bezhotovostný príjem,Miroslav Dudlák,/DO2022-07-26/SP dar na kampan volby 2022,,,,Miroslav Dudlák
+29,2022-07-25,200.0,Bezhotovostný príjem,Milada Dobrotková,/DO2022-07-22/SPDar na kampan,0558,27102022,27102022,Milada Dobrotková
+30,2022-07-25,300.0,Bezhotovostný príjem,PAPAGEORGIOU CHARILA,"/DO2022-07-22/SPDar na kampan, DROTOVAN",,,,PAPAGEORGIOU CHARILA
+31,2022-07-22,300.0,Bezhotovostný príjem,"Sliviaková Daniela,",/DO2022-07-21/SPprispevok,,,,"Sliviaková Daniela,"
+32,2022-07-22,300.0,Bezhotovostný príjem,STEFANIDESOVA,,,,,STEFANIDESOVA
+33,2022-07-18,1000.0,Bezhotovostný príjem,Michal Drotován,/DO2022-07-18/SP Prispevok na spolocnu kampan starostu a kandidatov na poslancov,,,,Michal Drotován
+34,2022-07-14,150.0,Bezhotovostný príjem,Dobšovič Juraj,/DO2022-07-13/SPJuraj Dobsovic,,,,Dobšovič Juraj
+35,2022-07-13,300.0,Bezhotovostný príjem,Jost Miloslav,/DO2022-07-12/SPPrispevok na kampan,,,,Jost Miloslav
+36,2022-07-13,500.0,Bezhotovostný príjem,BIELKO VIKTOR,/DO2022-07-12/SPDar na kampan,,,,BIELKO VIKTOR
+37,2022-07-12,300.0,Bezhotovostný príjem,Štefánková Marta,/DO2022-07-11/SPPrispevok na kampan 2022,,,,Štefánková Marta
+38,2022-07-12,300.0,Bezhotovostný príjem,Ján Drotován,/DO2022-07-11/SPDar na kampan,,,,Ján Drotován
+39,2022-07-12,300.0,Bezhotovostný príjem,Adam Gubran,/DO2022-07-11/SPPrispevok,,,,Adam Gubran
+40,2022-07-12,300.0,Bezhotovostný príjem,Monika Hyžová,/DO2022-07-11/SP Juraj Hyza,,,,Monika Hyžová
+41,2022-07-11,-270.0,Bezhotovostná platba,,Platba fotografovanie - Drotovan,0308,210092,,Platba fotenie
+42,2022-07-01,100.0,Bezhotovostný príjem,"Čulenová Lucia, Mgr.",/DO2022-06-30/SP,,,,"Čulenová Lucia, Mgr."
+43,2022-06-27,80.0,Bezhotovostný príjem,Miroslav Dudlák,/DO2022-06-24/SP dar na kampan volby 2022,,,,Miroslav Dudlák
+44,2022-06-14,30.0,Bezhotovostný príjem,MAREK SUBJAK,/DO2022-06-13/SPKAMPAN 2022,,,,MAREK SUBJAK
+45,2022-06-09,100.0,Bezhotovostný príjem,Milada Dobrotková,/DO2022-06-08/SPDar na kampan - fotenie,0558,27102022,27102022,Milada Dobrotková
+46,2022-06-08,27.0,Bezhotovostný príjem,Rybanič Filip,/DO2022-06-07/SPDar na kampan - fotenie,,,,Rybanič Filip
+47,2022-06-08,30.0,Bezhotovostný príjem,Adam Gubran,/DO2022-06-07/SPDar na kampan - fotenie,,,,Adam Gubran
+48,2022-06-08,30.0,Bezhotovostný príjem,STEFANIDESOVA,Dar na kampan - fotenie,,,,STEFANIDESOVA
+49,2022-06-08,27.0,Bezhotovostný príjem,PAPAGEORGIOU CHARILA,/DO2022-06-07/SPDar na kampan - fotenie,,,,PAPAGEORGIOU CHARILA
+50,2022-06-02,22.0,Bezhotovostný príjem,MARIAN LUHA,"/DO2022-06-01/SP----22 NA KAMPAN 2022: VOLTE DROTOVANA, NEVOLTE PILINSKEHO, A ANI POLAKOVICA-",,,,MARIAN LUHA
+51,2022-05-30,22.0,Bezhotovostný príjem,MARIAN LUHA,"/DO2022-05-27/SP----22 NA KAMPAN 2022, LEPSIA VOLBA AKO POLAKOVIC, ALEBO PILINSKY- DRZIM PALCE- :)",,,,MARIAN LUHA
+52,2022-05-30,22.0,Bezhotovostný príjem,MARIAN LUHA,"/DO2022-05-30/SP----22 NA KAMPAN 2022: JA MU VERIM, ZE BUDE OPAT NAJLEPSI STAROSTA RACE- MARIAN LUHA",,,,MARIAN LUHA
+53,2022-05-27,80.0,Bezhotovostný príjem,Miroslav Dudlák,/DO2022-05-26/SP dar na kampan volby 2022,,,,Miroslav Dudlák
+54,2022-05-27,20.0,Bezhotovostný príjem,Matej Žáry,/DO2022-05-26/SPdakujem a drzim palce,,,,Matej Žáry
+55,2022-05-26,-900.0,Bezhotovostná platba,,inzercia racan.sk vyber,0308,202201,,inzercia račan.sk výber
+56,2022-05-23,22.0,Bezhotovostný príjem,MARIAN LUHA,"/DO2022-05-20/SP----22 NA KAMPAN 2022, LEPSIA VOLBA AKO POLAKOVIC, ALEBO PILINSKY-",,,,MARIAN LUHA
+57,2022-05-20,100.0,Bezhotovostný príjem,STRBAKOVA VIEROSLAVA,/DO2022-05-19/SPvolby 2022 - drzim palce,,,,STRBAKOVA VIEROSLAVA
+58,2022-05-18,22.0,Bezhotovostný príjem,MARIAN LUHA,/DO2022-05-17/SP22 NA KAMPAN 2022,,,,MARIAN LUHA
+59,2022-05-18,20.22,Bezhotovostný príjem,"Stacho Ondrej, JUDr.",/DO2022-05-17/SP,,,,"Stacho Ondrej, JUDr."
+60,2022-05-18,100.0,Bezhotovostný príjem,Mário Grman,/DO2022-05-17/SP kampan,,,,Mário Grman
+61,2022-05-11,2022.0,Bezhotovostný príjem,Michal Drotován,/DO2022-05-10/SP Kampan 2022 prevod,,,,Michal Drotován

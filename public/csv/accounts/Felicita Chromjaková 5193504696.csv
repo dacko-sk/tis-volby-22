@@ -1,0 +1,12 @@
+index,account_name,date,amount,currency,message,tx_type,vs,ss
+0,,2022-10-31,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+1,,2022-10-31,-4.0,EUR,Poplatok za vedenie účtu,Poplatok,,
+2,,2022-09-30,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+3,,2022-09-30,-4.0,EUR,Poplatok za vedenie účtu,Poplatok,,
+4,,2022-09-28,-0.2,EUR,Popl.Pl.Prík.na úh./Prev.EUR EHP/FIT(EB),Poplatok,2022226,
+5,Augustín Jánošík - TLAČIAREŇ JÁNOŠÍK,2022-09-28,-120.0,EUR,Úhrada FA 2022/226,Platobný príkaz na úhradu / FIT 2.0 (EB),2022226,
+6,,2022-08-31,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+7,,2022-08-31,-3.87,EUR,Poplatok za vedenie účtu,Poplatok,,
+8,,2022-08-17,-0.2,EUR,Popl.Pl.Prík.na úh./Prev.EUR EHP/FIT(EB),Poplatok,,
+9,Juraj Jánošík - Grafické štúdio,2022-08-17,-30.0,EUR,Úhrada FA 072/2022 Chromjaková Felicita,Platobný príkaz na úhradu / FIT 2.0 (EB),,
+10,Chromjaková Felicita,2022-08-03,300.0,EUR,F001030820227335230,Bezhotovostný vklad,,

@@ -1,0 +1,6 @@
+index,account_name,date,amount,currency,message,tx_type,vs,ss
+0,,2022-10-31,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+1,,2022-10-16,-12.5,EUR,"B1388428342-44544 12** **** 0921;SLOVENSKA POSTA A S ,PRUSKE ,SK ;14.10.2022 11:08:20 ;CashBack:0 EUR",Platba kartou,,
+2,,2022-10-16,-12.25,EUR,"B1388430715-44544 12** **** 0921;SLOVENSKA POSTA A S ,KOSECA ,SK ;14.10.2022 12:03:55 ;CashBack:0 EUR",Platba kartou,,
+3,,2022-10-14,-120.0,EUR,"B1386787250-44544 12** **** 0921;SLOVENSKA POSTA A S ,ILAVA ,SK ;12.10.2022 13:03:36 ;CashBack:0 EUR",Platba kartou,,
+4,,2022-09-30,-5.0,EUR,Zverejňovanie účtu,Poplatok,,

@@ -1,0 +1,102 @@
+index,date,amount,account_name,message,vs
+0,2022-11-21,-280.0,Ing. Andrej Kmotorka,Uhrada faktury: 20220006,20220006
+1,2022-10-31,6.0,,Odpustenie vedenie konta,9
+2,2022-10-31,-6.0,,Vedenie konta Transparentný účet,9
+3,2022-10-31,-110.6,Platba kartou,"UNI-JAS, S.R.O. PRIEVIDZA",****1306
+4,2022-10-31,-70.0,Platba kartou,FACEBK MXNAEH3V fb.me/ads,****1306
+5,2022-10-31,-7.7,Platba kartou,FACEBK Z9C6NGPV fb.me/ads,****1306
+6,2022-10-28,-40.0,Platba kartou,FACEBK 3LTGCGBV fb.me/ads,****1306
+7,2022-10-26,100.0,Kutlikova Andrea,najviac drzim palce,
+8,2022-10-25,-80.1,Platba kartou,"KAUFLAND 1720, PRIEVIDZA",****1306
+9,2022-10-25,-1270.0,Kulturne Centrum Bojnice,Prenajom priestorov na mitingy,2022258
+10,2022-10-24,-30.0,Platba kartou,FACEBK UYHFDGTU fb.me/ads,****1306
+11,2022-10-24,-400.0,,Uhrada faktury: 20220004,20220004
+12,2022-10-24,-1872.0,Creative Studio s.r.o.,Reklamny zapalovac s potlacou,2022292
+13,2022-10-19,11.0,Ladislav Kupka,,
+14,2022-10-18,50.0,Michal Štrba,Michal Strba,
+15,2022-10-17,-20.0,"VUB,A.S.",DDFACEBK~UGH33H3Vfb.me/ads~~~~~~P1,****1306
+16,2022-10-17,10.0,JURAJ CAGAN,DRZTE SA A BOJUJTE,
+17,2022-10-17,200.0,"Kováč Patrik, Ing.",,
+18,2022-10-17,100.0,David Smatana,Skvely tim Plan Bojnice Prinesietetak ocakavanu a potrebnu zmenu...Dakujeme a silno drzime palce,
+19,2022-10-17,20.0,Radek Blažo,Ste super. Drzim palce vsetkym,
+20,2022-10-17,-210.0,Patria I. spol.s r.o.,Volby propag mat a minikalendarik,10220935
+21,2022-10-14,-90.0,Platba kartou,SLOVENSKA POSTA BOJNICE,****1306
+22,2022-10-12,111.0,Zimániová Magdaléna,,
+23,2022-10-11,-12.0,Platba kartou,FACEBK EB5JKH7V fb.me/ads,****1306
+24,2022-10-11,100.0,Pavol Drozd,rodina Drozdova,10022
+25,2022-10-10,-12.0,Platba kartou,FACEBK BKCCMGTV fb.me/ads,****1306
+26,2022-10-10,100.0,TOMIK JOZEF,Kampan,
+27,2022-10-10,50.0,ROHACOVA SONA,Filip Rohac,
+28,2022-10-10,50.0,ANDREA SIMKOVICOVA,ANDREA SIMKOVICOVA,
+29,2022-10-07,100.0,Ďurica Martin,Martin Durica,
+30,2022-10-07,50.0,"Kováčová Píšová Antónia, Ing.",,
+31,2022-10-07,100.0,"Pospíšil Jiří, Ing.",,
+32,2022-10-06,-9.0,Platba kartou,FACEBK WCNJPGFV fb.me/ads,****1306
+33,2022-10-05,-6.0,Platba kartou,FACEBK KJXMZFPV fb.me/ads,****1306
+34,2022-10-05,50.0,Robert Ergang,Ergang,
+35,2022-10-05,33.0,Leško Branislav,rodina Leskova,
+36,2022-10-04,-4.0,Platba kartou,FACEBK RH53BGKV fb.me/ads,****1306
+37,2022-10-04,-2.0,Platba kartou,FACEBK PFH9HHXU fb.me/ads,****1306
+38,2022-10-03,-2.0,Platba kartou,FACEBK WD9MPFBV fb.me/ads,****1306
+39,2022-10-03,-1.5,Platba kartou,FACEBK KZ9XLGFV fb.me/ads,****1306
+40,2022-10-03,-1.5,Platba kartou,FACEBK 63N9QG3V fb.me/ads,****1306
+41,2022-10-03,-1.5,Platba kartou,FACEBK 94GKGHXU fb.me/ads,****1306
+42,2022-09-30,6.0,,Odpustenie vedenie konta,9
+43,2022-09-30,-6.0,,Vedenie konta Transparentný účet,9
+44,2022-09-29,150.0,Masár Juraj,,
+45,2022-09-27,10.0,ZATKOVA BEATA,,
+46,2022-09-21,200.0,MASAR JAN,plan Bojnice,
+47,2022-09-21,300.0,SEBESTA MARTIN,"Nech Ti to vyjde, Laco",
+48,2022-09-19,100.0,Vašura Róbert,,
+49,2022-09-16,400.0,Nizo s.r.o.,Nizo s.r.o. podpora komunalnych volieb,16092022
+50,2022-09-16,200.0,David Smatana,,
+51,2022-09-16,300.0,"Kucej Igor, Ing.",Nech sa to podari a Bojnice budu mat poriadneho primatora,
+52,2022-09-14,100.0,"Urbančok Róbert, Ing.","Drzim palce, nech sa to podari.",
+53,2022-09-14,20.0,Bosko Martin,Drzim palce,
+54,2022-09-14,50.0,Dusan Maliarik,LACO DRZIM VAM VSETKYM PALCE,
+55,2022-09-12,100.0,SVARC PETER,"Peter Svarc, prispevok na volebnu kampan",
+56,2022-09-12,5.0,Katarina Novakova,,
+57,2022-09-09,100.0,Rastislav Uhlíř,,
+58,2022-09-08,20.0,JURAJ CAGAN,"PLATBA NA DOBRU VEC, KTORA SA PODARI :)",
+59,2022-09-07,10.0,"Krajnák Jakub, Ing.",,
+60,2022-09-05,-66.5,Platba kartou,"UNI-JAS, S.R.O. PRIEVIDZA",****1306
+61,2022-09-05,-17.54,Platba kartou,L027 LIBEX PRIE PRIEVIDZA,****1306
+62,2022-09-05,10.0,Čapliar Juraj,Plan Bojnice,
+63,2022-09-02,100.0,Peter Biro,,
+64,2022-08-31,6.0,,Odpustenie vedenie konta,9
+65,2022-08-31,-6.0,,Vedenie konta Transparentný účet,9
+66,2022-08-30,-90.0,Platba kartou,SLOVENSKA POSTA BOJNICE,****1306
+67,2022-08-30,100.0,Martin Bednár,plan Bojnice,27082022
+68,2022-08-26,-262.08,Creative Studio s.r.o.,Tlac letaku 3 na kampan vratane pozvanky,2022237
+69,2022-08-18,200.0,"Habodász Matej, Ing.",LACO NA HRAD 2,
+70,2022-08-17,-744.0,ADRA ATTIS s.r.o.,2x baner volebny team a logo,11222175
+71,2022-08-16,-138.51,Platba kartou,"KAUFLAND 1720, PRIEVIDZA",****1306
+72,2022-08-16,-453.6,Creative Studio s.r.o.,"Tlac letakov, brozury na kampan, graf uprava",202232
+73,2022-08-15,-563.2,"VUB,A.S.",DDADALEX~U~ARPIHOPRIEVIDZA~~~~~~P1,****1306
+74,2022-08-15,-344.0,Platba kartou,MASIARSTVO U BO PRIEVIDZA 11:19,****1306
+75,2022-08-15,-90.0,Platba kartou,SLOVENSKA POSTA BOJNICE,****1306
+76,2022-08-15,-50.33,Platba kartou,MERKURY SHOP s. PRIEVIDZA 15:22,****1306
+77,2022-08-12,-55.2,Hriko s.r.o.,Smatana kampan potlac triciek,220100267
+78,2022-08-11,200.0,Radomir Roman,Lacko bude dobry primator,
+79,2022-08-02,-500.0,B62s.r.o.,Prenajom Billboardu na volby,20220003
+80,2022-08-01,200.0,PACESA PATRIK,Lacko na hrad,
+81,2022-07-29,6.0,,Odpustenie vedenie konta,9
+82,2022-07-29,-6.0,,Vedenie konta Transparentný účet,9
+83,2022-07-28,200.0,"Habodász Matej, Ing.",LACO NA HRAD,
+84,2022-07-25,2000.0,"Kriváň Senčeková Daniela, Ing.",,25072022
+85,2022-07-22,-432.0,ADRA ATTIS s.r.o.,Volebny baner,11222161
+86,2022-07-06,100.0,"Valchovník Ivan, Ing.",May the force be with you,
+87,2022-07-04,100.0,Kóňa Ľudovít,Ludvik Kona,
+88,2022-07-04,200.0,Miroslav Zlocha,Miroslav Zlocha - drzim palce anech to vyjde,650420
+89,2022-06-30,6.0,,Odpustenie vedenie konta,9
+90,2022-06-30,-6.0,,Vedenie konta Transparentný účet,9
+91,2022-06-27,-7.6,"VUB,A.S.",DDDAFFER~S~R~O~~~PRIEVIDZA~~~~~~P1,****1306
+92,2022-06-27,-6.0,Platba kartou,FACEBK LYFNNEKR fb.me/ads,****1306
+93,2022-06-22,-156.0,Creative Studio s.r.o.,Tlac letakov na kampan,2022178
+94,2022-06-22,-196.0,Mgr. Andrea Blaho Zerola Atelier,Za fotky do kampane,202206004
+95,2022-05-31,6.0,,Odpustenie vedenie konta,9
+96,2022-05-31,-6.0,,Vedenie konta Transparentný účet,9
+97,2022-05-17,-3.5,,Poplatok Zmena PIN k PK cez ATM,1306
+98,2022-04-29,5.0,,Odpust.-popl.za platby a ved.úč/ko,9
+99,2022-04-29,-5.0,,Vedenie účtu,9
+100,2022-04-21,2000.0,LADISLAV SMATANA,Vklad majitela uctu,

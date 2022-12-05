@@ -1,0 +1,24 @@
+index,date,amount,tx_type,account_name,message,ks,vs,ss,note
+0,2022-10-18,-120.0,Bezhotovostná platba,,,,,,Prenájom priestoru
+1,2022-10-06,10.0,Bezhotovostný príjem,Hagara Lukáš,/DO2022-10-05/SPprispevok,,,,Hagara Lukáš
+2,2022-10-06,10.0,Bezhotovostný príjem,Fazekáš Marián,/DO2022-10-05/SP,,,,Fazekáš Marián
+3,2022-10-06,10.0,Bezhotovostný príjem,Samuel Ľach,/DO2022-10-05/SPprispevok,,,,Samuel Ľach
+4,2022-10-06,15.0,Bezhotovostný príjem,Krivušová Alžbeta,/DO2022-10-05/SP,,510,,Krivušová Alžbeta
+5,2022-10-05,-206.45,Bezhotovostná platba,,Platba za plagatove plochy,,102498,,Plagátové plochy
+6,2022-10-05,10.0,Bezhotovostný príjem,Mesko Marián,/DO2022-10-04/SPMarian Mesko,,,,Mesko Marián
+7,2022-10-05,10.0,Bezhotovostný príjem,Monika Collins,/DO2022-10-04/SPPRISPEVOK,,,,Monika Collins
+8,2022-10-05,10.0,Bezhotovostný príjem,BERNIK ADAM,/DO2022-10-04/SPprispevok,,,,BERNIK ADAM
+9,2022-10-05,20.0,Bezhotovostný príjem,Lauko Dominik,/DO2022-10-04/SPprispevok,,,,Lauko Dominik
+10,2022-10-05,150.0,Bezhotovostný príjem,LIPTAI MAREK,/DO2022-10-04/SPprispevok,,,,LIPTAI MAREK
+11,2022-10-05,10.0,Bezhotovostný príjem,Michaela Goralová,/DO2022-10-04/SP,,,,Michaela Goralová
+12,2022-10-05,10.0,Bezhotovostný príjem,Miroslav Hošoff,/DO2022-10-04/SP,,,,Miroslav Hošoff
+13,2022-10-05,10.0,Bezhotovostný príjem,LETKOVA LUBICA,/DO2022-10-04/SPDrzim palce,,,,LETKOVA LUBICA
+14,2022-10-05,10.0,Bezhotovostný príjem,Jozef Salamon,/DO2022-10-04/SPJozef Salamon - Anton Minarik,,102022,,Jozef Salamon
+15,2022-10-05,10.0,Bezhotovostný príjem,Anton Minárik,/DO2022-10-04/SP,,,,Anton Minárik
+16,2022-10-05,10.0,Bezhotovostný príjem,Marta Mináriková,/DO2022-10-04/SP,,,,Marta Mináriková
+17,2022-10-04,20.0,Platba prevodom v rámci banky,"Ing. Huttová, Klára",,,,,
+18,2022-09-28,-200.0,Bezhotovostná platba,,Platba za web,,20220018,,Platba za web
+19,2022-09-28,200.0,Platba prevodom v rámci banky,"PaedDr. Minárik, Anton",,,,,
+20,2022-08-18,-40.64,Transakcia kartou,,"Nákup: WWW.WEBSUPPORT.SK,  KARADZICOVA 12, BRATISLAVA, 82108, SVK, dne 17.8.2022, částka  40.64 EUR",,9338,,"Nákup: WWW.WEBSUPPORT.SK,  KARADZICOVA 12, BRATISLAVA, 82108, SVK, dne 17.8.2022, částka  40.64 EUR"
+21,2022-08-16,50.0,Platba prevodom v rámci banky,"PaedDr. Minárik, Anton",,,,,
+22,2022-07-04,10.0,Vklad v hotovosti,,,0558,,,

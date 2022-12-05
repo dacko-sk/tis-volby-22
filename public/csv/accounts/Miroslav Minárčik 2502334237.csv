@@ -1,0 +1,5 @@
+index,date,amount,tx_type,account_name,message,ks,vs,ss,note
+0,2022-10-28,-762.0,Bezhotovostná platba,,,,,,
+1,2022-10-28,-1086.0,Bezhotovostná platba,,,,,,
+2,2022-10-28,-358.8,Bezhotovostná platba,,,,,,
+3,2022-10-27,2500.0,Vklad v hotovosti,osobne uspory na volby,,0558,,,osobne uspory na volby

@@ -1,0 +1,20 @@
+index,date,amount,tx_type,account_name,message,ks,vs,ss,note
+0,2022-10-27,-12.0,Bezhotovostná platba,,,0308,220102312,,
+1,2022-10-24,-556.8,Bezhotovostná platba,,,0308,221000267,,
+2,2022-10-24,-150.0,Bezhotovostná platba,,,0308,220102299,,
+3,2022-10-24,-66.0,Bezhotovostná platba,,,0308,220102246,,
+4,2022-10-24,1000.0,Bezhotovostný príjem,"Vlček Michal, Ing.",/DO2022-10-21/SP,,,,"Vlček Michal, Ing."
+5,2022-10-19,-259.8,Bezhotovostná platba,,,0308,202210067,,
+6,2022-10-19,-72.0,Bezhotovostná platba,,,0308,22108361,,
+7,2022-10-19,-1152.0,Bezhotovostná platba,,,0308,22107805,,
+8,2022-10-19,-1152.0,Bezhotovostná platba,,,0308,22096729,,
+9,2022-10-17,2600.0,Bezhotovostný príjem,"Vlček Michal, Ing.",/DO2022-10-14/SPMichal Vlcek,,,,"Vlček Michal, Ing."
+10,2022-10-14,-75.0,Bezhotovostná platba,,,0308,220102236,,
+11,2022-10-14,-50.0,Bezhotovostná platba,,Vratenie prispevku,,,,Vratenie prispevku
+12,2022-10-12,50.0,Bezhotovostný príjem,Ľuboš Bodiš,/DO2022-10-12/SPprispevok na kampan od rod. Bodisovych,,,,Ľuboš Bodiš
+13,2022-10-05,-35.0,Bezhotovostná platba,,,0308,502022157,,
+14,2022-09-26,-696.0,Bezhotovostná platba,,,0008,20220289,,
+15,2022-09-21,-213.6,Bezhotovostná platba,,,0308,402200148,,
+16,2022-09-21,1000.0,Bezhotovostný príjem,"Vlček Michal, Ing.",/DO2022-09-20/SP,,,,"Vlček Michal, Ing."
+17,2022-09-16,-2740.8,Bezhotovostná platba,,,0308,20223087,,
+18,2022-09-14,2800.0,Bezhotovostný príjem,"Vlček Michal, Ing.",/DO2022-09-13/SPMichal Vlcek,,,,"Vlček Michal, Ing."

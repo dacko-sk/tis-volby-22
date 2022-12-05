@@ -1,0 +1,41 @@
+index,date,amount,tx_type,account_name,message,ks,vs,ss,note
+0,2022-11-04,-388.0,Bezhotovostná platba,,,,20220043,,graficke navrhy
+1,2022-11-02,-336.0,Bezhotovostná platba,,,,20220035,,ozvučenie
+2,2022-11-02,-25.0,Bezhotovostná platba,,,,1386,,dodávka elektriny
+3,2022-10-28,-480.0,Bezhotovostná platba,,,,20220027,,marketing
+4,2022-10-24,-462.0,Bezhotovostná platba,,,,10220236,,bilboard
+5,2022-10-17,-105.0,Bezhotovostná platba,,,,2022099,,vylep plagatov
+6,2022-10-10,-258.1,Bezhotovostná platba,,,,2200052,,
+7,2022-10-04,-120.0,Bezhotovostná platba,,,,12022413,,
+8,2022-10-03,-498.0,Bezhotovostná platba,,,,2022226,,
+9,2022-10-03,-96.0,Bezhotovostná platba,,,,220147,,
+10,2022-10-03,2495.0,Bezhotovostný príjem,MERGA FRANTISEK,/DO2022-09-30/SPFrantišek Merga,,,,MERGA FRANTISEK
+11,2022-10-03,-86.8,Transakcia kartou,,"Nákup: Hotel Ali Baba,  NAMESTIE SLOBODY 51, HUMENNE, 06601, SVK, dne 1.10.2022, částka  86.80 EUR",,5288,,"Nákup: Hotel Ali Baba,  NAMESTIE SLOBODY 51, HUMENNE, 06601, SVK, dne 1.10.2022, částka  86.80 EUR"
+12,2022-10-02,-11.6,Transakcia kartou,,"Nákup: HOTEL ALIBABA-BAR,HE,N,  NAMESTIE SLOBODY 51, HUMENNE, 06601, SVK, dne 1.10.2022, částka  11.60 EUR",,5288,,"Nákup: HOTEL ALIBABA-BAR,HE,N,  NAMESTIE SLOBODY 51, HUMENNE, 06601, SVK, dne 1.10.2022, částka  11.60 EUR"
+13,2022-10-02,-55.0,Transakcia kartou,,"Nákup: HISTORY ARTMUSIC CLU,  STEFANIKOVA 27, HUMENNE, 06601, SVK, dne 1.10.2022, částka  55.00 EUR",,5288,,"Nákup: HISTORY ARTMUSIC CLU,  STEFANIKOVA 27, HUMENNE, 06601, SVK, dne 1.10.2022, částka  55.00 EUR"
+14,2022-09-29,-720.0,Bezhotovostná platba,,,0308,20220025,,marketing
+15,2022-09-27,-107.6,Transakcia kartou,,"Nákup: JAZZ CAFE,  NAMESTIE SLOBODY 271, HUMENNE, 06601, SVK, dne 25.9.2022, částka  107.60 EUR",,5288,,"Nákup: JAZZ CAFE,  NAMESTIE SLOBODY 271, HUMENNE, 06601, SVK, dne 25.9.2022, částka  107.60 EUR"
+16,2022-09-27,-11.35,Transakcia kartou,,"Nákup: JAZZ CAFE,  NAMESTIE SLOBODY 271, HUMENNE, 06601, SVK, dne 25.9.2022, částka  11.35 EUR",,5288,,"Nákup: JAZZ CAFE,  NAMESTIE SLOBODY 271, HUMENNE, 06601, SVK, dne 25.9.2022, částka  11.35 EUR"
+17,2022-09-26,-50.0,Bezhotovostná platba,,,,52022,,
+18,2022-09-26,-300.0,Bezhotovostná platba,,,,20220024,,marketing
+19,2022-09-26,150.0,Bezhotovostný príjem,RUSINKOVA LIVIA,"/DO2022-09-23/SPRusinkova Livia, volby primatora 2022 ,Stanislav Onderisin",,,,RUSINKOVA LIVIA
+20,2022-09-23,120.0,Bezhotovostný príjem,Mgr. Tomáš Singer,/DO2022-09-22/SPTomas Singer,,,,Mgr. Tomáš Singer
+21,2022-09-22,1000.0,Bezhotovostný príjem,Antoňák Pavol,/DO2022-09-21/SP,,,,Antoňák Pavol
+22,2022-09-21,-4.8,Transakcia kartou,,"Nákup: HOTEL KARPATIA REST,  CESKOSLOVENSKEJ ARMA, HUMENNE, 06601, SVK, dne 19.9.2022, částka  4.80 EUR",,5288,,"Nákup: HOTEL KARPATIA REST,  CESKOSLOVENSKEJ ARMA, HUMENNE, 06601, SVK, dne 19.9.2022, částka  4.80 EUR"
+23,2022-09-20,-117.3,Bezhotovostná platba,,,,22092022,,občerstvenie 2A miting
+24,2022-09-12,200.0,Bezhotovostný príjem,Tomáš Singer,/DO2022-09-12/SP Volby primatora,,,,Tomáš Singer
+25,2022-09-06,-24.0,Bezhotovostná platba,,,,,,
+26,2022-08-30,-390.0,Bezhotovostná platba,,,,222023,,
+27,2022-08-30,100.0,Bezhotovostný príjem,Ján Žinčák,/DO2022-08-28/SP,,,,Ján Žinčák
+28,2022-08-26,-7.14,Transakcia kartou,,"Nákup: ENTER SK, s.r.o.,  Hviezdoslavova 1407/1, Humenne, 06601, SVK, dne 25.8.2022, částka  7.14 EUR",,5288,,"Nákup: ENTER SK, s.r.o.,  Hviezdoslavova 1407/1, Humenne, 06601, SVK, dne 25.8.2022, částka  7.14 EUR"
+29,2022-08-18,500.0,Bezhotovostný príjem,Antoňák Pavol,/DO2022-08-17/SPPavol Antonak,,,,Antoňák Pavol
+30,2022-08-18,50.0,Bezhotovostný príjem,Monika Čajbiková,/DO2022-08-17/SPPredvolebná kampaň,,,,Monika Čajbiková
+31,2022-08-16,-300.0,Bezhotovostná platba,,,0308,20220019,,
+32,2022-08-11,-315.0,Bezhotovostná platba,,,,222021,,
+33,2022-08-11,440.0,Bezhotovostný príjem,PATRIK BARTA,Patrik Barta,,,,PATRIK BARTA
+34,2022-08-10,40.0,Bezhotovostný príjem,Mária Cmarová,/DO2022-08-10/SPMaria Cmarova,,,,Mária Cmarová
+35,2022-08-10,100.0,Bezhotovostný príjem,SOTAKOVA KATARINA,/DO2022-08-09/SP,,,,SOTAKOVA KATARINA
+36,2022-08-08,50.0,Bezhotovostný príjem,Petrovčinová Amália,/DO2022-08-05/SP:),0308,,,Petrovčinová Amália
+37,2022-08-04,-936.0,Bezhotovostná platba,,Stanislav Onderisin,,224473,,
+38,2022-08-04,940.0,Bezhotovostný príjem,Katarína Sivčová,/DO2022-08-03/SP Podpora na zaplatenie predvolebnej kampane- reklamny nosic/bilbord,,,,Katarína Sivčová
+39,2022-07-31,20.0,Platba prevodom v rámci banky,"MUDr. Hrivňák, Jaroslav",Stanislav Onderisin - Jaroslav Hrivnak,,,,Stanislav Onderisin - Jaroslav Hrivnak

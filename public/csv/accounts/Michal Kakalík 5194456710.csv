@@ -1,0 +1,9 @@
+index,account_name,date,amount,currency,message,tx_type,vs,ss
+0,,2022-10-31,-5,EUR,Zverejňovanie účtu,Poplatok,,
+1,"Kakalíková Lenka, Ing.",2022-10-26,100,EUR,,Bezhotovostný vklad - okamžitá platba,,
+2,"LB DESIGN, s.r.o.",2022-10-05,-183,EUR,Grafika a tlač,Okamžitá platba (EB),,
+3,,2022-09-30,-5,EUR,Zverejňovanie účtu,Poplatok,,
+4,Holubová Viera Ing.,2022-09-21,50,EUR,F001210920224527867,Bezhotovostný vklad,21092022,
+5,Guláš Robert,2022-09-14,50,EUR,mas nasu podporu,Bezhotovostný vklad - okamžitá platba,14092022,
+6,,2022-09-02,-3,EUR,Poplatok za vklad hotovosti - Bežný účet,Poplatok,,
+7,,2022-09-02,300,EUR,,Vklad hotovosti,,

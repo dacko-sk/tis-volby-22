@@ -1,0 +1,55 @@
+index,date,amount,tx_type,account_name,message,ks,vs,ss,note
+0,2022-10-11,-11736.0,Bezhotovostná platba,,"Ing. Frantisek Olha - ml.. . 11.10.
+2022",0008,,,Citylight na zastávkach MHD
+1,2022-10-11,-600.0,Bezhotovostná platba,,,,,,Polepy foliou
+2,2022-10-11,12000.0,Bezhotovostný príjem,"Oľha František, Ing.",/DO2022-10-11/SP,,,,"Oľha František, Ing."
+3,2022-10-11,-600.0,Transakcia kartou,,"Nákup: FACEBK S9A47HFG72,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 10.10.2022, částka  600.00 EUR",,3674,,"Nákup: FACEBK S9A47HFG72,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 10.10.2022, částka  600.00 EUR"
+4,2022-10-10,-10980.0,Bezhotovostná platba,,"Ing. Frantisek Olha - ml.. . 30.09.
+2022",0008,22090156,,Bilboardy
+5,2022-10-07,350.0,Bezhotovostný príjem,ONDREJ SARNIK,/DO2022-10-06/SPONDREJ SARNIK,,,,ONDREJ SARNIK
+6,2022-10-07,9000.0,Bezhotovostný príjem,"Oľha František, Ing.",/DO2022-10-06/SP,,,,"Oľha František, Ing."
+7,2022-10-06,-600.0,Transakcia kartou,,"Nákup: FACEBK URRNGH3H72,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 6.10.2022, částka  600.00 EUR",,3674,,"Nákup: FACEBK URRNGH3H72,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 6.10.2022, částka  600.00 EUR"
+8,2022-10-04,-150.0,Platba prevodom v rámci banky,,poplatok za diskusiu,,,,poplatok za diskusiu
+9,2022-10-04,350.0,Bezhotovostný príjem,Antónia Marčáková,/DO2022-10-03/SPMarcakova,,7757,,Antónia Marčáková
+10,2022-10-03,350.0,Bezhotovostný príjem,Peter Šulík,/DO2022-10-03/SP Peter Sulk,,,,Peter Šulík
+11,2022-10-03,350.0,Bezhotovostný príjem,JURCISIN RADOSLAV,/DO2022-10-03/SPjurcisin,,,,JURCISIN RADOSLAV
+12,2022-10-03,350.0,Bezhotovostný príjem,RICHARD DRUTAROVSKY,/DO2022-10-03/SPRD,,,,RICHARD DRUTAROVSKY
+13,2022-10-03,350.0,Bezhotovostný príjem,"Angelovič Martin, RN",/DO2022-10-02/SPMartin Angelovic,,,,"Angelovič Martin, RN"
+14,2022-10-03,350.0,Bezhotovostný príjem,"Tkáč Igor, Mgr.","/DO2022-09-30/SPFerovy primator, usmiate mesto",,,,"Tkáč Igor, Mgr."
+15,2022-10-02,-76.53,Transakcia kartou,,"Nákup: GOOGLE *ADS7160440791,  70 Sir John Rogerson's Quay, 650-253-0000, UNKNOWN, IRL, dne 1.10.2022, částka  76.53 EUR",,3674,,"Nákup: GOOGLE *ADS7160440791,  70 Sir John Rogerson's Quay, 650-253-0000, UNKNOWN, IRL, dne 1.10.2022, částka  76.53 EUR"
+16,2022-10-01,-1.99,Transakcia kartou,,"Nákup: GOOGLE*GOOGLE STORAGE,  G.CO/HELPPAY#, IRELAND, D02 R296, IRL, dne 29.9.2022, částka  1.99 EUR",,3674,,"Nákup: GOOGLE*GOOGLE STORAGE,  G.CO/HELPPAY#, IRELAND, D02 R296, IRL, dne 29.9.2022, částka  1.99 EUR"
+17,2022-09-30,-420.0,Transakcia kartou,,"Nákup: FACEBK 7QZADGXF72,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 30.9.2022, částka  420.00 EUR",,3674,,"Nákup: FACEBK 7QZADGXF72,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 30.9.2022, částka  420.00 EUR"
+18,2022-09-30,350.0,Bezhotovostný príjem,DANIEL BACA,/DO2022-09-29/SPPLATBA,,,,DANIEL BACA
+19,2022-09-30,350.0,Bezhotovostný príjem,Denisa Holečková,/DO2022-09-29/SP,,,,Denisa Holečková
+20,2022-09-30,350.0,Bezhotovostný príjem,Tibor Bindas,/DO2022-09-29/SPKomunalne voľby Bindas mestska časť 7,,,,Tibor Bindas
+21,2022-09-30,350.0,Bezhotovostný príjem,SKUTA VILIAM,/DO2022-09-29/SPViliam Skuta,,,,SKUTA VILIAM
+22,2022-09-30,350.0,Bezhotovostný príjem,Ander Martin,/DO2022-09-29/SPAnder Martin,,,,Ander Martin
+23,2022-09-30,350.0,Bezhotovostný príjem,Richard Dubovický,/DO2022-09-29/SP dubovicky,,,,Richard Dubovický
+24,2022-09-30,350.0,Bezhotovostný príjem,KUTAJOVA JAROSLAVA,/DO2022-09-29/SP,,,,KUTAJOVA JAROSLAVA
+25,2022-09-29,350.0,Platba prevodom v rámci banky,"Ing. Fedáková, Ivana",,,,,
+26,2022-09-28,-500.0,Transakcia kartou,,"Nákup: GOOGLE *ADS7160440791,  70 Sir John Rogerson's Quay, G.CO/HELPPAY#, UNKNOWN, IRL, dne 27.9.2022, částka  500.00 EUR",,3674,,"Nákup: GOOGLE *ADS7160440791,  70 Sir John Rogerson's Quay, G.CO/HELPPAY#, UNKNOWN, IRL, dne 27.9.2022, částka  500.00 EUR"
+27,2022-09-27,350.0,Bezhotovostný príjem,Petruš Matej,"/DO2022-09-26/SPMatej Petrus, svaby solivar",,,,Petruš Matej
+28,2022-09-27,350.0,Bezhotovostný príjem,KINIK TOMAS,/DO2022-09-26/SP,,,,KINIK TOMAS
+29,2022-09-23,-238.07,Transakcia kartou,,"Nákup: FACEBK U8XJWGTG72,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 23.9.2022, částka  238.07 EUR",,3674,,"Nákup: FACEBK U8XJWGTG72,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 23.9.2022, částka  238.07 EUR"
+30,2022-09-20,-288.94,Transakcia kartou,,"Nákup: FACEBK 8SY5BGKG72,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 19.9.2022, částka  288.94 EUR",,3674,,"Nákup: FACEBK 8SY5BGKG72,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 19.9.2022, částka  288.94 EUR"
+31,2022-09-19,300.0,Bezhotovostný príjem,"Oľha František, Ing.",/DO2022-09-16/SP,,,,"Oľha František, Ing."
+32,2022-09-19,350.0,Bezhotovostný príjem,LANGOVA JANETTE,j.langova,,,,LANGOVA JANETTE
+33,2022-09-06,-180.0,Transakcia kartou,,"Nákup: FACEBK KX3UYFKG72,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 6.9.2022, částka  180.00 EUR",,3674,,"Nákup: FACEBK KX3UYFKG72,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 6.9.2022, částka  180.00 EUR"
+34,2022-09-03,-314.53,Transakcia kartou,,"Nákup: GOOGLE *ADS7160440791,  70 Sir John Rogerson's Quay, 650-253-0000, UNKNOWN, IRL, dne 2.9.2022, částka  314.53 EUR",,3674,,"Nákup: GOOGLE *ADS7160440791,  70 Sir John Rogerson's Quay, 650-253-0000, UNKNOWN, IRL, dne 2.9.2022, částka  314.53 EUR"
+35,2022-09-02,500.0,Bezhotovostný príjem,"Oľha František, Ing.",/DO2022-09-01/SP,,,,"Oľha František, Ing."
+36,2022-09-02,-180.0,Transakcia kartou,,"Nákup: FACEBK SZXBKF3G72,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 1.9.2022, částka  180.00 EUR",,3674,,"Nákup: FACEBK SZXBKF3G72,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 1.9.2022, částka  180.00 EUR"
+37,2022-08-31,-1.99,Transakcia kartou,,"Nákup: GOOGLE*GOOGLE STORAGE,  G.CO/HELPPAY#, IRELAND, D02 R296, IRL, dne 29.8.2022, částka  1.99 EUR",,3674,,"Nákup: GOOGLE*GOOGLE STORAGE,  G.CO/HELPPAY#, IRELAND, D02 R296, IRL, dne 29.8.2022, částka  1.99 EUR"
+38,2022-08-23,-36.0,Transakcia kartou,,"Nákup: FACEBK JH6MBF3G72,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 23.8.2022, částka  36.00 EUR",,3674,,"Nákup: FACEBK JH6MBF3G72,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 23.8.2022, částka  36.00 EUR"
+39,2022-08-18,-203.72,Transakcia kartou,,"Nákup: FACEBK LXABNFBG72,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 18.8.2022, částka  203.72 EUR",,3674,,"Nákup: FACEBK LXABNFBG72,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 18.8.2022, částka  203.72 EUR"
+40,2022-08-16,400.0,Bezhotovostný príjem,"Oľha František, Ing.",/DO2022-08-15/SP,,,,"Oľha František, Ing."
+41,2022-08-05,100.0,Bezhotovostný príjem,"Oľha František, Ing.",/DO2022-08-04/SP,,,,"Oľha František, Ing."
+42,2022-08-02,-22.1,Transakcia kartou,,"Nákup: GOOGLE *ADS7160440791,  70 Sir John Rogerson's Quay, 650-253-0000, UNKNOWN, IRL, dne 1.8.2022, částka  22.10 EUR",,3674,,"Nákup: GOOGLE *ADS7160440791,  70 Sir John Rogerson's Quay, 650-253-0000, UNKNOWN, IRL, dne 1.8.2022, částka  22.10 EUR"
+43,2022-07-31,-1.99,Transakcia kartou,,"Nákup: GOOGLE*GOOGLE STORAGE,  G.CO/HELPPAY#, IRELAND, D02 R296, IRL, dne 29.7.2022, částka  1.99 EUR",,3674,,"Nákup: GOOGLE*GOOGLE STORAGE,  G.CO/HELPPAY#, IRELAND, D02 R296, IRL, dne 29.7.2022, částka  1.99 EUR"
+44,2022-07-24,-350.0,Transakcia kartou,,"Nákup: GOOGLE *ADS7160440791,  70 Sir John Rogerson's Quay, 650-253-0000, UNKNOWN, IRL, dne 24.7.2022, částka  350.00 EUR",,3674,,"Nákup: GOOGLE *ADS7160440791,  70 Sir John Rogerson's Quay, 650-253-0000, UNKNOWN, IRL, dne 24.7.2022, částka  350.00 EUR"
+45,2022-07-23,-24.02,Transakcia kartou,,"Nákup: FACEBK RJXDKE3G72,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 23.7.2022, částka  24.02 EUR",,3674,,"Nákup: FACEBK RJXDKE3G72,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 23.7.2022, částka  24.02 EUR"
+46,2022-07-21,-180.0,Transakcia kartou,,"Nákup: FACEBK CB2AMEXF72,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 20.7.2022, částka  180.00 EUR",,3674,,"Nákup: FACEBK CB2AMEXF72,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 20.7.2022, částka  180.00 EUR"
+47,2022-07-13,-180.0,Transakcia kartou,,"Nákup: FACEBK 2AWYLEKG72,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 12.7.2022, částka  180.00 EUR",,3674,,"Nákup: FACEBK 2AWYLEKG72,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 12.7.2022, částka  180.00 EUR"
+48,2022-07-02,-99.74,Transakcia kartou,,"Nákup: GOOGLE *ADS7160440791,  70 Sir John Rogerson's Quay, 650-253-0000, UNKNOWN, IRL, dne 1.7.2022, částka  99.74 EUR",,3674,,"Nákup: GOOGLE *ADS7160440791,  70 Sir John Rogerson's Quay, 650-253-0000, UNKNOWN, IRL, dne 1.7.2022, částka  99.74 EUR"
+49,2022-07-01,-1.99,Transakcia kartou,,"Nákup: Google Payment IE LTD,  Sir John Rogerson's Quay, Dublin, 2, IRL, dne 30.6.2022, částka  1.99 EUR",,3674,,"Nákup: Google Payment IE LTD,  Sir John Rogerson's Quay, Dublin, 2, IRL, dne 30.6.2022, částka  1.99 EUR"
+50,2022-06-23,-126.77,Transakcia kartou,,"Nákup: FACEBK YDQSCFPG72,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 23.6.2022, částka  126.77 EUR",,3674,,"Nákup: FACEBK YDQSCFPG72,  4 Grand Canal Square, fb.me/ads, 2, IRL, dne 23.6.2022, částka  126.77 EUR"
+51,2022-06-17,1000.0,Bezhotovostný príjem,"Oľha František, Ing.",/DO2022-06-16/SP,,,,"Oľha František, Ing."

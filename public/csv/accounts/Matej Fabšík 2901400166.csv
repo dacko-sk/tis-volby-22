@@ -1,0 +1,45 @@
+index,date,amount,tx_type,account_name,message,ks,vs,ss,note
+0,2022-11-12,-38.8,Platba prevodom v rámci banky,,vrátenie zostatku,,,,vrátenie zostatku
+1,2022-11-09,-190.0,Transakcia kartou,,"Výběr z bankomatu: S6AV432A,  NA BRANE 1, ZILINA, 01043, SVK, dne 8.11.2022, částka  190.00 EUR",,6245,,"Výběr z bankomatu: S6AV432A,  NA BRANE 1, ZILINA, 01043, SVK, dne 8.11.2022, částka  190.00 EUR"
+2,2022-11-05,56.86,Transakcia kartou,,"Kredit: GOOGLE *ADS4709972667,  70 Sir John Rogerson's Quay, G.CO/HELPPAY#, UNKNOWN, IRL, dne 4.11.2022, částka  57.97 USD",,6245,,"Kredit: GOOGLE *ADS4709972667,  70 Sir John Rogerson's Quay, G.CO/HELPPAY#, UNKNOWN, IRL, dne 4.11.2022, částka  57.97 USD"
+3,2022-10-27,-44.45,Transakcia kartou,,"Nákup: Pivaren U Kultana, Spo,  Radola 278, Radola, 023 36, SVK, dne 26.10.2022, částka  44.45 EUR",,6245,,"Nákup: Pivaren U Kultana, Spo,  Radola 278, Radola, 023 36, SVK, dne 26.10.2022, částka  44.45 EUR"
+4,2022-10-27,-35.0,Platba prevodom v rámci banky,,,,,,Olepy pier
+5,2022-10-27,-200.0,Bezhotovostná platba,,distribucia tlacovin,,,,distribucia tlacovin
+6,2022-10-25,182.4,Transakcia kartou,,"Kredit: unitedprint 5540723_RI,  Namestie SNP 15 15, support@print, 81101, SVK, dne 24.10.2022, částka  182.40 EUR",,6245,,"Kredit: unitedprint 5540723_RI,  Namestie SNP 15 15, support@print, 81101, SVK, dne 24.10.2022, částka  182.40 EUR"
+7,2022-10-25,-104.4,Transakcia kartou,,"Nákup: GOOGLE *ADS4709972667,  70 Sir John Rogerson's Quay, G.CO/HELPPAY#, UNKNOWN, IRL, dne 24.10.2022, částka  100.00 USD",,6245,,"Nákup: GOOGLE *ADS4709972667,  70 Sir John Rogerson's Quay, G.CO/HELPPAY#, UNKNOWN, IRL, dne 24.10.2022, částka  100.00 USD"
+8,2022-10-25,-208.79,Transakcia kartou,,"Nákup: GOOGLE *ADS4709972667,  70 Sir John Rogerson's Quay, G.CO/HELPPAY#, UNKNOWN, IRL, dne 24.10.2022, částka  200.00 USD",,6245,,"Nákup: GOOGLE *ADS4709972667,  70 Sir John Rogerson's Quay, G.CO/HELPPAY#, UNKNOWN, IRL, dne 24.10.2022, částka  200.00 USD"
+9,2022-10-24,400.0,Platba prevodom v rámci banky,"Mgr. Fabšík, Matej",Vklad,,,,Vklad
+10,2022-10-23,-30.0,Bezhotovostná platba,,,,2810200357,,najom plochy na namesti
+11,2022-10-23,-52.7,Transakcia kartou,,"Nákup: GOOGLE *ADS4709972667,  70 Sir John Rogerson's Quay, 650-253-0000, UNKNOWN, IRL, dne 22.10.2022, částka  50.00 USD",,6245,,"Nákup: GOOGLE *ADS4709972667,  70 Sir John Rogerson's Quay, 650-253-0000, UNKNOWN, IRL, dne 22.10.2022, částka  50.00 USD"
+12,2022-10-22,-135.0,Platba prevodom v rámci banky,,,,,,Olepy pier
+13,2022-10-22,-10.54,Transakcia kartou,,"Nákup: GOOGLE *ADS4709972667,  70 Sir John Rogerson's Quay, 650-253-0000, UNKNOWN, IRL, dne 22.10.2022, částka  10.00 USD",,6245,,"Nákup: GOOGLE *ADS4709972667,  70 Sir John Rogerson's Quay, 650-253-0000, UNKNOWN, IRL, dne 22.10.2022, částka  10.00 USD"
+14,2022-10-22,-1.0,Poplatok - platobná karta,,"Výběr z bankomatu: SLSP BELANSKEHO 2291,  BELANSKEHO 2291, KYSUCKE NOVE, 02401, SVK, dne 21.10.2022, částka  200.00 EUR",,6245,,"Výběr z bankomatu: SLSP BELANSKEHO 2291,  BELANSKEHO 2291, KYSUCKE NOVE, 02401, SVK, dne 21.10.2022, částka  200.00 EUR"
+15,2022-10-22,-200.0,Transakcia kartou,,"Výběr z bankomatu: SLSP BELANSKEHO 2291,  BELANSKEHO 2291, KYSUCKE NOVE, 02401, SVK, dne 21.10.2022, částka  200.00 EUR",,6245,,"Výběr z bankomatu: SLSP BELANSKEHO 2291,  BELANSKEHO 2291, KYSUCKE NOVE, 02401, SVK, dne 21.10.2022, částka  200.00 EUR"
+16,2022-10-22,-9.8,Transakcia kartou,,"Nákup: PAPIERNICTVO,  NAMESTIE SLOBODY 67, KYSUCKE NOVE, 02401, SVK, dne 21.10.2022, částka  9.80 EUR",,6245,,"Nákup: PAPIERNICTVO,  NAMESTIE SLOBODY 67, KYSUCKE NOVE, 02401, SVK, dne 21.10.2022, částka  9.80 EUR"
+17,2022-10-20,-150.0,Transakcia kartou,,"Výběr z bankomatu: SLSP BELANSKEHO 2291,  BELANSKEHO 2291, KYSUCKE NOVE, 02401, SVK, dne 19.10.2022, částka  150.00 EUR",,6245,,"Výběr z bankomatu: SLSP BELANSKEHO 2291,  BELANSKEHO 2291, KYSUCKE NOVE, 02401, SVK, dne 19.10.2022, částka  150.00 EUR"
+18,2022-10-20,-223.38,Transakcia kartou,,"Nákup: unitedprint 8183352_PI,  Namestie SNP 15 15, support@print, 81101, SVK, dne 19.10.2022, částka  223.38 EUR",,6245,,"Nákup: unitedprint 8183352_PI,  Namestie SNP 15 15, support@print, 81101, SVK, dne 19.10.2022, částka  223.38 EUR"
+19,2022-10-19,120.0,Platba prevodom v rámci banky,"Fabšíková, Petra",prispevok,,,,prispevok
+20,2022-10-19,-227.4,Transakcia kartou,,"Nákup: unitedprint 5540723_PI,  Namestie SNP 15 15, support@print, 81101, SVK, dne 18.10.2022, částka  227.40 EUR",,6245,,"Nákup: unitedprint 5540723_PI,  Namestie SNP 15 15, support@print, 81101, SVK, dne 18.10.2022, částka  227.40 EUR"
+21,2022-10-18,-53.77,Transakcia kartou,,"Nákup: unitedprint 9617442_PI,  Namestie SNP 15 15, support@print, 81101, SVK, dne 17.10.2022, částka  53.77 EUR",,6245,,"Nákup: unitedprint 9617442_PI,  Namestie SNP 15 15, support@print, 81101, SVK, dne 17.10.2022, částka  53.77 EUR"
+22,2022-10-18,-73.61,Transakcia kartou,,"Nákup: unitedprint 8175097_PI,  Namestie SNP 15 15, support@print, 81101, SVK, dne 17.10.2022, částka  73.61 EUR",,6245,,"Nákup: unitedprint 8175097_PI,  Namestie SNP 15 15, support@print, 81101, SVK, dne 17.10.2022, částka  73.61 EUR"
+23,2022-10-18,67.0,Bezhotovostný príjem,"Mičuda Peter, Bc.","/DO2022-10-17/SPMicko volebne letaky., Micko volebne letaky",,,,"Mičuda Peter, Bc."
+24,2022-10-13,-1318.8,Platba prevodom v rámci banky,,Matej Fabsik,,2022174,,graficke sluzby a tlac
+25,2022-10-12,-132.15,Transakcia kartou,,"Nákup: tlacbannerov.sk,  tlacbannerov.sk, Hurbanovo, 94701, CZE, dne 11.10.2022, částka  132.15 EUR",,6245,,"Nákup: tlacbannerov.sk,  tlacbannerov.sk, Hurbanovo, 94701, CZE, dne 11.10.2022, částka  132.15 EUR"
+26,2022-10-10,-20.0,Transakcia kartou,,"Výběr z bankomatu: ATM K024B,  KAMENCE 1209, KYSUCKE NOVE, 02401, SVK, dne 9.10.2022, částka  20.00 EUR",,6245,,"Výběr z bankomatu: ATM K024B,  KAMENCE 1209, KYSUCKE NOVE, 02401, SVK, dne 9.10.2022, částka  20.00 EUR"
+27,2022-10-08,-11.96,Transakcia kartou,,"Nákup: ZELEZIARSTVO INSTAL,  STUROVA 1303, KYSUCKE NOVE, 024 04, SVK, dne 7.10.2022, částka  11.96 EUR",,6245,,"Nákup: ZELEZIARSTVO INSTAL,  STUROVA 1303, KYSUCKE NOVE, 024 04, SVK, dne 7.10.2022, částka  11.96 EUR"
+28,2022-10-07,-17.72,Transakcia kartou,,"Nákup: ZELEZIARSTVO INSTAL,  STUROVA 1303, KYSUCKE NOVE, 024 04, SVK, dne 6.10.2022, částka  17.72 EUR",,6245,,"Nákup: ZELEZIARSTVO INSTAL,  STUROVA 1303, KYSUCKE NOVE, 024 04, SVK, dne 6.10.2022, částka  17.72 EUR"
+29,2022-10-02,-9.19,Transakcia kartou,,"Nákup: COOP CA PJ 179,  Kamence 1209, Kysucke Nove, 02401, SVK, dne 1.10.2022, částka  9.19 EUR",,6245,,"Nákup: COOP CA PJ 179,  Kamence 1209, Kysucke Nove, 02401, SVK, dne 1.10.2022, částka  9.19 EUR"
+30,2022-10-02,-7.48,Transakcia kartou,,"Nákup: COOP CA PJ 179,  Kamence 1209, Kysucke Nove, 02401, SVK, dne 1.10.2022, částka  7.48 EUR",,6245,,"Nákup: COOP CA PJ 179,  Kamence 1209, Kysucke Nove, 02401, SVK, dne 1.10.2022, částka  7.48 EUR"
+31,2022-10-01,-10.6,Transakcia kartou,,"Nákup: PAPIERNICTVO,  NAMESTIE SLOBODY 67, KYSUCKE NOVE, 02401, SVK, dne 30.9.2022, částka  10.60 EUR",,6245,,"Nákup: PAPIERNICTVO,  NAMESTIE SLOBODY 67, KYSUCKE NOVE, 02401, SVK, dne 30.9.2022, částka  10.60 EUR"
+32,2022-10-01,-10.51,Transakcia kartou,,"Nákup: COOP CA PJ 040,  Belanskeho 2291, Kysucke Nove, 02401, SVK, dne 30.9.2022, částka  10.51 EUR",,6245,,"Nákup: COOP CA PJ 040,  Belanskeho 2291, Kysucke Nove, 02401, SVK, dne 30.9.2022, částka  10.51 EUR"
+33,2022-10-01,-10.0,Transakcia kartou,,"Nákup: PEPCO 2073,  Sturova 1303, Kysucke Nove, 024 04, SVK, dne 30.9.2022, částka  10.00 EUR",,6245,,"Nákup: PEPCO 2073,  Sturova 1303, Kysucke Nove, 024 04, SVK, dne 30.9.2022, částka  10.00 EUR"
+34,2022-09-29,-24.08,Transakcia kartou,,"Nákup: printworld.com GmbH,  Weststraße 60, Grossschirma, 09603, DEU, dne 28.9.2022, částka  24.08 EUR",,6245,,"Nákup: printworld.com GmbH,  Weststraße 60, Grossschirma, 09603, DEU, dne 28.9.2022, částka  24.08 EUR"
+35,2022-09-28,2000.0,Platba prevodom v rámci banky,"Mgr. Fabšík, Matej",Vklad prostriedkov na kampaň,,,,Vklad prostriedkov na kampaň
+36,2022-09-26,-20.0,Bezhotovostná platba,,startovne-najlepsi gulas Pavlusik,,,,
+37,2022-09-26,-20.0,Bezhotovostná platba,,startovne-najlepsi gulas Fabsik,,,,
+38,2022-09-17,-90.0,Transakcia kartou,,"Výběr z bankomatu: CSOB Jesenskeho Kysuc,  CSOB Jesenskeho Kysuck, Kysucke N.M., 024 04, SVK, dne 16.9.2022, částka  90.00 EUR",,6245,,"Výběr z bankomatu: CSOB Jesenskeho Kysuc,  CSOB Jesenskeho Kysuck, Kysucke N.M., 024 04, SVK, dne 16.9.2022, částka  90.00 EUR"
+39,2022-09-14,-74.37,Bezhotovostná platba,,,,2976208709,,zabezpecenie dni Dubia
+40,2022-08-21,-298.9,Bezhotovostná platba,,,,2976208709,,distribucia tlacovin
+41,2022-08-03,-262.37,Bezhotovostná platba,,5501203 ASK12271325,,,,
+42,2022-06-30,500.0,Bezhotovostný príjem,Ľubomír Jánoška,/DO2022-06-29/SPVolby 2022,0968,2022,,Ľubomír Jánoška
+43,2022-06-23,1000.0,Bezhotovostný príjem,Kerhat Marcel,/DO2022-06-22/SPmarcel kerhat,,,,"Marcel, príspevok na aktivity spojené s kampaňou"

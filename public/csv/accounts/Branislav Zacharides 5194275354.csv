@@ -1,0 +1,13 @@
+index,account_name,date,amount,currency,message,tx_type,vs,ss
+0,,2022-10-31,-5,EUR,Zverejňovanie účtu,Poplatok,,
+1,Neoprint plus,2022-10-28,-3114,EUR,,Platobný príkaz na úhradu / FIT 2.0 (EB),,
+2,Mesto Vrútky,2022-10-25,-250,EUR,Vrútočan,Okamžitá platba (EB),,
+3,Martin Staňo - Gemini Video,2022-10-25,-750,EUR,0221025113047.342930,Okamžitá platba (EB),,
+4,Zacharides Branislav,2022-10-25,3600,EUR,F001251020229889118,Bezhotovostný vklad,,
+5,Neoprint plus,2022-10-13,-972,EUR,,Platobný príkaz na úhradu / FIT 2.0 (EB),,
+6,Zacharides Branislav,2022-10-13,1000,EUR,F001131020228869396,Bezhotovostný vklad,,
+7,Valocká Zuzana,2022-10-12,216,EUR,billboardy,Bezhotovostný vklad,12102022,
+8,KRIVUS MARIAN,2022-10-05,216,EUR,Na spolocnu reklamu,Bezhotovostný vklad,,
+9,,2022-09-30,-5,EUR,Zverejňovanie účtu,Poplatok,,
+10,Exclusive,2022-09-24,-1000,EUR,,Platobný príkaz na úhradu / FIT 2.0 (EB),,
+11,Zacharides Branislav,2022-09-13,1200,EUR,F001130920226568077,Bezhotovostný vklad,,

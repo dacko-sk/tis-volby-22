@@ -1,0 +1,8 @@
+index,account_name,date,amount,currency,message,tx_type,vs,ss
+0,,2022-10-31,-5,EUR,Zverejňovanie účtu,Poplatok,,
+1,,2022-10-31,-6,EUR,Poplatok za vedenie účtu,Poplatok,,
+2,,2022-10-26,-6,EUR,Popl.Pl.Prík.na úh./Prev.EUR EHP/FIT(OM),Poplatok,22011330,
+3,NOTPROVIDED,2022-10-26,-600,EUR,,Platobný príkaz na úhradu / FIT 2.0 (OM),22011330,
+4,,2022-10-07,-6,EUR,Popl.Pl.Prík.na úh./Prev.EUR EHP/FIT(OM),Poplatok,222233,
+5,NOTPROVIDED,2022-10-07,-1680,EUR,,Platobný príkaz na úhradu / FIT 2.0 (OM),222233,
+6,MUDR. DUŠAN GODA,2022-10-07,2500,EUR,MUDR. DUŠAN GODA,Bezhotovostný vklad - okamžitá platba,,

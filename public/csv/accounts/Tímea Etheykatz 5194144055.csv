@@ -1,0 +1,9 @@
+index,account_name,date,amount,currency,message,tx_type,vs,ss
+0,Etheykatz Tímea,2022-10-26,-5.16,EUR,,Vysporiadanie pri zrušení účtu - prevod,,
+1,,2022-10-26,-4.84,EUR,Poplatok za vedenie účtu,Poplatok,,
+2,DELTA Kt. s.r.o. Komárno,2022-10-26,-540.0,EUR,"Platený polotický inzerát vtýžd.Delta č.43 , 1strana - TimeaEtheykatz",Okamžitá platba (EB),,
+3,Etheykatz Tímea,2022-10-26,540.0,EUR,F001261020220463074,Bezhotovostný vklad,,
+4,,2022-09-30,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+5,,2022-08-31,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+6,MACKOVICOVA EVA,2022-08-31,10.0,EUR,F001310820227528200,Bezhotovostný vklad,,
+7,Etheykatz Tímea,2022-08-23,10.0,EUR,városunkért / pre naše mesto,Bezhotovostný vklad,,

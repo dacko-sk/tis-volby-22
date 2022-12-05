@@ -1,0 +1,10 @@
+index,date,amount,account_name,message,vs
+0,2022-10-31,6.0,,Odpustenie vedenie konta,9
+1,2022-10-31,-6.0,,Vedenie konta Transparentný účet,9
+2,2022-10-21,-100.0,Mesto Sahy,Jozef Suchter,1312200031
+3,2022-10-17,-160.92,,Jozef Suchter,2022322
+4,2022-09-30,5.22,,Odpust.-popl.za platby a ved.úč/ko,9
+5,2022-09-30,-0.22,,Poplatky za platby spolu,9
+6,2022-09-30,-5.0,,Vedenie účtu,9
+7,2022-09-26,-244.8,Ardox SK s.r.o.,Jozef Suchter,2022518
+8,2022-09-21,1000.0,Jozef Šuchter,,

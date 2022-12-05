@@ -1,0 +1,14 @@
+index,date,amount,tx_type,account_name,message,ks,vs,ss,note
+0,2022-11-02,-69.0,Bezhotovostná platba,,LED reklama,0308,2201337,,
+1,2022-11-02,-63.0,Bezhotovostná platba,,,0308,222209,,Tlač letákov
+2,2022-11-02,-190.0,Bezhotovostná platba,,,0308,,,Prenájom Malej Sály
+3,2022-10-21,-100.0,Bezhotovostná platba,,,0308,2022100856,,LED REKLAMA OC PLUS
+4,2022-10-17,-240.0,Bezhotovostná platba,,,0308,2233102120,,Reklama v novinách
+5,2022-10-14,-177.0,Bezhotovostná platba,,,0308,2022445,2022445,Reklama PEZINČAN
+6,2022-10-14,-323.4,Bezhotovostná platba,,,0308,,,Výlep plagátov
+7,2022-10-14,-42.0,Bezhotovostná platba,,,0308,2201272,,LED reklama
+8,2022-09-30,1000.0,Bezhotovostný príjem,"Tenczerová Jana, Ing",/DO2022-09-29/SPosobny vklad,0308,202209,,"Tenczerová Jana, Ing"
+9,2022-09-14,-100.0,Bezhotovostná platba,,LED REKLAMA OC PLUS,,,,LED REKLAMA OC PLUS
+10,2022-09-12,-78.0,Bezhotovostná platba,,Tlac plagatov,,,,Kacer - Tlac plagatov
+11,2022-09-12,300.0,Bezhotovostný príjem,"Tenczerová Jana, Ing",/DO2022-09-11/SPosobny vklad,0308,202209,,Slavomír Repka - kampaň Návrat k hodnotám
+12,2022-06-15,100.0,Vklad v hotovosti,,,0558,,,Slavomír Repka

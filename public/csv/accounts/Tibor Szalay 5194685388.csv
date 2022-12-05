@@ -1,0 +1,9 @@
+index,account_name,date,amount,currency,message,tx_type,vs,ss
+0,,2022-10-31,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+1,,2022-10-31,-3.0,EUR,Poplatok za vedenie účtu,Poplatok,,
+2,NOTPROVIDED,2022-10-26,-414.0,EUR,prenájom miestnosti,Platobný príkaz na úhradu / FIT 2.0 (OM),20220153,
+3,,2022-10-26,-6.0,EUR,Popl.Pl.Prík.na úh./Prev.EUR EHP/FIT(OM),Poplatok,20220918,
+4,NOTPROVIDED,2022-10-26,-200.0,EUR,výroba reklamnej plachty,Platobný príkaz na úhradu / FIT 2.0 (OM),20220918,
+5,Szalay Tibor,2022-10-26,500.0,EUR,Na uhradu faktur kampane,Bezhotovostný vklad,,
+6,,2022-09-30,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+7,,2022-09-30,-2.2,EUR,Poplatok za vedenie účtu,Poplatok,,

@@ -1,0 +1,13 @@
+index,account_name,date,amount,currency,message,tx_type,vs,ss
+0,,2022-10-31,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+1,,2022-10-31,-6.0,EUR,Poplatok za vedenie účtu,Poplatok,,
+2,Tlačiareň Kubík s.r.o.,2022-10-25,-234.0,EUR,letaky,Okamžitá platba (EB),220101395,
+3,Mesto Námestovo,2022-10-25,-357.8,EUR,reklama Námestovčan,Okamžitá platba (EB),1317200136,
+4,HUBIKOVA APOLONIA,2022-10-24,1000.0,EUR,23811570,Bezhotovostný vklad,2222,
+5,,2022-10-20,-10.0,EUR,Poplatok Potvrdenie o vykonaní prevodu,Poplatok,,
+6,Samuel Kovalik,2022-10-19,-830.0,EUR,Faktura za video,Okamžitá platba (EB),20220056,
+7,HUBIKOVA APOLONIA,2022-10-13,1000.0,EUR,23722658,Bezhotovostný vklad,1111,
+8,,2022-09-30,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+9,,2022-09-30,-6.0,EUR,Poplatok za vedenie účtu,Poplatok,,
+10,,2022-08-31,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+11,,2022-08-31,-1.35,EUR,Poplatok za vedenie účtu,Poplatok,,

@@ -1,0 +1,25 @@
+index,date,amount,account_name,message,vs
+0,2022-10-31,6.0,,Odpustenie vedenie konta,9
+1,2022-10-31,-6.0,,Vedenie konta Transparentný účet,9
+2,2022-10-27,20.0,Mária Šimončičová,na vedenie uctu,
+3,2022-10-27,-20.0,MC BA-Lamac,napojenie a odber el. energie - podujatie - 25.10.2022,4010200074
+4,2022-10-27,-40.0,AT Manufacture s.r.o.,Prenajom reklamnej plochy a roznos letakov - doplatok,220001
+5,2022-10-27,60.0,Mária Šimončičová,"Maria Simoncicova, Rajtakova 8, BA",
+6,2022-10-21,-578.4,Bittner print s.r.o.,"Tlac bannerov, letakov",1020224338
+7,2022-10-20,230.0,Mária Šimončičová,"Maria Simoncicova, Rajtakova 8, 84103 BA",
+8,2022-10-20,-225.0,AT Manufacture s.r.o.,Prenajom reklamnej plochy a roznos letakov,
+9,2022-10-17,300.0,Kern Ladislav,"Katarina Sajgalikova, Pod Zecakom 68, Bratislava",
+10,2022-10-14,-72.0,Roman Martinak-ISIS,Maria Simoncicova - visacka,392022
+11,2022-10-13,300.0,Mária Šimončičová,"Maria Simoncicova, Rajtakova 8, Bratislava",
+12,2022-10-10,-30.0,Platba kartou,Miestny urad Br BRATISLAVA13:05,****7165
+13,2022-10-04,-80.0,"Weckoservisevent,s.r.o.","Simoncicova Maria, Lamacsky piknik, W7220025",7220025
+14,2022-10-03,150.0,Mária Šimončičová,"Maria Simoncicova, Bratislava, Rajtakova 8",
+15,2022-10-03,-558.0,"NUBIUM, s.r.o.",FA c. 12120628,12120628
+16,2022-09-30,5.66,,Odpust.-popl.za platby a ved.úč/ko,9
+17,2022-09-30,-0.66,,Poplatky za platby spolu,9
+18,2022-09-30,-5.0,,Vedenie účtu,9
+19,2022-09-26,-19.49,"VUB,A.S.","DDKAUFLAND~6720,~BRATISLAVA~~~~~P1",****7165
+20,2022-09-26,-382.5,GOPAY S.R.O.,,6658131722
+21,2022-09-23,-228.83,Platba kartou,Metro Dev.Nov.V Bratislava19:50,****7165
+22,2022-09-22,600.0,Kern Ladislav,"Ladislav Kern, Vrancovicova 89, Bratislava",
+23,2022-09-21,600.0,Mária Šimončičová,"Maria Simoncicova, Rajtakova 8, BA",

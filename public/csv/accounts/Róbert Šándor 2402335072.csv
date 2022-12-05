@@ -1,0 +1,6 @@
+index,date,amount,tx_type,account_name,message,ks,vs,ss,note
+0,2022-10-18,-200.0,Bezhotovostná platba,,,0308,202210255,,reklama v GOLDEN
+1,2022-10-13,-186.0,Bezhotovostná platba,,,,22108140,,billboard
+2,2022-10-13,-64.8,Bezhotovostná platba,,,,2022149,,tlač plagátov
+3,2022-10-10,-489.6,Bezhotovostná platba,,,,664220146,,reklama v novinách
+4,2022-10-10,1500.0,Bezhotovostný príjem,SANDOR ROBERT,,,7504308801,,SANDOR ROBERT

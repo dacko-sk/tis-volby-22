@@ -1,0 +1,7 @@
+index,account_name,date,amount,currency,message,tx_type,vs,ss
+0,Mediachain s.r.o.,2022-11-07,-2400,EUR,,Platobný príkaz na úhradu / FIT 2.0 (EB),20220481,
+1,,2022-10-31,-5,EUR,Zverejňovanie účtu,Poplatok,,
+2,Marek Oremus,2022-10-18,580,EUR,Prevod medzi vlastnými účtami,Bezhotovostný vklad,,
+3,Marek Oremus,2022-10-05,2000,EUR,Prevod medzi vlastnými účtami,Bezhotovostný vklad,,
+4,,2022-09-30,-5,EUR,Zverejňovanie účtu,Poplatok,,
+5,,2022-08-31,-5,EUR,Zverejňovanie účtu,Poplatok,,

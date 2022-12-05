@@ -1,0 +1,28 @@
+index,date,amount,tx_type,account_name,message,ks,vs,ss,note
+0,2022-10-21,-700.0,Bezhotovostná platba,,FC 22011068,,,,
+1,2022-10-21,-132.0,Bezhotovostná platba,,FC 1222208070,,,,
+2,2022-10-14,-1167.6,Bezhotovostná platba,,ZF 2233102343,,2233102343,,
+3,2022-10-14,200.0,Bezhotovostný príjem,Ivan Pompoš,/DO2022-10-13/SP,,,,Ivan Pompoš
+4,2022-10-05,-628.0,Bezhotovostná platba,,"douctovanie vyroby 14 banerov a bil
+lboardov",,,,
+5,2022-10-04,500.0,Bezhotovostný príjem,Zimermannova Renata,/DO2022-10-03/SP,,,,Zimermannova Renata
+6,2022-09-29,2000.0,Bezhotovostný príjem,Kürti Marián,/DO2022-09-28/SP,,,,Kürti Marián
+7,2022-09-27,-720.0,Bezhotovostná platba,,259-NV/2022,,,,
+8,2022-09-26,-1700.0,Bezhotovostná platba,,ZF 22VZ00002,,,,
+9,2022-09-23,500.0,Bezhotovostný príjem,Mária Klobušická,/DO2022-09-22/SP,,,,Mária Klobušická
+10,2022-09-21,500.0,Bezhotovostný príjem,Miroslava Viglášová,/DO2022-09-21/SP,,,,Miroslava Viglášová
+11,2022-09-19,500.0,Bezhotovostný príjem,SZALMA ERVIN,/DO2022-09-19/SP,,,,SZALMA ERVIN
+12,2022-09-16,500.0,Bezhotovostný príjem,Miloš Zaujec,/DO2022-09-15/SP,,,,Miloš Zaujec
+13,2022-09-08,500.0,Bezhotovostný príjem,Eva Kumová,"/DO2022-09-07/SP volby a kampan, kandidatka na poslankynu Eva Kumova",,,,Eva Kumová
+14,2022-09-07,500.0,Bezhotovostný príjem,Peter Žiak,/DO2022-09-07/SP Ing. Peter Ziak dar,,,,Peter Žiak
+15,2022-09-07,500.0,Bezhotovostný príjem,MURIN IVAN,/DO2022-09-06/SPTransparentny ucet,,,,MURIN IVAN
+16,2022-09-06,500.0,Bezhotovostný príjem,SCHUBERT JAN,/DO2022-09-05/SPschubert,,,,SCHUBERT JAN
+17,2022-09-05,500.0,Bezhotovostný príjem,Ladislav Vincze,/DO2022-09-04/SPVincze,,,,Ladislav Vincze
+18,2022-09-05,500.0,Bezhotovostný príjem,SZALMA ERVIN,/DO2022-09-02/SPKampan,,,,SZALMA ERVIN
+19,2022-09-02,500.0,Bezhotovostný príjem,GARAJOVA MARTINA,/DO2022-09-01/SPKampan,,,,GARAJOVA MARTINA
+20,2022-09-02,500.0,Bezhotovostný príjem,Bernáth Dušan,/DO2022-08-31/SP,0558,,770124,Bernáth Dušan
+21,2022-08-31,500.0,Bezhotovostný príjem,DUDASOVA HELENA,/DO2022-08-30/SPHelena Dudasova,,,,DUDASOVA HELENA
+22,2022-08-30,500.0,Bezhotovostný príjem,BRAUN JURAJ,/DO2022-08-26/SPJuraj Braun volby2022,,,,BRAUN JURAJ
+23,2022-08-26,-20.0,Bezhotovostná platba,,,,,,
+24,2022-08-26,20.0,Bezhotovostný príjem,SZALMA ERVIN,/DO2022-08-25/SPBezhotovostny vklad,,,,SZALMA ERVIN
+25,2022-08-11,20.0,Vklad v hotovosti,,,0558,,,

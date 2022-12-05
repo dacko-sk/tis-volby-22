@@ -1,0 +1,11 @@
+index,account_name,date,amount,currency,message,tx_type,vs,ss
+0,Kysucká vrchárska heligónka,2022-11-02,-200,EUR,kultúrne vystúpenie,Okamžitá platba (EB),2206,
+1,ARDSYSTÉM s.r.o.,2022-11-02,-90,EUR,tlač plagátov,Okamžitá platba (EB),6254220261,
+2,ARDSYSTÉM s.r.o.,2022-11-02,-216,EUR,prenájom reklamných plôch,Okamžitá platba (EB),620220434,
+3,,2022-10-31,-5,EUR,Zverejňovanie účtu,Poplatok,,
+4,MESTO TURZOVKA,2022-10-26,-70,EUR,Golis - prenajom kinosály,Platobný príkaz na úhradu / FIT 2.0 (EB),1319200176,
+5,"Radolský Reklama, s.r.o.",2022-10-26,-294,EUR,,Platobný príkaz na úhradu / FIT 2.0 (EB),4232022,
+6,"Radolský Reklama, s.r.o.",2022-10-26,-348,EUR,tlač letáky a kalendáriky,Platobný príkaz na úhradu / FIT 2.0 (EB),4192022,
+7,MESTO TURZOVKA,2022-10-26,-40,EUR,Golis - reklamna plocha,Platobný príkaz na úhradu / FIT 2.0 (EB),1319200163,
+8,Golis Ľubomír,2022-10-14,3000,EUR,vklad na transparentný účet,Bezhotovostný vklad,,
+9,,2022-09-30,-5,EUR,Zverejňovanie účtu,Poplatok,,

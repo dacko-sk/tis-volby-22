@@ -1,0 +1,48 @@
+index,date,amount,tx_type,account_name,message,ks,vs,ss,note
+0,2022-11-03,-306.0,Bezhotovostná platba,,"Lucia Cukerova konstrukcie na rekla
+mne banery",0008,17262022,,konstrukcie na reklamne banery
+1,2022-11-03,-114.0,Bezhotovostná platba,,"Lucia Cukerova konstrukcia na rekla
+mny baner",0008,18042022,,konštrukcia na reklamny baner
+2,2022-10-31,-0.6,Poplatok - platobná karta,,poplatek za pojištění,,0680,,poplatek za pojištění
+3,2022-10-26,-701.0,Bezhotovostná platba,,"Cukerova Lucia roznos letakov Slovp
+osta",0308,9001550967,,roznos letakov Slovenska posta
+4,2022-10-26,250.0,Bezhotovostný príjem,Lucia Cukerová,/DO2022-10-25/SPLucia Cukerová - vklad na kampaň,,,,Lucia Cukerová
+5,2022-10-26,400.0,Bezhotovostný príjem,Lucia Cukerová,/DO2022-10-25/SPLucia Cukerová - vklad na kampaň,,,,Lucia Cukerová
+6,2022-10-25,-240.0,Bezhotovostná platba,,Lucia Cukerova reklamne predmety,,1020220094,,reklamné predmety
+7,2022-10-25,-40.0,Bezhotovostná platba,,Cukerova propagacne plagaty A3,0308,3512022,,propagačné plagáty A3
+8,2022-10-25,-140.0,Bezhotovostná platba,,"prenajom reklamnej plochy Lucia Cuk
+erova",,,,prenájom reklamnej plochy
+9,2022-10-21,500.0,Bezhotovostný príjem,"Sukupčák Martin, Ing",/DO2022-10-20/SPpodpora,,20102022,,"Sukupčák Martin, Ing"
+10,2022-10-19,30.0,Bezhotovostný príjem,JUDr. Bibiana Kuchar,/DO2022-10-18/SP,,,,JUDr. Bibiana Kuchar
+11,2022-10-17,-1173.6,Bezhotovostná platba,,"Cukerova propagacne letaky TESFO 15
+ tis. ks",0308,3282022,,propagačné letáky 15 000 ks
+12,2022-10-13,-393.58,Bezhotovostná platba,,"Cukerova propagacne banery TESFO 6k
+s",0308,3172022,,propagačné banery 6 ks
+13,2022-10-07,50.0,Bezhotovostný príjem,BIBIANA SMERINGAIOVA,Volby samosprava,0008,102022,061022,BIBIANA SMERINGAIOVA
+14,2022-10-07,-663.18,Bezhotovostná platba,,"Cukerova propagacne banery TESFO 12
+ ks",0308,3102022,,propagačné banery 12 ks
+15,2022-09-30,-0.6,Poplatok - platobná karta,,poplatek za pojištění,,0680,,poplatek za pojištění
+16,2022-09-30,100.0,Bezhotovostný príjem,Andrej Šlepecký,/DO2022-09-29/SP na telovychovu od sepletu,,,,Andrej Šlepecký
+17,2022-09-27,-45.28,Bezhotovostná platba,,,,,,plagáty
+18,2022-09-21,-204.0,Bezhotovostná platba,,Lucia Cukerova prenajom bb plochy,,1020220083,,prenájom bilboard plochy
+19,2022-09-21,-149.76,Bezhotovostná platba,,Lucia Cukerova propagacny baner,0308,2952022,,propagačné banery Lucia Cukerová
+20,2022-09-21,-99.58,Bezhotovostná platba,,Lucia Cukerova propagacny baner,,,,propagačný baner
+21,2022-09-14,-57.54,Bezhotovostná platba,,4440051399 ACTIVE24 QR Platba,0308,4440051399,,založenie www.luciacukerova.sk
+22,2022-09-12,500.0,Bezhotovostný príjem,"Sukupčák Martin, Ing",/DO2022-09-10/SPpodpora,,10092022,,"Sukupčák Martin, Ing"
+23,2022-09-06,1000.0,Bezhotovostný príjem,Michal Rumanský,/DO2022-09-06/SP Michal Rumansky,,42167655,,Michal Rumanský
+24,2022-08-31,-0.6,Poplatok - platobná karta,,poplatek za pojištění,,0680,,poplatek za pojištění
+25,2022-08-30,200.0,Bezhotovostný príjem,Lucia Cukerová,/DO2022-08-27/SPLucia Cukerová - vklad na kampaň,,,,Lucia Cukerová
+26,2022-08-30,150.0,Bezhotovostný príjem,Sukupčák Michal,/DO2022-08-26/SP,,,,Sukupčák Michal
+27,2022-08-30,100.0,Bezhotovostný príjem,Miroslav Vyšný,/DO2022-08-26/SPApartmány&študia Miroslav Dem.Dolina,,,,Miroslav Vyšný
+28,2022-08-25,200.0,Bezhotovostný príjem,"Ravinger Peter, Ing.",/DO2022-08-24/SPPodpora,,,,"Ravinger Peter, Ing."
+29,2022-08-22,200.0,Bezhotovostný príjem,Lucia Cukerová,/DO2022-08-20/SPLucia Cukerová - vklad na kampaň,,,,Lucia Cukerová
+30,2022-08-19,-278.29,Bezhotovostná platba,,,,6221236,,"letáky, RollUp, tričká, polepy"
+31,2022-08-19,100.0,Bezhotovostný príjem,BOBAK JOZEF,/DO2022-08-18/SPprva cast tricka pre kampan a ine Jozef Bobak,0158,18082022,,BOBAK JOZEF
+32,2022-08-16,20.0,Bezhotovostný príjem,Mudroňová Petra,/DO2022-08-15/SP,,,,Mudroňová Petra
+33,2022-08-10,400.0,Bezhotovostný príjem,RASTISLAV STRCULA,,,,,RASTISLAV STRCULA
+34,2022-08-09,100.0,Bezhotovostný príjem,Čefo Jaroslav,/DO2022-08-08/SPVeriiime...;-),0558,08082022,,Čefo Jaroslav
+35,2022-08-02,50.0,Bezhotovostný príjem,"Križan Ján, Ing.",/DO2022-08-01/SP,,,,"Križan Ján, Ing."
+36,2022-08-02,50.0,Bezhotovostný príjem,Jozef Hrošovský,/DO2022-08-01/SP,,3105680000,,Jozef Hrošovský
+37,2022-08-01,200.0,Bezhotovostný príjem,"Sukupčák Martin, Ing",/DO2022-07-31/SPpodpora,,,,"Sukupčák Martin, Ing"
+38,2022-08-01,100.0,Bezhotovostný príjem,Ivan Vnučko,/DO2022-07-31/SPPrajeme vam uspiet,,,,Ivan Vnučko
+39,2022-07-22,100.0,Bezhotovostný príjem,Lucia Cukerová,/DO2022-07-21/SPLucia Cukerová - vklad na kampaň,,,,Lucia Cukerová

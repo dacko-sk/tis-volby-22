@@ -1,0 +1,15 @@
+index,date,amount,tx_type,account_name,message,ks,vs,ss,note
+0,2022-10-28,-396.0,Bezhotovostná platba,,,,20220001,,
+1,2022-10-17,5.0,Bezhotovostný príjem,Ľubomír Kepič,"/DO2022-10-14/SP Drzim palce,Kepo.",,,,Ľubomír Kepič
+2,2022-10-14,10.0,Platba prevodom v rámci banky,"Malichová, Stanislava",,0558,141022,,
+3,2022-10-08,15.0,Platba prevodom v rámci banky,"Biskup, Pavol",,,,,
+4,2022-09-30,200.0,Platba prevodom v rámci banky,"Ing. Ščurka, Jaroslav",Dar,,,,Dar
+5,2022-09-30,30.0,Bezhotovostný príjem,Samuelova Jaroslava,/DO2022-09-29/SP,,,,Samuelova Jaroslava
+6,2022-09-28,20.0,Bezhotovostný príjem,Anton Ančic,/DO2022-09-28/SP,,,,Anton Ančic
+7,2022-09-27,10.0,Bezhotovostný príjem,Boris Kralovič,/DO2022-09-26/SP,,,,Boris Kralovič
+8,2022-09-26,10.0,Bezhotovostný príjem,"Mosnárová Katarína,",/DO2022-09-24/SP,,,,"Mosnárová Katarína,"
+9,2022-09-26,30.0,Bezhotovostný príjem,"Šnapko Milan, Ing.,",/DO2022-09-23/SP,0558,,,"Šnapko Milan, Ing.,"
+10,2022-09-26,10.0,Bezhotovostný príjem,Milan Chládek,/DO2022-09-23/SP,,,,Milan Chládek
+11,2022-09-23,20.0,Bezhotovostný príjem,Stankova Alena,/DO2022-09-22/SPdar  podpora,0308,0022082022,0000000000,Stankova Alena
+12,2022-09-23,20.0,Bezhotovostný príjem,Vujčíková Magdaléna,/DO2022-09-22/SP,,,,Vujčíková Magdaléna
+13,2022-09-23,20.0,Bezhotovostný príjem,POLACIK STEFAN,Vela sTastia,,,,POLACIK STEFAN

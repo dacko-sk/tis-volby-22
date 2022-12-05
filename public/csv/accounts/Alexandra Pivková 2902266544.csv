@@ -1,0 +1,95 @@
+index,date,amount,tx_type,account_name,message,ks,vs,ss,note
+0,2022-11-10,-390.0,Transakcia kartou,,"Výběr z bankomatu: TATRABANKA, Lucenec, SK, dne 9.11.2022, částka  390.00 EUR",,9663,,"Výběr z bankomatu: TATRABANKA, Lucenec, SK, dne 9.11.2022, částka  390.00 EUR"
+1,2022-10-31,-1000.0,Bezhotovostná platba,,ALEXANDRA PIVKOVA,,20221031,,
+2,2022-10-31,-249.6,Bezhotovostná platba,,ALEXANDRA PIVKOVA,,2221123193,,
+3,2022-10-31,-1000.0,Bezhotovostná platba,,ALEXANDRA PIVKOVA,,2022011,,
+4,2022-10-31,-1200.0,Bezhotovostná platba,,ALEXANDRA PIVKOVA,,202212,,
+5,2022-10-28,-800.0,Transakcia kartou,,"Výběr z bankomatu: TATRABANKA, Lucenec, SK, dne 27.10.2022, částka  800.00 EUR",,9663,,"Výběr z bankomatu: TATRABANKA, Lucenec, SK, dne 27.10.2022, částka  800.00 EUR"
+6,2022-10-27,-100.0,Bezhotovostná platba,,ALEXANDRA PIVKOVA,,202210,,
+7,2022-10-26,-35.0,Poplatok - platobná karta,,"Založení expres karty, číslo bylo přiděleno",,9663,,"Založení expres karty, číslo bylo přiděleno"
+8,2022-10-26,-300.0,Bezhotovostná platba,,ALEXANDRA PIVKOVA,,2022013,,
+9,2022-10-26,100.0,Bezhotovostný príjem,Jana Baculíková,/DO2022-10-26/SPP. Baculik kampaň,,,,Jana Baculíková
+10,2022-10-26,50.0,Bezhotovostný príjem,KADLUBEK KAROL,/DO2022-10-25/SPKarol Kadlubek,,20222,,KADLUBEK KAROL
+11,2022-10-26,162.0,Bezhotovostný príjem,Stanislav Spišiak,/DO2022-10-25/SP2022/1,,,,Stanislav Spišiak
+12,2022-10-26,1000.0,Bezhotovostný príjem,MUZILA VLADIMIR,/DO2022-10-25/SPPrispevok na volebnu kampan,,25102022,,MUZILA VLADIMIR
+13,2022-10-26,50.0,Bezhotovostný príjem,Richard Sihelský,/DO2022-10-25/SP 20221,,,,Richard Sihelský
+14,2022-10-26,162.0,Bezhotovostný príjem,LASKOVA LUCIA,20221,,,,LASKOVA LUCIA
+15,2022-10-26,50.0,Bezhotovostný príjem,LASKOVA LUCIA,20222,,,,LASKOVA LUCIA
+16,2022-10-26,100.0,Bezhotovostný príjem,MICHAL KOVAC,Kovac 02,,,,MICHAL KOVAC
+17,2022-10-26,-201.8,Platba prevodom v rámci banky,,ALEXANDRA PIVKOVA,,220021,,ALEXANDRA PIVKOVA
+18,2022-10-26,-800.0,Bezhotovostná platba,,ALEXANDRA PIVKOVA,,202209,,
+19,2022-10-25,162.0,Bezhotovostný príjem,Vaculčiak Richard,/DO2022-10-24/SPRICHARD VACULCIAK,,20221,,Vaculčiak Richard
+20,2022-10-25,100.0,Bezhotovostný príjem,"Konečný Roman, Ing.",/DO2022-10-24/SP,,20221,,"Konečný Roman, Ing."
+21,2022-10-25,60.0,Bezhotovostný príjem,Eva Balážová,/DO2022-10-25/SP20222 od Eva Balážová,,,,Eva Balážová
+22,2022-10-25,100.0,Bezhotovostný príjem,Zaher Mahmoud,/DO2022-10-24/SPzaher mahmoud,,,,Zaher Mahmoud
+23,2022-10-25,-120.0,Transakcia kartou,,"Nákup: FACEBK *RNSY2KXSN2,  Hanover Reach, 5-7 Hanover Qua, fb.me/ads, DUBLIN 2, IRL, dne 24.10.2022, částka  120.00 EUR",,3169,,"Nákup: FACEBK *RNSY2KXSN2,  Hanover Reach, 5-7 Hanover Qua, fb.me/ads, DUBLIN 2, IRL, dne 24.10.2022, částka  120.00 EUR"
+24,2022-10-24,162.0,Bezhotovostný príjem,Silaci Ivan,/DO2022-10-21/SP20221,,,,Silaci Ivan
+25,2022-10-24,162.0,Bezhotovostný príjem,Demecs Andrea,/DO2022-10-23/SP,,20221,,Demecs Andrea
+26,2022-10-24,162.0,Bezhotovostný príjem,KADLUBEK KAROL,/DO2022-10-21/SPKadlubek Karol,,20221,,KADLUBEK KAROL
+27,2022-10-24,162.0,Bezhotovostný príjem,Patrik Svediak,/DO2022-10-21/SP 20221,,,,Patrik Svediak
+28,2022-10-20,162.0,Bezhotovostný príjem,Jana Baculíková,/DO2022-10-19/SP20221P. Baculik,,,,Jana Baculíková
+29,2022-10-20,162.0,Bezhotovostný príjem,MICHAL KOVAC,,,,,MICHAL KOVAC
+30,2022-10-20,162.0,Bezhotovostný príjem,KOVALANCIK MILAN,/DO2022-10-19/SPVolby MK,,20221,,KOVALANCIK MILAN
+31,2022-10-19,162.0,Bezhotovostný príjem,Marian Berky,/DO2022-10-18/SP20221,,,,Marian Berky
+32,2022-10-19,162.0,Bezhotovostný príjem,Kramec Jozef,/DO2022-10-18/SPkampane kramec,,20221,,Kramec Jozef
+33,2022-10-19,162.0,Bezhotovostný príjem,Richard Sihelský,/DO2022-10-18/SP 20221,,,,Richard Sihelský
+34,2022-10-19,162.0,Bezhotovostný príjem,ANDREA MORAVCIKOVA,,,20221,,ANDREA MORAVCIKOVA
+35,2022-10-19,-84.0,Transakcia kartou,,"Nákup: FACEBK *7KYEFJTSN2,  Hanover Reach, 5-7 Hanover Qua, fb.me/ads, DUBLIN 2, IRL, dne 18.10.2022, částka  84.00 EUR",,3169,,"Nákup: FACEBK *7KYEFJTSN2,  Hanover Reach, 5-7 Hanover Qua, fb.me/ads, DUBLIN 2, IRL, dne 18.10.2022, částka  84.00 EUR"
+36,2022-10-18,162.0,Bezhotovostný príjem,"Molnár Milan, Mgr.",/DO2022-10-17/SP20221 Molnar,,,,"Molnár Milan, Mgr."
+37,2022-10-18,162.0,Bezhotovostný príjem,"Konečný Roman, Ing.",/DO2022-10-17/SP,,20221,,"Konečný Roman, Ing."
+38,2022-10-18,162.0,Bezhotovostný príjem,Eva Balážová,/DO2022-10-17/SP20221,,,,Eva Balážová
+39,2022-10-18,162.0,Bezhotovostný príjem,Zaher Mahmoud,/DO2022-10-17/SP,,,,Zaher Mahmoud
+40,2022-10-18,162.0,Bezhotovostný príjem,PELC JURAJ,20221,0308,17102022,,PELC JURAJ
+41,2022-10-18,162.0,Bezhotovostný príjem,LEKE MIROSLAV,/DO2022-10-17/SP20221 Leke,,20221,,LEKE MIROSLAV
+42,2022-10-17,-3336.0,Bezhotovostná platba,,ALEXANDRA PIVKOVA,,2020220138,,
+43,2022-10-16,-96.0,Bezhotovostná platba,,ALEXANDRA PIVKOVA,,2022377,,
+44,2022-10-12,-28.08,Transakcia kartou,,"Nákup: FACEBK *KFRWGJPSN2,  Hanover Reach, 5-7 Hanover Qua, fb.me/ads, DUBLIN 2, IRL, dne 11.10.2022, částka  28.08 EUR",,3169,,"Nákup: FACEBK *KFRWGJPSN2,  Hanover Reach, 5-7 Hanover Qua, fb.me/ads, DUBLIN 2, IRL, dne 11.10.2022, částka  28.08 EUR"
+45,2022-10-12,96.0,Bezhotovostný príjem,"NUBIUM, s. r. o.",/DO2022-10-11/SPvratenie platby - preplatok,0308,22097752,,"NUBIUM, s. r. o."
+46,2022-10-11,-395.0,Bezhotovostná platba,,ALEXANDRA PIVKOVA,,20220225,,
+47,2022-10-11,-95.61,Bezhotovostná platba,,ALEXANDRA PIVKOVA,,20220226,,
+48,2022-10-11,-155.0,Bezhotovostná platba,,ALEXANDRA PIVKOVA,,2022090,,
+49,2022-10-10,5000.0,Bezhotovostný príjem,"Pivková Alexandra, P",/DO2022-10-07/SPVOLBY,,,,"Pivková Alexandra, P"
+50,2022-10-08,-179.52,Bezhotovostná platba,,ALEXANDRA PIVKOVA,,,,
+51,2022-10-05,432.0,Bezhotovostný príjem,"RETEX, s.r.o.",/DO2022-10-04/SPRETEX sro,,,,"RETEX, s.r.o."
+52,2022-10-04,-48.0,Transakcia kartou,,"Nákup: FACEBK *AVQ43JTSN2,  Hanover Reach, 5-7 Hanover Qua, fb.me/ads, DUBLIN 2, IRL, dne 3.10.2022, částka  48.00 EUR",,3169,,"Nákup: FACEBK *AVQ43JTSN2,  Hanover Reach, 5-7 Hanover Qua, fb.me/ads, DUBLIN 2, IRL, dne 3.10.2022, částka  48.00 EUR"
+53,2022-10-02,-48.0,Transakcia kartou,,"Nákup: FACEBK *PMAN4JXRN2,  Hanover Reach, 5-7 Hanover Qua, fb.me/ads, DUBLIN 2, IRL, dne 2.10.2022, částka  48.00 EUR",,3169,,"Nákup: FACEBK *PMAN4JXRN2,  Hanover Reach, 5-7 Hanover Qua, fb.me/ads, DUBLIN 2, IRL, dne 2.10.2022, částka  48.00 EUR"
+54,2022-10-01,-468.0,Bezhotovostná platba,,ALEXANDRA PIVKOVA,,12120657,,
+55,2022-10-01,-195.25,Bezhotovostná platba,,ALEXANDRA PIVKOVA,,20220219,,
+56,2022-10-01,-450.0,Bezhotovostná platba,,ALEXANDRA PIVKOVA,,2022088,,
+57,2022-10-01,-432.0,Bezhotovostná platba,,,,2022191,,
+58,2022-10-01,-432.0,Bezhotovostná platba,,,,2022191,,
+59,2022-10-01,-1924.56,Bezhotovostná platba,,ALEXANDRA PIVKOVA,,1020223909,,
+60,2022-10-01,-48.0,Transakcia kartou,,"Nákup: FACEBK *GYE4JJ7SN2,  Hanover Reach, 5-7 Hanover Qua, fb.me/ads, DUBLIN 2, IRL, dne 30.9.2022, částka  48.00 EUR",,3169,,"Nákup: FACEBK *GYE4JJ7SN2,  Hanover Reach, 5-7 Hanover Qua, fb.me/ads, DUBLIN 2, IRL, dne 30.9.2022, částka  48.00 EUR"
+61,2022-09-26,-95.04,Bezhotovostná platba,,ALEXANDRA PIVKOVA,,2022333,,
+62,2022-09-21,-382.56,Bezhotovostná platba,,ALEXANDRA PIVKOVA,,2022183,,
+63,2022-09-21,-669.6,Bezhotovostná platba,,ALEXANDRA PIVKOVA,,1020223697,,
+64,2022-09-19,-195.25,Bezhotovostná platba,,ALEXANDRA PIVKOVA,,20220194,,
+65,2022-09-14,5000.0,Bezhotovostný príjem,"Pivková Alexandra, P",/DO2022-09-13/SPvolby,,,,"Pivková Alexandra, P"
+66,2022-09-13,-180.0,Bezhotovostná platba,,ALEXANDRA PIVKOVA,,2220055,,
+67,2022-09-13,-1125.75,Bezhotovostná platba,,"ALEXANDRA PIVKOVA, INZERCIA V MN",,2022018,,
+68,2022-09-12,-10.52,Transakcia kartou,,"Nákup: FACEBK *R54DHHTSN2,  Hanover Reach, 5-7 Hanover Qua, fb.me/ads, DUBLIN 2, IRL, dne 11.9.2022, částka  10.52 EUR",,3169,,"Nákup: FACEBK *R54DHHTSN2,  Hanover Reach, 5-7 Hanover Qua, fb.me/ads, DUBLIN 2, IRL, dne 11.9.2022, částka  10.52 EUR"
+69,2022-09-02,-1346.4,Bezhotovostná platba,,ALEXANDRA PIVKOVA,,2020220119,,
+70,2022-08-25,-36.0,Transakcia kartou,,"Nákup: FACEBK *2QYDHHKSN2,  Hanover Reach, 5-7 Hanover Qua, fb.me/ads, DUBLIN 2, IRL, dne 24.8.2022, částka  36.00 EUR",,3169,,"Nákup: FACEBK *2QYDHHKSN2,  Hanover Reach, 5-7 Hanover Qua, fb.me/ads, DUBLIN 2, IRL, dne 24.8.2022, částka  36.00 EUR"
+71,2022-08-22,-1.0,Poplatok - platobná karta,,"Výběr z bankomatu: S6AV352H,  PODJAVORINSKEJ 5364, LUCENEC, 98401, SVK, dne 20.8.2022, částka  500.00 EUR",,3169,,"Výběr z bankomatu: S6AV352H,  PODJAVORINSKEJ 5364, LUCENEC, 98401, SVK, dne 20.8.2022, částka  500.00 EUR"
+72,2022-08-22,-500.0,Transakcia kartou,,"Výběr z bankomatu: S6AV352H,  PODJAVORINSKEJ 5364, LUCENEC, 98401, SVK, dne 20.8.2022, částka  500.00 EUR",,3169,,"Výběr z bankomatu: S6AV352H,  PODJAVORINSKEJ 5364, LUCENEC, 98401, SVK, dne 20.8.2022, částka  500.00 EUR"
+73,2022-08-22,-24.0,Transakcia kartou,,"Nákup: FACEBK *TGR3FHKSN2,  Hanover Reach, 5-7 Hanover Qua, fb.me/ads, DUBLIN 2, IRL, dne 21.8.2022, částka  24.00 EUR",,3169,,"Nákup: FACEBK *TGR3FHKSN2,  Hanover Reach, 5-7 Hanover Qua, fb.me/ads, DUBLIN 2, IRL, dne 21.8.2022, částka  24.00 EUR"
+74,2022-08-21,-14.4,Transakcia kartou,,"Nákup: FACEBK *NRAUZG3SN2,  Hanover Reach, 5-7 Hanover Qua, fb.me/ads, DUBLIN 2, IRL, dne 20.8.2022, částka  14.40 EUR",,3169,,"Nákup: FACEBK *NRAUZG3SN2,  Hanover Reach, 5-7 Hanover Qua, fb.me/ads, DUBLIN 2, IRL, dne 20.8.2022, částka  14.40 EUR"
+75,2022-08-21,-14.4,Transakcia kartou,,"Nákup: FACEBK *JA6TXGTSN2,  Hanover Reach, 5-7 Hanover Qua, fb.me/ads, DUBLIN 2, IRL, dne 20.8.2022, částka  14.40 EUR",,3169,,"Nákup: FACEBK *JA6TXGTSN2,  Hanover Reach, 5-7 Hanover Qua, fb.me/ads, DUBLIN 2, IRL, dne 20.8.2022, částka  14.40 EUR"
+76,2022-08-20,-10.8,Transakcia kartou,,"Nákup: FACEBK *R5JZGH7SN2,  Hanover Reach, 5-7 Hanover Qua, fb.me/ads, DUBLIN 2, IRL, dne 19.8.2022, částka  10.80 EUR",,3169,,"Nákup: FACEBK *R5JZGH7SN2,  Hanover Reach, 5-7 Hanover Qua, fb.me/ads, DUBLIN 2, IRL, dne 19.8.2022, částka  10.80 EUR"
+77,2022-08-20,-10.8,Transakcia kartou,,"Nákup: FACEBK *M2HZYG3SN2,  Hanover Reach, 5-7 Hanover Qua, fb.me/ads, DUBLIN 2, IRL, dne 19.8.2022, částka  10.80 EUR",,3169,,"Nákup: FACEBK *M2HZYG3SN2,  Hanover Reach, 5-7 Hanover Qua, fb.me/ads, DUBLIN 2, IRL, dne 19.8.2022, částka  10.80 EUR"
+78,2022-08-19,-7.95,Transakcia kartou,,"Nákup: SLOVPAP LUCENEC,  ZVOLENSKA CESTA 10, LUCENEC, 98401, SVK, dne 18.8.2022, částka  7.95 EUR",,3169,,"Nákup: SLOVPAP LUCENEC,  ZVOLENSKA CESTA 10, LUCENEC, 98401, SVK, dne 18.8.2022, částka  7.95 EUR"
+79,2022-08-19,-10.8,Transakcia kartou,,"Nákup: FACEBK *M7D45HPSN2,  Hanover Reach, 5-7 Hanover Qua, fb.me/ads, DUBLIN 2, IRL, dne 18.8.2022, částka  10.80 EUR",,3169,,"Nákup: FACEBK *M7D45HPSN2,  Hanover Reach, 5-7 Hanover Qua, fb.me/ads, DUBLIN 2, IRL, dne 18.8.2022, částka  10.80 EUR"
+80,2022-08-17,-1.0,Poplatok - platobná karta,,"Výběr z bankomatu: ATM 101A ZELEZNICNA,  ZELEZNICNA 15, LUCENEC, 98401, SVK, dne 16.8.2022, částka  700.00 EUR",,3169,,"Výběr z bankomatu: ATM 101A ZELEZNICNA,  ZELEZNICNA 15, LUCENEC, 98401, SVK, dne 16.8.2022, částka  700.00 EUR"
+81,2022-08-17,-700.0,Transakcia kartou,,"Výběr z bankomatu: ATM 101A ZELEZNICNA,  ZELEZNICNA 15, LUCENEC, 98401, SVK, dne 16.8.2022, částka  700.00 EUR",,3169,,"Výběr z bankomatu: ATM 101A ZELEZNICNA,  ZELEZNICNA 15, LUCENEC, 98401, SVK, dne 16.8.2022, částka  700.00 EUR"
+82,2022-08-17,-56.41,Transakcia kartou,,"Nákup: COMGATE*ComGate*partys,  Jezkova 3224/10, Usti nad Labe, 40011, CZE, dne 16.8.2022, částka  1348.00 CZK",,3169,,"Nákup: COMGATE*ComGate*partys,  Jezkova 3224/10, Usti nad Labe, 40011, CZE, dne 16.8.2022, částka  1348.00 CZK"
+83,2022-08-13,-1.0,Poplatok - platobná karta,,"Výběr z bankomatu: SLSP UL MIERU 5705,  UL MIERU 5705, LUCENEC, 984 01, SVK, dne 12.8.2022, částka  200.00 EUR",,3169,,"Výběr z bankomatu: SLSP UL MIERU 5705,  UL MIERU 5705, LUCENEC, 984 01, SVK, dne 12.8.2022, částka  200.00 EUR"
+84,2022-08-13,-200.0,Transakcia kartou,,"Výběr z bankomatu: SLSP UL MIERU 5705,  UL MIERU 5705, LUCENEC, 984 01, SVK, dne 12.8.2022, částka  200.00 EUR",,3169,,"Výběr z bankomatu: SLSP UL MIERU 5705,  UL MIERU 5705, LUCENEC, 984 01, SVK, dne 12.8.2022, částka  200.00 EUR"
+85,2022-08-13,-200.0,Transakcia kartou,,"Výběr z bankomatu: SLSP UL MIERU 5705,  UL MIERU 5705, LUCENEC, 984 01, SVK, dne 12.8.2022, částka  200.00 EUR",,3169,,"Výběr z bankomatu: SLSP UL MIERU 5705,  UL MIERU 5705, LUCENEC, 984 01, SVK, dne 12.8.2022, částka  200.00 EUR"
+86,2022-08-11,-400.0,Transakcia kartou,,"Výběr z bankomatu: ATM 101A ZELEZNICNA,  ZELEZNICNA 15, LUCENEC, 98401, SVK, dne 10.8.2022, částka  400.00 EUR",,3169,,"Výběr z bankomatu: ATM 101A ZELEZNICNA,  ZELEZNICNA 15, LUCENEC, 98401, SVK, dne 10.8.2022, částka  400.00 EUR"
+87,2022-08-10,-720.0,Bezhotovostná platba,,ALEXANDRA PIVKOVA,,12120446,,
+88,2022-08-08,-480.0,Bezhotovostná platba,,ALEXANDRA PIVKOVA,,,,
+89,2022-08-05,-11.94,Bezhotovostná platba,,REFUNDACIA WEBSUPPORT,,1022117670,,
+90,2022-08-02,-1008.0,Bezhotovostná platba,,ALEXANDRA PIVKOVA,,22950278,,
+91,2022-08-02,-1277.4,Bezhotovostná platba,,ALEXANDRA PIVKOVA,,2022137802,,
+92,2022-07-22,-312.0,Bezhotovostná platba,,PIVKOVA ALEXANDRA,,2270105,,
+93,2022-07-22,10000.0,Bezhotovostný príjem,"Pivková Alexandra, P",/DO2022-07-21/SP220721,,,,"Pivková Alexandra, P"

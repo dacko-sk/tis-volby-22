@@ -1,0 +1,7 @@
+index,account_name,date,amount,currency,message,tx_type,vs,ss
+0,Zopa,2022-11-04,-20.0,EUR,Volby 2022,Platobný príkaz na úhradu / FIT 2.0 (EB),2022073,
+1,DPMK a.s.,2022-11-04,-433.06,EUR,,Platobný príkaz na úhradu / FIT 2.0 (EB),,
+2,,2022-10-31,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+3,Zopa,2022-10-20,-333.0,EUR,,Platobný príkaz na úhradu / FIT 2.0 (EB),,
+4,PAVUK JAN,2022-10-20,800.0,EUR,Volby,Bezhotovostný vklad,,
+5,PAVUK JAN,2022-10-06,100.0,EUR,Volby,Bezhotovostný vklad,,

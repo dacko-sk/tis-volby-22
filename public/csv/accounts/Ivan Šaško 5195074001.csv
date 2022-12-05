@@ -1,0 +1,6 @@
+index,account_name,date,amount,currency,message,tx_type,vs,ss
+0,,2022-10-31,-5,EUR,Zverejňovanie účtu,Poplatok,,
+1,Rastislav Vajdulak,2022-10-25,-1896,EUR,,Platobný príkaz na úhradu / FIT 2.0 (EB),202268,
+2,Šaško Ivan Ing.,2022-10-05,5000,EUR,F001051020222909006,Bezhotovostný vklad,,
+3,"Šašková Katarína, Ing. JUDr.",2022-10-05,5000,EUR,23650517,Bezhotovostný vklad,,
+4,,2022-09-30,-5,EUR,Zverejňovanie účtu,Poplatok,,

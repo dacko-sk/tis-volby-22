@@ -1,0 +1,8 @@
+index,account_name,date,amount,currency,message,tx_type,vs,ss
+0,"Prievidzsko, s. r. o. Prievidza",2022-10-11,-540.0,EUR,"Vydanie 41,42/2022Volby 2022",Okamžitá platba (EB),134220376,
+1,"Prievidzsko, s. r. o. Prievidza",2022-10-11,-195.0,EUR,"Distribucia, volby 2022",Okamžitá platba (EB),134220377,
+2,Kultúrne a spoločenské stredisko Prievidza,2022-10-08,-37.8,EUR,Volby 2022,Okamžitá platba (EB),22004,
+3,,2022-09-30,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+4,"euroAWK, spol. s r. o.",2022-09-16,-336.0,EUR,,Platobný príkaz na úhradu / FIT 2.0 (EB),225481,
+5,"euroAWK, spol. s r. o.",2022-09-15,-624.0,EUR,,Platobný príkaz na úhradu / FIT 2.0 (EB),2203089,
+6,Jana Michaličková,2022-09-14,2000.0,EUR,transparentny ucet volby 2022,Bezhotovostný vklad - okamžitá platba,,

@@ -1,0 +1,6 @@
+index,account_name,date,amount,currency,message,tx_type,vs,ss
+0,,2022-10-31,-5,EUR,Zverejňovanie účtu,Poplatok,,
+1,,2022-10-31,-6,EUR,Poplatok za vedenie účtu,Poplatok,,
+2,Bittner_bigboard_tlač,2022-10-27,-48,EUR,,Platobný príkaz na úhradu / FIT 2.0 (EB),2020220140,
+3,Holcingerová Magdaléna,2022-10-12,100,EUR,transparentný účet,Bezhotovostný vklad,101022,
+4,Paška Dušan,2022-10-11,100,EUR,Paska,Bezhotovostný vklad - okamžitá platba,,

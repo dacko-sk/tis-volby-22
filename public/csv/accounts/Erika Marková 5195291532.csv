@@ -1,0 +1,7 @@
+index,account_name,date,amount,currency,message,tx_type,vs,ss
+0,LUXRIA,2022-11-07,-1500.0,EUR,úhrada fa - marketing + reklama,Platobný príkaz na úhradu / FIT 2.0 (EB),2022000385,
+1,,2022-10-31,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+2,,2022-10-31,-6.0,EUR,Poplatok za vedenie účtu,Poplatok,,
+3,Marková Erika,2022-10-12,1500.0,EUR,prevod,Bezhotovostný vklad,,
+4,,2022-09-30,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+5,,2022-09-30,-0.4,EUR,Poplatok za vedenie účtu,Poplatok,,

@@ -1,0 +1,13 @@
+index,account_name,date,amount,currency,message,tx_type,vs,ss
+0,,2022-10-31,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+1,Jan Vrabel,2022-10-31,-91.2,EUR,Tlač letákov,Okamžitá platba (EB),2220646,0
+2,Norpal Print,2022-10-31,-866.64,EUR,"Platba faktury 202200110- grafika,tlač banerov a samolepiek",Platobný príkaz na úhradu / FIT 2.0 (EB),202200110,
+3,Jakub Riško,2022-10-26,730.0,EUR,Dar Zupanke,Bezhotovostný vklad - okamžitá platba,,
+4,Starinská Andrea,2022-10-22,-100.0,EUR,,Platobný príkaz na úhradu / FIT 2.0 (EB),,
+5,Kysucky Zurnal,2022-10-19,-530.0,EUR,Andrea Starinska Kysucký Žurnál,Okamžitá platba (EB),,
+6,Starinská Andrea,2022-10-19,600.0,EUR,F001191020225771651,Bezhotovostný vklad,,
+7,TOMAN PETER,2022-10-12,150.0,EUR,KT,Bezhotovostný vklad,,
+8,Jan Vrabel,2022-10-11,-195.6,EUR,Platba za tlač volebných letákov,Okamžitá platba (EB),2220611,0
+9,Jakub Riško,2022-10-11,200.0,EUR,Dar Zupanke,Bezhotovostný vklad - okamžitá platba,,
+10,Tabaček Milan,2022-10-10,10.0,EUR,F001101020226348610,Bezhotovostný vklad,,
+11,Maslaňák Martin,2022-10-05,200.0,EUR,Dar zupanke,Bezhotovostný vklad - okamžitá platba,,

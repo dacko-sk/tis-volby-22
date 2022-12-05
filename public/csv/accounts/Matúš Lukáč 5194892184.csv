@@ -1,0 +1,10 @@
+index,account_name,date,amount,currency,message,tx_type,vs,ss
+0,,2022-10-31,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+1,,2022-10-29,-70.56,EUR,"B1397460750-44544 12** **** 5788;FACEBK *6MQADJ3KJ2 ,fb.me/ads ,IE ;28.10.2022 10:30:28 ;CashBack:0 EUR",Platba kartou,,
+2,Lukáč Matúš,2022-10-26,170.0,EUR,F001261020220577971,Bezhotovostný vklad,,
+3,MATSIM s.r.o.,2022-10-18,-513.0,EUR,"graf.prace,prenájom plôch,letaky",Platobný príkaz na úhradu / FIT 2.0 (EB),2022007,
+4,Lukáč Matúš,2022-10-18,500.0,EUR,F001181020225111999,Bezhotovostný vklad,,
+5,,2022-10-13,-70.2,EUR,"B1385972047-44544 12** **** 5788;FACEBK ZESESJKKJ2 ,fb.me/ads ,IE ;11.10.2022 20:09:31 ;CashBack:0 EUR",Platba kartou,,
+6,Lukáč Matúš,2022-10-03,100.0,EUR,F001031020221843621,Bezhotovostný vklad,,
+7,,2022-09-30,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+8,Lukáč Matúš,2022-09-25,100.0,EUR,F001250920226996794,Bezhotovostný vklad,,

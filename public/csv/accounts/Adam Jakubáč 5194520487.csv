@@ -1,0 +1,13 @@
+index,account_name,date,amount,currency,message,tx_type,vs,ss
+0,,2022-10-31,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+1,,2022-10-31,-6.0,EUR,Poplatok za vedenie účtu,Poplatok,,
+2,Communications & Campaigns s.r.o,2022-10-28,-6990.25,EUR,,Platobný príkaz na úhradu / FIT 2.0 (EB),,
+3,Durinova Katarina,2022-10-26,1000.0,EUR,23831333,Bezhotovostný vklad,,
+4,"Krištofík Roman, Ing.",2022-10-26,1000.0,EUR,OO22102600002497,Bezhotovostný vklad - okamžitá platba,,
+5,Kadlečík Marián,2022-10-25,1000.0,EUR,OO22102500007690,Bezhotovostný vklad - okamžitá platba,,
+6,Štilicha Richard,2022-10-24,100.0,EUR,Vela stastia,Bezhotovostný vklad,,
+7,JAKUBAC MILAN,2022-10-18,1000.0,EUR,23763396,Bezhotovostný vklad,,
+8,JAKUBAC MILAN,2022-10-17,1000.0,EUR,23754121,Bezhotovostný vklad,,
+9,"Jakubáč Adam, Mgr.",2022-10-13,2000.0,EUR,OO22101300027216,Bezhotovostný vklad - okamžitá platba,,
+10,,2022-09-30,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+11,,2022-09-30,-5.2,EUR,Poplatok za vedenie účtu,Poplatok,,

@@ -1,0 +1,15 @@
+index,date,amount,tx_type,account_name,message,ks,vs,ss,note
+0,2022-10-31,-949.2,Bezhotovostná platba,,Platba za volebne noviny,0308,20220145,,"Platba za volebné noviny - BROART, s.r.o."
+1,2022-10-25,-80.0,Bezhotovostná platba,,Najom za KD Stale,,172022,,Nájomné za KD Štále dňa 22.10.2022
+2,2022-10-19,-220.8,Bezhotovostná platba,,Platba za vyrobu bannerov - 4 ks,,20220142,0308,"Výroba bannerov 4 ks - BROART, s.r.o."
+3,2022-10-19,-300.0,Bezhotovostná platba,,Platba za graficke prace,,20220036,,Grafika - volebné noviny od Mgr. Martina Heneša
+4,2022-10-17,100.0,Bezhotovostný príjem,Lucia Grünermelová,/DO2022-10-17/SP,,,,Lucia Grünermelová
+5,2022-10-17,300.0,Bezhotovostný príjem,Rastislav Krátky,/DO2022-10-14/SPNoviny podpora,,,,Rastislav Krátky
+6,2022-10-11,150.0,Bezhotovostný príjem,VILEM KURZ,/DO2022-10-10/SPPREVOD PROSTRIEDKOV,,,,VILEM KURZ
+7,2022-10-09,-150.0,Bezhotovostná platba,,Reklamne sluzby - billboard,,2022080,,"Reklamné služby - MAFRI, s.r.o."
+8,2022-10-06,-100.0,Bezhotovostná platba,,Uhrada faktury - volebny billboard,,20220019,,Billboardy (2 návrhy) - K. Balco
+9,2022-10-03,50.0,Bezhotovostný príjem,Svetozár Gavora,/DO2022-10-03/SP prispevok na vn,0298,6567,,Svetozár Gavora
+10,2022-10-03,150.0,Bezhotovostný príjem,Bronislava Uramová,/DO2022-09-30/SPpan H Nová Baňa,,,,Bronislava Uramová
+11,2022-09-30,-50.0,Bezhotovostná platba,,Prenajom bannerovej plochy,,,,Prenájom bannerovej plochy - Vladimír Gregor
+12,2022-09-30,300.0,Bezhotovostný príjem,Zuzana Barniaková,/DO2022-09-30/SP Viktoria Valachovicova,0308,2022,,Zuzana Barniaková
+13,2022-09-26,800.0,Bezhotovostný príjem,Peter Valachovič,/DO2022-09-26/SP,,3,,Peter Valachovič

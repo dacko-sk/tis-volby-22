@@ -1,0 +1,5 @@
+index,account_name,date,amount,currency,message,tx_type,vs,ss
+0,LARIMAR SK s.r.o.,2022-10-11,-360.0,EUR,úhrada za letáky - volebná kampaň,Platobný príkaz na úhradu / FIT 2.0 (EB),00712022,
+1,,2022-09-30,-5.0,EUR,Zverejňovanie účtu,Poplatok,,
+2,,2022-09-30,-0.8,EUR,Poplatok za vedenie účtu,Poplatok,,
+3,LARIMAR SK s.r.o.,2022-09-29,-201.6,EUR,úhrada za letáky-volebná kampaň,Platobný príkaz na úhradu / FIT 2.0 (EB),00682022,

@@ -1,0 +1,32 @@
+index,date,amount,tx_type,account_name,message,ks,vs,ss,note
+0,2022-10-26,-245.0,Bezhotovostná platba,,Distribucia letakov,,26102022,,Distribucia letakov
+1,2022-10-26,-57.08,Bezhotovostná platba,,QR Zabezpecenie docasneho odberu el,0308,45220129,,elektricky rozvadzac na miting
+2,2022-10-26,-100.0,Bezhotovostná platba,,platba grafika uhrada faktury,,26102022,,graficke prace propagacie
+3,2022-10-25,-120.0,Bezhotovostná platba,,"platba za navrh a vytvorenie web st
+ranky",,25102022,,navrh a tvorba web stranky
+4,2022-10-25,-1080.0,Bezhotovostná platba,,Uhrada faktury 20220037,,20220037,,Spot
+5,2022-10-25,1100.0,Bezhotovostný príjem,"PHARIUS, s.r.o.",/DO2022-10-24/SP,,29102022,,"PHARIUS, s.r.o."
+6,2022-10-18,-730.0,Bezhotovostná platba,,reklamne a marketingove sluzby,,20221003,,Reklamne a marketingove sluzby
+7,2022-10-18,-259.2,Bezhotovostná platba,,Uhrada faktury 20220253,,20220253,,propagacia Infomax
+8,2022-10-17,-245.0,Bezhotovostná platba,,Distribucia letakov,,17102022,,Distribucia letakov
+9,2022-10-14,-282.0,Bezhotovostná platba,,Platba faktury 22551314,0308,22551314,,tlac letakov
+10,2022-10-10,-320.0,Bezhotovostná platba,,"Spravodajska a prekladatelska cinno
+st",,10102022,,Preklady textov HU
+11,2022-10-10,-33.6,Bezhotovostná platba,,Tlac plagatov,0308,20220150,,Tlač plagatov
+12,2022-10-08,-126.0,Transakcia kartou,,"Nákup: Mestske kulturne stred,  MIEROVE NAM. 942/3, GALANTA, 92401, SVK, dne 7.10.2022, částka  126.00 EUR",,3661,,"Nákup: Mestske kulturne stred,  MIEROVE NAM. 942/3, GALANTA, 92401, SVK, dne 7.10.2022, částka  126.00 EUR"
+13,2022-09-30,-444.0,Bezhotovostná platba,,Reklamne plochy Kolek,,30092022,,prenajom reklamnych ploch
+14,2022-09-29,-93.6,Bezhotovostná platba,,Prezent na marketingovy ucel,,29092022,,Prezent na marketingovy ucel
+15,2022-09-27,444.0,Bezhotovostný príjem,PATOCS LADISLAV,,,,,PATOCS LADISLAV
+16,2022-09-24,-10.6,Transakcia kartou,,"Nákup: DNESSCARKEY -WP PLUGIN,  17224 S. FigueroaStreet #A5744, GARDENA, 90248, USA, dne 23.9.2022, částka  9.99 USD",,3661,,"Nákup: DNESSCARKEY -WP PLUGIN,  17224 S. FigueroaStreet #A5744, GARDENA, 90248, USA, dne 23.9.2022, částka  9.99 USD"
+17,2022-09-21,-619.2,Bezhotovostná platba,,Uhrada faktury 20220224,,20220224,,Infomax
+18,2022-09-21,-350.0,Bezhotovostná platba,,platba grafika,,22016,,graficke prace propagacie
+19,2022-09-20,200.0,Bezhotovostný príjem,DOSTAV - strešné okn,"/DO2022-09-19/SPDOSTAV - stresne okna, s.r.o.,",,,,DOSTAV - strešné okn
+20,2022-09-19,620.0,Bezhotovostný príjem,Tomáš Horváth,/DO2022-09-16/SP Kolek Peter - nezavisly kandidat na primatora mesta Galanta rok 2022,0558,16092022,,Tomáš Horváth
+21,2022-09-16,-80.0,Bezhotovostná platba,,prenajom priestoru ku kampani,,16092022,,prenajom priestoru ku kampani
+22,2022-09-09,-1340.0,Bezhotovostná platba,,,,20220902,,platba propagácia
+23,2022-09-05,100.0,Bezhotovostný príjem,PAPANEK JAN,/DO2022-09-02/SPDar od Jan Papanek,,02092022,,PAPANEK JAN
+24,2022-09-02,300.0,Bezhotovostný príjem,Šesták Bohuš,/DO2022-08-31/SP,,,,Šesták Bohuš
+25,2022-08-24,50.0,Bezhotovostný príjem,"Hauko Peter, Bc.",/DO2022-08-23/SP,,,,"Hauko Peter, Bc."
+26,2022-08-24,120.0,Bezhotovostný príjem,KLEMENT ADRIAN,Ing.Adrian Klement,,,,KLEMENT ADRIAN
+27,2022-08-04,5000.0,Bezhotovostný príjem,AGROREAL,Agroreal spol s r.o.,0308,03082022,,AGROREAL
+28,2022-05-05,10.0,Vklad v hotovosti,založenie transparentného účtu,,0558,,,založenie transparentného účtu
