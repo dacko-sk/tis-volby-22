@@ -153,7 +153,7 @@ function Candidate() {
                                 <td>{labels.charts.uniqeDonors}</td>
                                 <td>{candidate.num_unique_donors}</td>
                             </tr>
-                            <tr>
+                            {/* <tr>
                                 <td>Transparentný účet</td>
                                 <td>
                                     <a
@@ -172,7 +172,7 @@ function Candidate() {
                                         )}
                                     </a>
                                 </td>
-                            </tr>
+                            </tr> */}
                         </>
                     )}
                     {partyAccounts.length > 0 && (

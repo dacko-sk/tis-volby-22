@@ -5,13 +5,32 @@ import { labels } from '../api/constants';
 import { compareStr, contains, substitute } from '../api/helpers';
 
 export const accountsFile =
-    'https://raw.githubusercontent.com/matusv/transparent-account-data-slovak-elections-2022/main/aggregation_no_returns_v2.csv';
-export const baseDate = 1665871420;
+    // 'https://raw.githubusercontent.com/matusv/transparent-account-data-slovak-elections-2022/main/aggregation_no_returns_v2.csv';
+    '/csv/aggregation_no_returns_v2.csv';
+export const baseDate = 1669068712;
 export const reloadMinutes = 70;
 
 export const types = {
     regional: 'regional',
     local: 'local',
+};
+
+export const getFileName = (candidate) => {
+    if (
+        !has(candidate, labels.elections.name_key) ||
+        !has(candidate, labels.elections.account_key)
+    ) {
+        return null;
+    }
+
+    const match = candidate[labels.elections.account_key].match(
+        /.*(?:SK\d{12})?(\d{10}).*/
+    );
+    return match && match.length > 1
+        ? `/csv/accounts/${candidate[labels.elections.name_key]} ${
+              match[1]
+          }.csv`
+        : null;
 };
 
 export const processAccountsData = (data) => {
@@ -122,7 +141,7 @@ export const findRow = (csvData, name, mun) => {
 
 export const buildParserConfig = (processCallback, storeDataCallback) => {
     return {
-        worker: true,
+        worker: false,
         header: true,
         dynamicTyping: true,
         skipEmptyLines: true,

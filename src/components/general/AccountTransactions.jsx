@@ -2,15 +2,18 @@ import { useEffect, useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Table from 'react-bootstrap/Table';
 import { usePapaParse } from 'react-papaparse';
-import has from 'has';
 
 import { labels } from '../../api/constants';
 import { currencyFormat, dateFormat } from '../../api/helpers';
 
+import { getFileName } from '../../context/DataContext';
+
 import Loading from './Loading';
+import PaginationWithGaps from './PaginationWithGaps';
 
 const indexColumn = 'index';
 const allowedColumns = Object.keys(labels.account);
+const pageSize = 25;
 
 const formatColumn = (column, value) => {
     switch (column) {
@@ -23,28 +26,10 @@ const formatColumn = (column, value) => {
     }
 };
 
-export const getFileName = (candidate) => {
-    if (
-        !has(candidate, labels.elections.name_key) ||
-        !has(candidate, labels.elections.account_key)
-    ) {
-        return null;
-    }
-
-    const match = candidate[labels.elections.account_key].match(
-        /.*(?:SK\d{12})?(\d{10}).*/
-    );
-    return match && match.length > 1
-        ? `/csv/accounts/${candidate[labels.elections.name_key]} ${
-              match[1]
-          }.csv`
-        : null;
-};
-
 function AccountTransactions({ candidate }) {
     const file = getFileName(candidate);
     const [transactions, setTransactions] = useState(null);
-    const [showAll, setShowAll] = useState(false);
+    const [activePage, setActivePage] = useState(1);
     const { readRemoteFile } = usePapaParse();
 
     // load data on first load
@@ -61,49 +46,65 @@ function AccountTransactions({ candidate }) {
         readRemoteFile(file, parserConfig);
     }, []);
 
+    const loadPage = (page) => () => {
+        setActivePage(page);
+        document.getElementById('acctount-table').scrollIntoView(true);
+    };
+
     if (!transactions) {
         return <Loading />;
     }
 
-    console.log(transactions);
+    const totalPages = Math.ceil(transactions.data.length / pageSize);
+
     const headers = [];
     allowedColumns.forEach((column) => {
         headers.push(<th key={column}>{labels.account[column]}</th>);
     });
     const rows = [];
-    transactions.data.every((tx) => {
-        if (!showAll && rows.length >= 10) {
-            return false;
+    for (
+        let i = (activePage - 1) * pageSize;
+        i < activePage * pageSize;
+        i += 1
+    ) {
+        const tx = transactions.data[i];
+        if (tx) {
+            const cols = [];
+            allowedColumns.forEach((column) => {
+                cols.push(
+                    <td key={column}>{formatColumn(column, tx[column])}</td>
+                );
+            });
+            rows.push(<tr key={tx[indexColumn]}>{cols}</tr>);
+        } else {
+            break;
         }
-        const cols = [];
-        allowedColumns.forEach((column) => {
-            cols.push(<td key={column}>{formatColumn(column, tx[column])}</td>);
-        });
-        rows.push(<tr key={tx[indexColumn]}>{cols}</tr>);
-        return true;
-    });
+    }
 
     return (
         <div className="account-transactions">
             <h2 className="mt-4 mb-3">
                 Prehľad transakcií na transparentnom účte
             </h2>
-            <Table striped bordered responsive hover>
+            <Table striped bordered responsive hover id="acctount-table">
                 <thead>
                     <tr>{headers}</tr>
                 </thead>
                 <tbody>{rows}</tbody>
             </Table>
-            {!showAll && (
-                <div className="text-center">
-                    <Button
-                        variant="secondary"
-                        onClick={() => setShowAll(true)}
-                    >
-                        Zobraziť všetky transakcie
-                    </Button>
-                </div>
-            )}
+
+            <PaginationWithGaps
+                activePage={activePage}
+                className="justify-content-center mt-4"
+                pageClickCallback={loadPage}
+                totalPages={totalPages}
+            />
+
+            <div className="text-center">
+                <Button className="mt-3" href={file} variant="secondary">
+                    Stiahnuť ako CSV
+                </Button>
+            </div>
         </div>
     );
 }
