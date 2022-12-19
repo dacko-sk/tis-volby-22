@@ -17,12 +17,12 @@ function Footer() {
             <div className="footer-top py-5">
                 <Container>
                     <h2 className="mb-3 text-center">Donori projektu</h2>
-                    <Row className="justify-content-around">
+                    <Row className="justify-content-around gx-5">
                         <Col
-                            className="d-flex mb-3 mb-md-0"
-                            xs={10}
-                            md={5}
-                            xl={4}
+                            className="d-flex justify-content-center mb-3 mb-md-0"
+                            xs={12}
+                            md={6}
+                            lg={4}
                         >
                             <img
                                 className="mw-100 align-self-center"
@@ -30,15 +30,33 @@ function Footer() {
                             />
                         </Col>
                         <Col
-                            className="d-flex mb-3 mb-md-0"
-                            xs={10}
-                            md={5}
-                            xl={4}
+                            className="d-flex justify-content-center mb-3 mb-md-0"
+                            xs={12}
+                            md={6}
+                            lg={4}
                         >
                             <img
                                 className="mw-100 align-self-center"
                                 src={imgPath('ACF_logo.png')}
                             />
+                        </Col>
+                        <Col
+                            className="d-flex justify-content-center mb-3 mb-md-0"
+                            xs={12}
+                            md={6}
+                            lg={4}
+                        >
+                            <figure className="align-self-center m-0">
+                                <img
+                                    className="mw-100"
+                                    src={imgPath('eu-funded-blue.png')}
+                                />
+                                <figcaption className="mx-1">
+                                    Integrity Watch 3.0 is funded by the
+                                    European Union&apos;s Internal Security Fund
+                                    - Police.
+                                </figcaption>
+                            </figure>
                         </Col>
                     </Row>
                     <Row>
