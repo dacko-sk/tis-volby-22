@@ -15,6 +15,7 @@ import { routes } from '../api/routes';
 import useData from '../context/DataContext';
 
 import AccountTransactions from '../components/general/AccountTransactions';
+import FinalReportRow from '../components/general/FinalReportRow';
 import Loading from '../components/general/Loading';
 import Title from '../components/structure/Title';
 
@@ -153,26 +154,6 @@ function Candidate() {
                                 <td>{labels.charts.uniqeDonors}</td>
                                 <td>{candidate.num_unique_donors}</td>
                             </tr>
-                            {/* <tr>
-                                <td>Transparentný účet</td>
-                                <td>
-                                    <a
-                                        href={
-                                            candidate[
-                                                labels.elections.account_key
-                                            ]
-                                        }
-                                        target="_blank"
-                                        rel="noreferrer"
-                                    >
-                                        {shortenUrl(
-                                            candidate[
-                                                labels.elections.account_key
-                                            ]
-                                        )}
-                                    </a>
-                                </td>
-                            </tr> */}
                         </>
                     )}
                     {partyAccounts.length > 0 && (
@@ -191,6 +172,7 @@ function Candidate() {
                             <td>{candidate[labels.parties.party_key]}</td>
                         </tr>
                     )}
+                    <FinalReportRow candidate={candidate} />
                 </tbody>
             </Table>
 

@@ -161,6 +161,13 @@ export const labels = {
         region_key: 'label_right',
     },
     party: 'Strana / koalícia',
+    reports: {
+        label: 'Záverečná správa',
+        link_key: 'link',
+        name_key: 'name',
+        region_key: 'region',
+        title_key: 'title',
+    },
     transparency: {
         [transparencyClasses.good]: 'transparentná kampaň',
         [transparencyClasses.average]: 'kampaň s výhradami',

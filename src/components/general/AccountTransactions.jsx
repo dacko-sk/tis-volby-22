@@ -32,6 +32,10 @@ function AccountTransactions({ candidate }) {
     const [activePage, setActivePage] = useState(1);
     const { readRemoteFile } = usePapaParse();
 
+    if (!file) {
+        return null;
+    }
+
     // load data on first load
     useEffect(() => {
         const parserConfig = {

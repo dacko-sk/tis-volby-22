@@ -309,6 +309,11 @@ export const contains = (haystack, needle) =>
         removeAccentsFromString(needle.toLowerCase().trim())
     );
 
+export const swapName = (name) => {
+    const [first, second] = name.split(' ');
+    return first && second ? `${second} ${first}` : name;
+};
+
 export const setTitle = (title) => {
     document.title = `${title} : Samosprávne voľby 2022 : Transparency International Slovensko`;
 };
