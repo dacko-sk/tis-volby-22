@@ -54,7 +54,7 @@ function Footer() {
                                 <figcaption className="mx-1">
                                     Integrity Watch 3.0 is funded by the
                                     European Union&apos;s Internal Security Fund
-                                    - Police.
+                                    — Police.
                                 </figcaption>
                             </figure>
                         </Col>
