@@ -22,6 +22,8 @@ import { routes, segments } from '../../../api/routes';
 
 import useData from '../../../context/DataContext';
 
+import FinalReport from '../../general/FinalReport';
+
 function AnalysisDetail({ article }) {
     const analysis = has(article, 'analysis')
         ? article.analysis
@@ -155,6 +157,7 @@ function AnalysisDetail({ article }) {
 
     const { csvData } = useData();
     // parse aggregated data
+    let candidate = null;
     let candidatePage = null;
     let municipalityPage = null;
     if (has(csvData, 'data')) {
@@ -179,6 +182,7 @@ function AnalysisDetail({ article }) {
                         row[labels.elections.name_key]
                     )
                 ) {
+                    candidate = row;
                     candidatePage = routes.candidate(
                         row[labels.elections.name_key],
                         row.municipalityShortName
@@ -286,6 +290,7 @@ function AnalysisDetail({ article }) {
                         </ul>
                     </Col>
                 )}
+                <FinalReport candidate={candidate} />
                 <Col sm={12} md="auto">
                     <ul className="arrows">
                         <li>

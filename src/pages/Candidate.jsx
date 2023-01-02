@@ -15,7 +15,7 @@ import { routes } from '../api/routes';
 import useData from '../context/DataContext';
 
 import AccountTransactions from '../components/general/AccountTransactions';
-import FinalReportRow from '../components/general/FinalReportRow';
+import FinalReport from '../components/general/FinalReport';
 import Loading from '../components/general/Loading';
 import Title from '../components/structure/Title';
 
@@ -172,7 +172,7 @@ function Candidate() {
                             <td>{candidate[labels.parties.party_key]}</td>
                         </tr>
                     )}
-                    <FinalReportRow candidate={candidate} />
+                    <FinalReport candidate={candidate} tableRow />
                 </tbody>
             </Table>
 

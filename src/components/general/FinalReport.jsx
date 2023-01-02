@@ -1,10 +1,11 @@
 import { useEffect, useState } from 'react';
+import Col from 'react-bootstrap/Col';
 import { usePapaParse } from 'react-papaparse';
 
 import { labels } from '../../api/constants';
 import { compareStr, contains, swapName } from '../../api/helpers';
 
-function FinalReportRow({ candidate }) {
+function FinalReport({ candidate, tableRow = false }) {
     const [reports, setReports] = useState(null);
     const { readRemoteFile } = usePapaParse();
 
@@ -52,20 +53,37 @@ function FinalReportRow({ candidate }) {
         return false;
     });
 
-    return report ? (
-        <tr>
-            <td>{labels.reports.label}</td>
-            <td>
-                <a
-                    href={report[labels.reports.link_key]}
-                    target="_blank"
-                    rel="noreferrer"
-                >
-                    {report[labels.reports.title_key]}
-                </a>
-            </td>
-        </tr>
-    ) : null;
+    if (report) {
+        return tableRow ? (
+            <tr>
+                <td>{labels.reports.label}</td>
+                <td>
+                    <a
+                        href={report[labels.reports.link_key]}
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        {report[labels.reports.title_key]}
+                    </a>
+                </td>
+            </tr>
+        ) : (
+            <Col sm={12} md="auto">
+                <ul className="arrows">
+                    <li>
+                        <a
+                            href={report[labels.reports.link_key]}
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            {labels.reports.label}
+                        </a>
+                    </li>
+                </ul>
+            </Col>
+        );
+    }
+    return null;
 }
 
-export default FinalReportRow;
+export default FinalReport;
