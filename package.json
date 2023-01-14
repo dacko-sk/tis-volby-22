@@ -1,6 +1,6 @@
 {
-  "name": "tis-elections-charts",
-  "version": "0.1.0",
+  "name": "tis-volby22",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@svgr/webpack": "^6.5.1",
