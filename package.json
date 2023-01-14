@@ -20,7 +20,7 @@
     "react-router-dom": "^6.3.0",
     "react-scripts": "^5.0.1",
     "react-social-icons": "^5.14.0",
-    "recharts": "^2.1.12",
+    "recharts": "^2.3.2",
     "recursive-readdir": "^2.2.3",
     "sass": "^1.53.0",
     "use-debounce": "^8.0.4",
