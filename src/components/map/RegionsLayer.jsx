@@ -92,7 +92,7 @@ function RegionsLayer() {
     };
 
     const { isLoading, error, data } = useQuery(['regionsGeoJSON'], () =>
-        fetch('/json/regions.geojson').then((res) => res.json())
+        fetch(`${routes.home}json/regions.geojson`).then((res) => res.json())
     );
     if (isLoading || error) return null;
 

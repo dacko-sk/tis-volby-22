@@ -1,5 +1,3 @@
-export const imgRootPath = '/img/';
-
 export const images = {
     analyses: 'user_grey.png',
     news: 'news.png',

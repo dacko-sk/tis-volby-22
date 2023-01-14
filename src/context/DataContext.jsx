@@ -3,10 +3,11 @@ import has from 'has';
 
 import { labels } from '../api/constants';
 import { compareStr, contains, substitute } from '../api/helpers';
+import { routes } from '../api/routes';
 
 export const accountsFile =
     // 'https://raw.githubusercontent.com/matusv/transparent-account-data-slovak-elections-2022/main/aggregation_no_returns_v2.csv';
-    '/csv/aggregation_no_returns_v2.csv';
+    `${routes.home}csv/aggregation_no_returns_v2.csv`;
 export const baseDate = 1669068712;
 export const reloadMinutes = 70;
 
@@ -27,7 +28,7 @@ export const getFileName = (candidate) => {
         /.*(?:SK\d{12})?(\d{10}).*/
     );
     return match && match.length > 1
-        ? `/csv/accounts/${candidate[labels.elections.name_key]} ${
+        ? `${routes.home}csv/accounts/${candidate[labels.elections.name_key]} ${
               match[1]
           }.csv`
         : null;

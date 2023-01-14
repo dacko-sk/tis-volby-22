@@ -4,6 +4,7 @@ import { usePapaParse } from 'react-papaparse';
 
 import { labels } from '../../api/constants';
 import { compareStr, contains, swapName } from '../../api/helpers';
+import { routes } from '../../api/routes';
 
 function FinalReport({ candidate, tableRow = false }) {
     const [reports, setReports] = useState(null);
@@ -20,7 +21,7 @@ function FinalReport({ candidate, tableRow = false }) {
                 setReports(data);
             },
         };
-        readRemoteFile('/csv/final_reports.csv', parserConfig);
+        readRemoteFile(`${routes.home}csv/final_reports.csv`, parserConfig);
     }, []);
 
     if (!reports) {
