@@ -1,7 +1,6 @@
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 
-import { images } from '../../../api/constants';
 import { dateFormat, parseWpHtml } from '../../../api/helpers';
 
 import Media from '../Media';
@@ -26,7 +25,6 @@ function NewsCondensed({ article, clickHandler, keyUpHandler }) {
                                 <Media
                                     alt={article.title.rendered}
                                     id={article.featured_media}
-                                    fallback={images.news}
                                 />
                             </figure>
                         </div>

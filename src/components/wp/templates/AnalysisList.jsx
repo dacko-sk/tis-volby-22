@@ -3,18 +3,12 @@ import Row from 'react-bootstrap/Row';
 import Table from 'react-bootstrap/Table';
 import has from 'has';
 
-import {
-    campaignMetadata as cmd,
-    images,
-    labels,
-} from '../../../api/constants';
-import {
-    badgePctFormat,
-    imgPath,
-    transparencyClass,
-} from '../../../api/helpers';
+import { campaignMetadata as cmd, labels } from '../../../api/constants';
+import { badgePctFormat, transparencyClass } from '../../../api/helpers';
 
 import useData from '../../../context/DataContext';
+
+import defaultImg from '../../../assets/img/user_grey.png';
 
 function AnalysisList({ article, clickHandler, keyUpHandler }) {
     const { analysis } = article;
@@ -59,7 +53,7 @@ function AnalysisList({ article, clickHandler, keyUpHandler }) {
                                 <img
                                     alt={labels.transparency[cls]}
                                     className="p-3"
-                                    src={imgPath(images.analyses)}
+                                    src={defaultImg}
                                 />
                             </figure>
                         </div>

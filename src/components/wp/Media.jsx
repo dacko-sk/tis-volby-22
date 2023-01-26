@@ -1,10 +1,9 @@
 import { useQuery } from '@tanstack/react-query';
 import has from 'has';
 
-import { images } from '../../api/constants';
-import { imgPath } from '../../api/helpers';
-
 import Loading from '../general/Loading';
+
+import defaultImg from '../../assets/img/news.png';
 
 function Media({ alt, id, fallback }) {
     const { isLoading, error, data } = useQuery(
@@ -25,7 +24,7 @@ function Media({ alt, id, fallback }) {
     const src =
         data && has(data, 'source_url')
             ? data.source_url
-            : imgPath(fallback || images.news);
+            : fallback || defaultImg;
 
     return (
         <img

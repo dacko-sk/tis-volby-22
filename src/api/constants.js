@@ -1,8 +1,3 @@
-export const images = {
-    analyses: 'user_grey.png',
-    news: 'news.png',
-};
-
 export const colorLightBlue = '#2bace2';
 export const colorDarkBlue = '#1b335f';
 export const colorOrange = '#f06c50';
@@ -193,7 +188,6 @@ export const constants = {
     campaignMetadata,
     colors,
     errors,
-    images,
     labels,
     transparencyClasses,
     transparencyIndicators,

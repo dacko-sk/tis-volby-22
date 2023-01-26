@@ -1,12 +1,14 @@
 import Col from 'react-bootstrap/Col';
 import has from 'has';
 
-import { campaignMetadata as cmd, images } from '../../../api/constants';
+import { campaignMetadata as cmd } from '../../../api/constants';
 import { badgePctFormat, transparencyClass } from '../../../api/helpers';
 
 import useData from '../../../context/DataContext';
 
 import Media from '../Media';
+
+import defaultImg from '../../../assets/img/user_grey.png';
 
 function AnalysisFeatured({ article, clickHandler, keyUpHandler }) {
     const { analysis } = article;
@@ -49,7 +51,7 @@ function AnalysisFeatured({ article, clickHandler, keyUpHandler }) {
                         <Media
                             alt={article.title.rendered}
                             id={article.featured_media}
-                            fallback={images.analyses}
+                            fallback={defaultImg}
                         />
                     </figure>
                     <div className="name text-center">

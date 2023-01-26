@@ -5,11 +5,15 @@ import Row from 'react-bootstrap/Row';
 import { SocialIcon } from 'react-social-icons';
 
 import { colorOrange } from '../../api/constants';
-import { imgPath } from '../../api/helpers';
 
 import CookieBanner from '../general/CookieBanner';
 import DonateButton from '../general/DonateButton';
 import FbFeed from '../general/FbFeed';
+
+import logoAcf from '../../assets/img/ACF_logo.png';
+import logoEu from '../../assets/img/eu-funded-blue.png';
+import logoVisegrad from '../../assets/img/Visegrad_logo_black.png';
+import logoTis from '../../assets/img/tis-logo-blue.png';
 
 function Footer() {
     return (
@@ -26,7 +30,7 @@ function Footer() {
                         >
                             <img
                                 className="mw-100 align-self-center"
-                                src={imgPath('Visegrad_logo_black.png')}
+                                src={logoVisegrad}
                             />
                         </Col>
                         <Col
@@ -37,7 +41,7 @@ function Footer() {
                         >
                             <img
                                 className="mw-100 align-self-center"
-                                src={imgPath('ACF_logo.png')}
+                                src={logoAcf}
                             />
                         </Col>
                         <Col
@@ -47,10 +51,7 @@ function Footer() {
                             lg={4}
                         >
                             <figure className="align-self-center m-0">
-                                <img
-                                    className="mw-100"
-                                    src={imgPath('eu-funded-blue.png')}
-                                />
+                                <img className="mw-100" src={logoEu} />
                                 <figcaption className="mx-1">
                                     Integrity Watch 3.0 is funded by the
                                     European Union&apos;s Internal Security Fund
@@ -83,7 +84,7 @@ function Footer() {
                             >
                                 <img
                                     className="logo"
-                                    src={imgPath('tis-logo-blue.png')}
+                                    src={logoTis}
                                     alt="Transparency International Slovensko"
                                 />
                             </a>

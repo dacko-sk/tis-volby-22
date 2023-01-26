@@ -6,7 +6,6 @@ import {
     transparencyClasses,
     transparencyIndicators,
 } from './constants';
-import { routes } from './routes';
 
 export const slovakFormat = (value, options) =>
     new Intl.NumberFormat('sk-SK', options).format(value);
@@ -290,9 +289,6 @@ export const sortByNumericProp = (prop, asc) => (a, b) =>
 export const sortBySpending = sortByNumericProp('outgoing', false);
 
 export const sortByDonors = sortByNumericProp('donors', false);
-
-export const imgPath = (filename) =>
-    filename ? `${routes.home}img/${filename}` : '';
 
 export const removeAccentsFromString = (str) =>
     str ? str.normalize('NFD').replace(/[\u0300-\u036f]/g, '') : '';

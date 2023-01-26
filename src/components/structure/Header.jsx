@@ -3,18 +3,19 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
-import { imgPath } from '../../api/helpers';
 import { routes } from '../../api/routes';
 
 import DonateButton from '../general/DonateButton';
 import SearchField from '../general/SearchField';
+
+import logoTis from '../../assets/img/tis-logo-blue.png';
 
 function Header() {
     return (
         <Navbar bg="light" expand="lg">
             <Container>
                 <Navbar.Brand as={NavLink} to={routes.home}>
-                    <img src={imgPath('tis-logo-blue.png')} alt="Voľby 2022" />
+                    <img src={logoTis} alt="Voľby 2022" />
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
