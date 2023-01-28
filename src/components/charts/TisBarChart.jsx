@@ -81,8 +81,10 @@ function TisBarChart({
     bars = columnVariants.inOut,
     buttonLink,
     buttonText,
+    children,
     currency = false,
     data,
+    lastUpdate = true,
     namesLength,
     scrollable = false,
     subtitle,
@@ -109,8 +111,11 @@ function TisBarChart({
                 dataKey={bar.key}
                 fill={bar.color}
                 name={bar.name}
+                label={has(bar, 'label') ? bar.label : null}
                 stackId={has(bar, 'stackId') ? bar.stackId : null}
-            />
+            >
+                {has(bar, 'labelList') ? bar.labelList : null}
+            </Bar>
         );
     });
 
@@ -124,9 +129,14 @@ function TisBarChart({
 
     return (
         <div className="chart-wrapper mb-3">
-            {title && <h2>{title}</h2>}
+            {title && <h2 className={subtitle ? '' : 'mb-3'}>{title}</h2>}
             {subtitle && <h6>{subtitle}</h6>}
-            <LastUpdateTag short={!!timestamp} timestamp={timestamp ?? null} />
+            {lastUpdate && (
+                <LastUpdateTag
+                    short={!!timestamp}
+                    timestamp={timestamp ?? null}
+                />
+            )}
             <div className={`chart-outer${scrollable ? ' scrollable' : ''}`}>
                 <div
                     className="chart"
@@ -211,6 +221,7 @@ function TisBarChart({
                     </ResponsiveContainer>
                 </div>
             </div>
+            {children}
             {buttonLink && (
                 <div className="buttons mt-3 text-center">
                     <Button as={Link} to={buttonLink} variant="secondary">

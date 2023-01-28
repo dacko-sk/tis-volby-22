@@ -1,0 +1,140 @@
+{
+  "campaigns": [
+    {
+      "name": "Matúš Vallo",
+      "isElected": true,
+      "electionsName": "miestne",
+      "label": "BA",
+      "municipalityShortName": "Bratislava",
+      "spending": 358071,
+      "remarkId": 1,
+      "remark": "výdavky kandidáta na účte strany Team Bratislava po odrátaní dvoch platieb pre iných kandidátov"
+    },
+    {
+      "name": "Rudolf Kusý",
+      "isElected": false,
+      "electionsName": "miestne",
+      "label": "BA",
+      "municipalityShortName": "Bratislava",
+      "spending": 332969,
+      "remarkId": 2,
+      "remark": "suma navýšená o dodatočnú faktúru agentúry za kampaň R. Kusého"
+    },
+    {
+      "name": "Rastislav Trnka",
+      "isElected": true,
+      "electionsName": "župné",
+      "label": "KE",
+      "municipalityShortName": "KSK",
+      "spending": 235471
+    },
+    {
+      "name": "Erika Jurinová",
+      "isElected": true,
+      "electionsName": "župné",
+      "label": "ZA",
+      "municipalityShortName": "ŽSK",
+      "spending": 231000,
+      "remarkId": 3,
+      "remark": "informácia poskytnutá kandidátkou"
+    },
+    {
+      "name": "Adrian Polóny",
+      "isElected": false,
+      "electionsName": "župné",
+      "label": "BB",
+      "municipalityShortName": "BBSK",
+      "spending": 227187
+    },
+    {
+      "name": "Milan Majerský",
+      "isElected": true,
+      "electionsName": "župné",
+      "label": "PO",
+      "municipalityShortName": "PSK",
+      "spending": 218924,
+      "remarkId": 4,
+      "remark": "KDH poskytlo informáciu o výške výdavkov za Prešovský kraj"
+    },
+    {
+      "name": "Jozef Viskupič",
+      "isElected": true,
+      "electionsName": "župné",
+      "label": "TT",
+      "municipalityShortName": "TTSK",
+      "spending": 204000,
+      "remarkId": 5,
+      "remark": "odhad TIS na základe vyjadrenia OĽaNO o vedení kampane a údajov na ich transparentnom účte"
+    },
+    {
+      "name": "Ján Bync",
+      "isElected": false,
+      "electionsName": "župné",
+      "label": "PO",
+      "municipalityShortName": "PSK",
+      "spending": 203668
+    },
+    {
+      "name": "Ondrej Lunter",
+      "isElected": true,
+      "electionsName": "župné",
+      "label": "BB",
+      "municipalityShortName": "BBSK",
+      "spending": 199522
+    },
+    {
+      "name": "Jaroslav Polaček",
+      "isElected": true,
+      "electionsName": "miestne",
+      "label": "KE",
+      "municipalityShortName": "Košice",
+      "spending": 183610
+    },
+    {
+      "name": "Igor Choma",
+      "isElected": false,
+      "electionsName": "župné",
+      "label": "ZA",
+      "municipalityShortName": "ŽSK",
+      "spending": 127642,
+      "remarkId": 6,
+      "remark": "iba výdavky zo záverečnej správy I. Chomu neobsahujúce údaje o bilbordoch"
+    },
+    {
+      "name": "Juraj Droba",
+      "isElected": true,
+      "electionsName": "župné",
+      "label": "BA",
+      "municipalityShortName": "BSK",
+      "spending": 125000,
+      "remarkId": 7,
+      "remark": "informácia poskytnutá SaS, ktorá financovala kampaň kandidáta"
+    },
+    {
+      "name": "Pavel Hagyari",
+      "isElected": false,
+      "electionsName": "miestne",
+      "label": "PO",
+      "municipalityShortName": "Prešov",
+      "spending": 121274,
+      "remarkId": 8,
+      "remark": "súčet výdavkov zo záverečnej správy P. Hagyariho a výdavkov na jeho kampaň na účte Sme rodina"
+    },
+    {
+      "name": "Zdenko Čambal",
+      "isElected": false,
+      "electionsName": "župné a miestne",
+      "label": "TT",
+      "municipalityShortName": "TTSK a Holíč",
+      "spending": 119850
+    },
+    {
+      "name": "Peter Slyško",
+      "isElected": false,
+      "electionsName": "župné",
+      "label": "ZA",
+      "municipalityShortName": "ŽSK",
+      "spending": 105991
+    }
+  ]
+}

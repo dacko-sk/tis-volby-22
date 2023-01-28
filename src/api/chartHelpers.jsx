@@ -45,14 +45,30 @@ export const tickLabel = (i, rows) => {
         const nameParts = rows[0].split(separators.parts);
         const name = nameParts.length > 1 ? nameParts[0] : rows[0];
         const parts = rows[1].split(separators.parts);
-        const town = parts.length > 1 ? parts[1] : rows[1];
+        let town = parts.length > 1 ? parts[1] : rows[1];
+        const multiTown = town.split(' a ');
+        let subTown = null;
+        if (multiTown.length > 1) {
+            [town, subTown] = multiTown;
+        }
         const region = parts.length > 1 ? parts[0] : null;
         switch (i) {
             case 0:
                 return <Link to={routes.candidate(name, town)}>{name}</Link>;
             case 1:
-                return town === '…' ? (
-                    town
+                if (town === '…') {
+                    return town;
+                }
+                return subTown ? (
+                    <>
+                        <Link to={routes.municipality(town, region)}>
+                            {town}
+                        </Link>{' '}
+                        a{' '}
+                        <Link to={routes.municipality(subTown, region)}>
+                            {subTown}
+                        </Link>
+                    </>
                 ) : (
                     <Link to={routes.municipality(town, region)}>{town}</Link>
                 );
