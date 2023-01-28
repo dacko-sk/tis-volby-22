@@ -14,10 +14,25 @@ function Top15() {
     // bars style
     const bars = [
         {
-            key: 'outgoing',
-            name: labels.charts.outgoing,
+            key: 'regional',
+            name: 'Výdavky kandidáta na župana',
             color: colors.colorOrange,
+            stackId: 'totalSpending',
             label: {
+                dataKey: 'regional',
+                fill: 'white',
+                outline: 2,
+                formatter: wholeCurrencyFormat,
+                position: 'insideLeft',
+            },
+        },
+        {
+            key: 'local',
+            name: 'Výdavky kandidáta na primátora',
+            color: colors.colorDarkBlue,
+            stackId: 'totalSpending',
+            label: {
+                dataKey: 'local',
                 fill: 'white',
                 outline: 2,
                 formatter: wholeCurrencyFormat,
@@ -35,7 +50,7 @@ function Top15() {
     // data
     const campaigns = [];
     const remarks = [
-        <em className="disclaimer text-start" key={0}>
+        <em className="disclaimer text-start mt-2" key={0}>
             Zdroj: Záverečné správy kandidátov a politických strán a ich
             doplňujúce odpovede pre TIS
         </em>,
@@ -43,12 +58,10 @@ function Top15() {
     data.campaigns.forEach((campaign) => {
         campaigns.push({
             name: getTickText(campaign, false),
-            outgoing: campaign.spending,
+            [campaign.electionsName === labels.elections.local.key
+                ? 'local'
+                : 'regional']: campaign.spending,
             remarkId: campaign.remarkId,
-            fill:
-                campaign.electionsName === labels.elections.local.key
-                    ? colors.colorDarkBlue
-                    : colors.colorOrange,
         });
         if (has(campaign, 'remarkId')) {
             remarks.push(
