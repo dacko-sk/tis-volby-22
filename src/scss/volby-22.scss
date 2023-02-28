@@ -1,0 +1,8 @@
+@use 'sass:map';
+@import 'variables';
+@import 'bootstrap_custom';
+@import 'volby-common';
+
+header {
+  background-image: url('./../assets/img/samospravy_color_3_1920_900.png');
+}

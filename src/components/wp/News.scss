@@ -104,23 +104,6 @@
     }
     &.analysis-elected {
       .thumb {
-        // &:before {
-        //   content: '🏆';
-        //   position: absolute;
-        //   top: 5%;
-        //   left: 5%;
-        //   z-index: 1;
-        //   background-color: $tis-light-blue;
-        //   border-radius: 1em;
-        //   font-size: 1.5em;
-        //   height: 2em;
-        //   line-height: 2em;
-        //   width: 2em;
-        //   text-align: center;
-        // }
-        // &:after {
-        //   background-color: $tis-light-blue;
-        // }
         .badge {
           background-color: rgba($tis-light-blue, 85%);
         }

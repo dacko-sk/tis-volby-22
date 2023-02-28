@@ -20,7 +20,7 @@ import Search from './pages/Search';
 
 import Layout from './components/structure/Layout';
 
-import './App.scss';
+import './scss/volby-22.scss';
 
 const queryClient = new QueryClient();
 
