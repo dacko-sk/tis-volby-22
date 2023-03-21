@@ -1,7 +1,7 @@
 {
   "name": "tis-volby22",
   "version": "1.0.0",
-  "homepage": "/",
+  "homepage": "/samosprava2022/",
   "private": true,
   "dependencies": {
     "@svgr/webpack": "^6.5.1",
