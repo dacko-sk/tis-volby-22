@@ -198,7 +198,7 @@ function Footer() {
                     <Row>
                         <Col>© 2022 Transparency International Slovensko</Col>
                         <Col xs="auto">
-                            <a href="https://github.com/dacko-sk/tis-volby22">
+                            <a href="https://github.com/dacko-sk/tis-volby-22">
                                 Webové riešenie
                             </a>
                         </Col>
