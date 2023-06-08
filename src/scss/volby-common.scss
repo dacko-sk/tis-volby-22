@@ -190,6 +190,7 @@ ul.arrows {
     height: 100%;
   }
   img {
+    @extend .mw-100;
     position: relative;
     top: 50%;
     transform: translateY(-50%);
