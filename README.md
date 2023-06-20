@@ -45,7 +45,7 @@ Created and maintained by [Transparency International Slovakia](https://transpar
 
 ### Project donors
 
-<img src="https://volby.transparency.sk/img/Visegrad_logo_black.png" alt="Visegrad fund" height="100"/> <img src="https://volby.transparency.sk/img/ACF_logo.png" alt="ACF" height="100"/>
+<img src="https://volby.transparency.sk/samosprava22/img/Visegrad_logo_black.png" alt="Visegrad fund" height="100"/> <img src="https://volby.transparency.sk/samosprava22/img/ACF_logo.png" alt="ACF" height="100"/>
 
 ### License
 
