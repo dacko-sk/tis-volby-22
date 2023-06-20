@@ -1,4 +1,4 @@
-# [Samosprávne voľby 2022](https://volby.transparency.sk/) &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-yellow.svg)](https://github.com/dacko-sk/tis-volby22/blob/main/LICENSE)
+# [Samosprávne voľby 2022](https://volby.transparency.sk/samosprava2022/) &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-yellow.svg)](https://github.com/dacko-sk/tis-volby22/blob/main/LICENSE)
 
 ### Built with
 
@@ -27,9 +27,9 @@
 
 [![TIS logo](https://transparency.sk/wp-content/uploads/2020/11/tis_full-1.svg)](https://transparency.sk)
 
-[Samosprávne voľby 2022](https://volby.transparency.sk) is a website dedicated to regional & local elections in Slovakia in the year 2022.
+[Samosprávne voľby 2022](https://volby.transparency.sk/samosprava2022/) is a website dedicated to regional & local elections in Slovakia in the year 2022.
 
-Created and maintained by [Transparency International Slovakia](https://transparency.sk/), developed by [Dalibor Hrtánek](https://github.com/dacko-sk) and hosted on https://volby.transparency.sk.
+Created and maintained by [Transparency International Slovakia](https://transparency.sk/), developed by [Dalibor Hrtánek](https://github.com/dacko-sk) and hosted on https://volby.transparency.sk/samosprava2022/.
 
 ### This website presents:
 
