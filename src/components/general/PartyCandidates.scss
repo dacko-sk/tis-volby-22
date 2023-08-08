@@ -3,18 +3,21 @@
 .party-candidates {
   font-size: 13px;
   a {
-    --bs-link-color: black;
-    --bs-link-hover-color: black;
+    --bs-link-color-rgb: black;
+    --bs-link-hover-color-rgb: black;
   }
   .row-elected {
+    --bs-table-color: #fff;
     --bs-table-striped-color: #fff;
     --bs-table-hover-color: #fff;
+    --bs-table-bg: #{$tis-light-blue};
     --bs-table-striped-bg: #{$tis-light-blue};
+    --bs-table-hover-bg: #{$tis-light-blue};
     background-color: $tis-light-blue;
     color: #fff;
     a {
-      --bs-link-color: #fff;
-      --bs-link-hover-color: #fff;
+      --bs-link-color-rgb: #fff;
+      --bs-link-hover-color-rgb: #fff;
     }
   }
 }
