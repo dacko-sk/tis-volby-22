@@ -41,6 +41,8 @@
   "overrides": {
     "react-scripts": {
       "@svgr/webpack": "~6.5.1",
+      "jest": "~29.6.2",
+      "jest-watch-typeahead": "~2.2.2",
       "webpack": "~5.76.0"
     }
   },
