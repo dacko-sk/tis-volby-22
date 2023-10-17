@@ -75,6 +75,10 @@ ul.arrows {
   }
 }
 
+.col-container {
+  container: col-container / inline-size;
+}
+
 .layout-default {
   display: flex;
   flex-direction: column;
@@ -104,10 +108,6 @@ ul.arrows {
   .text-center & {
     text-align: inherit;
   }
-}
-
-.orange {
-  color: $tis-orange;
 }
 
 .btn-xl {
@@ -225,6 +225,23 @@ ul.arrows {
   }
 }
 
+.bg-banner {
+  background-color: $tis-banner-bg;
+}
+
+.rotate-animation {
+  transition: transform 0.3s ease;
+}
+.rotate-90 {
+  transform: rotate(90deg);
+}
+.rotate-180 {
+  transform: rotate(180deg);
+}
+.rotate-270 {
+  transform: rotate(270deg);
+}
+
 footer h2 {
   color: $tis-dark-blue;
   font-weight: $fw-bold;
@@ -324,5 +341,17 @@ footer h2 {
   }
   .tiles > * {
     max-width: 20%;
+  }
+}
+
+@container col-container (min-width: 0) {
+  .col-lg-6 {
+    width: 100%;
+  }
+}
+
+@container col-container (min-width: #{map.get($container-min-widths-inner, 'lg')}) {
+  .col-lg-6 {
+    width: 50%;
   }
 }
