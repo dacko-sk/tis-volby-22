@@ -38,6 +38,10 @@ header {
     margin: 0;
     width: 100%;
   }
+  .logo {
+    width: 64px;
+    max-width: 100%;
+  }
 }
 
 h1 {
@@ -334,14 +338,8 @@ footer h2 {
 @media (min-width: map.get($grid-breakpoints, 'lg')) {
   header {
     min-height: 280px;
-    &.hero {
-      h1 {
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, -75%);
-        padding: 0 0.5em;
-      }
+    .logo {
+      width: 96px;
     }
   }
   #search {
@@ -355,6 +353,18 @@ footer h2 {
 @media (min-width: map.get($grid-breakpoints, 'xl')) {
   header {
     min-height: 320px;
+    &.hero {
+      h1 {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -75%);
+        padding: 0 0.5em;
+      }
+    }
+    .logo {
+      width: 128px;
+    }
   }
   #search {
     max-width: unset;
