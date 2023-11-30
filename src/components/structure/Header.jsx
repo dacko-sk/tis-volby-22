@@ -14,7 +14,7 @@ function Header() {
     return (
         <Navbar bg="light" expand="lg">
             <Container>
-                <Navbar.Brand as={NavLink} to={routes.home}>
+                <Navbar.Brand href="https://volby.transparency.sk">
                     <img src={logoTis} alt="Voľby 2022" />
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
