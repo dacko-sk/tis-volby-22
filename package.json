@@ -22,7 +22,8 @@
     "recursive-readdir": "^2.2.3",
     "sass": "^1.53.0",
     "use-debounce": "^8.0.4",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "webpack-dev-middleware": "^7.2.1"
   },
   "devDependencies": {
     "eslint": "^8.46.0",
@@ -43,7 +44,8 @@
       "jest-watch-typeahead": "~2.2.2",
       "postcss": "~8.4.31",
       "resolve-url-loader": "~5.0.0",
-      "webpack": "~5.76.0"
+      "webpack": "~5.76.0",
+      "webpack-dev-server": "~5.0.4"
     },
     "@svgr/webpack": {
       "@babel/core": "^7.23.2"
