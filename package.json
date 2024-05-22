@@ -47,8 +47,9 @@
       "jest-watch-typeahead": "~2.2.2",
       "postcss": "~8.4.31",
       "resolve-url-loader": "~5.0.0",
-      "webpack": "~5.76.0",
-      "webpack-dev-server": "~4.15.2"
+      "webpack": "~5.91.0",
+      "webpack-dev-server": "~4.15.2",
+      "workbox-webpack-plugin": "~7.1.0"
     },
     "@svgr/webpack": {
       "@babel/core": "^7.23.2"
