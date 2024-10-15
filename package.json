@@ -25,6 +25,7 @@
     "sass": "^1.53.0",
     "use-debounce": "^8.0.4",
     "web-vitals": "^2.1.4",
+    "webpack": "^5.95.0",
     "webpack-dev-middleware": "^7.2.1",
     "webpack-dev-server": "^4.15.2"
   },
@@ -49,11 +50,12 @@
       "jest-watch-typeahead": "~2.2.2",
       "postcss": "~8.4.31",
       "resolve-url-loader": "~5.0.0",
-      "webpack": "~5.91.0",
+      "webpack": "~5.95.0",
       "webpack-dev-server": "~4.15.2",
       "workbox-webpack-plugin": "~7.1.0"
     },
-    "@svgr/webpack": "$@svgr/webpack"
+    "@svgr/webpack": "$@svgr/webpack",
+    "webpack": "$webpack"
   },
   "scripts": {
     "start": "react-scripts start",
