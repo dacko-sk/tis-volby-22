@@ -24,7 +24,7 @@ function Header() {
                         variant="pills"
                         className="me-auto"
                     >
-                        <Nav.Link as={NavLink} to={routes.home}>
+                        <Nav.Link as={NavLink} to={routes.home} end>
                             Voľby 2022
                         </Nav.Link>
                         <Nav.Link as={NavLink} to={routes.charts}>

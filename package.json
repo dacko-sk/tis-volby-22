@@ -4,7 +4,6 @@
   "homepage": "/samosprava2022/",
   "private": true,
   "dependencies": {
-    "@svgr/webpack": "^8.1.0",
     "@tanstack/react-query": "^4.0.10",
     "bootstrap": "^5.2.0",
     "braces": "^3.0.3",
@@ -30,6 +29,7 @@
     "webpack-dev-server": "^4.15.2"
   },
   "devDependencies": {
+    "@svgr/webpack": "^8.1.0",
     "eslint": "^8.46.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-prettier": "^9.0.0",
@@ -43,7 +43,7 @@
   },
   "overrides": {
     "react-scripts": {
-      "@svgr/webpack": "~6.5.1",
+      "@svgr/webpack": "~8.1.0",
       "babel-jest": "~29.6.2",
       "jest": "~29.6.2",
       "jest-watch-typeahead": "~2.2.2",
@@ -53,9 +53,7 @@
       "webpack-dev-server": "~4.15.2",
       "workbox-webpack-plugin": "~7.1.0"
     },
-    "@svgr/webpack": {
-      "@babel/core": "^7.23.2"
-    }
+    "@svgr/webpack": "$@svgr/webpack"
   },
   "scripts": {
     "start": "react-scripts start",
