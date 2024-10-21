@@ -10,6 +10,15 @@ export const colors = {
     colorGrey,
 };
 
+export const elections = {
+    p24: 'p24',
+    e24: 'e24',
+    n23: 'n23',
+    s22: 's22',
+    n20: 'n20',
+    p19: 'p19',
+};
+
 export const campaignMetadata = {
     type: 'type',
     municipality: 'municipality',
@@ -84,6 +93,12 @@ export const labels = {
     donate: 'Darujte',
     donateLong: 'Darujte na kontrolu volieb',
     elections: {
+        [elections.p19]: 'Prezidentské\nvoľby 2019',
+        [elections.n20]: 'Parlamentné\nvoľby 2020',
+        [elections.s22]: 'Samosprávne\nvoľby 2022',
+        [elections.n23]: 'Parlamentné\nvoľby 2023',
+        [elections.e24]: 'Európske\nvoľby 2024',
+        [elections.p24]: 'Prezidentské\nvoľby 2024',
         account_key: 'url',
         name_key: 'name',
         municipality_key: 'samosprava',
@@ -113,6 +128,7 @@ export const labels = {
         outgoing: 'Výdavky',
         uniqeDonors: 'Počet unikátnych darcov',
     },
+    home: { navTitle: 'Voľby 2022' },
     indicators: {
         [transparencyIndicators.account]: {
             title: 'Transparentný účet',
@@ -161,6 +177,7 @@ export const labels = {
         region_key: 'region',
         title_key: 'title',
     },
+    root: 'Titulná stránka',
     transparency: {
         [transparencyClasses.good]: 'transparentná kampaň',
         [transparencyClasses.average]: 'kampaň s výhradami',
@@ -178,6 +195,16 @@ export const labels = {
     showMore: 'Zobraziť viac',
     type: 'Typ volieb',
     web: 'Volebný web',
+};
+
+export const links = {
+    [elections.p19]: '/prezident2019/',
+    [elections.n20]: '/parlament2020/',
+    [elections.s22]: '/samosprava2022/',
+    [elections.n23]: '/parlament2023/',
+    [elections.e24]: '/euro2024/',
+    [elections.p24]: '/prezident2024/',
+    donateUrl: 'https://transparency.sk/volby',
 };
 
 export const errors = {

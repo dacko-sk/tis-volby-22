@@ -4,7 +4,12 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import { SocialIcon } from 'react-social-icons';
 
-import { colorOrange } from '../../api/constants';
+import {
+    colorOrange,
+    elections as el,
+    labels,
+    links,
+} from '../../api/constants';
 
 import CookieBanner from '../general/CookieBanner';
 import DonateButton from '../general/DonateButton';
@@ -141,24 +146,17 @@ function Footer() {
                         <Col md={6} lg={4}>
                             <h2 className="mb-3">Užitočné informácie</h2>
                             <ul className="arrows">
-                                <li>
-                                    <a
-                                        href="https://volby.transparency.sk/parlament2020/"
-                                        target="_blank"
-                                        rel="noreferrer"
-                                    >
-                                        Parlamentné voľby 2020
-                                    </a>
-                                </li>
-                                <li>
-                                    <a
-                                        href="https://volby.transparency.sk/prezident2019/"
-                                        target="_blank"
-                                        rel="noreferrer"
-                                    >
-                                        Prezidentské voľby 2019
-                                    </a>
-                                </li>
+                                {Object.keys(el).map((e) => (
+                                    <li key={e}>
+                                        <a
+                                            href={links[e]}
+                                            target="_blank"
+                                            rel="noreferrer"
+                                        >
+                                            {labels.elections[e]}
+                                        </a>
+                                    </li>
+                                ))}
                                 <li>
                                     <a
                                         href="https://transparency.sk/sk/sukromie/"

@@ -3,8 +3,10 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
+import { elections } from '../../api/constants';
 import { routes } from '../../api/routes';
 
+import SiteSelector from './SiteSelector';
 import DonateButton from '../general/DonateButton';
 import SearchField from '../general/SearchField';
 
@@ -24,9 +26,7 @@ function Header() {
                         variant="pills"
                         className="me-auto"
                     >
-                        <Nav.Link as={NavLink} to={routes.home} end>
-                            Voľby 2022
-                        </Nav.Link>
+                        <SiteSelector site={elections.s22} />
                         <Nav.Link as={NavLink} to={routes.charts}>
                             Grafy
                         </Nav.Link>
