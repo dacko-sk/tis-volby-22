@@ -177,7 +177,7 @@ export const labels = {
         region_key: 'region',
         title_key: 'title',
     },
-    root: 'Titulná stránka',
+    root: 'Monitoring volieb',
     transparency: {
         [transparencyClasses.good]: 'transparentná kampaň',
         [transparencyClasses.average]: 'kampaň s výhradami',
