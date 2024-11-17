@@ -6,11 +6,11 @@ import Row from 'react-bootstrap/Row';
 import { elections as el, labels, links } from '../../api/constants';
 import { nl2r } from '../../api/helpers';
 
-import iconL96 from '../../assets/img/icons/96money.png';
-import iconE96 from '../../assets/img/icons/96eu.png';
-import iconN96 from '../../assets/img/icons/96national.png';
-import iconP96 from '../../assets/img/icons/96president.png';
-import iconR96 from '../../assets/img/icons/96regional.png';
+import iconL from '../../assets/img/icons/96money.png';
+import iconE from '../../assets/img/icons/96eu.png';
+import iconN from '../../assets/img/icons/96national.png';
+import iconP from '../../assets/img/icons/96president.png';
+import iconR from '../../assets/img/icons/96regional.png';
 
 function IconContent({ icon, label }) {
     return (
@@ -22,30 +22,20 @@ function IconContent({ icon, label }) {
 }
 
 function SiteNavigator({ site }) {
-    const icons = {
-        landing: iconL96,
-        eu: iconE96,
-        national: iconN96,
-        president: iconP96,
-        regional: iconR96,
-    };
     return (
         <div id="site-navigator">
             <h2 className="text-white mb-3">{labels.sitesTitle}</h2>
             <Row>
                 <Col xs={6} sm={4} lg>
                     <a href="/" className="sn-icon">
-                        <IconContent
-                            icon={icons.landing}
-                            label={labels.sites.root}
-                        />
+                        <IconContent icon={iconL} label={labels.sites.root} />
                     </a>
                 </Col>
                 {[
-                    [el.s22, icons.regional, labels.sites.regional],
-                    [[el.n23, el.n20], icons.national, labels.sites.national],
-                    [[el.p24, el.p19], icons.president, labels.sites.president],
-                    [el.e24, icons.eu, labels.sites.european],
+                    [el.s22, iconR, labels.sites.regional],
+                    [[el.n23, el.n20], iconN, labels.sites.national],
+                    [[el.p24, el.p19], iconP, labels.sites.president],
+                    [el.e24, iconE, labels.sites.european],
                 ].map(([key, icon, label]) => {
                     const isDropdown = Array.isArray(key);
                     return (
