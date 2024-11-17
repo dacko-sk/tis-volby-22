@@ -1,3 +1,4 @@
+import { elections } from '../api/constants';
 import { setTitle } from '../api/helpers';
 import { segments } from '../api/routes';
 
@@ -6,6 +7,7 @@ import { newsCategories } from './News';
 import Top15 from '../components/charts/Top15';
 import TotalSpending from '../components/general/TotalSpending';
 import Map from '../components/map/Map';
+import SiteNavigator from '../components/structure/SiteNavigator';
 import Title from '../components/structure/Title';
 import Posts, { templates } from '../components/wp/Posts';
 
@@ -19,6 +21,10 @@ function Home() {
                 <br />
                 voľby
             </Title>
+
+            <div id="search-container">
+                <SiteNavigator site={elections.s22} />
+            </div>
 
             <TotalSpending />
 

@@ -193,6 +193,14 @@ export const labels = {
     score: ['nezistené/netýka sa', 'áno', 'čiastočne', 'nie'],
     search: 'Vyhľadávanie',
     showMore: 'Zobraziť viac',
+    sites: {
+        root: 'Financovanie\npolitiky',
+        european: 'Európske\nvoľby',
+        national: 'Parlamentné\nvoľby',
+        president: 'Prezidentské\nvoľby',
+        regional: 'Samosprávne\nvoľby',
+    },
+    sitesTitle: 'Ktorú oblasť politiky chcete preskúmať?',
     type: 'Typ volieb',
     web: 'Volebný web',
 };
