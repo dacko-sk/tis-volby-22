@@ -48,7 +48,7 @@
       "babel-jest": "~29.6.2",
       "jest": "~29.6.2",
       "jest-watch-typeahead": "~2.2.2",
-      "postcss": "~8.4.31",
+      "postcss": "~8.4.49",
       "resolve-url-loader": "~5.0.0",
       "webpack": "~5.95.0",
       "webpack-dev-server": "~4.15.2",
