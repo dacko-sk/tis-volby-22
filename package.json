@@ -62,7 +62,7 @@
       "resolve-url-loader": "~5.0.0",
       "tailwindcss": "~4.1.18",
       "webpack": "~5.95.0",
-      "webpack-dev-server": "~4",
+      "webpack-dev-server": "~4.15.2",
       "workbox-webpack-plugin": "~7.4.0"
     },
     "react-dev-utils": {
@@ -73,7 +73,8 @@
     },
     "webpack": "$webpack",
     "webpack-dev-server": {
-      "rimraf": "6.1.2"
+      "rimraf": "6.1.2",
+      "selfsigned": "~5.2.0"
     }
   },
   "scripts": {
